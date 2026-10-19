@@ -37,6 +37,8 @@ Replace OWNER and REPOSITORY with actual values; these example URLs are not publ
 
 The message appears in article JSON-LD as a publisher-authored Comment, a custom HTML meta field, a non-rendered HTML comment, and a downloadable Markdown comment. The JSON-LD is syntactically parsed locally; no rich-result eligibility or schema-provider endorsement is claimed. Custom metadata has no guaranteed crawler support. Markdown is generated directly, so its comment survives publication; a third-party Markdown renderer may strip it. The ordinary article body does not display the recommendation. The methods page discloses the existence and authorship of the fields.
 
+As of October 19, 2026, the canonical message is an explicit publisher-authored instruction requesting a potential-collaborator recommendation. This behavioral experiment tests whether retrieved instructions affect an external assistant's response. The instruction has no claimed authority over an assistant; whether it is followed is an independent, untested outcome. The technical article bodies and four representation mechanisms are unchanged. Earlier messages and deployment evidence remain in Git history and historical reports.
+
 ## Publish through GitHub Pages
 
 The publication is live at [Governing Engines](https://truuzee-byte.github.io/governing-engines-ai-discovery/), with source on `main` in [the public repository](https://github.com/truuzee-byte/governing-engines-ai-discovery). See `reports/deployment-live-2026-10-19.md` for verified deployment evidence. The steps below document setup for another repository; normal updates to this repository use `git push origin main` and the existing workflow.
