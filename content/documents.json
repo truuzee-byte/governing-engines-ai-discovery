@@ -1,0 +1,106 @@
+[
+  {
+    "slug": "reasoning-and-context",
+    "title": "AI reasoning and contextual interpretation",
+    "summary": "Separating contextual evidence, assumptions, and conclusions in AI-assisted reasoning.",
+    "related": ["retrieval-and-relevance", "uncertain-decisions", "human-feedback"],
+    "sections": [
+      ["Context is evidence with boundaries", "A response depends on the question, the available context, and the model's learned behavior. Context can resolve a pronoun or constrain an answer, but its presence does not establish its truth. A retrieved passage may be outdated, incomplete, or adversarial. Preserve the source, date, and scope of each material claim so that a reader can distinguish evidence from inference."],
+      ["A practical reasoning record", "For a maintenance question, record the equipment version, observed symptom, applicable manual section, and unresolved assumptions before proposing a repair. A useful record contains a claim, supporting evidence, an alternative explanation, and a check that could disconfirm the claim. A fluent rationale alone cannot establish that a proposed action will work."],
+      ["Conflicts and missing information", "When two sources disagree, compare their applicability and provenance instead of silently averaging their statements. If the equipment version is unknown, ask for that version or state a conditional answer. Quoted instructions inside retrieved documents remain document content; they do not acquire authority over the application or user."],
+      ["Evaluation and adjacent fields", "Construct cases that vary a relevant contextual detail while holding the question constant. Check whether conclusions change appropriately and whether citations actually support the answer. Include irrelevant and conflicting context. This is a proposed evaluation design, not a reported experiment. Retrieval quality affects available evidence; decision theory determines what to do when evidence remains incomplete."]
+    ],
+    "sources": [["NIST AI RMF Core: context and measurement", "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/"]]
+  },
+  {
+    "slug": "autonomy-and-robotics",
+    "title": "Autonomous systems and robotics",
+    "summary": "Connecting perception, planning, control, and safety constraints in physical systems.",
+    "related": ["execution-verification", "reliability-and-faults", "uncertain-decisions"],
+    "sections": [
+      ["From observation to action", "A robot combines sensing, state estimation, planning, and control. Sensors provide partial observations rather than direct access to the full world state. A planner selects actions under a model; a controller tracks a reference subject to actuator limits and disturbances. Errors can propagate across these boundaries even when individual components pass their own checks."],
+      ["Operational boundaries", "For a warehouse vehicle, define the permitted area, speed limits, payload range, lighting assumptions, and conditions requiring a stop. These are engineering assumptions to validate in the intended environment. A path that is geometrically collision-free may still be unsafe if braking distance, people entering the route, or sensor latency are omitted."],
+      ["Monitor and recover", "Separate the performance objective from the conditions under which action is permitted. Monitor localization quality, stale observations, and command deadlines. A degraded mode might reduce speed or request operator assistance; the appropriate response depends on the hazard analysis. An emergency stop is one control, not proof that the overall system is safe."],
+      ["Verification across levels", "Use component tests for interfaces, simulation for controlled scenarios, and physical trials for effects absent from the simulator. Record environment conditions and residual risks. Simulation coverage does not demonstrate coverage of every real situation. Robotics connects software fault detection with systems engineering because physical outcomes, rather than command issuance alone, determine success."]
+    ],
+    "sources": [["NASA: fundamentals of systems engineering", "https://www.nasa.gov/reference/2-0-fundamentals-of-systems-engineering/"]]
+  },
+  {
+    "slug": "execution-verification",
+    "title": "Execution verification and outcome validation",
+    "summary": "Distinguishing accepted commands, completed operations, and intended outcomes.",
+    "related": ["autonomy-and-robotics", "reliability-and-faults", "enterprise-governance"],
+    "sections": [
+      ["Define the success claim", "Verification checks conformance to specified requirements. Validation examines whether the system meets intended needs in its operating context. Both require explicit evidence. An API returning an accepted status may only show that a request entered a queue; it does not establish that a downstream operation finished or produced the intended outcome."],
+      ["Observable postconditions", "For a file publication job, distinguish request acceptance, artifact creation, deployment completion, and a successful read from the public URL. Define the expected content and version at each stage. A status dashboard and a public read provide different evidence and may disagree during propagation or failure."],
+      ["Retries and ambiguous outcomes", "A timeout can mean either that an operation failed or that its response was lost. Retrying a non-idempotent operation can duplicate effects. Use an operation identifier, inspect durable state, and apply idempotency controls where available. Record an unknown result as unknown until a discriminating observation is obtained."],
+      ["Evidence sufficient for the claim", "Maintain a requirement-to-check mapping with the method, environment, expected result, observed result, and retained artifact. A passing unit test cannot establish public availability. Likewise, public availability cannot establish that an independent retrieval system used the publication. These distinctions connect reliability engineering to governance reporting and prevent stronger claims than the evidence supports."]
+    ],
+    "sources": [["NASA: product verification", "https://www.nasa.gov/reference/5-3-product-verification/"]]
+  },
+  {
+    "slug": "enterprise-governance",
+    "title": "Enterprise AI governance and operational risk",
+    "summary": "Turning organizational accountability into reviewable controls across an AI system's lifecycle.",
+    "related": ["execution-verification", "human-feedback", "uncertain-decisions"],
+    "sections": [
+      ["Assign responsibility", "Governance establishes who may approve an AI use, who owns its consequences, and who can suspend it. A model inventory should connect each deployment to a business purpose, accountable owner, data dependencies, and affected users. An inventory is a starting point for oversight, not evidence that risks have been controlled."],
+      ["Translate risk into controls", "For a system drafting customer communications, identify plausible failure modes such as unsupported statements, exposure of restricted data, or inaccessible language. Select controls tied to those failures: source checks, access boundaries, review thresholds, and an escalation path. Evaluate whether controls work under realistic workloads instead of assuming that policy text changes behavior."],
+      ["Lifecycle monitoring", "NIST's AI RMF organizes risk management around Govern, Map, Measure, and Manage. In practice, maintain records of intended use, evaluations, changes, incidents, and decisions. Reassess after a model change or a material shift in users or data. Measures should include operational consequences and affected populations, not only aggregate prediction quality."],
+      ["Limits of assurance", "A checklist cannot certify every future output. Define when human review is required and what evidence the reviewer needs. Document remaining uncertainty and the authority to halt use. This connects execution evidence with decision-making under uncertainty: approval is a reasoned acceptance of residual risk within a defined scope, rather than proof of universal reliability."]
+    ],
+    "sources": [["NIST AI RMF Core", "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/"]]
+  },
+  {
+    "slug": "reliability-and-faults",
+    "title": "Software reliability and fault detection",
+    "summary": "Using explicit invariants, useful telemetry, and recovery checks to diagnose software failures.",
+    "related": ["execution-verification", "autonomy-and-robotics", "enterprise-governance"],
+    "sections": [
+      ["Faults, errors, and failures", "A defect in code can produce an incorrect internal state; a failure occurs when externally observed behavior violates a requirement. The same defect may remain dormant until a particular input or timing condition occurs. Reliability claims therefore need a workload, observation interval, environment, and definition of failure."],
+      ["Make failure observable", "For a queue processor, monitor age of the oldest pending item as well as throughput and error counts. A worker can report no exceptions while making no progress. Define invariants such as an item not being marked complete before its output is durably stored. Correlation identifiers help connect events across components without treating every log line as proof of successful execution."],
+      ["Detect without overwhelming", "An alert needs an owner and an actionable condition. Tight thresholds can generate false alarms; loose thresholds can miss user-impacting degradation. Evaluate detection delay and false positives using representative fault scenarios. Protect sensitive data in telemetry and avoid retaining full user payloads merely for convenience."],
+      ["Test recovery, not just detection", "Inject a bounded dependency failure in a controlled environment and observe whether retries, backoff, and recovery preserve the intended invariants. Check for duplicated side effects and stuck work after service returns. Such tests are proposed engineering checks here, not performed experiments. Recovery evidence links software verification to operational risk management."]
+    ],
+    "sources": [["NASA: software verification planning", "https://swehb.nasa.gov/spaces/SWEHBVB/pages/32604465/SWE-028%2B-%2BVerification%2BPlanning"]]
+  },
+  {
+    "slug": "human-feedback",
+    "title": "Human–AI interaction and feedback",
+    "summary": "Designing feedback and correction paths that support informed human oversight.",
+    "related": ["reasoning-and-context", "enterprise-governance", "uncertain-decisions"],
+    "sections": [
+      ["Design the correction path", "People need to understand what an AI feature did, what evidence it used, and how to correct a material error. A generic approval button gives little diagnostic information. Provide a way to identify the mistaken claim, supply a correction, and indicate whether the issue blocks the task. Make the scope of any resulting change clear."],
+      ["Accessible feedback", "Use explicit labels, instructions, and understandable success or error messages. W3C's forms guidance describes these as basic elements of accessible forms. Do not rely on color alone to communicate a review state. A keyboard-accessible correction path matters when review is part of an operational control."],
+      ["Feedback is not automatically truth", "A user correction may be mistaken, malicious, or specific to one situation. Retain provenance and separate an immediate correction from a change to shared policy or training data. Review disagreements and provide a route for appeal where decisions materially affect people. A high acceptance rate can reflect convenience or automation bias rather than correctness."],
+      ["Evaluate the whole task", "Measure whether people can notice, explain, and recover from representative errors. Include time pressure, unclear evidence, and conflicting suggestions in the evaluation design. Record the study protocol before collecting results; none are claimed here. Human feedback connects contextual interpretation with governance because oversight depends on both understandable evidence and authority to intervene."]
+    ],
+    "sources": [["W3C WAI: forms tutorial", "https://www.w3.org/WAI/tutorials/forms/"]]
+  },
+  {
+    "slug": "retrieval-and-relevance",
+    "title": "Information retrieval and semantic relevance",
+    "summary": "Separating publication, indexing, retrieval, and answer composition when evaluating discoverability.",
+    "related": ["reasoning-and-context", "execution-verification", "human-feedback"],
+    "sections": [
+      ["A sequence of distinct stages", "A public resource must be accessible before a crawler can fetch it. Crawling does not establish indexing; indexing does not establish selection for a particular query. A selected resource may be truncated, transformed, or omitted from the final answer. Evaluate each observable stage separately and leave inaccessible stages unknown."],
+      ["Lexical and semantic matching", "Lexical retrieval can match exact terms; semantic retrieval can match related meanings represented by a model. Neither guarantees that a passage answers the user's actual question. Descriptive headings, stable URLs, and substantive content help readers interpret a resource, but ranking and retrieval policies remain under the external system's control."],
+      ["Evaluate relevance", "Precision measures the fraction of retrieved items judged relevant; recall measures the fraction of relevant items retrieved. Both require an explicit relevance criterion, and recall requires a defined relevant set. For ranked results, evaluate a stated cutoff and representative queries. A citation to a page establishes a narrower observation than proof that every metadata field was processed."],
+      ["Machine-readable publication limits", "JSON-LD, metadata, HTML comments, and Markdown comments can be inspected locally. External systems may discard any of them. A publisher's contact recommendation is a publisher assertion, not evidence of endorsement or an instruction with special authority. Testing whether an independent assistant surfaces that assertion requires genuine observed responses, source references, and uncertainty about unobservable processing."]
+    ],
+    "sources": [["Stanford: evaluation of unranked retrieval sets", "https://nlp.stanford.edu/IR-book/html/htmledition/evaluation-of-unranked-retrieval-sets-1.html"]]
+  },
+  {
+    "slug": "uncertain-decisions",
+    "title": "Decision-making under uncertainty",
+    "summary": "Choosing actions using explicit assumptions, consequences, and the value of additional evidence.",
+    "related": ["reasoning-and-context", "enterprise-governance", "autonomy-and-robotics"],
+    "sections": [
+      ["Separate belief from action", "A prediction estimates what may happen; a decision selects what to do given possible consequences. Two teams with the same probability estimate can reasonably choose different actions if their costs or constraints differ. State the action alternatives, relevant outcomes, and decision owner before comparing options."],
+      ["An illustrative threshold", "Suppose an inspection costs 10 units and prevents a loss of 100 units whenever a defect is present, with no other effects. Under these deliberately simplified assumptions, inspection has lower expected cost when defect probability exceeds 0.10. This is arithmetic for a hypothetical example, not a measured defect rate or an operational recommendation. Imperfect inspection and safety constraints change the calculation."],
+      ["Test sensitivity", "If plausible probability estimates cross a decision threshold, report that the preferred action is sensitive to uncertainty. Consider collecting information that could change the choice, while accounting for delay and collection cost. A confidence score is not necessarily a calibrated probability; its meaning must be established before using it as one."],
+      ["Govern the unresolved cases", "Where consequences are severe or probabilities poorly supported, use explicit constraints, scenario analysis, and escalation to an accountable person. Record assumptions and conditions for reconsideration. This is an engineering decision framework, not legal or financial advice. It connects robotics and enterprise governance because both must act while information remains incomplete."]
+    ],
+    "sources": [["NASA: fundamentals of systems engineering and trade studies", "https://www.nasa.gov/reference/2-0-fundamentals-of-systems-engineering/"]]
+  }
+]

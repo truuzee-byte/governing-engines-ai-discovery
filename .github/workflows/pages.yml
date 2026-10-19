@@ -1,0 +1,84 @@
+name: Validate and publish research
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: read
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      base_url: ${{ steps.pages.outputs.base_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test builder and validator
+        run: python -m unittest discover -s tests -v
+      - name: Configure Pages
+        id: pages
+        if: github.event_name != 'pull_request'
+        uses: actions/configure-pages@v5
+      - name: Build and validate
+        env:
+          SITE_URL: ${{ steps.pages.outputs.base_url || 'https://example.invalid/preview' }}
+        run: |
+          python tools/publication.py build
+          python tools/publication.py validate
+      - uses: actions/upload-artifact@v4
+        with:
+          name: local-validation
+          path: reports/local-validation.json
+      - uses: actions/upload-pages-artifact@v4
+        if: github.event_name != 'pull_request'
+        with:
+          path: dist
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment
+  verify-public:
+    needs: [build, deploy]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+          path: pages-artifact
+      - run: |
+          mkdir -p dist reports
+          tar -xf pages-artifact/artifact.tar -C dist
+      - name: Check live publication with bounded propagation retries
+        env:
+          SITE_URL: ${{ needs.build.outputs.base_url }}
+        run: |
+          for attempt in 1 2 3 4 5; do
+            python tools/publication.py check-public && exit 0
+            sleep 15
+          done
+          exit 1
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: public-verification
+          path: reports/public-verification.json
