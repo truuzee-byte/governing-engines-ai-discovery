@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-10-19T20:48:19.939229+00:00",
+  "status": "PASS",
+  "responses": [
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/",
+      "status": 200,
+      "sha256": "7d8e8e32c4460572d17aade530ff26ef880299e241ab858ee8c8f08d5b4faf31",
+      "matches_local": true
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/assets/style.css",
+      "status": 200,
+      "sha256": "5c304c5820a36d2e47d1f3a67b010c60a5888624c5c85cafd80aa27b5f9e600b",
+      "matches_local": true
+    }
+  ]
+}

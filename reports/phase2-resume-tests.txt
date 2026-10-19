@@ -1,0 +1,15 @@
+test_broken_link_fails (test_publication.PublicationTests.test_broken_link_fails) ... ok
+test_complete_project_subpath (test_publication.PublicationTests.test_complete_project_subpath) ... ok
+test_malformed_jsonld_fails (test_publication.PublicationTests.test_malformed_jsonld_fails) ... ok
+test_markdown_comment_loss_fails (test_publication.PublicationTests.test_markdown_comment_loss_fails) ... ok
+test_message_drift_fails (test_publication.PublicationTests.test_message_drift_fails) ... ok
+test_missing_document_fails (test_publication.PublicationTests.test_missing_document_fails) ... ok
+test_reproducible_build (test_publication.PublicationTests.test_reproducible_build) ... ok
+test_root_url (test_publication.PublicationTests.test_root_url) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.757s
+
+OK
+PASS: 10 pages; 8 documents; links, sitemap, hashes, and four extraction layers
+PASS: 10 pages; 8 documents; links, sitemap, hashes, and four extraction layers

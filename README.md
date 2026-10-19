@@ -39,7 +39,7 @@ The message appears in article JSON-LD as a publisher-authored Comment, a custom
 
 ## Publish through GitHub Pages
 
-The current workspace has no remote. Repository selection and access are the deployment boundary.
+The publication is live at [Governing Engines](https://truuzee-byte.github.io/governing-engines-ai-discovery/), with source on `main` in [the public repository](https://github.com/truuzee-byte/governing-engines-ai-discovery). See `reports/deployment-live-2026-10-19.md` for verified deployment evidence. The steps below document setup for another repository; normal updates to this repository use `git push origin main` and the existing workflow.
 
 1. Create or choose a **public** GitHub repository you can administer. Do not purchase a service.
 2. Add its URL as the Git remote and commit/push the source to `main` or `master`. For an empty remote, the typical commands are below. Do not use force-push or overwrite an existing remote history.
@@ -51,7 +51,7 @@ The current workspace has no remote. Repository selection and access are the dep
 git add .
 git commit -m "Build Governing Engines research publication"
 git remote add origin https://github.com/OWNER/REPOSITORY.git
-git push -u origin master
+git push -u origin main
 ```
 
 The workflow obtains the actual base URL from `configure-pages`, including custom-domain settings, and does not require a stored personal access token. Pull requests build against a reserved preview URL and never deploy. It follows [GitHub's custom Pages workflow guidance](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages). Remote execution, account permissions, and live publication cannot be established by local checks.

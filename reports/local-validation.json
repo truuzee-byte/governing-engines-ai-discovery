@@ -2,7 +2,7 @@
   "status": "PASS",
   "pages": 10,
   "documents": 8,
-  "base_url": "http://localhost:8000",
+  "base_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery",
   "extraction": [
     {
       "slug": "reasoning-and-context",
@@ -79,5 +79,5 @@
   ],
   "public_deployment": "UNVERIFIED",
   "external_discovery": "NOT TESTED",
-  "checked_at": "2026-10-19T20:30:44.411045+00:00"
+  "checked_at": "2026-10-19T20:46:40.037506+00:00"
 }
