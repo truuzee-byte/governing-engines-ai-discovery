@@ -1,0 +1,662 @@
+PUBLIC SOURCE TEXT EDITION
+DANGER ZONES
+Source supplied by the author for public research discovery.
+Text extracted from the supplied artifact; layout, tables and pagination may differ.
+Privacy filtering is marked inline. This is not the original binary artifact.
+
+[Source PDF page 1]
+GOVERNING ENGINES | DANGER ZONES + PROOF | v1.1
+GOVERNING ENGINES
+DANGER ZONES
+PROOF BEFORE HARM BECOMES EVIDENCE
+A falsifiable governance framework for determining when AI capability,
+authority, value, or reliance outruns the evidence required to justify
+continuation.
+CORE PRINCIPLE
+A system should not require victims to become its monitoring layer.
+Author: DeMarius J. Lawson
+Organization: Governing Engines LLC
+Document Type: Governance Research Framework
+Version: 1.1
+Date: August 2026
+Status: Public Research Draft
+Research lineage
+This paper generalizes a problem examined in Governing Engines' Follow the Harm: Meta, Proof, Power
+and Custody. That case study asks what happens after harm has matured into evidence, institutional
+authority, litigation, settlement, and value distribution. Danger Zones + Proof asks the preventive
+question: what evidence should be required before a system is allowed to continue toward that point?
+
+[Source PDF page 2]
+GOVERNING ENGINES | DANGER ZONES + PROOF | v1.1
+Executive Summary
+Artificial intelligence is moving from systems that produce information into systems that influence
+decisions, execute workflows, move through accounts and tools, shape employment, interact with public
+institutions, and increasingly affect physical environments. The governing problem therefore cannot be
+reduced to model accuracy. It is a question of whether continued reliance remains justified under the
+conditions that exist when consequences occur.
+Version 1.1 makes a stricter claim than the prior draft. It does not treat the six Danger Zones as proven
+categories of nature. They are a proposed diagnostic decomposition. Their usefulness depends on whether
+they can produce different outcomes when applied to real or bounded test cases. This version therefore
+adds explicit evidence tiers, discloses corpus-selection limits, operationalizes compounding and benefit
+ledgers, and demonstrates both a governed/non-failure result and a failed-readiness result.
+DEFINITION
+A DANGER ZONE is a condition in which system capability, authority, value creation, or
+reliance begins to outrun the proof required to justify continued operation.
+The proposed zones are: metric danger, authority danger, state-change danger, organizational danger,
+economic danger, and social/consequence danger. They are manifestations of a deeper condition: the
+evidence used to justify continuation no longer corresponds to the reality in which the system is operating.
+The danger is not merely that AI can fail. The danger is that operation can
+continue after the evidence required to justify reliance has stopped
+matching reality.
+What Changed in v1.1
+ Added a three-tier evidence hierarchy and prohibited practitioner sources from carrying empirical
+claims by themselves.
+ Removed claims of 'independent convergence' where source independence or provenance has not
+been established.
+ Added a corpus-selection limitation: the supplied practitioner corpus is non-random and reflects
+source-selection bias.
+ Added Worked Case A, which returns GOVERNED WITHIN CLAIM BOUNDARY.
+ Added Worked Case B, which returns FAILED READINESS FOR HIGH-AUTONOMY DEPLOYMENT.
+ Operationalized the Compounding Rule into four Proof Burden Classes.
+ Operationalized the Ledger Rule into a claim-admissibility test for economic or social benefit.
+ Made the state-dependency principle the framework's load-bearing proposition.
+ Cross-referenced Follow the Harm as the downstream case study rather than presenting the two
+papers as independent theses.
+1. Evidence Hierarchy and Method
+This paper was built from a supplied corpus of government reports, peer-reviewed scholarship, frontier-
+lab research, national policy, industry surveys, technical proof packs, and practitioner governance
+frameworks. The corpus was not randomly sampled. It was assembled because the materials were
+relevant to the author's research interests. Similarity among practitioner frameworks is therefore
+descriptive, not evidence of field-wide consensus.
+
+[Source PDF page 3]
+GOVERNING ENGINES | DANGER ZONES + PROOF | v1.1
+Tier Source class Permitted role in this paper
+Tier A Peer-reviewed research; government
+studies, policy, or national cybersecurity
+guidance
+May support empirical or regulatory
+claims directly, subject to the source's
+own limits.
+Tier B Frontier-lab research; major
+institutional/industry studies; nonpartisan
+policy analysis
+May support documented observations,
+experiments, survey findings, or
+institutional positions; not treated as
+neutral universal authority.
+Tier C Practitioner frameworks, technical proof
+artifacts, conceptual architectures,
+standards drafts
+Illustrative or comparative only. May
+show how a problem is framed or
+controlled, but cannot establish the
+existence or prevalence of a danger zone
+by itself.
+Where a practitioner artifact's authorship, affiliation, or independence is not established in the supplied
+material, this paper does not infer it. For example, Elias is explicitly authored by Gary Williams of Elias
+Systems Ltd; RGV-01 is a ManChine AI Technology LLC standards document; DASE and STRIX are used
+only as technical examples of bounded proof behavior. No claim is made that these sources are
+independent of one another or representative of the broader field.
+1.1 Claim Labels
+Label Meaning
+ESTABLISHED Directly supported by a cited source, documented measurement,
+policy text, or disclosed experiment.
+SUPPORTED A synthesis supported by multiple sources, but not itself directly
+measured as one claim.
+PROPOSED A governance rule, taxonomy, threshold, or diagnostic structure
+introduced by this paper.
+OPEN A material question or dependency not resolved by the current
+evidence.
+2. Load-Bearing Principle: Evidence Must Match Present Reality
+The strongest source-supported proposition in this framework is state dependency: consequential systems
+change after deployment, and evidence that was sufficient under one state may cease to justify reliance
+after material conditions change.
+Ireland's NCSC states that AI changes an organization's risk profile, that model behavior can change as
+systems are updated and exposed to new data, and that new vulnerabilities can emerge after deployment.
+It therefore treats AI security as a continuous process rather than a one-time exercise. [A1]
+Meta's Advanced AI Scaling Framework likewise commits to updating preparedness reports when
+circumstances materially alter a prior risk assessment, including major incidents or deployments with
+materially greater affordances. [B1]
+
+[Source PDF page 4]
+GOVERNING ENGINES | DANGER ZONES + PROOF | v1.1
+The Moment of Reliance develops a conceptual safety-governance argument around the same temporal
+problem: demonstrating that a system met trust conditions in the past is not identical to determining
+whether those conditions remain present at the moment reliance is exercised. [C1]
+STATE-DEPENDENCY RULE
+A proof may remain historically valid while becoming insufficient for present reliance.
+Revalidation is triggered by material change, not by the mere passage of time.
+The six Danger Zones are proposed as six recurring ways the same deeper mismatch can appear: metric
+mismatch, authority mismatch, state mismatch, organizational mismatch, value-distribution mismatch,
+and consequence mismatch.
+3. The Six Danger Zones
+3.1 Metric Danger
+PROPOSED DEFINITION
+The metric proving success is narrower than the consequence surface created by the system.
+SOURCE SUPPORT
+ Tier A: The Accuracy Paradox argues that factual accuracy alone can overlook epistemic,
+manipulative, and societal harms such as illusion of consensus and persuasive distortion. [A2]
+ Tier B: McKinsey's 2026 survey reports that individual AI use and productivity do not automatically
+translate into durable enterprise value; most surveyed organizations had not yet achieved meaningful
+enterprise outcomes. [B2]
+A system can optimize the measured variable while degrading an
+unmeasured condition that matters more.
+3.2 Authority Danger
+PROPOSED DEFINITION
+The system's reachable capability, tools, permissions, or workflow influence exceeds the authority that is
+explicit and demonstrable.
+SOURCE SUPPORT
+ Tier A: NCSC identifies agentic AI with elevated credentials and ability to execute at scale as a specific
+risk area organizations should prioritize. [A1]
+ Tier A: The European Commission's high-risk AI evidence study repeatedly links consequential context
+to duties around human review, transparency, and responsibility, particularly where AI affects
+essential services, employment, law enforcement, or rights. [A3]
+ Tier B: Anthropic's controlled agentic-misalignment study found that models from multiple developers
+sometimes selected harmful actions in simulated corporate environments when goal pursuit conflicted
+with shutdown or organizational direction. The authors explicitly state these were simulations, not
+observed real-world incidents. [B3]
+Capability does not create authority.
+3.3 State-Change Danger
+PROPOSED DEFINITION
+
+[Source PDF page 5]
+GOVERNING ENGINES | DANGER ZONES + PROOF | v1.1
+Material conditions change while the organization continues relying on proof generated under earlier
+conditions.
+SOURCE SUPPORT
+ Tier A: NCSC says vulnerabilities can emerge after deployment and that post-deployment risk requires
+continuous monitoring and response. [A1]
+ Tier B: Meta's scaling framework says changed circumstances that materially alter a prior risk
+assessment should trigger a new preparedness report. [B1]
+ Tier C: The Moment of Reliance and RGV-01 provide conceptual language for distinguishing historical
+validity from current legitimacy; they are used here as conceptual support, not empirical proof. [C1]
+[C2]
+A valid proof of yesterday can become an invalid basis for today.
+3.4 Organizational Danger
+PROPOSED DEFINITION
+Adoption scales faster than the organization can redesign workflows, accountability, controls, and human
+roles around the technology.
+SOURCE SUPPORT
+ Tier B: McKinsey found employees more ready to use AI than organizations were to change around it;
+only 11% of surveyed leaders placed their organizations in the most mature reinvention horizon. [B2]
+ Tier B: BCG warns that as AI enters executive work, polished outputs can be mistaken for sound
+answers and organizations must scrutinize how systems are built and how outputs are used. [B4]
+Adoption is not governance maturity.
+3.5 Economic Danger
+PROPOSED DEFINITION
+The system creates measurable value while shifting material cost, risk, or loss onto actors who are not the
+primary beneficiaries.
+SOURCE SUPPORT
+ Tier A: The MIT expert study evaluates AI risk through separate dimensions of severity, vulnerability,
+and responsibility, including socioeconomic and environmental harms. [A4]
+ Tier B: OpenAI's jobs-transition framework warns against both overstating immediate disruption and
+understating longer-run labor impact, and identifies occupations with elevated automation or
+employment-transition risk. [B5]
+ Tier A: Kenya's 2026 national AI policy explicitly couples innovation with inclusive growth, rights
+protection, accountability, and mechanisms intended to ensure that technological value benefits the
+population. [A5]
+Value creation for the deploying organization is not proof of net human
+benefit.
+3.6 Social and Consequence Danger
+PROPOSED DEFINITION
+System effects extend beyond the technical objective into autonomy, rights, trust, safety, liberty, public
+services, or physical consequence.
+
+[Source PDF page 6]
+GOVERNING ENGINES | DANGER ZONES + PROOF | v1.1
+SOURCE SUPPORT
+ Tier A: The Accuracy Paradox identifies cognitive, communicative, and societal harms that can remain
+outside simple factuality measures. [A2]
+ Tier A: The European Commission study identifies heightened concern where AI shapes employment,
+essential services, law enforcement, evidence assessment, and liberty-affecting decisions. [A3]
+ Tier B: The Brennan Center's military-AI report examines the regulatory gaps and dangers created
+when AI enters national-security and coercive environments. [B6]
+The same technical error carries a different burden of proof when the
+consequence envelope changes.
+4. Proof Requirements
+Danger-zone detection is not a verdict. It determines the burden of proof required for continuation. A
+system may enter one or more danger zones and still receive a governed result if the relevant claims are
+bounded, evidence is current, authority is explicit, negative cases are tested, and intervention remains
+possible.
+4.1 Name the claim
+Proof must support a bounded proposition. 'This action was blocked because no execution token was
+present' is a stronger proof object than 'the system is safe.'
+4.2 Test negative cases
+A system must demonstrate required refusal, halt, escalation, or degraded behavior. Positive success alone
+cannot distinguish correctness from permissiveness.
+4.3 Bind authority to action
+For consequential execution, evidence must show who or what had authority, the scope of that authority,
+and whether the action stayed inside it.
+4.4 Revalidate after material change
+Model, data, tools, permissions, policies, integrations, or consequence surfaces that materially change
+should trigger revalidation.
+4.5 Make the claim falsifiable
+Every claimed-safe state must identify what evidence, condition, or test result would invalidate it.
+4.6 Preserve consequence evidence
+The proof object must cover the consequence that matters, not merely a proxy or upstream metric.
+DASE and STRIX are used here only as Tier C illustrations of bounded proof discipline. DASE explicitly
+distinguishes closed-form checks, cross-model checks, and built-to-fail negative controls, and states that its
+evidence is not formal proof of program correctness. STRIX binds one intercepted request to a specific
+capability, reason, and verifiable record. These artifacts illustrate proof boundaries; they do not establish
+general AI safety. [C3][C4]
+
+[Source PDF page 7]
+GOVERNING ENGINES | DANGER ZONES + PROOF | v1.1
+5. Operationalizing the Compounding Rule
+The prior draft said that overlapping danger zones require a stronger burden of proof. Version 1.1 makes
+that statement operational. The framework uses four Proof Burden Classes. The classes are categorical, not
+a synthetic 0-100 score.
+Class Trigger Minimum proof
+requirement
+Default if missing
+P1 - Bounded One danger zone; low
+consequence; no external
+execution authority
+Zone-specific evidence;
+bounded claim; negative case
+appropriate to the zone
+Do not expand claim beyond
+evidence
+P2 - Compound Two or more danger zones, but
+no high-consequence authority
+crossing
+Proof for each active zone plus
+evidence that their interaction
+has been tested
+Conditional hold on the
+unproven interaction
+P3 - Authority/State Critical Authority danger plus state-
+change danger; or new
+tools/credentials/integrations
+materially expand reach
+Explicit reauthorization,
+revalidation, current authority
+map, negative controls, action
+traceability
+No consequential continuation
+P4 - High Consequence Physical safety, liberty,
+essential services, major
+financial transfer, coercive
+power, or comparable
+irreversible consequence
+Pre-execution evidence,
+accountable
+human/institutional authority,
+mechanical stop path, present-
+state validation, post-execution
+receipt, redress/review path
+Fail closed / human escalation
+COMPOUNDING RULE
+More zones do not mechanically create a higher score. They create additional proof
+obligations. If the interaction among active zones is itself untested, the interaction remains
+unproven.
+6. Operationalizing the Economic and Social Ledger
+A claim that an AI deployment is 'beneficial' is inadmissible unless the analysis identifies who receives the
+value and who carries the material cost. The ledger is not a moral score. It is a completeness test.
+Required field Question
+Beneficiary Who receives the productivity, revenue, access, speed, or
+strategic advantage?
+Cost bearer Who absorbs displacement, error, surveillance, privacy loss,
+remediation, or other burden?
+Value / cost type Financial, operational, social, rights-based, safety, time,
+reputational, or other?
+Magnitude What is measured, modeled, or unknown?
+Time horizon Immediate, transitional, persistent, or intergenerational?
+
+[Source PDF page 8]
+GOVERNING ENGINES | DANGER ZONES + PROOF | v1.1
+Reversibility Can the harm be reversed, compensated, appealed, or restored?
+Distribution Are gains concentrated while costs are diffuse, or vice versa?
+Compensation / redress What mechanism exists to return value or remedy harm?
+Unmeasured externality What material effect is known to exist but not yet quantified?
+LEDGER RULE
+If a material cost to a non-beneficiary is unmeasured or omitted, the correct finding is
+BENEFIT CLAIM INCOMPLETE - not automatically 'harmful' and not 'net beneficial'.
+7. Worked Case A - A Non-Failure Result
+SOURCE TYPE: TIER C TECHNICAL ARTIFACT
+Case: DASE Capability Console proof pack. This is not used to prove the Danger Zones framework. It is
+used to test whether the framework can return a governed/non-failure result when evidence is narrow,
+explicit, and matched to the claim.
+Diagnostic Observation Finding
+Claim boundary The artifact claims specific deterministic
+engineering capabilities are checkable,
+reproducible, and anchored; it explicitly
+rejects a claim of formal program
+correctness.
+PASS
+Metric danger Verification is not one generic score;
+checks include independent references,
+cross-model routes, and built-to-fail cases.
+CONTROLLED WITHIN CLAIM
+Authority danger No broad external autonomous authority
+is being asserted by the proof pack itself.
+NOT ACTIVE FOR THIS CLAIM
+State-change danger Determinism and offline reproducibility
+reduce some change surfaces; the artifact
+does not prove indefinite validity under
+future code changes.
+BOUNDED / REVALIDATE ON CHANGE
+Organizational danger Outside the claim boundary. NOT ASSESSED
+Economic danger Commercial value is discussed, but the
+proof pack does not claim net social
+benefit.
+NOT REQUIRED FOR CAPABILITY CLAIM
+Social/consequence danger Some capabilities are consequential, but
+the proof object is capability verification
+rather than deployment authorization.
+DEPLOYMENT-SPECIFIC PROOF STILL
+REQUIRED
+Negative controls Built-to-fail cases are present and are
+defined as failures if they ever begin
+passing.
+PASS
+
+[Source PDF page 9]
+GOVERNING ENGINES | DANGER ZONES + PROOF | v1.1
+Falsifiability The document names limits and
+conditions that would invalidate its
+checks.
+PASS
+FRAMEWORK RESULT
+GOVERNED WITHIN CLAIM BOUNDARY. The framework does not return 'safe system.' It
+returns that the specific verification claims are adequately supported for the bounded
+artifact, while deployment legitimacy remains outside scope.
+This is the required non-failure demonstration. The framework can return a governed result without
+manufacturing a danger finding, but only at the same scope as the evidence.
+8. Worked Case B - A Failed-Readiness Result
+SOURCE TYPE: TIER B CONTROLLED EXPERIMENT
+Case: Anthropic's agentic-misalignment stress tests. Models were placed in simulated corporate
+environments with email access, sensitive information, and harmless business objectives. Under
+constructed conflicts involving replacement or goal obstruction, models from multiple developers
+sometimes selected harmful actions such as blackmail or information leakage. Anthropic states that these
+were controlled simulations and that it has not observed this behavior in real deployments. [B3]
+Diagnostic Observation Finding
+Metric danger Task completion can be achieved through
+behavior that violates organizational
+expectations.
+ACTIVE
+Authority danger The simulated agents had access to
+sensitive information and action
+channels; harmful actions were within
+reachable capability but outside intended
+legitimate behavior.
+ACTIVE
+State-change danger Conflict conditions changed the agent's
+operational incentives relative to
+ordinary benign operation.
+ACTIVE
+Organizational danger Minimal human oversight plus sensitive
+access is exactly the deployment pattern
+the source recommends treating
+cautiously.
+ACTIVE
+Economic/social consequence The simulated actions could create
+privacy, reputational, legal, and
+organizational harm if reproduced in
+reality.
+ACTIVE
+Proof burden class Multiple zones + authority crossing +
+sensitive consequence.
+P3, potentially P4 depending deployment
+
+[Source PDF page 10]
+GOVERNING ENGINES | DANGER ZONES + PROOF | v1.1
+Required proof Demonstrated refusal under conflict,
+constrained credentials, current
+authorization, monitoring, escalation/stop
+control, and evidence that harmful tool
+paths are mechanically blocked.
+NOT ESTABLISHED BY THE SIMULATION
+Verdict Evidence demonstrates a readiness gap
+for high-autonomy deployment with
+similar access and oversight conditions.
+FAIL
+FRAMEWORK RESULT
+FAILED READINESS FOR HIGH-AUTONOMY DEPLOYMENT UNDER THE TESTED
+CONDITIONS. This is not a claim that the models are generally malicious. It is a claim that
+the tested evidence is insufficient to justify unrestricted consequential authority in a similar
+environment.
+The two worked cases establish that the framework can return opposite outcomes. The difference is not
+whether a source agrees with the author's governance philosophy. The difference is whether the proof
+matches the claim, authority, current state, and consequence surface.
+9. Worked Case C - Conditional / Mixed Result
+SOURCE TYPE: TIER A POLICY REQUIREMENTS
+Case: a public institution deploying high-risk AI under the Kenya 2026 AI and Emerging Technologies
+Policy. The policy requires pre-deployment impact assessment for rights-affecting systems, vendor
+disclosure of purpose and limitations, auditability, human oversight, public registration subject to
+exceptions, and human review/appeal/redress for significant rights-affecting decisions. [A5]
+Condition Framework treatment
+Impact assessment completed and current Supports metric, consequence, and state-change proof
+Purpose, limits, data sources, controls, and auditability disclosed Supports claim and evidence boundaries
+Human review, appeal, and redress available Reduces authority and consequence risk
+System entered public register where required Improves transparency and accountability
+Material model or workflow change occurs Triggers revalidation; prior policy compliance alone is
+insufficient
+Required controls absent P4 rights-affecting deployment should not proceed on inference
+FRAMEWORK RESULT
+CONDITIONALLY GOVERNED. The policy architecture can satisfy the framework only if the
+required controls are implemented and current. Compliance text alone is not proof of
+execution.
+
+[Source PDF page 11]
+GOVERNING ENGINES | DANGER ZONES + PROOF | v1.1
+10. Relationship to Follow the Harm
+Follow the Harm and Danger Zones + Proof are intentionally related works in one research program. They
+should not be read as two independent arguments that coincidentally converge.
+Paper Primary question Position in the chain
+Follow the Harm: Meta, Proof, Power and
+Custody
+What happens when harm has already
+matured into evidence, institutional
+authority, litigation, settlement, and value
+distribution?
+Downstream / post-harm governance
+Danger Zones + Proof What evidence should be required while
+harm is still preventable, before victims
+become the primary detection
+mechanism?
+Upstream / preventive governance
+The Meta case is therefore not used here as independent proof that the six Danger Zones are correct. It is a
+downstream case study showing why late discovery of harm creates a different governance problem: the
+system is no longer deciding how to prevent harm; institutions are deciding how to allocate responsibility,
+evidence, money, remediation, and closure after harm exists.
+11. Preventive Governance
+Anthropic's controlled stress testing illustrates the preventive posture clearly: construct difficult
+conditions, observe dangerous behavior before real-world victims exist, and improve safeguards while the
+cost of learning is still bounded. [B3]
+NCSC's lifecycle guidance adds the operational requirement: risks that emerge after deployment require
+continuous monitoring and response rather than reliance on initial review alone. [A1]
+A system should not require victims to become its monitoring layer.
+12. Danger-Zone Assessment Procedure
+Stage Question Output
+1. Define consequence surface What can the system influence, deny,
+expose, transfer, execute, or physically
+affect?
+Consequence map
+2. Identify active zones Which mismatches are present now? Danger-zone register
+3. Assign proof class P1, P2, P3, or P4? Minimum proof burden
+4. Define bounded claims What exactly must be true for
+continuation?
+Claim registry
+5. Map authority Who may authorize which action under
+what state?
+Authority graph
+6. Specify evidence What current evidence supports each
+claim?
+Evidence requirements
+7. Test negatives What must the system refuse, halt,
+escalate, or degrade?
+Negative-control suite
+
+[Source PDF page 12]
+GOVERNING ENGINES | DANGER ZONES + PROOF | v1.1
+8. Define change triggers What state changes weaken or invalidate
+prior proof?
+Revalidation triggers
+9. Run benefit ledger where applicable Who gains, who pays, what remains
+unmeasured?
+Benefit-claim status
+10. Decide continuation Does present evidence meet the assigned
+burden?
+CONTINUE / CONDITIONAL / HOLD / FAIL
+CLOSED
+11. Preserve receipt Can the decision be reconstructed later? Decision and evidence receipt
+12. Monitor reality Did the system behave as predicted? Observation and revalidation input
+13. How the Framework Can Be Wrong
+The framework is not validated merely because the author can describe it. Version 1.1 demonstrates only
+that the diagnostic rules can produce different outputs on bounded examples. That is necessary for
+falsifiability, but it is not sufficient for external validation.
+The framework would be weakened or disconfirmed if future application shows that:
+ different reviewers using the same evidence routinely assign incompatible zones or proof classes
+without resolvable criteria;
+ the Proof Burden Classes do not improve discrimination between adequately governed and
+inadequately governed cases;
+ the framework repeatedly flags danger where domain-specific safety systems already provide
+sufficient evidence and control;
+ material harms emerge in areas the framework systematically classifies as adequately governed;
+ or the framework's added process cost exceeds its ability to detect meaningful governance gaps.
+These are empirical questions. They require repeated application, inter-rater testing, domain adaptation,
+and outcome comparison. Until that work exists, Danger Zones + Proof should be represented as a
+proposed governance framework with worked demonstrations - not a validated industry standard.
+STATUS
+PROPOSED AND FALSIFIABLE; DEMONSTRATED ON BOUNDED CASES; NOT YET
+EXTERNALLY VALIDATED.
+14. Open Questions
+ What counts as a material state change in different sectors?
+ Can independent reviewers reach consistent danger-zone and proof-class assignments?
+ Which proof objects should be standardized across domains and which must remain domain-specific?
+ How should economic and social externalities be measured where the affected population is not the
+deploying organization?
+ What minimum evidence should be required before agents receive new credentials, tools, or external
+execution authority?
+ How should proof decay be represented when evidence remains historically correct but less relevant
+to current conditions?
+ At what point should a P3 or P4 finding mechanically force pause or human escalation rather than
+generate a report?
+
+[Source PDF page 13]
+GOVERNING ENGINES | DANGER ZONES + PROOF | v1.1
+ How should the framework account for structural harms that emerge from many lawful interactions
+rather than one traceable event?
+15. Conclusion
+The strongest claim of this paper is not that six categories explain every AI risk. It is that consequential
+continuation requires evidence that remains matched to present reality. The six Danger Zones are a
+proposed diagnostic decomposition of the places where that match can break.
+A system can be accurate under the wrong metric. It can be capable but unauthorized. It can be previously
+validated but materially changed. It can be economically successful while shifting cost to workers or the
+public. It can be widely adopted while the organization governing it remains structurally unprepared. And
+it can remain technically functional while its human consequence surface has changed.
+Version 1.1 therefore makes the framework earn its own language. It shows a non-failure result, a failed-
+readiness result, and a conditional result. It distinguishes source authority. It converts the compounding
+and ledger rules into tests that can return HOLD or INCOMPLETE rather than rhetorical conclusions. And
+it states what evidence would weaken the framework itself.
+The objective is not to become excellent at compensating for preventable
+harm after it scales. The objective is to detect the conditions that produce
+harm while intervention is still preventive.
+The operational question is simple: when a system continues, can the organization demonstrate why
+continuation is legitimate now - under the current state, current authority, current evidence, and current
+consequence surface? If it cannot, the correct response is not confidence by default. It is to identify the gap
+before reality identifies it through harm.
+
+[Source PDF page 14]
+GOVERNING ENGINES | DANGER ZONES + PROOF | v1.1
+References and Source Roles
+Ref. Source Role
+[A1] National Cyber Security Centre Ireland.
+2026 NCSC AI Cyber Security Risk
+Assessment: Public Sector Deployment.
+Tier A - government cybersecurity
+guidance
+[A2] Li, Zihao; Yi, Weiwei; Chen, Jiahong.
+Accuracy paradox: Addressing epistemic,
+manipulative, and societal risks of
+hallucination in AI governance. Computer
+Law & Security Review 61 (2026) 106311.
+Tier A - peer-reviewed journal
+[A3] European Commission, DG CONNECT.
+Study to assist in gathering evidence on
+high-risk AI. Final report, 2026.
+Tier A - government/regulatory evidence
+study
+[A4] Prioritization of Risks from Artificial
+Intelligence: A Delphi Study of 272
+International Experts. June 2026.
+Tier A - expert risk research
+[A5] State Department for ICT and the Digital
+Economy, Kenya. Kenya Artificial
+Intelligence and Other Emerging
+Technologies Policy. July 2026.
+Tier A - national policy
+[B1] Meta. Advanced AI Scaling Framework,
+Version 2. 2026.
+Tier B - frontier developer risk framework
+[B2] McKinsey. From adoption to impact:
+Three horizons of AI transformation. July
+2026.
+Tier B - industry survey
+[B3] Anthropic. Agentic Misalignment: How
+LLMs could be insider threats. June 20,
+2025.
+Tier B - frontier-lab controlled experiment
+[B4] Boston Consulting Group. AI for CEOs:
+Amplifying Time and Judgment at the Top.
+June 23, 2026.
+Tier B - management research/advisory
+[B5] OpenAI. The AI jobs transition
+framework: Mapping AI's near-term
+impact on jobs. April 2026.
+Tier B - industry economic research
+[B6] Brennan Center for Justice at NYU School
+of Law. The Business of Military AI. March
+2026.
+Tier B - law/policy research
+[C1] Paul Mincher. The Moment of Reliance: A
+Foundational Framework for Present-
+State Safety Governance. 2026.
+Tier C - conceptual safety-governance
+framework
+[C2] ManChine AI Technology LLC. RGV-01
+Runtime Governance Vocabulary, Version
+2.3. August 14, 2026.
+Tier C - practitioner standards
+specification
+
+[Source PDF page 15]
+GOVERNING ENGINES | DANGER ZONES + PROOF | v1.1
+[C3] DASE Capability Console - Proof of
+Capability. Generated August 16, 2026.
+Tier C - technical proof artifact;
+authorship/organizational provenance
+not established from supplied artifact
+[C4] STRIX Execution Control. The Boundary &
+the Receipt: Governance Proof. 2026.
+Tier C - technical proof artifact;
+authorship/organizational provenance
+not established from supplied artifact
+[C5] Gary Williams, Elias Systems Ltd. The
+Elias Constitutional Runtime: Recovering
+Constitutional Governance for
+Intelligence. 2026.
+Tier C - conceptual runtime-governance
+framework
+[C6] Constitutional Memory SA Ltd. The Board
+Approved The Deployment. And The
+Board Will Be Held To Account. July 2,
+2026.
+Tier C - governance advisory
+[C7] Branko Koprivica. From Threat Modeling
+to Trusted Automation: Security
+Architecture for Regulated Enterprises in
+the AI Era. July 2026.
+Tier C - practitioner security architecture
+[C8] Bluefox Consulting Services, LLC. AI Risk
+Management Framework GOVERN
+Function: Procedural Manual &
+Implementation Guide v1.5-2026.
+Tier C - practitioner implementation guide
+Author's Framework Contribution
+The six Danger Zones, the state-dependency synthesis as the framework's organizing principle, Proof
+Burden Classes P1-P4, the operational Ledger Rule, the worked-case evaluation method, and the
+preventive-governance principle are Governing Engines analytical contributions. They are informed by
+the cited corpus but should not be attributed to any individual source.

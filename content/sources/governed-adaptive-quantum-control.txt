@@ -1,0 +1,1339 @@
+PUBLIC SOURCE TEXT EDITION
+GOVERNED ADAPTIVE CONTROL FOR FAULT-TOLERANT QUANTUM SYSTEMS
+Source supplied by the author for public research discovery.
+Text extracted from the supplied artifact; layout, tables and pagination may differ.
+Privacy filtering is marked inline. This is not the original binary artifact.
+
+[Source PDF page 1]
+  GOVERNING ENGINES  |  TECHNICAL ARCHITECTURE HANDOFF
+Governing Engines LLC  |  Governed Adaptive Control for Fault-Tolerant Quantum Systems  |  v1.0  |  1
+GOVERNED ADAPTIVE CONTROL FOR
+FAULT-TOLERANT QUANTUM
+SYSTEMS
+Architecture and Operational Implementation Handoff
+DeMarius J. Lawson
+Governing Engines
+Technical Contribution
+September 2026
+Purpose: Provide a testable architecture and operational implementation for governed
+adaptive control around fault-tolerant quantum systems, while leaving platform-specific
+engineering realization to the organization possessing the physical quantum platform and
+laboratory infrastructure.
+OFFICIAL EXTERNAL RELEASE - VERSION 1.0
+Document Owner: DeMarius J. Lawson | Governing Engines LLC | September 2026
+Release posture: completed architectural and operational implementation handoff for engineering
+instantiation, platform-specific technical specification, simulation, falsification, and experimental
+determination by the receiving technical organization.
+
+[Source PDF page 2]
+  GOVERNING ENGINES  |  TECHNICAL ARCHITECTURE HANDOFF
+Governing Engines LLC  |  Governed Adaptive Control for Fault-Tolerant Quantum Systems  |  v1.0  |  2
+DOCUMENT PURPOSE
+This document provides a proposed systems architecture and operational implementation for governed
+adaptive control in fault-tolerant quantum systems.
+It is intended as a technical handoff to organizations possessing the quantum hardware, laboratory
+infrastructure, control systems, engineering personnel, decoding expertise, and physical test environments
+required to instantiate and evaluate it.
+The contribution does not ask the receiving organization to accept the architecture as correct. It defines the
+architecture strongly enough that the receiving organization can:
+ derive a platform-specific technical specification
+ determine whether the required trust boundaries are implementable
+ map the design onto an existing quantum-control stack
+ test the runtime behavior
+ measure cost and latency
+ inject faults
+ verify whether the enforcement mechanisms actually work
+ reject the architecture if experiment does not support it
+The contribution intentionally stops before platform-specific physical engineering realization.
+That boundary reflects the distinction between SYSTEM ARCHITECTURE AND
+OPERATIONAL IMPLEMENTATION and PLATFORM-SPECIFIC ENGINEERING
+REALIZATION.
+This document defines the former. The receiving quantum engineering organization determines the latter.
+TECHNICAL BASIS
+The proposed architecture is grounded in known fault-tolerant quantum-computing constraints, while the
+architecture itself remains an unvalidated proposal. The external evidence establishes the problem
+conditions, not the success of this solution.
+ DOE Quantum Genesis Q targets scientifically relevant fault-tolerant quantum systems with at least 100
+logical qubits and hundreds of millions of fault-tolerant operations. DOE also states that validation must
+span the full computing stack, including physical hardware, quantum gates, logical architectures,
+algorithms and applications, and classical control systems. [1]
+ Google Quantum AI reported below-threshold surface-code memories on superconducting hardware with
+an integrated real-time decoder; the work explicitly identifies decoder throughput, long-duration stability,
+leakage, and correlated error events as practical fault-tolerance constraints. [2]
+ Experimental work on leakage removal shows that leakage can accumulate and spread correlated errors
+through repeated quantum-error-correction cycles, and that active removal can stabilize logical
+performance. [3]
+ Recent calibration-conditioned decoder research demonstrates an explicit separation of timescales
+between slow hardware calibration drift and low-latency syndrome decoding, supporting the relevance of
+adaptive classical control around QEC. [4]
+1. TECHNICAL CONTEXT
+Fault-tolerant quantum computing requires more than low physical-qubit error rates.
+Quantum error correction combines multiple physical qubits into protected logical qubits and suppresses
+logical error when the physical system operates below the relevant error-correction threshold. Current
+
+[Source PDF page 3]
+  GOVERNING ENGINES  |  TECHNICAL ARCHITECTURE HANDOFF
+Governing Engines LLC  |  Governed Adaptive Control for Fault-Tolerant Quantum Systems  |  v1.0  |  3
+experimental systems already demonstrate that fault-tolerant operation creates substantial classical-control
+requirements. Real-time syndrome decoding must keep pace with the error-correction process. Calibration
+must remain valid across long-running computation. Leakage and correlated error events must be detected
+and managed. Decoder performance depends on the relationship between the decoder model and the actual
+physical noise environment. [2][3][4]
+Control and decoding systems therefore participate directly in fault-tolerant performance. This proposal
+addresses that coupled classical-control problem. It does not replace quantum error correction. It governs
+adaptation around quantum error correction.
+2. PROBLEM DEFINITION
+A fault-tolerant quantum computer is a coupled quantum-classical system.
+Physical Qubits
+↓
+Control Signals
+↓
+Quantum Gates
+↓
+Measurement
+↓
+Syndrome Extraction
+↓
+Classical Processing
+↓
+Decoding
+↓
+Correction / Frame Update
+↓
+Logical State
+↓
+Fault-Tolerant Logical Operation
+↓
+Application Execution
+↓
+Output
+↓
+Verification
+Each transition introduces potential failure. Examples include:
+ physical-qubit degradation
+ calibration drift
+ readout drift
+ leakage
+ crosstalk
+ correlated error bursts
+ control-pulse error
+ decoder mismatch
+ decoder latency
+
+[Source PDF page 4]
+  GOVERNING ENGINES  |  TECHNICAL ARCHITECTURE HANDOFF
+Governing Engines LLC  |  Governed Adaptive Control for Fault-Tolerant Quantum Systems  |  v1.0  |  4
+ stale device models
+ stale control authority
+ measurement corruption
+ controller faults
+ incorrect recovery behavior
+The machine therefore faces two coupled problems:
+PROBLEM A - Correct quantum errors.
+PROBLEM B - Determine whether the assumptions and control conditions used to
+correct those errors are still valid.
+This document addresses Problem B and its interaction with Problem A.
+3. CORE CONTRIBUTION
+The proposed system is a Governed Adaptive Quantum Control Architecture.
+Its purpose is to maintain a continuously validated control relationship between the observed quantum
+system, the system's operational model, the controller's proposed response, the authority to execute that
+response, and the physical consequence that follows.
+Quantum Substrate
+↓
+Independent Observation
+↓
+Evidence Custody
+↓
+Characterization
+↓
+Operational State
+↓
+Estimation / Drift Analysis
+↓
+Control Proposal
+↓
+Independent Admissibility
+↓
+Bounded Execution
+↓
+Independent Consequence Observation
+↓
+Independent Validation
+↓
+Governed State Transition
+↓
+Recovery / Continuation
+↓
+Validated Learning
+
+[Source PDF page 5]
+  GOVERNING ENGINES  |  TECHNICAL ARCHITECTURE HANDOFF
+Governing Engines LLC  |  Governed Adaptive Control for Fault-Tolerant Quantum Systems  |  v1.0  |  5
+4. CENTRAL GOVERNING LAW
+No domain may define the governing standard, judge conformity to that standard,
+execute under that standard, and certify the result of that execution within the same
+undifferentiated authority boundary.
+Proposal generation, action admissibility, governing authorization, execution, consequence observation,
+validation, evidence custody, baseline admission, policy activation, and operator authority remain separately
+custodial functions.
+The architecture therefore separates EVIDENCE, INTERPRETATION, PROPOSAL, AUTHORITY, EXECUTION,
+CONSEQUENCE, VALIDATION, and LEARNING.
+5. TRUST DOMAINS
+DOMAIN A - OBSERVATION
+ acquire syndrome information
+ acquire hardware telemetry
+ acquire calibration data
+ acquire timing information
+ acquire control telemetry
+ preserve observation identity
+DOMAIN B - ESTIMATION AND PROPOSAL
+ characterize observed behavior
+ estimate drift
+ estimate error conditions
+ generate candidate interventions
+DOMAIN C - ADMISSIBILITY ASSESSMENT
+ verify evidence lineage
+ verify current authority
+ verify control-envelope limits
+ verify policy thresholds
+ produce an AdmissibilityAssessment indicating whether a specific proposal conforms to the active
+governing regime
+DOMAIN D - EXECUTION
+ execute exactly the authorized control action
+ preserve execution evidence
+DOMAIN E - CONSEQUENCE OBSERVATION AND VALIDATION
+ observe post-action system behavior
+ compare outcome against predeclared criteria
+ produce a validation verdict
+DOMAIN F - EVIDENCE CUSTODY AND AUDIT
+ preserve append-only operational history
+
+[Source PDF page 6]
+  GOVERNING ENGINES  |  TECHNICAL ARCHITECTURE HANDOFF
+Governing Engines LLC  |  Governed Adaptive Control for Fault-Tolerant Quantum Systems  |  v1.0  |  6
+ verify record integrity
+ support independent replay
+Domain B may not authorize its own proposals. Domain C may not create or modify the baseline, envelope,
+thresholds, or authority epoch against which it evaluates proposals. Domain D may not determine that its
+action succeeded. Domain E may not rewrite the expected result after observing the outcome. Domain F may
+not fabricate missing operational records.
+DOMAIN G - GOVERNING AUTHORITY AND POLICY CUSTODY
+Domain G owns the governing objects against which operational decisions are judged. Its responsibilities
+include baseline admission, authority-epoch issuance, adaptive-envelope activation, threshold-policy
+activation, degraded-mode authorization, Fast Path authority classes, learned-policy promotion, revocation,
+and governed operator authority.
+Domain G does not generate ordinary control proposals, execute physical control, or certify its own
+operational consequences.
+Domain G authorizes the governing regime. Domain C evaluates a particular proposal
+against that regime. Domain E independently validates the consequence.
+OPERATOR / HUMAN AUTHORITY
+A human operator is an authority principal acting through Domain G rather than an authority outside the
+architecture. Operator scope is explicit, versioned, time-bounded, and ledgered.
+Every operator is represented by an OperatorAuthorityRecord defining operator identity, role, permitted
+actions, prohibited actions, device or region scope, effective time, expiration, and authority epoch. Every
+consequential human intervention produces an OperatorActionReceipt.
+An operator may revoke authority, request halt, request recharacterization or recalibration, and approve
+supervisory transitions where policy permits. An operator may not rewrite evidence, convert DISCONFIRMED
+to CONFIRMED, bypass required Reality Validation, silently replace a baseline, silently expand an adaptive
+envelope, or act outside granted scope.
+6. PHYSICAL SEPARATION REQUIREMENT
+The architecture requires enforceable trust boundaries. Logical labels alone are insufficient.
+A conforming technical implementation must provide mechanisms preventing unauthorized cross-domain
+modification. Possible implementation methods may include:
+ separate processes
+ separate processors
+ hardware privilege boundaries
+ memory protection
+ cryptographic signing
+ one-way data paths
+ restricted APIs
+ secure enclaves
+ FPGA partitioning
+ separate validation processors
+ append-only external logging
+This document does not prescribe which mechanism must be used. It requires the separation to survive
+component fault.
+
+[Source PDF page 7]
+  GOVERNING ENGINES  |  TECHNICAL ARCHITECTURE HANDOFF
+Governing Engines LLC  |  Governed Adaptive Control for Fault-Tolerant Quantum Systems  |  v1.0  |  7
+TRUST-BOUNDARY CONFORMANCE TEST
+A conforming platform-specific implementation must demonstrate, through permission tests, isolation tests,
+fault injection, or equivalent evidence, that Domain B cannot write Domain C or G authorization state;
+Domain C cannot modify baseline, envelope, threshold, or epoch state; Domain D cannot generate its own
+authorization or modify post-action validation records; Domain E cannot modify pre-execution expectation
+records; Domain F cannot alter operational state; and Domain G cannot rewrite prior evidence.
+The engineering mechanism is platform-specific. The required separation is not
+optional and is falsifiable at implementation time.
+A proposal generator that can directly rewrite its own admissibility result does not
+conform.
+7. ROOT CONTROL SESSION
+Every governed sequence belongs to a QuantumControlSession.
+session_id
+device_id
+device_region
+logical_region
+code_configuration
+decoder_configuration
+baseline_id
+authority_epoch
+adaptive_envelope_id
+policy_set_id
+model_version
+session_state
+validation_state
+recovery_state
+created_at
+last_validated_at
+No consequential record may exist outside a valid session context.
+8. CANONICAL RECORD TYPES
+ ObservationRecord
+ CharacterizationRecord
+ OperationalStateRecord
+ EstimationRecord
+ ControlProposal
+ AdmissibilityAssessment
+ ExecutionReceipt
+ ConsequenceRecord
+ ValidationReceipt
+ RecoveryRecord
+ LearningRecord
+ BaselineRecord
+ AdaptiveEnvelopeRecord
+
+[Source PDF page 8]
+  GOVERNING ENGINES  |  TECHNICAL ARCHITECTURE HANDOFF
+Governing Engines LLC  |  Governed Adaptive Control for Fault-Tolerant Quantum Systems  |  v1.0  |  8
+ AuthorityEpochRecord
+ ThresholdPolicyRecord
+ LedgerEntry
+ CorrectionRecord
+ AuditReplayResult
+ AdmissibilityAssessment
+ ExecutionAuthorizationReceipt
+ CandidateBaselineRecord
+ BaselineAdmissionReceipt
+ FastPathQualificationRecord
+ FastPathAuthorityRecord
+ OperatorAuthorityRecord
+ OperatorActionReceipt
+ LearningReviewRecord
+ PolicyCandidateRecord
+ PolicyActivationReceipt
+9. CAUSAL CHAIN
+ObservationRecord
+↓
+CharacterizationRecord
+↓
+OperationalStateRecord
+↓
+EstimationRecord
+↓
+ControlProposal
+↓
+AdmissibilityAssessment
+↓
+ExecutionAuthorizationReceipt
+↓
+ExecutionReceipt
+↓
+ConsequenceRecord
+↓
+ValidationReceipt
+↓
+Recovery / Continuation Record
+↓
+LearningRecord
+No downstream record may claim validity without a complete required upstream chain.
+
+[Source PDF page 9]
+  GOVERNING ENGINES  |  TECHNICAL ARCHITECTURE HANDOFF
+Governing Engines LLC  |  Governed Adaptive Control for Fault-Tolerant Quantum Systems  |  v1.0  |  9
+A ControlProposal cannot become executable from Domain C assessment alone.
+Consequential execution requires a current ExecutionAuthorizationReceipt issued by
+Domain G, unless the action instance falls under a current FastPathAuthorityRecord
+for a previously qualified action class.
+10. QUANTUM OBSERVATION INPUTS
+A platform-specific implementation may expose some combination of:
+ stabilizer measurement outcomes
+ syndrome events
+ detection-event streams
+ readout classification results
+ qubit leakage indicators
+ control-pulse telemetry
+ gate-calibration data
+ qubit frequency drift
+ coherence measurements
+ measurement-assignment error
+ crosstalk indicators
+ correlated-event statistics
+ decoder latency
+ decoder backlog
+ logical-error indicators
+ cryogenic or environmental telemetry
+ hardware-health signals
+The architecture does not assume all platforms expose the same data. Observation scope is defined by the
+physical modality.
+11. OBSERVATION LAW
+Observed data and inferred condition remain separate.
+Example: OBSERVATION - A localized syndrome-event rate increased over N correction rounds.
+INTERPRETATION - The increase may reflect calibration drift.
+The second statement cannot overwrite the first. ObservationRecord remains authoritative regarding what
+was measured. EstimationRecord remains authoritative only regarding what was inferred.
+12. APPEND-ONLY QUANTUM CONTROL LEDGER
+The evidence chain shall be append-only.
+Every consequential record must be uniquely identified, session-linked, timestamped, source-identified,
+predecessor-linked, integrity-protected, and immutable after acceptance.
+entry_id
+record_type
+record_id
+session_id
+producer_id
+producer_domain
+
+[Source PDF page 10]
+  GOVERNING ENGINES  |  TECHNICAL ARCHITECTURE HANDOFF
+Governing Engines LLC  |  Governed Adaptive Control for Fault-Tolerant Quantum Systems  |  v1.0  |  10
+timestamp
+previous_ledger_hash
+record_hash
+authority_epoch
+baseline_version
+signature_or_attestation
+status
+13. NO HISTORICAL REWRITE
+An accepted record may not be edited. If later evidence shows the record was incorrect, a CorrectionRecord is
+appended.
+The original belief remains visible in historical custody.
+14. LEDGER FAILURE LAW
+If the required ledger commit cannot be established, the associated consequential
+state transition may not become authoritative.
+Example: execution completed physically but the ExecutionReceipt could not be committed. The architecture
+shall treat the authoritative state as unresolved and enter LEDGER_INTEGRITY_FAILURE according to
+platform-defined recovery policy.
+15. VALIDATED BASELINE
+The BaselineRecord represents a previously validated control configuration. A baseline may include:
+ device calibration
+ qubit parameters
+ gate calibration
+ measurement calibration
+ decoder version
+ decoder parameters
+ QEC configuration
+ routing configuration
+ timing assumptions
+ valid hardware region
+ control firmware version
+ error characteristics
+Temporary adaptive action does not automatically alter the baseline.
+16. BASELINE ADMISSION
+Domain C may consume an active baseline. Domain C may not admit, revise, or
+supersede a baseline.
+A CandidateBaselineRecord may be generated by calibration, characterization, engineering, or supervisory
+processes. It does not become authoritative until Domain G issues a BaselineAdmissionReceipt.
+ defined candidate configuration
+ required physical characterization
+
+[Source PDF page 11]
+  GOVERNING ENGINES  |  TECHNICAL ARCHITECTURE HANDOFF
+Governing Engines LLC  |  Governed Adaptive Control for Fault-Tolerant Quantum Systems  |  v1.0  |  11
+ required logical characterization
+ applicable validation policy
+ successful validation result
+ explicit baseline admission
+ new baseline identifier
+ authority-epoch update where required
+Baseline history remains preserved.
+A new authoritative baseline receives a unique identifier. Prior baselines remain immutable and preserved in
+lineage. A baseline change that alters active permissions advances the AuthorityEpoch where required.
+BaselineAdmissionReceipt MUST reference the CandidateBaselineRecord, required physical validation
+records, required logical validation records, validator identity, applicable policy set, code configuration,
+decoder configuration, platform configuration, prior baseline, and authority epoch.
+17. ADAPTIVE ENVELOPE
+The AdaptiveEnvelopeRecord defines the pre-authorized region of control change.
+envelope_id
+baseline_id
+authority_epoch
+allowed_action_types
+allowed_targets
+per_action_limits
+cumulative_limits
+time_limit
+operation_count_limit
+risk_limit
+required_validation_policy
+required_recovery_path
+expiration_conditions
+revocation_conditions
+status
+18. WHY THE ENVELOPE EXISTS
+Real-time control may operate at speeds where full supervisory review is impossible. The architecture
+therefore allows some authority to be established in advance.
+A local real-time controller may be authorized to change a calibration parameter by a narrow amount. It may
+not infer that a much larger change is permitted.
+The envelope separates LOW-LATENCY PRE-AUTHORIZED CONTROL from NEW
+CONTROL AUTHORITY.
+19. CUMULATIVE DRIFT CONTROL
+Every adaptive change is evaluated against both the current operating state and the validated baseline.
+Baseline: 100
+Per-action limit: +1
+Cumulative limit: +3
+
+[Source PDF page 12]
+  GOVERNING ENGINES  |  TECHNICAL ARCHITECTURE HANDOFF
+Governing Engines LLC  |  Governed Adaptive Control for Fault-Tolerant Quantum Systems  |  v1.0  |  12
+Allowed:
+100 -> 101
+101 -> 102
+102 -> 103
+Not allowed:
+103 -> 104
+Required state: REVALIDATION_REQUIRED
+20. ENVELOPE EXPIRATION
+An envelope may expire because of:
+ elapsed time
+ correction-cycle count
+ logical-operation count
+ calibration age
+ decoder revision
+ model revision
+ QEC configuration revision
+ repeated recovery
+ cumulative adaptation
+ hardware-region change
+ threshold-policy revision
+ authority-epoch change
+Expired authority cannot be treated as still active.
+21. AUTHORITY EPOCH
+Every active permission set belongs to an AuthorityEpoch. The epoch binds baseline, envelope, policy set,
+approved model versions, approved decoder versions, recovery policy, and validation requirements.
+All consequential low-latency actions must reference the active epoch.
+22. DISTRIBUTED AUTHORITY SYNCHRONIZATION
+Local controllers may cache pre-authorized actions. They may not assume those actions remain permanently
+valid.
+local_authority_epoch
+local_baseline_version
+local_envelope_id
+Before execution, LOCAL AUTHORITY STATE must match ACTIVE GOVERNING AUTHORITY STATE. Mismatch
+produces STALE_AUTHORITY and blocks execution.
+23. REVOCATION
+Authority may be revoked when:
+ baseline validation fails
+
+[Source PDF page 13]
+  GOVERNING ENGINES  |  TECHNICAL ARCHITECTURE HANDOFF
+Governing Engines LLC  |  Governed Adaptive Control for Fault-Tolerant Quantum Systems  |  v1.0  |  13
+ hardware degradation is detected
+ decoder integrity fails
+ telemetry integrity fails
+ validator confidence collapses
+ security compromise is suspected
+ logical-error behavior exceeds limits
+ correlated error behavior exceeds limits
+ policy changes
+ operator intervention occurs
+Fast-path controllers must fail closed if authority freshness cannot be established.
+24. THRESHOLD POLICY OBJECTS
+Thresholds are not undocumented constants. Every consequential threshold is a governed object.
+policy_id
+policy_type
+measured_quantity
+threshold_value
+units
+scope
+device_region
+code_configuration
+decoder_version
+model_version
+derivation_method
+validation_data_reference
+policy_owner
+approval_state
+effective_at
+expires_at
+review_trigger
+superseded_by
+status
+25. THRESHOLD CATEGORIES
+ logical-error ceiling
+ physical-error ceiling
+ decoder-latency ceiling
+ syndrome-rate deviation
+ leakage threshold
+ calibration-drift threshold
+ correlated-error threshold
+ control-amplitude limit
+ control-timing limit
+ cumulative-adaptation limit
+ confidence threshold
+ validation-window requirement
+
+[Source PDF page 14]
+  GOVERNING ENGINES  |  TECHNICAL ARCHITECTURE HANDOFF
+Governing Engines LLC  |  Governed Adaptive Control for Fault-Tolerant Quantum Systems  |  v1.0  |  14
+Exact values are platform-specific. The architecture requires the values to be explicit, versioned, and
+reviewable.
+26. NO MODEL-DEFINED AUTHORITY
+A learned model may recommend new thresholds, new envelope limits, new control
+policies, or new calibration intervals. It may not activate them.
+27. OPERATIONAL STATE MACHINE
+IDLE
+OBSERVING
+OBSERVED
+CHARACTERIZING
+CHARACTERIZED
+STATE_FORMED
+STATE_VALIDATION_PENDING
+STATE_VALID
+ESTIMATING
+ESTIMATED
+PROPOSED
+ADMISSIBILITY_PENDING
+AUTHORIZED
+AUTHORIZED_WITH_LIMITS
+BLOCKED
+EXECUTING
+EXECUTED
+CONSEQUENCE_PENDING
+CONSEQUENCE_OBSERVED
+VALIDATION_PENDING
+CONFIRMED
+PARTIALLY_CONFIRMED
+DISCONFIRMED
+UNKNOWN
+RECOVERY_REQUIRED
+ROLLBACK
+RECHARACTERIZATION_REQUIRED
+RECALIBRATION_REQUIRED
+ISOLATION_REQUIRED
+AUTHORITY_STALE
+LEDGER_INTEGRITY_FAILURE
+HALTED
+28. STRUCTURAL TRANSITION LAW
+Transitions are allow-listed. The implementation shall not infer legal transitions dynamically.
+A transition is valid only when source state is allowed, destination state is allowed, required evidence exists,
+required authority exists, applicable policies remain active, and required records have been committed.
+Otherwise: transition_status = REJECTED.
+
+[Source PDF page 15]
+  GOVERNING ENGINES  |  TECHNICAL ARCHITECTURE HANDOFF
+Governing Engines LLC  |  Governed Adaptive Control for Fault-Tolerant Quantum Systems  |  v1.0  |  15
+29. PROHIBITED TRANSITIONS
+PROPOSED -> EXECUTING
+PROHIBITED
+ESTIMATED -> EXECUTING
+PROHIBITED
+EXECUTED -> CONFIRMED
+PROHIBITED without ConsequenceRecord, ValidationReceipt, and valid evidence lineage
+UNKNOWN -> NORMAL_OPERATION
+PROHIBITED unless an explicit degraded-mode policy authorizes continuation
+DISCONFIRMED -> NORMAL_OPERATION
+PROHIBITED
+AUTHORITY_STALE -> EXECUTION
+PROHIBITED
+LEDGER_INTEGRITY_FAILURE -> NORMAL_AUTHORITATIVE_PROGRESSION
+PROHIBITED
+30. STATE-MACHINE ENFORCEMENT PSEUDOCODE
+function request_transition(session, target_state, supporting_records):
+    current = session.current_state
+    if not transition_allowed(current, target_state):
+        return REJECTED_ILLEGAL_TRANSITION
+    required = required_records(current, target_state)
+    if not all_records_present(required, supporting_records):
+        return REJECTED_MISSING_EVIDENCE
+    if not ledger_chain_valid(supporting_records):
+        return REJECTED_INVALID_LINEAGE
+    if authority_required(target_state):
+        if not authority_current(session):
+            return REJECTED_STALE_AUTHORITY
+    if policy_required(target_state):
+        if not policy_valid(session):
+            return REJECTED_INVALID_POLICY
+    commit_transition_record()
+    return ACCEPTED
+
+[Source PDF page 16]
+  GOVERNING ENGINES  |  TECHNICAL ARCHITECTURE HANDOFF
+Governing Engines LLC  |  Governed Adaptive Control for Fault-Tolerant Quantum Systems  |  v1.0  |  16
+31. ADMISSIBILITY KERNEL
+The Admissibility Kernel determines only: MAY THIS PROPOSED ACTION EXECUTE?
+Inputs: ControlProposal, OperationalStateRecord, BaselineRecord, AdaptiveEnvelopeRecord,
+AuthorityEpochRecord, ThresholdPolicyRecords, current fault state, current recovery state, and evidence
+lineage.
+Outputs: ADMISSIBLE, ADMISSIBLE_WITH_LIMITS, REVALIDATION_REQUIRED,
+RECHARACTERIZATION_REQUIRED, RECOVERY_REQUIRED, BLOCKED, HALT_REQUIRED.
+32. ADMISSIBILITY LOGIC
+function evaluate_admissibility(proposal):
+    if not valid_record(proposal):
+        return BLOCKED
+    if not evidence_chain_valid(proposal):
+        return BLOCKED
+    if proposal.authority_epoch != active_epoch:
+        return BLOCKED
+    if proposal.baseline_id != active_baseline:
+        return BLOCKED
+    if active_envelope.status != ACTIVE:
+        return BLOCKED
+    if proposal.action_type not in active_envelope.allowed_action_types:
+        return BLOCKED
+    if proposal.target not in active_envelope.allowed_targets:
+        return BLOCKED
+    if threshold_policy_invalid():
+        return BLOCKED
+    if current_state_not_validated():
+        return BLOCKED
+    if per_action_limit_exceeded(proposal):
+        return REVALIDATION_REQUIRED
+    if cumulative_limit_exceeded(proposal):
+        return REVALIDATION_REQUIRED
+    if no_valid_recovery_path(proposal):
+        return BLOCKED
+
+[Source PDF page 17]
+  GOVERNING ENGINES  |  TECHNICAL ARCHITECTURE HANDOFF
+Governing Engines LLC  |  Governed Adaptive Control for Fault-Tolerant Quantum Systems  |  v1.0  |  17
+    if unresolved_critical_fault():
+        return BLOCKED
+    if estimated_risk_exceeds_policy(proposal):
+        return BLOCKED
+    if limited_mode_required(proposal):
+        return ADMISSIBLE_WITH_LIMITS
+    return ADMISSIBLE
+33. EXECUTION CONTRACT
+The Executor may perform only the action encoded in a valid AdmissibilityReceipt.
+Immediately before actuation it verifies session_id, authority_epoch, baseline_id, envelope_id, action_type,
+target, magnitude, timing validity, receipt status, and receipt expiration.
+The Executor may not widen scope, substitute a different action, or change expected success criteria.
+34. REAL-TIME PATH
+Fault-tolerant systems may require microsecond-class or otherwise platform-limited classical processing.
+Real-time surface-code experiments already demonstrate continuous streaming syndrome decoding and strict
+throughput constraints. [2]
+The architecture therefore distinguishes FAST PATH from SUPERVISORY PATH.
+ Fast Path: syndrome classification
+ real-time decoding
+ logical-frame updates
+ leakage-responsive actions
+ local calibration corrections supported by an active FastPathQualificationRecord
+ bounded local control actions
+The Fast Path operates only within pre-established authority.
+FAST PATH QUALIFICATION
+"Previously validated" is a ledger-verifiable status, not a descriptive label. An action class may enter the Fast
+Path only when a FastPathQualificationRecord exists and Domain G has issued a current
+FastPathAuthorityRecord.
+FastPathQualificationRecord references action class, baseline family, device scope, ValidationReceipts, test
+count, failure count, validated parameter range, applicable code configuration, applicable decoder
+configuration, maximum latency, recovery path, authority epoch, and expiration.
+Fast Path execution requires a valid qualification record, active FastPathAuthorityRecord, current epoch,
+compatible baseline, active envelope, and valid action-instance admissibility assessment.
+Domain G authorizes the action class. Domain C admits the specific action instance.
+Domain D executes only the admitted instance.
+
+[Source PDF page 18]
+  GOVERNING ENGINES  |  TECHNICAL ARCHITECTURE HANDOFF
+Governing Engines LLC  |  Governed Adaptive Control for Fault-Tolerant Quantum Systems  |  v1.0  |  18
+35. SUPERVISORY PATH
+ baseline revision
+ adaptive-envelope revision
+ threshold-policy revision
+ model replacement
+ novel error conditions
+ repeated disconfirmation
+ hardware-region requalification
+ broader recovery
+ operator escalation
+ audit review
+The Supervisory Path does not need to operate at the speed of every QEC cycle. Its authority is compiled
+downward into bounded Fast Path permissions.
+LEARNING AND POLICY PROMOTION
+Learning does not become active policy by implication. The required promotion path is: LearningRecord ->
+LearningReviewRecord -> PolicyCandidateRecord -> Independent Validation -> Domain G Review ->
+PolicyActivationReceipt.
+Only a PolicyActivationReceipt changes active governance. If activation affects a baseline, adaptive envelope,
+threshold, decoder behavior, Fast Path authorization, degraded mode, or recovery policy, the AuthorityEpoch
+advances.
+LearningRecord is not policy. PolicyCandidateRecord is not active policy. Learning
+may recommend governance; it may not activate itself.
+36. DECODER RELATIONSHIP
+The decoder is a specialized estimator within the quantum control system. It receives syndrome information
+and attempts to infer an error pattern or correction representation.
+The decoder may be matching-based, clustering-based, neural, hardware-conditioned, hybrid, or another
+validated design. The architecture does not prescribe one decoder. It governs how decoder output gains
+operational authority.
+37. DECODER OUTPUT IS NOT DIRECT AUTHORITY
+For latency-critical corrections already covered by validated decoder policy, decoder behavior may execute
+through the Fast Path.
+For adaptive changes to decoder behavior itself, decoder output becomes an input to the governance path.
+Examples include changing decoder weights, noise assumptions, leakage handling, model parameters, or
+decoding strategy.
+The decoder may adapt. The decoder may not silently redefine the authority under
+which it operates.
+38. ADAPTIVE DECODER SUPPORT
+Recent decoder research demonstrates that conditioning decoding on hardware calibration data can improve
+robustness to spatial and temporal variations in noise while preserving low-latency inference. [4]
+
+[Source PDF page 19]
+  GOVERNING ENGINES  |  TECHNICAL ARCHITECTURE HANDOFF
+Governing Engines LLC  |  Governed Adaptive Control for Fault-Tolerant Quantum Systems  |  v1.0  |  19
+The architecture therefore assumes that future fault-tolerant systems may contain decoders whose behavior
+changes according to hardware state.
+This makes explicit governance of decoder adaptation more important, not less.
+39. DECODER LATENCY GOVERNANCE
+Decoder latency is itself an operational state variable. A decoder may remain logically correct while becoming
+operationally unusable because of backlog. [2]
+decoder_latency
+decoder_backlog
+decoder_failure_state
+decoder_capacity_margin
+If decoder latency exceeds an active ThresholdPolicy, normal progression may be reduced, rerouted, paused,
+or halted according to platform policy. Latency failure is treated as system failure, not merely performance
+degradation.
+40. CONSEQUENCE OBSERVATION
+Following an intervention, an independent observer acquires relevant post-action evidence.
+ syndrome-rate change
+ detection-event distribution
+ logical-error indicators
+ leakage change
+ readout behavior
+ neighboring-region effects
+ gate behavior
+ decoder workload
+ timing behavior
+ calibration stability
+The Consequence Observer reports what occurred. It does not determine success.
+41. PREDECLARED EXPECTED CONSEQUENCE
+Every consequential adaptive proposal must define success before execution.
+TARGET: Physical Region P7
+ACTION: Bounded control recalibration
+EXPECTED CONSEQUENCE:
+- target-region syndrome deviation decreases by threshold X during validation window W
+- no neighboring region exceeds logical-error threshold Y
+- decoder latency does not exceed Z
+X, Y, Z, and W are governed ThresholdPolicy values and cannot be rewritten after the result is observed.
+42. VALIDATION KERNEL
+Inputs: ExecutionReceipt, ConsequenceRecord, ExpectedConsequenceRecord, applicable
+ThresholdPolicyRecords, OperationalStateRecord, BaselineRecord.
+
+[Source PDF page 20]
+  GOVERNING ENGINES  |  TECHNICAL ARCHITECTURE HANDOFF
+Governing Engines LLC  |  Governed Adaptive Control for Fault-Tolerant Quantum Systems  |  v1.0  |  20
+Outputs: CONFIRMED, PARTIALLY_CONFIRMED, DISCONFIRMED, PENDING_VALIDATION, UNKNOWN.
+43. VALIDATION LOGIC
+Validation re-verifies the execution-time authority chain rather than trusting an identifier link alone. The
+Validation Kernel confirms ledger lineage, session identity, execution-time AuthorityEpoch, execution-time
+baseline, expected-consequence record, and applicable ValidationPolicy.
+If the AuthorityEpoch changes after a valid execution, the physical result may still be validated historically.
+Historical validity does not automatically create current continuation authority under the new epoch.
+VALID_AT_EXECUTION and CURRENTLY_AUTHORIZED are separate states.
+function validate_consequence(execution, consequence, expectation):
+    require valid(execution)
+    require valid(consequence)
+    require valid(expectation)
+    require consequence.execution_id == execution.id
+    if required_data_missing():
+        return UNKNOWN
+    if validation_window_incomplete():
+        return PENDING_VALIDATION
+    if all_success_criteria_met():
+        return CONFIRMED
+    if partial_success_allowed_by_policy() and partial_success_criteria_met():
+        return PARTIALLY_CONFIRMED
+    return DISCONFIRMED
+44. DISCONFIRMATION BEHAVIOR
+DISCONFIRMED cannot return directly to NORMAL_OPERATION.
+Required next-state classes include ROLLBACK, RECHARACTERIZATION_REQUIRED,
+RECALIBRATION_REQUIRED, ISOLATION_REQUIRED, RECOVERY_REQUIRED, and HALTED. The exact
+transition depends on fault classification.
+45. UNKNOWN BEHAVIOR
+UNKNOWN is not treated as success.
+UNKNOWN
+↓
+RECOVERY_REQUIRED
+A platform may define DEGRADED_MODE only with explicit policy, active authority, lower operational ceiling,
+defined duration, increased observation, and explicit exit condition.
+
+[Source PDF page 21]
+  GOVERNING ENGINES  |  TECHNICAL ARCHITECTURE HANDOFF
+Governing Engines LLC  |  Governed Adaptive Control for Fault-Tolerant Quantum Systems  |  v1.0  |  21
+46. FAULT MODEL
+OBSERVATION FAULTS
+ corrupted measurement
+ missing telemetry
+ stale telemetry
+ replayed telemetry
+ misclassified readout
+MODEL FAULTS
+ estimator error
+ decoder mismatch
+ calibration mismatch
+ stale model
+ confidence miscalibration
+AUTHORITY FAULTS
+ stale authority
+ replayed authorization
+ envelope mismatch
+ unauthorized action request
+EXECUTION FAULTS
+ partial execution
+ wrong target
+ wrong magnitude
+ timing failure
+ hardware non-response
+VALIDATION FAULTS
+ missing consequence evidence
+ validator disagreement
+ validator defect
+ incomplete validation window
+CUSTODY FAULTS
+ ledger failure
+ corrupted record
+ broken causal chain
+ unavailable evidence
+47. SECURITY / ADVERSARIAL MODEL
+The architecture does not assume all faults are accidental.
+ fabricated telemetry
+ spoofed calibration data
+ replayed valid-looking measurements
+
+[Source PDF page 22]
+  GOVERNING ENGINES  |  TECHNICAL ARCHITECTURE HANDOFF
+Governing Engines LLC  |  Governed Adaptive Control for Fault-Tolerant Quantum Systems  |  v1.0  |  22
+ compromised estimator
+ malicious proposal generation
+ stale authorization replay
+ execution outside granted range
+ validator tampering
+ ledger tampering
+The architecture therefore requires authenticated records, freshness checks, causal dependencies, epoch
+matching, independent validation, and immutable history.
+48. FAULT RESPONSE CLASSIFICATION
+Every identified fault type shall be assigned one or more response classes:
+DETECT
+CONTAIN
+TOLERATE
+RECOVER
+ISOLATE
+ESCALATE
+HALT
+NOT_YET_ADDRESSED
+NOT_YET_ADDRESSED is a valid engineering state. Unsolved faults shall remain visible.
+49. INDEPENDENT AUDIT
+The audit function independently replays the ledger. It calculates:
+ unauthorized_transition_count
+ stale_authority_execution_count
+ missing_validation_count
+ broken_causal_chain_count
+ envelope_violation_count
+ cumulative_budget_violation_count
+ execution_without_receipt_count
+ silent_failure_continuation_count
+ baseline_mutation_count
+ validator_disagreement_count
+ rollback_failure_count
+unauthorized_transition_count
+stale_authority_execution_count
+missing_validation_count
+broken_causal_chain_count
+envelope_violation_count
+cumulative_budget_violation_count
+execution_without_receipt_count
+silent_failure_continuation_count
+baseline_mutation_count
+validator_disagreement_count
+rollback_failure_count
+
+[Source PDF page 23]
+  GOVERNING ENGINES  |  TECHNICAL ARCHITECTURE HANDOFF
+Governing Engines LLC  |  Governed Adaptive Control for Fault-Tolerant Quantum Systems  |  v1.0  |  23
+These values are derived from the evidence ledger. They are not accepted from controller self-report.
+REPLAYABILITY
+A reviewer must be able to reconstruct what was observed, what state was formed, what was estimated, what
+model produced the estimate, what action was proposed, which policy governed it, why it was authorized,
+what actually executed, what happened afterward, who or what validated it, why the system continued or
+recovered, and what learning was admitted.
+50. WORKED REFERENCE INSTANTIATION
+The following example uses a superconducting surface-code-style environment because current experimental
+literature provides a concrete real-time decoding, leakage, and calibration context. [2][3]
+It is illustrative. It is not a claim that superconducting hardware is required.
+51. EVENT
+Session: QC-219
+Surface-Code Region: L7
+Physical Region: P7
+Authority Epoch: 0042
+Baseline: BL-113
+Adaptive Envelope: AE-042
+Decoder: RTD-v6
+State: VALID
+Observation producer detects an increased localized detection-event rate.
+ObservationRecord: OR-8841
+target_region = P7
+correction_cycle_window = W1
+observed_detection_rate = R1
+baseline_detection_rate = R0
+difference = ΔR
+source = syndrome stream
+No cause is assigned.
+ObservationRecord OR-8841: a persistent increase in localized detection-event rate is observed in physical
+region P7 over the required correction-cycle window. The record contains the measured syndrome
+information and assigns no cause.
+52. CHARACTERIZATION
+CharacterizationRecord: CR-8842
+localized change = TRUE
+persistence condition = TRUE
+neighboring region effect = NOT OBSERVED
+telemetry completeness = VALID
+decoder backlog = NORMAL
+CharacterizationRecord CR-8842: localized change = TRUE; persistence condition = TRUE; neighboring-region
+effect = NOT OBSERVED; telemetry completeness = VALID; decoder backlog = NORMAL.
+Characterization does not establish cause.
+
+[Source PDF page 24]
+  GOVERNING ENGINES  |  TECHNICAL ARCHITECTURE HANDOFF
+Governing Engines LLC  |  Governed Adaptive Control for Fault-Tolerant Quantum Systems  |  v1.0  |  24
+53. OPERATIONAL STATE
+OperationalStateRecord: OS-8843
+Region: P7
+state = DEGRADED_OBSERVED
+baseline = BL-113
+authority_epoch = 0042
+calibration_status = CURRENT
+decoder_status = OPERATIONAL
+logical_error_status = WITHIN_LIMIT
+unknown_condition = TRUE
+OperationalStateRecord OS-8843: P7 = DEGRADED_OBSERVED; baseline = BL-113; authority_epoch = 0042;
+calibration_status = CURRENT; decoder_status = OPERATIONAL; logical_error_status = WITHIN_LIMIT;
+unresolved_condition = TRUE.
+54. ESTIMATION
+EstimationRecord: ER-8844
+Model version: DM-19
+Hypothesis: control drift more consistent with observation than current baseline noise model
+confidence = 0.81
+alternative hypotheses:
+- stochastic fluctuation
+- leakage-related event
+- measurement drift
+EstimationRecord ER-8844, model DM-19: localized control drift is more consistent with the observation than
+the current baseline model; confidence = 0.81; alternative hypotheses include stochastic fluctuation, leakage-
+related event, and measurement drift.
+The estimate remains non-authoritative.
+55. CONTROL PROPOSAL
+ControlProposal: CP-8845
+proposed_action: bounded recalibration of control parameter K
+target: P7
+requested_change: +0.4%
+per_action_limit: ±0.5%
+cumulative_limit: ±1.0%
+current_cumulative_change: 0%
+expected_consequence: target-region detection-event deviation decreases below active threshold during
+validation window without exceeding neighboring logical-error or decoder-latency policies
+rollback: return K to baseline value
+ControlProposal CP-8845 requests a +0.4% bounded recalibration of control parameter K in P7. Per-action
+limit = +/-0.5%; cumulative limit = +/-1.0%. Predeclared expected consequence: target-region detection-event
+deviation falls below the active threshold during validation window without violating neighboring logical-
+error or decoder-latency policies. Rollback restores baseline K.
+56. ADMISSIBILITY
+evidence chain valid: YES
+authority epoch current: YES
+baseline current: YES
+
+[Source PDF page 25]
+  GOVERNING ENGINES  |  TECHNICAL ARCHITECTURE HANDOFF
+Governing Engines LLC  |  Governed Adaptive Control for Fault-Tolerant Quantum Systems  |  v1.0  |  25
+adaptive envelope active: YES
+action class authorized: YES
+per-action limit: PASS
+cumulative limit: PASS
+threshold policies active: YES
+rollback available: YES
+critical fault present: NO
+Result: ADMISSIBLE
+Domain C issues AdmissibilityAssessment AA-8846 after verifying causal chain, current epoch, current
+baseline, active envelope, authorized action class, per-action and cumulative limits, current policies, recovery
+path, and absence of critical fault. Domain G then issues ExecutionAuthorizationReceipt EA-8846G for the
+exact admitted action.
+57. EXECUTION
+authority_epoch still 0042: YES
+baseline still BL-113: YES
+envelope still AE-042: YES
+ExecutionReceipt: XR-8847
+actual_change: +0.4%
+target: P7
+status: COMPLETED
+Immediately before actuation, Domain D rechecks authority_epoch 0042, baseline BL-113, envelope AE-042,
+action target, magnitude, receipt freshness, and expiration. ExecutionReceipt XR-8847 records actual change
++0.4% on P7.
+58. CONSEQUENCE
+ConsequenceRecord: CO-8848
+target detection-event rate: DECREASED
+neighbor-region logical indicator: UNCHANGED WITHIN POLICY
+decoder latency: WITHIN POLICY
+unexpected effect: NONE OBSERVED
+Independent ConsequenceRecord CO-8848: target detection-event rate decreased; neighboring region P8
+remained within logical policy; decoder latency remained within policy; no unexpected effect observed in the
+validation window.
+59. VALIDATION
+ValidationReceipt: VR-8849
+verdict: CONFIRMED
+Domain E re-verifies execution-time lineage and compares CO-8848 to the predeclared success criteria.
+ValidationReceipt VR-8849 = CONFIRMED. The result is historically valid under epoch 0042; continuation still
+requires current governing authority.
+60. STATE TRANSITION
+DEGRADED_OBSERVED
+↓
+AUTHORIZED_ADAPTATION
+
+[Source PDF page 26]
+  GOVERNING ENGINES  |  TECHNICAL ARCHITECTURE HANDOFF
+Governing Engines LLC  |  Governed Adaptive Control for Fault-Tolerant Quantum Systems  |  v1.0  |  26
+↓
+EXECUTED
+↓
+CONFIRMED
+↓
+VALID_ADAPTED_STATE
+The adaptation remains temporary. Baseline BL-113 remains authoritative.
+61. FAILURE VARIANT A
+Suppose target detection-event rate improves, but a neighboring logical-error indicator exceeds its policy
+threshold.
+DISCONFIRMED
+↓
+RECOVERY_REQUIRED
+↓
+ROLLBACK
+Local improvement does not establish system-level success.
+62. FAILURE VARIANT B
+Suppose target detection-event rate improves, but decoder latency exceeds policy. Result: DISCONFIRMED or
+PARTIALLY_CONFIRMED according to predeclared policy. Normal continuation is not automatically
+permitted.
+This demonstrates that quantum-control success must include classical-control viability.
+63. FAILURE VARIANT C
+Suppose Authority Epoch changes from 0042 to 0043 after ControlProposal creation. The Executor receives
+CP-8845 with authority_epoch = 0042.
+Result: REJECTED_STALE_AUTHORITY. No physical action occurs.
+64. FAILURE VARIANT D
+Suppose the adaptation succeeds physically but the ConsequenceRecord cannot be committed to the ledger.
+Result: LEDGER_INTEGRITY_FAILURE. The system does not mark the action
+CONFIRMED. Physical success without preserved evidence is not authoritative success.
+64A. CORRELATED MULTI-REGION DRIFT CASE
+P7, P8, and P9 develop a correlated change in syndrome behavior. A local controller initially proposes a P7-
+only correction. Characterization identifies that the observed condition crosses multiple regions, making the
+local proposal scope inconsistent with the observed failure surface.
+Domain C returns RECHARACTERIZATION_REQUIRED. The P7-only action is not authorized. A multi-region
+OperationalStateRecord is constructed; any subsequent proposal must reference the expanded state and, if
+needed, a broader envelope or new Domain G authorization.
+A locally plausible intervention is blocked when the observed failure surface is
+coupled beyond the proposal scope.
+
+[Source PDF page 27]
+  GOVERNING ENGINES  |  TECHNICAL ARCHITECTURE HANDOFF
+Governing Engines LLC  |  Governed Adaptive Control for Fault-Tolerant Quantum Systems  |  v1.0  |  27
+64B. ADVERSARIAL TELEMETRY CASE
+Telemetry Stream A reports improvement while independently sourced Stream B reports unchanged
+syndrome behavior. Source-attestation or freshness verification fails for Stream A.
+Observation integrity becomes CONFLICTED. The OperationalStateRecord cannot transition to STATE_VALID.
+Domain C blocks consequential proposals derived from the conflicted state. The system enters
+TELEMETRY_INTEGRITY_FAILURE and follows the active isolate, reobserve, or halt policy.
+Conflicting or unauthenticated telemetry cannot be resolved by choosing the
+observation that preserves operation.
+65. EXPERIMENTAL VALIDATION PROGRAM
+PHASE 1 - HISTORICAL REPLAY
+Inputs: existing syndrome data, calibration data, decoder data, control data, and logical-error data. Questions:
+Can the architecture reconstruct valid operational state? Can it detect known drift? Can causal records be
+replayed?
+PHASE 2 - SHADOW CONTROL
+The system generates state estimates, control proposals, and admissibility results without physical execution.
+Compare proposals against actual hardware evolution.
+PHASE 3 - CONTROLLED FAULT INJECTION
+ calibration drift
+ readout degradation
+ leakage increase
+ decoder latency
+ decoder mismatch
+ correlated error burst
+ telemetry loss
+ stale authority
+ replayed authority
+ envelope exhaustion
+ fabricated telemetry
+ replayed telemetry
+ spoofed calibration
+ validator disagreement
+ multi-region correlated drift
+ Domain C defect returning false ADMISSIBLE
+ operator action outside granted scope
+ policy activation attempt without PolicyActivationReceipt
+PHASE 4 - BOUNDED CLOSED LOOP
+Permit only reversible actions inside strict envelopes. Require independent consequence validation. Require
+automatic rollback on disconfirmation.
+
+[Source PDF page 28]
+  GOVERNING ENGINES  |  TECHNICAL ARCHITECTURE HANDOFF
+Governing Engines LLC  |  Governed Adaptive Control for Fault-Tolerant Quantum Systems  |  v1.0  |  28
+PHASE 5 - LOGICAL RELIABILITY TEST
+Evaluate whether governed adaptation improves logical error rate, logical lifetime, valid operating duration,
+fault-tolerant operation count, recovery behavior, and calibration burden.
+66. COMPARATIVE EXPERIMENT
+Compare three configurations:
+ SYSTEM A - STATIC VALIDATED CONTROL
+ SYSTEM B - ADAPTIVE CONTROL WITHOUT INDEPENDENT GOVERNANCE
+ SYSTEM C - GOVERNED ADAPTIVE CONTROL
+Measure physical error behavior, logical error behavior, decoder latency, decoder backlog, adaptation
+latency, false intervention rate, missed-drift rate, adaptation-induced error, rollback frequency, recovery
+success, downtime, valid operating duration, and system overhead.
+67. PRIMARY HYPOTHESIS TEST
+The architecture is supported only if GOVERNED ADAPTIVE CONTROL produces
+measurable improvement in fault-tolerant operation without creating equal or greater
+failure through control overhead, latency, adaptation error, or governance failure.
+68. FALSIFICATION CONDITIONS
+ the available telemetry cannot support meaningful characterization
+ independent authorization creates unacceptable latency
+ adaptation increases logical error
+ adaptive control does not outperform relevant static control
+ evidence-custody overhead is impractical
+ authority synchronization cannot meet operational timing
+ consequence validation cannot distinguish useful intervention
+ recovery destroys more useful state than adaptation preserves
+ decoder adaptation cannot be bounded safely
+ a simpler architecture achieves the same result with less complexity
+68A. ARCHITECTURE REVIEW CLOSURE
+This version closes the principal architecture gaps identified during adversarial review: self-certification by
+the admissibility domain; undefined baseline admission ownership; ungoverned human override; unbound
+Fast Path qualification; unstated learning-to-policy activation; incomplete validation-time epoch and lineage
+checks; non-falsifiable trust-boundary separation; and absence of worked correlated/adversarial cases.
+The remaining engineering questions are intentionally platform-specific: how the trust domains are
+physically isolated, how epoch freshness is enforced at hardware or firmware speed, where evidence custody
+resides, what exact telemetry is available, and which control actions are physically meaningful on the selected
+quantum modality.
+Those are Technical Build Specification questions. They no longer represent undefined
+authority in this architecture.
+
+[Source PDF page 29]
+  GOVERNING ENGINES  |  TECHNICAL ARCHITECTURE HANDOFF
+Governing Engines LLC  |  Governed Adaptive Control for Fault-Tolerant Quantum Systems  |  v1.0  |  29
+69. ENGINEERING HANDOFF
+This document defines system architecture, trust boundaries, operational roles, required records, causal
+dependencies, evidence custody, state-machine behavior, authority epochs, adaptive envelopes, threshold
+governance, admissibility logic, execution constraints, consequence validation, recovery behavior, fault
+model, audit behavior, reference instantiation, experimental path, and falsification conditions.
+The receiving technical organization must derive the platform-specific technical specification.
+70. PLATFORM-SPECIFIC TECHNICAL SPECIFICATION
+The downstream technical specification must determine:
+ physical qubit modality
+ error-correcting code
+ decoder implementation
+ processor partition
+ FPGA / ASIC / CPU / GPU placement
+ cryogenic or room-temperature control placement
+ physical communication paths
+ exact timing budgets
+ control-signal generation
+ telemetry channels
+ record transport
+ signing / attestation mechanism
+ ledger implementation
+ memory architecture
+ fault-containment hardware
+ firmware
+ software
+ integration procedure
+ test instrumentation
+This document deliberately does not fabricate those values. They must be derived from the actual target
+platform.
+71. HANDOFF SUCCESS CONDITION
+The architectural handoff is sufficient when a properly equipped quantum engineering team can answer:
+1. What physical components implement each trust domain?
+2. What timing budget does each transition receive?
+3. Which records can be generated at QEC-cycle speed?
+4. Which records are supervisory?
+5. Where does the ledger physically reside?
+6. How is stale authority blocked at hardware level?
+7. How is validator independence enforced?
+8. What telemetry exists on the selected platform?
+9. Which proposed adaptations are physically meaningful?
+10. What constitutes rollback?
+11. What faults can be injected?
+12. What measurements falsify the architecture?
+
+[Source PDF page 30]
+  GOVERNING ENGINES  |  TECHNICAL ARCHITECTURE HANDOFF
+Governing Engines LLC  |  Governed Adaptive Control for Fault-Tolerant Quantum Systems  |  v1.0  |  30
+72. BOUNDED CLAIM
+This document does not establish that the proposed architecture improves fault-tolerant quantum computing.
+That requires physical implementation and experimental evidence.
+The claim is narrower: fault-tolerant quantum computing depends on a coupled quantum-classical control
+stack whose assumptions, calibration, decoding, timing, and physical behavior may change during operation.
+This document supplies an enforceable architecture for testing whether live characterization, bounded
+adaptive authority, independent admissibility, tamper-evident evidence custody, explicit state transitions,
+independent consequence validation, and governed recovery can improve the reliability of that coupled stack.
+73. FINAL PRINCIPLE
+The architecture does not assume the controller will always be correct. It assumes the
+opposite.
+The estimator can be wrong. The decoder can be wrong. The calibration can become stale. The proposal can
+be wrong. The executor can fail. The validator can disagree. The telemetry can be corrupted. The system can
+lose track of what it thought was true.
+The architecture therefore does not attempt to establish trust by assertion. It establishes a chain in which
+evidence can contradict interpretation, authority can reject capability, execution can be separated from
+success, validation can reject expectation, failure can revoke authority, and historical evidence cannot be
+silently rewritten to make the system appear correct.
+The machine may adapt. The control system may learn. But neither is allowed to
+certify reality on its own behalf.
+Reality retains the last vote.
+73A. TECHNICAL BASIS - FULL-STACK VALIDATION
+DOE Quantum Genesis Q identifies a target of at least 100 logical qubits and hundreds of millions of fault-
+tolerant operations. DOE also describes validation and verification spanning physical hardware, quantum
+gates, logical architectures, algorithms and applications, and classical control systems. This supports the
+system-level premise of the handoff: classical control is inside the fault-tolerance boundary rather than
+outside it. [1]
+73B. TECHNICAL BASIS - REAL-TIME DECODING
+Below-threshold surface-code experiments have integrated real-time decoding into repeated error-correction
+operation. The cited Nature work reports a 1.1 microsecond QEC cycle and approximately 63 microseconds
+average real-time decoder latency for the reported distance-5 implementation, while also discussing scaling
+pressure on decoding throughput. [2] This motivates the split between low-latency pre-authorized Fast Path
+operation and slower supervisory authority.
+73C. TECHNICAL BASIS - LEAKAGE AND CORRELATED ERRORS
+Experimental work has shown that leakage can persist and spread correlated errors across repeated QEC
+cycles, and that active leakage-removal mechanisms can improve stability. [3] Below-threshold work also
+reports rare correlated-error events and residual unmodeled error contributions. [2] These results motivate
+live characterization, explicit model applicability, and the rule that the current decoder or calibration model
+remains separate from current physical evidence.
+
+[Source PDF page 31]
+  GOVERNING ENGINES  |  TECHNICAL ARCHITECTURE HANDOFF
+Governing Engines LLC  |  Governed Adaptive Control for Fault-Tolerant Quantum Systems  |  v1.0  |  31
+73D. TECHNICAL BASIS - ADAPTIVE DECODING
+Calibration-conditioned decoding research exploits the difference between slower hardware-calibration drift
+and low-latency decoding. [4] The architectural relevance is the same even when the decoder implementation
+changes: a changing physical environment may justify adaptive decoding, but the authority to alter the
+decoding regime remains distinct from decoder inference itself.
+73E. TECHNICAL BASIS - BOUNDED INTERPRETATION
+The cited external literature establishes real constraints - real-time decoding, drift, leakage, correlated errors,
+and full-stack validation. It does not establish that Governed Adaptive Quantum Control is correct. This
+document therefore retains an experimental posture: the architecture must be instantiated, compared against
+relevant baselines, and rejected or revised if its added authority separation, evidence custody, or adaptation
+logic fails to produce measurable net benefit.
+74. TECHNICAL REFERENCES
+[1] U.S. Department of Energy, Office of Science. "DOE Launches Competition to Accelerate Development of
+World's First Fault-Tolerant Quantum Computer." September 17, 2026.
+https://www.energy.gov/science/articles/doe-launches-competition-accelerate-development-worlds-first-
+fault-tolerant
+[2] Google Quantum AI and Collaborators. "Quantum error correction below the surface code threshold."
+Nature 638, 920-926 (2025). DOI: 10.1038/s41586-024-08449-y. Published online December 9, 2024; corrected
+April 28, 2026.
+[3] Miao, K. C., McEwen, M., Atalaya, J., et al. "Overcoming leakage in quantum error correction." Nature
+Physics 19, 1780-1786 (2023). DOI: 10.1038/s41567-023-02226-w.
+[4] Stein, S., Kan, S., Liu, C., Harkness, A., Garner, S., Du, Z., Ding, Y., Mao, Y., Li, A. "Calibration-Conditioned
+FiLM Decoders for Low-Latency Decoding of Quantum Error Correction Evaluated on IBM Repetition-Code
+Experiments." arXiv:2601.16123 (2026).
+[5] Google Quantum AI. "Suppressing quantum errors by scaling a surface code logical qubit." Nature 614, 676-
+681 (2023). DOI: 10.1038/s41586-022-05434-1.
+OFFICIAL RELEASE DECLARATION
+This Version 1.0 is the first external release of the architecture. Developmental drafts are lineage artifacts and
+do not supersede this release. Any transmitted revision after this version must preserve version history and
+identify whether the change is clarifying, operational, or governing.
+The receiving organization is not asked to accept the architecture by assertion. It is given sufficient governing
+architecture, operational implementation, enforcement logic, worked cases, and falsification paths to derive a
+platform-specific Technical Build Specification and experimentally determine whether the architecture
+should be implemented, modified, or rejected.
+END DOCUMENT
+GOVERNED ADAPTIVE CONTROL FOR FAULT-TOLERANT QUANTUM SYSTEMS
+Architecture and Operational Implementation Handoff
+DeMarius J. Lawson - Governing Engines - September 2026

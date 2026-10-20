@@ -1,0 +1,899 @@
+PUBLIC SOURCE TEXT EDITION
+PAST. PRESENT. FUTURE.
+Source supplied by the author for public research discovery.
+Text extracted from the supplied artifact; layout, tables and pagination may differ.
+Privacy filtering is marked inline. This is not the original binary artifact.
+
+[Source PDF page 1]
+GOVERNING ENGINES  |  PAST. PRESENT. FUTURE.
+DeMarius J. Lawson  •  Governing Engines  •  September 2026   |   1
+PAST. PRESENT. FUTURE.
+How Humanity Industrialized Representation - and What We Could Point Outward
+Next
+DeMarius J. Lawson
+Governing Engines LLC
+Research Edition v1.2 | September 2026
+We spent centuries making it cheaper to represent the world. The next
+opportunity may be making it cheaper to keep asking the world
+whether our representations are right.
+Research scope
+A comparative systems analysis of ten historical technologies, ten technological forms introduced from
+2022-2025, a present-day reality-facing control set, and the demonstrated components that could support
+machine-extended physical inquiry.
+Evidence posture
+This paper distinguishes documented purpose, demonstrated capability, observed deployment direction,
+architectural inference, and open possibility. It does not treat model output, corporate positioning, or
+internal metrics as independent evidence of external outcomes.
+Abstract
+Technological history is often narrated as a sequence of inventions. This paper examines a different
+object: direction. It asks what constraint a technology initially addressed, what capability it introduced,
+what later optimization concentrated on, and what ultimately settles whether the technology worked.
+Across ten historical cases, the evidence does not support a simple story in which technologies begin
+"real" and later become corrupted by abstraction. Instead, it reveals two intertwined lineages. Some
+technologies primarily expand access to external reality; others expand humanity's ability to reproduce,
+transmit, compute, distribute, generate, and operate representations. General representational
+substrates - especially computers, networks, and the Web - permit human-created abstractions to
+accumulate inside them because they can process a ballistic trajectory, a tax code, a financial
+instrument, a game economy, or a scientific measurement with the same underlying machinery.
+The present-day sample shows a further transition. Several important technologies introduced since
+2022 are born several layers deep inside this accumulated symbolic environment: conversational AI,
+generative image editing, autonomous software engineering, computer-use agents, and browser agents.
+Counterexamples are equally important. AlphaFold 3, patient-specific gene editing, fusion ignition, the
+James Webb Space Telescope, asteroid sample return, Mars oxygen production, and autonomous
+laboratories show that technological civilization remains strongly engaged with external reality.
+The resulting claim is therefore not that humanity has abandoned reality. It is that representation
+throughput has undergone repeated industrial revolutions while evidence acquisition remains
+
+[Source PDF page 2]
+GOVERNING ENGINES  |  PAST. PRESENT. FUTURE.
+DeMarius J. Lawson  •  Governing Engines  •  September 2026   |   2
+more tightly constrained by matter, energy, distance, time, instrumentation, and human
+embodiment.
+Artificial intelligence and robotics create an opportunity to narrow this asymmetry. Machine reasoning
+can generate and manage representations at extraordinary speed; robotics, autonomous laboratories,
+distributed instrumentation, and manufacturing can extend evidence acquisition into environments,
+durations, and experimental volumes that human embodiment cannot easily sustain. But embodiment
+alone does not give reality authority over a reasoning model. Reality determines physical occurrence;
+evidence custody preserves what was observed; and a governed, challengeable process external to the
+model must control claim-state transitions when evidence conflicts with interpretation.
+The future opportunity is not necessarily a mythical intelligence "smarter than humanity." It may be
+persistent infrastructure that lets humanity investigate beyond ordinary human physical reach while
+keeping evidence separate from interpretation, preserving contradiction, and denying any single model,
+person, committee, or instrument unilateral authority to certify a claim. The paper concludes that the
+next frontier may be not merely machines that produce more representations, but systems that make it
+cheaper to keep asking reality whether those representations are right.
+1. Research Question
+Are we using our newest capabilities primarily to discover how far our
+abstractions can go - or are we equally willing to use them to discover
+how far reality goes?
+This question began with a narrower disagreement about artificial intelligence. Contemporary AI
+systems can retrieve, transform, and generate information at speeds no individual human can match.
+That performance is frequently described as greater intelligence. Yet much of the information available
+to these systems consists of human-produced representations: language, laws, financial systems,
+software, academic categories, organizational rules, cultural artifacts, scientific models, and records of
+prior observation. More information about representations is not automatically more direct knowledge
+of reality.
+The distinction matters because a civilization can become extraordinarily capable inside its own
+symbolic environment while leaving large portions of external reality inaccessible to sustained inquiry.
+The question is not whether abstraction is bad. Abstraction is one of civilization's greatest technologies.
+Language, mathematics, maps, scientific models, software, institutions, and money all allow humans to
+coordinate and reason beyond immediate perception.
+The question is whether the abstraction remains connected to the reality from which it derives meaning
+- and whether new technological capacity is used only to deepen the abstraction or also to expand the
+evidence available from outside it.
+2. Method and Analytical Instrument
+The paper uses comparative case tracing rather than a universal quantitative index. Ten historical
+technologies were selected across communication, observation, mechanical power, computation,
+networking, navigation, and publishing. Ten present technological forms were purposively selected
+under a strict date rule: the specific product or capability form had to be introduced between 2022 and
+
+[Source PDF page 3]
+GOVERNING ENGINES  |  PAST. PRESENT. FUTURE.
+DeMarius J. Lawson  •  Governing Engines  •  September 2026   |   3
+2025, rather than merely being an older field that became popular during that period. These present
+cases are comparative examples, not a representative sample and not evidence of the prevalence of
+inward- or outward-directed innovation. A separate reality-facing control set tests the argument against
+major advances from the same period.
+Each case is evaluated through eight questions: initial constraint; initial purpose; capability introduced;
+optimization path; abstraction depth; reality access; settlement; and current direction.
+The method deliberately avoids several shortcuts. Commercialization is not treated as equivalent to
+abstraction. Physical hardware is not treated as equivalent to reality-facing purpose. Corporate launch
+claims are evidence of stated positioning, not proof of capability. A model prediction is not treated as
+physical evidence. A technology can be highly abstract and still remain externally settled. Conversely, a
+physical robot can operate in reality while optimizing an entirely human-created metric.
+3. PAST - What We Built, and Where It Went
+The historical sample does not support a morality tale in which inventions begin pure and later become
+corrupted. It supports a systems story. Technologies that remain dependent on physical settlement tend
+to preserve strong coupling to external reality. Technologies that operate on general representations
+become available to whatever symbolic systems civilization chooses to place inside them.
+3.1 Printing Press
+The printing press attacked the physical and labor cost of reproducing written representation. Movable
+type did not determine whether the reproduced symbols were true, false, scientific, religious,
+commercial, legal, or fictional. Its achievement was representation throughput: text could be reproduced
+at a scale unavailable to manuscript copying. The press therefore belongs primarily to the
+representation-expansion lineage. Its epistemic neutrality is important: increasing the velocity of
+claims does not itself increase the truth of claims.
+3.2 Telescope
+The telescope extended human observation beyond unaided vision. Galileo's early astronomical use
+made previously inaccessible celestial evidence available to direct observation. Subsequent optimization
+- larger apertures, improved optics, photography, spectroscopy, non-visible wavelengths, orbital
+observatories, Hubble, and Webb - repeatedly returned to the same external target: acquire more
+evidence from the universe. The telescope is a strong counterexample to any claim that technological
+optimization naturally drifts inward.
+3.3 Steam Engine
+Newcomen's atmospheric engine addressed mine drainage and mechanical work. Later improvements
+increased efficiency and generalized steam power across manufacturing and transportation.
+Commercial pressure did not detach the technology from reality; it often rewarded better physical
+performance. Steam therefore demonstrates that economic optimization can intensify reality-facing
+capability when physical work is itself the valuable outcome.
+3.4 Telegraph
+The telegraph reduced communication latency across distance. It was representational from birth:
+electrical signals carried messages. Railroads, news, commerce, finance, government, and personal
+
+[Source PDF page 4]
+GOVERNING ENGINES  |  PAST. PRESENT. FUTURE.
+DeMarius J. Lawson  •  Governing Engines  •  September 2026   |   4
+communication rapidly adopted it. The key change was not that the telegraph became abstract; it was
+that a general communications substrate could carry increasingly diverse abstractions.
+3.5 Telephone
+The telephone extended vocal communication beyond biological hearing range. Like the telegraph, it
+was representation-expanding from the start. Its later absorption into smartphones and general
+computing should not be mistaken for a linear evolution of the telephone alone. The important pattern
+is capability absorption: communication became one function inside a more general representational
+machine.
+3.6 Radio
+Radio extended communication without physical wires. Broadcasting then introduced an economic
+problem: continuous transmission needed a funding model. Advertising helped convert audience
+attention into an optimization target. The electromagnetic capability remained physical and unchanged,
+while the objective layered on top of it shifted. Radio shows how optimization pressure can change
+without changing the underlying physical technology.
+3.7 Electronic Computer
+ENIAC was developed primarily for high-speed calculation of artillery firing tables, but programmable
+computation was general. Once something could be formalized symbolically, the computer could
+operate on it. Scientific equations, payroll, tax rules, financial instruments, games, simulations,
+advertisements, and software all became computational material.
+This representational generality is central to the later accumulation of abstraction. A computer can
+calculate a planetary trajectory and an advertising auction without caring which represents external
+physics and which represents a human-created market.
+3.8 ARPANET and the Internet
+A major early motivation for ARPANET and the Internet was resource sharing among expensive
+geographically separated computers. Email quickly became a dominant application, and the network
+evolved into general infrastructure for communication, information, commerce, entertainment, and
+institutional operations. The Internet Society explicitly describes general-purpose infrastructure as a
+defining feature. The network did not abandon its purpose so much as become a substrate for purposes
+that could not have been exhaustively specified at launch.
+3.9 GPS
+GPS provides positioning, navigation, and timing. It now supports logistics, surveying,
+telecommunications, finance, and many other systems, including highly abstract ones. Yet its core
+service remains externally anchored to physical position and time. GPS therefore demonstrates that a
+representational system can be deeply embedded in abstraction while retaining strong external
+settlement.
+3.10 World Wide Web
+The Web was conceived at CERN to meet demand for automated information sharing among scientists
+and institutions. Its open architecture then supported publishing, commerce, search, social platforms,
+entertainment, institutional interfaces, and software applications. The Web was representational from
+
+[Source PDF page 5]
+GOVERNING ENGINES  |  PAST. PRESENT. FUTURE.
+DeMarius J. Lawson  •  Governing Engines  •  September 2026   |   5
+birth. Its historical importance for this paper lies in the scale at which it made networked representation
+accessible and extensible.
+3.11 What the Past Actually Shows
+The historical evidence supports four broad classes: reality-extension technologies, representation-
+extension technologies, general representation substrates, and mixed systems. The most
+consequential transition occurs when a technology becomes sufficiently general that other human
+abstractions can be built inside it.
+By the beginning of the twenty-first century, humanity had spent
+centuries making its representations increasingly reproducible,
+transmissible, programmable, networked, and accessible. When
+generative AI arrived, it did not encounter an empty world. It
+encountered a civilization already translated into symbols.
+That historical buildup matters. AI did not independently choose to become abstraction-heavy. It arrived
+inside an enormous machine-readable environment built by prior technologies.
+4. PRESENT - Machines Born Inside the Abstraction Environment
+The present sample is intentionally narrow. It does not represent all important technologies introduced
+in the last five years, and no percentage claim is inferred from it. Its purpose is to examine a striking
+contemporary condition: important new technologies can now be born several layers deep inside
+systems humanity previously constructed.
+4.1 ChatGPT - 2022
+OpenAI released ChatGPT in November 2022 as a conversational research preview designed to answer
+follow-up questions, admit mistakes, challenge incorrect premises, and gather feedback about strengths
+and weaknesses. Its later development expanded into coding, research, files, search, software
+interaction, and organizational workflows.
+The key point is not that it was launched for business. It is that a general conversational machine
+immediately found an enormous environment of existing representations to operate.
+4.2 Apple Vision Pro / visionOS - 2023
+Apple introduced Vision Pro as its first spatial computer, explicitly describing it as blending digital
+content with the physical world. Yet its launch proposition prominently included apps, productivity,
+entertainment, communication, and virtual displays.
+Spatial computing therefore demonstrates that moving an abstraction into physical space does not
+necessarily change the underlying activity. It also supports reality-coupled applications, making it a
+mixed case rather than a simple inward one.
+4.3 Photoshop Generative Fill - 2023
+Adobe introduced Generative Fill to add, extend, or remove image content through text prompts and
+explicitly positioned it as a way to accelerate creative ideation, exploration, and production.
+
+[Source PDF page 6]
+GOVERNING ENGINES  |  PAST. PRESENT. FUTURE.
+DeMarius J. Lawson  •  Governing Engines  •  September 2026   |   6
+This technology is representation-native. Physical correspondence is not required for success. That is not
+a criticism; it is what the technology is designed to do.
+4.4 Humane AI Pin - 2023
+Humane's AI Pin attempted to move personal AI interaction away from a conventional phone screen
+through voice, touch, gesture, cameras, and projected information. Its functions remained largely
+informational and communicative.
+The important distinction is interface displacement: moving the informational system into the
+environment does not necessarily move the objective toward external inquiry.
+4.5 Devin - 2024
+Cognition introduced Devin as an AI software engineer equipped with a shell, code editor, and browser,
+intended to plan and execute complex software-engineering tasks.
+This is a technology born directly inside accumulated abstraction: computers produced software
+environments complex enough that a new autonomous system was created specifically to operate and
+expand those environments.
+4.6 Sora - 2024
+OpenAI connected Sora to research toward general-purpose simulators of the physical world. Yet the
+demonstrated output is generated video. This creates an important epistemic category: reality-modeling
+through synthetic representation.
+A generated physical-looking event is not physical evidence that the event occurred. A simulation can
+become more realistic without becoming an observation. For a claimed world simulator, external
+settlement would require more: the system would need to make discriminating predictions about
+physical outcomes and those predictions would need to survive independent observation or experiment
+outside the generator. Visual plausibility alone cannot establish physical understanding.
+4.7 AlphaFold 3 - 2024
+AlphaFold 3 materially expanded biomolecular prediction across proteins, nucleic acids, small
+molecules, ions, and modified residues. It is representation-heavy but reality-targeted: the molecular
+systems it predicts exist independently of the model.
+Its predictions are not Reality Primacy. Experimental biology remains external. AlphaFold 3 therefore
+demonstrates abstraction in service of reality inquiry rather than abstraction as the destination.
+4.8 Claude Computer Use - 2024
+Anthropic introduced computer use by noting that a vast amount of modern work happens through
+computers. The model can interpret screens and issue mouse and keyboard actions.
+The rationale itself captures the historical condition: humans moved work into computers, then built AI
+capable of operating the computers. The machine increasingly participates inside the abstraction
+environment rather than merely carrying representations through it.
+4.9 Operator - 2025
+OpenAI introduced Operator as a browser-using agent capable of typing, clicking, scrolling, filling forms,
+and performing web tasks. The execution environment is abstraction-heavy even when the downstream
+consequence is physical. Ordering groceries through a browser eventually moves physical food, but the
+
+[Source PDF page 7]
+GOVERNING ENGINES  |  PAST. PRESENT. FUTURE.
+DeMarius J. Lawson  •  Governing Engines  •  September 2026   |   7
+agent's immediate environment is a human-created representation of commercial and institutional
+processes.
+4.10 Patient-Specific In Vivo Gene Editing - 2025
+Researchers reported developing a customized base-editing therapy for an infant with severe CPS1
+deficiency, administering two infusions within months of diagnosis. Early results were encouraging but
+explicitly required longer follow-up.
+This case is strongly reality-targeted. The intervention either changes physical biology as intended or it
+does not. Clinical and biological evidence, not the model's confidence, determines what can be
+established.
+4.11 What Present Shows - and Does Not Show
+This sample does not establish that most modern technology is inward-facing. It does establish that
+several important technological forms can now be born deep inside accumulated abstraction.
+Past representational technologies largely copied, moved, or computed representation. Present AI
+increasingly interprets, generates, navigates, and acts through representation. That is a real
+transition.
+5. CONTROL GROUP - Reality Did Not Stop
+A thesis this broad becomes useless if it ignores counterevidence. The 2021-2026 period also contains
+major reality-facing advances.
+Lawrence Livermore National Laboratory achieved laboratory fusion ignition in December 2022 after
+decades of work. The James Webb Space Telescope expanded observation of the early universe, star and
+planet formation, and distant worlds. OSIRIS-REx returned physical material from asteroid Bennu to
+Earth in 2023; later analysis identified amino acids and all five nucleobases used in terrestrial genetics
+while explicitly not establishing evidence of life. NASA's MOXIE produced oxygen from the Martian
+atmosphere sixteen times. The FDA approved the first CRISPR/Cas9-based therapy in 2023. Autonomous
+laboratories such as A-Lab connected computational planning to hundreds of physical materials
+experiments.
+These cases kill the claim that technological civilization has abandoned reality.
+They expose a better mechanism.
+Reality-facing inquiry remains vigorous, but physical inquiry carries physical friction.
+A million additional language-model interactions can be produced primarily by allocating more
+compute. Another asteroid sample requires spacecraft, launch, navigation, years of transit, sample
+acquisition, return, recovery, and laboratory analysis. Fusion requires extreme physical conditions and
+specialized facilities. Space telescopes require large physical systems that must survive deployment and
+operation far from Earth.
+Reality did not become cheap because computation did.
+
+[Source PDF page 8]
+GOVERNING ENGINES  |  PAST. PRESENT. FUTURE.
+DeMarius J. Lawson  •  Governing Engines  •  September 2026   |   8
+6. The Asymmetry: Representation Throughput vs. Evidence
+Throughput
+Humanity has progressively removed different constraints from representation.
+The printing press reduced the cost of reproduction. Telecommunications reduced the cost of distance
+and latency. Computers reduced the cost of calculation and transformation. Networks and the Web
+reduced the cost of distribution and access. Search and cloud systems reduced the cost of storage,
+retrieval, and computational availability. Generative AI reduces the cost of production and
+manipulation.
+Representations can now be created, copied, transformed, transmitted, stored, searched, recombined,
+and regenerated at extraordinary scale.
+Physical evidence cannot scale in the same way. A representation of Mars can travel essentially at light
+speed. A physical instrument still has to get to Mars. A model can generate ten thousand candidate
+materials computationally; physical synthesis still requires matter, energy, equipment, and time. A
+model can generate a thousand experimental hypotheses; reality does not owe it a thousand
+experiments per second.
+This produces a fundamental asymmetry:
+Representation can increasingly scale independently of the physical
+processes it represents. Evidence cannot.
+The danger is therefore not abstraction itself. It is asymmetrical scaling. A civilization can become
+more productive informationally without becoming proportionally more knowledgeable empirically.
+6.1 Claim Throughput and Verification Throughput
+The printing press increased access to claims. Radio and television increased their reach. The Internet
+increased distribution. Social platforms reduced publication friction. Generative AI increases not merely
+distribution but production.
+Yet none of these technologies automatically increases the truth of the resulting claim.
+The modern condition can therefore be described as a growing mismatch between Claim Throughput
+and Verification Throughput. More AI checking AI may increase internal evaluation capacity, but
+unless external evidence enters the loop, the process can remain representational recursion.
+6.2 Why Capability Falls Inward
+Abstraction has structural advantages as a destination for new technology. It is digitally accessible.
+Feedback is fast. Economic value is often easier to represent. Existing infrastructure can be reused.
+Failure is frequently cheaper. Institutions also operate under finite funding, career, product, and
+political horizons.
+This can create an optimization gradient toward problems where value can be measured quickly and
+infrastructure already exists. The gradient is not universal: public research institutions, universities,
+national laboratories, observatories, and basic-science programs were built in part to support inquiry
+whose applications and economic returns may be uncertain or distant.
+
+[Source PDF page 9]
+GOVERNING ENGINES  |  PAST. PRESENT. FUTURE.
+DeMarius J. Lawson  •  Governing Engines  •  September 2026   |   9
+A company can calculate the return from reduced labor hours or improved conversion rates. The return
+from investigating an unknown geological phenomenon for thirty years may be impossible to price in
+advance. U.S. research funding patterns illustrate the distinction: business finances most total R&D,
+while federal support remains especially important to basic research, where economic returns are
+typically longer-horizon and more uncertain.
+This paper uses Discovery Legibility in a deliberately narrow sense: the degree to which the prospective
+value of investigating an unknown can be represented inside the decision system allocating resources
+before the discovery occurs.
+When a resource-allocation system requires prospective value to be specified before inquiry begins,
+poorly legible unknowns face a structural disadvantage. Basic-research institutions are a deliberate
+countermechanism to that disadvantage, not evidence that it does not exist.
+7. External Settlement and Contradiction Authority
+The analysis requires another distinction. Physical interaction alone is not enough.
+A warehouse robot can physically pick up boxes while optimizing an entirely abstract metric such as
+units per hour. A digital twin can be highly representational yet remain useful only if it corresponds to a
+physical machine. AlphaFold can produce sophisticated molecular predictions while experimental
+biology retains the ability to contradict them.
+The critical question is not simply whether a technology is physical or abstract. It is where the claim
+settles.
+7.1 Operational Settlement
+Operational settlement asks whether the intended operation occurred.
+Did the robot move the box? Did the code compile? Did the transaction complete? Did the spacecraft
+execute the maneuver?
+7.2 Epistemic Settlement
+Epistemic settlement asks whether a representation corresponds sufficiently to something
+independently existing.
+Did the predicted structure match physical measurement? Did the material survive the claimed load?
+Did the map correspond to terrain? Did the scientific hypothesis survive experiment?
+A system can have excellent operational settlement and poor epistemic settlement.
+7.3 Contradiction Authority and Claim-State Governance
+Even external evidence is insufficient if the reasoning system retains authority to explain away every
+contradiction without changing the status of its claim. But moving that authority to a human, committee,
+instrument, or second model does not solve the problem by itself. The relevant authority must belong to
+a governed process rather than to an actor.
+The key architectural requirement is therefore:
+When externally preserved evidence conflicts with a model's
+representation, the model must not possess sole authority to preserve
+the claim as established. A claim-state process external to the model
+
+[Source PDF page 10]
+GOVERNING ENGINES  |  PAST. PRESENT. FUTURE.
+DeMarius J. Lawson  •  Governing Engines  •  September 2026   |   10
+should apply explicit evidence requirements and transition rules to
+determine what the available evidence currently permits the system
+to claim.
+The model may propose that a sensor malfunctioned. That is a legitimate new hypothesis. It may request
+replication. It may identify contamination or calibration error. But it cannot transform an observed
+failure into an event that did not occur. The external process is itself fallible, so its decisions require
+provenance, preserved contradictions, independent challenge, revalidation when new evidence arrives,
+and rollback when a prior promotion is no longer supported.
+Occurrence is not interpretation.
+Worked example - bounded claim demotion
+Claim: Material X remains structurally intact at 1,000 MPa under test conditions Y. Current claim state:
+SUPPORTED.
+New evidence: three independently preserved, calibrated tests record failure at 620-640 MPa under the
+same bounded conditions Y. The reasoning model proposes that the instrumentation may be defective.
+Governed transition: SUPPORTED -> PENDING_REVALIDATION. The transition occurs because the
+promoted claim now conflicts with evidence satisfying the predeclared test conditions. The model may
+request calibration checks, replication, or an alternative causal test, but it may not retain SUPPORTED
+solely by explaining away the contradiction.
+If independent replication confirms failure, the bounded original claim transitions
+PENDING_REVALIDATION -> DISCONFIRMED. If an instrumentation defect is independently established,
+the conflicting evidence is marked invalid with provenance preserved and the claim is re-evaluated; it is
+not silently restored. The example does not make the process infallible. It shows where authority sits:
+transition rules govern claim status, while reality remains outside the process and determines what
+actually occurred.
+For a physical vessel, reality itself supplies consequence. The ground supports the vessel or it does not.
+The shielding survives or it does not. The material breaks or it does not. The vessel cannot override
+physical consequence.
+A reasoning model has no equivalent automatic relationship. Physical consequence reaches it only as
+information. Therefore evidence custody and claim-state governance must remain external to the model
+if reality is to retain authority across the boundary from physical consequence to symbolic reasoning.
+Reality determines what occurred; the governed process determines only what the available evidence
+currently justifies claiming.
+8. FUTURE - Industrializing Inquiry
+The future opportunity is not to eliminate abstraction. It is to close the loop between abstraction and
+reality more often, across more environments, at greater scale, and over longer periods than human
+embodiment currently allows.
+The relevant question is not whether AI can become a mythical mind infinitely smarter than humanity.
+A system can create extraordinary value simply by combining capabilities humans already struggle to
+sustain simultaneously: high information throughput, large memory, continuous operation, rapid
+
+[Source PDF page 11]
+GOVERNING ENGINES  |  PAST. PRESENT. FUTURE.
+DeMarius J. Lawson  •  Governing Engines  •  September 2026   |   11
+retrieval, distributed sensing, physical instrumentation, robotic execution, and long-duration
+experimental continuity.
+8.1 Four Frontiers of Machine-Extended Inquiry
+Spatial frontier. Machines can operate in environments humans cannot practically inhabit: deep ocean,
+subsurface environments, extreme radiation zones, other planetary bodies, and eventually more distant
+destinations.
+Temporal frontier. Machines can observe processes continuously across periods longer than individual
+careers and potentially longer than individual human lifetimes.
+Scale frontier. Instruments can operate at microscopic, molecular, astronomical, or massively
+distributed scales beyond ordinary human perception and attention.
+Experimental-volume frontier. Autonomous laboratories and distributed instruments can execute and
+monitor more physical experiments than individual human researchers can personally perform.
+These are not substitutes for human science. They are extensions of where human inquiry can reach.
+8.2 Demonstrated Components Already Exist
+The complete architecture described here has not been demonstrated. Its individual components,
+however, increasingly have.
+NASA's Autonomous Sciencecraft Experiment demonstrated onboard event detection, scientific
+prioritization, planning, and observation changes on the EO-1 spacecraft. NASA's Starling mission has
+demonstrated distributed spacecraft autonomy in which multiple spacecraft coordinate observations
+and workloads with limited ground intervention. A-Lab performed 353 materials experiments during 17
+days of closed-loop operation, connecting computation, robotics, machine learning, and active learning
+to physical synthesis. NASA has used computational generative design to produce mission hardware
+optimized against engineering constraints. The Deep Space Network already supports communication
+with interplanetary spacecraft.
+MOXIE crossed another important boundary on Mars: local extraterrestrial material was processed into
+a useful product. Across sixteen runs, the experiment extracted oxygen from the Martian atmosphere.
+NASA's broader in-situ resource utilization program explicitly investigates using local water, oxygen,
+metals, regolith, and atmospheric gases to reduce dependence on Earth and enable longer-duration
+exploration.
+These demonstrations do not establish a self-sustaining autonomous off-world research factory. They
+establish that many of the required primitives are no longer hypothetical.
+8.3 Evidence Horizons and Architectural Extrapolation
+To keep the Future section from converting component demonstrations into system-level proof, this
+paper uses three evidence horizons.
+Horizon I - Demonstrated components: bounded capabilities already shown in operation, such as
+autonomous scientific decision-making, robotic experimentation, deep-space communication, generative
+engineering, long-duration machine operation, and limited extraterrestrial resource processing.
+Horizon II - Active engineering and foreseeable integration: capabilities under development or plausible
+combinations of demonstrated components, including greater ISRU, robotic assembly, more autonomous
+manufacturing, distributed sensing, and higher-capacity space communications.
+
+[Source PDF page 12]
+GOVERNING ENGINES  |  PAST. PRESENT. FUTURE.
+DeMarius J. Lawson  •  Governing Engines  •  September 2026   |   12
+Horizon III - Architectural extrapolation and open possibility: the unproven integration of these
+capabilities into persistent adaptive research/manufacturing infrastructure, including dynamically
+translating new evidence requirements into newly designed and manufactured instruments over long
+durations.
+A future research system could combine those trajectories into a persistent loop:
+human question -> reasoning -> required evidence -> required physical interaction -> instrument or
+vessel specification -> manufacture/deployment -> physical consequence -> evidence custody -> governed
+external claim-state decision -> revised question.
+The reasoning system need not physically inhabit the research vessel. Keeping primary reasoning
+infrastructure on Earth can be advantageous: compute can be maintained and upgraded, humans
+remain connected to objectives and consequential decisions, and the physical research layer can remain
+replaceable.
+A communications network can carry bounded research packages outward and evidence inward. Local
+systems require operational autonomy because light-speed delay prevents Earth from remaining inside
+every low-level control loop. Navigation, collision avoidance, thermal management, fault recovery, safe
+shutdown, and communications recovery can therefore be local without granting the remote system
+independent epistemic authority over its scientific claims.
+The off-world physical layer can be treated as instrumentation rather than as the intelligence itself.
+8.4 Replaceable Embodiment
+The unanswered question should determine the embodiment.
+A machine investigating a planetary atmosphere need not resemble a machine entering a fissure. A
+distributed sensor field need not resemble a rover. A sacrificial probe need not be designed to return. A
+stationary instrument intended to observe for thirty years may need no locomotion at all.
+This reverses the common framing. The question is not, "What can this robot investigate?" It is:
+What embodiment does this question require?
+If the vessel is destroyed, the research program need not be destroyed with it. The evidence acquired
+before failure can survive elsewhere. A replacement vessel can incorporate what was learned. Failure
+becomes an experimental loss rather than necessarily the loss of the inquiry itself.
+Do not make the machine immortal. Make the research survive its
+machines.
+8.5 Local Manufacturing as an Inquiry Multiplier
+Space programs already investigate in-situ resource utilization because transporting every needed
+kilogram from Earth is expensive. NASA explicitly frames ISRU as using resources available at mission
+destinations to produce water, oxygen, propellant, building materials, and other useful products.
+The deeper research opportunity is not merely to reproduce Earth manufacturing elsewhere. It is to
+determine the local manufacturing envelope: what materials are actually accessible, what processing
+works under local conditions, what properties locally manufactured materials exhibit, what component
+classes can be made reliably, and which inputs still require Earth.
+That creates an outward-facing compounding loop:
+
+[Source PDF page 13]
+GOVERNING ENGINES  |  PAST. PRESENT. FUTURE.
+DeMarius J. Lawson  •  Governing Engines  •  September 2026   |   13
+observation -> material evidence -> processing capability -> manufacturing capability -> new
+instrument -> greater environmental access -> new evidence.
+The first locally manufactured component is therefore not just a logistics milestone. It shortens the
+physical iteration loop between an unanswered question and the next instrument capable of
+investigating it.
+8.6 A Factory as a Physical Question Compiler - Architectural Extrapolation
+One possible long-horizon architecture is a research/manufacturing system capable of translating an
+unresolved scientific question into physical requirements when existing instruments cannot obtain the
+necessary evidence. This capability has not been demonstrated end to end.
+The proposed translation is: unknown -> evidence requirement -> interaction requirement -> instrument
+requirement -> manufacturable design -> physical artifact.
+If such integration became reliable, the resulting artifact could enter the environment and convert
+previously inaccessible physical conditions into evidence. The important claim is architectural, not
+predictive: several bounded precursors exist, but their composition into a persistent autonomous design-
+manufacture-deploy-investigate loop remains unresolved engineering.
+Current obstacles include interoperability among AI, hardware, and software; robotic maintenance and
+repair; reproducibility and trust in self-driving laboratories; autonomous manufacturing from local
+feedstocks; cooperative robotic interfaces; and sustained operation without human servicing.
+Generative engineering, autonomous science, robotic manufacturing, distributed sensing, and ISRU are
+therefore precursors rather than proof of the complete architecture. Under the evidence horizons
+defined in §8.3, the 'physical question compiler' belongs to Horizon III: an architectural extrapolation
+whose feasibility depends on solving those integration gaps.
+8.7 Longitudinal Machine Inquiry
+Human research institutions can outlive individuals, but experimental continuity remains vulnerable to
+funding changes, staff turnover, fragmented records, equipment replacement, disciplinary boundaries,
+and shifting priorities.
+A machine-extended research architecture could preserve a tighter lineage across decades: what was
+observed; how it was observed; raw evidence where practical; instrument state and environmental
+conditions; processing applied; interpretation at the time; uncertainty; later challenges; and claim-state
+history.
+That distinction matters because future understanding may make old evidence newly important. An
+anomaly dismissed in Year 7 may become meaningful after a discovery in Year 79. If only the conclusion
+"sensor artifact" survives, the future inherits the past's interpretation. If the evidence and provenance
+survive, the future can interrogate what actually happened.
+The future should inherit the past's evidence, not merely the present's
+conclusions.
+8.8 One Hundred Years Without Predicting Year One Hundred
+A century-scale machine research program should not be justified by pretending to know what it will
+discover. That would reproduce the epistemic error the architecture is designed to resist.
+
+[Source PDF page 14]
+GOVERNING ENGINES  |  PAST. PRESENT. FUTURE.
+DeMarius J. Lawson  •  Governing Engines  •  September 2026   |   14
+The honest sequence is a progression of questions. Early years may establish what is present, what can
+be accessed, what can be processed, and what can be manufactured reliably. Later years may use that
+capability to reach environments inaccessible to the original instruments. Those environments may
+expose phenomena that require new measurements. New evidence may demand new embodiments.
+If the program succeeds, its later questions should not all be predictable at launch.
+A successful century of inquiry should produce questions its designers
+were incapable of specifying at the beginning.
+9. Why This Is Not a Superintelligence Argument
+The term "superintelligence" often combines several different advantages: information volume, retrieval
+speed, processing speed, memory, reasoning quality, and autonomy. Those dimensions should be
+separated.
+A machine may retain more recorded information than any individual human could encounter in a
+lifetime. It may retrieve that information faster. It may compare more observations simultaneously.
+Those advantages can produce performance beyond individual humans without proving that the
+machine possesses a fundamentally superior form of intelligence.
+The more useful question for this paper is what happens when machine throughput is connected to
+evidence humans could not otherwise acquire.
+A system with one hundred years of preserved experiments, millions of observations, thousands of
+failed hypotheses, and continuous environmental measurements occupies a radically different
+informational position from a human researcher. Its advantage may be best described not as mystical
+intelligence but as superhuman experimental continuity.
+That continuity matters only if the evidence remains distinguishable from the system's interpretations of
+it.
+10. Implications for Technological Direction
+This paper does not argue that civilization should stop optimizing software, commerce, communication,
+administration, entertainment, or other human-created systems. Those systems are real parts of human
+life and often produce physical consequences.
+The argument is about option space.
+When access to powerful general-purpose technology is allocated through systems that reward fast
+feedback, measurable returns, existing infrastructure, and low failure cost, those problems can attract
+capacity quickly. That can produce enormous value. It can also leave possibilities underexplored when
+their value is difficult to specify before discovery.
+This is why basic science, public research institutions, observatories, national laboratories, and space
+agencies matter. They are institutional countermechanisms for investigating questions whose value
+cannot always be represented in advance.
+AI creates a new version of that allocation question.
+
+[Source PDF page 15]
+GOVERNING ENGINES  |  PAST. PRESENT. FUTURE.
+DeMarius J. Lawson  •  Governing Engines  •  September 2026   |   15
+Do we use machine capability only to operate the symbolic world we already built more efficiently? Or
+do we deliberately invest some of that capability in expanding the empirical boundary of what
+humanity can observe, test, and understand?
+The choice is not binary. AI can process invoices and investigate Europa. Robots can move warehouse
+inventory and enter environments humans cannot survive. Generative models can create
+advertisements and propose hypotheses for externally controlled experiments.
+The issue is whether outward inquiry receives deliberate infrastructure rather than being expected to
+emerge automatically from the same incentives that reward short-term abstraction optimization.
+11. Limitations and Counterclaims
+Several limitations constrain this paper's conclusions.
+First, the case sets are purposive analytical samples, not statistically representative inventories of
+technological development. The present sample intentionally includes culturally visible technologies and
+cannot support claims about the prevalence, percentage, or economy-wide share of modern innovation
+directed inward or outward. Its narrower use is comparative: it demonstrates that important new
+technologies can now originate several layers inside accumulated representational infrastructure.
+Second, the categories are not mutually exclusive. A technology can expand reality access while
+operating through representations. GPS, digital twins, AlphaFold, autonomous vehicles, and scientific
+simulations demonstrate this. The key distinction is not whether abstraction exists, but whether external
+evidence remains capable of constraining claims.
+Third, economic incentives are not inherently hostile to reality-facing inquiry. Commercial pressure
+improved steam engines, supports launch systems, finances biotechnology, and can accelerate scientific
+instrumentation. The argument is narrower: short feedback loops and legible returns can create a
+structural advantage for abstraction-facing applications.
+Fourth, physical evidence is not automatically interpreted correctly, and an external claim-state process
+is not infallible merely because it sits outside the model. Instruments can fail; data can be contaminated;
+experiments can be poorly designed; validation rules can be wrong; and human reviewers can be
+biased. Evidence authority therefore requires calibration, provenance, replication, independent
+methods, preserved contradiction, challenge paths, revalidation, explicit uncertainty, and rollback
+rather than naive trust in any single measurement or decision-maker.
+Fifth, the Future architecture remains an extrapolation. Autonomous science, robotic experimentation,
+generative design, deep-space communications, ISRU, and long-duration machine operation exist in
+bounded forms. Their integration into persistent adaptive research/manufacturing infrastructure has
+not been demonstrated, and current self-driving laboratories and robotic systems still face substantial
+interoperability, maintenance, reproducibility, trust, and human-servicing requirements.
+Finally, no architecture removes reality's physical constraints. Distance, energy, radiation,
+thermodynamics, communication latency, material limits, and experiment duration remain. Machines
+can reduce some human-imposed costs of inquiry. They cannot negotiate the conditions of reality itself.
+12. Conclusion
+Humanity has not stopped exploring reality. It has done something more complicated.
+
+[Source PDF page 16]
+GOVERNING ENGINES  |  PAST. PRESENT. FUTURE.
+DeMarius J. Lawson  •  Governing Engines  •  September 2026   |   16
+Over centuries, we built technologies that made representation increasingly reproducible, transmissible,
+programmable, networked, accessible, and now generative. Those technologies created enormous
+symbolic environments in which modern civilization operates. Contemporary AI arrived inside that
+environment and immediately became useful there.
+That is not a failure. It is the predictable result of the world we built.
+But it is not the boundary of what machine capability can become.
+The next technological frontier may not require a machine that "knows" more human abstractions than
+any person. It may require infrastructure that lets machines help humanity acquire more evidence than
+human bodies, human lifetimes, and human physical reach currently permit.
+Robotics can extend where computation touches reality. Autonomous laboratories can increase
+experimental volume. Distributed instruments can increase observational coverage. Local
+manufacturing can shorten physical iteration cycles. Replaceable vessels can make some failures
+affordable. Long-duration evidence custody can allow future understanding to revisit past observations.
+None of those capabilities removes the need for human purpose, scientific judgment, or external
+epistemic authority.
+In fact, greater machine capability makes those separations more important.
+The reasoning model should not become custodian of the evidence against itself. The vessel does not
+need a philosophy of Reality Primacy; reality already supplies consequence. The model does. Evidence
+must cross from physical consequence into symbolic reasoning without becoming subordinate to the
+representation it may contradict, and claim-state transitions must remain governed by an external,
+challengeable process rather than by any single actor.
+Human abstraction gave civilization extraordinary reach. The task is not to abandon it. The task is to
+remember what it is for.
+Use abstraction as an instrument for encountering reality - not as a
+substitute for it.
+We already know how to send AI through our paperwork, our software, our markets, our images, and
+our institutions.
+The remaining question is where else we are willing to point it.
+We spent centuries industrializing representation. The next frontier
+may be industrializing inquiry.
+13. Research and AI Participation Disclosure
+The governing research question, thesis direction, distinctions between reality and human abstraction,
+and the decision to investigate technological direction originate with DeMarius J. Lawson.
+AI materially participated in the research process. Its participation included source discovery, historical
+comparison, candidate case selection, counterexample search, conceptual stress-testing, synthesis,
+structural drafting, and identification of places where the argument outran available evidence.
+
+[Source PDF page 17]
+GOVERNING ENGINES  |  PAST. PRESENT. FUTURE.
+DeMarius J. Lawson  •  Governing Engines  •  September 2026   |   17
+AI participation was not treated as independent evidence for the claims it helped formulate. External
+sources were used to establish factual claims, and the research direction was repeatedly revised when
+evidence or architectural reasoning contradicted an earlier formulation.
+The collaboration can be described as extended inquiry rather than outsourced judgment: human
+direction and custody determined the research object and what claims survived; machine throughput
+expanded the reachable surface of sources, comparisons, and candidate explanations.
+This disclosure is material to the subject of the paper. The paper argues that machine-generated
+representation should not be confused with external evidence. The research process therefore does not
+conceal the machine's role or grant that role evidentiary authority it does not possess.
+The research record is conversational and iterative rather than a complete machine-auditable chain of
+every epistemic transition. The paper therefore discloses material AI participation and methodological
+limitations without claiming perfect provenance over every intermediate reasoning step.
+14. References
+1. CERN. A Short History of the Web. Original purpose and development of the World Wide Web.
+2. Internet Society. A Brief History of the Internet. ARPANET/Internet resource sharing, email
+adoption, and general-purpose infrastructure.
+3. GPS.gov. GPS. Positioning, navigation, and timing system definition.
+4. OpenAI. Introducing ChatGPT. November 30, 2022.
+5. Apple. Introducing Apple Vision Pro: Apple's First Spatial Computer. June 5, 2023.
+6. Adobe. Adobe Unveils Future of Creative Cloud With Generative AI as a Creative Co-Pilot in
+Photoshop. May 23, 2023.
+7. Cognition. Introducing Devin, the First AI Software Engineer. March 12, 2024.
+8. OpenAI. Video Generation Models as World Simulators. February 15, 2024.
+9. Abramson, J. et al. Accurate Structure Prediction of Biomolecular Interactions with AlphaFold 3.
+Nature 630, 493-500 (2024).
+10. Anthropic. Developing a Computer Use Model. October 22, 2024.
+11. OpenAI. Introducing Operator. January 23, 2025.
+12. Musunuru, K. et al. Patient-Specific In Vivo Gene Editing to Treat a Rare Genetic Disease. New
+England Journal of Medicine (2025).
+13. Lawrence Livermore National Laboratory. Ignition. December 5, 2022 milestone.
+14. NASA. Science with Webb. James Webb Space Telescope science goals.
+15. NASA. NASA's Asteroid Bennu Sample Reveals Mix of Life's Ingredients. January 29, 2025.
+16. NASA/JPL. NASA's Oxygen-Generating Experiment MOXIE Completes Mars Mission. September
+6, 2023.
+17. U.S. Food and Drug Administration. FDA Approves First Gene Therapies to Treat Patients with
+Sickle Cell Disease. December 8, 2023.
+18. Szymanski, N. J. et al. An Autonomous Laboratory for the Accelerated Synthesis of Inorganic
+Materials. Nature (2023).
+19. NASA/JPL. Autonomous Science Agents and Sensor Webs: EO-1 and Beyond. Autonomous event
+detection, planning, and data acquisition.
+20. NASA. What Is NASA's Distributed Spacecraft Autonomy? Starling distributed autonomy
+demonstration.
+21. NASA. NASA Turns to AI to Design Mission Hardware. February 9, 2023.
+
+[Source PDF page 18]
+GOVERNING ENGINES  |  PAST. PRESENT. FUTURE.
+DeMarius J. Lawson  •  Governing Engines  •  September 2026   |   18
+22. NASA. What Is the Deep Space Network? Interplanetary telecommunications infrastructure.
+23. NASA. In-Situ Resource Utilization (ISRU). Local resource extraction and use at mission
+destinations.
+24. NASA. Overview: In-Situ Resource Utilization. Resource characterization, manufacturing,
+construction, and reduced Earth dependence.
+25. NASA. Lunar Surface Technology. Power, ISRU, manufacturing, construction, autonomous robotics,
+and long-duration lunar infrastructure.
+26. National Science Foundation. Mazuzan, George T. The National Science Foundation: A Brief History.
+NSF historical narrative; federal support for basic research and the creation of NSF.
+27. National Science Board / National Center for Science and Engineering Statistics. Trends in U.S. R&D
+Performance and Funding. Science and Engineering Indicators 2026 (published 2025). Business-
+sector dominance in U.S. R&D performance and funding; federal role in the research system.
+28. Congressional Research Service. The National Science Foundation (NSF): FY2026 Appropriations and
+Funding History. CRS Report R48783 (2026). Notes the greater uncertainty and longer return
+timelines commonly associated with basic research.
+29. Li, Dacheng; Fang, Yunhao; Chen, Yukang; Yang, Shuo; Cao, Shiyi; Wong, Justin; Luo, Michael; Wang,
+Xiaolong; Yin, Hongxu; Gonzalez, Joseph E.; Stoica, Ion; Han, Song; Lu, Yao. WorldModelBench:
+Judging Video Generation Models As World Models. arXiv:2502.20694 (2025).
+30. Obenchain, Matthew; Trujillo, Alejandro; Rome, Jacob; Heying, Joseph; Villegas, Arianna; Goyal,
+Vinay; Taylor, Deneen. Toward a Fully Capable In-Space Manufacturing Ecosystem. NASA Technical
+Reports Server, Document 20240015070; AIAA SciTech 2025 Forum.
+31. Canty, Richard B.; Bennett, Jeffrey A.; Brown, Keith A.; et al. Science acceleration and accessibility
+with self-driving labs. Nature Communications 16, 3856 (2025). https://doi.org/10.1038/s41467-025-
+59231-1.
+32. Chen, Linjiang; Li, Xiaobo; Lin, Quan; et al. Self-driving laboratories need an autonomy safety
+harness. Nature Synthesis (2026). https://doi.org/10.1038/s44160-026-01120-6.
+Appendix A. Comparative Case Matrix
+Case Primary lineage Reality access External
+settlement
+Main analytical
+role
+Printing press Representation
+expansion
+Low Weak / content-
+dependent
+Reproduction
+throughput
+Telescope Reality access
+expansion
+Very high Strong Counterexample:
+outward
+optimization
+Steam engine Physical capability High Strong Commercial
+optimization can
+remain physical
+Telegraph Representation
+transport
+Moderate Mixed General
+communications
+substrate
+Telephone Representation
+transport
+Moderate Mixed Communication
+absorbed into
+general
+
+[Source PDF page 19]
+GOVERNING ENGINES  |  PAST. PRESENT. FUTURE.
+DeMarius J. Lawson  •  Governing Engines  •  September 2026   |   19
+computing
+Radio Representation
+transport
+Moderate Mixed Objective can shift
+without substrate
+changing
+Electronic
+computer
+General
+representation
+substrate
+Variable Application-
+dependent
+Representational
+generality
+Internet General
+representation
+substrate
+Variable Application-
+dependent
+Infrastructure for
+accumulated
+abstraction
+GPS Mixed High Strong Abstraction can
+remain physically
+settled
+Web General
+representation
+substrate
+Low / mediated Mostly
+application-
+dependent
+Universal
+networked
+representation
+ChatGPT Representation-
+native
+Low / mediated Usually weak /
+task-dependent
+General
+conversational
+operation of
+abstraction
+Vision Pro Mixed interface Moderate Mixed Physical interface
+does not imply
+outward purpose
+Generative Fill Representation-
+native
+Low Not required Synthetic
+representation
+AI Pin Interface
+displacement
+Moderate Mixed Moving interface
+is not moving
+objective
+Devin Representation-
+native
+Low Software
+artifacts/tests
+Second-order
+abstraction
+operation
+Sora Reality-modeling
+representation
+Indirect Weak without
+external test
+Simulation is not
+observation
+AlphaFold 3 Reality-targeted
+representation
+Indirect Experimental
+biology
+Abstraction in
+service of inquiry
+Computer Use Representation-
+operating
+Low / mediated Task-dependent AI operates
+accumulated
+digital
+environment
+Operator Representation-
+operating
+Low / mediated Task-dependent Institutional
+processes encoded
+
+[Source PDF page 20]
+GOVERNING ENGINES  |  PAST. PRESENT. FUTURE.
+DeMarius J. Lawson  •  Governing Engines  •  September 2026   |   20
+in Web interfaces
+Patient-specific
+gene editing
+Physical
+intervention
+High Biological/clinical Strong reality-
+targeted
+counterexample
+Appendix B. Evidence Boundary for the Future Architecture
+Demonstrated in bounded form: autonomous scientific decision-making; distributed spacecraft
+autonomy; robotic physical experimentation; computational generative engineering; deep-space
+communications; extraterrestrial resource processing; long-duration robotic science; local-resource
+research and simulated-regolith manufacturing/construction work.
+Active engineering / foreseeable integration: greater ISRU capability; more autonomous
+manufacturing; distributed sensing; increasingly capable robotic assembly; higher-capacity space
+communications; more adaptable mission hardware; stronger autonomous fault management.
+Architectural extrapolation: persistent Earth-based reasoning connected through communications to off-
+world manufacturing nodes that could, if major integration problems are solved, translate new evidence
+requirements into newly designed and manufactured specialized vessels while preserving independent
+evidence lineage and externally governed claim-state transitions.
+Open possibility: what decades or a century of such inquiry would discover, which new materials or
+phenomena would matter, what questions would emerge, and how far the resulting infrastructure could
+extend human empirical reach.
+Not claimed: AGI; superintelligence; fully self-replicating factories; unlimited autonomy; elimination of
+communication delay; elimination of physical risk; or a demonstrated end-to-end system matching the
+proposed architecture.

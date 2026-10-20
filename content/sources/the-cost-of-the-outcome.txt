@@ -1,0 +1,430 @@
+PUBLIC SOURCE TEXT EDITION
+THE COST OF THE OUTCOME
+Source supplied by the author for public research discovery.
+Text extracted from the supplied artifact; layout, tables and pagination may differ.
+Privacy filtering is marked inline. This is not the original binary artifact.
+
+[Source PDF page 1]
+GOVERNING ENGINES
+THE COST OF
+THE OUTCOME
+Why AI Efficiency Must Be Measured at the System Boundary
+PUBLIC RESEARCH PAPER
+Version 1.1
+DeMarius J. Lawson
+Governing Engines LLC
+September 2, 2026
+CENTRAL QUESTION
+Does AI reduce the total cost of reaching a valid outcome, or does it sometimes reduce visible task
+cost while redistributing labor, correction, rework, validation, coordination, and other costs
+elsewhere in the system?
+A locally accurate number can still support a system-level
+conclusion that is too large.
+
+[Source PDF page 2]
+GOVERNING ENGINES  |  PUBLIC RESEARCH
+THE COST OF THE OUTCOME  |  2
+ABSTRACT
+Artificial intelligence is increasingly justified through claims of productivity, speed, automation, and
+lower production cost. Many of those claims may be true. But the economic boundary at which they are
+measured is often narrower than the outcome being purchased.
+A system can make one operation faster without making the complete objective cheaper. It can reduce
+generation cost while increasing review, correction, integration, validation, coordination, recovery, or
+expert-supervision cost. It can make an individual worker faster without producing proportional
+enterprise value.
+This paper proposes that AI economics should therefore be evaluated at the boundary of the valid
+outcome, not merely at the boundary of the AI operation. It introduces Total Cost to Valid Outcome
+(TCVO) as a proposed measurement framework for distinguishing cost elimination, cost reduction, and
+cost migration across AI-assisted production systems.
+The paper does not argue that AI fails to reduce cost. It argues that the reduction must be measured at
+the correct boundary, under materially equivalent outcome requirements, with economically
+necessary human and machine work included in the record.
+GOVERNING RULE
+Measure AI economics at the boundary of the outcome being purchased.
+EXECUTIVE SUMMARY
+The economic case for AI is often expressed through local metrics: time saved per task, cost per
+generation, tokens consumed, model calls, headcount avoided, or throughput gained. These metrics are
+useful, but they do not automatically establish the total cost of accomplishing the objective.
+ Task efficiency and system efficiency are different properties.
+ An AI output is not automatically a valid outcome.
+ Human labor can be eliminated, reduced, relocated, or transformed rather than simply removed.
+ Failure paths, retries, correction, integration, validation, and recovery can materially alter
+economics.
+ Productivity gains at the individual level do not automatically propagate into enterprise value.
+ Governance and validation are costs, but they may also prevent larger downstream costs.
+ A fair comparison must hold the destination constant while allowing the pathway to change.
+The proposed economic unit is the valid outcome: an outcome that satisfies the requirements necessary
+for the objective to count as successfully reached. The proposed metric is Total Cost to Valid Outcome
+(TCVO): the total attributable human, machine, operational, validation, and failure-path cost required
+to reach that valid outcome.
+1. THE CLAIM IS BIGGER THAN THE METRIC
+One of the dominant economic narratives around artificial intelligence is straightforward: human
+expertise plus AI produces more output, faster, at lower cost. There is substantial reason to take that
+possibility seriously.
+
+[Source PDF page 3]
+GOVERNING ENGINES  |  PUBLIC RESEARCH
+THE COST OF THE OUTCOME  |  3
+AI systems can draft text, generate software, create images and video, summarize documents, analyze
+data, retrieve information, automate workflow stages, and perform tasks that previously required
+substantially more human effort. Meta, for example, describes a future centered on expanded
+individual capability and invention rather than automation alone, and gives concrete examples of
+creation becoming dramatically faster. [2]
+That is evidence of a capability shift. It is not, by itself, a complete economic model.
+A cheaper generation does not necessarily mean a cheaper production. A faster task does not
+necessarily mean a faster workflow. A more productive individual does not necessarily mean a more
+productive organization. And a lower-cost operation does not necessarily mean a lower-cost outcome.
+McKinsey's 2026 research makes part of this distinction explicitly. Its survey of 750 employees and
+leaders found that most organizations remained early in their AI transformation journeys; only 11
+percent of surveyed leaders placed their organizations in the reinvention horizon, and the majority
+across all three horizons reported that AI had yet to deliver meaningful enterprise value across
+business performance, cost savings, employee experience, or customer outcomes. [1]
+The authors further argue that individual productivity gains rarely translate into lasting advantage
+when the organization around them remains unchanged. [1]
+MEASUREMENT QUESTION
+At what point in the system should AI efficiency be measured?
+2. LOCAL EFFICIENCY IS NOT SYSTEM EFFICIENCY
+Consider a simplified production chain:
+OBJECTIVE  ->  WORK  ->  OUTPUT  ->  REVIEW  ->  CORRECTION  ->
+INTEGRATION  ->  VALIDATION  ->  ACCEPTED OUTCOME
+An AI system may substantially reduce the cost of Work -> Output. That matters. But the economic
+claim frequently being made is larger: the objective itself became cheaper to accomplish.
+Those statements are not equivalent.
+Suppose a professional task historically required four hours and produced a usable result. AI reduces
+generation time to twenty minutes. Measured at the generation boundary, the productivity
+improvement is enormous. But suppose the resulting artifact then requires review, factual correction,
+regeneration, reconciliation of inconsistencies, integration into an existing workflow, quality
+assurance, and final professional approval.
+The AI may still have created substantial savings. Or it may not have. We cannot know from the
+twenty-minute generation number. That number measures a stage. The economic claim concerns the
+system.
+
+[Source PDF page 4]
+GOVERNING ENGINES  |  PUBLIC RESEARCH
+THE COST OF THE OUTCOME  |  4
+3. OUTPUT COST IS NOT OUTCOME COST
+An output is something a system produced. A valid outcome is something that satisfies the conditions
+required for the objective to be considered successfully reached.
+ A generated legal memo is an output. A legally defensible memo suitable for its intended use is an
+outcome.
+ Generated software is an output. Software that satisfies requirements, integrates, and survives
+required testing is an outcome.
+ An AI-generated shot is an output. A shot satisfying continuity, timing, quality, technical, and
+acceptance requirements is an outcome.
+ A customer-service answer is an output. Correct resolution of the customer's problem may be the
+outcome.
+The distinction appears in verification-oriented engineering as well. The DASE Capability Console
+explicitly rejects plausible-looking numerical output as sufficient evidence, instead using independently
+available reference values, independent computational routes, and deliberately invalid cases to
+determine whether computed results are actually correct. [5]
+This is fundamentally a boundary question: where does successful production end? If success is
+declared when the model generates something, generation cost may be sufficient. If success is declared
+when the generated artifact survives independent requirements, the accounting boundary must
+continue through validation.
+4. THE HUMAN MAY BE INSIDE THE SYSTEM
+Many AI productivity claims involve experienced professionals using AI. This combination can work
+extremely well. But experienced professionals often do more than initiate generation.
+ recognize bad outputs and missing information
+ detect implausible claims or domain errors
+ reconstruct intent and restore context
+ correct terminology and preserve continuity
+ choose among alternatives and reject unusable generations
+ integrate outputs into broader work
+ determine whether the result is actually safe, valid, or good enough to use
+Those functions have economic value. If they are necessary to transform AI output into a valid
+outcome, they belong inside the economic system being measured.
+The University of Chicago Law School's 2026 AI strategy illustrates one dimension of this issue. While
+embracing AI as an increasingly important part of legal practice, the school simultaneously emphasizes
+critical thinking, strategic judgment, professional judgment, oral advocacy, and the ability to use AI
+responsibly rather than merely produce answers with it. [3]
+If expert judgment remains necessary to determine whether an AI-produced artifact is valid, then
+expert judgment has not disappeared from the production system merely because generation was
+automated. It may have changed position.
+
+[Source PDF page 5]
+GOVERNING ENGINES  |  PUBLIC RESEARCH
+THE COST OF THE OUTCOME  |  5
+5. COST ELIMINATION, COST REDUCTION, AND COST MIGRATION
+The most important accounting distinction in AI-assisted production may not be automation versus
+non-automation. It may be what actually happened to the cost.
+Pattern Definition Illustrative example
+COST ELIMINATION A required activity no longer needs to
+occur.
+A manual transcription step
+disappears because the system
+produces an accepted structured
+record directly.
+COST REDUCTION The activity remains, but fewer
+resources are required.
+Review still occurs, but the reviewer
+needs 15 minutes instead of 60.
+COST MIGRATION Cost decreases in one part of the
+system while appearing elsewhere.
+Generation becomes cheap, but
+expert correction, integration, or
+validation expands.
+COST TRANSFORMATION The old activity disappears, but a new
+activity becomes necessary because
+the architecture changed.
+Manual drafting falls while prompt
+design, exception handling, or AI-
+output governance becomes
+necessary.
+A local metric can correctly report a large efficiency gain while the system-level reality is cost
+migration. The metric is not necessarily false. The boundary is incomplete.
+KEY DISTINCTION
+The economic question is not only whether labor disappeared from the measured task. It is whether
+economically necessary work disappeared from the system.
+6. THE FAILURE PATH HAS A COST
+Economic analysis frequently centers the successful path. Production systems also contain failure
+paths.
+OBJECTIVE -> ATTEMPT -> OUTPUT -> EVALUATION -> ACCEPT  OR
+CORRECT -> RETRY -> RE-EVALUATE
+Every unsuccessful generation may be individually inexpensive. Collectively, however, failed attempts
+can consume compute, API spending, operator time, reviewer time, workflow latency, attention,
+opportunity cost, integration effort, correction labor, and downstream recovery.
+This does not mean retries are inherently waste. Iteration is part of many productive processes. The
+relevant question is whether the complete cost of iteration is present in the economic record.
+
+[Source PDF page 6]
+GOVERNING ENGINES  |  PUBLIC RESEARCH
+THE COST OF THE OUTCOME  |  6
+If only the accepted generation is counted, the system appears cheaper than the process that actually
+produced it.
+7. COST CAN MOVE ACROSS ORGANIZATIONAL BOUNDARIES
+AI economics becomes especially difficult when cost is displaced from one organizational boundary
+into another.
+ A model provider may reduce inference cost while the user organization absorbs greater
+verification cost.
+ A development tool may reduce code-generation cost while engineering absorbs debugging and
+integration cost.
+ A creative platform may reduce shot-generation cost while artists or editors absorb continuity
+repair.
+ A customer-service system may reduce front-line handling time while escalation teams absorb
+difficult unresolved cases.
+ A procurement system may reduce administrative work while compliance teams absorb additional
+review.
+Each participant can report a locally accurate number. The complete system can still experience a
+different economic result.
+This is why a number may be correct while the conclusion drawn from it is too large.
+8. THE PROPOSED UNIT: VALID OUTCOME
+This paper proposes the valid outcome as a useful economic unit for AI systems.
+DEFINITION
+VALID OUTCOME: an outcome that satisfies the explicitly defined conditions necessary for the
+objective to count as successfully achieved.
+Depending on the domain, those conditions may include technical correctness, factual accuracy,
+completion requirements, quality thresholds, authority requirements, policy compliance, safety
+requirements, integration requirements, continuity requirements, stakeholder acceptance, or other
+domain-specific criteria.
+For controlled comparisons, the definition should be established before results are evaluated.
+Otherwise the success condition can move to fit the output.
+This gives us a more useful denominator than tokens, generations, model calls, artifacts, employee
+hours saved, or outputs produced. Those remain useful operational metrics. None necessarily
+establishes successful objective completion.
+9. TOTAL COST TO VALID OUTCOME
+PROPOSED METRIC
+TCVO = total attributable cost required to produce a valid outcome.
+
+[Source PDF page 7]
+GOVERNING ENGINES  |  PUBLIC RESEARCH
+THE COST OF THE OUTCOME  |  7
+A generalized accounting structure may include:
+TCVO = AI COST + HUMAN PRODUCTION + REVIEW + CORRECTION +
+RETRY + REWORK + COORDINATION + INTEGRATION + VALIDATION +
+RECOVERY + ATTRIBUTABLE FAILURE-PATH COST
+Not every category applies to every system, and categories must be defined carefully to avoid double
+counting. The purpose is not to maximize the number of cost categories. It is to prevent economically
+necessary work from disappearing merely because it occurs outside the AI operation.
+For repeated production, a useful derived measure is Cost Per Valid Outcome (CPVO):
+CPVO = TOTAL ATTRIBUTABLE EXECUTION COST / NUMBER OF VALID
+OUTCOMES
+This can be compared between conventional and AI-assisted architectures. The AI-assisted workflow is
+economically superior when it reaches materially equivalent required outcomes at lower total cost, or
+when superior capability or quality justifies additional cost.
+Cheaper is not the only form of economic value. AI may produce greater quality, capability,
+throughput, accessibility, responsiveness, or entirely new outputs that conventional systems could not
+economically produce. The destination has to remain comparable.
+10. SAME DESTINATION, DIFFERENT PATH
+A fair productivity comparison requires equivalent destinations, not identical workflows.
+Suppose Workflow A produces a carefully reviewed professional artifact. Workflow B produces an AI
+draft in one tenth the time. Comparing those numbers is meaningless unless Workflow B is also
+required to reach the quality and validity threshold represented by Workflow A.
+Conversely, it would be equally unfair to impose unnecessary historical steps on the AI workflow
+merely because the conventional system used them.
+FAIR-COMPARISON RULE
+Preserve objective equivalence, outcome equivalence, and validation equivalence. Allow the
+pathway to change.
+11. FIVE ECONOMIC RESULTS THE EVIDENCE MAY SHOW
+A. STRONG SYSTEM-LEVEL EFFICIENCY
+AI reduces both local task cost and total cost to valid outcome.
+
+[Source PDF page 8]
+GOVERNING ENGINES  |  PUBLIC RESEARCH
+THE COST OF THE OUTCOME  |  8
+B. LOCAL EFFICIENCY, SMALLER SYSTEM EFFICIENCY
+AI dramatically improves one operation, but part of the gain is consumed by review, correction,
+integration, or other downstream work. The system still improves, but less than the headline metric
+suggests.
+C. COST MIGRATION
+AI makes one stage cheaper while moving approximately equivalent cost elsewhere. Little system-level
+economic improvement occurs.
+D. NEGATIVE SYSTEM ECONOMICS
+AI lowers visible production cost but introduces enough error, rework, validation burden, integration
+difficulty, or failure cost that the valid outcome becomes more expensive.
+E. CAPABILITY EXPANSION
+AI does not reduce total cost but produces greater capability, quality, volume, accessibility,
+responsiveness, or previously infeasible outcomes. The correct economic conclusion is increased value
+rather than reduced cost.
+All five are legitimate empirical possibilities. A measurement framework should not decide which one
+occurred before the evidence exists.
+12. FROM INDIVIDUAL PRODUCTIVITY TO ENTERPRISE VALUE
+An employee can perform one activity faster while the organization around that employee continues to
+contain the same approval structures, information bottlenecks, dependencies, integration constraints,
+legacy systems, authority boundaries, review requirements, coordination delays, and institutional
+processes.
+McKinsey's 2026 research identifies this gap directly. It argues that organizations further along in AI
+transformation redesign workflows and operating models rather than simply inserting AI into existing
+tasks. Its broader analysis states that individual productivity with technology is not predictive of
+organizational health and sustained performance. [1]
+A system-boundary interpretation explains why: productivity realized inside one node does not
+automatically propagate through the whole chain. Interfaces, dependencies, and constraints can absorb
+the gain.
+13. GOVERNANCE IS AN ECONOMIC VARIABLE
+Governance is frequently treated only as overhead. Sometimes it is overhead. But governance can also
+prevent cost.
+Current governance frameworks increasingly emphasize lifecycle controls, validation, monitoring,
+accountability, testing, incident reporting, and human oversight because AI operation does not end
+when a model produces an answer. UNESCO's 2026 policy brief maps multiple regulatory approaches
+for governing AI, while technical governance guides such as ISACA's emphasize lifecycle risk
+management, verification and validation, operation and monitoring, and accountability. [6][7]
+
+[Source PDF page 9]
+GOVERNING ENGINES  |  PUBLIC RESEARCH
+THE COST OF THE OUTCOME  |  9
+Kenya's 2026 AI and Emerging Technologies Policy similarly addresses design, development, testing,
+deployment, monitoring, and decommissioning, while identifying fragmented governance and
+institutional coordination as sources of implementation inefficiency. It also calls for testing protocols,
+incident reporting, auditability, accountability, traceability, and meaningful human oversight for
+higher-risk systems. [4]
+Those activities cost money. Their economic value cannot be established by counting their cost alone.
+A validation step costing $10 is economically wasteful if it prevents nothing of value. The same $10 may
+be economically beneficial if it reliably prevents $100 of rework or expected loss.
+ECONOMIC RULE
+Governance cost should be measured against both the burden it introduces and the downstream
+expenditure it prevents.
+14. MEASUREMENT DISCIPLINE
+A useful AI economic study should separate at least three classes of claim:
+OBSERVED
+Directly measured: execution time, human review time, attempts, API cost, corrections, accepted
+outputs, failed outputs.
+DERIVED
+Calculated from observed evidence: cost per valid outcome, failure rate, first-pass acceptance rate,
+correction burden, measured savings percentage.
+PROJECTED
+Extrapolated beyond the observed sample: annual savings, enterprise-wide workforce effects, industry-
+wide impact, million-operation savings.
+These categories should not be treated as equivalent. An observed thirty-minute reduction in one task
+is evidence about that task. A projection of $100 million in annual savings is an economic model. The
+latter may be reasonable, but assumptions entered the chain and should remain visible.
+15. AN OUTCOME-BOUNDARY TEST FOR AI ECONOMIC CLAIMS
+Before accepting a claim that AI made production cheaper, ask the following in order:
+1. What objective was the system actually trying to accomplish?
+2. What counted as a valid outcome?
+3. Where did the reported cost measurement stop?
+4. What human and machine work occurred after that boundary?
+5. How many attempts, failures, retries, corrections, and discarded outputs occurred?
+6. What integration, coordination, validation, governance, or recovery work was necessary?
+7. Was any labor eliminated, or was it reduced, migrated, or transformed?
+
+[Source PDF page 10]
+GOVERNING ENGINES  |  PUBLIC RESEARCH
+THE COST OF THE OUTCOME  |  10
+8. Were the AI and conventional workflows required to reach materially equivalent destinations?
+9. Which reported claims are observed, derived, and projected?
+10. Does the evidence establish lower total cost to the valid outcome, or only lower local cost inside the
+chain?
+This test does not presume a negative answer. It forces the economic claim and the measurement
+boundary to match.
+16. WHAT WOULD FALSIFY THE CONCERN?
+The framework should itself remain falsifiable.
+The strongest evidence against the concern raised by this paper would be repeated studies
+demonstrating that AI-assisted and conventional systems are given materially equivalent objectives;
+both are held to materially equivalent outcome and validation standards; economically significant
+human and machine work is measured; failure, retry, correction, integration, and validation are
+accounted for; and AI-assisted systems consistently produce equal or superior valid outcomes at
+materially lower total cost.
+If that evidence accumulates, the appropriate conclusion is not resistance. It is that AI genuinely
+reduced the economics of production at the system boundary.
+REALITY GETS THE LAST VOTE.
+17. CONCLUSION
+Artificial intelligence may become one of the most economically consequential technologies ever
+developed. That makes measurement more important, not less.
+The central problem is not that current AI productivity numbers are necessarily false. Many may be
+entirely accurate. The problem is that a locally accurate number can be asked to support a system-level
+conclusion it was never designed to prove.
+AI can make a task faster without making the complete workflow faster. It can make an output cheaper
+without making a valid outcome cheaper. It can remove one category of labor while relocating or
+transforming another. It can increase individual productivity without producing proportional
+organizational value. And it can also genuinely reduce all of those costs at once.
+We should be able to tell the difference.
+MEASURE AI ECONOMICS AT THE BOUNDARY OF THE OUTCOME BEING
+PURCHASED.
+If the customer is purchasing a generation, measure generation cost. If the organization is purchasing a
+completed task, measure completed-task cost. If the system exists to produce a validated professional
+result, measure the complete cost required to reach that validated result. If the objective is enterprise
+value, do not stop measuring at individual productivity.
+The economic promise of artificial intelligence does not need weaker accounting. If the promise is real,
+better accounting should make it easier to see.
+
+[Source PDF page 11]
+GOVERNING ENGINES  |  PUBLIC RESEARCH
+THE COST OF THE OUTCOME  |  11
+The question is not merely what the machine made cheaper.
+The question is what became cheaper to accomplish.
+CLAIM STATUS
+ESTABLISHED: AI can reduce the cost and time of particular operations and tasks in many contexts.
+ESTABLISHED: Individual AI adoption and individual productivity do not automatically establish
+enterprise-level economic value; McKinsey's 2026 research explicitly distinguishes these levels. [1]
+SUPPORTED: Human judgment, review, integration, governance, validation, and workflow redesign
+can remain materially relevant after AI is introduced. [1][3][4][7]
+PROPOSED: Total Cost to Valid Outcome is a useful system-boundary framework for comparing AI-
+assisted and conventional production architectures.
+OPEN: Across industries, how frequently do reported AI task-level savings survive complete valid-
+outcome accounting?
+RESEARCH AGENDA
+The framework produces a concrete empirical agenda rather than a rhetorical conclusion. Future
+studies should compare conventional and AI-assisted workflows under equivalent destination
+requirements and collect complete execution evidence across the successful and unsuccessful paths.
+ software development: generation, debugging, integration, testing, review, and production
+acceptance
+ creative production: generation, continuity, revision, editorial integration, technical acceptance,
+and final delivery
+ professional services: drafting, research, expert review, correction, client use, and accountability
+ customer operations: automated handling, escalation, repeat contact, resolution quality, and
+downstream recovery
+ enterprise workflows: individual time savings versus end-to-end cycle time, cost, and
+organizational value
+The key empirical question remains the same across domains: did AI reduce the total cost of reaching
+the valid destination, or did the cost change location?
+SELECTED REFERENCES
+[1] De Smet, Aaron; Goldstein, Drew; Price, Holly; Catlin, Tanguy; et al. “From Adoption to Impact: Three Horizons of AI
+Transformation.” McKinsey Quarterly, July 2026.
+[2] Meta. “The Future Is for Everyone: The Path to a Positive AI Future.” August 2026.
+[3] University of Chicago Law School. “Rethinking Legal Education in the AI Era.” July 9, 2026.
+[4] State Department for ICT and the Digital Economy, Kenya. Kenya Artificial Intelligence and Other Emerging
+Technologies Policy. July 2026.
+[5] DASE Capability Console. Deterministic engineering verification documentation and capability console report. August
+2026.
+
+[Source PDF page 12]
+GOVERNING ENGINES  |  PUBLIC RESEARCH
+THE COST OF THE OUTCOME  |  12
+[6] UNESCO. Governing AI: Nine Emerging Approaches for Lawmakers Worldwide. 2026.
+[7] ISACA Sydney Chapter Special Interest Group. A Practical Guide for Technical Leaders: AI Governance. 2026.
+METHOD NOTE
+This paper is a conceptual measurement framework informed by publicly available research, policy,
+governance, and technical verification materials. It does not claim that all AI deployments exhibit cost
+migration, nor does it estimate industry-wide savings or losses. Its purpose is to define a measurement
+boundary capable of distinguishing local efficiency from system-level economic performance and to
+state the evidence required for stronger conclusions.
+GOVERNING ENGINES LLC  |  PUBLIC RESEARCH  |  VERSION 1.1

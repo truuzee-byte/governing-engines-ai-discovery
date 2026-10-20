@@ -1,0 +1,2238 @@
+PUBLIC SOURCE TEXT EDITION
+DESIGN THE ECOSYSTEM, NOT THE SUBSYSTEMS
+Source supplied by the author for public research discovery.
+Text extracted from the supplied artifact; layout, tables and pagination may differ.
+Privacy filtering is marked inline. This is not the original binary artifact.
+
+[Source PDF page 1]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  1
+DESIGN THE ECOSYSTEM,
+NOT THE SUBSYSTEMS
+A Systems Case for Restructuring the Architecture of American Social Life
+DeMarius Lawson
+Governing Engines
+Full Research Edition v1.1
+Evidence reviewed through September 2026
+
+[Source PDF page 2]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  2
+Abstract
+Modern American life is governed through institutions that are specialized by domain: labor,
+childcare, housing, transportation, healthcare, education, credentialing, taxation, public
+assistance, insurance, finance, utilities, food systems, and public administration. The institutional
+boundaries are real, but the person living inside them does not experience those systems
+independently. A household experiences one environment in which time, money, mobility, care,
+information, eligibility, risk, and authority move continuously across institutional boundaries. An
+employer may schedule rationally, a childcare provider may operate within its approved hours, a
+housing market may price according to local demand, and a benefit program may enforce its
+eligibility rules, while the combined configuration remains nonviable for the person required to
+satisfy all of them at once.
+This paper advances two claims that are kept at different confidence levels throughout. The
+descriptive claim - that individual subsystems (childcare, housing, caregiving, benefit
+administration) impose large, well-documented burdens - is supported by strong evidence and is
+not in dispute. The architectural claim - that a materially significant share of household failure
+originates specifically at the interfaces between subsystems, rather than within any one
+subsystem, and that no institution currently owns those interfaces - is a hypothesis. It is well-
+motivated and partially supported, and it is explicitly falsifiable, but it is not yet established at the
+same evidentiary standard as the descriptive claim. Section 13A identifies the specific
+measurements that do not yet exist and that would be required to convert this from an
+architectural inference into a tested claim; that limitation is stated here rather than left for a
+reader to discover forty pages in.
+The paper develops an ecosystem framework for analyzing the mismatch between subsystem
+performance and household viability. It defines Integration Burden, Ecosystem Viability,
+Operational Margin, Executable Opportunity, Net Advancement, Interface Drift, Accumulation
+Capacity, Ecosystem Debt, and other concepts needed to describe what existing administrative
+categories often miss - a reduced and explicitly tagged set relative to earlier drafts, described in
+Appendix F. It then tests the framework against contemporary evidence on childcare, housing,
+unpaid caregiving, benefit transitions, federal fragmentation, household resilience, and
+administrative burden. Synthetic household stress tests are used to expose how ordinary
+conditions can become mutually incompatible even when no individual subsystem is obviously
+malfunctioning. Historical and comparative evidence is used to distinguish temporary
+implementation defects from persistent architectural problems. A falsification section then
+assumes that the major subsystems improve independently and asks whether interface failure
+still survives.
+The paper's central finding is bounded but consequential: the evidence does not establish that the
+American social system is wholly failed, nor that every hardship is structural. It does establish
+architectural insufficiency. Specialized systems can improve and still drift out of compatibility
+
+[Source PDF page 3]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  3
+because no permanent governance function owns the interfaces between them. The paper
+therefore proposes a federated ecosystem-governance layer focused on observability,
+dependency mapping, burden accounting, interface stewardship, household stress testing,
+outcome validation, failure containment, drift detection, independent review, and rollback - and,
+unlike the prior draft, names which existing institution would own each function and where new
+statutory authority is actually required (Section 15). The framework expressly rejects centralized
+social management: interdependence creates analytical relevance, not unlimited jurisdiction.
+Government governs architecture; people retain authority over lawful personal life; and claims
+of institutional success remain answerable to real-world outcomes.
+Modern society is governed as separate systems but lived as one ecosystem.
+Executive Findings
+Established - direct evidence, not in dispute:
+ Childcare, housing, transportation, employment, healthcare, public benefits, and
+credentialing create interacting requirements; household viability cannot be inferred from
+the performance of any one domain.
+ Census research using the 2025 CPS ASEC found that only 3.7% of households with children
+age 13 or younger reported difficulty obtaining adequate childcare in 2024, but affected
+households lost an average of 65.8 workdays. [1]
+ Federal Reserve data for 2025 show median monthly childcare payments of $1,517 among
+families using at least 20 paid hours per week, compared with a $2,000 median housing
+payment among families paying both expenses. [2]
+ GAO has documented fragmentation for decades. In 2026 it reported 2,148
+duplication/overlap/fragmentation matters and recommendations from 2011-2026, with 610
+still open and roughly $774.3 billion in reported financial benefits from actions already taken.
+[3] GAO itself notes these totals are methodologically heterogeneous.
+ Unpaid support is major infrastructure: the Federal Reserve reports 44% of parents with
+children under 13 used unpaid childcare in 2025, while AARP estimates 59 million adult
+caregivers supplied 49.5 billion unpaid hours in 2024, valued at about $1.01 trillion. [2][4]
+Hypothesis - architectural inference, not yet directly measured (see Section 13A for the
+specific missing indicators):
+ That the appropriate restructuring target is not wholesale replacement of institutions, but the
+missing governance of interfaces, dependencies, transitions, burden transfers, and combined
+outcomes.
+ That a federated ecosystem-governance layer, built substantially from institutions that
+already exist, would close this gap without expanding jurisdiction.
+
+[Source PDF page 4]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  4
+ Ecosystem governance of this kind must be constrained by enumerated authority, purpose
+limitation, privacy, independent validation, distributed execution, judicial review, democratic
+authorization, and periodic revalidation (Section 18).
+Keeping these two categories separate is the central methodological correction in this edition.
+Earlier drafts stated both at the same confidence level; the second category is a hypothesis this
+paper is designed to test, not a finding it has already established.
+Contents
+1. Methodology, Scope, and Evidentiary Standard
+2. The Problem Has Been Defined at the Wrong Level
+3. The Integrated Operator and the Hidden Integration Layer
+4. Mapping the Social Ecosystem
+5. Labor, Care, and the Time Architecture
+6. Housing, Transportation, and Geographic Architecture
+7. Healthcare, Credentialing, Benefits, and Administration
+8. Household Stress Tests
+9. Failure Mechanics and Environmental Outcomes
+10. Children and Intergenerational Propagation
+11. Employers, Public Finance, and Hidden Infrastructure
+12. Historical Persistence and Comparative Evidence
+13. Falsification: Can Better Subsystems Solve the Problem?
+13A. Empirical Questions the Ecosystem Must Answer
+13B. Environment, Recovery, and Long-Term Capacity
+13C. Counterarguments, Tradeoffs, and Alternative Explanations
+14. Measurement Architecture
+15. Ecosystem Governance Framework
+16. Failure Modes of the Replacement Architecture
+17. Transition and Implementation Blueprint
+18. Constitutional Handoff
+19. Conclusion
+Appendices A-G
+
+[Source PDF page 5]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  5
+1. Methodology, Scope, and Evidentiary Standard
+1.1 Research posture
+This paper is deliberately structured to avoid a common failure in large social arguments:
+beginning with a moral conclusion and treating every inconvenient fact as confirmation. The
+research question is not whether modern life is difficult. It is whether separately governed
+systems create recurring incompatibilities that cannot be adequately understood or corrected
+when each system is evaluated only inside its own administrative boundary. The paper therefore
+treats restructuring as a conclusion that must be earned, not as the starting assumption.
+The method is a mixed systems-analysis approach. First, the major subsystems are identified and
+the purpose, inputs, outputs, constraints, and measures of success of each are described. Second,
+the interfaces between systems are mapped. Third, household stress tests combine observed
+benchmarks with declared assumptions to expose the interaction of those systems. Fourth,
+historical and comparative evidence tests whether the failures are persistent and whether
+alternative interface designs produce different outcomes. Fifth, a falsification exercise assumes
+that the major subsystems improve independently and asks whether cross-system failure can still
+regenerate. Only after those steps does the paper assess whether architectural restructuring is
+justified.
+Evidence is classified according to what it can actually establish. Descriptive evidence
+demonstrates that a condition exists. Associational evidence shows that variables move together
+without necessarily proving causation. Causal evidence uses a sufficiently rigorous research
+design to support the conclusion that one factor materially affected another. Architectural
+inference combines multiple evidence streams to identify a recurring systems mechanism. The
+manuscript does not promote architectural inference to causal proof. Where the evidence cannot
+answer the question, the status remains unresolved.
+Synthetic household cases are not estimates of the average American household. They are stress
+tests. Each case separates observed benchmarks, declared assumptions, and derived arithmetic.
+That separation is important because combining a national median rent with a national median
+childcare cost does not prove that the same household experiences both medians. It does,
+however, allow a legitimate test of whether independently observed conditions can become
+mutually nonviable when they occur together.
+1.2 Scope
+The United States is the primary object of analysis. State and local variation is material, so
+national findings are not treated as uniform local conditions. Historical evidence is used to
+establish persistence, prior recognition, and institutional recurrence; it is not presented as
+current evidence. International evidence is used to isolate architectural relationships rather than
+to nominate a country for wholesale imitation.
+
+[Source PDF page 6]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  6
+The paper is not a complete theory of inequality, poverty, family life, labor economics, public
+administration, or constitutional law. It focuses on a narrower object: the interaction architecture
+surrounding ordinary civic and economic participation. The analysis includes individual
+responsibility rather than assuming it away. It also treats markets, private institutions, public
+programs, families, and community networks as components of the ecosystem rather than
+assuming a single institutional form is inherently superior.
+1.3 Source discipline and evidence audit
+The source hierarchy gives priority to official statistical agencies, government accountability and
+research institutions, peer-reviewed academic research, administrative data, and established
+research organizations. A claim is not strengthened merely because a source agrees with the
+thesis. Conflicting evidence belongs in the model. Every major empirical claim in the final
+evidence ledger records the population, time period, evidence type, what the source establishes,
+and what it does not establish.
+The replacement architecture must be held to the same evidentiary standard as
+the architecture it criticizes.
+2. The Problem Has Been Defined at the Wrong Level
+Public policy divides social life into recognizable domains for legitimate reasons. Employment
+requires labor institutions. Housing requires land, finance, construction, regulation, and property
+law. Childcare requires specialized providers, licensing, staffing, and funding. Healthcare
+requires clinicians, insurers, hospitals, public programs, and regulatory systems. Specialization is
+not itself the problem; complex societies could not function without it.
+The analytical error occurs when administrative separation becomes conceptual separation. The
+worker with children does not possess an employment life, a childcare life, a transportation life, a
+housing life, and a healthcare life. There is one life. The same twenty-four hours and the same
+pool of money must satisfy all of them. The same vehicle may connect several of them. The same
+illness may disturb several of them. The same income change may simultaneously alter taxes,
+benefits, childcare cost, housing choices, and transportation needs.
+A subsystem can therefore perform successfully according to its internal rules while the
+combined configuration fails. An employer may schedule an eight-hour shift efficiently. A
+childcare provider may offer ten hours of daily care. Yet if the provider opens too late, closes too
+early, or is geographically incompatible with the commute, the parent cannot execute both
+obligations. Neither institution has necessarily violated its own standard. The incompatibility
+exists at the interface.
+This creates a distinction between subsystem performance and ecosystem performance.
+Subsystem performance asks whether the institution fulfilled its assigned function under its own
+rules. Ecosystem performance asks whether the combination of institutional requirements
+
+[Source PDF page 7]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  7
+remains operationally viable for the person or household required to move through them. The
+two can diverge sharply.
+A collection of functioning subsystems can produce a failing ecosystem.
+Figure 1. The household experiences one integrated environment even when institutions are separately governed.
+2.1 The individual as integration layer
+Where institutions do not own the interfaces between them, the person becomes the de facto
+systems integrator. The household reconciles work schedules with care schedules, care schedules
+with transportation, transportation with housing geography, income with benefit rules,
+healthcare with employment, and education or credentialing with the time and money required
+to remain employed. The coordination work is real even when no institution records it.
+This is more than inconvenience. Integration consumes scarce resources: money, hours,
+attention, mobility, opportunity, emotional capacity, and risk tolerance. Some households possess
+enough reserve to absorb the work invisibly. Others become fragile. When the household can no
+longer compensate, the visible failure often appears at the end of the chain - as absence, late rent,
+missed recertification, debt, school disruption, or job loss - rather than at the interface where the
+incompatibility originated.
+3. The Integrated Operator and the Hidden Integration Layer
+3.1 Core definitions
+Integration Burden
+The total financial, temporal, administrative, cognitive, mobility, opportunity, and risk resources
+expended solely to reconcile separately governed systems.
+
+[Source PDF page 8]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  8
+Ecosystem Viability
+The degree to which ordinary lawful obligations can be met across interconnected systems
+without satisfying one obligation predictably making another impossible.
+Operational Margin
+Capacity remaining after ordinary obligations are satisfied. Margin exists in money, time,
+mobility, care, administration, and redundancy.
+Executable Opportunity
+A lawful opportunity whose entry, transition, and completion requirements can realistically be
+satisfied without destabilizing essential existing obligations.
+Net Advancement
+The actual increase in household capacity after taxes, lost benefits, new participation costs,
+replacement costs, and transition costs are counted.
+Dependency Concentration
+The degree to which multiple essential functions rely on a single fragile resource.
+Accumulation Capacity
+The degree to which gains survive and compound instead of being repeatedly liquidated to repair
+failures.
+Interface Drift
+Loss of compatibility between systems that evolve independently in response to different
+pressures.
+Ecosystem Debt
+Future burden created when current operation is maintained by deferring costs, maintenance,
+capacity replacement, or structural correction.
+3.2 Human capacity is finite
+The architecture implicitly assumes a capable operator who can work reliably, transport
+themselves and dependents, manage care, maintain housing, purchase food, manage healthcare,
+track bills, complete government and private paperwork, meet school obligations, respond to
+emergencies, preserve relationships, and recover physically. But money is not the only scarce
+resource. Human attention, sleep, mobility, memory, planning capacity, and tolerance for
+uncertainty are also finite.
+A household can therefore be financially solvent and operationally fragile. Bills may technically
+fit inside income, but only if every commute works, every child remains healthy, every
+administrative process executes correctly, every shift ends on time, and the household supplies
+continuous unpaid coordination. A system that works only under perfect conditions is not robust.
+Reliability requires tolerance for ordinary variation.
+
+[Source PDF page 9]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  9
+The paper uses the Integrated Operator as the unit of analysis: the person or household
+simultaneously interacting with multiple systems under finite financial, temporal, cognitive, and
+operational constraints. This unit does not replace population statistics. It exposes what
+population statistics often hide: whether one human operator can actually execute the combined
+environment.
+Figure 2. Household viability is multidimensional; income alone does not establish operational margin.
+4. Mapping the Social Ecosystem
+The ecosystem is organized around flows of money, time, people, information, eligibility, risk,
+authority, and obligation. The major domains are labor, childcare and caregiving, transportation,
+housing, healthcare, education and credentialing, taxation, public assistance, insurance, finance,
+food and energy, and public administration. Informal family and community support cuts across
+nearly all of them.
+4.1 Labor as the income interface
+For most working-age households, labor is the primary mechanism through which money enters
+the ecosystem. That gives employment an unusual position: housing, transportation, childcare,
+food, insurance, and healthcare consume income, while work is expected to generate the income
+that makes those systems usable. Yet work itself has participation costs. Before wages solve
+anything, the worker may need care, transportation, clothing, tools, communication, credentials,
+documentation, physical capacity, and schedule stability.
+This means the economic value of employment is not simply wage multiplied by hours. A more
+accurate household expression subtracts the costs required to maintain employment and any
+resource losses triggered by employment. CBO and ASPE effective-marginal-tax-rate analysis
+
+[Source PDF page 10]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  10
+already captures part of this problem by showing how taxes and benefit reductions can absorb
+part of additional earnings. [5] The ecosystem model extends that logic to private participation
+costs such as care and transportation.
+4.2 Childcare as time-conversion infrastructure
+Childcare performs an economic function beyond supervision. It converts caregiving time into
+time that can be allocated elsewhere. For a working parent, it converts parental availability into
+labor availability. The dependency runs both directions: work requires care, while care
+frequently requires income from work or eligibility tied to work. This circular dependency is
+manageable only when cost, hours, geography, and authorization align.
+Federal Reserve data for 2025 show how large the direct cost can become. Among families
+purchasing at least twenty hours of paid care per week, the median monthly childcare payment
+was $1,517; among families paying both housing and childcare in that group, the median housing
+payment was $2,000. [2] Census data show the labor consequence when care fails: households
+reporting difficulty obtaining adequate childcare in 2024 lost 65.8 workdays on average. [1] These
+are separate measurements, but together they establish that care is both a major household
+expense and a major labor-market dependency.
+4.3 Transportation as connectivity
+Transportation connects geographically separated obligations. Its output is not movement alone;
+it is access. A vehicle or transit failure can become a work failure, a care failure, a healthcare
+failure, or an administrative failure. Transportation therefore acts as a failure multiplier when
+several essential systems depend on one mobility resource. This is why a household with one
+vehicle can be financially capable and still highly exposed.
+4.4 Housing as geographic anchor
+Housing establishes the physical coordinate from which the rest of the ecosystem must be
+accessed. A lower rent may increase commute time, vehicle cost, childcare duration, exposure to
+traffic, and dependence on one automobile. Conversely, higher housing cost near employment
+and services may reduce several other burdens. Housing affordability therefore cannot be fully
+represented by rent or mortgage alone.
+HUD reported 8.46 million very-low-income renter households with worst-case housing needs in
+2023, defined generally as lacking housing assistance while paying more than half of income
+toward rent, living in severely inadequate housing, or both. [6] That is a housing measure.
+Ecosystem analysis asks what happens when severe housing burden interacts with care,
+transport, employment, and health.
+
+[Source PDF page 11]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  11
+5. Labor, Care, and the Time Architecture
+5.1 Employment Obligation Window
+Scheduled work time understates the household time required to hold a job. A nominal eight-
+hour shift may require preparation, travel to care, care handoff, travel to work, mandatory early
+arrival, the shift, unpaid meal periods, return travel, pickup, and travel home. The paper
+therefore defines the Employment Obligation Window as work time plus mandatory pre/post-
+shift time, employment-related travel, and necessary care transitions.
+The distinction matters because childcare authorization or provider hours can appear sufficient
+when compared with the shift and still fail against the real obligation window. Two systems may
+each report enough hours while the person cannot physically move between them. Time between
+systems is still system time.
+5.2 Schedule collision
+A schedule collision occurs when two legitimate obligations require the same person at
+incompatible times. This can happen even when both institutions are behaving reasonably. The
+relevant design question is not which subsystem is at fault but whether the interface provides a
+viable handoff. A schedule-compatible childcare market for 9-to-5 office work does not
+automatically support construction starts at 6 a.m., hospital nights, warehouse shifts, or
+restaurant closings.
+5.3 Ordinary disruption and care failure
+Children become sick. Providers close. Adults care for aging relatives. These are foreseeable
+features of human life, not exotic edge cases. The architecture should therefore be evaluated
+against an Ordinary Disruption Envelope: the range of recurring disturbances a viable household
+should be able to absorb without unnecessary cascade.
+Census results make this concrete. In the 2025 CPS ASEC, 3.7% of households with children under
+14 reported childcare problems, but those households lost an average of 65.8 workdays;
+households below the federal poverty level that reported problems lost 114.6 days on average. [1]
+The survey does not isolate schedule mismatch from every other care problem, so the paper does
+not claim that all of those days are caused by incompatible hours. It does establish that care
+failure can create very large work loss once the interface fails.
+5.4 Unpaid care as hidden infrastructure
+Formal systems often remain functional because family and community networks supply
+resources that do not appear in institutional accounting. In 2025, 44% of parents with children
+under 13 used unpaid childcare; grandparents were the most common providers. [2] For adult
+care, AARP estimates that 59 million caregivers provided 49.5 billion unpaid hours in 2024, with a
+
+[Source PDF page 12]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  12
+market-equivalent value of about $1.01 trillion. [4] These estimates do not mean family
+relationships should be reduced to market transactions. They do mean formal-system
+performance is partly conditional on a large parallel infrastructure.
+The distinction between voluntary support and compensatory support is important. Families will
+always help each other for reasons beyond economics. The architectural problem appears when
+formal systems silently require that unpaid support exist while still claiming complete
+performance. Unpaid does not mean costless; the cost has simply been carried somewhere else.
+6. Housing, Transportation, and Geographic Architecture
+6.1 Total Location Cost
+A geographically cheaper home can be ecosystem-expensive. Moving outward may lower rent
+while raising fuel, depreciation, travel time, required childcare hours, vehicle dependence, and
+the probability that traffic or breakdown creates work failure. The paper defines Total Location
+Cost as housing cost plus required transportation cost, location-induced care cost, location-
+induced time cost, and access penalties.
+The federal government already recognizes part of this logic through HUD and DOT location-
+affordability work, which combines housing and transportation to show that nominal housing
+price alone can misstate affordability. The ecosystem model extends the concept to care-time
+extension, essential-service accessibility, and dependency risk.
+6.2 Dependency concentration
+When work, childcare, healthcare, food access, and school all depend on the same automobile,
+the automobile is not merely a transportation asset. It is a dependency concentrator. A $500
+mechanical failure can generate lost work, missed care, late fees, debt, and administrative failure.
+The architecture should therefore measure both direct cost and propagation potential.
+6.3 Fault boundaries
+Good architecture contains local failures. A broken car should remain primarily a transportation
+problem. A child illness should remain primarily a temporary care problem. A billing error
+should remain an administrative problem. Backup transportation, paid leave, grace periods,
+portable benefits, short-term payment flexibility, and reliable appeal mechanisms function as
+fault boundaries. They do not eliminate cost; they prevent one event from unnecessarily
+destabilizing unrelated systems.
+
+[Source PDF page 13]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  13
+Figure 3. Failure propagation with and without a fault boundary.
+7. Healthcare, Credentialing, Benefits, and Administration
+7.1 Healthcare as capacity preservation
+Healthcare preserves the human capacity needed to work, care, learn, and administer a
+household. When access is tied to employment, employment failure can become healthcare
+instability precisely when health problems may already be reducing the capacity to work. The
+ecosystem question is not whether employer coverage is inherently defective; it is whether
+dependency concentration around one job amplifies transition risk.
+7.2 Credentialing and transition capacity
+Education and credentialing can validate real competence and protect the public. They can also
+become access gates whose transition costs fall hardest on people with the least spare capacity.
+Tuition is only one variable. A worker pursuing a credential may need care, travel, testing fees,
+unpaid classroom time, reduced overtime, books, equipment, and enough cognitive margin to
+learn after work.
+The paper therefore separates formal opportunity from executable opportunity. A tuition-free
+program is not necessarily executable if class hours conflict with work or care. A job opening
+does not create executable opportunity when transportation is absent. A promotion is not
+operational advancement if its schedule destroys the household's care arrangement.
+
+[Source PDF page 14]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  14
+7.3 Benefit transitions and Net Advancement
+Means-tested assistance must eventually decline as income rises. The architectural problem is not
+the existence of a phase-out; it is whether combined transitions preserve the direction of
+advancement. ASPE defines benefit cliffs as cases where lost benefits equal or exceed the earnings
+increase that triggered the reduction. Its modeling found a 51% median marginal tax rate among
+households with children just above poverty and identified smaller populations facing very high
+rates. [5] Full cliffs are not universal, but high transition rates are real.
+Existing marginal-tax-rate analysis generally focuses on taxes and benefits. The ecosystem model
+adds work-induced private costs. Net Advancement equals additional earnings minus additional
+taxes, lost supports, participation costs, replacement costs, and transition costs. The relevant
+question after a raise is not how much gross income increased; it is how much additional
+executable household capacity remained.
+7.4 Administration as an invisible system
+Eligibility is not the same as access. People can legally qualify for services while failing
+procedurally because they cannot discover the program, assemble documentation, meet a
+deadline, complete recertification, or correct an institutional error. Administrative burden
+includes learning costs, compliance costs, travel, waiting, attention, repeated documentation, and
+the risk of procedural loss.
+The ecosystem framework treats citizen time as a real cost. A process that saves an agency one
+hour by imposing five additional hours on the household has not necessarily become more
+efficient; it has transferred cost outside the agency ledger. This is why burden accounting must
+cross institutional boundaries.
+8. Household Stress Tests
+The following cases are not demographic forecasts. They are controlled stress tests. The objective
+is to determine whether plausible conditions can combine into fragile or nonviable
+configurations even when the operator behaves reasonably. Several ordinary expenses are
+deliberately omitted in early stages so that the test does not depend on inflated assumptions.
+8.1 Case A: single parent, two children, full-time employment
+Assume one adult, two dependent children, forty paid hours per week, and a declared wage of
+$20 per hour. Gross annual earnings are approximately $41,600, or $3,467 per month. After
+employee Social Security and Medicare contributions of 7.65%, roughly $3,202 remains before
+federal or state income tax and before household expenses.
+Use observed Federal Reserve 2024 benchmarks for renters using at least twenty hours of paid
+childcare per week: median housing of $1,546 and median childcare of $1,100. Under this
+
+[Source PDF page 15]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  15
+illustrative combination, about $556 remains after payroll contributions, housing, and childcare -
+before food, transportation, healthcare, phones, clothing, utilities not included in rent, income
+tax, school expenses, debt, or emergencies. The exercise does not claim these medians describe
+every single parent. It shows that ordinary observed costs can consume most of a full-time wage
+before discretionary spending enters the model.
+The stabilizers that make such a configuration work - public subsidy, shared housing, child
+support, lower rent, unpaid family care, food assistance, a second income, or transportation help
+- are not evidence that the original arithmetic was wrong. They are additional ecosystem
+resources. They should be counted rather than treated as background.
+8.2 Case B: two working adults, two children
+Assume two adults each earning $18 per hour for forty hours. Combined gross income is
+approximately $74,880 annually, or $6,240 monthly. After employee payroll contributions, about
+$5,763 remains before income tax. Apply the Federal Reserve 2025 benchmarks of $1,517
+childcare and $2,000 housing for families using substantial paid care. Roughly $2,246 remains
+before the rest of the household budget.
+The second adult changes more than income. It can add schedule flexibility, transportation
+redundancy, caregiving redundancy, and a second earnings stream. But it also introduces
+another work schedule, another commute, and potentially another vehicle. The household can be
+financially stronger while remaining time-fragile if both employers are rigid and care is scarce.
+8.3 Case C: the raise and transition test
+Return to the $20-per-hour worker and increase pay to $22. Annual gross income rises by $4,160,
+about $347 per month. After payroll contribution alone, roughly $320 remains. A conventional
+wage chart calls this advancement. Ecosystem accounting then asks whether childcare
+copayments, SNAP, healthcare subsidies, housing support, transportation, or schedule
+requirements change at the same time.
+The paper does not invent a universal cliff because household participation and program rules
+vary. The correct output is a jurisdiction-specific Combined Transition Rate and Net Advancement
+calculation. A system that cannot tell a household whether a raise materially increases available
+capacity is not fully transparent about advancement.
+8.4 Case D: middle-income stability without accumulation
+Observed benchmarks: two-adult household, combined gross income $100,000/yr ($8,333/mo, before
+tax); Federal Reserve 2025 substantial-care medians of $1,517 childcare + $2,000 housing =
+$3,517/mo (housing + childcare only - no other benchmarked category is available at this income
+band from the same source).
+
+[Source PDF page 16]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  16
+Declared assumptions: no additional income sources; effective payroll-tax rate 7.65% (held constant
+across Cases A-D for comparability); federal/state income tax and all other categories
+(transportation, healthcare, food, utilities, insurance, debt service) intentionally excluded, exactly as
+in Case A, so the four cases remain comparable on a like-for-like basis.
+Derived arithmetic: payroll contributions approximately $638/mo, leaving approximately
+$7,695/mo; after housing + childcare, approximately $4,178/mo remains before every other category.
+This is 42.2% of gross income and 45.7% of post-payroll income spent on housing plus childcare -
+both figures are reported here, since v1.0 reported only the gross-income share, which understates
+the remaining margin relative to what the arithmetic actually supports.
+This household is not in the same position as Case A. It may pay every bill reliably. The relevant
+question shifts from survival toward accumulation - but the stress test itself does not demonstrate
+nonviability or fragility here, and should not be read as implying one. It demonstrates that
+stability is what this benchmark set measures, not accumulation, because the available medians
+do not include savings behavior, debt service, or asset data. That is a scope limitation of the
+benchmarks, not a finding about this household's trajectory. A household can be stable while
+accumulating very little; that distinction matters because long-term mobility depends on the
+ability to convert present effort into savings, assets, education, business capital, or reduced debt.
+Stability is not the same thing as advancement - but this case cannot, on its own arithmetic, tell
+you which one a given household is experiencing.
+8.5 Case E: credential transition
+Observed benchmark: v1.0 anchored this case to no sourced data - the $20 to $28/hour transition,
+the nine-month duration, and the two-evenings/week course load were declared assumptions with
+no reference point. A partial correction: median for-credit workforce-certificate programs in
+community-college systems commonly run roughly two to four semesters (9-18 months) at 6-12
+contact hours per week, per state higher-education agency data generally available in that sector.
+Program-specific tuition, contact hours, and completion rates vary materially by state and program
+and were not verified against a single national source for this edition. Status: UNRESOLVED pending
+a jurisdiction-specific source.
+Declared assumptions (retained, clearly labeled as assumptions rather than findings): a worker
+earning $20/hour qualifies for $28/hour work after completing training; the transition requires two
+evenings of class per week for approximately nine months.
+Derived arithmetic: not computed. The future earnings gain (roughly $8/hour, or about $16,640/year
+at full-time hours) is substantial on its face, but the transition also consumes tuition or fees, travel,
+classroom hours, study time, possible childcare outside normal provider hours, and foregone
+overtime - none of which are benchmarked here. The lifetime return can be positive while the
+present transition remains non-executable; this is why Entry Capital is defined to include money,
+time, care, mobility, and operational stability, not tuition alone.
+
+[Source PDF page 17]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  17
+v1.0 presented this case with the same narrative confidence as Cases A-C despite resting entirely
+on declared assumptions. This edition flags it as the weakest-evidenced case in Section 8. It should
+either be re-run against a specific state program's published cost and schedule data before
+further citation, or treated as illustrative-only, consistent with the caveat on synthetic cases in
+Section 1.3, rather than as a stress test on the same evidentiary footing as Cases A-C.
+8.6 Household states
+State Description
+Nonviable Normal obligations cannot all be satisfied
+under the modeled configuration.
+Fragile Obligations can be met, but ordinary
+disruption is likely to create cascade.
+Stable Ordinary obligations are met with limited
+recurring instability.
+Resilient Ordinary disruptions can be absorbed without
+major cascade.
+Accumulating Surplus capacity persists and compounds into
+future options.
+9. Failure Mechanics and Environmental Outcomes
+9.1 Recurring failure modes
+ Schedule collision: legitimate obligations demand incompatible time windows.
+ Cost transfer: one subsystem lowers its direct cost by increasing cost elsewhere.
+ Threshold failure: a small gain in one variable triggers disproportionate loss in another.
+ Circular dependency: System A requires System B while System B requires prior success in
+System A.
+ Administrative exclusion: substantive eligibility exists but procedural access fails.
+ Failure propagation: a local disruption travels into multiple essential systems.
+ Hidden subsidization: unpaid family or private resources make formal systems appear more
+capable than they are.
+ Zero-margin operation: obligations fit only when nothing goes wrong.
+ Interface drift: systems that once aligned become incompatible as each evolves
+independently.
+
+[Source PDF page 18]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  18
+9.2 Bad architecture produces an operating environment
+Architecture produces conditions. Conditions shape behavior. Badly integrated architecture tends
+to create uncertainty, low operational margin, high maintenance burden, shortened planning
+horizons, defensive decision-making, reliance on informal workarounds, and repeated reset. A
+person may appear short-term oriented because the environment repeatedly punishes long-term
+commitments that require temporary sacrifice.
+This is not an argument that architecture determines behavior. People retain agency. It is an
+argument that the environment changes the cost of exercising agency. When the consequences of
+a promotion, job change, move, or training program are unpredictable across several systems,
+declining the opportunity can be rational risk avoidance rather than lack of ambition.
+9.3 Good architecture contains failure and allows accumulation
+Good architecture does not remove illness, scarcity, bad decisions, or accidents. It dampens them.
+A broken car remains mostly a transportation problem. A sick child becomes a temporary care
+problem rather than a pathway to job loss and housing instability. Predictable transitions reduce
+compensating behavior. Reliable institutions lengthen planning horizons because people can
+calculate.
+The most important environmental distinction may be accumulation versus reset. In a good
+environment, work can create savings, savings can create resilience, resilience can permit
+education or business risk, and those gains can create additional future options. In a bad
+environment, each gain is repeatedly liquidated to absorb interface failures. The household can
+work harder and still remain in the same structural position because progress does not stay.
+
+
+[Source PDF page 19]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  19
+Figure 4. Bad architecture amplifies integration burden and reset; better architecture supports containment and
+accumulation.
+9.4 Planning horizon, predictability capital, and trust
+Predictability is itself an economic resource. Stable rules allow households and firms to make
+commitments over longer periods. Unreliable systems generate compensating burden: extra calls,
+redundant records, backup arrangements, earlier departures, excess cash reserves, and repeated
+verification. Institutional trust can therefore emerge mechanically from reliability. Systems do
+not need belief first; consistent performance creates the evidence from which trust can grow.
+10. Children and Intergenerational Propagation
+Children do not control housing prices, parental schedules, childcare supply, transportation,
+benefit rules, or most household financial decisions. Yet they experience the environment those
+systems produce. That makes children downstream operators: individuals exposed to cross-
+system consequences without authority over the initiating systems.
+A 2025 Census working paper linked eviction-court records with education and Census data and
+used judge leniency to help isolate eviction effects. It found increases in residential mobility,
+homelessness, doubling up, school absences, and school changes, along with reductions in high-
+school course credits and graduation outcomes. [7] The value of this evidence for the ecosystem
+argument is not that every housing disruption produces the same result. It is that a housing event
+can causally propagate into educational and developmental domains.
+10.1 Horizontal and vertical cascade
+Horizontal cascade moves across systems in the same period: transportation failure becomes
+work loss and then income loss. Vertical cascade changes the conditions encountered in later
+developmental stages or future generations. Housing instability can interrupt school continuity;
+repeated depletion of household reserves can reduce resources available for education or
+relocation; deferred infrastructure can transfer costs to future residents.
+10.2 Developmental margin
+Children require more than monetary sufficiency. Their environment depends on caregiver time,
+stable housing, school continuity, sleep, healthcare, mobility, predictable routines, and emotional
+availability. A household operating at zero margin may meet every formal obligation while
+possessing little buffer for developmental disruption. The state should not prescribe parenting,
+but policy analysis should not pretend the architecture surrounding parents is irrelevant to
+children.
+
+[Source PDF page 20]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  20
+10.3 Intergenerational accumulation
+Accumulation is not only financial. Stable housing can preserve school continuity, social
+relationships, transit familiarity, and community support. Repeated moves can force families to
+rebuild those assets. The intergenerational test is therefore whether the architecture tends to
+preserve and multiply usable capacity or repeatedly destroy it before it can be transferred
+forward.
+11. Employers, Public Finance, and Hidden Infrastructure
+11.1 Employers are integrated operators too
+Employers depend on workers arriving, remaining healthy enough to work, obtaining care,
+reaching the worksite, maintaining credentials, and living within a feasible labor shed. A
+manager may observe lateness, absenteeism, turnover, refusal of overtime, or recruiting
+difficulty while the originating cause exists outside the workplace. The same boundary problem
+that affects households therefore affects firms.
+Employer-side interface costs include absence, overtime coverage, replacement hiring, training,
+management time, schedule instability, and lost productivity. These costs belong in the Burden
+Ledger. A reform that lowers household costs while dramatically increasing business fragility is
+not automatically successful. Conversely, an employer policy that increases internal efficiency by
+exporting severe cost into family systems requires ecosystem accounting.
+11.2 Do not make the employer the default welfare integrator
+One possible response to fragmented architecture is to load every missing function onto
+employers: healthcare, childcare, retirement, transport, leave, training, and more. Some firms
+may voluntarily provide these supports effectively. But concentrating many essential systems
+around one job increases dependency concentration. Employment loss then becomes multi-
+system loss. The architecture should therefore evaluate portability and redundancy rather than
+treating employer provision as inherently good or bad.
+11.3 Public and private fiscal displacement
+A government program can appear cheaper because cost has moved to another level of
+government, employers, charities, insurers, or households. A state budget reduction can increase
+local emergency spending. A federal administrative requirement can consume large quantities of
+private time. A benefit cut can increase employer turnover or household debt. Budget savings and
+ecosystem savings are not the same.
+GAO's long-running work on duplication, overlap, and fragmentation demonstrates that
+architecture has large fiscal consequences. Its 2026 annual report states that actions on prior
+matters and recommendations produced roughly $774.3 billion in reported financial benefits,
+
+[Source PDF page 21]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  21
+while 610 matters and recommendations remained open. [3] Those totals are rough and
+methodologically heterogeneous, a limitation GAO itself notes. Their relevance is that
+coordination failures and their correction can carry very large measurable costs.
+11.4 Ecosystem Debt and borrowed stability
+Ecosystem Debt is accumulated future burden created when present operation is maintained by
+deferring cost, maintenance, capacity replacement, or structural correction. It can be financial,
+infrastructural, health-related, administrative, relational, or institutional. Debt is not inherently
+bad. Borrowing to create more future capacity than it consumes can be productive. The problem
+is extractive debt: current functionality financed by future burden without sufficient future
+capacity to repay it.
+Borrowed stability occurs when current indicators look healthy because reserves are being
+depleted. Bills remain current because savings are falling. Work attendance remains high
+because grandparents supply unpaid care. Consumption continues because revolving credit
+expands. Services continue because infrastructure maintenance is delayed. The visible system
+looks operational while the underlying capacity deteriorates.
+12. Historical Persistence and Comparative Evidence
+12.1 Fragmentation is not a new diagnosis
+GAO was documenting childcare fragmentation in the mid-1990s. Its 1995 testimony concluded
+that fragmented subsidy programs created service gaps constraining low-income mothers' ability
+to work, including differences in eligibility, employment conditions, income limits, and subsidy
+duration. [8] That historical evidence is not used as a description of current program rules. Its
+relevance is persistence: the care-work interface has been recognized as a cross-program
+governance problem for decades.
+The same pattern appears in workforce programs. Federal reforms have repeatedly attempted to
+consolidate, coordinate, and improve accountability across employment and training systems.
+These reforms have produced real improvements, yet fragmentation continues to recur. That
+pattern is consistent with Institutional Accretion and Interface Drift: coordination is not a one-
+time state achieved permanently by a reorganization.
+The persistence is current. GAO's 2026 federal-program-inventory report states that OMB's
+inventory covered more than 2,600 programs and over $7 trillion in spending but remained
+incomplete. [9] A government that cannot fully enumerate its own program architecture has
+limited ability to map all dependencies and interactions. Observability is therefore a prerequisite
+to accountability.
+
+[Source PDF page 22]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  22
+12.2 Comparative architecture as an interface test
+Comparative analysis is useful only when it isolates mechanisms rather than turning countries
+into ideological symbols. Childcare systems offer a clear interface test because financing, supply,
+operating hours, and parental employment can be compared across different institutional
+arrangements. Quebec's low-fee childcare reforms are frequently studied because maternal
+labor-force participation rose substantially after the policy era began. That does not prove every
+change was caused by childcare; demographics, labor demand, taxation, and other policies also
+matter. It does show that altering the care-work interface can change labor behavior materially.
+The important comparative lesson is not that one foreign model should be copied. It is that
+burdens commonly treated as natural constants are partly designed. Who pays for care, when
+care is available, how benefits taper, how healthcare follows workers, and how housing relates to
+transport are institutional choices with tradeoffs. Every architecture pays; the question is where
+the cost sits, what environment the distribution produces, and what new failure modes appear.
+12.3 Interface repair can work
+The evidence that fragmentation reform has produced measurable benefits is important because
+the restructuring thesis would be weaker if architecture were irrelevant. GAO reports substantial
+financial and nonfinancial benefits from prior actions addressing overlap and fragmentation. [3]
+The existence of improvement from coordination means the seams are not merely descriptive;
+they are actionable design objects.
+13. Falsification: Can Better Subsystems Solve the Problem?
+The strongest alternative to restructuring is straightforward: improve childcare, wages, housing,
+transportation, healthcare, benefits, credentialing, and administration independently. If high-
+quality subsystem reform is sufficient, adding another governance layer is unnecessary.
+13.1 Improve childcare
+Cheaper, more abundant childcare improves financial margin and labor availability. But price
+reform does not automatically solve hours, geography, sick-child exclusions, nonstandard shifts,
+or travel time. It can repair the financial interface while leaving the temporal interface degraded.
+13.2 Improve wages
+Higher wages increase purchasing power, savings potential, care affordability, housing choice,
+and time purchasing power. But money cannot make two incompatible time windows overlap.
+Wage growth can reduce several constraints without eliminating schedule collision or
+administrative complexity.
+
+[Source PDF page 23]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  23
+13.3 Improve housing and transportation
+More affordable housing and reliable transportation can materially improve household
+outcomes. Yet housing supply built far from employment can increase travel and care burden;
+transportation improvements cannot fix benefit cliffs or credential barriers. Each solution
+remains dependent on its interfaces.
+13.4 Improve benefits and administration
+Smooth benefit tapers reduce negative advancement. Simplified applications reduce
+administrative burden. Neither can create care, transportation, or time. A perfectly designed
+portal cannot supervise a child, move a worker, or make two schedules compatible.
+13.5 Improve everything
+Assume substantial improvement everywhere: better wages, more housing, reliable transport,
+portable healthcare, abundant care, smoother benefits, simpler administration, lower credential
+burden. The environment would improve dramatically. The remaining question is who ensures
+those systems continue to align as they evolve.
+A childcare system can redesign around current labor schedules while logistics, hospitals,
+construction, or manufacturing later shift start times. Housing can expand while transit lags. New
+credential requirements can emerge faster than training infrastructure. Digital healthcare can
+expand while connectivity gaps remain. The systems can drift out of compatibility after a
+successful reform. Coordination is therefore not a one-time achievement; it is a permanent
+system function.
+13.6 Finding: architectural insufficiency
+The evidence does not establish that every subsystem is failed. It establishes
+that governance limited exclusively to subsystem boundaries is insufficient for
+an environment in which the subsystems continuously depend on one another.
+This is a narrower and stronger finding than declaring society broken. Specialized institutions
+remain necessary. Local reform remains necessary. But no set of independently improving
+institutions can guarantee continuing compatibility because the interfaces themselves change. A
+permanent capability is required to observe dependencies, detect drift, measure burden transfer,
+validate combined outcomes, and trigger bounded correction. As stated in the Executive Findings,
+this is the paper's central hypothesis, motivated by the reasoning above rather than established
+by direct interface-level measurement, which does not yet exist (Section 13A).
+
+[Source PDF page 24]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  24
+13A. Empirical Questions the Ecosystem Must Answer
+The restructuring case depends on more than conceptual coherence. An ecosystem architecture
+must be able to answer questions that current administrative systems often measure only
+partially. This chapter converts the twelve unresolved research questions into explicit empirical
+requirements. Where current evidence is sufficient, the paper states the finding. Where it is not,
+the paper defines the measurement rather than inventing a number.
+13A.1 How much time do households spend integrating public and private systems?
+There is no single national statistic for the total hours households spend reconciling employment,
+care, insurance, schools, housing, benefits, transportation, finance, and administrative
+requirements. Existing time-use surveys measure work, care, travel, household labor, and leisure,
+but they do not fully isolate the time spent making separate institutions interface. That missing
+category matters because the integration work is not the underlying life function. Calling an
+insurer because two billing systems disagree is not healthcare. Reapplying for information
+another agency already verified is not the benefit itself. Searching for backup care after a
+provider closes is not ordinary caregiving; it is integration work created by the architecture.
+The proposed Household Integration Time Account separates administrative coordination, care
+coordination, transition time, reliability compensation, and cross-system conflict resolution. The
+primary unit should be hours, not dollars. A person loses six hours whether or not those six hours
+were scheduled for paid work. Economic opportunity-cost estimates can be layered on later, but
+they should not erase the underlying time quantity. The purpose is to make visible a resource that
+institutions routinely consume without placing it on their own balance sheets.
+A national time-use supplement could collect these activities without requiring continuous
+surveillance. Respondents could record the purpose of calls, visits, documentation, waiting, and
+cross-system travel over sampled days. The resulting distribution would reveal whether
+Integration Burden is concentrated among particular household configurations, income bands,
+care responsibilities, geographies, or program combinations. It would also allow reforms to be
+evaluated by whether they actually release human time rather than merely change agency
+workload.
+13A.2 What proportion of employment disruption begins outside the workplace?
+Employers record the boundary event: absence, lateness, reduced availability, resignation, or
+refusal of overtime. That event does not necessarily identify the initiating cause. A missed shift
+can begin with a childcare closure, vehicle failure, school cancellation, dependent illness, housing
+emergency, or mandatory government appointment. Without origin data, labor statistics risk
+classifying ecosystem failure as individual attendance behavior.
+Existing evidence establishes that external obligations materially affect labor participation.
+Census childcare research documents substantial lost work among households unable to obtain
+
+[Source PDF page 25]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  25
+adequate care. Federal Reserve evidence shows caregiving responsibilities are associated with
+reduced paid work among prime-age adults. These sources do not produce one complete national
+External-Origin Employment Disruption Rate, because they do not combine every source of
+disruption in one causal taxonomy.
+The proposed measure would record the immediate workplace event and the originating event
+separately. An anonymous labor survey could classify origins such as worker illness, dependent
+illness, childcare unavailable, eldercare, transportation, housing, school closure, infrastructure,
+administrative obligation, employer scheduling, workplace injury, and other. This would allow
+employers and policymakers to distinguish the portion of attendance instability that can
+plausibly be addressed inside the firm from the portion arriving from the surrounding
+ecosystem.
+13A.3 How often does childcare schedule mismatch cause lost work?
+The 2025 CPS ASEC provides unusually strong evidence that childcare problems can generate
+large work losses, but it does not isolate schedule incompatibility from price, supply, closure,
+illness rules, or other care problems. [1] The missing measure is therefore not whether childcare
+failure matters; that is established. The missing measure is how much of the failure is specifically
+temporal.
+A Childcare-Work Compatibility Census should combine provider opening and closing times, age
+capacity, weekend and overnight availability, waitlists, cost, and geography with regional shift
+distributions, required arrival time, mandatory overtime, commute time, and care transition
+time. This produces effective capacity rather than licensed capacity. A slot that exists but cannot
+cover the Employment Obligation Window is not operationally available to that worker.
+The resulting Schedule Coverage Ratio should not merely compare the number of care hours with
+the number of work hours. The windows must overlap in time and geography. Twelve hours of
+care from 7 a.m. to 7 p.m. does not serve a worker who must leave home at 5:30 a.m. for a 6 a.m.
+start. The distinction is simple, but it changes what counts as access.
+13A.4 How frequently do benefit transitions create near-zero or negative Net
+Advancement?
+ASPE's effective-marginal-tax-rate work demonstrates that taxes and benefit phase-outs can
+absorb large portions of additional earnings, and it defines benefit cliffs as cases where benefit
+loss equals or exceeds the earnings increase that caused it. [5] Those analyses are essential, but an
+ecosystem measure must go further because additional work can also create private participation
+costs.
+The proposed Net Advancement simulator should model the household before and after a raise,
+overtime offer, promotion, or job change. It should calculate gross gain, payroll and income tax
+changes, benefit changes, childcare cost, transport cost, healthcare changes, work equipment, and
+
+[Source PDF page 26]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  26
+additional required time. A person may receive a large gross raise and a modest net gain, or a
+small raise and a large gain. The architecture should make the difference visible before calling
+the transition advancement.
+This should be mapped by state and household configuration rather than reduced to one national
+number. Program rules, provider markets, and tax structures vary. The important measurement
+is the frequency and depth of near-zero or negative zones, not a sensational example selected
+from the worst case.
+13A.5 How much household wealth is consumed by repeated interface failures?
+A shock has a direct cost and a propagated cost. A vehicle repair may cost $700. If the household
+has no backup transportation, the same event may also produce lost wages, rideshare costs, late
+fees, missed appointments, and revolving debt. Conventional accounting records these as
+separate household events. Interface Wealth Loss treats the propagated portion as one chain.
+Federal Reserve household-finance data show that unexpected expenses are common and that
+many households respond through savings drawdowns, credit, borrowing, additional work, or
+other adjustments. Those data establish the mechanisms through which shocks consume
+reserves, but they do not identify how much of the loss is due specifically to cross-system
+amplification. The proposed longitudinal measure would classify major asset drawdowns by
+initiating event and trace downstream costs.
+Repeated Reset Rate measures how often a household rebuilds positive margin and then returns
+toward zero after a disruption. Accumulation Retention Rate asks what fraction of newly created
+capacity remains available in later periods. These measurements would help explain how income
+can rise over years while net household capability changes much less because gains are
+repeatedly liquidated to repair interface failures.
+13A.6 How large is unpaid family support infrastructure?
+This question can already be answered in part. The Federal Reserve reported that 44% of parents
+with children under 13 used some unpaid childcare in 2025, and half of parents with children
+under six did so. [2] AARP estimates that 59 million adults provided 49.5 billion hours of unpaid
+adult care in 2024, valued at about $1.01 trillion using its market-equivalent methodology. [4]
+These are not marginal contributions.
+The research implication is not that every unpaid family interaction should be monetized or
+publicly compensated. Family relationships are not reducible to market exchange. The
+architectural implication is that formal systems cannot claim complete performance while
+treating this labor as nonexistent. If work participation, eldercare, or healthcare discharge
+depend on family labor, that dependency belongs in the system model.
+Future measurement should distinguish voluntary support from compensatory support. A
+grandparent who wants to spend an afternoon with a child is not equivalent to a grandparent
+
+[Source PDF page 27]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  27
+who must cover a daily scheduling gap because no formal care option matches the parent's shift.
+The first enriches the family; the second may be essential hidden infrastructure. The distinction
+matters for system honesty.
+13A.7 How much does geography alter Total Location Cost?
+Housing price is only one component of location cost. The federal Location Affordability
+framework already recognizes that housing and transportation must be analyzed together. The
+ecosystem model extends that logic to time, care extension, essential-service access, and
+dependency concentration.
+Two homes with identical rent can create different operating environments. One may sit near
+employment, childcare, schools, and healthcare. The other may require two vehicles and long
+commutes. Conversely, an expensive urban unit may reduce transport and care-time costs
+enough that its total burden is lower than its rent suggests. The proper metric is Total Location
+Burden, not housing price alone.
+Geographic analysis should therefore model home-to-work, home-to-care, care-to-work, school,
+healthcare, and basic-service networks. Spatial planning can then identify areas of false
+affordability: places that look inexpensive inside the housing subsystem but expensive after the
+ecosystem is accounted for.
+13A.8 Which interface interventions produce the highest Capacity Multiplication?
+The same interconnectedness that allows failure to cascade allows improvement to cascade.
+Reliable childcare can improve work attendance, income, employer staffing, tax revenue, and
+household predictability. Paid leave can contain illness without immediately converting it into
+income loss. Administrative simplification can release time and reduce procedural denials. Better
+geographic alignment can reduce several expenses simultaneously.
+Capacity Multiplication should therefore evaluate an intervention across multiple domains rather
+than only the direct program output. The numerator includes verified improvements in income,
+time, mobility, resilience, administrative burden, and accumulation. The denominator is the scale
+and cost of the intervention. These dimensions should not always be collapsed into one dollar
+figure; some effects should remain explicit.
+The leverage rule is simple: high-value interfaces are those where removing one constraint
+releases capacity across several systems. This does not tell policymakers which value tradeoff to
+choose. It tells them where architecture creates multiplicative consequences.
+13A.9 How strongly does Operational Margin predict later crisis?
+No national dataset currently uses the paper's exact multidimensional Operational Margin
+concept. Existing evidence strongly supports the financial component: households with money
+left after monthly expenses are far more likely to maintain emergency savings than households
+
+[Source PDF page 28]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  28
+with no remaining margin. The proposed research question is whether adding time, mobility,
+care, and administrative margins improves prediction of later instability.
+Operational Margin should initially remain a vector rather than a single score. A household can
+be financially stable but time-fragile, or financially narrow but mobility-resilient because of
+strong transit and family support. The objective is not to rank families. It is to identify
+configurations in which ordinary disruption is likely to propagate.
+Longitudinal research can test whether low margin predicts missed bills, eviction, job separation,
+benefit interruption, high-cost debt, missed care, or school disruption. The output should be
+probabilistic exposure, not a declaration that a household is destined to fail.
+13A.10 Can Cascade Ratio be measured without invasive surveillance?
+Yes, in many cases. Cascade measurement does not require continuous individualized tracking.
+Event-specific administrative linkage can examine one chain at a time. Natural experiments can
+compare similar populations exposed to different policy conditions. Voluntary longitudinal
+panels can follow households with informed consent. Aggregate administrative analysis can
+identify population-level sequences.
+The privacy rule is structural analysis first. Measure system hours, geography, capacity,
+processing time, and transition rules before collecting personal detail. Where linked data are
+necessary, use purpose-specific access, limited retention, de-identification where feasible,
+independent controls, and prohibitions on unrelated reuse. Measurement authority should not
+become general enforcement authority.
+The purpose of Cascade Ratio is to identify amplification. If a small local event regularly
+generates several times its direct cost because the architecture contains no fault boundary, the
+interface is a candidate for repair. That can be learned from protected research without
+constructing a universal dossier on each citizen.
+13A.11 Which institutions already function as Interface Stewards?
+The replacement architecture does not need to invent every function from zero. GAO already
+performs independent cross-system review by identifying fragmentation, overlap, duplication,
+and weaknesses in performance information. Government-wide performance-management
+bodies already coordinate some crosscutting goals. Statistical agencies already supply population
+measurement. Courts already police authority and rights. State and local agencies already possess
+domain expertise.
+What is often missing is explicit custody of the interface itself. A committee that meets across
+agencies is not necessarily a steward. Stewardship requires a defined question, evidence
+standard, review schedule, named accountability, and escalation pathway. The steward owns
+whether the handoff works, not the entire underlying systems.
+
+[Source PDF page 29]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  29
+The architectural principle is reuse before creation. Existing institutions should be extended only
+where they have independence, analytic capacity, appropriate authority, and public
+accountability. New institutions should be created only for functions that cannot be assigned
+safely to existing structures. Section 15 of this edition names, per function, which of these
+institutions is the proposed owner and what if anything is newly required.
+13A.12 What constitutional controls prevent centralized social management?
+This question is not secondary. An ecosystem layer able to see and coordinate many systems
+could become a mechanism for population management if authority boundaries are vague. The
+architecture therefore requires hard separation between observing a structural condition and
+possessing power over the person affected by it.
+Enumerated authority limits what government may act upon. Purpose limitation prevents power
+granted for one interface from migrating to another. Data minimization limits visibility.
+Separation of observation and execution prevents the validator from becoming the ruler.
+Legislative authorization is required for material changes to rights, duties, spending, taxation, or
+private conduct. Judicial review keeps authority contestable. Distributed execution preserves
+local variation and reduces blast radius. Periodic revalidation prevents emergency or
+experimental powers from becoming permanent by inertia.
+Most importantly, lawful preference remains outside optimization. The state may show that one
+option is cheaper, healthier, or more efficient. That does not create authority to command the
+option where the person retains a protected choice. Ecosystem governance maintains the
+architecture in which plural lives can operate; it does not select the life.
+13A.13 What the missing data itself proves
+The absence of a comprehensive Household Integration Time measure, External-Origin
+Employment Disruption Rate, Interface Wealth Loss account, or multidimensional Operational
+Margin Index is not proof that the underlying burdens are large. It is proof of something
+narrower: the current architecture does not observe several variables necessary to evaluate its
+own combined operation. A system can govern obligations that it does not fully measure at the
+interface. That observability gap is itself part of the architectural finding - and it is also, precisely,
+why the architectural claim in this paper remains a hypothesis rather than an established
+finding. See the Executive Findings and Abstract.
+13B. Environment, Recovery, and Long-Term Capacity
+13B.1 Maintenance burden versus productive effort
+People expend effort for two very different purposes. Productive effort creates output, capability,
+relationships, knowledge, or future options. Maintenance effort simply keeps the current
+configuration from collapsing. Paying bills, renewing insurance, repeating documents, arranging
+
+[Source PDF page 30]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  30
+backup care, replacing a failed vehicle, and correcting administrative errors can consume
+enormous energy without creating additional capacity.
+A high-maintenance environment can therefore produce the appearance of industriousness
+without accumulation. The household is busy but stationary. The relevant question is not
+whether the person is working hard. It is what percentage of effort is available for advancement
+after the system's maintenance requirements are satisfied.
+13B.2 Recovery Path Quality
+Architecture reveals itself after failure. A benefits error, childcare authorization problem, billing
+mistake, or credential-processing failure may be unavoidable at some rate. The system's quality
+depends heavily on what happens next. Recovery Path Quality measures whether the return to
+normal operation is clear, proportionate, timely, appealable, and resistant to additional cascade.
+Two institutions can have the same error rate and radically different human consequences. One
+corrects mistakes in hours; the other takes months. Error frequency therefore must be evaluated
+alongside error severity and recovery time. A six-month correction to a six-day problem can
+transform a minor institutional mistake into housing or employment instability.
+Where an institutional error creates downstream penalties, correction of the record may not
+restore the person. A late payment, lost shift, credit mark, or missed appointment can remain
+after the agency fixes its file. The Restoration Principle asks whether the architecture contains a
+mechanism, where legally appropriate, to return the person toward the position they would have
+occupied absent the institutional error.
+13B.3 Borrowed stability and reserve depletion
+A system can appear healthy because reserves are being consumed. Households keep paying bills
+by using savings. Employers keep staffing shifts through overtime. Families maintain labor
+participation through unpaid grandparents. Public infrastructure continues operating while
+maintenance is deferred. None of those strategies is automatically irrational. The problem arises
+when reserve consumption becomes the normal operating model.
+Reserve Depletion Rate should therefore complement current-status measures. Financial reserves
+include cash, retirement balances, and credit. Operational reserves include paid leave, backup
+vehicles, care networks, health, sleep, and relational goodwill. A configuration that continuously
+draws down those reserves without replacing them is not truly stable; it is borrowing stability
+from the future.
+13B.4 Capacity creation versus capacity extraction
+Economic output can be generated by creating capacity or by extracting it. Education that raises
+future earning power can create capacity. Preventive healthcare can preserve it. Reliable care
+can release it. By contrast, permanent overtime, repeated debt, deferred medical treatment, or
+
+[Source PDF page 31]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  31
+chronic unpaid family substitution may sustain output while consuming the resources needed to
+maintain future participation.
+Capacity Balance is the difference between capability created and capability consumed. The
+metric need not be reduced to one dollar figure. Financial, time, health, care, mobility, and
+administrative capacity can be tracked separately. The important warning is that an economy can
+grow while some of the human infrastructure supporting that growth deteriorates.
+13B.5 Ecosystem solvency
+Solvency is usually discussed financially, but the ecosystem framework extends the concept. An
+ecosystem is solvent when it can meet current obligations while preserving enough future
+capacity to meet expected future obligations without recurring dependence on reserve depletion.
+Financial solvency is necessary but not sufficient. Physical infrastructure, care capacity,
+institutional capability, and human recovery also matter.
+This temporal dimension matters constitutionally because future citizens cannot participate in
+present decisions yet may inherit the costs. The paper does not resolve how future interests
+should be represented. It establishes the problem: present actors should not be able to label a
+configuration successful solely because the bill has been shifted beyond the current accounting
+period.
+13B.6 Environmental comparison
+See the canonical table in Section 9.4; it is not repeated here. v1.0 restated the same bad-
+architecture/better-architecture comparison in three places - Section 9.4, this section, and Appendix
+D - with no substantive differences between them. Consolidating to one instance removes duplication
+without losing content.
+13C. Counterarguments, Tradeoffs, and Alternative Explanations
+A restructuring argument is not credible if it treats every objection as evidence of
+misunderstanding. Several objections to ecosystem governance are substantial. Some reveal real
+limits of the framework; others identify tradeoffs that any implementation must carry. This
+section addresses them directly because architectural reform must survive disagreement, not
+merely resonate with people already convinced by the diagnosis.
+13C.1 Personal responsibility explains many failures
+People choose where to live, what work to accept, whether to have children, how much debt to
+carry, which vehicle to buy, whether to complete paperwork, and how carefully to plan. Those
+decisions materially affect outcomes. A framework that attributes every negative result to system
+design would erase agency and produce bad diagnosis.
+
+[Source PDF page 32]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  32
+The ecosystem model therefore preserves three causal classes: individual-origin failure, system-
+origin failure, and mixed failure. The purpose of interface analysis is not to excuse avoidable
+behavior. It is to prevent architecture from being treated as causally irrelevant. A person can
+make a poor decision inside a well-designed system; a reasonable operator can also fail inside an
+impossible configuration. Both statements can be true.
+The appropriate test is whether a Reasonable Operator - someone making ordinary efforts,
+responding to known risks, and remaining subject to normal human limitations - can navigate
+the architecture with a sustainable probability of success. Exceptional people can survive bad
+systems. Their survival does not prove the system is well designed. Likewise, individual mistakes
+do not prove the system created them.
+13C.2 Markets already coordinate decentralized systems
+Markets are powerful coordination mechanisms. Prices communicate scarcity, providers respond
+to demand, workers move toward opportunity, firms redesign schedules, and households choose
+among substitutes. The ecosystem framework should not assume central coordination is superior
+to decentralized adaptation.
+The limitation is that market response depends on conditions under which supply can actually
+adjust. Childcare supply can be constrained by staffing, licensing, facility cost, insurance, and low
+provider margins. Housing supply can be constrained by land, infrastructure, zoning, financing,
+and local politics. Transportation has network effects. Healthcare contains regulation and
+information asymmetry. In such settings, a price signal can reveal scarcity without rapidly
+solving it.
+The correct position is not anti-market. Market mechanisms remain eligible solutions and should
+be evaluated by the same ecosystem standard: what burden do they remove, what burden do
+they create, how quickly can supply respond, and what human environment results? A private
+solution that works should be preserved. A public solution that works should also be preserved.
+Institutional form is not evidence of outcome.
+13C.3 Government coordination may make the system worse
+This objection is particularly important because the historical record contains many examples of
+public programs that are slow, duplicative, opaque, or administratively heavy. Adding a
+governance layer can increase reporting, delay action, create new veto points, and generate
+compliance work that exceeds the burden it removes.
+That risk is why the proposed architecture rejects a super-agency. Coordination is distributed
+through interface stewardship, common evidence standards, independent validation, and
+existing constitutional institutions. Review depth scales with risk. Local repair is preferred to
+structural redesign. The ecosystem layer itself has a complexity budget and is subject to
+revalidation.
+
+[Source PDF page 33]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  33
+The proposal should therefore be judged by a simple empirical question: did total Integration
+Burden fall? If agencies meet more often while households and firms spend more time navigating
+the system, the coordination mechanism has failed its own purpose.
+13C.4 Complexity is unavoidable in a large society
+Correct. A country with hundreds of millions of residents, multiple levels of government, diverse
+industries, geographic variation, different family structures, and competing values cannot be
+made simple in the way a small technical system can. Some complexity is a property of the
+underlying reality, not administrative failure.
+The relevant distinction is necessary complexity versus artificial complexity. Different medical
+conditions require different care. Different occupations require different skills. Different
+geographies require different transport. But repeated entry of the same data, incompatible
+renewal cycles, unexplained handoffs, obsolete credentials, or rules that create unnecessary
+schedule collisions are not automatically justified by the complexity of society.
+The framework therefore does not use complexity itself as evidence of failure. It asks whether a
+specific burden materially protects a legitimate outcome and whether the burden is
+proportionate. Productive friction should remain. Nonproductive friction should not be
+preserved merely because the system has become accustomed to it.
+13C.5 Safety nets can weaken incentives and create dependency
+Means-tested support changes incentives because benefits decline as income rises. Economists
+model these effects for good reason. A system that ignores labor incentives can trap people in
+arrangements that are fiscally and individually unsustainable.
+The ecosystem response is not to eliminate phase-outs. It is to preserve Positive Advancement.
+Support can decline while household capacity still rises. The design problem appears when
+combined taxes, benefit reductions, and new work costs create long ranges in which additional
+productive effort yields almost no gain or actual regression. Those conditions are measurable and
+can be redesigned without making support permanent.
+The objective is successful transition: assistance performs a stabilizing function while
+independent capacity grows, and the household becomes progressively less dependent because
+the transition itself does not destroy the gains that make independence possible.
+13C.6 Government cannot optimize every life
+Correct. One household values proximity to family more than a shorter commute. Another
+chooses land over urban access. One parent may voluntarily reduce paid work to spend more
+time with children. Another may choose entrepreneurship despite income volatility. A model
+cannot convert those preferences into one mathematically correct life.
+
+[Source PDF page 34]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  34
+That is why the ecosystem layer evaluates structural executability rather than preferred
+outcomes. It can determine that a job is inaccessible without care during its hours. It cannot
+determine that the parent should accept the job. It can show the consequences of moving farther
+from work. It cannot command where the household lives. It can expose a benefit transition. It
+cannot define the person's value of leisure, risk, family time, or vocation.
+This boundary is essential. Population optimization treats people as components of a social
+machine. Ecosystem governance treats systems as infrastructure for people. The architecture
+preserves lawful options; citizens choose among them.
+13C.7 The proposed architecture could be too expensive
+Measurement, stewardship, data systems, independent validation, and policy experimentation all
+cost money. A government cannot simply add analytical layers without considering fiscal burden.
+Some interfaces may cost more to measure than the likely harm they produce.
+This is why risk-tiered governance is necessary. Small local changes should not require national-
+scale impact analysis. Structural review should scale with the population affected, financial
+magnitude, number of dependencies, irreversibility, rights implications, and potential blast
+radius. High-risk interfaces justify deeper evidence; low-risk changes require lighter review.
+The fiscal comparison must also include the cost of current fragmentation. GAO's reported
+benefits from previous duplication and fragmentation corrections show that poor architecture
+already carries measurable cost. [3] That does not prove a new layer will save money. It means
+doing nothing is not a zero-cost baseline. This is also, concretely, why Section 15 maps most
+proposed functions onto scope extensions of GAO, OMB, Census, and ASPE rather than new
+institutions - the marginal fiscal ask is smaller than "new governance layer" implies.
+13C.8 Architecture can hide political value judgments
+Who should pay for childcare? How progressive should taxation be? How much geographic
+inequality is acceptable? How much should employers versus taxpayers finance leave? These are
+not purely technical questions. Evidence can estimate effects, but it cannot derive every answer
+from mathematics.
+The ecosystem framework therefore separates empirical findings from normative decisions.
+Analysts can show that a financing model shifts cost from households to taxpayers, changes labor
+participation, affects provider supply, and creates specific fiscal obligations. Citizens and their
+legitimate representatives must still decide whether that distribution is acceptable.
+Technical evidence constrains false claims; it does not replace democracy. The ecosystem layer
+should make tradeoffs explicit enough that political choices cannot hide behind incomplete
+accounting. It should not claim that a model has solved questions that remain legitimately moral,
+constitutional, or distributive.
+
+[Source PDF page 35]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  35
+13C.9 A functioning architecture will still contain hardship
+No system can eliminate illness, scarcity, accidents, business failure, relationship breakdown,
+natural disasters, or the consequences of poor decisions. A society can substantially improve
+interfaces and still contain people who experience severe hardship. The presence of hardship
+therefore cannot by itself falsify a successful architecture.
+The relevant standard is reliability under expected operating conditions. Does ordinary
+participation generally build capacity? Are common disruptions contained? Are recovery paths
+timely? Are burdens visible? Can people understand the consequences of major transitions? Does
+the system distinguish unavoidable scarcity from contradictions it created itself?
+This standard is demanding without being utopian. It does not promise a frictionless life. It
+requires the architecture to stop claiming success merely because each institution can explain its
+own rules.
+13C.10 What would falsify the restructuring claim?
+The paper's thesis should be considered weakened if integrated household studies show that
+cross-system failures are rare, small, and easily contained; if independent subsystem reforms
+reliably eliminate them without recurring interface drift; if Integration Burden is negligible
+compared with ordinary household activity; or if proposed interface governance consistently
+costs more than the failures it addresses.
+The claim would also be weakened if strong evidence showed that most apparent interface
+failures are better explained by individual decisions or unavoidable scarcity rather than
+institutional incompatibility. A governed research program must be able to produce that
+conclusion if the evidence points there.
+Falsifiability matters because the ecosystem model is not meant to become an ideology. It is a
+hypothesis about where important failures originate and how they propagate. Reality retains veto
+power over the theory.
+14. Measurement Architecture
+14.1 The missing national measures
+Several central questions cannot currently be answered with a single national statistic: how
+much time households spend integrating public and private systems; what share of work
+disruption originates outside the workplace; how much schedule mismatch specifically drives
+childcare-related work loss; how much household wealth is consumed by propagated interface
+failure; and how strongly multidimensional Operational Margin predicts later crisis. These are
+not reasons to abandon the theory. They are observability gaps that a restructured architecture
+should close.
+
+[Source PDF page 36]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  36
+14.2 Household Integration Time
+Household Integration Time should measure hours spent not performing the underlying life
+activity but making separate systems function together: applications, insurer calls, recertification,
+backup-care searches, cross-system scheduling, repeated documentation, travel and waiting
+created by handoffs, and correction of institutional errors. The primary unit should remain
+hours; monetization can be secondary because unpaid human time is scarce even when no wage
+is lost.
+14.3 External-Origin Employment Disruption Rate
+An anonymous labor survey could classify originating events behind absence or lost work:
+worker illness, dependent illness, care failure, transportation, housing disruption, school closure,
+administrative requirement, weather or infrastructure, workplace injury, employer scheduling,
+and other causes. The employer-facing event and the originating event should be recorded
+separately. This would distinguish workplace failure from ecosystem failure arriving at the
+workplace.
+14.4 Childcare-Work Compatibility Rate
+A regional measure should combine provider opening and closing times, age capacity, geography,
+cost, waitlists, dominant shift patterns, required arrival times, commute distribution, and
+mandatory overtime. Effective childcare capacity is not licensed capacity; it is the number of slots
+the target population can actually use under real operating conditions.
+14.5 Net Advancement map
+A public simulator could show how a raise, overtime, promotion, or job change affects gross
+income, taxes, benefit eligibility, care cost, transport cost, healthcare, and required time. The tool
+should inform rather than prescribe. It may estimate household consequences; it should not tell a
+person which lawful life choice to make.
+14.6 Interface Wealth Loss and repeated reset
+Longitudinal panels should distinguish direct shock cost from propagated cost. A $700 repair is
+direct. Lost wages, late fees, emergency rides, and high-interest borrowing caused by the repair
+are propagation. Interface Wealth Loss is the propagated portion. Repeated Reset Rate measures
+how often households rebuild positive margin and then lose it to major disruptions.
+Accumulation Retention Rate measures how much newly created capacity survives into the next
+period.
+14.7 Operational Margin Index
+The paper does not recommend collapsing everything immediately into one score. Operational
+Margin should initially be represented as separate financial, time, mobility, care, and
+
+[Source PDF page 37]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  37
+administrative margins. Risk analysis should identify high-risk configurations rather than label
+households as risky people. Architecture is the target of measurement.
+14.8 Privacy-preserving cascade measurement
+Cascade Ratio can be studied without a universal citizen dossier. Aggregated administrative
+linkage, event-specific studies, natural experiments, and voluntary longitudinal panels can trace
+propagation while preserving data minimization. Measurement authority should also be
+separated from unrelated enforcement authority. Information collected to understand a care-
+work interface should not automatically become general-purpose surveillance.
+15. Ecosystem Governance Framework
+The proposed restructuring adds a governance capability for interaction. It does not create one
+institution that operates every social system. The architecture is federated: specialized systems
+continue to execute their functions; designated stewards own specific interfaces; independent
+validators test evidence; democratic institutions authorize material correction; courts police
+rights and authority; and public measurement makes outcomes visible.
+Figure 5. Proposed federated ecosystem governance: specialized systems remain, while interfaces gain explicit
+stewardship and validation.
+System Registry
+Enumerate major public systems, statutory authority, purpose, population, inputs, outputs,
+funding, metrics, and external dependencies.
+Dependency Registry
+Require each major system to identify what it depends on and which other systems materially
+depend on it.
+
+[Source PDF page 38]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  38
+Interface Stewardship
+Assign an accountable owner to the question of whether a specific cross-system interface works,
+without giving the steward control over every underlying institution.
+Ecosystem Impact Statement
+Before major structural changes, evaluate financial, temporal, administrative, geographic, care,
+transition, privacy, liberty, and downstream effects.
+Integrated Operator Stress Testing
+Test policy against representative household and employer configurations rather than one
+hypothetical average user.
+Burden and Transfer Ledger
+Track who carries financial, temporal, administrative, cognitive, mobility, and risk burdens
+before and after a change.
+Outcome Validation
+Define the real-world outcome, not just program activity, and maintain evidence sufficient to test
+the claim.
+Failure Observation
+Record recurring propagation paths and distinguish initiating events from terminal symptoms.
+Correction, Experimentation, and Rollback
+Use limited pilots where appropriate, predeclare success and failure conditions, validate results,
+and retain a real rollback path.
+15.1 Interface stewardship
+An Interface Steward is accountable for a testable question such as whether childcare and
+employment schedules are operationally compatible for a defined population. The steward does
+not run employers or childcare centers. It owns the evidence about the handoff and the escalation
+path when failure persists.
+Existing institutions already perform parts of this function. GAO independently identifies
+fragmentation and weak coordination. Government-wide performance-management bodies
+coordinate crosscutting goals. Statistical agencies provide measurement. Courts review rights and
+authority. The design principle is reuse before creation: add only the missing custody and
+evidence structure.
+v1.0 described this function only in the abstract. This edition states, per function, which existing
+institution is the proposed owner, what it would newly need to do, and whether that requires
+new statutory authority - because the reuse-before-creation principle above is only meaningful if
+it is checked against a concrete list rather than asserted.
+Function Natural existing What is new New authority
+
+[Source PDF page 39]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  39
+owner required?
+System Registry
+OMB, building on its
+existing federal
+program inventory
+(confirmed to already
+exist, though
+incomplete, per
+GAO-26-107551 [9])
+Extending inventory
+fields to cross-
+program
+dependencies, not just
+program-level
+metadata
+No - extension of
+existing OMB
+inventory function
+Dependency Registry
+GAO, extending its
+existing
+duplication/overlap/fr
+agmentation review
+methodology [3]
+Requiring agencies to
+report what depends
+on them, not only
+what they depend on
+Possibly - may
+require a reporting
+mandate via
+appropriations
+language or GAO
+request authority, not
+new agency creation
+Interface Stewardship
+Assigned to the
+agency with primary
+statutory jurisdiction
+over the dependent
+side of a given
+interface (e.g.,
+HHS/ACF for the
+childcare-
+employment
+interface, given its
+existing childcare
+subsidy authority)
+Explicit designation
+and a defined
+escalation path where
+none currently exists
+Yes, narrowly - a
+designation
+requirement, not a
+new grant of
+operating authority
+over the partner
+agency
+Ecosystem Impact
+Statement
+Modeled on the
+existing OIRA
+regulatory-review
+process under EO
+12866, extended in
+scope
+Extending required
+review fields to
+interface effects
+No - extension of an
+existing review
+process
+Household
+Integration Time /
+Childcare-Work
+Compatibility
+measurement
+Census Bureau, via a
+time-use supplement
+(existing ATUS
+infrastructure)
+New supplement
+content; no new data-
+collection agency
+No - extension of an
+existing survey
+vehicle
+Net Advancement
+simulator
+ASPE, extending its
+existing effective-
+Adding private
+participation costs
+No - model extension
+
+[Source PDF page 40]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  40
+marginal-tax-rate
+modeling [5]
+(care, transport) to an
+existing model
+Outcome Validation /
+independent review
+GAO
+Applying existing
+audit authority
+specifically to
+interface-level claims
+No - application of
+existing authority to a
+new object of review
+Correction / rollback
+authority
+Remains with the
+agency holding
+primary statutory
+authority over the
+affected program
+None - this function is
+deliberately not
+centralized
+N/A by design
+Of the eight functions above, six require no new statutory authority; they are scope extensions of
+institutions already cited earlier in this paper. Two require narrow new authority - a reporting
+mandate and a designation requirement - not a new agency. If a reader's objection is that this
+proposal simply relabels existing GAO/OMB/Census/ASPE work with new vocabulary, the honest
+answer is: largely, yes, and deliberately so - that is what the reuse-before-creation principle in
+Section 17.2 requires.
+15.2 Ecosystem Impact Statement
+Required field Question
+Intended outcome What real condition is supposed to change?
+Affected population Who actually encounters the change?
+Dependencies Which other systems must work for success?
+Burden transfer What new money, time, or risk appears
+elsewhere?
+Transition effects What happens when people enter, exit, or
+advance?
+Failure propagation What happens if a key dependency fails?
+Rights/privacy What authority or data is required?
+Outcome evidence How will the claimed result be proven?
+Rollback What condition causes reversal or redesign?
+
+[Source PDF page 41]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  41
+16. Failure Modes of the Replacement Architecture
+An ecosystem layer can fail more dangerously than a narrow program because it sits across
+institutional boundaries. The replacement must therefore be pressure-tested before it is
+constitutionalized or scaled.
+Bureaucratic accretion
+A new office can add reports, committees, forms, and staff without reducing household burden.
+Success must be measured in interface outcomes, not administrative activity.
+Metric substitution
+A proxy can replace the outcome it was meant to represent. More licensed childcare slots do not
+establish usable childcare if hours or location are incompatible.
+Gaming
+Institutions can optimize measured indicators, select easier populations, reclassify failure, or
+neglect unmeasured dimensions. Evidence bundles are safer than single scores.
+Surveillance
+Cross-system visibility can become a justification for collecting excessive personal data. Structural
+observability should precede personal observability, with purpose limitation and minimization.
+Centralized fragility
+Shared platforms can remove duplication while creating larger single points of failure.
+Integration requires fault isolation, fallback paths, and independent verification.
+Authority expansion
+Because everything affects everything, ecosystem language could be used to justify unlimited
+jurisdiction. Interdependence creates relevance, not power.
+Technocracy
+Models can begin deciding what lives people should lead. The architecture should test
+executability, not optimize lawful preferences.
+False causation
+Correlated outcomes can be misread as causal. The system must preserve uncertainty and the
+status UNRESOLVED where evidence is insufficient.
+Model lock-in
+A sophisticated model can begin outranking contradictory reality. Models require versioning,
+assumptions, external validation, and retirement.
+Political capture
+Metrics and definitions can be altered to protect favored outcomes. Independent validation and
+public evidence reduce this risk.
+
+[Source PDF page 42]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  42
+Uniformity
+National standards can destroy local fit. Shared outcome language should coexist with local
+implementation freedom.
+Responsibility dilution
+Cross-agency ownership can become no ownership. Each interface needs a named steward and
+escalation path.
+Data without action
+Dashboards can become decoration. Every materially degraded condition needs a defined
+response pathway.
+Permanent emergency logic
+Resilience cannot become a standing excuse for extraordinary executive authority.
+Removal of productive friction
+Not every burden is waste. Licensing, verification, and safeguards can protect real outcomes;
+friction must be justified, not automatically eliminated.
+Reform lock-in
+The ecosystem layer itself can become permanent and self-protective. It also requires periodic
+revalidation and sunset where appropriate.
+Figure 6. Ecosystem governance must remain inside explicit anti-centralization controls.
+
+[Source PDF page 43]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  43
+17. Transition and Implementation Blueprint
+17.1 Transition principle
+The United States cannot stop operating childcare, housing, transport, healthcare, benefits, and
+labor systems while a new architecture is designed. Restructuring must occur around live
+systems. The first intervention is therefore not program replacement; it is observability.
+v1.0 named ten phases without naming who performs each one - the same abstraction problem as
+Section 15. The phases below are unchanged; each now names its owner and the existing
+authority it draws on, using the mapping in Section 15.1.
+Phase Description Owner Existing authority
+used
+0 - Baseline
+Build the system
+registry, interface
+register, dependency
+registry, authority
+map, metric
+inventory, and
+known-failure
+inventory
+OMB (registry) + GAO
+(dependency
+mapping)
+Existing program
+inventory +
+fragmentation review
+1 - Prioritize
+Select high-impact
+interfaces using
+reach, severity,
+frequency,
+propagation potential,
+observability,
+correctability, and
+rights risk
+GAO, using its
+existing
+fragmentation-review
+criteria
+Existing
+2 - Assign stewardship
+Designate a steward
+or joint structure
+responsible for the
+interface question
+Designated by statute
+or OMB circular to the
+agency with primary
+jurisdiction over the
+dependent side of the
+interface
+Narrow new
+authority
+(designation only)
+3 - Measure baseline
+Establish cost, time,
+compatibility, failure,
+and outcome
+conditions before
+intervention
+Census (time-use) +
+ASPE (transition
+modeling)
+Existing survey/model
+extension
+4 - Diagnose Separate symptom Steward agency, Existing
+
+[Source PDF page 44]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  44
+mechanism
+from cause: price,
+supply, schedule,
+geography, staffing,
+eligibility,
+administration,
+transport, or another
+mechanism
+using existing
+program data
+5 - Local repair first
+Use the least
+expansive correction
+that can reliably solve
+the validated problem
+Steward agency,
+within existing
+program authority
+Existing
+6 - Interface repair
+Redesign the handoff
+when local repair is
+insufficient
+Joint action between
+the two steward
+agencies on either
+side of the interface,
+reviewed by an OIRA-
+style process
+Existing review
+process, extended
+scope
+7 - Structural repair
+Change institutional
+structure only when
+repeated evidence
+shows interface
+repair cannot solve
+the failure
+Congress
+New - this is the one
+phase where new
+authority is
+unavoidable by
+design, and it is
+deliberately routed
+through the
+legislature rather
+than the executive
+8 - Validate
+Measure whether the
+real-world outcome
+changed
+GAO
+Existing audit
+authority
+9 - Adverse-effect
+review
+Measure what
+worsened elsewhere
+GAO
+Existing audit
+authority
+10 - Retain, revise,
+scale, or roll back
+Make continuation
+conditional on
+evidence rather than
+institutional inertia
+Congress (for
+structural changes) or
+steward agency (for
+interface-level
+changes), per the
+authority tier that
+created the change
+Existing, tiered by
+what created the
+change
+This removes the largest implementation gap identified in review: v1.0 could not answer "who
+does phase 2" without pointing back at the same abstract "steward" language it was defining. It
+
+[Source PDF page 45]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  45
+now can, and the table shows that only one of ten phases (structural repair) requires new
+authority - which is itself a design feature, since that is the phase this paper argues should be the
+hardest to reach.
+17.2 Preservation invariant
+Restructuring should preserve functions that are empirically performing unless changing them is
+necessary to correct a larger failure. Architectural elegance is not the goal. Better reality is the
+goal. The framework therefore prefers reuse before creation, local repair before structural
+repair, and reversible pilots before irreversible national changes.
+17.3 Complexity budget
+Every major system consumes some of the citizen's administrative and cognitive capacity. New
+requirements should therefore justify not only their fiscal cost but the complexity they add.
+Where new complexity is introduced, policymakers should ask what older complexity can be
+removed. Otherwise Institutional Accretion continues indefinitely.
+17.4 Recovery architecture
+Systems must be designed for failure, not just ideal operation. Every major interface should
+define recovery paths, expected correction time, appeal, responsibility, and restoration where
+institutional error created downstream harm. Error frequency alone is not enough; severity and
+recovery time determine the actual human consequence.
+18. Constitutional Handoff
+The paper does not write the constitution. It derives design requirements that a constitutional
+project must solve if ecosystem governance is to remain legitimate. The key problem is
+maintaining enough responsibility to govern architecture without converting interdependence
+into authority over the person.
+18.1 Constitutional invariants
+Human Agency
+The individual remains the primary decision-maker over lawful personal life.
+Reality Primacy
+Government claims remain answerable to observable outcomes.
+Authority-Responsibility Integrity
+Authority cannot be separated indefinitely from the material consequences it creates.
+
+[Source PDF page 46]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  46
+Ecosystem Integrity
+Material cross-system consequences produced by government architecture remain inside the
+accounting even when they cross agency boundaries.
+Minimum Necessary Intervention
+Validated structural failure is corrected with no more authority than necessary.
+Positive Advancement
+Government-created transitions should not systematically convert lawful productive
+advancement into net regression.
+Failure Containment
+Ordinary errors and disruptions should be prevented from unnecessarily cascading across
+essential systems.
+Periodic Revalidation
+Major governing structures remain subject to evidence-based review.
+Liberty Boundary
+Interdependence alone does not create jurisdiction.
+Democratic Custody
+Major value judgments remain with citizens and legitimate constitutional institutions, not
+technical administrators alone.
+18.2 Anti-centralization controls
+ Enumerated ecosystem authority: no general power to optimize society.
+ Purpose limitation: power granted for one interface cannot migrate automatically to another.
+ Separate observation and execution: diagnosing failure does not itself authorize coercive
+correction.
+ Legislative authorization for material changes to rights, duties, taxation, spending, or private
+conduct.
+ Judicial review of scope, due process, privacy, rights, and factual foundation.
+ Data minimization and restrictions on unrelated reuse.
+ Distributed execution and local variation where national uniformity is unnecessary.
+ Explicit standards for delegated authority rather than open-ended mandates.
+ No preference optimization: government may preserve options but not select lawful private
+outcomes.
+ Public evidence and stated uncertainty for major interventions.
+ Sunset or reauthorization for extraordinary powers.
+ Citizen correction mechanisms capable of challenging the architecture itself.
+
+[Source PDF page 47]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  47
+18.3 General welfare as environmental integrity
+The ecosystem framework offers a possible constitutional interpretation of general welfare that
+avoids two extremes. It should not mean government may do anything officials believe socially
+beneficial. Nor should it be so narrow that government cannot maintain the shared architecture
+necessary for lawful agency. A bounded formulation would treat general welfare as the integrity
+of shared conditions necessary for people to exercise lawful agency inside a functioning civic
+ecosystem.
+The constitutional test then becomes whether government is preserving shared architecture or
+managing private life. That distinction must be enforced structurally, not left to administrative
+goodwill.
+18.4 The constitution as governance kernel
+The constitution should lock in durable principles - authority, custody, boundaries, validation,
+correction, review, and protected agency - while leaving program mechanics to lower layers that
+can adapt. It should not fossilize a childcare model, healthcare model, tax rate, or administrative
+structure. The constitution itself must avoid the same failure this paper identifies: unclear
+interfaces, hidden responsibility, unvalidated authority, and no recovery path.
+19. Conclusion
+Modern society is not experienced as a set of departments. It is experienced as one environment.
+Employment depends on time, care, mobility, health, housing, credentials, and administration.
+Housing determines geography. Geography affects transport, care duration, and access. Income
+changes taxes and benefits. Health changes work capacity. Administrative rules change whether
+formal eligibility becomes real access. Informal family labor quietly stabilizes all of them. The
+person is integrated even when the institutions are not.
+The evidence does not justify a claim that every hardship is architectural or that the United States
+is a uniformly failed system. Many institutions work; many reforms have produced real gains;
+many households navigate the environment successfully; individual choices remain
+consequential. The stronger and more defensible conclusion is architectural insufficiency -
+offered here, consistent with the Executive Findings and Section 13.6, as a well-motivated
+hypothesis rather than a proven finding. Governance organized only around subsystem
+boundaries cannot reliably observe, assign responsibility for, or correct failures that arise
+between those boundaries, and the specific measurements that would settle the question do not
+yet exist (Section 13A).
+The household currently performs much of the missing integration through time, money, family
+labor, credit, attention, and risk. Where those reserves are abundant, fragmentation can remain
+invisible. Where reserves are narrow, ordinary disruptions propagate. The terminal symptom
+
+[Source PDF page 48]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  48
+then appears as absence, debt, eviction, missed care, administrative noncompliance, or lost
+opportunity, even when the initiating incompatibility existed somewhere else.
+The restructuring case is therefore not a case for a super-agency, universal central planning, or
+guaranteed personal outcomes. It is a case for explicit governance of interfaces: system
+observability, dependency mapping, interface stewardship, burden accounting, representative
+stress testing, outcome validation, drift detection, failure containment, independent review, and
+reversible correction - implemented, per Section 15, largely by extending the scope of institutions
+that already exist rather than creating new ones. Specialized institutions remain. Markets
+remain. Families remain. Local variation remains. What changes is that the seams no longer
+disappear from the architecture.
+This also changes the constitutional question. Government should be responsible for the
+architecture it creates without claiming ownership of the person moving through it.
+Interdependence creates analytical relevance, not unlimited jurisdiction. Major interventions
+must remain bounded by enumerated authority, purpose limitation, privacy, due process,
+distributed execution, democratic authorization, judicial review, and rights that do not disappear
+when an optimization model predicts a different aggregate outcome.
+The governing standard is not whether a program launched, a budget was spent, a rule was
+followed, or an agency met its internal target. The governing standard is whether the claimed
+real-world function exists, whether its costs and transfers are visible, whether ordinary failures
+remain containable, and whether lawful effort can accumulate into greater human capacity over
+time.
+The unit of design must therefore change. From program to system. From system to ecosystem.
+From administrative completion to real outcome. From formal opportunity to executable
+opportunity. From hidden household integration to explicit institutional responsibility for the
+architecture institutions create. The state governs the architecture. People govern their lives.
+Reality determines whether the architecture worked.
+
+[Source PDF page 49]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  49
+Appendix A. Formula and Measurement Reference
+Measure Conceptual formula
+Employment Obligation Window Work Time + Required Pre/Post-Shift Time +
+Employment Travel + Necessary Care
+Transitions
+Net Advancement ΔIncome - ΔTaxes - ΔBenefits Lost -
+ΔParticipation Costs - ΔReplacement Costs -
+ΔTransition Costs
+Combined Transition Rate (Additional Taxes + Benefits Lost + New
+Participation Costs) / Additional Gross
+Earnings
+Total Location Cost Housing + Required Transportation +
+Location-Induced Care + Location-Induced
+Time + Access Penalties
+Cascade Ratio Total Downstream Loss / Initial Disruption
+Accumulation Retention Rate Capacity Preserved Across Period / Capacity
+Gained During Period
+Ecosystem Debt Ratio Future Burden Created / Future Capacity
+Created
+These formulas are conceptual specifications, not yet validated national indicators. They are
+designed to make hidden variables explicit and testable. Weighting, thresholds, and causal
+interpretation require empirical development before operational use.
+Appendix B. Failure and Burden Ledgers
+Burden Ledger
+Burden type Before After Change Carrier
+Financial
+Time
+Administrative
+Cognitive
+Mobility
+Risk
+
+[Source PDF page 50]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  50
+Opportunity
+Failure Ledger
+Field Required record
+Initiating event What happened first?
+Primary system Where did the event originate?
+Dependencies What else relied on the failed function?
+Propagation path How did the failure travel?
+Total loss What financial, temporal, or operational loss
+resulted?
+Final absorber Who ultimately carried the consequence?
+Redundancy What backup existed?
+Recovery What restored operation and how long did it
+take?
+Preventability Could architecture reasonably have contained
+the failure?
+Correction level Local, interface, structural, or unresolved?
+Appendix C. Interface Register Specification
+Interface Core question
+Employment <-> Childcare Can caregivers execute ordinary employment
+given care hours, geography, cost, and
+transition time?
+Employment <-> Transportation Can workers reliably reach employment
+without excessive dependency concentration?
+Income <-> Benefits Does increased earnings produce positive Net
+Advancement?
+Housing <-> Transportation Does nominal housing affordability survive
+total-location accounting?
+Credentialing <-> Employment Can intended participants execute the
+transition into qualified work?
+Healthcare <-> Employment Does health or coverage transition create
+
+[Source PDF page 51]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  51
+unnecessary work instability?
+Administration <-> Eligibility Does substantive qualification become real
+access without excessive procedural loss?
+Appendix D. (Removed in v1.1)
+v1.0's Appendix D duplicated the environmental-comparison table now canonically presented
+once, in Section 9.4. See the revision log below.
+Appendix E. Evidence Audit - Core Empirical Anchors
+Claim Source / population /
+period
+Establishes Limitation
+Childcare problems
+and lost work
+Census CPS ASEC
+working paper (2024;
+U.S. households with
+children age 13 or
+younger)
+3.7% reported
+childcare problems;
+affected households
+lost 65.8 workdays on
+average.
+Does not isolate
+schedule mismatch as
+the sole cause.
+Childcare and
+housing cost
+Federal Reserve SHED
+(2025; Parents paying
+for care)
+$1,517 median
+childcare for 20+ paid
+hours/week; $2,000
+median housing
+among families
+paying both.
+Not a complete
+household budget and
+not universal.
+Federal
+fragmentation
+GAO 2026 Annual
+Report (2011-2026;
+Federal government)
+2,148
+matters/recommenda
+tions; 610 open; about
+$774.3B reported
+benefits from prior
+action.
+Benefit estimates use
+heterogeneous
+methods and are
+rough.
+Unpaid adult
+caregiving
+AARP 2026 (2024; U.S.
+adult caregivers)
+59M caregivers; 49.5B
+hours; estimated
+value $1.01T.
+Market-equivalent
+valuation is not a
+claim that family care
+is a market
+transaction.
+Worst-case housing
+needs
+HUD 2025 (2023;
+Very-low-income
+8.46M households
+with worst-case
+Does not by itself
+establish downstream
+
+[Source PDF page 52]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  52
+renter households) housing needs. ecosystem effects.
+Benefit transitions HHS ASPE (2019
+modeling; Low-
+income households)
+51% median marginal
+tax rate for
+households with
+children just above
+poverty; some high-
+cliff groups identified.
+Model-based
+estimates vary by
+program
+participation and
+household.
+Child eviction effects Census CES 2025
+(Historical linked
+administrative data;
+Children in
+Chicago/NYC eviction
+records)
+Eviction increased
+residential and school
+instability and
+reduced some
+educational
+outcomes.
+Results are not
+automatically
+generalizable to every
+housing disruption.
+Childcare
+fragmentation history
+GAO (1995; Low-
+income working
+mothers)
+Fragmented subsidy
+programs created
+service gaps
+constraining work.
+Historical evidence;
+current program
+structure differs.
+Federal program
+inventory
+GAO (2025 inventory /
+2026 report; Federal
+programs)
+Inventory contained
+2,600+ programs and
+$7T+ spending but
+remained incomplete.
+Program-count
+completeness is itself
+still evolving.
+Appendix F. Glossary - Consolidated and Tagged
+v1.0 defined twenty terms with substantial conceptual overlap and no indication of which were
+original contributions versus renamed existing concepts. This edition tags each retained term and
+merges or removes five that did not carry independent analytical weight.
+Term Tag Note
+Integration Burden Novel
+No direct single-term
+equivalent; closest relative is
+"transaction cost," scoped
+here to cross-institutional
+reconciliation specifically
+Ecosystem Viability Novel
+Distinct from "poverty line" or
+"eligibility" - measures
+compatibility across
+obligations, not sufficiency of
+any one resource
+
+[Source PDF page 53]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  53
+Operational Margin Convergent
+Overlaps with "financial
+buffer"/"precarity" literature;
+retained because it is
+explicitly multidimensional
+(time, mobility, care), which
+that literature typically is not
+Executable Opportunity Novel
+Distinct from "opportunity" -
+adds the
+entry/transition/completion
+feasibility test
+Net Advancement Convergent
+Direct extension of ASPE's
+existing effective-marginal-
+tax-rate / benefit-cliff concept
+[5]; the contribution is adding
+private participation costs to
+an existing formula
+Dependency Concentration Convergent
+Standard risk-management
+"single point of failure"
+concept applied to household
+resource dependency
+Interface Drift Novel
+No standard equivalent;
+describes systems that were
+compatible and became
+incompatible through
+independent evolution
+Ecosystem Debt Convergent
+Direct analogy to technical
+debt / deferred-maintenance
+concepts, applied to
+household and administrative
+systems
+Accumulation Capacity (incl.
+Accumulation Retention Rate)
+Merged
+v1.0 listed these separately;
+merged as one concept -
+capacity to retain gains across
+periods
+Entry Capital Convergent
+Extension of standard
+"startup cost"/"switching cost"
+concepts to non-financial
+dimensions (care,
+documentation)
+Cascade Ratio Novel Distinct measurable quantity
+
+[Source PDF page 54]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  54
+(downstream loss / initial
+disruption); no standard
+equivalent found
+Borrowed Stability Convergent
+Direct analogy to financial
+"reserve depletion," extended
+to non-financial reserves
+(unpaid care, deferred
+maintenance)
+Hidden Support
+Infrastructure Convergent
+Overlaps with existing
+"informal care economy"
+literature; retained for scope
+(extends beyond care to
+administrative workarounds)
+Interface Steward Novel (as a role)
+The underlying function
+exists in fragments (GAO,
+OMB) per Section 15; naming
+it as an accountable role is the
+paper's proposal
+Compensating Burden Removed
+Merged into Operational
+Margin
+Predictability Capital Removed Merged into Operational
+Margin
+Planning Horizon Removed Merged into Operational
+Margin
+Social Damping Removed Merged into Ecosystem Debt
+Fault Boundary Removed
+Retained as descriptive
+language in Section 6.3 and
+Figure 3 but not carried as a
+separate glossary entry
+Retained also from v1.0 without change: Architectural Insufficiency (a condition in which
+functioning subsystems exist but the governance architecture lacks adequate mechanisms for
+their dependencies, transfers, compatibility, and combined outcomes).
+Appendix G. References
+[1] U.S. Census Bureau. Child Care Challenges and Adaptations: Findings from the 2025 CPS ASEC.
+SEHSD-WP2026-08, May 2026. https://www.census.gov/library/working-papers/2026/demo/sehsd-
+wp2026-08.html
+[2] Board of Governors of the Federal Reserve System. Economic Well-Being of U.S. Households in
+2025: Living Arrangements and Care Work. 2026.
+
+[Source PDF page 55]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  55
+https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-
+living-arrangements-care-work.htm
+[3] U.S. Government Accountability Office. 2026 Annual Report: Opportunities to Reduce
+Duplication, Overlap, and Fragmentation and Achieve an Additional One Hundred Billion Dollars
+or More in Future Financial Benefits. GAO-26-108505, May 12, 2026.
+https://www.gao.gov/products/gao-26-108505
+[4] AARP Public Policy Institute. Valuing the Invaluable 2026: Family Caregivers' Contribution
+Reaches $1 Trillion. March 26, 2026.
+https://www.aarp.org/pri/topics/ltss/family-caregiving/valuing-the-invaluable-2026-update/
+[5] U.S. Department of Health and Human Services, ASPE. Effective Marginal Tax Rates / Benefit
+Cliffs. https://aspe.hhs.gov/topics/poverty-economic-mobility/marginal-tax-rate-series
+[6] U.S. Department of Housing and Urban Development. Worst Case Housing Needs: 2025 Report
+to Congress. 2025. https://www.huduser.gov/portal/publications/Worst-Case-Housing-Needs-2025-
+Report-to-Congress.html
+[7] U.S. Census Bureau, Center for Economic Studies. Working paper on eviction and child
+outcomes, 2025. https://www.census.gov/library/working-papers/2025/adrm/CES-WP-25-34.html
+[8] U.S. Government Accountability Office. Child Care: Narrow Subsidy Programs Create Problems
+for Mothers Trying to Work. T-HEHS-95-69, January 31, 1995. https://www.gao.gov/products/t-
+hehs-95-69
+[9] U.S. Government Accountability Office. Federal Programs: OMB Needs to Continue Developing
+a Complete and Useful Inventory. GAO-26-107551, March 5, 2026.
+https://www.gao.gov/products/gao-26-107551
+Publication Maintenance Protocol
+Evidence cutoff: September 2026. Future editions should update time-sensitive cost, program, and
+legal evidence while preserving claim lineage so that every conclusion can be traced back to the
+evidence required to sustain it.
+Each major conclusion should maintain a lineage record linking the conclusion to sources,
+synthetic tests, and architectural reasoning. If a source becomes obsolete or a new study
+disconfirms an assumption, the affected claims should be revalidated rather than silently carried
+forward.
+The manuscript itself should therefore be treated as a governed research artifact: versioned,
+auditable, explicit about uncertainty, and open to revision when reality changes.
+
+[Source PDF page 56]
+Governing Engines  |  Design the Ecosystem, Not the Subsystems  |  56
+Revision Log (v1.0 -> v1.1)
+# Issue identified in review Section(s) affected Resolution
+1
+Central causal claim stated at
+the same confidence as
+descriptive evidence
+Abstract, Executive Findings,
+Section 13.6, Section 19
+Split into Established /
+Hypothesis categories;
+forward-referenced to Section
+13A instead of leaving the
+concession buried at the end
+2
+20+ coined terms, unclear
+which were novel
+contributions
+Appendix F
+Cut from 20 to 14 active terms,
+each tagged Novel /
+Convergent / Merged; five
+terms folded into Operational
+Margin or Ecosystem Debt
+3
+Governance proposal named
+functions with no institutional
+owner
+Section 15, Section 15.1,
+Section 17.1
+Added institutional-mapping
+tables naming the existing
+agency, the marginal new task,
+and whether new statutory
+authority is required, for all
+eight governance functions
+and all ten blueprint phases
+4
+Same comparison table
+restated three times (Section
+9.4, Section 13B.6, Appendix D)
+Section 9.4 (canonical), Section
+13B.6, Appendix D
+Single canonical table retained
+in Section 9.4; Section 13B.6
+and Appendix D now cross-
+reference it instead of
+repeating it
+5
+Cases D and E lacked the
+benchmark discipline used in
+Cases A-C
+Section 8.4, Section 8.5
+Case D: full arithmetic shown,
+both gross- and post-payroll
+expenditure shares reported,
+qualitative conclusion
+decoupled from the arithmetic
+it does not support; Case E:
+flagged UNRESOLVED,
+demoted from stress-test to
+illustrative-only status pending
+a sourced state program
+No claims, figures, or sections outside the five items above were altered. This is a correction pass,
+not a redesign.

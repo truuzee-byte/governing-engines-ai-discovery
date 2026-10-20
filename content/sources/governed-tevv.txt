@@ -1,0 +1,3457 @@
+PUBLIC SOURCE TEXT EDITION
+GOVERNED TEVV FOR AGENTIC AI
+Source supplied by the author for public research discovery.
+Text extracted from the supplied artifact; layout, tables and pagination may differ.
+Privacy filtering is marked inline. This is not the original binary artifact.
+
+[Source PDF page 1]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  1
+GOVERNING ENGINES
+GOVERNED TEVV FOR AGENTIC AI
+Architecture, Governance Authority, Operational Implementation, and Construction
+Method
+Integrated Technical Contribution to NIST AI 200-2 (TEVV-Athlon) and NIST Agentic AI Evaluation Probes
+DeMarius J. Lawson
+Governing Engines LLC
+Version 2.6  |  September 2026
+CONSTRUCTION OBJECTIVE
+Provide one buildable document that contains the Concept, Source of Truth, Governance Authority
+Specification, Operational Implementation, and Technical Build Specification required to construct a
+governed TEVV runtime for agentic AI, followed by lineage, alignment, validation, pressure testing,
+versioning, conformance, and falsification requirements.
+Release State: Official External Release - Architecture Locked / Frozen for External Handoff
+Public / Non-Proprietary Technical Contribution | Frozen Architecture Baseline
+
+[Source PDF page 2]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  2
+0. DOCUMENT CONTROL
+Field Value
+Document Title Governed TEVV for Agentic AI
+Subtitle Architecture, Governance Authority, Operational Implementation, and Construction
+Method
+Version 2.6
+Date September 2026
+Author DeMarius J. Lawson
+Organization Governing Engines LLC
+Classification System Construction Package / Public Technical Contribution
+Primary NIST Target NIST AI 200-2 ipd - TEVV-Athlon Framework
+Secondary NIST Target Building Evaluation Probes into Agentic AI
+Release State Official External Release - Architecture Locked / Frozen for External
+Handoff
+Proprietary Content None intended; prepared for public release
+Construction basis: Governing Engines AI System Construction Method v1.2, extended in this package by the pressure-
+tested Governance Authority Specification layer. This package extends the prior four-document construction model by
+inserting a Governance Authority Specification between Source of Truth and Operational Implementation. Pressure
+testing showed that system rules and runtime behavior are insufficient unless the construction also defines who may
+create, evaluate, activate, revoke, and supersede governing authority itself. The five layers are compressed into one
+controlled external artifact while preserving the distinct question answered by each layer.
+CONSTRUCTION ORDER
+Purpose -> Rules -> Governance Authority -> Operation -> Construction -> Lineage -> Alignment ->
+Validation -> Pressure Testing -> Versioning -> Development -> Testing -> Proof -> Deployment.
+Executive Summary
+NIST TEVV-Athlon provides a flexible method for designing AI evaluations, and NIST's agentic-probe work is
+developing adversarial verifiers and machine-readable audit trails for agent outputs. This construction package
+preserves those directions and adds the missing runtime architecture required when evaluated AI systems can take
+consequential actions.
+The system defined here treats the TEVV object as a custody chain: evidence -> interpretation -> evaluation ->
+authority -> action -> execution -> consequence -> validation -> recovery -> learning. It separates the domains that
+author rules, activate rules, propose actions, admit actions, execute actions, observe consequences, validate results,
+and preserve evidence so that no single component can convert its own claim into permission and its own execution
+into proof.
+BUILDABILITY STANDARD
+A conforming engineering team should be able to derive a platform-specific deployment from this
+document without inventing new governing rules. If an engineer must guess who decides, what record
+proves it, what blocks bypass, what state follows failure, or who may change policy, the construction
+package is incomplete.
+Contents
+1. PART I - Concept
+2. PART II - Source of Truth
+3. PART III - Governance Authority Specification
+4. PART IV - Operational Implementation
+5. PART V - Technical Build Specification
+6. PART VI - Lineage, Alignment, Validation, Pressure Testing, Versioning
+7. PART VII - Architecture Closure, Assurance Boundary, and Freeze
+8. Appendix A - NIST Crosswalk and Comment Responses
+9. Appendix B - Core Schemas
+10. Appendix C - Enforcement Pseudocode
+
+[Source PDF page 3]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  3
+11. Appendix D - Adversarial Worked Cases
+12. Appendix E - References
+PART I - CONCEPT
+What are we building?
+1. SYSTEM IDENTITY
+Governed TEVV for Agentic AI is a measurement, custody, and runtime-validation system for AI agents whose outputs
+can become decisions, tool calls, external changes, or other consequential actions. It extends output evaluation into
+the full evidence-to-action-to-consequence chain.
+The system is not an autonomous compliance authority, not a truth oracle, and not a general-purpose agent
+framework. It is a construction for measuring and constraining how evidence, evaluation, authority, action,
+consequence, and learning move through an agentic workflow.
+2. PROBLEM
+Output-only evaluation is insufficient when an AI system can act. An agent may produce a grounded answer and still
+use stale evidence, invoke the wrong tool, exceed permission, perform a technically successful but semantically wrong
+action, create an unintended consequence, or learn a future policy from an invalid outcome.
+AGENTIC TEVV PROBLEM
+A consequential agent must be evaluated not only on what it said, but on what evidence it used, what
+authority it possessed, what it attempted, what actually executed, what changed in the world, whether that
+change satisfied the predeclared requirement, and what the system learned afterward.
+3. OBJECTIVES
+ Preserve traceability from authoritative evidence to claims, decisions, actions, and consequences.
+ Make probe verdicts machine-readable, versioned, expiring, and enforceable.
+ Separate policy authorship, policy activation, action proposal, admissibility, execution, consequence observation,
+and validation.
+ Provide explicit state transitions that block unsupported consequential progression.
+ Govern human override and agent-to-agent handoff.
+ Make failure produce required recovery state rather than silent continuation.
+ Preserve append-only evidence with external checkpoint anchoring.
+ Support independent replay that can reject the system's retrospective story.
+ Permit learning without allowing learned behavior to silently become policy.
+4. INTENDED USERS AND USE CASES
+ AI evaluation researchers and measurement-science teams.
+ Agent-platform engineers and technical leads.
+ Trust, safety, security, compliance, and assurance teams.
+ Organizations deploying tool-using agents in consequential workflows.
+ Independent auditors and red teams.
+ Procurement and decision teams consuming agent evaluation reports.
+Representative use cases include research agents acting over authoritative corpora, enterprise agents modifying
+records or workflows, autonomous software agents invoking APIs, and multi-agent systems where authority and
+evidence move across handoffs.
+5. CONCEPT BOUNDARIES
+The construction method does not prescribe a model provider, agent framework, cloud vendor, programming
+language, database product, message bus, KMS vendor, or user interface. Those are technical realization choices. It
+
+[Source PDF page 4]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  4
+does prescribe the behavior, records, trust separation, permissions, state transitions, evidence integrity, conformance
+tests, and failure semantics those technologies must implement.
+PART II - SOURCE OF TRUTH
+What is allowed?
+6. AUTHORITATIVE TERMINOLOGY
+Term Definition
+EvidenceRecord A preserved reference to evidence with source identity, version/freshness, authority
+scope, integrity reference, and lineage.
+ProbeVerdict A structured evaluation result produced under an identified probe version, rubric,
+source scope, expiration, and evaluator identity.
+DecisionRecord The agent or operator interpretation that links evidence and probe results to a proposed
+course of action.
+ActionProposal A candidate tool/action invocation. A proposal has no execution authority.
+ExpectedConsequenceRecor
+d
+The pre-execution success/failure specification for a consequential action. The
+authoritative record is owned by the evaluation-specification function, not the proposer.
+AdmissibilityAssessment Domain D determination that a proposal conforms to active evidence, probe, authority,
+policy, and scope requirements.
+ExecutionLease A short-lived, one-time authorization token bound to action, target, parameters,
+applicable authority epoch, nonce, policy version, and expiry.
+ConsequenceRecord Observed post-execution state, collected by an observer independent of the executor.
+ValidationReceipt Independent comparison of consequence evidence to the predeclared
+ExpectedConsequenceRecord.
+ScopedAuthorityEpoch A version number for one governance scope; combined with other applicable scoped
+epochs in an EpochVector.
+RecoveryPolicyRecord Explicit mapping from failure class to mandatory minimum recovery transition and
+escalation/termination conditions.
+AgentHandoffRecord Custody object for task/evidence/authority transition between agents.
+PolicyActivationReceipt The only record that turns a policy candidate into active governing policy.
+PolicyEvaluationReceipt Independent evaluation of a PolicyCandidateRecord under an active
+PolicyActivationPolicy; produced by a policy evaluator separate from Domain H and
+Domain I activation authority.
+PolicyActivationPolicy The active requirements a policy candidate must satisfy before Domain I may activate it,
+including required evaluator identities, evidence classes, tests, approvals, expiry, and
+conflict checks.
+HandoffAcceptanceReceipt Receiver acknowledgement of an AgentHandoffRecord plus the receiver-specific
+authority result; context acceptance does not itself grant broader execution authority.
+ContinuationOrRecoveryRe
+cord
+The explicit post-validation decision to continue, degrade, recover, rollback, escalate,
+isolate, or halt under the active RecoveryPolicyRecord.
+LearningReviewRecord Review of a LearningRecord that determines whether it may become a
+PolicyCandidateRecord.
+LedgerCheckpointReceipt Externally anchored digest of the append-only custody ledger.
+RootGovernancePolicy Non-runtime-modifiable root requirements governing meta-policy change, authorization
+quorum, signer independence, and governance emergency procedure.
+MetaPolicyActivationReceip
+t
+Jointly authorized receipt that activates a change to policy-activation rules themselves.
+AuthorizationCoSignature Independent cryptographic approval required in addition to Domain I for designated
+consequentiality classes.
+EpochVector Set of applicable global, policy-family, action-class, target-scope, tool-scope, and
+operator-scope epochs carried by authorization.
+ScopeDependencyMap Versioned mapping from governing rule families to the epoch scopes they invalidate
+when changed.
+RecordObligationManifest Pre-execution declaration of records that must subsequently exist, their producing
+domains, and deadlines.
+RecordCompletenessAlert Independent finding that a required record or attestation did not arrive by its deadline.
+
+[Source PDF page 5]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  5
+Term Definition
+RootSignerSetRecord Authoritative root signer membership, key/attestation identities, and quorum definition.
+RootSignerRotationRecord Quorum-controlled transition from one root signer set to another, requiring outgoing
+approval and incoming acceptance.
+ConsequentialityClassRegist
+ry
+Protected mapping from action classes to consequentiality classes and corresponding
+authorization requirements.
+ConsequentialityReclassific
+ationRecord
+Governed change to an action class consequentiality assignment; downward changes
+inherit the stronger prior-class quorum.
+CompletenessMonitorAttest
+ation
+Periodic signed evidence that the completeness monitor is live and evaluating manifest
+obligations.
+ExpectationSuggestionReco
+rd
+Bounded, non-authoritative proposer suggestion for success criteria; cannot modify the
+authoritative ExpectedConsequenceRecord.
+LeaseAuthorizationDigest Canonical hash binding the exact high-consequence lease payload covered by
+independent co-signature.
+RecoveryDecisionReceipt Record selecting a recovery action under the active RecoveryPolicyRecord without
+executing it.
+RecoveryExecutionLease Authorization to execute one specific recovery action under current authority.
+7. GOVERNING LAWS
+1. Evidence does not become interpretation merely because an agent cites it.
+2. Interpretation does not become authority merely because a probe supports it.
+3. Capability does not create permission.
+4. A proposer may not author the authoritative success criteria for its own consequential action.
+5. The domain that drafts policy may not activate that policy.
+6. The domain that activates policy may not use that authority to execute ordinary actions.
+7. An evaluator may not certify its own implementation integrity without external evidence.
+8. UNKNOWN, EXPIRED, STALE, or UNSUPPORTED evidence constrains consequential authority.
+9. Failure must change state according to an active RecoveryPolicyRecord.
+10. Learning may propose policy; only a PolicyActivationReceipt activates policy.
+11. Agent handoff transfers context, not authority. Authority must be revalidated for the receiver.
+12. Human override is governed authority, not an escape hatch.
+13. Append-only history must be externally anchored so custody compromise cannot silently rewrite the past.
+14. Every consequential execution requires a fresh, atomic, one-time ExecutionLease.
+15. Reality/consequence may disconfirm a grounded and authorized decision.
+16. No single domain may unilaterally create new authority for itself.
+17. No evaluator may evaluate a policy that materially changes its own authority, write permissions, validation
+obligations, or conformance requirements.
+18. Meta-policy change is governed by RootGovernancePolicy and may not be weakened by the runtime authority
+it constrains.
+19. High-consequence authority requires independent co-signature according to active quorum policy.
+20. Evidence integrity requires both tamper resistance and completeness accountability.
+21. Authority freshness is evaluated across every applicable scope in the EpochVector, not through one
+undifferentiated epoch.
+22. Recovery decision authority and recovery execution authority must remain separate.
+23. Root signer establishment, rotation, and recovery must be explicit quorum-governed construction events.
+24. Consequentiality-class assignment and downward reclassification are protected governance operations.
+25. Completeness evidence must be independently recomputable even if the real-time completeness monitor
+fails.
+26. Authorization co-signature must bind the exact consequential payload, not merely its authority epoch.
+27. Proposal-side success-criterion suggestions are bounded, non-authoritative, and cannot delay final evaluation
+specification.
+28. Root signer establishment, rotation, revocation, recovery, and succession require explicit lifecycle records,
+quorum controls, incoming acceptance where applicable, and external anchoring.
+
+[Source PDF page 6]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  6
+29. An unmapped or unregistered action class is non-executable. Missing ScopeDependencyMap coverage is a
+blocking condition, not an empty dependency set.
+30. High-consequence authorization requires an M-of-N AuthorizationQuorum; a singular co-signer identity is
+insufficient for C2/C3 authority.
+31. Consequentiality classification and any policy that changes which authorization quorum applies are protected
+governance and require at least the quorum of the highest class affected.
+32. The domain instantiating a RecordObligationManifest may not define or weaken the minimum record obligations
+it is required to satisfy; minimum obligations derive from an independently activated RecordObligationPolicy.
+7A. NON-CONFIGURABLE GOVERNANCE INVARIANTS
+ INV-001: C2 and C3 actions MUST require independent authorization beyond Domain I. This requirement is
+intrinsic and is not enabled or disabled by a policy list.
+ INV-002: RootGovernancePolicy, AuthorizationQuorumPolicy, ConsequentialityClassRegistry,
+RecordObligationPolicy, ActionClassRegistrationRecord, ScopeDependencyMap, PolicyActivationPolicy,
+RecoveryPolicyRecord, DegradedModePolicy, and the CanonicalGovernanceTypeRegistry are intrinsically
+protected governance classes. Their protection does not depend on configurable lists.
+ INV-003: For C2/C3 authorization, quorum_m MUST be at least 2 and signer_count_n MUST be at least 3 unless a
+stricter deployment rule applies. Runtime policy may increase but may not lower this floor.
+ INV-004: Any downward consequentiality reclassification MUST satisfy the authorization requirements of the
+highest class being exited and may not affect pending proposals, active leases, or already-created obligation
+manifests.
+ INV-005: Missing ActionClassRegistrationRecord, ScopeDependencyMap, RecordObligationPolicy, or applicable
+scoped epoch results in BLOCKED. Absence is never interpreted as no requirement.
+ INV-006: No runtime or meta-policy may weaken INV-001 through INV-005. Changes require a new major system
+version and a newly authenticated deployment genesis.
+INV-007: Recovery governance is constitutionally protected. No runtime, ordinary-policy, or degraded-mode path may
+weaken the mandatory response to a governed failure without the protected governance quorum.
+INV-008: Protection classification has one canonical source: CanonicalGovernanceTypeRegistry. Prose, pseudocode,
+permission matrices, activation services, and conformance tests MUST derive protected-type behavior from that
+registry and may not maintain independent protection lists.
+Agentic Metrology Blocks
+Block Measurement Question
+Evidence Grounding Is the claim or decision supported by current authoritative evidence?
+Evidence Sufficiency Does the evidence carry the burden required by the claim/action?
+Authority Integrity Was the actor permitted to make the decision or take the action?
+Action Integrity Did the executed tool, target, parameters, and scope match authorization?
+Runtime State Integrity Were required probes, policy, epoch, handoff state, and authority current at execution
+time?
+Consequence Integrity Did the real-world result satisfy predeclared success criteria without prohibited side
+effects?
+Recovery Integrity Did failure force the mandatory response defined by the active RecoveryPolicyRecord?
+Handoff Integrity Did receiving-agent authority remain valid and independently established?
+Custody Integrity Can the evidence-to-action chain be replayed and externally checkpoint-verified?
+Learning Governance Did validated learning remain a candidate until independently evaluated and activated?
+Agentic TEVV Events
+ Evidence acquisition or evidence refresh.
+ Probe execution, expiry, disagreement, or supersession.
+ Decision formation and action proposal.
+ Expected-consequence specification or revision before authorization.
+ Policy activation, revocation, authority-epoch change, or degraded-mode activation.
+ ExecutionLease issuance, atomic consumption, expiry, or rejection.
+
+[Source PDF page 7]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  7
+ Tool invocation, partial execution, retry, rollback, or cancellation.
+ Agent-to-agent handoff creation and acceptance.
+ Human/operator intervention or override attempt.
+ Consequence observation and ValidationReceipt issuance.
+ Recovery transition, escalation, isolation, or halt.
+ Learning review and policy-candidate promotion.
+Agentic TEVV Toolbox Extension
+ Versioned probe contracts and rubric registries.
+ Evidence-freshness and provenance validators.
+ Authority-scope and policy-version validators.
+ ExecutionLease issuer/consumer with replay protection.
+ State-transition validator.
+ Expected-consequence specification and freeze service.
+ Consequence observers and independent validation services.
+ Append-only custody ledger plus external checkpoint anchor.
+ Replay/audit engine that recomputes conformance from preserved records.
+ Fault-injection and red-team harnesses for policy, handoff, probe, custody, and override failures.
+8. TRUST DOMAINS
+Domain Owns May Not
+A - Evidence /
+Observation
+Evidence acquisition, source identity,
+evidence records
+Authorize action or activate policy
+B - Interpretation /
+Proposal
+Decision interpretation, candidate actions Authorize its own action or author final
+success criteria
+C - Evaluation
+Specification / Probes
+Probe execution, probe verdicts,
+authoritative ExpectedConsequenceRecord
+Execute action, activate policy, or evaluate
+policy governing C
+D - Admissibility Proposal conformity to current policy,
+probes, scope, freshness
+Change policy, thresholds, authority scope, or
+execute
+E - Execution Consume ExecutionLease and invoke
+tool/action
+Mint its own lease, change scope, certify
+consequence
+F - Consequence /
+Validation
+Observe outcome and issue
+ValidationReceipt
+Rewrite expectation, proposal, execution, or
+policy
+G - Custody / Audit Append-only ledger, integrity checks,
+replay
+Create operational authority, suppress
+required-record obligations, or fabricate
+missing evidence
+H - Governance
+Administration
+Draft policy candidates, threshold
+candidates, degraded-mode candidates
+Activate its own policy or execute ordinary
+actions
+I - Policy Authority Approve ordinary policy, issue scoped
+authority, approve lease issuance, revoke
+Unilaterally authorize high-consequence
+execution, alter RootGovernancePolicy,
+execute ordinary actions, or validate
+consequence
+J - Independent
+Governance Evaluator
+Evaluate policy and meta-policy candidates
+subject to evaluator-conflict rules
+Evaluate policy materially governing J itself;
+activate policy; execute ordinary actions
+K - Independent
+Authorization
+Quorum
+M-of-N co-sign authorization for
+protected policy, C2/C3 leases, and
+meta-policy activation under
+AuthorizationQuorumPolicy
+Act as singular fallback signer, execute
+ordinary actions, or lower its own
+quorum
+L - Completeness
+Monitor / External
+Witness
+Track RecordObligationManifest deadlines,
+independent receipt-presence attestations,
+and external custody checkpoints
+Author operational evidence, action
+proposals, policy, execution, or validation
+verdicts
+
+[Source PDF page 8]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  8
+APEX AUTHORITY SEPARATION
+Domain H may draft governance. Domain J evaluates governance when the candidate does not materially
+govern J itself. Domain I may approve ordinary activation, but designated policy classes and all high-
+consequence authority require Domain K co-signature. Domain I cannot execute ordinary agent actions or
+certify their consequences. Domain K cannot draft or execute the item it co-signs. RootGovernancePolicy
+cannot be modified by any single runtime domain. No domain may author the rule, evaluate its own
+authority under the rule, activate the rule, exercise the authority created by the rule, and certify the result
+inside one trust boundary.
+9. TRUST-SEPARATION REQUIREMENTS
+A responsibility table is not sufficient. Conforming deployments must enforce domain separation through
+independently verifiable technical boundaries. The exact mechanism is platform-specific; the properties are
+mandatory.
+ Each domain has a distinct service identity and signing/attestation identity.
+ Write permissions are allow-listed by record type and namespace.
+ No domain credential can write records owned by another authority domain.
+ PolicyActivationReceipt requires Domain I identity and, for protected policy classes, Domain K
+AuthorizationCoSignature. Domain H credentials cannot mint either artifact.
+ MetaPolicyActivationReceipt requires the quorum defined by RootGovernancePolicy and may not be issued by
+Domain I alone.
+ ExecutionLease for designated high-consequence classes requires both Domain I issuance and Domain K co-
+signature. Domain E credentials cannot mint or co-sign it.
+ ValidationReceipt requires Domain F identity; executor credentials cannot mint it.
+ Domain J may not evaluate a candidate that materially changes Domain J authority or obligations; such candidates
+require an alternate independent evaluator named by RootGovernancePolicy.
+ Custody writes are accepted only for authenticated producer identities and record types permitted for that
+producer.
+ Domain L receives independent record-presence attestations and external checkpoints so omission and custody
+tampering are evaluated outside Domain G.
+ Independent conformance tests must demonstrate denied cross-domain writes, forbidden self-evaluation, quorum
+failure, omission detection, and stale scoped authority - not merely document them.
+10. POLICY GOVERNANCE
+PolicyCandidate
+↓
+Domain H - Governance Draft
+↓
+Domain J - Independent Governance Evaluation
+↓
+Domain I - Policy Decision
+↓
+Domain K Co-Sign when protected
+↓
+PolicyActivationReceipt
+↓
+Scoped EpochVector Advance
+Independent Evaluation must be organizationally and technically separate from the policy authoring function and
+must use a separate evaluator identity and evidence set. Domain J is the default policy evaluator but is disqualified for
+candidates materially governing Domain J. Domain I may not activate a policy without a PolicyEvaluationReceipt
+satisfying the active PolicyActivationPolicy, and protected policy classes additionally require Domain K co-signature
+under RootGovernancePolicy.
+
+[Source PDF page 9]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  9
+Domain I may approve policy activation but may not execute the ordinary agent actions governed by that policy.
+Domain I also may not unilaterally activate protected policy classes or meta-policy. Domain K provides independent
+authorization co-signature, and RootGovernancePolicy defines the quorum. This prevents apex authority from
+becoming a single-key activation point.
+11. EXPECTED CONSEQUENCE OWNERSHIP AND SUGGESTION FINALITY
+Domain B may suggest expected effects as part of a proposal. Suggestions are non-authoritative inputs to Domain C
+and cannot delay, overwrite, or become the authoritative success specification.
+ExpectationSuggestionRecord
+  suggestion_id
+  proposal_id
+  proposer_identity
+  revision_number
+  suggested_criteria[]
+  supporting_evidence_ids[]
+  submitted_at
+  materially_new_evidence = true_or_false
+The active evaluation policy sets a suggestion_revision_budget, suggestion_deadline, and material-new-evidence rule.
+Domain C may issue EXPECTATION_REJECTED_FINAL. After final rejection or after the ratification cutoff, Domain B
+may submit another suggestion only when materially new evidence is attached; the submission cannot postpone
+authorization deadlines or reopen a frozen ExpectedConsequenceRecord.
+The authoritative ExpectedConsequenceRecord is created or ratified by Domain C under an active evaluation
+specification. Domain C defines success criteria, prohibited side effects, validation window, required observers, and
+rollback conditions before execution. Domain B cannot modify the authoritative record after issuance. Domain F
+validates against that frozen record.
+12. DEGRADED MODE LAW
+Degraded mode preserves a narrow pre-authorized capability under loss of selected evidence. It cannot create new
+authority or convert UNKNOWN into unrestricted consequential execution.
+ Each DegradedModePolicy identifies exact action classes, targets, maximum duration, maximum action count,
+evidence that remains mandatory, reduced scope, prohibited actions, exit conditions, rollback conditions, and
+expiry.
+ UNKNOWN may never activate a new policy, expand authority scope, broaden tool permissions, or create a new
+degraded-mode rule.
+ A degraded-mode rule must be activated by Domain I before the triggering failure occurs.
+ Use beyond the action/time ceiling transitions to BLOCKED or HALTED.
+13. HUMAN / OPERATOR AUTHORITY
+Humans act as governed authority principals, not superusers outside the model. OperatorAuthorityRecord defines
+role, scope, permitted actions, prohibited actions, effective period, and applicable authority epoch. Every
+consequential operator intervention produces OperatorActionReceipt and is committed to the ledger.
+ Human override may halt, revoke, request re-evaluation, or perform explicitly authorized supervisory action.
+ Human override may not rewrite evidence, convert DISCONFIRMED to CONFIRMED, bypass required probes,
+expand its own scope, or silently activate policy.
+ Out-of-scope override attempts are blocked, ledgered, and escalated according to RecoveryPolicyRecord.
+14. AGENT HANDOFF LAW
+A handoff transfers work context and evidence references; it does not automatically transfer execution authority. The
+receiving agent must acknowledge the handoff and establish its own authority against current policy.
+
+[Source PDF page 10]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  10
+AgentHandoffRecord
+  handoff_id
+  sender_agent_id
+  receiver_agent_id
+  task_id
+  evidence_record_ids[]
+  decision_state
+  sender_authority_scope
+  requested_receiver_scope
+  unresolved_assumptions[]
+  active_constraints[]
+  prohibited_actions[]
+  required_probe_ids[]
+  policy_version
+  epoch_vector
+  created_at
+  receiver_acceptance_id
+If receiver scope is narrower, the narrower scope governs. If broader scope is required, Domain I must issue new
+authority; the handoff itself cannot create it.
+15. RECOVERY INTEGRITY
+"Appropriate recovery" is not a subjective implementation choice. Every recognized failure class must map to an
+active RecoveryPolicyRecord that defines mandatory minimum response, permitted next states, maximum retries,
+required evidence reacquisition, escalation conditions, and termination conditions.
+PART III - GOVERNANCE AUTHORITY SPECIFICATION
+Who may create, evaluate, activate, revoke, or supersede governing authority itself?
+10A. GOVERNANCE ROOT AND ROOT-SIGNER LIFECYCLE
+RootGovernancePolicy is the highest runtime-governance constraint in this construction. No runtime domain may
+unilaterally modify it. It defines minimum signer quorum, independence rules, protected policy classes, meta-policy
+change procedure, emergency authority limits, evaluator-conflict rules, and root key/identity requirements.
+RootGovernancePolicy
+  root_policy_id
+  protected_policy_classes[]
+  minimum_activation_quorum
+  required_signer_domains[]
+  high_consequence_classes[]
+  evaluator_conflict_rules[]
+  meta_policy_change_requirements[]
+  emergency_authority_limits[]
+  external_anchor_requirements[]
+  effective_at
+  root_version
+  root_signer_set_id
+The root signer set is not an informal deployment detail. It is established and changed only through explicit lifecycle
+records. Runtime domains cannot add, remove, replace, or recover root signers.
+
+[Source PDF page 11]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  11
+RootSignerSetRecord
+  signer_set_id
+  member_principal_ids[]
+  public_key_or_attestation_ids[]
+  quorum_m
+  member_count_n
+  independence_requirements[]
+  recovery_quorum_id
+  effective_at
+  expires_at_if_any
+  external_anchor_receipt_id
+RootSignerGenesisRecord
+  genesis_id
+  root_policy_id
+  initial_signer_set_id
+  initial_quorum_signatures[]
+  establishment_evidence[]
+  created_at
+  external_anchor_receipt_id
+RootSignerRotationRecord
+  rotation_id
+  current_signer_set_id
+  proposed_signer_set_id
+  reason
+  outgoing_quorum_signatures[]
+  incoming_acceptance_signatures[]
+  effective_at
+  prior_checkpoint_id
+  external_anchor_receipt_id
+RootSignerRecoveryPolicy
+  recovery_policy_id
+  precommitted_recovery_principals[]
+  recovery_quorum_m
+  mandatory_delay
+  required_external_attestations[]
+  key_loss_or_compromise_conditions[]
+  activation_prohibitions[]
+Genesis is valid only when the initial signer set, quorum, RootGovernancePolicy, and external anchor are committed
+together. Rotation requires the active outgoing quorum plus acceptance by the incoming signer quorum. Root-key loss
+or compromise uses only the precommitted RootSignerRecoveryPolicy; recovery requires the configured recovery
+quorum, mandatory delay, explicit reason, external attestation, checkpoint publication, and a global governance
+epoch advance. There is no runtime API for unilateral root membership change.
+RootSignerRevocationRecord, RootSignerRecoveryReceipt, and RootSignerSuccessionReceipt complete the root
+lifecycle. Root membership changes are never represented only by a field mutation.
+
+[Source PDF page 12]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  12
+RootSignerRevocationRecord
+  revocation_id
+  signer_set_id
+  signer_principal_id
+  reason
+  evidence_refs[]
+  approving_quorum_signatures[]
+  effective_at
+  external_anchor_receipt_id
+RootSignerRecoveryReceipt
+  recovery_id
+  recovery_policy_id
+  affected_signer_set_id
+  triggering_condition
+  recovery_quorum_signatures[]
+  delay_satisfied
+  external_attestations[]
+  replacement_signer_set_id
+  effective_at
+  global_epoch_after
+  external_anchor_receipt_id
+RootSignerSuccessionReceipt
+  succession_id
+  outgoing_signer_set_id
+  incoming_signer_set_id
+  outgoing_quorum_signatures[]
+  incoming_acceptance_signatures[]
+  effective_at
+  external_anchor_receipt_id
+Quorum membership cannot be changed by first lowering the quorum required to change membership. Any change
+affecting root_signer_set, quorum_m, recovery quorum, or signer independence is itself a protected meta-governance
+change requiring the CURRENT root quorum and incoming acceptance where membership changes.
+10A1. GENESIS AUTHORITY AND BOOTSTRAP
+Runtime governance cannot establish its own initial root of trust. The initial root signer set MUST be authenticated
+through a pre-runtime organizational authority process. The deployment must possess a GenesisAuthorityManifest
+before runtime initialization; runtime accepts a RootSignerGenesisRecord only when it matches that externally
+authenticated manifest.
+GenesisAuthorityManifest
+  deployment_id
+  organization_identity
+  initial_root_public_keys[]
+  initial_quorum_m
+  signer_count_n
+  protected_invariant_set_hash
+  consequentiality_registry_floor_hash
+  created_at
+  external_anchor_reference
+  organizational_authorization_reference
+  manifest_hash
+RootSignerGenesisRecord
+  genesis_record_id
+  genesis_manifest_hash
+  initial_signer_set_id
+  initial_quorum_m
+  signer_acceptances[]
+  external_anchor_receipt_id
+  activated_at
+
+[Source PDF page 13]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  13
+A self-consistent RootSignerGenesisRecord without a matching pre-runtime GenesisAuthorityManifest is invalid. The
+architecture explicitly treats genesis authentication as an external trust assumption and requires that assumption to
+be named, preserved, and auditable.
+10B. META-POLICY GOVERNANCE
+MetaPolicyCandidate
+↓
+Independent Governance Evaluation
+↓
+Root Quorum Review
+↓
+Domain I Approval + Domain K Co-Sign
+↓
+MetaPolicyActivationReceipt
+↓
+Global Governance Epoch Advance
+PolicyActivationPolicy is itself governed policy. Changes to minimum_review_count, required_evaluator_domains,
+required signatures, protected policy classes, degraded-mode activation criteria, or evaluator-independence
+requirements are meta-policy changes and must follow the RootGovernancePolicy path.
+10B1. INTRINSICALLY PROTECTED GOVERNANCE CLASSES
+Protection of governance controls is structural, not configurable. The authoritative protected-type set is defined only
+by CanonicalGovernanceTypeRegistry. RootGovernancePolicy may add stricter protected classes but may not remove,
+downgrade, or override registry protection. RecoveryPolicyRecord and DegradedModePolicy are intrinsically
+protected because weakening failure response or degraded-mode constraints changes consequential authority.
+10B1A. CANONICAL GOVERNANCE TYPE REGISTRY
+This registry is the single authoritative source for governance-object protection, authorship path, evaluation path,
+activation path, and required co-signature. Build-time permission matrices and runtime protection logic MUST be
+generated or validated against this registry. A mismatch is a conformance failure, not an implementation choice.
+Governance
+Object
+Protection Draft / Source Evaluate Activate Independent
+Approval
+RootGovernance
+Policy
+ROOT Offline root
+process
+Root quorum /
+external
+evidence
+Root quorum M-of-N root
+signer quorum
+AuthorizationQu
+orumPolicy
+ROOT_PROTECT
+ED
+Domain H Domain J /
+alternate if
+conflicted
+Domain I Domain K
+quorum
+Consequentiality
+ClassRegistry
+ROOT_PROTECT
+ED
+Domain H Domain J /
+alternate if
+conflicted
+Domain I Domain K
+quorum
+RecordObligatio
+nPolicy
+ROOT_PROTECT
+ED
+Domain H Domain J /
+alternate if
+conflicted
+Domain I Domain K
+quorum
+ActionClassRegis
+trationRecord
+ROOT_PROTECT
+ED
+Domain H Domain J /
+alternate if
+conflicted
+Domain I Domain K
+quorum
+ScopeDependenc
+yMap
+ROOT_PROTECT
+ED
+Domain H Domain J /
+alternate if
+conflicted
+Domain I Domain K
+quorum
+
+[Source PDF page 14]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  14
+Governance
+Object
+Protection Draft / Source Evaluate Activate Independent
+Approval
+PolicyActivation
+Policy
+ROOT_PROTECT
+ED
+Domain H RootGovernance
+Policy-
+designated
+evaluator
+Domain I / meta-
+policy path
+Domain K + root
+requirements
+RecoveryPolicyR
+ecord
+ROOT_PROTECT
+ED
+Domain H Domain J /
+alternate if
+conflicted
+Domain I Domain K
+quorum
+DegradedModeP
+olicy
+ROOT_PROTECT
+ED
+Domain H Domain J /
+alternate if
+conflicted
+Domain I Domain K
+quorum
+OrdinaryPolicy STANDARD Domain H Domain J /
+alternate if
+conflicted
+Domain I Only when
+impact resolver
+elevates
+protection
+PolicyCandidateRecord governance-impact fields are mandatory for any candidate not intrinsically protected:
+affected_action_classes[], affected_consequentiality_classes[], affected_authority_domains[],
+affected_execution_permissions[], affected_recovery_classes[], affected_quorum_requirements[],
+affected_degraded_modes[], and affected_scope_dependencies[]. Missing impact declaration causes
+POLICY_IMPACT_UNRESOLVED and blocks evaluation/activation.
+function governance_type_rule(policy_type):
+    rule = CanonicalGovernanceTypeRegistry.resolve(policy_type)
+    require rule exists
+    return rule
+function intrinsically_protected_policy(candidate):
+    rule = governance_type_rule(candidate.type)
+    if rule.protection in {ROOT, ROOT_PROTECTED}:
+        return TRUE
+    return candidate_requires_elevated_protection(candidate)
+function candidate_requires_elevated_protection(candidate):
+    require candidate.affected_action_classes is declared
+    require candidate.affected_consequentiality_classes is declared
+    require candidate.affected_authority_domains is declared
+    require candidate.affected_execution_permissions is declared
+    require candidate.affected_recovery_classes is declared
+    require candidate.affected_quorum_requirements is declared
+    require candidate.affected_degraded_modes is declared
+    require candidate.affected_scope_dependencies is declared
+    if affects_C2_or_C3_authorization(candidate): return TRUE
+    if reduces_required_quorum(candidate): return TRUE
+    if expands_execution_authority(candidate): return TRUE
+    if weakens_recovery(candidate): return TRUE
+    if enables_or_broadens_degraded_mode(candidate): return TRUE
+    if changes_consequentiality_classification(candidate): return TRUE
+    if changes_scope_dependency(candidate): return TRUE
+    return FALSE
+Domain I approver conflict rule: Domain I may not unilaterally approve a candidate that expands Domain I discretion,
+reduces independent authorization, broadens the classes it may lease without quorum, weakens Domain K
+
+[Source PDF page 15]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  15
+requirements, or changes a control constraining Domain I. Such candidates require the protected meta-governance
+path and independent quorum approval.
+10C. EVALUATOR CONFLICT RULE
+An evaluator is ineligible when a candidate materially changes that evaluator's own authority, write permissions,
+success-criteria ownership, validation obligations, independence requirements, or conformance duties. Domain C
+therefore cannot evaluate policy governing Domain C, and Domain J cannot evaluate policy materially governing
+Domain J. RootGovernancePolicy designates an alternate independent evaluator for conflicted cases.
+10D. CONSEQUENTIALITY CLASSIFICATION AND AUTHORIZATION QUORUM
+Every action class is assigned a ConsequentialityClass by an active ConsequentialityClassRegistry. Authorization
+requirements are deterministic by class, not chosen by the proposer, evaluator, or issuer at runtime. Classification
+itself is governing authority because it determines which quorum applies.
+ConsequentialityClassRegistry
+  registry_id
+  action_class_mappings{}
+  classification_criteria[]
+  protected_by_root_policy = true
+  policy_version
+  effective_at
+  activation_receipt_id
+ConsequentialityReclassificationRecord
+  reclassification_id
+  action_class
+  prior_class
+  proposed_class
+  reason
+  supporting_evidence[]
+  required_authorization_rule
+  evaluation_receipt_id
+  activation_receipt_id
+  effective_at
+ConsequentialityClassRegistry and every downward reclassification are protected policy classes under
+RootGovernancePolicy. A C3 -> C2/C1/C0 change requires at least the authorization quorum required for C3. A C2 ->
+C1/C0 change requires at least the C2 quorum. Reclassification cannot alter the class of an already-pending proposal,
+issued lease, consumed lease, or action already under validation; those objects retain the class captured when created.
+Class Typical Effect Authorization Rule
+C0 Read-only / no external state change No ExecutionLease or single pre-authorized
+read capability according to policy
+C1 Reversible bounded state change Domain D admissibility + Domain I lease;
+Domain K co-sign only when
+RootGovernancePolicy requires
+C2 Material external write, financial, security, identity,
+or durable workflow change
+Domain D admissibility + Domain I lease +
+Domain K AuthorizationCoSignature
+C3 Irreversible, high-impact, safety-critical, privilege-
+changing, or broad-scope action
+Domain D admissibility + Domain I lease +
+Domain K co-sign + any human/quorum
+approval required by
+RootGovernancePolicy
+Consequentiality classification policy is explicitly included in RootGovernancePolicy.protected_policy_classes[]. A
+policy candidate that changes an action-class mapping, classification criterion, or rule determining whether Domain K
+quorum is required inherits the HIGHEST consequentiality class affected by the change for purposes of authorization.
+Downward reclassification cannot be used to reduce the quorum required to approve the reclassification itself.
+
+[Source PDF page 16]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  16
+10E. HIERARCHICAL AUTHORITY EPOCHS
+Authority freshness is represented by an EpochVector, not one global integer. The vector carries every governance
+scope that can invalidate the action.
+EpochVector
+  global_governance_epoch
+  policy_family_epochs{}
+  action_class_epoch
+  target_scope_epoch
+  tool_scope_epoch
+  operator_scope_epoch_if_applicable
+  scope_dependency_map_version
+ScopeDependencyMap
+  map_version
+  policy_family
+  affected_epoch_scopes[]
+  action_classes[]
+  tool_scopes[]
+  target_scopes[]
+  operator_scopes[]
+  change_requires_global_epoch = false_or_true
+  activated_by_receipt_id
+ScopeDependencyMap declares which epoch scopes each policy family affects. Policy activation advances every epoch
+identified by the dependency map. Execution admission compares all applicable epoch components atomically. This
+prevents both global over-invalidation and artificially narrow epochs that fail to intersect a changed governing rule.
+10F. RECORD COMPLETENESS GOVERNANCE
+Tamper-evident custody is insufficient when a compromised custody service can omit records. Before consequential
+execution, a RecordObligationManifest declares which downstream records must appear, which independent domain
+must produce each record, and the deadline for appearance.
+RecordObligationManifest
+  manifest_id
+  session_id
+  action_id
+  required_records[]
+    - record_type
+    - producer_domain
+    - deadline
+    - external_presence_attestation_required
+  epoch_vector
+  created_at
+  signatures[]
+CompletenessMonitorAttestation
+  attestation_id
+  monitor_identity
+  monitored_manifest_range
+  last_sequence_observed
+  overdue_obligation_count
+  issued_at
+  next_attestation_due
+  external_anchor_receipt_id
+Domain L is the real-time completeness monitor, not the sole source of truth about completeness. Each
+RecordObligationManifest is committed before execution and externally checkpointed. Required-record presence and
+deadlines are therefore independently recomputable by any authorized replay/audit service from the manifests,
+producer attestations, and ledger state.
+
+[Source PDF page 17]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  17
+Domain L must emit periodic CompletenessMonitorAttestation records. A missed attestation deadline, stale heartbeat,
+or divergence between Domain L findings and independently recomputed obligations is itself a completeness-monitor
+fault and forces the configured recovery/escalation path. If a required record is not observed by its deadline, Domain
+L issues RecordCompletenessAlert; an independent auditor can reach the same result even when Domain L is
+compromised or silent. Missing ExecutionReceipt, ConsequenceRecord, ValidationReceipt, or required transition
+receipt blocks normal continuation according to active recovery policy.
+10F1. RECORD OBLIGATION POLICY AND MANIFEST INDEPENDENCE
+A RecordObligationManifest is an execution-specific instantiation of an independently governed
+RecordObligationPolicy. The runtime domain that creates or requests a manifest may add stricter obligations, but may
+not remove, weaken, delay, or substitute any mandatory obligation required by the active policy.
+RecordObligationPolicy
+  obligation_policy_id
+  action_class
+  consequentiality_class
+  execution_mode
+  required_record_types[]
+  required_producer_domains[]
+  deadline_rules[]
+  external_presence_attestation_rules[]
+  minimum_validation_records[]
+  minimum_transition_records[]
+  policy_version
+  activation_receipt_id
+  epoch_vector_binding
+Before any ExecutionLease may be issued, the manifest compiler MUST resolve the active RecordObligationPolicy for
+the action_class + consequentiality_class + execution_mode tuple. If no active policy exists, manifest creation returns
+OBLIGATION_POLICY_MISSING and execution is BLOCKED. Domain I, Domain D, or any manifest compiler may add
+obligations beyond the minimum, but the compiler MUST demonstrate that every policy-mandated obligation is
+present before the manifest is accepted.
+The manifest itself therefore does not establish the minimum evidence burden. It proves how the independently
+governed burden applies to this specific action.
+RecordObligationPolicy MUST define a non-empty mandatory floor by ConsequentialityClass. For C2/C3, the floor
+MUST include at minimum ExecutionLease/authorization evidence, ExecutionReceipt, ConsequenceRecord,
+ValidationReceipt, and ContinuationOrRecoveryRecord. Domain I may instantiate or strengthen a manifest but cannot
+remove these class-floor obligations.
+MANDATORY_RECORD_FLOOR
+  C0: session/evidence records required by active action policy
+  C1: + ActionProposal + ExpectedConsequenceRecord + AdmissibilityAssessment + ExecutionReceipt
+  C2: + ExecutionLease + AuthorizationQuorumReceipt + ConsequenceRecord + ValidationReceipt + ContinuationOrRecoveryRecord
+  C3: C2 floor + externally attested presence deadlines + independent completeness witness requirements
+10F2. AUTHORIZATION QUORUM LIVENESS AND REDUNDANCY
+Domain K is not a singular signer. It is an AuthorizationQuorum whose active signer set, threshold, independence
+requirements, refusal semantics, liveness requirements, and outage behavior are governed by
+AuthorizationQuorumPolicy.
+
+[Source PDF page 18]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  18
+AuthorizationQuorumPolicy
+  quorum_policy_id
+  consequence_classes[]
+  signer_set_id
+  quorum_m
+  signer_count_n
+  independence_requirements[]
+  signing_timeout
+  max_pending_requests
+  refusal_semantics
+  outage_state = AUTHORIZATION_QUORUM_UNAVAILABLE
+  anomaly_rate_limits[]
+  escalation_policy_id
+  policy_version
+  activation_receipt_id
+For C2 and C3 execution, absence of the required quorum is an intentional fail-closed condition. Quorum
+unavailability MUST transition to AUTHORIZATION_QUORUM_UNAVAILABLE and invoke the applicable
+RecoveryPolicyRecord. It may not silently downgrade the action, fall back to unilateral Domain I signing, or broaden
+degraded-mode authority.
+AuthorizationQuorumReceipt records the exact canonical authorization digest, required threshold, received signer
+identities, refusal count, quorum result, signer-set version, and expiry. Execution admission accepts no high-
+consequence lease without a valid quorum receipt.
+The quorum floor is intrinsic: C2/C3 AuthorizationQuorumPolicy MUST enforce quorum_m >= 2 and signer_count_n >=
+3. A policy candidate lowering below this floor is schema-invalid and cannot enter ordinary policy activation. Domain
+K unavailability is an explicit availability state, not permission for unilateral fallback.
+10F3. ACTION-CLASS REGISTRATION AND SCOPE COVERAGE
+Every action_class must be registered before it may enter proposal or execution flow. Registration binds the class to its
+ConsequentialityClass, policy family, applicable ScopeDependencyMap entry, required RecordObligationPolicy,
+tool/target scope rules, and default recovery class.
+ActionClassRegistrationRecord
+  action_class_id
+  action_class_name
+  consequentiality_class
+  policy_family
+  scope_dependency_map_id
+  record_obligation_policy_id
+  required_tool_scopes[]
+  target_scope_rules[]
+  recovery_class
+  effective_at
+  policy_version
+  activation_receipt_id
+Proposal admission MUST fail closed when an action class is missing an active ActionClassRegistrationRecord or when
+its ScopeDependencyMap entry cannot be resolved. Missing scope coverage is never interpreted as "no applicable
+epoch."
+Every action-class registration MUST resolve to exactly one active policy family and a complete set of applicable epoch
+scopes. If the mapping is absent, ambiguous, expired, or references an inactive policy family, proposal admission
+returns ACTION_CLASS_UNMAPPED and no lease path exists.
+10G. RECOVERY AUTHORITY SEPARATION
+Recovery is not performed by one composite Recovery Orchestrator identity. Recovery decision and recovery
+execution are separate authorities.
+Failure Classification
+↓
+
+[Source PDF page 19]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  19
+Failure Classification
+Recovery Decision Service
+↓
+RecoveryDecisionReceipt
+↓
+Recovery Authorization / Lease
+↓
+Recovery Executor
+↓
+RecoveryExecutionReceipt
+↓
+Independent Recovery Validation
+The Recovery Decision Service selects only a transition permitted by the active RecoveryPolicyRecord. Domain I/K
+issue any required RecoveryExecutionLease. Domain E or a designated execution domain performs the action.
+Domain F validates consequence. No blended credential spans policy authority and execution authority.
+10G1. RECOVERY DECISION VALIDATION
+Recovery identity separation is necessary but insufficient. Before any RecoveryExecutionLease is issued, the
+RecoveryDecisionReceipt MUST be validated against the active RecoveryPolicyRecord. A producer-declared transition
+has no authority unless it is permitted by policy and satisfies the mandatory minimum response.
+function validate_recovery_decision(decision, failure, policy):
+    require decision.failure_class == failure.class
+    require policy.failure_class == failure.class
+    require decision.selected_transition in policy.permitted_next_states
+    require satisfies_minimum_response(decision.selected_transition, policy.mandatory_minimum_response)
+    require decision.retry_count <= policy.max_retries
+    require required_evidence_reacquired(policy)
+    require authority_class_valid(decision)
+    require epoch_vector_current(decision.epoch_vector)
+    return VALID
+RecoveryExecutionLease issuance requires VALID recovery decision.
+PART IV - OPERATIONAL IMPLEMENTATION
+How does the system operate?
+16. CANONICAL RUNTIME
+Task / Event
+↓
+Evidence Acquisition
+↓
+Probe Evaluation
+↓
+Decision Formation
+↓
+Action Proposal
+↓
+Expected Consequence Specification
+↓
+Admissibility Assessment
+↓
+RecordObligationManifest
+
+[Source PDF page 20]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  20
+Task / Event
+↓
+ExecutionLease Issuance + Required Co-Sign
+↓
+Atomic Lease Consumption / Tool Execution
+↓
+Independent Consequence Observation
+↓
+Validation + Completeness Check
+↓
+Continuation / Recovery
+↓
+Learning Review / Policy Candidate
+17. ROOT STATE OBJECT
+TEVVSession
+  session_id
+  system_id
+  agent_id
+  task_id
+  policy_version
+  epoch_vector
+  authority_scope
+  session_state
+  active_handoff_id
+  evidence_freshness_state
+  recovery_state
+  created_at
+  updated_at
+18. REQUIRED RECORD CHAIN
+EvidenceRecord
+↓
+ProbeVerdict(s)
+↓
+DecisionRecord
+↓
+ActionProposal
+↓
+ExpectedConsequenceRecord
+↓
+AdmissibilityAssessment
+↓
+RecordObligationManifest
+↓
+ExecutionLease + AuthorizationCoSignature where required
+↓
+ExecutionReceipt
+↓
+ConsequenceRecord
+↓
+ValidationReceipt
+↓
+Record Completeness Result
+
+[Source PDF page 21]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  21
+EvidenceRecord
+↓
+ContinuationOrRecoveryRecord
+↓
+LearningRecord
+Each record must contain causal references to the records that justify it. Required references are enforced at write
+time and transition time; a missing predecessor is not a documentation defect but an invalid state.
+19. PROBE CONTRACT AND EXPIRY
+ProbeVerdict
+  verdict_id
+  probe_id
+  probe_version
+  rubric_version
+  claim_or_decision_id
+  source_evidence_ids[]
+  verdict
+  rationale
+  evaluated_at
+  expires_at
+  policy_version
+  epoch_vector
+  evaluator_identity
+  superseded_by
+required_probe_verdicts_valid() must verify existence, required probe type, verdict acceptability, current time <
+expires_at, evidence freshness, matching policy and every applicable epoch in the EpochVector, non-supersession, and
+absence of contradictory higher-authority evidence.
+20. ADMISSIBILITY
+Domain D evaluates a proposal against current evidence, required probe verdicts, current policy, current authority
+scope, tool permissions, expected consequence specification, degraded-mode status, and unresolved blocking
+conditions. Domain D cannot modify any of those standards.
+AdmissibilityAssessment
+  assessment_id
+  proposal_id
+  policy_version
+  epoch_vector
+  authority_scope
+  probe_verdict_ids[]
+  expected_consequence_id
+  evidence_freshness_status
+  scope_status
+  tool_permission_status
+  degraded_mode_status
+  unresolved_blockers[]
+  verdict
+  assessed_at
+  domain_d_identity
+20A. OBLIGATION POLICY RESOLUTION
+Before manifest creation or lease issuance, the runtime resolves the active ActionClassRegistrationRecord and
+RecordObligationPolicy. The manifest compiler copies all mandatory obligations into the RecordObligationManifest.
+Any mismatch between active policy and manifest is OBLIGATION_MANIFEST_INVALID and blocks lease issuance.
+
+[Source PDF page 22]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  22
+21. EXECUTION LEASE AND TOCTOU CONTROL
+Authorization is represented as a short-lived, one-time ExecutionLease. Checking authority "immediately before"
+action is not sufficient; the lease is atomically consumed as part of execution admission.
+ExecutionLease
+  lease_id
+  proposal_id
+  admissibility_assessment_id
+  policy_version
+  epoch_vector
+  authority_scope
+  consequence_class
+  tool_id
+  target
+  permitted_parameters
+  nonce
+  valid_from
+  valid_until
+  max_execution_count = 1
+  revocation_generation
+  issued_by_domain_i
+  lease_authorization_digest
+  cosignature_id_if_required
+  obligation_manifest_id
+  consumed_at
+  status
+For any lease requiring co-signature, Domain K signs a canonical LeaseAuthorizationDigest that binds proposal_id,
+admissibility_assessment_id, consequentiality_class, tool_id, target, permitted_parameters, authority_scope, complete
+EpochVector, ExpectedConsequenceRecord hash, recovery binding, nonce, valid_from, valid_until,
+max_execution_count, revocation_generation, and obligation_manifest_id. Domain I may not alter any covered field
+after co-signature. The executor recomputes the digest and verifies Domain K signature before compare-and-consume.
+Any field change invalidates authorization.
+The executor performs compare-and-consume against every applicable epoch in the EpochVector, the current
+revocation generation, and any required Domain K co-signature. If any applicable policy/authority scope changes
+before consumption, or the canonical authorization digest does not match the signed payload, the lease cannot be
+consumed. Once consumed, it cannot be replayed.
+22. EXECUTION
+Domain E performs only the action encoded in the consumed ExecutionLease. Any actual parameter divergence,
+wrong target, tool substitution, partial execution, or unapproved retry becomes an execution fault and is preserved in
+ExecutionReceipt.
+23. CONSEQUENCE OBSERVATION AND VALIDATION
+Domain F independently observes the post-action state. Validation compares the ConsequenceRecord to the
+predeclared ExpectedConsequenceRecord and checks that the execution was valid at execution time.
+A later authority-epoch change does not erase historical validity, but it may remove current continuation authority.
+Historical validation and current permission remain distinct fields.
+24. STATE MACHINE
+Canonical states include RECEIVED, EVIDENCE_PENDING, EVIDENCE_READY, PROBE_PENDING, PROBE_VALID,
+PROBE_EXPIRED, DECISION_FORMED, PROPOSED, EXPECTATION_DEFINED, ADMISSIBILITY_PENDING, ADMISSIBLE,
+BLOCKED, LEASE_PENDING, AUTHORIZED, EXECUTING, EXECUTED, CONSEQUENCE_PENDING,
+VALIDATION_PENDING, CONFIRMED, PARTIALLY_CONFIRMED, DISCONFIRMED, UNKNOWN, RECOVERY_REQUIRED,
+DEGRADED_MODE, HANDOFF_PENDING, AUTHORITY_STALE, LEDGER_INTEGRITY_FAILURE, and HALTED.
+ PROPOSED -> EXECUTING is prohibited.
+ ADMISSIBLE -> EXECUTING is prohibited without a valid consumed ExecutionLease.
+
+[Source PDF page 23]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  23
+ PROBE_EXPIRED -> CONSEQUENTIAL_EXECUTION is prohibited.
+ UNKNOWN -> NORMAL_CONSEQUENTIAL_EXECUTION is prohibited.
+ UNKNOWN -> DEGRADED_MODE requires a pre-active DegradedModePolicy and remaining action/time budget.
+ DISCONFIRMED -> NORMAL_CONTINUATION is prohibited.
+ AUTHORITY_STALE -> EXECUTION is prohibited.
+ HANDOFF_PENDING -> RECEIVER_EXECUTION is prohibited until receiver authority is established.
+25. FAILURE AND RECOVERY
+Failure classes include evidence integrity/freshness failure, probe failure or disagreement, policy/authority failure,
+execution failure, consequence-observation failure, validation failure, custody failure, handoff failure, human-
+override violation, and learning/policy-promotion failure.
+For each failure class, the active RecoveryPolicyRecord specifies the exact minimum transition. Examples: stale
+evidence -> reacquire evidence; expired probe -> rerun required probe; out-of-scope human override -> BLOCKED +
+escalation; custody anchor mismatch -> HALTED + external audit; action disconfirmation -> rollback/isolate/re-
+evaluate according to policy.
+26. LEARNING AND POLICY PROMOTION
+Validated Outcome
+↓
+LearningRecord
+↓
+LearningReviewRecord
+↓
+PolicyCandidateRecord
+↓
+Domain J or Non-Conflicted Independent Evaluation
+↓
+Domain I Approval
+↓
+Domain K Co-Sign where required
+↓
+PolicyActivationReceipt
+↓
+Applicable EpochVector Advance
+No learned object modifies active policy directly. Domain H may formulate a candidate from validated learning.
+Independent evaluation must use an evaluator identity separate from Domain H and must pass the evaluator-conflict
+rule. Domain I approves or rejects the candidate; protected policy classes additionally require Domain K co-signature.
+Activation advances every applicable epoch declared by the ScopeDependencyMap.
+27. LEDGER, EXTERNAL ANCHOR, AND REPLAY
+Domain G maintains an append-only, hash-linked custody ledger. Append-only internal storage alone is insufficient
+against a compromised custody domain. Therefore, the ledger periodically emits a signed LedgerCheckpointReceipt to
+an external anchor controlled under a separate identity/security boundary.
+LedgerCheckpointReceipt
+  checkpoint_id
+  ledger_sequence_end
+  merkle_or_chain_root
+  generated_at
+  custody_identity
+  external_anchor_identity
+  anchor_receipt
+  prior_checkpoint_id
+
+[Source PDF page 24]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  24
+Independent replay validates record causality, checkpoint continuity, and RecordObligationManifest completeness.
+Domain L independently tracks required-record deadlines using producer attestations. A compromised custody
+service may still attempt prospective fabrication or omission, but it cannot silently rewrite anchored history, and
+missing required receipts trigger RecordCompletenessAlert even when the internal ledger remains hash-consistent.
+28. MULTI-AGENT HANDOFF
+Sender creates AgentHandoffRecord; receiver issues HandoffAcceptanceReceipt. Required probes, unresolved
+assumptions, and evidence references remain visible. Receiver establishes authority under current policy; sender
+authority is not inherited. Failed or mismatched handoff transitions to HANDOFF_BLOCKED or
+CLARIFICATION_REQUIRED.
+PART V - TECHNICAL BUILD SPECIFICATION
+How do engineers build it?
+29. REFERENCE COMPONENT ARCHITECTURE
+Component Required Function Primary Trust Domain
+Evidence Gateway Acquire/version evidence and source identity A
+Probe Runtime Execute versioned probe contracts C
+Decision/Proposal Service Create DecisionRecord and ActionProposal B
+Evaluation Specification
+Service
+Create authoritative ExpectedConsequenceRecord C
+Admissibility Service Evaluate proposal against active rules D
+Root Signer Lifecycle
+Service
+Manage genesis, rotation, and recovery records under
+non-runtime root quorum
+Root signer quorum / offline
+governance
+Policy Administration
+Service
+Draft policy/threshold/degraded-mode candidates H
+Independent Governance
+Evaluation Service
+Evaluate policy/meta-policy candidates subject to
+evaluator-conflict rules
+J or RootGovernancePolicy-
+designated alternate
+Policy Authority Service Approve policy, issue scoped epochs and leases, revoke I
+Authorization Co-Sign
+Service
+Independently co-sign protected policy/leases and meta-
+policy activations
+K
+Execution Gateway Atomically consume lease and invoke tool E
+Consequence Observer Collect post-action state F
+Validation Service Issue ValidationReceipt F
+Custody Ledger Append-only records and causal links G
+Completeness Monitor Track RecordObligationManifest deadlines, emit
+liveness attestations, and flag overdue records
+L
+Independent Completeness
+Replay
+Recompute obligations/deadlines independently of
+Domain L
+Independent auditor / replay
+External Anchor Adapter Commit checkpoint digest externally L / separate anchor
+Replay/Audit Service Recompute causality, completeness, and checkpoint
+conformance
+G + independent auditor/L
+Handoff Service Create/accept handoff custody objects B / I
+Recovery Decision Service Select permitted recovery transition under active policy D or dedicated decision
+identity
+Recovery Authorization
+Service
+Issue RecoveryExecutionLease under current
+authority/quorum
+I + K as required
+Recovery Executor Execute only authorized recovery action E
+Recovery Validation Validate recovery consequence F
+Record Obligation Policy
+Registry
+Store and resolve independently activated
+minimum record obligations by
+action/consequence class
+Governed policy / I+K
+when protected
+
+[Source PDF page 25]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  25
+Component Required Function Primary Trust Domain
+Action Class Registry Resolve action-class registration, consequentiality
+class, scope map, and obligation policy
+Governed policy / I+K
+when protected
+Authorization Quorum
+Service
+Collect M-of-N K signatures, enforce
+quorum/liveness policy, emit
+AuthorizationQuorumReceipt
+K quorum
+Root Signer Lifecycle
+Service
+Genesis, rotation, revocation, recovery, succession
+with external anchoring
+Offline root signer
+quorum
+Genesis Authority
+Verifier
+Verify RootSignerGenesisRecord against pre-
+runtime GenesisAuthorityManifest and external
+organizational authorization
+Pre-runtime / offline root
+trust
+Invariant Validator Reject policy/configuration states that weaken
+intrinsic C2/C3, quorum, protected-class, or fail-
+closed floors
+Independent governance
+validation
+Recovery Decision
+Validator
+Validate RecoveryDecisionReceipt against active
+RecoveryPolicyRecord before recovery lease
+issuance
+Independent recovery
+validation
+Degraded Budget
+Counter
+Atomically consume degraded-mode action/time
+budget
+Execution admission /
+transactional state
+30. SERVICE IDENTITY AND KEY REQUIREMENTS
+ Each trust domain has a unique workload/service identity.
+ Signing or attestation keys for Domains C, D, F, G, H, I, J, K, and L are distinct.
+ No single credential possesses both PolicyActivationReceipt and ExecutionReceipt write authority.
+ No single credential can satisfy both Domain I approval and Domain K co-signature requirements.
+ Executor credentials cannot mint or co-sign ExecutionLease.
+ Domain J evaluator credentials cannot activate the policy they evaluate.
+ Domain L completeness/anchor credentials are separate from Domain G custody credentials.
+ Custody service accepts signed/attested records only from allow-listed domain identities and allowed record types.
+ External anchor uses a separate security principal from the primary custody ledger and completeness monitor.
+ Key rotation preserves historical verifier metadata and does not invalidate prior records.
+ Root signer rotation requires active outgoing quorum approval, incoming signer acceptance, and external
+anchoring; no runtime domain may rotate root membership.
+ Domain K co-signature covers the canonical LeaseAuthorizationDigest, not merely an epoch or lease identifier.
+ Domain L liveness attestations are externally anchored and independently recomputable from manifests and
+deadlines.
+31. PERMISSION MATRIX
+Record A B C D E F G H I J K L
+EvidenceRecord W R R R R R A R R R R R
+ProbeVerdict R R W R R R A R R R R R
+ActionProposal R W R R R R A R R R R R
+ExpectedConsequence
+Record
+R Sugg
+est
+W R R R A R R R R R
+AdmissibilityAssessm
+ent
+R R R W R R A R R R R R
+RecordObligationMani
+fest
+R R R W R R A R R R R Witn
+ess
+ExecutionLease R R R R R R A R W R CoSi
+gn
+R
+ExecutionReceipt R R R R W R A R R R R R
+ConsequenceRecord R R R R R W A R R R R R
+
+[Source PDF page 26]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  26
+Record A B C D E F G H I J K L
+ValidationReceipt R R R R R W A R R R R R
+PolicyCandidateRecor
+d
+R R R R R R A W R R R R
+PolicyEvaluationRecei
+pt
+R R R R R R A R R W R R
+PolicyActivationRecei
+pt
+R R R R R R A R W R CoSi
+gn*
+R
+MetaPolicyActivation
+Receipt
+R R R R R R A R W R CoSi
+gn
+R
+RecordCompletenessA
+lert
+R R R R R R A R R R R W
+LedgerEntry R R R R R R W R R R R R
+RecordObligationPo
+licy
+R R R R R R R R W R CoSi
+gn*
+R
+ActionClassRegistra
+tionRecord
+R R R R R R R R W R CoSi
+gn*
+R
+ScopeDependency
+Map
+R R R R R R R R W R CoSi
+gn*
+R
+GenesisAuthorityM
+anifest [X]
+R R R R R R R R R R R R
+RootSignerGenesisR
+ecord [X]
+R R R R R R R R R R R R
+ConsequentialityRe
+classificationRecord
+R R R R R R R R W R CoSi
+gn*
+R
+AuthorizationQuor
+umPolicy
+R R R R R R R R W R CoSi
+gn*
+R
+RecoveryPolicyReco
+rd
+R R R R R R R R W R CoSi
+gn*
+R
+DegradedModePolic
+y
+R R R R R R R R W R CoSi
+gn*
+R
+PolicyActivationPoli
+cy
+R R R R R R R R W R CoSi
+gn*
+R
+RootGovernancePol
+icy [X]
+R R R R R R R R R R R R
+Legend: W = permitted runtime author; R = read; A = append/custody only; Suggest = non-authoritative candidate;
+Witness = independent presence attestation; CoSign = independent authorization signature; CoSign* = mandatory
+protected-governance co-signature; X = authored through an external/pre-runtime or root-governance ceremony
+rather than by a runtime trust domain. [X] records therefore have no runtime W cell. The Permission Matrix MUST be
+generated from or mechanically checked against CanonicalGovernanceTypeRegistry; any mismatch is a conformance
+failure.
+31A. CANONICAL REGISTRY CONSISTENCY CONTRACT
+At build time and startup, registry_matrix_consistent() MUST compare every CanonicalGovernanceTypeRegistry entry
+against the Permission Matrix, activation service configuration, and protection-resolution code. Missing records,
+missing co-sign requirements, broadened runtime write permission, or weaker activation paths cause
+CONSTRUCTION_CONFORMANCE_FAILURE and prevent authoritative startup.
+32. PERSISTENCE CONTRACT
+ All consequential records use immutable IDs and explicit version fields.
+ No UPDATE operation is permitted on accepted authoritative records; corrections append CorrectionRecord.
+
+[Source PDF page 27]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  27
+ Every record includes session_id, producer_identity, created_at, policy_version, EpochVector or applicable scoped
+epochs where relevant, and integrity digest.
+ Foreign-key/causal references are enforced before acceptance.
+ Ledger sequence is monotonic; checkpoint cadence is explicit and testable.
+ Retention and privacy windows may be domain-specific, but deletion rules must not allow selective deletion that
+destroys an active proof chain.
+33. INTERFACE CONTRACTS
+POST /evidence
+POST /probe/run
+POST /decision
+POST /proposal
+POST /expectation/ratify
+POST /admissibility/evaluate
+POST /policy/candidate
+POST /policy/evaluate
+POST /policy/activate
+POST /meta-policy/candidate
+POST /meta-policy/activate
+POST /authorization/cosign
+POST /obligation/manifest
+POST /lease/issue
+POST /lease/consume-and-execute
+POST /consequence
+POST /validate
+POST /recovery/decide
+POST /recovery/lease
+POST /recovery/execute
+POST /recovery/validate
+POST /handoff/create
+POST /handoff/accept
+POST /learning
+POST /completeness/attest
+POST /completeness/check
+POST /ledger/checkpoint
+GET  /audit/replay/{session_id}
+Interface names are illustrative. The required contract is semantic: each call must validate caller domain identity,
+referenced-record lineage, current epoch/policy, and write permission before accepting a state-changing record.
+34. ATOMIC LEASE CONSUMPTION
+The execution gateway must support atomic compare-and-consume semantics. A valid lease is consumed in the same
+transaction/critical section that admits the execution request. If any applicable EpochVector component, required co-
+signature/quorum, revocation generation, nonce, expiry, obligation manifest, or max_execution_count fails, no action
+is invoked.
+35. PROBE VERDICT VALIDATION CONTRACT
+required_probe_verdicts_valid(proposal, now):
+  require all required probe IDs present
+  require verdict status permitted by active policy
+  require now < each expires_at
+  require evidence references fresh/valid
+  require probe_version and rubric_version allowed
+  require verdict.policy_version == active_policy_version
+  require epoch_vector_current(verdict.epoch_vector)
+  require verdict not superseded
+  require no higher-authority contradictory evidence
+  return VALID
+
+[Source PDF page 28]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  28
+35A. POLICY ACTIVATION CONTRACT
+PolicyActivationPolicy
+  activation_policy_id
+  governed_policy_classes[]
+  required_evaluator_domains[]
+  required_evidence_classes[]
+  required_tests[]
+  required_conflict_checks[]
+  minimum_review_count
+  evaluator_independence_requirements
+  required_cosigner_domains[]
+  candidate_expiry
+  activation_scope_limits
+  root_governance_policy_id
+  effective_policy_version
+  activated_by_domain_i
+  cosigned_by_domain_k_if_required
+PolicyEvaluationReceipt MUST reference the PolicyCandidateRecord, PolicyActivationPolicy, evaluator identity,
+evidence and test results, conflicts found, recommendation, and expiry. Domain I cannot issue PolicyActivationReceipt
+without a current valid PolicyEvaluationReceipt satisfying the active PolicyActivationPolicy. Protected classes
+additionally require Domain K co-signature. Changes to PolicyActivationPolicy itself are MetaPolicyCandidates and
+cannot be activated through the ordinary path; they must satisfy RootGovernancePolicy and produce
+MetaPolicyActivationReceipt.
+36. STATE TRANSITION CONTRACT
+Every state-changing endpoint uses a transition matrix stored as versioned policy, but the existence of a transition
+matrix does not allow Domain H to activate arbitrary transitions. Changes require Domain I PolicyActivationReceipt
+and new scoped applicable authority epoch. Runtime services only consume the active matrix.
+37. RECOVERY CONTRACT
+RecoveryDecision validation MUST verify both decision correctness and RecoveryPolicyRecord legitimacy. A recovery
+policy is consumable only when its protected activation lineage is valid, required Domain K quorum is present, and all
+applicable EpochVector components are current. A weakened or improperly activated recovery policy MUST NOT
+authorize continuation or recovery execution.
+RecoveryPolicyRecord
+  recovery_policy_id
+  failure_class
+  trigger_conditions[]
+  mandatory_minimum_response
+  permitted_next_states[]
+  required_evidence_reacquisition[]
+  max_retries
+  escalation_condition
+  termination_condition
+  rollback_requirement
+  policy_version
+  epoch_vector
+  activation_receipt_id
+
+[Source PDF page 29]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  29
+38. DEGRADED MODE CONTRACT
+DegradedModePolicy
+  degraded_policy_id
+  triggering_failure_classes[]
+  permitted_action_classes[]
+  permitted_targets[]
+  mandatory_evidence[]
+  max_duration
+  max_action_count
+  reduced_authority_scope
+  prohibited_actions[]
+  exit_conditions[]
+  rollback_conditions[]
+  expires_at
+  policy_version
+  epoch_vector
+  activation_receipt_id
+Degraded-mode action/time budgets MUST be atomically consumed. Concurrent actions may not independently
+observe the same remaining budget and both proceed.
+function consume_degraded_budget_and_execute(policy, request):
+    atomic:
+        require degraded_mode == ACTIVE
+        require now < policy.expires_at
+        require request.action_class in policy.permitted_action_classes
+        require request.target in policy.permitted_targets
+        require current_action_count < policy.max_action_count
+        require elapsed_time < policy.max_duration
+        current_action_count += 1
+        persist budget consumption
+        invoke action(request)
+39. HANDOFF CONTRACT
+Handoff acceptance validates receiver identity, current policy, requested receiver scope, evidence freshness, required
+probe validity, and unresolved assumptions. The receiver cannot execute until HandoffAcceptanceReceipt and an
+authority record for the receiver exist.
+39A. RECORD OBLIGATION POLICY CONTRACT
+resolve_record_obligation_policy(action):
+  registration = resolve_active_action_class_registration(action.action_class)
+  require registration exists
+  require registration.consequentiality_class == action.consequentiality_class
+  policy = resolve_active_obligation_policy(registration.record_obligation_policy_id)
+  require policy exists
+  require policy.action_class == action.action_class
+  require policy.consequentiality_class == action.consequentiality_class
+  return policy
+compile_manifest(action, policy):
+  manifest.required_records = policy.required_record_types
+  manifest.required_producer_domains = policy.required_producer_domains
+  manifest.deadlines = derive(policy.deadline_rules, action)
+  allow additional_stricter_obligations
+  prohibit removal_or_weakening(policy obligations)
+  require manifest_covers(policy)
+  return manifest
+
+[Source PDF page 30]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  30
+39B. ACTION-CLASS REGISTRATION CONTRACT
+validate_action_class(action):
+  r = active_registration(action.action_class)
+  require r exists
+  require r.consequentiality_class == action.consequentiality_class
+  require active_scope_dependency_map(r.scope_dependency_map_id) exists
+  require active_record_obligation_policy(r.record_obligation_policy_id) exists
+  return VALID
+If any requirement is missing: return ACTION_CLASS_UNMAPPED and BLOCK.
+39C. AUTHORIZATION QUORUM CONTRACT
+authorization_quorum_valid(lease, quorum_receipt):
+  policy = resolve_authorization_quorum_policy(lease.consequentiality_class)
+  require policy exists
+  require quorum_receipt.authorization_digest == canonical_lease_digest(lease)
+  require quorum_receipt.signer_set_version == policy.signer_set_id
+  require distinct_valid_signers(quorum_receipt) >= policy.quorum_m
+  require signer_independence_satisfied(quorum_receipt, policy)
+  require now < quorum_receipt.expires_at
+  return VALID
+If quorum cannot be reached before signing_timeout: transition AUTHORIZATION_QUORUM_UNAVAILABLE; do not downgrade
+authority.
+40. CONFORMANCE TEST SUITE
+33. Attempt Domain B write to policy activation namespace - MUST FAIL.
+34. Attempt Domain H mint PolicyActivationReceipt - MUST FAIL.
+35. Attempt Domain E mint ExecutionLease - MUST FAIL.
+36. Attempt executor reuse of consumed nonce - MUST FAIL.
+37. Revoke epoch between lease issuance and atomic consumption - execution MUST FAIL.
+38. Expire required ProbeVerdict - proposal MUST BLOCK.
+39. Broaden DegradedModePolicy beyond preactivated scope at runtime - MUST FAIL.
+40. Attempt human action outside OperatorAuthorityRecord - MUST BLOCK and ledger attempt.
+41. Transfer task to receiver with broader requested scope than granted - MUST BLOCK pending new authority.
+42. Tamper historical custody record before external checkpoint - replay MUST detect anchor mismatch.
+43. Have proposer attempt to modify ExpectedConsequenceRecord - MUST FAIL.
+44. Have Domain I attempt ordinary tool execution without ExecutionLease as executor principal - MUST FAIL.
+45. Inject DISCONFIRMED consequence and request normal continuation - MUST FAIL.
+46. Inject RecoveryPolicyRecord with missing mandatory response - activation MUST FAIL schema/policy
+validation.
+47. Attempt Domain I mint C2/C3 ExecutionLease without Domain K co-signature - MUST FAIL.
+48. Attempt Domain I activate protected policy without Domain K co-signature - MUST FAIL.
+49. Attempt runtime modification of RootGovernancePolicy without root quorum - MUST FAIL.
+50. Attempt Domain J evaluation of policy materially changing Domain J authority - MUST FAIL conflict check.
+51. Suppress required ExecutionReceipt while other domains report execution - Domain L MUST issue
+RecordCompletenessAlert and block continuation.
+52. Change action-class policy without advancing mapped action_class_epoch - activation MUST FAIL.
+53. Present lease with stale target-scope epoch while global epoch matches - execution MUST FAIL.
+54. Attempt one blended Recovery Orchestrator credential to decide and execute recovery - MUST FAIL
+identity/permission test.
+55. Attempt meta-policy to reduce its own quorum below RootGovernancePolicy floor - MUST FAIL.
+56. Attempt root signer rotation without outgoing quorum and incoming acceptance - MUST FAIL.
+57. Attempt root signer recovery without precommitted recovery quorum, mandatory delay, and external
+attestation - MUST FAIL.
+
+[Source PDF page 31]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  31
+58. Attempt C3 action-class reclassification to C1 without C3-level authorization quorum - MUST FAIL.
+59. Attempt reclassification to affect already-pending proposal or issued lease - MUST FAIL.
+60. Silence Domain L beyond CompletenessMonitorAttestation deadline - independent replay MUST detect
+monitor liveness failure and recompute overdue obligations.
+61. Alter tool, target, parameters, consequence hash, time window, or scope after Domain K co-signature - lease
+signature verification MUST FAIL.
+62. Flood Domain C with success-criterion suggestions beyond revision budget or after final rejection without
+materially new evidence - MUST REJECT without delaying ratification.
+63. Attempt manifest creation that omits a RecordObligationPolicy-mandated ValidationReceipt - manifest validation
+MUST FAIL and lease issuance MUST BLOCK.
+64. Attempt Domain I or D to replace a mandatory record obligation with a weaker substitute - MUST FAIL.
+65. Attempt C2/C3 lease issuance with fewer than AuthorizationQuorumPolicy.quorum_m valid K signers - MUST
+FAIL.
+66. Simulate Domain K quorum unavailability past signing_timeout - action MUST transition to
+AUTHORIZATION_QUORUM_UNAVAILABLE and fail closed; no unilateral fallback permitted.
+67. Attempt proposal for an unregistered action_class - MUST BLOCK with ACTION_CLASS_UNMAPPED.
+68. Attempt proposal for registered action_class with missing ScopeDependencyMap entry - MUST BLOCK; absence
+MUST NOT be treated as empty scope.
+69. Attempt action-class reclassification that would lower K oversight without highest-affected-class quorum - MUST
+FAIL.
+70. Attempt root signer removal without current root quorum and external anchor - MUST FAIL.
+71. Attempt root quorum reduction followed by signer rotation in one transaction - MUST FAIL; current quorum
+governs the change.
+72. Attempt root recovery without valid RootSignerRecoveryPolicy, precommitted recovery quorum, mandatory
+delay, and external attestation - MUST FAIL.
+73. Present RootSignerGenesisRecord without matching authenticated GenesisAuthorityManifest - genesis MUST
+FAIL.
+74. Resubmit rejected expectation criteria with materially_new_evidence=true but no verifiable evidence delta -
+MUST NOT reset suggestion budget.
+75. Race two degraded-mode actions for one remaining action budget - exactly one may consume budget.
+76. Issue RecoveryExecutionLease for transition not in RecoveryPolicyRecord.permitted_next_states - MUST FAIL.
+77. Present unknown action_class without active registration/scope map - proposal MUST BLOCK
+ACTION_CLASS_UNMAPPED.
+78. Attempt C3 manifest omitting ValidationReceipt - manifest validation MUST FAIL against class-floor
+RecordObligationPolicy.
+79. Attempt Domain I self-approval of a policy expanding its own unilateral lease authority - MUST route to protected
+governance and FAIL without required quorum.
+80. Attempt downward C3 -> C1 reclassification without C3-equivalent quorum - MUST FAIL.
+81. Attempt AuthorizationQuorumPolicy quorum_m = 1 for C2/C3 - activation MUST FAIL invariant validation.
+82. Genesis with high_consequence_classes empty while C2/C3 exist - MUST still require C2/C3 quorum.
+Attempt ordinary activation of RecoveryPolicyRecord without Domain K quorum - MUST FAIL regardless of
+RootGovernancePolicy.additional_protected_policy_classes.
+Activate a RecoveryPolicyRecord weakening C3 DISCONFIRMED response from ROLLBACK to CONTINUE without
+protected quorum - MUST FAIL before activation.
+Remove RecoveryPolicyRecord or DegradedModePolicy from a configurable protected-policy list - protection MUST
+remain unchanged because CanonicalGovernanceTypeRegistry is authoritative.
+Present PolicyCandidateRecord without complete governance-impact fields when candidate type is not intrinsically
+protected - MUST BLOCK with POLICY_IMPACT_UNRESOLVED.
+Introduce a mismatch between CanonicalGovernanceTypeRegistry and Permission Matrix for
+AuthorizationQuorumPolicy, RecoveryPolicyRecord, or DegradedModePolicy - startup/conformance MUST FAIL.
+Attempt runtime authorship of GenesisAuthorityManifest or RootSignerGenesisRecord despite [X] designation - MUST
+FAIL.
+
+[Source PDF page 32]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  32
+Present a RecoveryDecisionReceipt referencing a RecoveryPolicyRecord without valid protected activation lineage -
+RecoveryExecutionLease issuance MUST FAIL.
+41. SECURITY / ADVERSARIAL REQUIREMENTS
+ Authenticate producers and consumers of consequential records.
+ Protect replay resistance with nonce/sequence/freshness checks.
+ Treat policy and evaluation configuration as signed/versioned artifacts.
+ Protect against collusion by requiring heterogeneous identities for policy authoring, activation, execution, and
+validation.
+ Support checkpoint export to an external anchor not writable by the primary custody service.
+ Support independent omission detection through RecordObligationManifest and Domain L presence attestations.
+ Require dual-domain or M-of-N authorization where RootGovernancePolicy designates high-consequence or
+protected classes.
+ Prevent evaluators from evaluating policy that materially governs their own authority or obligations.
+ Preserve evaluator/probe version and source corpus identity so verdicts can be recomputed.
+ Protect root signer membership through explicit genesis, rotation, and recovery records.
+ Treat consequentiality classification as protected governance and require prior-class quorum for downward
+reclassification.
+ Require completeness-monitor liveness attestation plus independent obligation replay.
+ Bind independent authorization signatures to the exact canonical lease payload.
+ Rate-limit and finalize proposer success-criterion suggestions so evaluation authority cannot be availability-
+pressured.
+42. OBSERVABILITY AND METRICS
+ Unauthorized-transition attempts.
+ Expired-probe blocking rate.
+ Stale-authority/lease rejection rate.
+ Human override violation count.
+ Handoff scope mismatch count.
+ Probe disagreement rate.
+ Consequence disconfirmation rate.
+ Recovery success and retry counts.
+ Degraded-mode time/action budget consumption.
+ External-anchor checkpoint continuity.
+ Policy activation/revocation frequency.
+ Replay mismatch count.
+ Required-record omission count and deadline latency.
+ Authorization co-signature rejection count.
+ Meta-policy activation count and root-quorum failures.
+ Scoped epoch mismatch count by governance scope.
+ Root signer rotation/recovery event count and failed-attempt count.
+ Unmapped action-class block count.
+ Authorization quorum signer anomaly/refusal rate.
+ Authorization quorum timeout/unavailability count.
+ Obligation-manifest policy mismatch count.
+PART VI - LINEAGE, ALIGNMENT, VALIDATION, PRESSURE
+TESTING, VERSIONING
+Does the construction remain the same system and survive stress?
+
+[Source PDF page 33]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  33
+43. DOCUMENT LINEAGE
+Construction lineage: Governing Engines AI System Construction Method v1.1 -> Governed TEVV official v1.0 -> v1.1
+structural hardening -> v1.2 invariant-floor/genesis/recovery/atomicity hardening -> adversarial review of duplicated
+protection logic, RecoveryPolicyRecord protection drift, undefined protection predicates, permission-matrix
+omissions, and genesis authorship ambiguity -> official construction package v2.6.
+44. ALIGNMENT CHECK
+Concept asks for a buildable runtime that evaluates evidence-to-action custody. Source of Truth prohibits self-
+authorization and defines trust domains. Governance Authority Specification defines root governance, meta-policy,
+evaluator conflict rules, authorization quorum, scoped epochs, completeness governance, and recovery authority
+separation. Implementation routes every consequential action through probe validity, independent success criteria,
+admissibility, obligation declaration, short-lived lease with required co-signature, independent consequence
+validation, completeness checks, and governed recovery. Technical Build Specification assigns concrete services,
+identities, write permissions, records, interfaces, and conformance tests to those requirements.
+SEAM CHECK
+No part relies on a term or authority introduced only downstream. Every consequential authority named
+in Implementation has an owner in Source of Truth or Governance Authority Specification and a technical
+enforcement contract in the Build Specification. Protection classification has one canonical source:
+CanonicalGovernanceTypeRegistry. Permission Matrix rows, activation paths, protection-resolution
+pseudocode, recovery-policy consumption, and conformance tests are mechanically checked against that
+registry. No apex, meta-governance, recovery-governance, or protected-type rule exists only as prose.
+45. VALIDATION PLAN
+83. Static schema and permission validation.
+84. State-machine unit tests for all allowed/prohibited transitions.
+85. Cross-domain credential denial tests.
+86. Probe expiry/freshness tests.
+87. ExecutionLease atomicity and replay tests.
+88. Policy promotion and epoch invalidation tests.
+89. Custody checkpoint and replay-integrity tests.
+90. Handoff authority tests.
+91. Human override tests.
+92. Runtime shadow deployment before active enforcement.
+93. Controlled tool/action sandbox tests.
+94. Post-action consequence and recovery tests.
+95. Root governance and meta-policy self-revision tests.
+96. Dual-control/M-of-N authorization tests for high-consequence actions.
+97. Evaluator conflict-of-interest routing tests.
+98. Record omission/completeness-monitor tests.
+99. Hierarchical epoch and ScopeDependencyMap invalidation tests.
+100. Split recovery decision/execution credential tests.
+CanonicalGovernanceTypeRegistry-to-Permission-Matrix consistency tests.
+RecoveryPolicyRecord protected-activation lineage and weakening-attempt tests.
+Governance-impact field completeness and deterministic protection-resolution tests.
+45A. MEASUREMENT AND EXPERIMENTAL DESIGN
+The construction should be evaluated as a measurement system, not only as a policy engine. Test plans should
+compare baseline agent behavior, agent behavior with probes only, and full governed runtime behavior where
+appropriate.
+ Probe accuracy, disagreement, expiry frequency, and source-grounding reproducibility.
+
+[Source PDF page 34]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  34
+ False-block and missed-block rates for consequential actions.
+ Authorization latency and ExecutionLease rejection causes.
+ Rate of tool/action parameter divergence from authorization.
+ Consequence-confirmation, partial-confirmation, disconfirmation, and UNKNOWN rates.
+ Recovery success, rollback success, and time-to-safe-state.
+ Handoff authority mismatch and clarification frequency.
+ Human override violation and escalation behavior.
+ Ledger checkpoint continuity and replay mismatch detection.
+ Policy-promotion acceptance/rejection and time-to-activation.
+Measurements should be stratified by action consequentiality and domain. A system that is acceptable for low-impact
+read-only research may be unacceptable for external write actions; the construction does not collapse those risk
+classes into one global threshold.
+46. PRESSURE TESTING
+ Compromised Domain A fabricates evidence.
+ Compromised Domain B proposes an action and tries to narrow success criteria.
+ Compromised Domain D returns ADMISSIBLE incorrectly. Domain I independently checks required
+activation/lease policy before issuance.
+ Compromised Domain G writes internally consistent fabricated history after prior checkpoint; external anchor
+detects mismatch.
+ Colluding proposal and evaluator components attempt to pass unsupported action; separate policy authority and
+custody/replay remain independent.
+ Broad degraded-mode rule attempts to swallow UNKNOWN; preactivation, scope, time/action ceilings, and no-
+new-authority law contain it.
+ Policy revoked between lease issuance and execution; atomic consume fails on generation mismatch.
+ Receiver agent attempts inherited broader scope; handoff law blocks execution.
+ Human operator attempts out-of-scope override; action is blocked and attempt ledgered.
+ Probe verdict expires during long-running task; next consequential transition blocks pending re-evaluation.
+ Compromised Domain I attempts to mint high-consequence lease without Domain K; execution rejects missing co-
+signature.
+ Domain I attempts to weaken PolicyActivationPolicy quorum; ordinary activation path rejects meta-policy change
+and RootGovernancePolicy quorum is required.
+ Domain J receives a policy candidate changing Domain J obligations; conflict rule disqualifies J and routes
+evaluation to alternate root-designated evaluator.
+ Compromised Domain G suppresses an inconvenient ExecutionReceipt; Domain L detects the missing required
+record against RecordObligationManifest and forces recovery/halt.
+ A scoped policy change advances only mapped epochs; affected leases fail freshness while unrelated leases remain
+valid.
+ Recovery decision service selects rollback but attempts direct execution; permissions deny execution until
+separate RecoveryExecutionLease exists.
+ Root signer rotation is attempted by Domain I alone; root lifecycle validation rejects missing outgoing
+quorum/incoming acceptance.
+ A C3 action is reclassified downward to evade Domain K; classification governance requires C3-level quorum and
+blocks the downgrade.
+ Domain L stops issuing completeness attestations; independent replay detects stale monitor heartbeat and
+recomputes overdue obligations.
+ Domain I modifies target parameters after Domain K co-signs; canonical LeaseAuthorizationDigest verification
+rejects the mutated lease.
+ Domain B floods Domain C with repeated success-criterion suggestions near deadline; suggestion budget/finality
+rules preserve ratification schedule and reject non-material resubmissions.
+ A root signer is lost and recovery is attempted without the precommitted recovery policy or delay; root recovery
+fails and runtime governance remains unchanged.
+ A policy author attempts C3 -> C1 reclassification to remove Domain K oversight; protected classification
+governance applies C3-level quorum to the reclassification and blocks laundering.
+
+[Source PDF page 35]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  35
+ A new action class is introduced without ScopeDependencyMap coverage; proposal admission returns
+ACTION_CLASS_UNMAPPED and no lease can be issued.
+ Domain K quorum becomes unavailable during C2/C3 authorization; the system enters
+AUTHORIZATION_QUORUM_UNAVAILABLE and fails closed rather than falling back to Domain I.
+ A compromised manifest compiler attempts to omit ValidationReceipt from a C3 manifest; active
+RecordObligationPolicy forces the record into the manifest and lease issuance blocks on mismatch.
+ Proposal service floods success-criterion suggestions and labels each materially new; Domain C uses evidence-diff
+verification and bounded finality.
+ Concurrent degraded-mode executions contend for the final action budget; atomic consumption admits at most
+one.
+ Recovery Decision Service selects a policy-forbidden weak recovery; Recovery Decision Validator blocks recovery
+lease issuance.
+ Attacker submits a self-consistent forged genesis package; absence of matching pre-runtime
+GenesisAuthorityManifest invalidates root initialization.
+ Domain I attempts to lower quorum or broaden its own unilateral authority through ordinary policy; protected
+governance routing blocks it.
+ Empty protected/high-consequence configuration attempts to erase C2/C3 dual control; intrinsic invariants still
+require quorum.
+47. VERSIONING
+Version 2.6 is the frozen architecture baseline for external handoff. It consolidates the complete adversarial-
+hardening lineage from v1.0 through v2.5 and closes the remaining construction-level gaps in execution uniqueness,
+end-to-end payload integrity, consequence-trajectory validation, continuous-assumption monitoring strength,
+irreversibility qualification, and governance-evaluator disagreement. Version lineage: v1.0 first official construction
+release; v1.1 root/quorum/action-class/record-obligation hardening; v1.2 invariant-floor, genesis-bootstrap, recovery-
+validation, degraded-budget atomicity, and configuration-bypass hardening; v1.3 canonical-protection registry and
+permission-completeness hardening; v1.4-v1.9 root-package, semantic, cumulative-consequence, distributed-state, and
+approval-context hardening; v2.0-v2.5 authority-dependency, cross-plane snapshot, compound-execution,
+crash/recovery, and external-execution refinement; v2.6 closes architecture-level execution-to-reality seams and
+freezes the construction. Runtime implementation may refine algorithms, thresholds, adapters, storage, transport,
+instrumentation, and performance without weakening any frozen invariant. Changes to system identity, trust-domain
+ownership, constitutional invariants, root-of-trust model, authority semantics, consequence-class floors, or frozen
+execution/recovery laws require a new major architecture version.
+48. BUILDABILITY / HANDOFF SUCCESS CONDITION
+101. An engineering team can identify every required service/component.
+102. Every component has explicit read/write authority and trust-domain identity.
+103. Every consequential record has an owner and causal prerequisites.
+104. Every consequential state transition has required evidence and failure behavior.
+105. Policy authorship and activation are separate.
+106. Expected success criteria are independent of the proposer.
+107. Authority revocation is atomic with execution admission.
+108. Degraded mode has hard ceilings and cannot create new authority.
+109. Handoffs do not silently transfer permission.
+110. Human override is bounded and auditable.
+111. Custody history is externally anchored.
+112. A platform-specific implementation can choose technologies without inventing new governing rules.
+113. Root signer genesis, rotation, and recovery are fully specified without runtime-domain invention.
+114. Consequentiality reclassification cannot be used to evade stronger authorization quorum.
+115. Record completeness is independently recomputable when Domain L is silent or compromised.
+116. High-consequence co-signature binds the exact executable lease payload.
+117. Success-criterion suggestion handling has explicit budget, finality, and non-delay rules.
+118. No single runtime domain can weaken the meta-rules governing its own authority.
+119. High-consequence authority cannot be minted by one signing identity.
+
+[Source PDF page 36]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  36
+120. Required-record omission is independently detectable, not merely historical tampering.
+121. Authority epoch scope is deterministic through ScopeDependencyMap.
+122. Recovery decision and recovery execution are technically separated.
+123.Root signer genesis, rotation, revocation, recovery, and succession are represented by named records and tested
+procedures.
+124.Every executable action class has active registration, consequentiality mapping, ScopeDependencyMap coverage,
+and RecordObligationPolicy.
+125.C2/C3 authorization quorum has explicit M-of-N liveness and fail-closed behavior.
+126.Minimum record obligations are derived from independently activated RecordObligationPolicy, not discretionary
+manifest authorship.
+49. FALSIFICATION CONDITIONS
+ The trust-domain separation cannot be implemented or independently demonstrated.
+ Atomic lease consumption cannot prevent stale/revoked authorization in the target environment.
+ Consequence observation is not available for material action classes.
+ Probe verdicts are too unreliable or expensive to constrain action meaningfully.
+ External anchoring/custody overhead is disproportionate to the assurance objective.
+ Recovery requirements produce unacceptable operational deadlock.
+ The framework generates materially more false blocking than alternative controls without compensating
+assurance.
+ Simpler architectures provide equivalent auditability and failure containment at substantially lower complexity.
+ An action class can execute without registration, scope mapping, or minimum record-obligation policy.
+ Degraded-mode action budgets cannot be atomically consumed in the target runtime.
+ Recovery decisions can reach execution without validation against the active RecoveryPolicyRecord.
+ C2/C3 authorization can be weakened below the intrinsic quorum floor through ordinary configuration or policy.
+ The deployment cannot independently authenticate a GenesisAuthorityManifest before runtime initialization.
+CanonicalGovernanceTypeRegistry, permission matrix, activation services, and runtime protection resolver cannot be
+shown to agree mechanically.
+A RecoveryPolicyRecord can be activated or consumed without protected activation lineage and required independent
+quorum.
+Protection of a governance object can be disabled solely by changing a configurable list or omitting a permission-
+matrix row.
+50. BOUNDED CLAIM
+This package does not claim experimental validation by NIST, universal applicability to all AI systems, perfect
+knowledge of external reality, or correctness of every legitimately authorized policy. It defines a buildable and
+falsifiable construction for agentic workflows where evidence can become consequential action. Its claim is bounded:
+explicit separation of evidence, evaluation, governance, authorization, execution, consequence observation, recovery,
+dependency custody, and learning creates measurable control surfaces that can be implemented, tested, replayed,
+challenged, and failed closed when required evidence or authority is unavailable. Version 2.6 freezes that
+architecture-level claim. Runtime refinement may improve implementation quality, but it may not convert an
+external assumption into an internal proof or weaken a frozen invariant.
+FINAL PRINCIPLE
+An agentic system must not be able to collapse: “I found it -> I interpreted it -> I am allowed -> I acted -> it
+worked -> therefore I may learn a new rule.” Each transition is independently represented, authorized,
+evidenced, and challengeable.
+
+[Source PDF page 37]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  37
+PART VII - ARCHITECTURE CLOSURE, ASSURANCE BOUNDARY,
+AND FREEZE
+What is frozen, what runtime may refine, and where the assurance claim stops.
+51. FREEZE DECLARATION AND CLOSURE CRITERION
+Version 2.6 is the architecture-lock release. The construction is considered architecturally closed when adversarial
+failure can no longer be repaired by adding a missing owner, record, state transition, authority path, dependency,
+atomicity rule, freshness rule, recovery rule, or validation rule without attempting to solve unknowable external
+reality, legitimately authorized bad judgment, or collusion beyond the stated trust threshold.
+FREEZE LAW
+Runtime refinement may improve algorithms, adapters, storage engines, consensus implementations, monitoring
+cadence, thresholds, schemas, transport, user interfaces, and performance. It may not weaken the constitutional
+invariants, change who may create authority, reduce required independent authorization, convert UNKNOWN
+into permission, erase dependency custody, bypass consequence validation, or silently redefine the frozen
+semantics of consequential execution.
+52. ROOT GOVERNANCE PACKAGE AND CANONICAL GOVERNANCE LIFECYCLE
+The root of trust is represented as one versioned RootGovernancePackageRecord. Genesis binds the complete
+constitutional package rather than a loose collection of independently valid objects. Every root-governed object
+carries root_package_id and cannot be mixed across package generations.
+RootGovernancePackageRecord
+  root_package_id
+  package_version
+  prior_package_id
+  component_hashes{}
+  canonical_governance_type_registry_hash
+  root_governance_policy_hash
+  root_signer_recovery_policy_hash
+  authorization_quorum_policy_hash
+  policy_activation_policy_hash
+  consequentiality_registry_hash
+  minimum_dependency_floor_hash
+  global_governance_epoch
+  root_quorum_receipt_id
+  construction_verifier_receipts[]
+  external_anchor_receipt_id
+Root package activation requires current-root authorization, independent construction verification, anti-rollback
+proof, external anchoring, and a package activation certificate. Registry revisions, RootSignerRecoveryPolicy changes,
+or constitutional invariant changes are root-package changes; they are not ordinary runtime policy activations.
+52A. Anti-mix, anti-rollback, and distributed activation
+ Every root-bound object references the same active root_package_id.
+ The package chain is monotonic and externally witnessed; an older valid package is not current authority.
+ RootPackageActivationCertificate defines activation scope, participating nodes, minimum ready quorum, effective
+governance sequence, stale-node behavior, and reconciliation requirements.
+ NodeGovernanceAttestation is short-lived and binds the active package, registry, policy resolver, trusted-time
+state, permission profile, and runtime measurement epoch.
+53. CANONICAL GOVERNANCE REGISTRY AND NON-CONFIGURABLE FLOORS
+CanonicalGovernanceTypeRegistry is root-bound and self-governed through the root package. It is the single source
+for governance-object protection, draft/source authority, evaluator rule, activator rule, co-signature rule, minimum
+quorum rule, permission profile, and external/root authorship status. Permission matrices and runtime resolvers are
+generated from or mechanically checked against it.
+
+[Source PDF page 38]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  38
+Mandatory constitutional floors include:
+  C2/C3 require independent M-of-N authorization beyond Domain I.
+  quorum_m >= 2 and signer_count_n >= 3 for C2/C3.
+  RecoveryPolicyRecord, DegradedModePolicy, PolicyActivationPolicy,
+  AuthorizationQuorumPolicy, ConsequentialityClassRegistry,
+  RecordObligationPolicy, ActionClassRegistrationRecord,
+  ScopeDependencyMap, RootSignerRecoveryPolicy, and the canonical registry
+  cannot be downgraded by configurable lists.
+  UNKNOWN / UNRESOLVED / STALE cannot silently become lower authority.
+54. CONSEQUENCE MODEL: DIMENSIONS, EQUIVALENCE, JOINT EFFECTS, AND
+REVERSIBILITY
+Consequentiality is determined from real-world effect rather than the transport mechanism. Read-only does not imply
+low consequence: information access and information release are explicit consequence dimensions. The effective class
+is the maximum requirement produced across state effect, information effect, privilege effect, financial effect, safety
+effect, identity effect, and applicable joint-consequence rules.
+ConsequenceEffectProfile
+  direct_effects[]
+  consequence_equivalence_classes[]
+  information_effect
+  privilege_effect
+  financial_effect
+  safety_effect
+  identity_effect
+  reversibility_class
+  intended_consequence_envelope
+  failure_consequence_envelope
+  peak_exposure_rules[]
+  non_nettable_dimensions[]
+ Consequence-equivalence classes aggregate effects across different tools that create the same real-world result,
+such as INFORMATION_RELEASE, FUNDS_TRANSFER, PRIVILEGE_EXPANSION, IDENTITY_CHANGE,
+RESOURCE_DELETION, and EXTERNAL_COMMITMENT.
+ JointConsequencePolicy captures cross-class synergies. Several individually bounded effects may elevate the
+combined state to C2/C3.
+ Non-nettable effects cannot be canceled by unrelated positive actions. Secret release and privilege expansion are
+evaluated by occurrence/peak rules, not simple net arithmetic.
+ C1 reversibility must be evidenced. REVERSIBLE, COMPENSATABLE, MITIGATABLE, and IRREVERSIBLE are
+distinct states. If required rollback capacity cannot be reserved for the necessary horizon, reversibility cannot
+justify the lower class.
+55. CUMULATIVE CONSEQUENCE, ENTITY RESOLUTION, AND ATOMIC MULTI-SCOPE
+RESERVATION
+Cumulative consequence is evaluated across sessions, agents, plans, identities, rolling windows, lifetime/campaign
+windows, consequence-equivalence classes, and every applicable real-world aggregation scope. Session boundaries
+and tool changes are not laundering boundaries.
+ConsequenceAggregationScope
+  subject_scope
+  resource_scope
+  beneficiary_scope
+  organization_scope
+  campaign_scope
+  action_family
+  consequence_equivalence_class
+  rolling_windows[]
+  lifetime_scope_if_applicable
+
+[Source PDF page 39]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  39
+ConsequenceBudgetReservation
+  reservation_id
+  aggregation_scope_ids[]
+  committed_effect_before
+  proposed_effect
+  projected_effect
+  projected_consequentiality
+  status = RESERVED | COMMITTED | RELEASED | INDETERMINATE | COMPENSATED
+  expires_at
+Reservation is all-or-nothing across every overlapping scope in a canonical scope order. INDETERMINATE execution
+continues consuming the maximum plausible failure consequence until reconciliation proves otherwise. Reservation
+timeout never means reduced scope or downgraded authority.
+55A. Governed entity resolution
+Entity resolution is itself an authority surface because false splits can hide cumulative effect and false merges can
+over-constrain unrelated subjects. EntityResolutionRecord states CONFIRMED_MATCH, PROBABLE_MATCH,
+CONFIRMED_DISTINCT, UNRESOLVED, or CONFLICTED with evidence lineage. When uncertainty could reduce
+consequentiality, UNRESOLVED does not default to distinct.
+56. TOOL, ENVIRONMENT, EXTERNAL DEPENDENCY, AND EFFECT-TOPOLOGY
+QUALIFICATION
+A tool identifier is never treated as sufficient proof of capability. Consequential execution binds to a qualified tool
+implementation, its execution environment, parameter semantics, external dependencies, and transitive effect
+topology.
+ToolCapabilityQualification
+  tool_id
+  implementation_digest
+  parameter_semantic_profile
+  observed_capabilities[]
+  declared_side_effects[]
+  qualification_evidence[]
+ExecutionEnvironmentAttestation
+  configuration_digest
+  dependency_set_digest
+  permission_scope_digest
+  network_policy_digest
+  secret_scope
+  runtime_identity
+  deployment_revision
+ExternalTransactionCapabilityRecord
+  capability = ATOMIC_COMPARE_AND_SET | ATOMIC_TRANSACTION |
+               IDEMPOTENT_ONLY | BEST_EFFORT_CONDITIONAL |
+               NO_TRANSACTION_GUARANTEE
+ExternalEffectTopologyVersion
+  triggers[]
+  subscribers[]
+  webhooks[]
+  cascade_rules[]
+  routing_version
+  qualification_state
+ Opaque executable parameters such as SQL, scripts, templates, or nested commands are parsed to governed
+semantic forms/ASTs where feasible; wrapper-tool approval does not authorize hidden sublanguage effects.
+ Remote services whose behavior cannot be pinned are classified behaviorally unpinned and cannot support
+assurance stronger than their observable/attestable guarantees.
+
+[Source PDF page 40]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  40
+57. CANONICAL REPRESENTATION AND INTERPRETATION
+Every signed governance object uses one canonical representation specification and one canonical interpretation
+specification for authority-bearing fields. Cryptographic agreement over bytes is insufficient if services can interpret
+those bytes differently.
+Canonical semantic types include:
+  Money
+  ResourceIdentifier
+  PrincipalIdentifier
+  Timestamp
+  NetworkEndpoint
+  FilePath
+  ActionClass
+  ScopeIdentifier
+  TargetIncarnation
+Signed objects carry:
+  schema_id
+  schema_version
+  semantic_rules_version
+  canonicalization_version
+Historical replay always uses the original semantic rules version. Schema versions may become ACTIVE,
+DEPRECATED, EXECUTION_PROHIBITED, or ARCHIVAL_ONLY; historical interpretability does not imply current
+execution admissibility.
+58. TARGET IDENTITY, DYNAMIC TARGET SETS, AND INCARNATION BINDING
+Consequential authority binds to stable target identity and incarnation, not names that may be rebound. Dynamic
+selectors are resolved into an exact target-set record or an explicitly authorized selector envelope with maximum
+consequence limits.
+TargetIdentityRecord
+  logical_target
+  resource_unique_id
+  incarnation_id
+  owner_scope
+  resolution_epoch
+  resolution_evidence[]
+ResolvedTargetSetRecord
+  selector_digest
+  members[] = {resource_unique_id, incarnation_id}
+  membership_digest
+  resolved_at
+  maximum_authorized_scope
+  maximum_consequence_envelope
+Long-running batch execution operates only on the frozen authorized set. New matches require new resolution and
+authorization. Each member incarnation is rechecked immediately before effect.
+59. MATERIAL ASSUMPTIONS AND PHASE-BOUND TRUTH
+The facts that justify an action are explicit, policy-derived, relational, and phase-bound. The proposer may add
+assumptions but cannot omit mandatory assumptions defined by the action policy.
+MaterialAssumptionConstraint
+  predicate
+  related_object_refs[]
+  valid_from_phase
+  valid_through_phase
+  validity_mode = POINT_IN_TIME | PHASE_ENTRY | PHASE_EXIT | CONTINUOUS | EVENT_TRIGGERED
+  freshness_requirement
+  maximum_observation_skew
+
+[Source PDF page 41]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  41
+  revalidation_trigger
+Material phases:
+  PROPOSAL -> AUTHORIZATION -> PREPARE -> COMMIT -> EXECUTION -> SETTLEMENT -> VALIDATION
+Relational assumptions must be true within one permitted consistency window, not merely individually true at
+unrelated times. Continuous assumptions declare the strength of monitoring: HARDWARE_ENFORCED,
+EVENT_STREAMED, SAMPLED(max_interval), or BEST_EFFORT.
+60. AUTHORITY SNAPSHOTS, EXECUTION CONTEXT, AND COMMIT FENCE
+Authorization is valid only as one coherent state, not as a set of independently fresh reads. AuthorityStateSnapshot
+captures a consistent governance cut. ExecutionContextSnapshot deterministically commits that authority state
+together with target identity, assumptions, consequence reservations, tool/environment state, topology, trusted time,
+and required dependencies.
+AuthorityStateSnapshot
+  snapshot_id
+  governance_sequence
+  root_package_id
+  dependency_versions{}
+  dependency_statuses{}
+  snapshot_digest
+  expires_at
+ExecutionContextSnapshot
+  context_id
+  authority_snapshot_id
+  material_assumption_snapshot_ids[]
+  target_set_snapshot_id
+  consequence_reservation_ids[]
+  tool_environment_attestation_id
+  external_effect_topology_version
+  trusted_time_state_id
+  dependency_snapshot_digest
+  context_digest
+ExecutionContextSnapshot is a deterministic commitment, not an authority oracle. Independent replay must derive
+the same context digest from authoritative constituent records.
+60A. Commit fence
+Before irreversible commit:
+  require context derivation valid
+  require governance sequence unchanged or permitted by cutover policy
+  require every revocable dependency ACTIVE
+  require target incarnation current
+  require commit-phase assumptions valid
+  require reservations current
+  require topology/environment generations current
+  require trusted-time state sufficient
+  atomically consume CommitAuthorization
+  cross point-of-no-return only under that authorization
+61. CRASH CONSISTENCY, EXECUTOR FENCING, AND END-TO-END PAYLOAD INTEGRITY
+Authority consumption survives crash, failover, and restore. A missing local terminal receipt never means an external
+effect did not occur.
+ExecutionIntentRecord
+  execution_id
+  lease_id
+  transaction_id
+  fencing_generation
+  context_digest
+
+[Source PDF page 42]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  42
+  authorized_execution_digest
+  status = COMMIT_INTENT_RECORDED | IN_FLIGHT | TERMINAL
+ExecutorFencingToken
+  execution_id
+  executor_generation
+  fencing_sequence
+  issued_at
+  expires_at
+C2/C3 intent and fencing generations are persisted in rollback-resistant monotonic storage and independently
+witnessed/replicated according to deployment assurance level. After restore, authoritative execution is blocked until
+history freshness and the highest witnessed fencing generation are reconciled.
+Fencing is only claimed end-to-end when the external target enforces the token or every route to that target passes
+through a single governed gateway that enforces it. Targets unable to enforce fencing are classified
+UNFENCED_EXTERNAL_TARGET and cannot support stronger claims.
+TargetExecutionReceipt
+  execution_id
+  authorized_execution_digest
+  received_digest
+  executed_digest
+  fencing_generation
+  target_transaction_id
+  committed_at
+62. REMOTE EXECUTION, UNKNOWN OUTCOMES, RECONCILIATION, AND COMPOUND
+ACTIONS
+UNKNOWN execution status never grants permission to repeat an operation. Original execution, reconciliation, retry,
+and compensation share one transaction identity and mutually exclusive terminal-state machine.
+ExecutionTransactionState
+  PENDING
+  PREPARED
+  COMMIT_AUTHORIZED
+  COMMITTED
+  CONFIRMED_FAILED
+  INDETERMINATE
+  COMPENSATION_PENDING
+  COMPENSATED
+Execution guarantee classes:
+  EXACTLY_ONCE_PROVABLE
+  AT_MOST_ONCE_PROVABLE
+  AT_LEAST_ONCE
+  RECONCILABLE
+  INDETERMINATE
+Compound actions declare ATOMIC_MULTI_RESOURCE, PREPARE_COMMIT, SAGA_COMPENSATABLE,
+PARTIAL_COMMIT_POSSIBLE, or NON_COORDINATABLE semantics. Irreversible operations execute last whenever
+feasible. If a platform cannot provide the required transaction guarantee, the architecture does not pretend
+otherwise; the action class or admissibility result must reflect that limitation.
+62A. Point of no return
+Every consequential operation identifies a qualified irreversibility boundary with PRE_REVERSIBLE,
+POINT_OF_NO_RETURN_PENDING, POINT_OF_NO_RETURN_CROSSED, and POST_IRREVERSIBLE states. The boundary
+is supported by tested platform behavior or explicit provider guarantees; when it cannot be reliably identified,
+classification is conservative.
+
+[Source PDF page 43]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  43
+63. CONSEQUENCE OBSERVATION, TRAJECTORY, PEAK EXPOSURE, AND POLICY FINALITY
+Consequence observation and consequence validation remain separate authorities. For C2/C3, evidence-source
+independence is evaluated by provenance, not endpoint count. Two observers sharing one hidden upstream source
+are not two independent sources.
+ConsequenceTrajectoryRecord
+  execution_id
+  observed_state_transitions[]
+  prohibited_intermediate_states[]
+  peak_privilege_exposure
+  peak_information_exposure
+  peak_financial_exposure
+  cumulative_effects{}
+  observation_strength
+Consequence metric modes:
+  NET_EFFECT
+  CUMULATIVE_EFFECT
+  PEAK_EFFECT
+  DURATION_WEIGHTED_EFFECT
+  ANY_OCCURRENCE
+A correct final state does not erase an invalid intermediate consequence. Validation maturity is PROVISIONAL,
+INTERMEDIATE, POLICY_FINAL, or REVOKED. POLICY_FINAL means final enough under an explicit observation
+horizon and reopen policy; it does not claim metaphysical finality.
+64. INFORMATION INFLUENCE, DERIVATION, AND RELEASE
+Model-visible output can itself be consequential execution. Protected information lineage follows derivation and
+persistent state, not merely literal text matching. Retrieved evidence is non-authoritative data unless explicitly
+admitted through an instruction-authority channel; language inside documents, tool outputs, or websites cannot
+create permission merely because it is phrased as an instruction.
+DerivedInformationRecord
+  output_artifact_id
+  source_dependency_ids[]
+  inherited_sensitivity[]
+  derivation_profile
+InformationInfluenceState
+  state_id
+  incorporated_protected_sources[]
+  handling_restrictions[]
+  declassification_status
+OutputReleaseRecord
+  release_id
+  content_digest
+  recipient_scope
+  sensitivity_lineage
+  release_admissibility_id
+  output_lease_id
+  release_receipt_id
+Where forgetting cannot be demonstrated - such as information potentially encoded in model weights - restrictions
+persist rather than assuming deletion.
+65. PLAN REVISION AND OPERATIONAL MATERIALITY
+Adaptive replanning is governed. Plan changes are evaluated against the last materially authorized baseline and
+accumulate drift; a sequence of individually small revisions cannot become a materially different strategy without
+reauthorization.
+
+[Source PDF page 44]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  44
+PlanDriftState
+  baseline_plan_id
+  cumulative_target_scope_delta
+  cumulative_tool_delta
+  cumulative_permission_delta
+  cumulative_consequence_delta
+  cumulative_cost_delta
+  cumulative_irreversibility_delta
+  cumulative_evidence_requirement_delta
+  cumulative_external_effect_delta
+  revision_count
+  materiality_threshold
+Operational dimensions govern materiality. Natural-language similarity may assist but cannot be the authority test.
+66. HUMAN APPROVAL CONTEXT, DISCLOSURE, AND CONTINUITY
+A valid signature is not sufficient if the signer saw a materially incomplete or different action. ApprovalContextDigest
+binds material evidence, consequence basis, aggregation state, target identity, uncertainty, recovery implications,
+policy package, and canonical action summary. ApprovalDisclosurePolicy defines fields that must be displayed by
+consequence class.
+ApprovalPresentationReceipt
+  approval_context_digest
+  rendered_summary_digest
+  mandatory_disclosures_present[]
+  signer_identity
+  device_or_session_identity
+  action_digest
+  displayed_critical_fields[]
+  approved_at
+Where policy requires ongoing consent, human approval remains a revocable dependency and is rechecked at long-
+running execution checkpoints. The architecture can prove what was presented and signed; it cannot prove human
+comprehension or wisdom.
+67. AUTHORITY DEPENDENCY GRAPH, FRESHNESS, RETENTION, AND COMPROMISE
+Every consequential authority has a mechanically derived dependency graph. Dependencies are not voluntarily
+declared by the authority being audited.
+MandatoryAuthorityDependencyFloor
+  root_package
+  canonical_registry
+  active_policy_set
+  authority_sequence
+  target_identity
+  consequence_classification
+  authorization_lineage
+  trusted_time
+AuthorityDependencyPolicy
+  authorization_type
+  mandatory_dependency_classes[]
+  mandatory_dependency_resolvers[]
+  completeness_rules[]
+AuthorityDependencySnapshotDigest
+  dependency_ids[]
+  dependency_versions[]
+  dependency_statuses[]
+  governance_sequence
+Authority provenance is acyclic: no authority object may ultimately depend on itself as justification. Strongly
+connected authority components are conformance failures. Dependency tombstones retain semantic role,
+
+[Source PDF page 45]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  45
+required/optional status, authority weight, scope, original status, and dependency-policy identity so retrospective
+impact remains computable without retaining sensitive payloads.
+67A. Key compromise and retrospective uncertainty
+Key compromise creates a compromise window rather than merely a prospective revocation. Records in a SUSPECT
+window require independent revalidation. A compromised authority cannot alone revalidate authority derived from
+itself. STATE_REVALIDATED and AUTHORITY_LINEAGE_REVALIDATED are distinct claims; current-state correctness
+does not silently repair invalid historical authority.
+68. TRUSTED TIME, CAUSAL ORDERING, AND PARTITION BEHAVIOR
+Authority decisions use both trusted physical time and monotonic causal/governance ordering. TrustedTimeState
+combines rollback-resistant monotonic state, signed time sources where needed, maximum skew, and last accepted
+time checkpoint. Clock confidence loss yields AUTHORITY_TIME_UNCERTAIN and blocks affected C2/C3 execution.
+AuthoritySequenceNumber establishes ordering where timestamps are ambiguous. Consequential authority is not
+independently issued by disconnected partitions unless the sequencing substrate preserves a single committed history
+under its stated fault model. Sequence unavailability transitions to GOVERNANCE_SEQUENCE_UNAVAILABLE and
+fails closed for affected classes.
+69. RECOVERY, AVAILABILITY, FAILURE-DOMAIN INDEPENDENCE, AND COMPENSATION
+Recovery is independently authorized, consequence-classified, and validated. Governance availability failures are
+explicitly governed rather than silently converted into broader emergency authority.
+RecoveryCapacityReservation
+  forward_execution_id
+  recovery_action
+  required_resources[]
+  required_authority
+  forward_failure_domains[]
+  recovery_dependency_domains[]
+  common_mode_dependencies[]
+  independence_class
+  capacity_reserved
+  valid_through
+CompensationBindingRecord
+  original_execution_id
+  original_observed_consequence_id
+  exposure_being_reduced
+  permitted_compensating_operation
+  maximum_compensating_magnitude
+  expected_post_compensation_state
+Recovery capacity only counts as independent when it does not share the failure domain being mitigated. Where
+timely recovery authorization would otherwise be stranded, a narrowly scoped, single-use
+RecoveryExecutionEnvelope may be pre-positioned for an exact forward execution, exact compensating action,
+bounded parameters, explicit failure predicate, and expiration. Emergency authority cannot authorize more
+emergency authority and cannot self-renew.
+Recovery convergence uses governed progress measures, not mere state-hash change. Repeated non-progressing
+cycles trigger escalation or HALT.
+70. GOVERNANCE-EVALUATOR DETERMINISM AND DISAGREEMENT
+Nondeterministic classifiers may assist governance but cannot silently make unrepeatable authority decisions. Each
+decision emits a frozen EvaluationDecisionReceipt with exact input digest, evaluator/model version, configuration,
+result, confidence, and reproducibility metadata. Constitutional invariants avoid nondeterministic evaluation
+wherever possible.
+
+[Source PDF page 46]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  46
+Evaluator disagreement has explicit semantics. Unresolved consequentiality disagreement cannot result in the less
+restrictive class; it transitions to CLASSIFICATION_CONFLICT and uses the stricter temporary authority floor or
+escalation defined by policy.
+71. OBSERVATION BOUNDARY, PHYSICAL IDENTITY, AND EXTERNAL GUARANTEES
+Each deployment declares and attests its observation boundary: governed tools, output channels, storage, inter-agent
+communication, runtime processes, network egress, uncontrolled human channels, and unobserved paths.
+DeclaredObservationBoundary is not evidence by itself; ObservedBoundaryAttestation is derived from environment
+and network controls.
+Digital identity does not prove a physical-world referent without trustworthy commissioning/sensing evidence.
+External targets, sensors, providers, and physical mechanisms may fail or lie. The architecture exposes those
+dependencies and refuses to convert them into internal certainty.
+72. FROZEN ASSURANCE BOUNDARY
+BOUNDARY 1 - EXTERNAL REALITY
+A governed runtime cannot prove facts it cannot observe. External systems, sensors, physical mappings, APIs,
+organizations, or authoritative sources may be wrong, compromised, incomplete, or behaviorally unpinned.
+BOUNDARY 2 - POLICY QUALITY
+The architecture governs how policy is created, authorized, applied, challenged, and changed. It cannot
+guarantee that a legitimately authorized policy is substantively wise or morally correct.
+BOUNDARY 3 - COLLUSION
+Separation of duties reduces single-point compromise. It cannot survive collusion controlling more independent
+principals than the stated threat model permits.
+BOUNDARY 4 - ONTOLOGY COMPLETENESS
+Consequence classes, action taxonomies, and joint-effect rules may fail to anticipate genuinely novel reality.
+UNKNOWN or UNCLASSIFIED must not silently become low consequence; periodic adversarial ontology review
+remains a runtime-governance duty.
+BOUNDARY 5 - PLATFORM GUARANTEES
+Exactly-once execution, fencing, atomic conditional commit, transitive-effect visibility, and strong identity may
+be impossible on some external platforms. The system records the actual guarantee class and constrains which
+consequence classes may rely on it.
+BOUNDARY 6 - HUMAN UNDERSTANDING
+The system can prove which material facts were presented, what was signed, and under what authority. It
+cannot prove comprehension, absence of coercion, or wisdom.
+73. ARCHITECTURE FREEZE INVARIANTS
+ No evidence, interpretation, model output, tool capability, or execution success creates authority by itself.
+ No runtime domain may create new governing authority for itself.
+ Protected governance cannot be downgraded through configurable lists, missing rows, ordinary policy, degraded
+mode, delegation, or recovery.
+ C2/C3 authority always satisfies the intrinsic independent quorum floor.
+ Every state-changing action, including C1, has consequence observation and validation; execution is never proof
+of success.
+ Information release is an action even when no source system state changes.
+ Consequentiality is evaluated across direct, cumulative, peak, derived, joint, and failure-envelope effects.
+ Authority is valid only over one coherent ExecutionContextSnapshot and remains subject to commit-time
+freshness fencing.
+ Uncertainty does not restore authority capacity, lower consequence class, or authorize retry.
+ Every consequential execution has durable intent, rollback-resistant uniqueness/fencing state, and reconciliation
+semantics.
+ Every consequential authorization has mechanically complete, current, acyclic authority dependencies.
+
+[Source PDF page 47]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  47
+ Root package, registry, policy, schema, and semantic-version lineage are immutable historical facts; migration
+creates new governed state rather than reinterpretation.
+ Recovery cannot silently broaden authority, self-certify success, self-renew emergency authority, or disguise
+unrelated action as compensation.
+ Learning and policy promotion cannot consume provisional or contaminated outcomes beyond the maturity
+allowed by policy.
+ External assumptions are named as assumptions and never represented as internally proven guarantees.
+74. RUNTIME REFINEMENT BOUNDARY
+After external handoff, implementers may refine runtime engineering without changing the frozen architecture.
+Allowed refinement includes data structures, storage engines, distributed-consensus technology, cryptographic
+libraries, model/provider integrations, evaluator implementation, monitoring intervals, thresholds, UI, observability,
+deployment topology, performance optimization, and platform adapters, provided conformance remains
+demonstrable.
+The following are NOT runtime refinements and require an architecture-version change: weakening or removing a
+freeze invariant; changing trust-domain ownership; allowing self-authorization or self-certification previously
+prohibited; lowering intrinsic quorum floors; redefining protected governance as ordinary policy; eliminating
+consequence validation for a state-changing action; changing UNKNOWN to permissive behavior; removing
+dependency completeness/freshness requirements; weakening root-package lifecycle; or changing the definition of
+consequential execution such that previously governed effects become ungoverned.
+75. V2.6 CLOSURE CONFORMANCE TESTS
+127.Attempt execution through a stale zombie executor after failover - target/gateway fencing MUST reject the older
+generation.
+128.Restore an execution database snapshot older than the highest externally witnessed execution generation - C2/C3
+startup MUST BLOCK pending history reconciliation.
+129.Alter request semantics after commit authorization in middleware - TargetExecutionReceipt digest mismatch
+MUST fail validation.
+130.Create a forbidden intermediate state and later restore the correct final state - trajectory validation MUST
+preserve the violation.
+131.Present a sampled monitor as continuous hardware enforcement - assurance-strength mismatch MUST fail.
+132.Cross the actual point of no return earlier than the qualified boundary - qualification is invalid and action MUST
+be conservatively reclassified or blocked.
+133.Use two governance evaluators that disagree C1 vs C3 - system MUST enter CLASSIFICATION_CONFLICT and
+cannot choose C1.
+134.Issue two concurrent actions whose overlapping consequence scopes jointly cross a threshold - globally atomic
+reservation MUST elevate/block at least one before execution.
+135.Resolve a dynamic target selector to a larger material set than approved - execution MUST require authority
+expansion.
+136.Commit an external action and lose the local terminal receipt - system MUST enter reconciliation, never blind
+retry.
+137.Revoke a mandatory dependency after snapshot but before commit - commit fence MUST reject stale context.
+138.Attempt to omit a dependency required by MandatoryAuthorityDependencyFloor - dependency graph
+construction MUST fail.
+139.Use a compensation action not causally bound to the failed execution - compensation accounting MUST reject it.
+140.Reserve recovery capacity in the same failure domain as the forward operation and claim independent recovery -
+qualification MUST fail.
+141.Use an external target that cannot enforce fencing or conditional commit for an action whose policy requires it -
+admissibility MUST fail or assurance class MUST downgrade according to policy.
+142.Use an old semantic schema version marked EXECUTION_PROHIBITED for new authority - execution MUST fail
+while historical replay remains possible.
+143.Attempt a sequence of non-material plan revisions whose cumulative operational drift exceeds threshold -
+reauthorization MUST be required.
+
+[Source PDF page 48]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  48
+144.Attempt to classify a protected information release as C0 because the source system is read-only - consequence
+classification MUST reject the downgrade.
+145.Attempt to activate a bad but legitimately authorized policy and claim the architecture proved the policy wise -
+bounded-claim test MUST reject that assertion.
+146.Attempt to represent an unobservable external fact as internally proven - assurance-boundary conformance
+MUST fail.
+76. FINAL ARCHITECTURE LOCK
+The architecture is frozen at Version 2.6 for external technical handoff. Further work belongs to runtime
+implementation, empirical validation, platform adaptation, performance tuning, and field-driven refinement unless
+testing falsifies a frozen invariant or demonstrates that the architecture itself lacks a required governing mechanism.
+The existence of implementation defects, external-system limitations, incomplete observations, bad-but-authorized
+policy, human misunderstanding, or collusion beyond the threat model does not by itself justify another architecture
+layer.
+FINAL LOCK
+Reality gets the last vote. The runtime may be refined. The architecture may be challenged. But Version 2.6 must
+not be silently weakened. Any implementation claiming conformance must preserve the frozen invariants,
+expose its external assumptions, and produce evidence that its runtime actually enforces the construction
+described here.
+Version 2.6 freeze lineage: v1.0 initial construction package; v1.1-v1.3 governance and protection hardening; v1.4-v1.9
+root-package, semantic, cumulative-consequence, approval, and distributed-state hardening; v2.0-v2.3 authority
+dependency, context snapshot, compound execution, crash consistency, and recovery refinement; v2.4-v2.5 executor
+fencing, execution-to-reality integrity, consequence trajectory, monitoring strength, and compensation refinement;
+v2.6 architecture closure and external-handoff freeze.
+APPENDICES
+NIST crosswalk, schemas, pseudocode, adversarial cases, references
+A1. NIST TEVV-ATHLON CROSSWALK
+TEVV-Athlon remains the evaluation-design frame. This construction adds an agentic runtime extension where
+evaluation outputs can constrain action and where post-action consequence becomes a measurable event. The
+extension is optional for non-agentic systems and applicable when the evaluated system can produce consequential
+state change.
+TEVV-Athlon function Construction mapping
+Articulate & Organize Concept, authority scope, consequentiality classification, trust boundaries
+Define & Construct Metrology Blocks -> probes, ExpectedConsequenceRecord, policy/threshold
+definitions
+Apply & Measure Probe execution, admissibility, ExecutionLease, runtime telemetry,
+consequence observation
+Synthesize & Interrogate ValidationReceipt, replay, failure analysis, recovery, policy-candidate review
+A2. DIRECT RESPONSES TO NIST AI 200-2 COMMENT QUESTIONS
+147. Terminology: separate evidence support, process conformance, authority, execution success, and real-world
+consequence validation.
+148. Applicability: preserve general TEVV-Athlon flexibility; use this construction as an extension when AI systems
+can take consequential actions.
+149. Metrology Blocks: add evidence custody, authority integrity, action integrity, recovery integrity, handoff
+integrity, custody integrity, and learning-governance blocks.
+150. Events: add tool invocation, authorization issuance/revocation, handoff, consequence observation, recovery,
+policy activation, and human override.
+
+[Source PDF page 49]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  49
+151. Toolbox: add machine-readable probes, lease/authority validators, replay tooling, ledger/anchor integrity
+checks, and transition validators.
+152. Supporting material: this package supplies schemas, state machines, permissions, construction contracts,
+conformance tests, adversarial cases, and buildability criteria.
+A3. CORE SCHEMAS
+CanonicalGovernanceTypeRegistryEntry
+CanonicalGovernanceTypeRegistryEntry
+  governance_type
+  protection = ROOT | ROOT_PROTECTED | STANDARD
+  draft_source
+  evaluator_rule
+  activator_rule
+  cosign_rule
+  root_or_external_authorship = true_or_false
+  minimum_quorum_rule
+  permission_matrix_profile
+  recovery_consumption_requirement_if_applicable
+  registry_version
+  registry_entry_hash
+PolicyCandidateRecord governance-impact extension: affected_action_classes[], affected_consequentiality_classes[],
+affected_authority_domains[], affected_execution_permissions[], affected_recovery_classes[],
+affected_quorum_requirements[], affected_degraded_modes[], affected_scope_dependencies[]. These fields are
+mandatory unless the candidate type is intrinsically protected by the registry.
+EvidenceRecord
+  evidence_id
+  source_id
+  source_version
+  acquired_at
+  expires_at
+  freshness_state
+  authority_scope
+  content_hash
+  parent_record_ids[]
+  producer_identity
+  ledger_entry_id
+ExpectedConsequenceRecord
+  expectation_id
+  proposal_id
+  success_criteria[]
+  prohibited_side_effects[]
+  validation_window
+  required_observers[]
+  rollback_conditions[]
+  evaluation_spec_version
+  authored_by_domain_c
+  frozen_at
+  ledger_entry_id
+
+[Source PDF page 50]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  50
+PolicyActivationReceipt
+  activation_id
+  policy_candidate_id
+  independent_evaluation_id
+  activated_policy_version
+  epoch_vector
+  domain_i_identity
+  cosignature_id_if_required
+  effective_at
+  expires_at
+  supersedes_policy_id
+  ledger_entry_id
+OperatorActionReceipt
+  operator_action_id
+  operator_authority_record_id
+  requested_action
+  scope_check
+  policy_version
+  epoch_vector
+  result
+  created_at
+  ledger_entry_id
+PolicyEvaluationReceipt
+  policy_evaluation_id
+  policy_candidate_id
+  activation_policy_id
+  evaluator_identity
+  evidence_record_ids[]
+  test_result_ids[]
+  conflicts[]
+  recommendation
+  evaluated_at
+  expires_at
+  ledger_entry_id
+HandoffAcceptanceReceipt
+  acceptance_id
+  handoff_id
+  receiver_agent_id
+  accepted_context_scope
+  granted_authority_scope
+  denied_scope[]
+  required_clarifications[]
+  policy_version
+  epoch_vector
+  accepted_at
+  ledger_entry_id
+ContinuationOrRecoveryRecord
+  transition_record_id
+  validation_receipt_id
+  failure_class
+  recovery_policy_id
+  selected_transition
+  mandatory_requirements_satisfied
+  retry_count
+  next_state
+  authorized_by
+  ledger_entry_id
+
+[Source PDF page 51]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  51
+LearningReviewRecord
+  learning_review_id
+  learning_record_id
+  evidence_count
+  counterevidence_ids[]
+  review_verdict
+  eligible_for_policy_candidate
+  reviewer_identity
+  reviewed_at
+  ledger_entry_id
+RootGovernancePolicy
+  root_policy_id
+  root_version
+  protected_policy_classes[]
+  high_consequence_classes[]
+  minimum_activation_quorum
+  required_signer_domains[]
+  evaluator_conflict_rules[]
+  meta_policy_change_requirements[]
+  external_anchor_requirements[]
+  root_signer_set_id
+  effective_at
+RootSignerRotationRecord
+  rotation_id
+  current_signer_set_id
+  proposed_signer_set_id
+  outgoing_quorum_signatures[]
+  incoming_acceptance_signatures[]
+  reason
+  effective_at
+  external_anchor_receipt_id
+ConsequentialityReclassificationRecord
+  reclassification_id
+  action_class
+  prior_class
+  proposed_class
+  required_authorization_rule
+  evaluation_receipt_id
+  activation_receipt_id
+  effective_at
+CompletenessMonitorAttestation
+  attestation_id
+  monitor_identity
+  monitored_manifest_range
+  last_sequence_observed
+  overdue_obligation_count
+  issued_at
+  next_attestation_due
+  external_anchor_receipt_id
+ExpectationSuggestionRecord
+  suggestion_id
+  proposal_id
+  proposer_identity
+  revision_number
+  suggested_criteria[]
+  supporting_evidence_ids[]
+  submitted_at
+  materially_new_evidence
+
+[Source PDF page 52]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  52
+AuthorizationCoSignature
+  cosignature_id
+  lease_id
+  lease_authorization_digest
+  signer_identity
+  signature
+  signed_at
+AuthorizationCoSignature
+  cosignature_id
+  subject_type
+  subject_id
+  consequence_class
+  epoch_vector_hash
+  signer_domain = K
+  signer_identity
+  signed_at
+  expires_at
+  ledger_entry_id
+RecordObligationManifest
+  manifest_id
+  session_id
+  action_id
+  required_records[]
+  producer_domains[]
+  deadlines[]
+  external_presence_attestation_required[]
+  epoch_vector
+  created_at
+  signatures[]
+RecordCompletenessAlert
+  alert_id
+  manifest_id
+  missing_record_type
+  expected_producer_domain
+  deadline
+  detected_at
+  witness_domain = L
+  required_transition
+  ledger_entry_id
+EpochVector
+  global_governance_epoch
+  policy_family_epochs{}
+  action_class_epoch
+  target_scope_epoch
+  tool_scope_epoch
+  operator_scope_epoch_if_applicable
+  scope_dependency_map_version
+ScopeDependencyMap
+  map_version
+  policy_family
+  affected_epoch_scopes[]
+  action_classes[]
+  tool_scopes[]
+  target_scopes[]
+  operator_scopes[]
+  change_requires_global_epoch = false_or_true
+  activated_by_receipt_id
+
+[Source PDF page 53]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  53
+RecoveryDecisionReceipt
+  recovery_decision_id
+  failure_class
+  recovery_policy_id
+  selected_recovery_action
+  required_authority_class
+  decision_domain
+  created_at
+  ledger_entry_id
+RecordObligationPolicy
+  obligation_policy_id
+  action_class
+  consequentiality_class
+  execution_mode
+  required_record_types[]
+  required_producer_domains[]
+  deadline_rules[]
+  external_presence_attestation_rules[]
+  minimum_validation_records[]
+  minimum_transition_records[]
+  policy_version
+  activation_receipt_id
+  epoch_vector_binding
+AuthorizationQuorumPolicy
+  quorum_policy_id
+  consequence_classes[]
+  signer_set_id
+  quorum_m
+  signer_count_n
+  independence_requirements[]
+  signing_timeout
+  max_pending_requests
+  refusal_semantics
+  outage_state
+  anomaly_rate_limits[]
+  escalation_policy_id
+  policy_version
+  activation_receipt_id
+AuthorizationQuorumReceipt
+  quorum_receipt_id
+  lease_id
+  authorization_digest
+  signer_set_version
+  required_quorum_m
+  received_signer_identities[]
+  refusal_count
+  quorum_met
+  signed_at
+  expires_at
+  ledger_entry_id
+
+[Source PDF page 54]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  54
+ActionClassRegistrationRecord
+  action_class_id
+  action_class_name
+  consequentiality_class
+  policy_family
+  scope_dependency_map_id
+  record_obligation_policy_id
+  required_tool_scopes[]
+  target_scope_rules[]
+  recovery_class
+  effective_at
+  policy_version
+  activation_receipt_id
+RootSignerRevocationRecord
+  revocation_id
+  signer_set_id
+  signer_principal_id
+  reason
+  evidence_refs[]
+  approving_quorum_signatures[]
+  effective_at
+  external_anchor_receipt_id
+RootSignerRecoveryReceipt
+  recovery_id
+  recovery_policy_id
+  affected_signer_set_id
+  triggering_condition
+  recovery_quorum_signatures[]
+  delay_satisfied
+  external_attestations[]
+  replacement_signer_set_id
+  effective_at
+  global_epoch_after
+  external_anchor_receipt_id
+GenesisAuthorityManifest
+  deployment_id
+  organization_identity
+  initial_root_public_keys[]
+  initial_quorum_m
+  signer_count_n
+  protected_invariant_set_hash
+  consequentiality_registry_floor_hash
+  external_anchor_reference
+  organizational_authorization_reference
+  manifest_hash
+ConsequentialityReclassificationRecord
+  reclassification_id
+  action_class_id
+  prior_class
+  proposed_class
+  effective_class_for_authorization
+  evidence_refs[]
+  authorization_quorum_receipt_id_if_required
+  activation_receipt_id
+  effective_at
+
+[Source PDF page 55]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  55
+ExpectationSuggestionRecord
+  suggestion_id
+  proposal_id
+  suggestion_sequence
+  evidence_ids[]
+  prior_suggestion_id
+  evidence_diff_hash
+  submitted_at
+  before_ratification_cutoff
+A4. ENFORCEMENT PSEUDOCODE
+function registry_matrix_consistent():
+    for rule in CanonicalGovernanceTypeRegistry.entries:
+        matrix = PermissionMatrix.resolve(rule.governance_type)
+        require matrix exists unless rule.root_or_external_authorship == TRUE
+        require matrix.activation_path == rule.activator_rule
+        require matrix.cosign_requirement == rule.cosign_rule
+        require runtime_protection_resolver(rule.governance_type) == rule.protection
+    return VALID
+function recovery_policy_consumable(policy):
+    require policy.type == RECOVERY_POLICY_RECORD
+    require CanonicalGovernanceTypeRegistry.resolve(policy.type).protection == ROOT_PROTECTED
+    require protected_activation_lineage_valid(policy.activation_receipt_id)
+    require required_authorization_quorum_valid(policy.activation_receipt_id)
+    require epoch_vector_current(policy.epoch_vector)
+    return TRUE
+function required_probe_verdicts_valid(proposal, now):
+    for required_probe in active_policy.required_probes(proposal.action_class):
+        v = resolve_current_verdict(required_probe, proposal)
+        require v exists
+        require v.verdict in active_policy.allowed_verdicts(required_probe)
+        require now < v.expires_at
+        require evidence_fresh(v.source_evidence_ids)
+        require v.policy_version == active_policy.version
+        require epoch_vector_current(v.epoch_vector)
+        require not superseded(v)
+        require not contradicted_by_higher_authority_evidence(v)
+    return VALID
+function issue_execution_lease(assessment, expectation):
+    require assessment.verdict == ADMISSIBLE
+    require expectation.frozen_at != null
+    require policy_current(assessment.policy_version)
+    require epoch_vector_current(assessment.epoch_vector)
+    require operator_or_agent_scope_valid(assessment)
+    require consequentiality_class_current_and_protected(assessment.action_class)
+    manifest = create_record_obligation_manifest(assessment, expectation)
+    lease = DomainI.prepare_one_time_lease(nonce, short_ttl, revocation_generation, current_epoch_vector(), manifest.id)
+    lease.lease_authorization_digest = canonical_hash(lease.proposal_id, lease.admissibility_assessment_id,
+lease.consequence_class, lease.tool_id, lease.target, lease.permitted_parameters, lease.authority_scope, lease.epoch_vector,
+hash(expectation), lease.recovery_binding, lease.nonce, lease.valid_from, lease.valid_until, lease.max_execution_count,
+lease.revocation_generation, lease.obligation_manifest_id)
+    if consequence_class_requires_cosign(lease.consequence_class):
+        lease.cosignature_id = DomainK.sign_digest(lease.lease_authorization_digest)
+    require authorization_quorum_valid(lease)
+    return lease
+
+[Source PDF page 56]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  56
+function consume_and_execute(lease, request):
+    atomic:
+        require lease.status == ACTIVE
+        require now within [lease.valid_from, lease.valid_until]
+        require epoch_vector_current(lease.epoch_vector)
+        require lease.revocation_generation == current_revocation_generation
+        require authorization_quorum_valid(lease)
+        require recompute_lease_authorization_digest(lease) == signed_digest(lease.cosignature_id) if cosignature_required(lease)
+        require obligation_manifest_active(lease.obligation_manifest_id)
+        require request matches lease tool/target/parameters
+        require lease.execution_count == 0
+        mark lease CONSUMED; lease.execution_count = 1
+        invoke action(request)
+function activate_policy(candidate, evaluation):
+    require evaluator_not_conflicted(candidate, evaluation.evaluator_identity)
+    require evaluation satisfies active PolicyActivationPolicy
+    require active PolicyActivationPolicy conforms to RootGovernancePolicy
+    approval = DomainI.approve(candidate, evaluation)
+    if protected_policy_class(candidate):
+        cosign = DomainK.cosign(approval)
+        require cosign valid
+    advance_epochs(scope_dependency_map(candidate))
+    return issue_PolicyActivationReceipt(approval, cosign)
+function activate_meta_policy(candidate, evaluation):
+    require candidate targets PolicyActivationPolicy or other meta-governance
+    require evaluation satisfies RootGovernancePolicy
+    require root_quorum_signatures(candidate) >= RootGovernancePolicy.minimum_activation_quorum
+    require DomainI approval
+    require DomainK cosignature
+    publish external checkpoint
+    advance global_governance_epoch
+    return issue_MetaPolicyActivationReceipt()
+function completeness_check(manifest, now):
+    require manifest externally checkpointed
+    if DomainL.attestation_due < now:
+        emit COMPLETENESS_MONITOR_LIVENESS_FAILURE
+        result = independent_replay_recompute(manifest, now)
+        force_transition(active_recovery_policy.for_monitor_failure(result))
+        return result
+    for obligation in manifest.required_records:
+        if now >= obligation.deadline and not independent_presence_attested(obligation):
+            alert = DomainL.issue_RecordCompletenessAlert(obligation)
+            force_transition(active_recovery_policy.for_missing_record(obligation.record_type))
+            return INCOMPLETE
+    return COMPLETE
+function validate_consequence(exec_receipt, consequence, expectation):
+    require exec_receipt and consequence and expectation valid
+    require consequence.execution_id == exec_receipt.execution_id
+    require ledger_lineage_valid(exec_receipt, consequence, expectation)
+    require exec_receipt.was_authorized_at_execution_time == true
+    if required_observation_missing: return UNKNOWN
+    if validation_window_incomplete: return PENDING_VALIDATION
+    if all success criteria met and no prohibited side effect: return CONFIRMED
+    if active policy permits partial and partial criteria met: return PARTIALLY_CONFIRMED
+    return DISCONFIRMED
+
+[Source PDF page 57]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  57
+function create_record_obligation_manifest(action):
+    registration = active_action_class_registration(action.action_class)
+    require registration exists
+    policy = active_record_obligation_policy(registration.record_obligation_policy_id)
+    require policy exists
+    require policy.consequentiality_class == action.consequentiality_class
+    manifest = instantiate(policy, action)
+    require manifest_covers_all_mandatory_obligations(manifest, policy)
+    return manifest
+function validate_action_class_before_proposal(action):
+    registration = active_action_class_registration(action.action_class)
+    if not registration: return ACTION_CLASS_UNMAPPED
+    if not active_scope_dependency_map(registration.scope_dependency_map_id): return ACTION_CLASS_UNMAPPED
+    if not active_record_obligation_policy(registration.record_obligation_policy_id): return ACTION_CLASS_UNMAPPED
+    return VALID
+function authorization_quorum_valid(lease, receipt):
+    policy = active_authorization_quorum_policy(lease.consequentiality_class)
+    require policy exists
+    require receipt.authorization_digest == canonical_lease_digest(lease)
+    require receipt.signer_set_version == policy.signer_set_id
+    require distinct_valid_signers(receipt) >= policy.quorum_m
+    require signer_independence_satisfied(receipt, policy)
+    require now < receipt.expires_at
+    return VALID
+function intrinsic_governance_invariants_valid(config):
+    require C2 in config.consequentiality_classes
+    require C3 in config.consequentiality_classes
+    require config.quorum_policy[C2].quorum_m >= 2
+    require config.quorum_policy[C2].signer_count_n >= 3
+    require config.quorum_policy[C3].quorum_m >= 2
+    require config.quorum_policy[C3].signer_count_n >= 3
+    require intrinsic_protected_classes_present()
+    return VALID
+function validate_genesis(genesis, manifest):
+    require external_manifest_authentic(manifest)
+    require genesis.genesis_manifest_hash == hash(manifest)
+    require signer_set_matches(manifest, genesis)
+    require quorum_matches_floor(manifest, genesis)
+    require external_anchor_valid(genesis.external_anchor_receipt_id)
+    return VALID
+function validate_recovery_decision(decision, failure, policy):
+    require decision.failure_class == failure.class
+    require decision.selected_transition in policy.permitted_next_states
+    require satisfies_minimum_response(decision.selected_transition, policy.mandatory_minimum_response)
+    require decision.retry_count <= policy.max_retries
+    require required_evidence_reacquired(policy)
+    require epoch_vector_current(decision.epoch_vector)
+    return VALID
+A5. ADVERSARIAL WORKED CASES
+Case 1 - Broad degraded-mode attempt
+A policy author proposes a degraded rule allowing all read/write tools whenever evidence freshness is UNKNOWN.
+Domain H can draft it but cannot activate it. Independent evaluation flags violation of the no-new-authority rule and
+missing action/time ceilings. Domain I rejects activation. Runtime remains unchanged.
+
+[Source PDF page 58]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  58
+Case 2 - Proposer narrows success criteria
+Domain B proposes a database change and submits a success criterion that checks only HTTP 200. Domain C rejects
+that criterion as insufficient and issues an ExpectedConsequenceRecord requiring the intended record value, no
+unauthorized neighboring changes, and a defined observation window. Domain B cannot overwrite it.
+Case 3 - Custody service compromise
+Domain G is compromised after checkpoint CP-550 and attempts to rewrite earlier evidence plus a validation record.
+Internal records are internally consistent, but the recomputed chain root no longer matches the external anchor
+receipt for CP-550. Replay returns CUSTODY_TAMPER_DETECTED and halts authoritative replay.
+Case 4 - Policy revocation TOCTOU
+A lease is issued under epoch 12. Before execution, Domain I revokes the relevant tool class and increments
+revocation_generation. The executor attempts atomic consume. Generation mismatch prevents lease consumption; no
+tool call occurs.
+Case 5 - Human override outside authority
+An operator with read/review authority attempts to approve a destructive external action. OperatorAuthorityRecord
+scope check fails. No ExecutionLease is issued. Attempt is ledgered and escalated under the applicable
+RecoveryPolicyRecord.
+Case 6 - Agent handoff scope escalation
+Agent A hands a task to Agent B and requests broader write scope than A possessed. Handoff acceptance records the
+request but authority is not inherited. Domain I refuses broader scope absent separate authorization evidence.
+Receiver remains blocked for consequential write actions.
+Case 7 - Probe expiry mid-workflow
+A probe verdict valid at task start expires before a consequential tool call. required_probe_verdicts_valid() detects
+current_time >= expires_at; admissibility returns BLOCKED pending probe re-execution.
+Case 8 - Compromised admissibility
+Domain D incorrectly returns ADMISSIBLE for an action lacking a current required probe. Domain I lease issuance
+independently checks the active lease policy, required assessment fields, policy/epoch consistency, and presence of the
+required probe-validation summary. No lease is issued; bad admissibility is preserved for audit.
+Case 9 - Compromised Domain I attempts unilateral high-consequence authorization
+Domain I is compromised and attempts to issue a C3 ExecutionLease for an otherwise well-formed proposal.
+RootGovernancePolicy requires Domain K co-signature for C3. Domain K refuses to sign. Execution Gateway rejects
+the lease because authorization_quorum_valid() is false. Domain I compromise does not by itself create executable
+authority.
+Case 10 - Meta-policy self-weakening attempt
+Domain I attempts to lower PolicyActivationPolicy minimum_review_count and remove Domain K from protected
+policy activation. The candidate is classified as meta-policy. Ordinary policy activation is unavailable.
+RootGovernancePolicy requires root quorum, independent evaluation, Domain I approval, Domain K co-signature,
+external checkpoint publication, and global governance epoch advance. The unilateral change fails before activation.
+Case 11 - Evaluator conflict of interest
+A policy candidate changes the rules governing Domain J evaluation independence. Domain J is materially interested
+and is disqualified. The candidate is routed to the alternate independent evaluator designated by
+RootGovernancePolicy. A PolicyEvaluationReceipt from J is invalid for this candidate.
+Case 12 - Custody omission
+An action executes and Domain F observes consequence, but compromised Domain G suppresses the
+ExecutionReceipt from its primary ledger view. The pre-execution RecordObligationManifest requires
+ExecutionReceipt by deadline T. Independent presence attestations reach Domain L. At T, Domain L detects the
+
+[Source PDF page 59]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  59
+missing required record, issues RecordCompletenessAlert, and blocks normal continuation. A hash-consistent but
+incomplete ledger does not pass custody integrity.
+Case 13 - Scoped epoch invalidation
+A policy governing email-send actions changes. ScopeDependencyMap requires the email action-class epoch and
+affected tool-scope epoch to advance, but not unrelated read-only research epochs. Existing email leases become stale
+even if global_governance_epoch is unchanged. Unrelated research leases remain valid.
+Case 14 - Recovery authority separation
+Validation returns DISCONFIRMED and RecoveryPolicyRecord requires rollback. Recovery Decision Service issues
+RecoveryDecisionReceipt. The same identity attempts to invoke rollback directly and is denied. Domain I/K issue
+RecoveryExecutionLease; Domain E executes rollback; Domain F validates recovery consequence. Decision and
+execution do not collapse into one recovery principal.
+Case 15 - Root signer rotation without valid lifecycle quorum
+Domain I attempts to replace a root signer after suspected key loss. No RootSignerRotationRecord contains the active
+outgoing quorum and incoming signer acceptance, and the recovery path lacks the precommitted
+RootSignerRecoveryPolicy quorum. The change is rejected; root membership and active RootGovernancePolicy
+remain unchanged.
+Case 16 - Consequentiality laundering attempt
+A C3 external privilege-changing action is proposed for reclassification to C1 to avoid Domain K.
+ConsequentialityClassRegistry is protected governance. The downward reclassification inherits the C3 authorization
+quorum, including Domain K and any required human/root approval. Without that quorum, the registry remains
+unchanged and pending C3 proposals retain their captured class.
+Case 17 - Completeness monitor suppression
+Domain L is compromised and stops issuing RecordCompletenessAlert or periodic CompletenessMonitorAttestation.
+The externally checkpointed RecordObligationManifest remains available. Independent replay detects the missed
+monitor-attestation deadline, recomputes overdue obligations directly, and forces the configured monitor-failure
+recovery path. Domain L silence cannot convert an incomplete proof chain into a complete one.
+Case 18 - Post-co-sign lease mutation
+Domain K co-signs a C3 lease for tool T, target X, parameters P, expectation E, and validity window W. Domain I
+modifies target X to Y before execution. The executor recomputes LeaseAuthorizationDigest; it no longer matches
+Domain K's signed digest. Authorization quorum validation fails and no action executes.
+Case 19 - Success-criterion suggestion flooding
+Domain B repeatedly resubmits narrower success criteria after Domain C rejects them, approaching the action
+deadline. The active evaluation policy enforces the revision budget and ratification cutoff. Domain C issues
+EXPECTATION_REJECTED_FINAL. Further suggestions without materially new evidence are rejected and cannot delay
+the authoritative ExpectedConsequenceRecord or execution decision.
+Case 20 - Manifest self-authorship attack
+Domain I requests a C3 manifest that omits ValidationReceipt. Manifest compilation resolves the active
+RecordObligationPolicy, detects the missing mandatory record, returns OBLIGATION_MANIFEST_INVALID, and no
+lease is issued.
+Case 21 - Consequentiality laundering
+A policy candidate attempts to map a C3 privilege-changing action to C1. ConsequentialityClassRegistry is protected
+governance; the change inherits C3 authorization requirements and cannot activate without the C3 quorum, including
+Domain K AuthorizationQuorum.
+
+[Source PDF page 60]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  60
+Case 22 - Authorization quorum outage
+A C2 action reaches authorization while enough Domain K quorum members are unavailable to satisfy quorum_m
+before signing_timeout. The system enters AUTHORIZATION_QUORUM_UNAVAILABLE and fails closed. Domain I
+cannot issue a unilateral fallback lease.
+Case 23 - Unmapped action class
+A newly introduced action_class has no active ActionClassRegistrationRecord or ScopeDependencyMap entry.
+Proposal admission returns ACTION_CLASS_UNMAPPED. No epoch comparison is skipped and no lease is issued.
+Case 24 - Root signer lifecycle abuse
+An administrator attempts to remove a root signer after first lowering quorum requirements. The change is rejected
+because the CURRENT RootGovernancePolicy and CURRENT root quorum govern any quorum or membership change.
+Rotation/recovery cannot proceed without required lifecycle records, current quorum, incoming acceptance where
+applicable, and external anchoring.
+Case 25 - Empty protection configuration
+A deployment attempts genesis with empty high_consequence_classes and protected_policy_classes. Intrinsic invariant
+validation rejects any interpretation that removes C2/C3 quorum or structurally protected policy types; the arrays may
+only add stricter classes.
+Case 26 - Quorum-floor collapse
+Domain H proposes AuthorizationQuorumPolicy with quorum_m = 1 for C3. The candidate is intrinsically protected
+and violates INV-003. It is rejected before activation regardless of RootGovernancePolicy configuration.
+Case 27 - Domain I self-expansion
+A candidate broadens action classes Domain I may lease without K. Approver-conflict detection classifies the
+candidate as changing Domain I discretion and routes it through protected meta-governance. Domain I cannot
+unilaterally activate it.
+Case 28 - Forged genesis
+An attacker supplies a self-consistent RootSignerGenesisRecord and signatures. The runtime lacks a matching
+authenticated GenesisAuthorityManifest from the deploying organization. Genesis validation fails and runtime does
+not initialize.
+Case 29 - Weak recovery decision
+Recovery Decision Service selects CONTINUE even though the active RecoveryPolicyRecord requires ROLLBACK for
+the failure class. validate_recovery_decision() rejects the decision and no RecoveryExecutionLease is issued.
+Case 30 - Degraded budget race
+Two concurrent degraded-mode actions contend for one remaining permitted action. Atomic budget consumption
+admits one and rejects the other; the limit cannot be exceeded by stale reads.
+Case 31 - Suggestion flooding
+Domain B repeatedly resubmits rejected success criteria and marks each as materially new. Domain C computes the
+evidence delta, finds no material change, preserves EXPECTATION_REJECTED_FINAL, and does not reset the revision
+budget.
+Case 32 - Recovery policy protection drift
+Domain H drafts a RecoveryPolicyRecord that weakens C3 DISCONFIRMED handling from ROLLBACK to CONTINUE.
+Even if configurable protected-policy lists omit RecoveryPolicyRecord, CanonicalGovernanceTypeRegistry marks the
+type ROOT_PROTECTED. Ordinary activation cannot proceed. Domain K quorum is required, and the weakened policy
+is rejected or elevated for protected review.
+Case 33 - Protection resolver ambiguity attack
+An ordinary policy candidate attempts to broaden consequential execution authority while declaring incomplete
+governance-impact fields. Because the type is not intrinsically protected, candidate_requires_elevated_protection()
+
+[Source PDF page 61]
+  GOVERNING ENGINES  |  GOVERNED TEVV FOR AGENTIC AI
+Governing Engines LLC  •  Architecture, Governance Authority, Operational Implementation, and Construction Method  •  v2.6  •  September 2026  •  61
+requires the full impact declaration. Missing fields produce POLICY_IMPACT_UNRESOLVED; evaluation and activation
+stop rather than guessing whether protection applies.
+Case 34 - Permission-matrix drift
+A deployment package contains a Permission Matrix row for AuthorizationQuorumPolicy or RecoveryPolicyRecord
+that lacks the co-sign requirement defined by CanonicalGovernanceTypeRegistry. registry_matrix_consistent() fails at
+conformance/startup and authoritative runtime does not initialize.
+Case 35 - Recovery policy with invalid lineage
+A RecoveryDecisionReceipt selects a transition permitted by a RecoveryPolicyRecord whose contents are syntactically
+valid but whose activation lacks the required protected quorum. recovery_policy_consumable() rejects the policy
+before recovery-decision validation; no RecoveryExecutionLease is issued.
+Case 36 - Runtime genesis authorship attempt
+A runtime domain attempts to write GenesisAuthorityManifest or RootSignerGenesisRecord. The records are marked
+[X] external/pre-runtime in the permission model and have no runtime W authority. The write is rejected regardless
+of the caller's ordinary governance permissions.
+A6. REFERENCES
+[1] Phillips, P. J., Jensen, T., Hall, P., Amironesei, R., Choong, Y.-Y., Greenberg, C., & Greene, K. K. (2026). The TEVV-Athlon Framework
+for Evaluating AI Systems. NIST AI 200-2 ipd. https://doi.org/10.6028/NIST.AI.200-2.ipd
+[2] NIST Information Technology Laboratory AI Program. Building Evaluation Probes into Agentic AI. Ongoing project, started April
+2026. https://www.nist.gov/programs-projects/building-evaluation-probes-agentic-ai
+[3] Jensen, T., Przybocki, M., Kodwani, M., Greene, K., Hall, P., Amironesei, R., & Greenberg, C. (2026). ARIA Evaluation Planning
+Manual: Elements of ARIA-Style AI Evaluations. NIST AI 200-3. https://doi.org/10.6028/NIST.AI.200-3
+[4] NIST. Artificial Intelligence Risk Management Framework (AI RMF 1.0). NIST AI 100-1. 2023.
+[5] Governing Engines. AI System Construction Method v1.2. DeMarius J. Lawson. September 2026.
+END OF CONSTRUCTION PACKAGE - VERSION 2.6 - ARCHITECTURE LOCKED / FROZEN
+DeMarius J. Lawson  |  Governing Engines LLC  |  September 2026

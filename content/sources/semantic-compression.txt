@@ -1,0 +1,1218 @@
+PUBLIC SOURCE TEXT EDITION
+SEMANTIC COMPRESSION
+Source supplied by the author for public research discovery.
+Text extracted from the supplied artifact; layout, tables and pagination may differ.
+Privacy filtering is marked inline. This is not the original binary artifact.
+
+[Source PDF page 1]
+SEMANTIC COMPRESSION  |  v1.4
+DeMarius J. Lawson - Governing Engines   |   1
+SEMANTIC
+COMPRESSION
+How Labels Hide Structure, Collapse Distinctions, and Obscure Reality
+DeMarius J. Lawson
+Governing Engines
+Version 1.4  |  September 2026
+"If you stop at the label, you stop before the system becomes
+visible."
+
+[Source PDF page 2]
+SEMANTIC COMPRESSION  |  v1.4
+DeMarius J. Lawson - Governing Engines   |   2
+Abstract
+Human beings and technical systems cannot operate without compression. Complex structures
+are reduced into words, categories, statuses, metrics, scores, summaries, and models because
+reality cannot be reconstructed from first principles every time a person or system must
+communicate or decide. Compression is therefore not a defect. It is infrastructure for cognition
+and coordination.
+The failure begins when the compressed representation is granted more authority than the
+condition it represents. A label can remain linguistically accurate while hiding distinctions that
+change classification, permissible action, evidence requirements, cost exposure, rollback,
+accountability, or claim strength. Different mechanisms can be collapsed into one term. The
+same mechanism can be hidden behind different terms. A representation can remain stable
+while the underlying condition changes. A statement can remain factually true while becoming
+structurally misleading through omission.
+Version 1.4 closes the propagation and certification-governance defects identified by adversarial
+review of v1.3. It removes stale active-version attribution from the taxonomy and
+fidelity/custody sections; performs a full-document recurrence sweep for version-relative
+language; and places the Appendix C certification itself under an explicit Compression Contract
+with observable revalidation triggers, enforcement states, and a violation response.
+Reality Primacy does not reject abstraction. It denies abstraction
+final authority over the condition it claims to represent.
+0. Claim Status and Epistemic Posture
+This paper distinguishes five kinds of statements so that its own confidence does not disappear
+into flat declarative prose.
+Claim class Meaning inside this paper
+Definition
+A stipulated term used to build the framework. It is
+judged by clarity, non-circularity, and usefulness, not by
+empirical confirmation alone.
+Derived proposition
+A conclusion that follows from stated definitions or
+constraints. Its validity depends on the premises being
+accepted.
+Architectural hypothesis A proposed relationship about how systems behave. It is
+testable and may be revised or disconfirmed.
+Design rule
+A conditional recommendation for systems operating
+under stated objectives or consequences. It is not
+presented as a universal natural law.
+Empirical claim
+A claim about observed populations or events. Such
+claims require external evidence; this paper
+intentionally relies on very few.
+
+[Source PDF page 3]
+SEMANTIC COMPRESSION  |  v1.4
+DeMarius J. Lawson - Governing Engines   |   3
+Most of the paper is definitional, derived, or architectural. Where a statement is intended as a
+hypothesis or design rule rather than a universal fact, it is labeled or phrased conditionally. This
+is part of the framework, not a disclaimer: confidence must remain attached to the evidence and
+logic that support a claim.
+1. The Problem Is Not the Word
+A familiar word can create the feeling of understanding before understanding exists.
+Intelligence, safety, execution, success, failure, employment, compliance, learning, governance,
+harm, and proof can each carry several different mechanisms beneath one surface label. The
+word allows communication to move quickly. The same speed can conceal unresolved structure.
+When a listener receives a familiar label, the listener reconstructs some underlying state. If the
+reconstruction is sufficient for the present operation, communication works. If it is not, the label
+creates false confidence: the speaker believes information was supplied, the listener believes
+meaning was received, and the structure required to distinguish the relevant states never
+crossed the gap.
+Semantic recognition is not structural understanding.
+The useful question is therefore not only "What does this word mean?" but "What operative
+structure has been compressed into this word, and which distinctions would change what may
+rationally be classified, decided, executed, validated, or claimed?"
+2. Compression Is Necessary
+No person or system can carry the full causal, temporal, physical, social, and institutional
+structure of every object into every operation. "Car" replaces thousands of components and
+relationships. "Employee" replaces a labor arrangement. "Safe" replaces a risk state. "Done" may
+replace a chain of requested, accepted, attempted, executed, observed, validated, and persisted
+states.
+Compression lowers cognitive load. It accelerates coordination. It allows expertise to be
+packaged into reusable terms. It allows organizations to operate through dashboards instead of
+raw logs and allows people with shared context to communicate through shorthand.
+The objective is therefore not maximum detail. Maximum detail is often unusable. The objective
+is sufficient resolution for the current operation.
+Good compression preserves the distinctions required by the
+decision being made.
+
+[Source PDF page 4]
+SEMANTIC COMPRESSION  |  v1.4
+DeMarius J. Lawson - Governing Engines   |   4
+3. Materiality, Bounded
+Definition.
+Materiality is operation-relative. It is not triggered by any imaginable difference and it is not
+limited to differences already observed to have caused failure. A distinction is material only
+inside a declared decision context.
+For operation O, authority scope A, decision rules D, evidence rule E, and operating envelope
+Omega, candidate states X and Y form a material distinction when treating X and Y as
+equivalent would permit a different downstream transition in at least one admissible state
+inside Omega while all unrelated conditions are held constant.
+The declaration of O, A, D, E, and Omega is part of the test. Without them, materiality is
+unresolved rather than presumed.
+Dimension A difference is material when X versus Y
+changes...
+Classification which state or status the declared rule permits
+Authority who may decide, approve, block, escalate, certify, or
+revoke
+Permissible action which actions are allowed, required, or prohibited
+Execution path which dependency, control, or process path must be
+used
+Evidence requirement which observations or thresholds must be satisfied
+Cost / exposure which resource, risk, liability, or capacity must be
+carried
+Recovery / rollback which containment, reversal, retry, or escalation is
+required
+Claim strength what may be asserted as confirmed, probable,
+unresolved, or contradicted
+3.1 Modality: admissible possibility, not mere conceivability
+The governing modality is bounded counterfactual possibility. The question is not whether one
+can imagine some remote world in which the distinction matters, and not whether the
+distinction has already changed the current outcome. The question is whether, inside the
+declared operating envelope and under the declared authority, decision rules, and evidence
+rule, at least one admissible case exists in which the two states permit different handling.
+Materiality is tested against the system's claimed operating
+envelope, not against unlimited imagination.
+3.2 Permissible Downstream State
+Definition.
+
+[Source PDF page 5]
+SEMANTIC COMPRESSION  |  v1.4
+DeMarius J. Lawson - Governing Engines   |   5
+A permissible downstream state is a classification, decision, action, escalation, claim, recovery
+state, or terminal state allowed by declared authority A under declared decision rules D after
+the applicable evidence rule E has returned a state that D maps to that transition, or after D
+explicitly permits defer, escalation, or another unresolved path.
+Decision rules are not implicit. D is a declared mapping from represented/evidence states to
+permitted classifications, actions, claims, escalations, rollback states, recovery states, or
+terminal states. A answers who may act; E answers what evidence state exists; D answers what
+transition that state permits. The framework treats D as a fifth governing input rather than
+hiding it inside authority or evidence.
+3.3 The Bounded Materiality Test
+1. Declare operation O: what decision, classification, claim, or execution is being supported?
+2. Declare authority scope A: who or what is permitted to make, certify, revoke, or escalate the
+transition?
+3. Declare decision rules D: how do represented states and evidence states map to permitted
+classifications, actions, claims, escalations, rollback states, or terminal states?
+4. Declare evidence rule E: what observations, thresholds, provenance, recency, contradiction
+handling, and authority conditions return each evidence state?
+5. Declare operating envelope Omega: which conditions, populations, time horizon, interfaces,
+dependencies, and failure classes are inside the system's claimed scope?
+6. Enumerate candidate states X and Y and hold unrelated conditions constant.
+7. Run X through the same declared tuple (O, A, D, E, Omega) and record the permissible
+downstream state set P(X).
+8. Run Y through the same declared tuple and record P(Y).
+9. Compare the sets. If P(X) differs from P(Y) in any admissible state inside Omega, the
+distinction is MATERIAL for O. If the sets are identical across Omega, the distinction is NON-
+MATERIAL for O. If O, A, D, E, Omega, X, or Y is insufficiently specified, the result is
+UNRESOLVED.
+3.4 Materiality Receipt
+A materiality claim is receipted by the explicit difference between P(X) and P(Y), together with
+the declared operation O, authority A, decision rules D, evidence rule E, and operating envelope
+Omega. "Important" is not evidence of materiality. A changed permissible transition under the
+declared tuple is.
+A distinction is material when the governed system must behave
+differently, not merely when an analyst can describe a difference.
+
+[Source PDF page 6]
+SEMANTIC COMPRESSION  |  v1.4
+DeMarius J. Lawson - Governing Engines   |   6
+4. From External Condition to Representation
+Version 1.0 used the shorthand chain "Reality -> observation -> structure -> abstraction -> label."
+That shorthand risked implying an unmediated epistemic path back to reality. There is none.
+Human and technical systems encounter external conditions through observation channels:
+senses, instruments, logs, records, witnesses, tests, interventions, and other interfaces. Every
+observation can itself contain error or compression.
+The more precise chain is:
+External condition -> observation channel(s) -> evidence ->
+representation -> claim or decision
+Verification does not escape representation. It adds new observation channels and asks whether
+the current representation survives discriminating evidence. The return path is therefore
+iterative:
+Claim -> required evidence -> new observation or intervention ->
+comparison -> retain / revise / unresolved
+This does not remove epistemic uncertainty. It governs it.
+5. Semantic Resolution and Operative Resolution
+5.1 Semantic Resolution
+Semantic resolution is the amount of operative structure preserved by a representation.
+"Vehicle" may be sufficient for deciding whether an object belongs in a parking area and
+insufficient for deciding whether it can tow a specified load. "Employed" may be sufficient for a
+binary payroll field and insufficient for determining whether a particular employment
+arrangement is operationally viable for a household.
+5.2 Operative Resolution
+Definition.
+Operative resolution is the lowest level of abstraction at which every distinction returned
+MATERIAL by the Bounded Materiality Test remains representable for the declared operation
+and every unresolved materiality question remains explicitly unresolved rather than silently
+collapsed.
+The stopping rule is therefore external to the phrase "what matters." Further compression is
+permitted only while it leaves the permissible downstream state set unchanged across the
+declared operating envelope. Further decompression is unnecessary when it does not change
+that set and does not resolve an outstanding materiality question.
+
+[Source PDF page 7]
+SEMANTIC COMPRESSION  |  v1.4
+DeMarius J. Lawson - Governing Engines   |   7
+Compress while the governed transition set stays unchanged.
+Decompress when compression changes what the system may do.
+Under-decomposition collapses states that require different handling. Over-decomposition
+preserves distinctions that do not change the governed transition set for the operation and
+therefore adds complexity without increasing operative fidelity.
+6. Failure Taxonomy Rebuilt Around Mechanisms
+A taxonomy that gives different names to the same mechanism commits the False Difference it
+was created to diagnose. The active framework therefore groups failures by root mechanism
+and uses an explicit boundary test between Distinction Loss and Representational Substitution.
+6.1 Mechanism A: Distinction Loss
+Distinction Loss occurs when two or more states that pass the Materiality Test are represented
+as equivalent. The specific manifestation depends on what kind of structure was removed.
+Manifestation What is lost Example
+State Collapse separate operational states requested / attempted / executed /
+validated become DONE
+Structural Flattening conditions or internal relationships a qualified statement becomes a
+broad conclusion
+Causal Collapse different causal paths multiple causes become FAILURE
+Temporal Flattening sequence, duration, accumulation,
+trend
+currently healthy hides repeated
+recent degradation
+Cost Compression resources or capacity consumed target met hides overtime, debt,
+deferred maintenance
+Accountability Compression authority and decision points the system denied it hides rule,
+reviewer, and approval path
+Epistemic Flattening evidence strength and uncertainty possible / probable / confirmed
+become TRUE
+6.2 Mechanism B: Representational Substitution
+Representational Substitution occurs when candidate states remain separately representable,
+but evidence or warrant for one state is used to authorize a claim or transition belonging to
+another state.
+ Process for outcome: workflow completed -> task succeeded.
+ Proxy for condition: score improved -> represented condition improved.
+ Transport for execution: API returned success -> external state changed.
+ Absence of evidence for evidence of absence: no complaint -> no harm.
+
+[Source PDF page 8]
+SEMANTIC COMPRESSION  |  v1.4
+DeMarius J. Lawson - Governing Engines   |   8
+6.2.1 Boundary Test: Loss versus Substitution
+1. Are the candidate states still separately representable at the point of decision? If no, the
+failure is Distinction Loss.
+2. If yes, is evidence or warrant attached to one state being used to permit a claim or transition
+belonging to another? If yes, the failure is Representational Substitution.
+3. If neither condition holds, do not force the event into either category; continue
+decomposition.
+Example: REQUEST_ACCEPTED, EXECUTED, and VALIDATED all becoming DONE is State
+Collapse because the states are no longer preserved. Keeping REQUEST_ACCEPTED and
+EXECUTED separate but treating a 200 response proving REQUEST_ACCEPTED as proof of
+EXECUTED is Substitution because the states remain distinct while warrant crosses the
+boundary.
+Loss destroys the distinction. Substitution preserves the distinction
+but spends proof across it.
+6.3 Mechanism C: Persistence and Drift
+A representation can remain attached after the underlying condition changes. Semantic
+Persistence names the survival of the label; Structural Drift names the growing mismatch
+between the retained representation and current evidence. Context Decay is a related case in
+which the compressed instruction survives while the shared knowledge required to interpret it
+disappears.
+6.4 Mechanism D: Chain Integrity Failure
+Chain Integrity Failure occurs when a representation is detached from the evidence, conditions,
+uncertainty, or transformation history required to interpret it. Chain Severance, provenance
+loss, confidence inflation, and confidence attenuation are manifestations of this mechanism.
+6.5 Mechanism E: Context Mismatch
+A compression can be valid for one receiver and unusable for another because shared context
+differs. Compression Mismatch and Decompression Burden arise when the sender and receiver
+operate at different semantic resolutions or do not share the same decompression key.
+A useful taxonomy groups by mechanism first and names
+manifestations second.
+7. False Sameness, False Difference, Convergence, and Divergence
+False Sameness occurs when one label collapses materially different mechanisms or states.
+False Difference occurs when different labels are treated as different mechanisms even though
+decompression reveals the same operative chain.
+
+[Source PDF page 9]
+SEMANTIC COMPRESSION  |  v1.4
+DeMarius J. Lawson - Governing Engines   |   9
+Cross-domain transfer must therefore proceed in two phases: identify structural convergence,
+then continue decomposing until a material divergence point is found or the current operation
+no longer requires deeper separation.
+Do not transfer at the label layer. Match the chain, then search for
+the divergence point.
+Over-decompression is also possible. If every system is reduced to "state -> transition -> state,"
+the representation may become universally true and operationally useless. The correct stopping
+point is operative resolution, not metaphysical depth.
+8. Semantic Fidelity and Semantic Custody
+Earlier versions used overlapping language for fidelity and custody. The active framework
+preserves a state-versus-chain boundary and subjects neighboring concepts to the same
+admissibility discipline.
+8.1 Semantic Fidelity - a state property
+Definition.
+Semantic fidelity is the degree to which representation B preserves the operation-relevant
+distinctions of representation A at a specified comparison point. Fidelity is evaluated between
+two states or representations.
+A summary can therefore have high topical similarity and low semantic fidelity if it drops a
+condition that changes claim strength or action.
+8.2 Semantic Custody - a chain property
+Definition.
+Semantic custody is the controlled preservation and traceability of operation-relevant
+distinctions, evidence strength, uncertainty, conditions, and provenance across a sequence of
+transformations and handlers.
+Custody is not another word for fidelity. Fidelity asks whether meaning survived at a point.
+Custody asks whether the system can show how meaning was transformed across the path,
+where fidelity was checked, and where degradation occurred.
+Fidelity measures the state. Custody governs the path.
+8.3 Boundary Test
+If the question can be answered by comparing an original and a transformed representation, it
+is a fidelity question. If the question requires following multiple transformations, actors, or
+evidence handoffs, it is a custody question. If the distinction does not change the analysis, one
+term should not be introduced merely to create vocabulary.
+
+[Source PDF page 10]
+SEMANTIC COMPRESSION  |  v1.4
+DeMarius J. Lawson - Governing Engines   |   10
+9. Reality Primacy Without Unmediated Access
+Architectural proposition.
+Reality Primacy is an authority rule over representations, not a claim of representation-free
+access to the world. External conditions are ontologically prior to their descriptions, while
+epistemic access remains mediated through observation channels, instruments, records,
+interventions, and other evidence-producing interfaces.
+A controlling representation does not lose authority merely because any observer asserts
+contradiction. It must, however, enter a governed challenge path when qualifying contradictory
+evidence is presented through an authorized validation channel.
+Reality gets the last vote, but governance determines when that
+vote has been reliably heard.
+9.1 Evidence Standard Declaration
+Before a consequential transition can be evaluated, the system must declare: the claim being
+tested; the candidate states that must be discriminated; mandatory evidence dimensions; the
+consequence class; the certifying authority; and any allowed defer/escalation rule. A post-hoc
+evidence standard is not an evidence standard; it is retrospective accommodation.
+9.2 Evidence Sufficiency Decision Rule
+Definition.
+Evidence sufficiency is conjunctive unless the governing domain explicitly declares another
+combination rule in advance. For the default rule, evidence is SUFFICIENT only when every
+mandatory condition below is satisfied:
+1. Discrimination: the evidence distinguishes every material candidate state required by the
+operation.
+2. Provenance: source, collection path, and transformation history meet the declared trust rule.
+3. Temporal applicability: the evidence is current enough for the condition and decision horizon
+being governed.
+4. Contradiction handling: known qualifying contradictions have been resolved, incorporated
+into the state model, or explicitly retained as contradictory.
+5. Consequence threshold: the declared confidence/evidence threshold for the consequence class
+is met.
+6. Certification authority: the actor or mechanism assigning the evidence state is authorized to
+do so.
+The decision rule returns one of four governed states:
+
+[Source PDF page 11]
+SEMANTIC COMPRESSION  |  v1.4
+DeMarius J. Lawson - Governing Engines   |   11
+Evidence state Transition meaning
+SUFFICIENT all mandatory conditions satisfied; the governed
+claim/transition may proceed within scope
+INSUFFICIENT one or more mandatory conditions fail; the stronger
+claim/transition is prohibited
+UNRESOLVED available evidence does not discriminate the required
+candidate states
+CONTRADICTED
+qualifying evidence supports incompatible states;
+escalation, additional testing, or narrowed claim is
+required
+Weighted or compensatory evidence rules are permitted only when the domain defines the
+weights, failure floors, and authority in advance. The framework does not allow a strong score
+on one dimension to silently compensate for a mandatory failure on another.
+9.3 Authorized Reality Challenge Path
+The governing chain is: controlling representation -> contradictory observation -> authorized
+challenge admission -> Evidence Sufficiency Decision Rule -> evidence state -> authorized
+transition.
+ SUFFICIENT contradictory evidence: revise, revoke, narrow, or replace the controlling
+representation as required by the governing rule.
+ UNRESOLVED: move to PENDING_VALIDATION or another explicitly permitted unresolved
+state; do not silently preserve conclusive authority.
+ CONTRADICTED: escalate, acquire additional discriminating evidence, or narrow the claim
+until the contradiction is represented.
+ INSUFFICIENT challenge evidence: the prior representation may remain controlling within
+its existing validation scope, while the failed challenge and reason remain auditable where
+consequence warrants.
+9.4 Operational End to the Regress
+The verification chain does not terminate in certainty about reality in itself. It terminates
+operationally when the declared evidence rule returns a permitted state, the authorized actor
+makes the corresponding transition, and residual uncertainty is carried forward at the level
+required by that rule. The claim remains reopenable when new qualifying evidence enters the
+challenge path.
+Reality Primacy grants no observation automatic authority and
+grants no prior representation permanent immunity.
+
+[Source PDF page 12]
+SEMANTIC COMPRESSION  |  v1.4
+DeMarius J. Lawson - Governing Engines   |   12
+10. Epistemic States and Confidence Custody
+Known, corroborated, probable, possible, unresolved, contradicted, and pending validation are
+different states when they imply different permitted claims or actions. A system should not
+flatten them merely to preserve workflow momentum.
+Uncertainty is not failure. Hidden uncertainty is failure.
+Confidence custody requires that evidentiary strength survive compression. A weak possibility
+must not become a confirmed fact through repeated summarization, and strong evidence must
+not be diluted into vagueness when that change would alter authority or action.
+The paper applies this rule to itself through the Claim Status section. Definitions are not
+disguised as measurements; architectural hypotheses are not presented as universal laws;
+design rules are conditional on the operation they govern.
+11. Authority, Consequence, and Compression Tolerance
+Design principle.
+Required semantic resolution should increase when collapsing a distinction can increase
+consequence. The relationship is not "high stakes always require more words." It is "high-
+consequence decisions tolerate fewer unresolved material distinctions."
+A label such as APPROVED, DENIED, SAFE, ELIGIBLE, or OPERATIONAL can authorize or block
+action. Before such a label controls execution, every distinction that passes the Materiality Test
+for that authority path must either be resolved, explicitly deferred under a permitted rule, or
+escalated.
+11.1 Authority-Relevance Test
+A distinction is authority-relevant when resolving it differently would change who may act,
+what action is permitted, what evidence is required, what escalation is triggered, or who carries
+accountability. Where the test is positive, the authority path must have access to evidence
+sufficient to discriminate those states or must be structurally prevented from pretending
+resolution.
+Formal authority without discriminating evidence is authorized
+blindness.
+12. Representational Ceilings and Adequacy
+Definition.
+A representational ceiling is the maximum operative resolution a system can preserve given the
+states, relationships, evidence links, uncertainty modes, and authority interfaces available in its
+model.
+
+[Source PDF page 13]
+SEMANTIC COMPRESSION  |  v1.4
+DeMarius J. Lawson - Governing Engines   |   13
+You cannot reason your way out of a distinction your system cannot
+represent.
+12.1 Representational Ceiling Test
+For each distinction returned MATERIAL by the Bounded Materiality Test, determine whether
+the system can:
+1. represent each candidate state separately;
+2. preserve any relation between candidate states whose presence, absence, direction, or value
+returns MATERIAL when tested under the same bounded tuple (O, A, D, E, Omega);
+Relation materiality uses the same counterfactual boundary as state materiality: compare
+relation-present and relation-absent representations while holding unrelated conditions
+constant under (O, A, D, E, Omega). If the permissible downstream state set does not change
+anywhere inside Omega, preserving that relation is not mandatory for this operation.
+3. represent UNRESOLVED or CONTRADICTED where forced certainty would alter the transition;
+4. attach the discriminating evidence and provenance required by the Evidence Sufficiency
+Decision Rule;
+5. expose the resolved or unresolved distinction to the authority that must act on it; and
+6. reopen the representation when a declared revalidation trigger occurs.
+If any mandatory capability is absent for any material distinction, the representational ceiling is
+INADEQUATE for that operation before downstream failure occurs. If every capability is
+present, the ceiling is ADEQUATE for the declared operation, not universally adequate.
+12.2 Semantic Adequacy Test
+A representation is semantically adequate for an intended operation when the Representational
+Ceiling Test returns ADEQUATE, the current evidence state is permitted by the governing rule,
+and the resulting representation supports the required action, validation, recovery, and
+revalidation paths without silently collapsing a material unresolved state.
+Data volume is not representational adequacy. Precision cannot
+rescue a missing state.
+13. Metrics, Proxies, and Representational Gaming
+A proxy becomes dangerous when proof that the proxy was satisfied is substituted for proof that
+the represented condition occurred. This is Representational Substitution combined with
+execution authority.
+A metric can be precise while its category is crude. A system can therefore optimize a number
+while the condition it was meant to represent remains unchanged or deteriorates.
+
+[Source PDF page 14]
+SEMANTIC COMPRESSION  |  v1.4
+DeMarius J. Lawson - Governing Engines   |   14
+Architectural hypothesis.
+When a compressed indicator becomes a target and the underlying condition is not
+independently validated, systems create incentives to produce the representation rather than
+the represented condition. The strength of this effect depends on the incentive structure,
+observability, and cost of external validation.
+Producing the representation is not necessarily producing the
+represented condition.
+14. Compression Stacks and Recovery Paths
+Large systems require nested abstraction. Raw events become transaction states. Transaction
+states become daily rates. Rates become KPIs. KPIs become dashboards. Dashboards become
+narratives. Each transformation may be legitimate while still removing structure.
+A governed compression stack therefore needs transformation criteria, provenance, confidence
+custody, exception visibility, and a recovery path to the evidence beneath consequential
+abstractions.
+Every consequential abstraction should preserve an auditable path
+to the evidence that justified it.
+A receipt is one form of this path. "Execution succeeded" is the compressed claim. The receipt
+preserves request, authority, target, time, state transition, observed result, validation, and any
+remaining uncertainty.
+15. Intelligence as Governed Compression
+Architectural hypothesis.
+Reasoning, learning, understanding, memory, adaptation, judgment, and observation are
+frequently compressed under intelligence. Decompression may reveal shared chains and deeper
+divergence. A learning architecture that cannot refine its own distinctions is limited in how it
+can respond when evidence repeatedly violates its current categories.
+15.1 Representational Refinement
+Definition.
+Representational refinement is the evidence-driven splitting, merging, or restructuring of
+internal categories when the current representation fails the Materiality Test for the operation
+the system is trying to perform.
+This does not imply that every learner must rewrite its ontology in the same way. It makes a
+narrower claim: where two observed states require different justified handling, a learner must
+
+[Source PDF page 15]
+SEMANTIC COMPRESSION  |  v1.4
+DeMarius J. Lawson - Governing Engines   |   15
+eventually preserve that difference somewhere in its effective state model or delegate the
+distinction to another component.
+A system cannot adapt to a distinction it is structurally incapable of
+preserving.
+16. Compression Governance
+Compression becomes governable only when the transformation has declared scope, custody,
+expiration, and violation handling. A descriptive schema is not enough.
+16.1 Compression Contract
+Definition.
+A Compression Contract is an executable governance record defining: source state; permitted
+compressed state; intended operation; authority owner; Bounded Materiality Test result;
+evidence standard; retained provenance; prohibited downstream uses; expiration or
+revalidation trigger; recovery path; and violation response.
+16.2 Contract State Machine
+Contract state Meaning / allowed behavior
+VALID compression may authorize only the declared operation
+within scope
+REVALIDATION_REQUIRED
+trigger fired or evidence aged out; consequential
+transitions dependent on the compressed state are
+blocked or deferred until revalidated
+EXPIRED declared validity window ended; state cannot authorize
+consequential action
+VIOLATED compressed state was used outside scope, after
+expiration, or contrary to a mandatory contract term
+REVOKED authorized owner or validation rule withdrew the
+compression
+16.3 Violation Response
+A contract must declare at least one enforceable response for REVALIDATION_REQUIRED,
+EXPIRED, or VIOLATED states: block, quarantine, rollback, retry, escalate, narrow the claim, or
+acquire renewed evidence. "Should reopen" is insufficient because it describes preference
+without controlling execution.
+A compression contract governs only when breaking it changes
+what the system is allowed to do.
+
+[Source PDF page 16]
+SEMANTIC COMPRESSION  |  v1.4
+DeMarius J. Lawson - Governing Engines   |   16
+17. Semantic Decompression Protocol v1.4
+1. Declare operation O, authority A, decision rules D, evidence rule E, and operating envelope
+Omega.
+2. Identify the compressed term, metric, category, or state controlling the operation.
+3. Enumerate plausible candidate states beneath the compression.
+4. Run the Bounded Materiality Test; retain MATERIAL and UNRESOLVED distinctions, discard
+only NON-MATERIAL distinctions for this operation.
+5. Set operative resolution at the lowest level that preserves those distinctions.
+6. Run the Representational Ceiling Test. If INADEQUATE, block the stronger claim or redesign
+the representation before proceeding.
+7. Declare the evidence standard and run the Evidence Sufficiency Decision Rule.
+8. Return SUFFICIENT, INSUFFICIENT, UNRESOLVED, or CONTRADICTED; do not force a
+terminal state that the evidence rule does not permit.
+9. Execute only a permissible downstream transition under the declared authority.
+10. Observe the external result and capture a receipt linking action, evidence, outcome, and
+provenance.
+11. Apply the Compression Contract, including expiration, revalidation triggers, and violation
+response.
+12. Reopen the representation when new qualifying evidence or contract state requires it.
+A protocol is operational only when its tests return states that
+constrain execution.
+18. Worked Execution I - "It Was Handled"
+Operation: decide whether a consequential follow-up may be closed.
+Protocol step Execution
+Compressed term "Handled"
+Candidate states mentioned; assigned; attempted; completed; completed
+and verified; completed but failed downstream
+Materiality test
+Closing the follow-up after "mentioned" versus
+"completed and verified" changes action, claim strength,
+and recovery. The distinction is material.
+Operative resolution assigned / attempted / completed / verified are
+preserved; irrelevant conversational detail is not.
+
+[Source PDF page 17]
+SEMANTIC COMPRESSION  |  v1.4
+DeMarius J. Lawson - Governing Engines   |   17
+Protocol step Execution
+Discriminating evidence
+assignment record, completion artifact, recipient
+confirmation or observable state change, depending on
+the task.
+Evidence sufficiency
+a verbal statement alone is insufficient if closure
+requires a verified result; it may be sufficient for a low-
+consequence conversational update.
+Unresolved state if completion evidence is missing: PENDING
+VALIDATION, not DONE.
+Classification / action close only after the closure criterion is met; otherwise
+follow up or escalate.
+External result observe the completed action or recipient state.
+Receipt who acted, what was done, when, what evidence
+confirmed it, and what remains unresolved.
+Revalidation reopen if the result is reversed or later evidence shows
+the task did not persist.
+The protocol changes behavior: "handled" is not rejected as a word;
+it is denied terminal authority until the closure state is
+discriminated.
+19. Worked Execution II - "The Integration Succeeded"
+Operation: decide whether a production workflow may rely on an external integration as
+operational.
+Protocol step Execution
+Compressed term "Integration succeeded"
+Candidate states
+credentials accepted; endpoint reachable; request
+accepted; provider processed request; external state
+changed; state change observed; state change persisted.
+Materiality test
+A 200/202 response and a persisted external state permit
+different deployment claims and recovery actions. The
+distinction is material.
+Operative resolution transport success, provider acceptance, external
+execution, validation, and persistence remain separate.
+Discriminating evidence
+request/response log; provider event ID; independent
+read-back of target state; persistence check after defined
+interval.
+Evidence sufficiency
+transport log alone supports "request accepted," not
+"external outcome verified." Independent read-back is
+required for the stronger claim.
+
+[Source PDF page 18]
+SEMANTIC COMPRESSION  |  v1.4
+DeMarius J. Lawson - Governing Engines   |   18
+Protocol step Execution
+Unresolved state if provider accepted but state cannot be read back:
+PENDING_VALIDATION.
+Classification / action do not certify operational success; retry, inspect
+provider status, or escalate according to policy.
+External result target system shows the intended state with matching
+identifier/time.
+Receipt request ID, authority, provider response, target-state
+observation, validation timestamp, persistence result.
+Revalidation rerun after dependency or provider changes, or when
+validation becomes stale.
+Transport success is evidence for transport success. It is not
+spendable as proof of external execution.
+20. Worked Execution III - "Employed"
+Operation: evaluate whether an employment arrangement is operationally viable for a specific
+household decision. This is a framework demonstration, not an empirical claim about all
+workers or households.
+Protocol step Execution
+Compressed term EMPLOYED
+Candidate states
+stable schedule / unstable schedule; transport-
+compatible / incompatible; childcare-compatible /
+incompatible; positive / negative monthly margin;
+benefits accessible / inaccessible.
+Materiality test
+If schedule compatibility or net margin changes whether
+the arrangement can be sustained, those distinctions
+change the viability classification and required action.
+They are material to this operation even though they
+may be immaterial to payroll.
+Operative resolution
+preserve only the household constraints that can change
+the viability decision; do not expand into unrelated life
+detail.
+Discriminating evidence
+actual work schedule, commute requirement, childcare
+availability/cost, take-home pay, recurring required
+expenses, observed monthly cash margin.
+Evidence sufficiency a job offer or EMPLOYED flag is insufficient for viability;
+current household-specific evidence is required.
+Unresolved state if schedules or costs are unknown, viability remains
+UNRESOLVED rather than assumed positive.
+
+[Source PDF page 19]
+SEMANTIC COMPRESSION  |  v1.4
+DeMarius J. Lawson - Governing Engines   |   19
+Protocol step Execution
+Classification / action
+proceed, adjust, or seek an alternative only after the
+relevant constraints are resolved to the degree required
+by consequence.
+External result
+observe whether the arrangement is actually sustained
+without consuming prohibited or unsustainable capacity
+defined by the decision-maker.
+Receipt assumptions, inputs, dates, margin calculation,
+unresolved dependencies, and observed follow-through.
+Revalidation rerun when wages, schedule, transport, childcare, or
+required expenses materially change.
+The same label can be adequate for one operation and inadequate
+for another. Materiality belongs to the decision boundary.
+21. Adversarial Execution I - Contested Materiality
+Case: Two authorized operators disagree about whether distinguishing REQUEST_ACCEPTED
+from EXECUTED is material for a monitoring dashboard.
+1. Operation O: dashboard used only to estimate API transport health, not external task
+completion.
+2. Authority A: observability service may report transport health; it may not certify task
+completion.
+3. Evidence rule E: HTTP response and transport telemetry are sufficient for transport-health
+classification.
+4. Operating envelope Omega: API reachability and request/response behavior only; external
+state mutation is explicitly outside scope.
+5. Candidate states: REQUEST_ACCEPTED versus EXECUTED.
+6. Materiality result: NON-MATERIAL for this operation because P(REQUEST_ACCEPTED) and
+P(EXECUTED) are identical with respect to the only permitted claim: transport responded
+successfully. The dashboard must not relabel that result TASK_SUCCESS.
+Now change only O: the same dashboard is proposed as proof that a customer task completed.
+P(REQUEST_ACCEPTED) and P(EXECUTED) diverge because the latter permits
+TASK_COMPLETED while the former does not. The distinction becomes MATERIAL.
+The same distinction can be non-material for one declared
+operation and material for another without contradiction.
+
+[Source PDF page 20]
+SEMANTIC COMPRESSION  |  v1.4
+DeMarius J. Lawson - Governing Engines   |   20
+22. Adversarial Execution II - Contested Operative Resolution
+Case: EMPLOYED is proposed as a shared representation for payroll and household-viability
+analysis.
+1. Payroll operation: determine whether wages should be processed for an active employment
+relationship. Under that rule, schedule stability, childcare fit, commute burden, and monthly
+household margin do not change the payroll transition. EMPLOYED can be sufficient at this
+resolution.
+2. Household-viability operation: determine whether the employment arrangement produces
+sustainable operational margin. Hours, transport, childcare compatibility, benefit transitions,
+and net margin can change the permitted conclusion. The binary EMPLOYED state fails the
+Representational Ceiling Test.
+3. Resolution: the framework does not seek one globally correct decompression depth. Each
+operation declares its own authority and envelope, then materiality determines the required
+resolution.
+Operative resolution is purpose-bound. A representation can be
+adequate and inadequate at the same time for different governed
+operations.
+23. Adversarial Execution III - Ambiguous Revalidation Trigger
+Case: A Compression Contract says a state must reopen when conditions "materially change."
+The trigger itself is semantically compressed and therefore cannot control execution.
+1. Failure: "materially change" supplies no observable event, threshold, or authority. The
+contract cannot determine when VALID becomes REVALIDATION_REQUIRED.
+2. Repair: replace the phrase with explicit triggers appropriate to the operation, for example:
+evidence age exceeds 24 hours; dependency version changes; authority owner changes;
+measured error rate crosses 2 percent for two consecutive windows; contradictory qualifying
+evidence is admitted; or the operating envelope changes.
+3. Execution: when any declared trigger occurs, the contract state changes automatically or
+through the named authority to REVALIDATION_REQUIRED. Dependent consequential actions
+are blocked, deferred, or narrowed according to the violation/revalidation rule.
+A revalidation rule is governed only when an observable event can
+change contract state.
+
+[Source PDF page 21]
+SEMANTIC COMPRESSION  |  v1.4
+DeMarius J. Lawson - Governing Engines   |   21
+24. Adversarial Execution IV - Evidence Sufficiency Conflict
+Case: two evidence channels disagree. A tool returns a success receipt while an independent
+external observation shows no state change.
+1. Material candidate states: EXECUTED versus NOT_EXECUTED.
+2. Evidence rule: both tool receipt provenance and external state observation are mandatory for
+a completion claim.
+3. Evidence state: provenance and recency pass; discrimination produces incompatible states;
+contradiction handling therefore fails the SUFFICIENT rule.
+4. Return: CONTRADICTED, not a weighted average and not SUCCESS.
+5. Permitted transition: block the completion claim, escalate or re-observe, and retain both
+evidence chains until resolution.
+When mandatory evidence conflicts, confidence is not averaged
+into certainty. Contradiction becomes a governed state.
+25. Reflexive Self-Audit and Current Revision Receipt
+A framework about compression should be able to survive its own protocol at the version
+currently being published. Version 1.4 therefore audits the active text against the defects
+identified in adversarial review of v1.3. Historical repairs remain part of revision history, but
+they do not substitute for a current-version audit. The audit also includes a full-document
+recurrence sweep for previously identified defect classes rather than checking only the location
+where a defect was first found.
+v1.3 adversarial finding v1.4 governed repair
+Stale active-version language
+remained in §6 and §8
+The active taxonomy and
+fidelity/custody sections now
+speak in present-tense
+framework language.
+Historical version references
+remain only where revision
+history or a prior defect is
+explicitly being discussed.
+The prior stale-reference
+repair was local rather than
+propagated
+A full-document recurrence
+sweep now checks every
+active paragraph and table
+for stale version-attribution
+patterns before certification.
+
+[Source PDF page 22]
+SEMANTIC COMPRESSION  |  v1.4
+DeMarius J. Lawson - Governing Engines   |   22
+v1.3 adversarial finding v1.4 governed repair
+Appendix C certification had
+no Compression Contract
+governing its own validity
+Appendix C now instantiates
+a Certification Compression
+Contract with source state,
+permitted state, scope, owner,
+validity state, expiration
+conditions, observable
+revalidation triggers,
+prohibited uses, and
+enforcement response.
+Generic Reality Primacy
+reopening language was too
+vague for certification
+governance
+Certification triggers are now
+enumerated. Any trigger
+moves VALID ->
+REVALIDATION_REQUIRED
+and blocks reliance on
+INTERNAL STRUCTURAL
+PASS until the audit protocol
+is rerun.
+Certification could remain
+visually present after its basis
+changed
+Any edit to load-bearing
+definitions/tests, any new
+qualifying contradiction, any
+failed mandatory E condition,
+or any discovered stale
+active-version reference
+invalidates continued
+reliance on the positive state
+until revalidation.
+Residual uncertainty
+The status remains internal
+and scope-bounded. External
+empirical effectiveness, legal
+sufficiency, domain-specific
+threshold validity, and
+independent certification
+remain outside the claimed
+result.
+A diagnostic framework is not mature merely because it can detect
+failures elsewhere. It must survive being pointed at itself.
+
+[Source PDF page 23]
+SEMANTIC COMPRESSION  |  v1.4
+DeMarius J. Lawson - Governing Engines   |   23
+26. How to Read This Work
+The papers in this body of work are organized by subject, but subject is not always the deepest
+unit of analysis. A paper may enter through AI, software execution, institutional harm, family
+viability, safety, social architecture, or civilizational drift. The title identifies the entry point. The
+mechanism may sit several layers below it.
+My papers are organized by subject. They are connected by
+mechanism.
+Connected Is Not Operational separates integration from operation and operation from proof.
+The System Didn't Work. The Operator Did separates system capability from operator
+compensation. The Cost of the Outcome restores hidden cost to visible outcomes. Civilizational
+Drift restores trajectory to static vocabulary. Danger Zones examines proof requirements before
+harm becomes the only admissible evidence. Follow the Harm restores consequence and
+custody to institutional process. Human Abstractions examines what happens when human
+representations are treated as world rules.
+The reading method is now demonstrated rather than merely requested: define the operation,
+identify the compression, enumerate states, test materiality, specify discriminating evidence,
+preserve unresolved states, follow the outcome, and require a receipt.
+The title tells you where the analysis entered. It does not tell you
+where the analysis ends.
+27. Testable Design Rules for Systems
+The following are conditional design rules. Each states an activation condition and a governed
+response.
+ If O, A, D, E, or Omega is undeclared, a materiality result is UNRESOLVED; consequential
+compression may not rely on a presumed materiality judgment.
+ If P(X) differs from P(Y) inside the declared operating envelope under the same (O, A, D, E,
+Omega), X/Y is MATERIAL and the distinction must remain representable, explicitly
+deferred, or blocked from governing action.
+ If a material distinction fails any mandatory capability in the Representational Ceiling Test,
+the representation is INADEQUATE for that operation and the stronger transition is
+prohibited until redesigned or narrowed.
+ If any mandatory Evidence Sufficiency condition fails, SUFFICIENT is prohibited; the system
+must return INSUFFICIENT, UNRESOLVED, or CONTRADICTED as appropriate.
+ If candidate states remain separate but evidence for one is used to authorize another,
+classify the failure as Representational Substitution; if the states are no longer separately
+representable, classify it as Distinction Loss.
+
+[Source PDF page 24]
+SEMANTIC COMPRESSION  |  v1.4
+DeMarius J. Lawson - Governing Engines   |   24
+ If qualifying contradiction enters the authorized challenge path, the controlling
+representation must pass the Evidence Sufficiency Decision Rule again or move to the
+corresponding unresolved/contradicted/revised state.
+ If a Compression Contract reaches REVALIDATION_REQUIRED, EXPIRED, VIOLATED, or
+REVOKED, dependent consequential transitions must follow the declared enforcement
+response rather than continue on stale authority.
+ If a proxy can be satisfied without the represented condition occurring, proof of the proxy
+cannot authorize the stronger claim unless an explicit validated mapping makes the proxy
+evidentially sufficient for that scope.
+ If two operations return different materiality results for the same distinction, treat the
+difference as operation-relative unless the declared contexts are actually the same; do not
+force global resolution where the governance objective differs.
+A rule is governed only when its inputs, return state, authority, and
+execution consequence are visible.
+28. Conclusion
+Semantic compression is a state-management problem for understanding, authority, and
+execution. Every functioning human and technical system compresses. The governing question
+is not whether compression exists, but whether the distinctions removed by that compression
+can change what the system is permitted to claim or do.
+Version 1.4 closes the structural defects identified in adversarial review of v1.3. Active
+framework sections no longer describe a prior version as the acting subject, and the revision
+performs a recurrence sweep so that version-attribution repair is not local to a single section.
+The revision also places internal certification under the same Compression Contract machinery
+required elsewhere in the framework. The certification now has an explicit source state,
+permitted compressed state, scope, owner, validity state, expiration conditions, observable
+revalidation triggers, prohibited uses, and violation response. A positive status may persist only
+while that contract remains VALID.
+The resulting dependency chain is explicit: declared operation -> authority scope -> decision
+rules -> operating envelope -> candidate states -> bounded materiality -> operative resolution ->
+representational ceiling -> evidence rule -> evidence sufficiency state -> permissible transition ->
+compression contract -> execution -> observation -> revalidation.
+The framework passes only when its own terms survive the tests it
+requires other systems to survive.
+Reality remains larger than every representation. The framework therefore does not promise
+final certainty. It governs the authority of claims under bounded evidence, preserves
+unresolved and contradictory states when required, and keeps every consequential
+representation reopenable to qualifying evidence.
+
+[Source PDF page 25]
+SEMANTIC COMPRESSION  |  v1.4
+DeMarius J. Lawson - Governing Engines   |   25
+Good systems do not eliminate compression. They govern what may
+be lost, who may authorize the loss, when it expires, and what
+evidence can overturn it.
+Appendix A. Key Definitions
+Term Definition
+Semantic Compression Reduction of operative structure into a representation
+that preserves less detail than the represented condition.
+Operating Envelope (Omega)
+Declared conditions, population, interfaces, time
+horizon, and failure classes the governed operation
+claims to cover.
+Decision Rules (D) Declared mapping from represented states
+and evidence states to permitted
+classifications, actions, claims, escalations,
+rollback states, recovery states, or terminal
+states. D answers what transition follows; A
+answers who may authorize it; E answers
+what evidence state exists.
+Permissible Downstream State
+Classification, decision, action, escalation,
+claim, recovery state, or terminal state
+allowed by authority A when decision rules D
+map the current represented/evidence state
+to that transition under evidence rule E.
+Material Distinction
+For a declared operation and full governing
+tuple (O, A, D, E, Omega), a candidate-state
+difference whose permissible downstream
+state set differs in at least one admissible
+condition inside Omega.
+Bounded Materiality Test
+Counterfactual comparison of P(X) and P(Y)
+under declared operation O, authority A,
+decision rules D, evidence rule E, and
+operating envelope Omega, returning
+MATERIAL, NON-MATERIAL, or
+UNRESOLVED.
+Semantic Resolution Amount of operative structure preserved by a
+representation.
+Operative Resolution
+Lowest abstraction level preserving every MATERIAL
+distinction and explicitly retaining unresolved
+materiality questions for the declared operation.
+
+[Source PDF page 26]
+SEMANTIC COMPRESSION  |  v1.4
+DeMarius J. Lawson - Governing Engines   |   26
+Term Definition
+Semantic Fidelity Preservation of operation-relevant distinctions between
+two compared representations.
+Semantic Custody
+Controlled preservation and traceability of operation-
+relevant meaning, evidence strength, uncertainty,
+conditions, and provenance across a transformation
+chain.
+Distinction Loss Failure in which materially different candidate states
+cease to be separately representable.
+Representational Substitution
+Failure in which states remain separately representable
+but evidence or warrant for one state authorizes a claim
+or transition belonging to another.
+Representational Ceiling
+Maximum operative resolution a system can preserve
+with its available states, relationships, evidence links,
+uncertainty modes, and authority interfaces.
+Evidence Sufficiency Decision Rule
+Declared rule returning SUFFICIENT, INSUFFICIENT,
+UNRESOLVED, or CONTRADICTED from mandatory
+evidence conditions and certifying authority.
+Compression Contract
+Executable governance record defining valid
+compression, scope, authority, evidence,
+provenance, validity state,
+expiration/revalidation triggers, prohibited
+uses, and enforcement response. A
+certification state is itself a consequential
+compression and therefore requires its own
+contract when the framework claims that
+status.
+Reality Primacy
+Authority rule requiring controlling representations to
+remain challengeable through qualifying evidence and
+authorized revalidation rather than receiving
+permanent immunity from contradiction.
+Appendix B. Reader Key
+The method has already been executed and adversarially stressed in the paper. This appendix is
+the compressed reusable key.
+ What operation is this representation supposed to support?
+ Who has authority to classify, act, certify, defer, or revoke?
+ What declared decision rules map represented/evidence states to permitted transitions?
+ What operating envelope does the claim actually cover?
+ What states have been compressed into this word, metric, or status?
+ Does the Bounded Materiality Test return MATERIAL, NON-MATERIAL, or UNRESOLVED?
+
+[Source PDF page 27]
+SEMANTIC COMPRESSION  |  v1.4
+DeMarius J. Lawson - Governing Engines   |   27
+ Can the system represent every material and unresolved state required by that operation?
+ What mandatory evidence conditions apply, and what evidence state do they return?
+ What transition is actually permissible under that evidence state?
+ What Compression Contract governs scope, expiration, revalidation, and violation response?
+ What external result and receipt would confirm execution?
+ What qualifying evidence would force the representation to reopen?
+Do not ask only what the label means. Ask what governed transition
+the label is being allowed to authorize.
+Appendix C. Self-Application Receipt
+Certification claim: Version 1.4 resolves the blocking defects identified in adversarial review of
+Version 1.3 and satisfies its own internal structural-admissibility procedure within the declared
+certification scope.
+Certification field Declared input / executed result
+Operation O
+Determine whether Semantic Compression
+v1.4 resolves the blocking defects identified in
+the v1.3 adversarial review and satisfies its
+own internal structural requirements within
+this document.
+Authority A
+Internal certifying authority: DeMarius J.
+Lawson, author of Semantic Compression,
+acting only within authorial/internal
+framework-audit scope. This authority may
+issue an internal structural status for this
+document; it may not issue independent peer
+certification, empirical validation, legal
+approval, or universal validity.
+Decision rules D
+Any undeclared governing input ->
+UNRESOLVED. Any mandatory evidence
+condition failed -> INSUFFICIENT. Any
+unresolved qualifying contradiction ->
+CONTRADICTED. Any certification-contract
+trigger -> REVALIDATION_REQUIRED and
+positive status may not be relied upon. Only if
+all scoped mandatory requirements are
+represented and satisfied and the
+certification contract is VALID -> INTERNAL
+STRUCTURAL PASS.
+
+[Source PDF page 28]
+SEMANTIC COMPRESSION  |  v1.4
+DeMarius J. Lawson - Governing Engines   |   28
+Certification field Declared input / executed result
+Evidence rule E
+Conjunctive mandatory conditions: (1)
+discrimination - each v1.3 blocking defect has
+a separately identifiable repair; (2)
+provenance - repairs are visible in the active
+v1.4 text and revision receipt; (3) temporal
+applicability - the audit targets this current
+version; (4) contradiction handling - no
+known scoped contradiction is hidden or
+averaged away; (5) consequence threshold - a
+positive status is limited to internal structural
+admissibility; (6) certification authority - the
+named internal certifier is authorized only
+for that limited status; (7) recurrence sweep -
+previously observed defect classes are
+checked across the active document, not only
+at their original locations; (8) contract validity
+- the certification Compression Contract is
+VALID at issuance.
+Operating envelope Omega
+Semantic Compression v1.4 text, definitions,
+tests, worked/adversarial executions, active
+self-audit, appendices, certification contract,
+and internal cross-references. Excludes
+external empirical effectiveness, legal
+compliance, domain-specific threshold
+validity, and independent peer certification.
+Representational adequacy
+PASS internally: the five governing inputs,
+unresolved/contradicted states, decision
+rules, ceiling test, evidence states,
+certification limits, recurrence-sweep
+requirement, and certification-contract states
+are explicitly representable in the document.
+Evidence sufficiency execution
+SUFFICIENT for the scoped internal claim: all
+mandatory E conditions are represented and
+satisfied for the blocking v1.3 findings at
+issuance. Any later qualifying trigger
+invalidates continued reliance on this state
+until revalidation.
+
+[Source PDF page 29]
+SEMANTIC COMPRESSION  |  v1.4
+DeMarius J. Lawson - Governing Engines   |   29
+Certification field Declared input / executed result
+Contradiction check
+No known unresolved contradiction in the
+scoped v1.3 findings after repair. A new
+qualifying contradiction is an explicit
+certification-contract trigger and moves the
+state to REVALIDATION_REQUIRED.
+Permitted certification transition
+D maps SUFFICIENT + no unresolved scoped
+contradiction + VALID certification contract
+to INTERNAL STRUCTURAL PASS; it does not
+permit an unqualified STRUCTURAL PASS.
+Certification Compression Contract - source
+state
+INTERNAL_AUDIT_PENDING
+Certification Compression Contract -
+permitted compressed state
+INTERNAL_STRUCTURAL_PASS, limited to the
+declared internal structural-audit scope.
+Certification Compression Contract - owner DeMarius J. Lawson, author/internal
+framework-audit authority, within the limits
+declared in A.
+Certification Compression Contract - validity
+state at issuance
+VALID
+Certification Compression Contract -
+expiration condition
+Any new published revision of the document
+or any edit to a load-bearing definition, test,
+protocol, taxonomy, design rule, self-audit
+rule, certification rule, or certification scope
+ends the current certification instance and
+requires a new audit.
+Certification Compression Contract -
+revalidation triggers
+Any new adversarial review identifying a
+scoped contradiction; any change to O, A, D,
+E, or Omega; any edit to the Materiality Test,
+Evidence Sufficiency Decision Rule, Reality
+Primacy challenge path, Representational
+Ceiling Test, Compression Contract rules, or
+self-audit procedure; any discovered stale
+active-version reference; any failure of a
+mandatory E condition; or any evidence that
+the recurrence sweep missed a previously
+known defect class.
+Certification Compression Contract -
+prohibited uses
+The status may not be represented as
+independent peer certification, empirical
+validation, legal approval, domain-wide
+proof, permanent validity, or evidence that
+
+[Source PDF page 30]
+SEMANTIC COMPRESSION  |  v1.4
+DeMarius J. Lawson - Governing Engines   |   30
+Certification field Declared input / executed result
+future versions inherit the same status.
+Certification Compression Contract - trigger
+transition
+On any trigger: VALID ->
+REVALIDATION_REQUIRED. Dependent
+reliance on INTERNAL_STRUCTURAL_PASS is
+blocked until the declared audit protocol is
+rerun against the active text.
+Certification Compression Contract - violation
+condition
+Continuing to present or rely on
+INTERNAL_STRUCTURAL_PASS after a
+trigger, expiration condition, or failed
+mandatory evidence condition without
+rerunning the certification protocol.
+Certification Compression Contract - violation
+response
+Mark the prior certification EXPIRED or
+REVALIDATION_REQUIRED as applicable;
+suppress reliance on the positive status;
+record the triggering defect; rerun the
+internal protocol; restore a positive state only
+if the new execution returns SUFFICIENT
+with no unresolved scoped contradiction and
+a VALID contract.
+Result INTERNAL STRUCTURAL PASS - scoped to the
+declared internal structural audit of v1.4,
+with Certification Compression Contract state
+VALID at issuance. Reopenable; not
+independent certification.
+Certification status: INTERNAL STRUCTURAL PASS for the declared internal audit scope only,
+while the Certification Compression Contract remains VALID. This is authorial/internal
+framework certification, not independent external certification, empirical validation, legal
+approval, or immunity from future contradiction.
+Internal certification is scoped, governed, contract-bound,
+reopenable, and subordinate to qualifying contradiction. Any
+declared certification trigger moves the contract from VALID to
+REVALIDATION_REQUIRED and suppresses reliance on the positive
+status until the protocol is rerun.

@@ -1,0 +1,1400 @@
+PUBLIC SOURCE TEXT EDITION
+HUMAN ABSTRACTIONS
+Source supplied by the author for public research discovery.
+Text extracted from the supplied artifact; layout, tables and pagination may differ.
+Privacy filtering is marked inline. This is not the original binary artifact.
+
+[Source PDF page 1]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+GOVERNING ENGINES
+HUMAN ABSTRACTIONS
+Remembering Which Rules Belong to the World and Which Rules Belong
+to Us
+Version 1.0 - Public Paper
+DeMarius J. Lawson
+Governing Engines LLC
+September 3, 2026
+Human beings may invent freely. Reality retains veto authority.
+
+[Source PDF page 2]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+Abstract
+Human beings live inside two overlapping systems. The first is reality itself: matter, energy, biology,
+space, time, causality, uncertainty, physical limitation, resource distribution, human capability, and
+consequence. The second is the immense collection of abstractions humans have constructed to
+coordinate life inside that reality: money, property, employment, corporations, governments, laws,
+borders, credentials, markets, insurance, social status, schedules, metrics, and thousands of derivative
+structures.
+These abstractions are not imaginary in the sense of being inconsequential. They can determine where a
+person may live, whether medical treatment is available, what resources a person may access, what
+authority they possess, where they may travel, and what opportunities are available. Their
+consequences are often extremely real. But real consequence does not establish reality-level necessity.
+This paper develops a civilizational decomposition method for separating underlying reality-bound
+responsibilities from the human mechanisms currently used to satisfy them. The method begins with an
+ordinary day, strips away constructed layers, identifies the problems reality recreates anyway, maps
+those problems to recurring civilizational responsibilities, and then audits major abstractions against
+those responsibilities.
+The paper does not begin from capitalism, socialism, markets, planning, centralized government,
+decentralization, or abolition. Those are already bundled answers. The inquiry moves beneath them. Its
+central question is: What does society claim must exist for civilization to function, and which of those
+requirements are actually imposed by reality rather than inherited human architecture?
+Executive Thesis
+A structure can become indispensable to the functioning of an existing system
+without being indispensable to the underlying reality that system is attempting to
+govern.
+Civilizations inherit mechanisms. Once those mechanisms become infrastructure, later generations
+experience them less as design choices and more as environmental facts. A person born into a monetary
+economy does not first encounter money as an optional coordination technology. They encounter it as a
+condition of participation. A person born into nation-states does not first encounter jurisdiction as a
+historical implementation. They encounter borders, citizenship, legal identity, and state authority as the
+map of the world.
+The analytical mistake occurs when dependence on an inherited mechanism is treated as proof that the
+mechanism is fundamental. Human beings may need allocation; that does not establish every present
+allocation mechanism. Humans may need productive activity; that does not establish wage employment
+as the only viable coordination structure. Humans may need competence assurance; that does not
+establish any particular credential. Humans may need conflict resolution; that does not establish every
+feature of a contemporary legal system.
+The purpose of Human Abstractions is not to destroy the map. It is to stop confusing the map with the
+terrain.
+
+[Source PDF page 3]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+1. The Inquiry
+1.1 Two kinds of rules
+Some rules belong to the world whether humans recognize them or not. Bodies require compatible
+biological conditions. Physical work requires energy. Matter occupies space. Actions produce
+consequences. Processes take time. Information can be incomplete. A bridge can fail even when every
+person involved sincerely believes it is safe.
+Other rules exist because humans created, recognized, recorded, enforced, or inherited them. A
+mortgage has conditions. A corporation has governance. A university has admission requirements. A
+country has citizenship rules. A market has accepted exchange protocols. A company has job titles. A
+court has jurisdiction.
+The second category is not unreal. Human enforcement can make a constructed rule materially
+consequential. The distinction is therefore not real versus fake. It is reality-level constraint versus
+human-created mechanism.
+1.2 The governing question
+If humans had never invented this abstraction, what problem would reality still
+force us to solve?
+If the problem disappears when the abstraction disappears, the problem may be substantially
+abstraction-generated. If the problem remains but can be solved through multiple mechanisms, the
+abstraction is an implementation. If the problem reappears because physical, biological, informational,
+or causal conditions recreate it, the underlying responsibility is closer to the reality floor.
+This removal test does not prove that an alternative will work at scale. It establishes the correct object of
+investigation. Once the underlying responsibility is isolated, competing mechanisms can be evaluated
+against the same responsibility rather than defended by tradition.
+2. The Thursday Test: One Ordinary Day
+6:00 AM - The Alarm
+The alarm sounds because the person has somewhere to be. Human bodies require sleep. Travel takes
+time. Events occur sequentially. Those conditions remain if clocks disappear. But 6:00 AM is a
+standardized representation, Thursday is a calendar classification, and 'report to work at 8:00' is an
+institutional requirement. Remove the clock and duration remains. Remove Thursday and astronomical
+cycles continue. Remove the employment schedule and productive responsibilities remain, but reality
+itself does not command a particular reporting time.
+6:05 AM - The House
+The person stands inside a structure that protects a human body from environmental conditions. Shelter
+is reality-near. Yet access to the structure may be mediated by ownership, rent, mortgage, interest,
+insurance, zoning, property tax, title, lease, utility accounts, and legal occupancy. If the person's bank
+balance falls to zero, the roof does not lose its physical ability to stop rain. What changes is institutional
+permission to remain beneath it.
+
+[Source PDF page 4]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+6:20 AM - Water and Electricity
+Water must physically exist, be safe enough for use, and reach the person. Electricity requires
+generation, transmission, infrastructure, maintenance, and energy. Those responsibilities remain if
+billing disappears. Customer accounts, rates, meters, late fees, and disconnection rules are mechanisms
+governing the delivery architecture. The audit asks which parts are required to deliver the resource and
+which are required to operate the current institutional model of delivery.
+6:45 AM - Breakfast
+Biology requires nutrients and energy. Modern access may pass through agriculture, land ownership,
+financing, labor, distribution, retail, price, banking, and purchasing power. The biological endpoint is
+nutrition. The institutional endpoint may be ability to pay. A resource can physically exist while a
+person remains institutionally unable to access it.
+7:15 AM - Clothing
+Clothing can protect the body from environmental conditions while simultaneously carrying dress
+codes, professional norms, status signals, fashion, gender conventions, branding, and organizational
+requirements. One object can therefore satisfy both reality-bound and abstract responsibilities. Human-
+created does not mean meaningless.
+7:30 AM - The Vehicle
+The vehicle is governed by physics and institutions at once. Momentum, traction, mass, reaction time,
+and collision severity are physical relationships. Title, registration, licensing, insurance, financing, traffic
+law, and jurisdiction are constructed mechanisms. A speed limit is not a law of physics, but it may
+govern a genuine relationship between speed and harm. The mechanism is constructed; the condition it
+attempts to govern may not be.
+7:45 AM - Invisible Lines
+The person crosses a municipal or county boundary. Nothing visible changes in the soil or atmosphere,
+yet different authorities, taxes, procedures, and regulations may apply. An abstraction does not require
+physical embodiment to exercise causal power through humans who recognize and enforce it.
+8:00 AM - Work
+Civilization requires productive activity: food, maintenance, care, energy, construction, knowledge,
+repair. Employment surrounds productive activity with employer, employee, wage, schedule,
+management, benefits, payroll, tax withholding, performance rules, and organizational authority. Work
+survives conceptual removal of employment. Employment does not automatically survive conceptual
+removal of work.
+10:30 AM - The Manager
+A manager's authority is not a biological property. It is delegated through an organizational chain. Yet
+refusal can affect employment, employment can affect income, and income can affect food, shelter,
+healthcare, and mobility. Authority in one abstraction can propagate through dependencies into
+unrelated domains.
+
+[Source PDF page 5]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+12:00 PM - Lunch
+Biology returns. The body consumes energy and requires more. Human abstractions repeatedly mediate
+access to the satisfaction of recurring biological conditions. The fact that a requirement returns
+physically does not establish that the same access mechanism must mediate it each time.
+1:30 PM - Productivity
+The employer measures performance. A condition becomes a measurement, the measurement becomes
+a metric, the metric becomes a target, and the target becomes attached to reward or punishment. At that
+point the representation begins reshaping the reality it was created to describe.
+5:00 PM - Payday
+Numbers change in a database. The person's body may be unchanged, but access to food, shelter,
+transportation, services, debt reduction, and discretionary goods changes. A socially recognized
+representation has altered material possibility.
+5:30 PM - Grocery Store
+The store contains physical objects capable of satisfying biological needs. The checkout system generally
+asks whether the recognized monetary claim attached to the buyer can satisfy the recognized monetary
+claim attached to the goods. Biological eligibility and institutional eligibility are different conditions.
+6:30 PM - Healthcare
+A biological condition can be surrounded by provider classification, scheduling, licensing, insurance,
+coverage, network status, deductible, procedure code, billing, and payment. Some intermediary
+responsibilities may be essential. Others may be products of surrounding abstractions. The point is to
+separate the body-needs-treatment chain from the institution-allows-treatment chain.
+8:00 PM - Success
+Social comparison introduces abstractions that may no longer require external enforcement. Wealth,
+career, followers, titles, degrees, marriage, homeownership, and prestige can become internal measures
+of human worth. External structure becomes social expectation; social expectation can become self-
+governance.
+10:30 PM - Strip the Day Down
+Remove dollars, rent, mortgages, corporations, job titles, credit scores, jurisdictions, insurance policies,
+salaries, prices, degrees, KPIs, follower counts, and the word Thursday. A living organism remains. It still
+requires water, nutrition, sleep, environmental protection, care, information, relationships, physical
+resources, coordination, and mechanisms for handling conflict and uncertainty. Consequences remain.
+3. The Reality Floor
+The Reality Floor is not a final metaphysics. It is a disciplined first-pass inventory of conditions that
+appear to survive removal of familiar human institutions. Each item remains open to deeper
+decomposition.
+ID Reality-floor condition Why it survives
+
+[Source PDF page 6]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+RF-01 Biological Continuity Human organisms require water,
+nutrients, oxygen under ordinary
+conditions, compatible temperatures,
+rest, waste removal, biological
+maintenance, and recovery.
+RF-02 Matter Physical production requires
+material. Matter has properties and
+finite configurations independent of
+ownership or price.
+RF-03 Energy Biological persistence and physical
+transformation require usable energy.
+RF-04 Space Humans and resources occupy space.
+Incompatible physical uses cannot
+always coexist.
+RF-05 Rivalry Some resources cannot satisfy
+unlimited simultaneous claims.
+Allocation can therefore be a reality-
+generated responsibility.
+RF-06 Heterogeneous Need Humans differ in health, age, location,
+ability, knowledge, and material
+requirement.
+RF-07 Limited Individual Capacity One person cannot perform every
+function required by a complex
+civilization.
+RF-08 Unequal Knowledge Information is distributed unevenly.
+Humans can be wrong, forget,
+misunderstand, and lack relevant
+evidence.
+RF-09 Learning Knowledge must be discovered,
+transmitted, practiced, preserved, and
+corrected.
+RF-10 Coordination Some outcomes require multiple
+actors and dependencies to align.
+RF-11 Conflicting Objectives Humans can want incompatible
+outcomes or make competing claims.
+RF-12 Capacity for Harm Humans can injure, deceive, exploit,
+coerce, or kill.
+RF-13 Consequence Propagation Actions can affect people who did not
+choose them.
+RF-14 Dependence Children, injured people, aging
+people, and complex societies depend
+on others.
+RF-15 Uncertainty Future states cannot be perfectly
+known before action.
+RF-16 Time and Sequence Processes have duration,
+
+[Source PDF page 7]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+prerequisites, and order.
+RF-17 Maintenance Bodies, machines, infrastructure,
+ecosystems, and knowledge degrade
+or change.
+RF-18 Waste and Byproducts Physical transformation produces
+residual effects.
+RF-19 Generational Continuity Humans die and new humans are
+born; knowledge and responsibility
+must cross generations.
+RF-20 Scale Coordination requirements change
+with population and system size.
+RF-21 Geography Resources, climate, hazards, and
+distance are unevenly distributed.
+RF-22 Production Dependencies Complex outcomes require
+prerequisite chains.
+RF-23 Incomplete Control Human intention does not guarantee
+outcome.
+RF-24 Reality Veto Physical, biological, informational,
+and causal conditions can disconfirm
+human claims regardless of authority.
+4. Civilizational Responsibilities
+The Reality Floor does not tell humanity which institutions to build. It tells us which classes of problem
+recur. Those recurring problems can be expressed as responsibilities. The following map is deliberately
+broader than any one ideology.
+ID Candidate underlying responsibility
+CR-01 Biological continuity
+CR-02 Resource allocation
+CR-03 Resource stewardship
+CR-04 Production
+CR-05 Coordination
+CR-06 Exchange
+CR-07 Accounting
+CR-08 Deferred obligation
+CR-09 Risk distribution
+CR-10 Conflict resolution
+CR-11 Harm prevention
+CR-12 Consequence assignment
+CR-13 Decision authority
+
+[Source PDF page 8]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+CR-14 Authority scope
+CR-15 Collective decision-making
+CR-16 Territorial coordination
+CR-17 Identity persistence
+CR-18 Membership
+CR-19 Knowledge creation
+CR-20 Knowledge preservation
+CR-21 Knowledge transmission
+CR-22 Competence development
+CR-23 Competence verification
+CR-24 Measurement
+CR-25 Time coordination
+CR-26 Logistics
+CR-27 Infrastructure provision
+CR-28 Maintenance
+CR-29 Waste handling
+CR-30 Resilience
+CR-31 Generational continuity
+CR-32 Care
+CR-33 Social trust
+CR-34 Social coordination
+CR-35 Status signaling
+CR-36 Access control
+CR-37 Information access
+CR-38 Security
+CR-39 External coordination
+CR-40 Value signaling
+CR-41 Incentive formation
+CR-42 Capability discovery
+CR-43 Capability deployment
+CR-44 Succession
+CR-45 Behavioral predictability
+CR-46 Scarcity management
+CR-47 Shared-resource governance
+CR-48 Collective financing
+CR-49 Personal autonomy
+
+[Source PDF page 9]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+CR-50 Social legitimacy
+CR-51 Reality correction
+CR-52 Continuity under uncertainty
+CR-53 Representation
+CR-54 Standardization
+CR-55 Dispute prevention
+CR-56 Responsibility custody
+CR-57 Dependency management
+CR-58 Human development
+CR-59 Meaning formation
+CR-60 Collective memory
+This set is not claimed to be irreducible. Several responsibilities may later collapse into deeper families.
+That is a feature of the method: decomposition remains open until evidence justifies stopping.
+5. The Abstraction Audit Method
+A. Name the abstraction
+Define the thing being examined without smuggling in a judgment.
+B. Identify its claimed function
+What problem does society say this abstraction solves?
+C. Identify the underlying responsibility
+What must still be accomplished if the abstraction disappears?
+D. Locate the reality constraint
+Which physical, biological, informational, causal, or human limitation produces the responsibility?
+E. Map dependencies in
+What other abstractions must exist for this abstraction to operate?
+F. Map dependencies out
+What later structures become necessary because this abstraction exists?
+G. Record consequences
+What does the mechanism actually cause, including effects outside its own accounting boundary?
+H. Examine historical variants
+Has the responsibility been handled differently under other conditions?
+
+[Source PDF page 10]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+I. Generate alternative mechanisms
+Could the same responsibility be satisfied through another architecture?
+J. Perform the removal test
+What breaks when the abstraction is removed? Which breakages are fundamental and which are local
+to the surrounding system?
+K. Identify the irreducible remainder
+What problem survives every removal attempted so far?
+L. Assign Reality Status
+Reality-Bound, Implementation, Derived Dependency, Representation, Hybrid, or Unresolved.
+6. Reality Status Taxonomy
+REALITY-BOUND
+The underlying requirement survives abstraction removal because reality recreates the condition.
+IMPLEMENTATION
+A real responsibility exists, but the abstraction is one human mechanism for satisfying it.
+DERIVED DEPENDENCY
+Its necessity arises substantially from other human abstractions.
+REPRESENTATION
+It describes, measures, symbolizes, or standardizes a condition without being the underlying
+phenomenon.
+HYBRID
+The abstraction contains multiple layers or performs multiple classes of function.
+UNRESOLVED
+The decomposition is not sufficient to justify a stronger classification.
+7. Local Necessity Versus Fundamental Necessity
+Nearly every mature institution can demonstrate that removing it abruptly would create disruption.
+That is not surprising. Systems are built around their existing components.
+Local necessity asks whether a component is required if the surrounding architecture remains
+unchanged. Fundamental necessity asks whether the underlying problem reappears even after
+surrounding human abstractions are removed.
+Payroll can be locally necessary to a wage-employment system. Claims processing can be locally
+necessary to an insurance system. A property registry can be locally necessary to a title-based property
+
+[Source PDF page 11]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+system. These observations do not establish that payroll, insurance claims, or title registries are
+fundamental requirements of human civilization.
+A heart is necessary to the ordinary functioning of a human body because the underlying biology
+recreates the requirement. A mortgage servicer is necessary only within an architecture that contains
+mortgages requiring servicing. Those are different classes of necessity.
+A mechanism can be locally indispensable while fundamentally replaceable.
+8. Abstraction Chains, Loops, and Dependency
+Employment loop
+Necessities -> Money -> Income -> Employment -> Continued access to necessities.
+Housing loop
+Property -> Housing price -> Mortgage or rent -> Income -> Credit/eligibility -> Housing access.
+Credential loop
+Credential -> Employment eligibility -> Income -> Education affordability -> Credential access.
+Capital loop
+Capital -> Productive capacity -> Profit -> More capital -> Greater productive capacity.
+Authority loop
+Political authority -> Law -> Enforcement -> Recognition of political authority.
+A self-reinforcing loop can create evidence of its own necessity. If survival access is attached to job-
+derived income, people will correctly report that they need jobs. That establishes a dependency in the
+present architecture. It does not establish employment as a law of nature.
+9. Abstraction Debt
+Abstraction Debt is the additional coordination, administration, enforcement, corrective, and
+maintenance machinery required because prior human abstractions introduced dependencies that must
+themselves be managed.
+Money enables generalized exchange and then requires mechanisms for fraud, accounting, banking
+controls, financial regulation, identity verification, debt collection, bankruptcy, tax accounting, and
+compliance. Ownership enables durable custody and exclusion and then requires title systems,
+registries, liens, foreclosure processes, property litigation, and enforcement. Employment coordinates
+productive labor and then generates payroll, benefits administration, labor regulation, unemployment
+systems, workplace classification, and human-resources machinery.
+These descendants may perform legitimate responsibilities. The analytical requirement is simply to
+charge their existence to the architecture that generated them when comparing mechanisms. An
+abstraction should not receive credit only for the problem it solves while the systems required to
+maintain its consequences are treated as unrelated.
+
+[Source PDF page 12]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+Every abstraction has a systems cost, not merely an advertised function.
+10. Abstraction Capture
+Abstraction Capture occurs when a representation or mechanism created to serve an underlying
+condition becomes the dominant optimization target and the underlying reality becomes subordinate to
+it.
+The recurring structure is: Reality -> Representation -> Target -> Reward or Authority -> Behavior ->
+Changed Reality.
+Learning can become a test score, after which teaching optimizes the score. Human attention can
+become engagement, after which products optimize engagement. Organizational health can become a
+KPI, after which behavior optimizes the KPI. Economic activity can become a financial metric, after
+which policy and capital allocation optimize the metric.
+The representation may remain useful. The failure occurs when improvement in the representation is
+allowed to certify improvement in the underlying condition without checking the underlying condition.
+11. Root Abstraction Families
+Root family Representative abstractions
+Value money, currency, price, profit, valuation, wealth
+Ownership property, rent, inheritance, intellectual property, title
+Exchange markets, trade, commerce, transactions
+Finance debt, credit, banking, investment, interest
+Production labor, employment, jobs, wages
+Organization corporations, hierarchy, management, offices
+Authority permission, jurisdiction, office, delegated power
+Government state, election, bureaucracy, public administration
+Law crime, court, liability, enforcement, contract
+Territory borders, citizenship, immigration, zoning
+Allocation eligibility, rationing, priority, queues
+Knowledge education, credentials, expertise, publication
+Measurement metrics, scores, rankings, benchmarks
+Identity nationality, class, status, legal identity
+Social Order norms, marriage, customs, traditions
+Risk insurance, liability, reserves, risk scoring
+Technology platforms, accounts, digital identity, AI systems
+Time Coordination schedules, calendars, deadlines, business hours
+
+[Source PDF page 13]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+12. Full Decomposition I - Money
+12.1 What money is
+Money is a socially recognized representation of claims. A dollar is not food, shelter, electricity, labor, or
+a machine. It is a generalized claim that participating institutions and people agree to recognize under
+specified conditions.
+12.2 Representation
+Money allows heterogeneous goods, services, time, and obligations to be expressed through a common
+representation. The underlying responsibility is not 'have dollars'; it is scalable representation of
+transferable claims.
+12.3 Accounting
+Civilizations need to track resource flows, obligations, production, consumption, and tradeoffs.
+Monetary accounting compresses many dimensions into a common unit. Accounting is a responsibility;
+monetary accounting is an implementation.
+12.4 Exchange coordination
+Money reduces the need for direct coincidence of wants. A person can contribute to one actor and later
+redeem the recognized claim with another. The underlying responsibility is scalable exchange among
+actors who may not know one another.
+12.5 Scarcity signaling
+Prices can communicate information about demand, availability, production difficulty, and competing
+uses. But price is not physical scarcity. Monopoly, policy, speculation, information asymmetry, and
+market power can alter price. The signal is generated by a mechanism.
+12.6 Allocation
+Markets often resolve competing claims through ability to pay. That is a real allocation mechanism, but
+monetary capacity is not identical to biological need, social consequence, or moral priority.
+12.7 The ability-to-pay gate
+A resource can physically exist and remain institutionally inaccessible because the claimant lacks the
+accepted monetary representation. Physical availability and institutional eligibility must therefore be
+tracked separately.
+12.8 Work and income
+Reality may require productive contribution. The structure sell labor -> receive money -> purchase
+access to necessities is one implementation of that requirement, not the requirement itself.
+12.9 Incentives
+Money is a generalized incentive token because it can be converted into many desired outcomes. The
+underlying responsibility is to ensure necessary work is performed reliably, including work that is
+unpleasant, dangerous, repetitive, or otherwise unattractive.
+
+[Source PDF page 14]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+12.10 Stored claims
+Savings preserve claims across time. The underlying responsibility is continuity between present
+contribution and future access. That does not independently establish unlimited accumulation or every
+inheritance and compounding rule.
+12.11 Capital
+Large monetary claims can purchase productive capacity: land, machines, computation, labor,
+distribution, research, and companies. Money can therefore become a claim over future possibility, not
+merely current consumption.
+12.12 Debt
+Debt permits present access in exchange for future obligation. It makes future production partially
+claimable by past agreements. The responsibility may be legitimate; the architecture remains human-
+created.
+12.13 Creditworthiness
+Credit scores arise because lending architectures need scalable estimates of repayment risk. They can be
+locally useful while remaining derived dependencies of a particular financial mechanism.
+12.14 Interest
+Interest compensates for combinations of time, risk, opportunity cost, inflation, default possibility, and
+profit. The deeper question is how benefits from previously accumulated resources that enable new
+production should be allocated.
+12.15 Wealth
+Real productive wealth can include food capacity, housing, energy, healthcare, infrastructure,
+knowledge, machines, healthy ecosystems, and free human time. Monetary wealth represents claims
+against parts of that world. The representation can rise while some underlying human conditions
+deteriorate.
+12.16 Profit
+Profit compares monetarily recognized revenue with monetarily recognized cost. Real consequences can
+fall outside the accounting boundary. Profitable therefore means the accepted monetary accounting
+shows a surplus; it does not independently establish net human or ecological benefit.
+12.17 Greed and unbounded representation
+Biological consumption has practical limits. A generalized numerical claim can grow without an
+intrinsic biological stopping point. Money can therefore provide an unusually scalable vehicle for
+accumulation, although money and greed are not identical.
+12.18 Human worth
+Monetary holdings cannot directly establish wisdom, kindness, creativity, moral character, parental
+value, dignity, or competence outside the domain actually measured. Converting economic
+representation into generalized human ranking is a category error.
+
+[Source PDF page 15]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+12.19 Necessities
+Using the same allocation mechanism for discretionary consumption and biological necessities creates a
+condition in which a person can be monetarily ineligible for something they remain biologically eligible
+for.
+12.20 Four kinds of scarcity
+Physical Scarcity
+The resource itself is insufficient, inaccessible, unusable, or physically unavailable.
+Allocative Scarcity
+Available quantity cannot satisfy all simultaneous claims.
+Access Scarcity
+The resource exists, but an actor lacks the institutionally accepted claim required for access.
+Artificial Scarcity
+Supply or access is deliberately restricted by human mechanism despite greater physical availability
+being possible.
+12.21 Money Reality Separation Record
+Primary classification: IMPLEMENTATION / BUNDLED MECHANISM / DEPENDENCY ROOT.
+Underlying responsibilities: exchange, accounting, allocation, scarcity signaling, transferable claims,
+deferred claims, incentives, stranger coordination, capital aggregation.
+Reality-bound conditions: heterogeneous needs and capabilities, uneven resource distribution, rivalrous
+resources, finite productive capacity, uncertainty, coordination requirements, and projects requiring
+pooled resources.
+Fundamental necessity of the current implementation: NOT ESTABLISHED.
+Necessity of several underlying responsibilities: STRONGLY SUPPORTED.
+Money's usefulness does not establish the necessity of every dependency
+civilization has attached to money.
+13. Full Decomposition II - Ownership and Property
+13.1 The bundle
+Ownership commonly bundles use, exclusion, decision authority, transfer, income rights, stewardship,
+liability, inheritance, and sometimes destruction rights. Those functions need not be treated as one
+indivisible thing.
+13.2 Reality underneath property
+Physical resources occupy space, can be damaged, require maintenance, and can face incompatible
+claims. Those conditions create real responsibilities around custody, stewardship, allocation, and
+conflict.
+
+[Source PDF page 16]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+13.3 Use is not title
+A human can physically use a resource without holding a recognized title. Title is a representation of an
+institutional claim about authority over use and transfer.
+13.4 Stewardship
+Someone or some system must often maintain resources. This is one of the strongest reality-bound
+responsibilities beneath property. The question is whether stewardship requires the entire
+contemporary ownership bundle.
+13.5 Exclusion
+Some uses are incompatible. Exclusion can therefore be a legitimate coordination mechanism. But the
+need to resolve incompatible uses does not establish unlimited exclusion across all resource classes.
+13.6 Land
+Land is physical; parcel boundaries, title, zoning classifications, and market valuation are human
+overlays. Geography survives. The jurisdictional and ownership map does not automatically.
+13.7 Inheritance
+Generational continuity is real. The transfer of knowledge, care, responsibility, and infrastructure must
+occur. The automatic transfer of every property claim under a particular inheritance regime is a
+separate design choice.
+13.8 Removal test
+Remove ownership conceptually. Questions remain: Who may use a resource? Who maintains it? Who
+resolves incompatible claims? Who bears consequences? The responsibilities survive. The current
+bundle is therefore best treated as an implementation until stronger necessity is demonstrated.
+Ownership may implement genuine responsibilities without every present
+ownership rule becoming reality-bound.
+14. Full Decomposition III - Work and Employment
+14.1 Productive activity
+Civilization requires food production, care, maintenance, construction, logistics, research, energy, and
+other work. Productive activity survives institutional removal.
+14.2 Employment as coordination
+Employment packages role assignment, authority, scheduling, compensation, accountability, and
+organizational membership.
+14.3 Native versus attached functions
+Native functions include coordinating labor, assigning responsibility, and compensating contribution.
+Attached functions can include healthcare access, retirement access, housing eligibility,
+creditworthiness, and social status.
+
+[Source PDF page 17]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+14.4 Dependency amplification
+When unrelated necessities are attached to employment-derived income, job loss propagates beyond the
+loss of one productive role.
+14.5 Incentive problem
+Necessary work still has to occur under any alternative. A credible redesign must answer who performs
+undesirable work, how competence is established, how contribution is coordinated, and how free-riding
+or chronic nonparticipation is handled.
+14.6 Automation
+Automation can reduce the amount of human labor required for a responsibility, but it does not
+eliminate the responsibility itself. Machines require design, energy, maintenance, monitoring, and
+correction.
+14.7 Removal test
+Remove employment. Production, specialization, coordination, competence, responsibility, and
+incentives remain. Employment is therefore an implementation bundle rather than the underlying
+requirement.
+Reality may require productive activity without requiring the institution of
+employment.
+15. Full Decomposition IV - Government, Authority, and Law
+15.1 Government as a bundle
+Government commonly carries coordination, infrastructure, collective decision-making, authority,
+conflict resolution, security, shared-resource governance, financing, and consequence assignment.
+15.2 Governing responsibility versus government form
+Large groups need ways to make collective decisions, assign authority, preserve continuity, and resolve
+conflicts. Those responsibilities can survive removal of a particular state architecture.
+15.3 Authority requires scope
+An authority that applies to everything without boundary is structurally different from bounded
+authority. Scope may be territorial, functional, contractual, resource-based, or otherwise defined.
+Authority scope appears important; nation-state borders are one implementation.
+15.4 Law
+Remove statute books and humans can still harm one another, make agreements, dispute claims, and
+require adjudication. Conflict resolution, behavioral predictability, and consequence remain. Specific
+legal classifications and procedures are implementations.
+
+[Source PDF page 18]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+15.5 Enforcement
+Rules without any mechanism of consequence may fail to govern actors who reject them. Enforcement is
+therefore a genuine design problem. Police, courts, sanctions, restorative systems, technical constraints,
+and community mechanisms are different implementations.
+15.6 Legitimacy
+Authority can be obeyed because of force, consent, tradition, perceived competence, procedure,
+dependency, or social recognition. These are different sources of practical legitimacy and should not be
+collapsed.
+15.7 Removal test
+Remove a particular government. Coordination, shared infrastructure, conflict, harm, collective
+decisions, external threats, and authority questions remain. Government form is implementation;
+governing responsibilities survive.
+16. Full Decomposition V - Territory, Borders, and Membership
+16.1 Geography versus jurisdiction
+Mountains, rivers, distance, climate, and resource distribution are physical. Jurisdictional boundaries
+assign human meaning and authority to portions of geography.
+16.2 Membership
+Groups need ways to distinguish participants, responsibilities, rights, and obligations. Citizenship is one
+membership architecture.
+16.3 Movement
+Physical movement is constrained by distance, terrain, energy, and safety. Immigration law adds
+institutional permission to movement across jurisdictional boundaries.
+16.4 Security
+Communities may face genuine external threats. That does not by itself establish any specific border
+regime.
+16.5 Removal test
+Remove national borders conceptually. Geography, logistics, group identity, coordination, security, and
+authority scope remain. The current territorial implementation is therefore hybrid rather than identical
+to geography itself.
+17. Full Decomposition VI - Education, Knowledge, and Credentials
+17.1 Learning survives school
+Humans require knowledge transmission and competence development. A school is an institutional
+implementation.
+
+[Source PDF page 19]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+17.2 Knowledge custody
+Civilizations must preserve discoveries across individual lifespans. Libraries, archives, universities,
+journals, oral traditions, databases, and digital systems are mechanisms.
+17.3 Competence versus credential
+Competence is the ability to perform within a relevant domain. A credential is a representation of an
+institutional judgment about competence.
+17.4 Trust at scale
+Credentials reduce the cost of individually re-testing every person. This is a real coordination advantage.
+17.5 Representation failure
+A credentialed person can be incompetent and an uncredentialed person can be capable. When the
+representation conflicts with demonstrated reality, the representation should not automatically win.
+17.6 Social sorting
+Education systems can perform learning and social sorting simultaneously. Admission, grades, prestige,
+and degree hierarchy can affect access far beyond knowledge itself.
+17.7 Removal test
+Remove schools and degrees. Learning, knowledge preservation, child development, competence
+formation, and competence verification remain. The institutional forms are implementations.
+Knowledge requirement is not credential requirement.
+18. Full Decomposition VII - Healthcare and Insurance
+18.1 Biological care
+Bodies become injured, infected, diseased, disabled, and old. Care is reality-bound.
+18.2 Expertise
+Some interventions require specialized knowledge, equipment, sterile environments, and coordinated
+teams. Those requirements remain regardless of payment mechanism.
+18.3 Insurance
+Uncertain losses can exceed individual capacity. Risk pooling is a legitimate responsibility. Commercial
+insurance is one implementation.
+18.4 Institutional chain
+Biological condition -> provider -> scheduling -> licensing -> coverage -> network -> authorization ->
+intervention -> coding -> billing -> payment. The audit asks which links protect care quality and resource
+coordination and which primarily maintain surrounding financial architecture.
+
+[Source PDF page 20]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+18.5 Eligibility
+A biological condition can exist independently of insurance status. Coverage therefore governs
+institutional access, not the existence of the medical need.
+18.6 Removal test
+Remove insurance. Illness, uncertain cost, expensive interventions, capacity constraints, triage, and risk
+distribution remain. Insurance is an implementation of those responsibilities, not the biological
+requirement itself.
+19. Full Decomposition VIII - Corporations and Organization
+19.1 Persistent productive entities
+Complex projects can outlive individual participants. Civilization needs ways to preserve objectives,
+assets, responsibilities, and knowledge through human turnover.
+19.2 Coordination at scale
+Organizations align specialized people, tools, information, authority, and dependencies.
+19.3 Corporation as legal bundle
+A corporation combines persistent identity, ownership claims, liability rules, governance, capital
+aggregation, contracts, and succession.
+19.4 Personhood and representation
+Legal personhood is a coordination abstraction. It allows an entity to own, contract, sue, be sued, and
+persist. It should not be confused with biological personhood.
+19.5 Removal test
+Remove the corporation. Large-scale production, persistent coordination, capital aggregation,
+responsibility custody, and succession remain. Corporate form is one architecture for those
+responsibilities.
+20. Full Decomposition IX - Markets
+20.1 What markets do
+Markets coordinate exchange, reveal some preference information, generate prices, allocate through
+bids and purchasing power, and create incentives for production.
+20.2 Information value
+Distributed price signals can carry useful information without any central actor possessing complete
+knowledge.
+
+[Source PDF page 21]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+20.3 Market outcome is not human optimum
+A market can clear while biological need remains unmet. It can allocate to purchasing power rather
+than urgency, long-term consequence, or public value.
+20.4 Externalized consequence
+When consequences fall outside the transaction, the price may not represent the full real cost.
+20.5 Removal test
+Remove markets. Exchange, preference discovery, scarcity information, production incentives, and
+allocation remain. Markets are a powerful mechanism bundle, not the underlying responsibilities
+themselves.
+21. Full Decomposition X - Measurement, Metrics, and Status
+21.1 Measurement
+Humans need ways to compare conditions, detect change, and coordinate standards. Measurement is
+deeply useful.
+21.2 Representation
+A kilometer is human-defined; distance is not. A second is standardized; duration is not. Representation
+can be constructed while accurately tracking a real phenomenon.
+21.3 Metric governance
+When rewards and authority depend on a metric, the metric becomes causally active.
+21.4 Status
+Functional differences in competence or responsibility can become generalized social ranking. Role-
+specific authority should not be confused with generalized human worth.
+21.5 Removal test
+Remove rankings and prestige systems. Competence differences, coordination, trust, and role
+assignment remain. Generalized status hierarchy does not automatically.
+22. Technology and AI as Human Abstractions
+Technology often feels closer to reality because it is built from physical machinery and mathematics. Yet
+technological architectures are still human constructions inside reality. A transformer architecture,
+chatbot interface, software platform, account model, agent framework, data pipeline, or training regime
+is not a law of nature merely because it currently dominates an industry.
+The same analytical rule applies: identify the responsibility first. What does the technology need to
+accomplish? Which constraints are imposed by computation, energy, information, latency, uncertainty,
+or hardware? Which constraints arise because the current architecture was designed a particular way?
+
+[Source PDF page 22]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+This distinction matters because technological history can repeat the same civilizational mistake: a
+successful implementation becomes infrastructure, infrastructure becomes dependency, and
+dependency becomes the boundary of imagination.
+Human invention should remain subordinate to the reality it is intended to navigate. A system can claim
+completion; reality can show failure. A model can produce a confident answer; evidence can contradict
+it. A platform can optimize engagement; human well-being can move in the opposite direction.
+23. The Civilizational Stack
+Layer 0 - Reality
+Matter, energy, biology, space, time/sequence, causality, uncertainty, resource distribution, human
+capacities, and consequence.
+Layer 1 - Reality-Generated Responsibilities
+Survival, production, allocation, coordination, learning, protection, conflict resolution, maintenance,
+resilience, continuity.
+Layer 2 - Human Mechanisms
+Exchange, authority, allocation, trust, identity, knowledge, incentive, and continuity mechanisms.
+Layer 3 - Institutionalized Abstractions
+Money, government, property, markets, employment, corporations, schools, banks, law, insurance.
+Layer 4 - Derived Abstractions
+Credit scores, mortgages, paychecks, political parties, grades, job titles, insurance networks, property
+taxes, retirement accounts.
+Layer 5 - Human Dependency
+Food, housing, healthcare, mobility, opportunity, security, and participation become conditioned by the
+abstraction stack.
+Layer 6 - Internalization
+The mechanism is experienced as reality: 'You need a job.' 'You need good credit.' 'That is just how the
+economy works.'
+24. Human Worth and the Migration of Abstraction
+One of the most consequential abstraction failures occurs when a representation created for one domain
+migrates into judgments about the whole human being.
+Income can become a proxy for success. Credentials can become a proxy for intelligence. Job title can
+become a proxy for importance. Nationality can become a proxy for belonging. Wealth can become a
+proxy for competence. Popularity can become a proxy for value.
+
+[Source PDF page 23]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+The representation may contain information relevant to its original domain. The error is allowing it to
+claim authority outside that domain without evidence.
+A society that forgets this distinction can begin organizing human dignity around representations that
+were never designed to measure it.
+25. Scarcity, Abundance, and Access
+This framework does not assume abundance. Some resources are genuinely finite, geographically
+concentrated, time-sensitive, capacity-limited, or rivalrous. A credible civilization must govern scarcity
+rather than wish it away.
+But scarcity should be decomposed. A shortage produced by physical absence is different from a
+shortage produced by production limits, distribution failure, access rules, strategic withholding, or
+inability to satisfy a monetary claim.
+The destination called abundance does not logically require preserving every historical route used to
+allocate scarce goods. If technology changes production capacity, information availability, coordination
+cost, or automation, mechanisms built under earlier constraints should be re-evaluated against the new
+reality.
+26. The Ordinary Claim 'Society Needs X'
+When someone says society needs money, jobs, government, property, markets, degrees, insurance,
+corporations, or borders, the statement usually compresses several different claims.
+It may mean the present system would fail if X disappeared tomorrow. That is a local-necessity claim.
+It may mean X currently performs a responsibility that truly must be performed. That is a function
+claim.
+It may mean no alternative mechanism could perform that responsibility at acceptable cost and scale.
+That is a much stronger comparative claim.
+It may mean the underlying problem itself cannot be removed because reality recreates it. That is a
+fundamental-necessity claim.
+These claims require different evidence. Treating them as interchangeable is one reason debates about
+institutions become circular.
+27. Design Principles for Rebuilding From the Floor
+Responsibility before mechanism
+Identify what must be accomplished before selecting the institution that will accomplish it.
+Reality before ideology
+A preferred theory does not override physical, biological, informational, or causal constraints.
+Separate access from availability
+Track whether a resource is absent or merely institutionally inaccessible.
+
+[Source PDF page 24]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+Separate representation from phenomenon
+A score, price, credential, title, or metric cannot certify the underlying condition by itself.
+Separate work from employment
+Do not treat productive responsibility and one labor-coordination mechanism as identical.
+Separate authority from structure
+Authority may be necessary in some contexts without validating every inherited authority architecture.
+Account for abstraction debt
+Charge downstream maintenance and correction machinery to the abstractions that generate it.
+Preserve uncertainty
+If decomposition is incomplete, classify the question as unresolved rather than forcing a conclusion.
+Require removal tests
+Ask what actually breaks when a mechanism is removed and why.
+Revalidate under changed capability
+A mechanism justified under old technological or productive constraints may not remain optimal when
+those constraints change.
+Do not confuse disruption with impossibility
+Transition cost is real but different from fundamental impossibility.
+Reality retains veto
+Any replacement must survive consequences, not merely argument.
+28. What This Paper Does Not Claim
+It does not claim that every abstraction is harmful.
+It does not claim that constructed institutions are unreal or inconsequential.
+It does not claim that removing money, government, property, markets, employment, or credentials
+tomorrow would produce a better society.
+It does not claim that small historical communities prove that the same mechanism will scale to billions
+of people.
+It does not claim that technology eliminates scarcity, conflict, human limitation, or uncertainty.
+It does not claim that all social classifications are fabricated in the same way; some abstractions may
+combine observed physical or historical phenomena with constructed boundaries and assigned
+meanings.
+It does not prescribe a final replacement civilization in this first paper.
+
+[Source PDF page 25]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+Its narrower claim is that inherited implementation should not be granted reality-level necessity before
+decomposition.
+29. The Civilizational Audit Program
+Human Abstractions is best understood as the beginning of an audit rather than a completed political
+theory.
+The program is to take the structures humanity commonly says must exist for civilization to function;
+identify the responsibilities each structure performs; locate the reality conditions underneath those
+responsibilities; map dependencies created by the structure; examine alternatives and historical
+variants; perform removal tests; preserve unresolved questions; and compare mechanisms against the
+reality they are intended to serve.
+The method is deliberately capable of returning 'keep it.' An inherited mechanism may remain the
+strongest known solution after decomposition. The point is not to force novelty. The point is to require
+justification at the correct layer.
+
+[Source PDF page 26]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+30. Conclusion - Remember Which Rules Are Ours
+Human civilization did not arrive fully formed. Its institutions were constructed across generations by
+people responding to the knowledge, technology, conflicts, fears, opportunities, and constraints available
+to them.
+Those structures deserve neither automatic rejection nor automatic permanence. They deserve
+examination.
+A society can become so dependent on its own machinery that it forgets the machinery was built. Once
+that happens, redesign begins to sound impossible not because reality forbids the alternative, but
+because the inherited mechanism defines the boundaries of imagination.
+The corrective is not fantasy. It is stricter allegiance to reality.
+Reality determines that humans require food. Humans determine how access is organized. Reality
+determines that conflicting claims occur. Humans determine how they are adjudicated. Reality
+determines that productive activity is necessary. Humans determine how production is coordinated and
+rewarded. Reality determines that knowledge is incomplete. Humans determine how expertise is
+recognized and corrected. Reality determines that actions have consequences. Humans determine which
+institutions attempt to govern them.
+The world establishes a possibility space. Humans construct institutions inside it. Those institutions can
+govern human behavior through agreement, authority, dependency, or force. They do not thereby
+become superior to the reality from which their responsibilities originated.
+The first task is not to design the perfect replacement civilization. The first task is to see the current one
+clearly.
+Take an ordinary Thursday. Peel away every rule humanity added. Find what
+remains. Then, for every structure we put back, ask why.
+Inheritance is not proof of necessity.
+Human beings may invent freely. Reality retains veto authority.
+
+[Source PDF page 27]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+Appendix A - Civilizational Abstraction Registry v0.1
+This registry is a starting inventory, not a claim that every item is equally abstract or equally
+replaceable. The purpose is coverage: to prevent the inquiry from relying on a handful of convenient
+examples.
+# Family Abstraction
+1 Value and Exchange money
+2 Value and Exchange currency
+3 Value and Exchange cash
+4 Value and Exchange price
+5 Value and Exchange cost
+6 Value and Exchange value
+7 Value and Exchange profit
+8 Value and Exchange loss
+9 Value and Exchange wealth
+10 Value and Exchange income
+11 Value and Exchange wage
+12 Value and Exchange salary
+13 Value and Exchange fee
+14 Value and Exchange tip
+15 Value and Exchange commission
+16 Value and Exchange exchange rate
+17 Value and Exchange purchasing power
+18 Value and Exchange net worth
+19 Value and Exchange affordability
+20 Value and Exchange market value
+21 Finance bank
+22 Finance bank account
+23 Finance deposit
+24 Finance loan
+25 Finance debt
+26 Finance credit
+27 Finance credit score
+28 Finance interest
+29 Finance mortgage
+30 Finance collateral
+
+[Source PDF page 28]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+31 Finance default
+32 Finance bankruptcy
+33 Finance investment
+34 Finance equity
+35 Finance stock
+36 Finance bond
+37 Finance dividend
+38 Finance valuation
+39 Finance venture capital
+40 Finance retirement account
+41 Finance pension
+42 Finance financial asset
+43 Finance liquidity
+44 Finance capital gain
+45 Property and Access ownership
+46 Property and Access private property
+47 Property and Access public property
+48 Property and Access title
+49 Property and Access deed
+50 Property and Access rent
+51 Property and Access lease
+52 Property and Access landlord
+53 Property and Access tenant
+54 Property and Access inheritance
+55 Property and Access estate
+56 Property and Access intellectual property
+57 Property and Access copyright
+58 Property and Access patent
+59 Property and Access trademark
+60 Property and Access license
+61 Property and Access subscription
+62 Property and Access paywall
+63 Property and Access access right
+64 Property and Access easement
+65 Property and Access lien
+66 Property and Access foreclosure
+
+[Source PDF page 29]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+67 Property and Access zoning
+68 Property and Access property tax
+69 Property and Access mineral rights
+70 Property and Access water rights
+71 Work and Production work
+72 Work and Production employment
+73 Work and Production job
+74 Work and Production occupation
+75 Work and Production profession
+76 Work and Production career
+77 Work and Production employer
+78 Work and Production employee
+79 Work and Production contractor
+80 Work and Production labor market
+81 Work and Production job title
+82 Work and Production promotion
+83 Work and Production performance review
+84 Work and Production productivity
+85 Work and Production shift
+86 Work and Production business hours
+87 Work and Production overtime
+88 Work and Production unemployment
+89 Work and Production benefits
+90 Work and Production payroll
+91 Work and Production human resources
+92 Work and Production retirement
+93 Work and Production workplace hierarchy
+94 Work and Production union
+95 Work and Production collective bargaining
+96 Organization company
+97 Organization corporation
+98 Organization LLC
+99 Organization partnership
+100 Organization nonprofit
+
+[Source PDF page 30]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+101 Organization board
+102 Organization executive
+103 Organization manager
+104 Organization department
+105 Organization division
+106 Organization office
+107 Organization bureaucracy
+108 Organization policy
+109 Organization procedure
+110 Organization organizational chart
+111 Organization shareholder
+112 Organization stakeholder
+113 Organization brand
+114 Organization franchise
+115 Organization institution
+116 Government and Politics government
+117 Government and Politics state
+118 Government and Politics nation
+119 Government and Politics municipality
+120 Government and Politics county
+121 Government and Politics legislature
+122 Government and Politics executive office
+123 Government and Politics agency
+124 Government and Politics election
+125 Government and Politics vote
+126 Government and Politics political party
+127 Government and Politics campaign
+128 Government and Politics lobbying
+129 Government and Politics public office
+130 Government and Politics tax
+131 Government and Politics public budget
+132 Government and Politics regulation
+133 Government and Politics permit
+134 Government and Politics public benefit
+135 Government and Politics citizenship
+136 Government and Politics sovereignty
+
+[Source PDF page 31]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+137 Government and Politics constitution
+138 Government and Politics democracy
+139 Government and Politics representation
+140 Government and Politics political ideology
+141 Law and Authority law
+142 Law and Authority statute
+143 Law and Authority crime
+144 Law and Authority civil offense
+145 Law and Authority court
+146 Law and Authority judge
+147 Law and Authority jury
+148 Law and Authority sentence
+149 Law and Authority fine
+150 Law and Authority prison
+151 Law and Authority probation
+152 Law and Authority liability
+153 Law and Authority damages
+154 Law and Authority contract
+155 Law and Authority arbitration
+156 Law and Authority jurisdiction
+157 Law and Authority police
+158 Law and Authority warrant
+159 Law and Authority legal personhood
+160 Law and Authority legal age
+161 Law and Authority consent standard
+162 Law and Authority license requirement
+163 Law and Authority compliance
+164 Law and Authority enforcement
+165 Law and Authority rights
+166 Territory and Movement border
+167 Territory and Movement country
+168 Territory and Movement state boundary
+169 Territory and Movement county line
+170 Territory and Movement city limit
+
+[Source PDF page 32]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+171 Territory and Movement address
+172 Territory and Movement postal code
+173 Territory and Movement passport
+174 Territory and Movement visa
+175 Territory and Movement immigration status
+176 Territory and Movement residency
+177 Territory and Movement customs
+178 Territory and Movement tariff
+179 Territory and Movement checkpoint
+180 Territory and Movement driver's license
+181 Territory and Movement vehicle registration
+182 Territory and Movement license plate
+183 Territory and Movement traffic law
+184 Territory and Movement speed limit
+185 Territory and Movement airspace
+186 Territory and Movement territorial waters
+187 Knowledge and Education school
+188 Knowledge and Education grade level
+189 Knowledge and Education class
+190 Knowledge and Education curriculum
+191 Knowledge and Education teacher
+192 Knowledge and Education student
+193 Knowledge and Education test
+194 Knowledge and Education grade
+195 Knowledge and Education GPA
+196 Knowledge and Education degree
+197 Knowledge and Education diploma
+198 Knowledge and Education credential
+199 Knowledge and Education certification
+200 Knowledge and Education accreditation
+201 Knowledge and Education university
+202 Knowledge and Education major
+203 Knowledge and Education academic rank
+204 Knowledge and Education publication
+205 Knowledge and Education citation
+206 Knowledge and Education peer review
+
+[Source PDF page 33]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+207 Knowledge and Education expert
+208 Knowledge and Education profession
+209 Knowledge and Education training
+210 Knowledge and Education apprenticeship
+211 Knowledge and Education library
+212 Measurement and Time clock
+213 Measurement and Time second
+214 Measurement and Time minute
+215 Measurement and Time hour
+216 Measurement and Time day
+217 Measurement and Time week
+218 Measurement and Time Thursday
+219 Measurement and Time month
+220 Measurement and Time year
+221 Measurement and Time calendar
+222 Measurement and Time deadline
+223 Measurement and Time schedule
+224 Measurement and Time time zone
+225 Measurement and Time metric
+226 Measurement and Time KPI
+227 Measurement and Time score
+228 Measurement and Time ranking
+229 Measurement and Time benchmark
+230 Measurement and Time rating
+231 Measurement and Time index
+232 Measurement and Time quota
+233 Measurement and Time target
+234 Measurement and Time standard
+235 Measurement and Time unit of measure
+236 Identity and Status legal name
+237 Identity and Status nationality
+238 Identity and Status race classification
+239 Identity and Status ethnicity classification
+240 Identity and Status social class
+
+[Source PDF page 34]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+241 Identity and Status title
+242 Identity and Status rank
+243 Identity and Status prestige
+244 Identity and Status celebrity
+245 Identity and Status follower count
+246 Identity and Status reputation
+247 Identity and Status status
+248 Identity and Status marital status
+249 Identity and Status professional identity
+250 Identity and Status membership
+251 Identity and Status citizen
+252 Identity and Status resident
+253 Identity and Status owner
+254 Identity and Status employee
+255 Identity and Status student
+256 Family and Social Order marriage
+257 Family and Social Order divorce
+258 Family and Social Order household
+259 Family and Social Order guardianship
+260 Family and Social Order custody
+261 Family and Social Order inheritance rule
+262 Family and Social Order family name
+263 Family and Social Order kinship category
+264 Family and Social Order social norm
+265 Family and Social Order etiquette
+266 Family and Social Order tradition
+267 Family and Social Order custom
+268 Family and Social Order rite of passage
+269 Family and Social Order age of majority
+270 Family and Social Order retirement age
+271 Family and Social Order social success
+272 Family and Social Order career success
+273 Family and Social Order homeownership ideal
+274 Family and Social Order respectability
+275 Family and Social Order community membership
+276 Health and Risk healthcare system
+
+[Source PDF page 35]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+277 Health and Risk hospital
+278 Health and Risk clinic
+279 Health and Risk provider
+280 Health and Risk medical license
+281 Health and Risk insurance
+282 Health and Risk premium
+283 Health and Risk deductible
+284 Health and Risk copay
+285 Health and Risk coverage
+286 Health and Risk network
+287 Health and Risk claim
+288 Health and Risk billing code
+289 Health and Risk medical debt
+290 Health and Risk risk score
+291 Health and Risk liability insurance
+292 Health and Risk life insurance
+293 Health and Risk disability insurance
+294 Health and Risk eligibility
+295 Health and Risk authorization
+296 Housing and Infrastructure housing market
+297 Housing and Infrastructure home price
+298 Housing and Infrastructure rent market
+299 Housing and Infrastructure mortgage market
+300 Housing and Infrastructure building code
+301 Housing and Infrastructure occupancy permit
+302 Housing and Infrastructure utility account
+303 Housing and Infrastructure water bill
+304 Housing and Infrastructure electric bill
+305 Housing and Infrastructure road
+306 Housing and Infrastructure toll
+307 Housing and Infrastructure public transit fare
+308 Housing and Infrastructure parking fee
+309 Housing and Infrastructure infrastructure budget
+310 Housing and Infrastructure municipal service
+
+[Source PDF page 36]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+311 Housing and Infrastructure sanitation service
+312 Housing and Infrastructure waste fee
+313 Housing and Infrastructure service territory
+314 Housing and Infrastructure public works
+315 Food and Resources food market
+316 Food and Resources grocery price
+317 Food and Resources commodity
+318 Food and Resources farm ownership
+319 Food and Resources agricultural subsidy
+320 Food and Resources distribution contract
+321 Food and Resources retail store
+322 Food and Resources food assistance eligibility
+323 Food and Resources ration
+324 Food and Resources resource quota
+325 Food and Resources water allocation
+326 Food and Resources energy market
+327 Food and Resources utility rate
+328 Food and Resources mining right
+329 Food and Resources resource concession
+330 Food and Resources supply chain
+331 Technology and Media platform
+332 Technology and Media user account
+333 Technology and Media password
+334 Technology and Media digital identity
+335 Technology and Media terms of service
+336 Technology and Media algorithmic ranking
+337 Technology and Media engagement
+338 Technology and Media like
+339 Technology and Media share
+340 Technology and Media follower
+341 Technology and Media subscription tier
+342 Technology and Media data ownership
+343 Technology and Media software license
+344 Technology and Media app store
+345 Technology and Media AI model
+346 Technology and Media AI agent
+
+[Source PDF page 37]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+347 Technology and Media API
+348 Technology and Media cloud account
+349 Technology and Media compute quota
+350 Technology and Media content moderation
+351 Technology and Media verification badge
+352 International and Security treaty
+353 International and Security alliance
+354 International and Security embassy
+355 International and Security diplomatic recognition
+356 International and Security sanction
+357 International and Security trade agreement
+358 International and Security military rank
+359 International and Security security clearance
+360 International and Security national security classification
+361 International and Security defense budget
+362 International and Security customs regime
+363 International and Security international organization
+364 International and Security foreign aid
+365 International and Security refugee status
+366 International and Security asylum status
+367 Culture and Meaning religion
+368 Culture and Meaning denomination
+369 Culture and Meaning ideology
+370 Culture and Meaning moral code
+371 Culture and Meaning cultural canon
+372 Culture and Meaning holiday
+373 Culture and Meaning ceremony
+374 Culture and Meaning symbol
+375 Culture and Meaning flag
+376 Culture and Meaning anthem
+377 Culture and Meaning fashion
+378 Culture and Meaning luxury
+379 Culture and Meaning taste
+380 Culture and Meaning genre
+
+[Source PDF page 38]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+381 Culture and Meaning social taboo
+382 Culture and Meaning honor
+383 Culture and Meaning shame
+384 Culture and Meaning success narrative
+385 Culture and Meaning legacy
+386 Culture and Meaning historical period
+387 Scarcity and Allocation eligibility
+388 Scarcity and Allocation priority
+389 Scarcity and Allocation queue
+390 Scarcity and Allocation lottery
+391 Scarcity and Allocation rationing
+392 Scarcity and Allocation auction
+393 Scarcity and Allocation bid
+394 Scarcity and Allocation reservation
+395 Scarcity and Allocation waiting list
+396 Scarcity and Allocation allocation formula
+397 Scarcity and Allocation means test
+398 Scarcity and Allocation income threshold
+399 Scarcity and Allocation creditworthiness
+400 Scarcity and Allocation merit score
+401 Scarcity and Allocation seniority
+402 Scarcity and Allocation need category
+403 Scarcity and Allocation quota
+404 Scarcity and Allocation capacity limit
+405 Scarcity and Allocation entitlement
+406 Scarcity and Allocation benefit class
+
+[Source PDF page 39]
+Governing Engines | Human Abstractions v1.0 | Public Paper
+Appendix B - Reality Separation Record Template
+Field Record
+Abstraction
+Definition
+Observed / Claimed Function
+Underlying Responsibility
+Reality Constraint
+Dependencies In
+Dependencies Out
+Consequences
+Historical Variants
+Alternative Mechanisms
+Removal Test
+Local Necessity
+Fundamental Necessity
+Irreducible Remainder
+Reality Status
+Evidence Required
+Open Questions
+Appendix C - Public Reading Guide
+This paper should be read as an analytical framework rather than a completed blueprint for a
+replacement society.
+When the paper classifies an abstraction as an implementation, it means the underlying responsibility
+appears separable from the present mechanism. It does not mean the mechanism has been proven
+unnecessary under every practical condition.
+When the paper identifies a derived dependency, it does not mean the dependency is presently optional.
+It may be extremely consequential inside the current architecture.
+When the paper says a condition is reality-bound, the claim remains subject to deeper decomposition.
+The method does not grant its own categories immunity from revision.
+The intended discipline is symmetrical: inherited institutions do not receive automatic necessity, and
+proposed alternatives do not receive automatic possibility. Both must answer to reality.

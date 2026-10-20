@@ -1,0 +1,580 @@
+PUBLIC SOURCE TEXT EDITION
+MODE PUBLIC BUILD SPECIFICATION
+Source supplied by the author for public research discovery.
+Text extracted from the supplied artifact; layout, tables and pagination may differ.
+Privacy filtering is marked inline. This is not the original binary artifact.
+
+GOVERNING ENGINES
+MODEPUBLIC BUILD SPECIFICATION
+A standalone implementation document for building a governed MODE-compatible runtime
+
+Field
+Value
+Version
+1.0
+Date
+September 14, 2026
+Originator
+DeMarius J. Lawson
+Organization
+Governing Engines LLC
+Document type
+Public implementation specification
+Scope
+MODE core runtime only
+
+REALITY GETS THE LAST VOTE.
+This document is intentionally self-contained. An independent builder should be able to implement a functional MODE-compatible runtime from this document without needing the private Governing Engines repository.
+Creative production, cinematic production, animation, game construction, Unreal Engine, narrative-world production, and franchise-specific systems are outside this specification. They are not required to build MODE core.
+
+0. How to Use This Specification
+Normative words are used deliberately:
+MUST / SHALL: required for MODE compatibility.
+MUST NOT / SHALL NOT: prohibited behavior.
+SHOULD: strongly recommended; deviation requires a documented reason.
+MAY: optional implementation choice.
+The implementation language, model provider, database, framework, operating system, and UI are not prescribed. The governing behavior is prescribed.
+A system is not MODE-compatible because it uses the name MODE, calls an LLM, stores memory, or has an agent loop. Compatibility depends on preserving the governing contracts in this specification.
+1. System Definition
+1.1 What MODE Is
+MODE is a governed interpretation, understanding, specification, context, memory, observation, and validation runtime that converts operator interaction into controlled system behavior.
+MODE sits between human meaning and downstream execution. Its primary job is to preserve intent, authority, continuity, evidence, and reality across the transition from request to response, specification, or authorized action.
+MODE MAY REASON ABOUT EXECUTION. IT MAY NOT CLAIM EXECUTION WITHOUT EVIDENCE THAT EXECUTION OCCURRED.
+1.2 What MODE Is Not
+Not a general-purpose chatbot with unrestricted autonomy.
+Not an ungoverned agent loop.
+Not a code generator whose output is treated as proof.
+Not a memory database that treats stored text as truth.
+Not a workflow engine that equates a success flag with a real outcome.
+Not a model wrapper whose provider behavior defines system authority.
+1.3 Core Transformation
+Operator Input  -> Input Normalization  -> Knowledge / Domain Classification  -> Requirement Evaluation  -> Context Retrieval + Authority Resolution  -> Active Semantic State  -> Interpretation  -> Meaning Continuity Validation  -> Understanding  -> Governance / Authority  -> Specification or Response Requirement  -> Authorized Execution (only when applicable)  -> Runtime Observation  -> Reality Primacy  -> Governed State Transition  -> Response / Artifact / Learning Eligibility  -> Receipt
+2. Governing Laws
+Law
+Requirement
+Operator Authority
+The operator is the final authority for operator-owned intent, approval, scope, and governed changes unless a higher external authority is explicitly bound.
+Reality Primacy
+No claim outranks sufficiently authoritative evidence about what actually occurred.
+Interpretation Before Execution
+Execution SHALL NOT begin while material meaning is unresolved.
+Understanding Before Automation
+The runtime SHALL determine the governing relationship before automating a solution.
+Structure Before Description
+When authorized machine-readable structure is available, inspect it before relying on human descriptions of how the system works.
+Evidence Before Completion
+Completion is a claim until required evidence satisfies the completion condition.
+Knowledge Does Not Imply Authority
+Knowing how to do something does not grant permission to do it.
+Reference Is Not Authority
+A source may be informative without being authoritative for the current decision.
+Authority Must Be Current
+Expired, superseded, revoked, or out-of-scope authority SHALL NOT authorize action.
+Execution Requires Custody
+Every action must remain traceable to the authority, scope, requirement, and executor responsible for it.
+Unsupported Claims Remain Pending
+Unproven claims remain PENDING_VALIDATION; missing evidence is not confirmation.
+No Silent Semantic Mutation
+MODE SHALL NOT change proposition, definition, referent, or scope without explicit governed transition.
+No Hidden Success
+A runtime cannot mark a step complete merely because internal code returned success.
+
+3. Reference Architecture
+3.1 Required Subsystems
+Subsystem
+Responsibility
+Interaction Runtime
+Receives operator input, thread/session identity, commands, and response delivery.
+Input + Intent
+Normalizes input and identifies intent, requested mode, and action class.
+Knowledge Router
+Classifies SYSTEM, RUNTIME, OPERATOR, EXTERNAL, DOCUMENT, TASK, or other configured domains.
+Context Orchestrator
+Resolves required facts/capabilities to authoritative sources.
+Context Assembly
+Builds the admitted context in governed precedence order.
+Persistent Memory
+Stores durable eligible facts with consent, lineage, scope, and validation state.
+Thread Memory
+Maintains bounded historical continuity summaries; never replaces the active thread.
+Understanding Layer
+Preserves meaning, semantic custody, relationships, chains, invariants, and governed reusable understanding.
+Specification Layer
+Converts governed understanding into bounded structured technical contracts.
+Runtime Observation
+Records what actually ran, what data was used, what failed, what was blocked, and what state changed.
+Reality Primacy
+Evaluates claims against required truth conditions and evidence.
+Learning
+Allows validated outcomes and corrected failures to influence future behavior through governed promotion.
+System Layer
+Maintains MODE identity, capability declarations, actual capability state, gaps, and approved changes.
+Execution Boundary / Kernel
+Enforces authority around external or mutating actions; adapters execute, MODE governs.
+Builder Interface
+Hands approved specifications to a construction system and receives artifacts/evidence back.
+Vault / Durable Records
+Stores canonical specs, receipts, evidence references, approvals, versions, and governed artifacts.
+
+3.2 Recommended Package Layout
+mode/  runtime/    interactive_runtime.py    state_machine.py    governance.py  input/    normalizer.py    intent_classifier.py    mode_router.py  knowledge/    classifier.py    router.py    source_requirements.py  context/    orchestrator.py    assembler.py    authority_resolver.py  memory/    thread_memory.py    persistent_memory.py    memory_policy.py  understanding/    semantic_state.py    semantic_transition.py    semantic_drift_record.py    semantic_custody_policy.py    semantic_custody_engine.py    meaning_continuity_validator.py    interaction_state.py    understanding_record.py    understanding_store.py    understanding_updater.py    system_relationship.py    system_chain.py    chain_recognition_engine.py    chain_relationship_mapper.py    decomposition_engine.py    governing_engine.py    mechanism_derivation_engine.py    understanding_engine.py  specs/    spec_schema.py    spec_engine.py    spec_validator.py    spec_store.py  observation/    observation_event.py    runtime_observer.py    observation_store.py    failure_record.py    execution_receipt.py  reality/    claim.py    evidence.py    truth_condition.py    test_derivation.py    validator.py    decision.py    reality_receipt.py  learning/    learning_candidate.py    learning_policy.py    learning_engine.py  system_layer/    identity.py    capability.py    capability_registry.py    capability_gap.py    change_request.py  kernel/    authority_gate.py    execution_request.py    executor_adapter.py    rollback.py    replay.py  vault/    record_store.py    artifact_index.py    lineage.py  integration/    builder_bridge.py    provider_bridge.py    external_tool_bridge.py
+4. Runtime State Machine
+The runtime SHALL expose an explicit state machine. State must not be inferred only from logs.
+State
+Meaning
+IDLE
+Waiting for operator or authorized event.
+LISTENING
+Input is being received/normalized.
+INTERPRETING
+Meaning, intent, referents, scope, and requirements are being resolved.
+CLARIFYING
+Material ambiguity prevents safe continuation.
+UNDERSTANDING
+Relationships, chains, constraints, and evidence requirements are being formed.
+WAITING_FOR_OPERATOR
+Operator approval, correction, or missing authority is required.
+BUILDING
+An approved construction path is active through Builder or another bounded executor.
+EXECUTING
+An authorized external or mutating action is active.
+REVIEWING
+Observed outcome is being validated.
+HALTED
+A governance, safety, authority, continuity, or reality condition blocks continuation.
+
+Every transition MUST record: prior state, next state, trigger, authority, timestamp, thread/session, semantic state reference, and observation reference.
+A TRANSITION IS NOT VALID MERELY BECAUSE CODE CHANGED A VARIABLE. IT MUST SATISFY ITS GOVERNING PRECONDITIONS.
+5. Context Authority and Retrieval
+5.1 Source Precedence
+Active Thread - current proposition, current corrections, current scope.
+Persistent Memory - durable confirmed cross-session facts.
+Thread Memory - historical continuity summaries.
+Operator Profile - stable explicitly governed operator information.
+Temporal Context - current time/date/session-relevant facts.
+Remaining Assembled Sources - documents, knowledge, tool results, connected systems.
+System Context - only when a separate unresolved system requirement still needs it.
+A current operator correction MUST immediately outrank conflicting historical memory.
+A missing preferred source is not the same as missing evidence. Requirements are satisfied by authoritative evidence, not by hard-coded source names.
+5.2 Source Requirement Object
+SourceRequirement {  requirement_id  required_fact_or_capability  acceptable_authority_classes[]  preferred_sources[]  evidence_minimum  located_sources[]  selected_source  evidence_sufficient: bool  requirement_satisfied: bool  unresolved_reason}
+6. Interpretation and Semantic Custody
+6.1 Active Semantic State
+Each material interaction SHALL have an ActiveSemanticState. It owns the meaning currently permitted to govern reasoning.
+ActiveSemanticState {  semantic_state_id  version  active_propositions[]  controlling_definitions[]  referents[]  scope_constraints[]  excluded_interpretations[]  unresolved_terms[]  operator_corrections[]  domain_conventions[]  continuity_status  authority_holder  created_at  updated_at  lineage[]}
+6.2 Drift Types
+PROPOSITION_SUBSTITUTION
+DEFINITION_DRIFT
+REFERENT_DRIFT
+SCOPE_EXPANSION
+DOMAIN_OVERRIDE
+CONSENSUS_SUBSTITUTION
+CLAIM_EVIDENCE_COLLAPSE
+THIRD_PARTY_INTRUSION
+CERTAINTY_INHERITANCE
+CORRECTION_RESISTANCE
+6.3 Meaning Continuity Rule
+Before reasoning and again before response admission or Reality Primacy validation, the runtime SHALL compare the current semantic state with the state that entered the stage.
+If material drift is detected, continuation is blocked until the runtime either restores the prior meaning, obtains operator approval for a semantic transition, or halts.
+MODE SHALL NOT REASON ON MEANING IT HAS SILENTLY CHANGED.
+7. Understanding Layer
+7.1 Responsibilities
+Determine what an observation means.
+Resolve operator objective, requirements, constraints, invariants, entities, and relationships.
+Preserve temporal scope: observation is not automatically state; state is not automatically identity.
+Map systems into relationships and recurring chains.
+Decompose structures without confusing decomposition with text segmentation.
+Derive mechanisms only after chains and invariants are identified.
+Detect structural gaps that prevent safe specification.
+Create/update reusable understanding only when continuity and evidence permit it.
+7.2 Understanding Flow
+UnderstandingRequest  -> UnderstandingEngine  -> Determine Understanding Mode  -> Extract Candidate Meaning  -> Resolve Requirements / Constraints / Invariants  -> Find Related Understanding  -> Meaning Continuity Validation  -> Semantic Custody Evaluation  -> Governed Semantic Decision  -> System Relationship Mapping  -> Chain Recognition  -> Chain Relationship Mapping  -> Structural Decomposition  -> Mechanism Derivation  -> Structural Gap Detection  -> Specification Readiness Decision  -> UnderstandingStore.save()  -> UnderstandingResult
+7.3 Specification Readiness States
+READY_FOR_SPECIFICATION
+READY_WITH_PROVISIONAL_ITEMS
+CLARIFICATION_REQUIRED
+STRUCTURALLY_INCOMPLETE
+CONFLICTED
+UNPROVEN
+7.4 Understanding Write Eligibility
+Reusable understanding MAY be stored only when all applicable conditions are true:
+The active proposition is identified.
+Semantic continuity is STABLE or RESTORED.
+Operator corrections are captured and applied.
+Required claims have an accepted Reality Primacy state.
+Proposition, definition, evidence, and correction lineage are preserved.
+No unresolved material semantic drift remains.
+8. Memory
+8.1 Thread Memory
+Thread Memory is a bounded continuity aid. It SHOULD summarize prior interaction state and decisions. It SHALL NOT become full conversation storage by default and SHALL NOT outrank the current thread.
+8.2 Persistent Memory
+Persistent Memory stores durable facts or runtime knowledge that have passed eligibility rules.
+PersistentMemoryRecord {  memory_id  owner_id  fact_or_knowledge  scope  source_observation_ids[]  understanding_id  validation_state  authority_basis  consent_basis  created_at  last_confirmed_at  supersedes  superseded_by}
+Previously stored information does not become semantic truth merely because it exists in storage. Understanding governs current meaning; Reality Primacy governs evidentiary acceptance.
+9. Knowledge Routing
+At minimum, the classifier SHALL distinguish internal architecture/runtime questions from external-current-information questions.
+Class
+Routing rule
+SYSTEM
+MODE identity, architecture, capabilities, policy, specifications.
+RUNTIME
+Current runtime state, memory, observation, execution, evidence, failures.
+OPERATOR
+Operator-owned intent, preferences, corrections, approvals, constraints.
+DOCUMENT
+Authoritative uploaded or connected document content.
+EXTERNAL_CURRENT
+Fresh public or connected external information requiring retrieval.
+TASK
+Current requested work product or action.
+UNKNOWN
+Use only when classification genuinely remains unresolved.
+
+SYSTEM or RUNTIME questions SHALL NOT route externally unless the operator explicitly asks for outside information or the internal requirement cannot be satisfied without it.
+10. Specification Layer
+A specification is a bounded technical contract derived from governed understanding. It is the boundary between interpretation and construction.
+ModeSpecification {  spec_id  version  objective  scope_in  scope_out  operator_requirements[]  constraints[]  invariants[]  authority_requirements[]  required_components[]  required_interfaces[]  required_dependencies[]  execution_boundaries[]  evidence_requirements[]  completion_conditions[]  rollback_requirements[]  unresolved_items[]  understanding_refs[]  approval_state  approved_by  created_at}
+Builder SHALL NOT be asked to invent missing authority boundaries, system relationships, completion conditions, evidence requirements, or core invariants.
+Specifications with unresolved material requirements MUST NOT be promoted to READY_FOR_BUILD.
+11. Builder Boundary
+Builder is a construction subsystem. MODE creates and governs the contract; Builder constructs from the approved structured specification.
+MODE -> Approved Specification -> BuilderBuilder -> Build Plan -> Construction -> Tests -> Artifacts -> Evidence -> ManifestEvidence + Manifest -> Runtime Observation -> Reality Primacy -> Capability State
+Builder success MUST NOT be self-certified solely by Builder's own return code or tests. Builder-generated proof is still subject to Reality Primacy.
+A minimal Builder bridge SHALL support: submit_spec, get_build_status, get_artifacts, get_test_evidence, get_manifest, request_rollback.
+12. Runtime Observation
+12.1 Observation Principle
+Runtime Observation records what MODE actually did. It does not infer success from intended behavior, generated text, or completion signals.
+12.2 Required Event Model
+ObservationEvent {  event_id  session_id  thread_id  operator_id  event_type  runtime_stage  stage_version  timestamp  sequence_number  semantic_state_id  proposition_refs[]  source_requirements[]  selected_sources[]  authority_basis  input_refs[]  output_refs[]  governance_decision  claim_id  evidence_refs[]  validation_state  failure_ref  receipt_ref  metadata}
+12.3 Minimum Event Types
+KNOWLEDGE_CLASSIFIED
+KNOWLEDGE_ROUTED
+SOURCE_REQUIREMENT_CREATED
+SOURCE_RETRIEVED
+SOURCE_SELECTED
+SOURCE_REJECTED
+REQUIREMENT_SATISFIED
+REQUIREMENT_UNRESOLVED
+SEMANTIC_STATE_CREATED
+SEMANTIC_DRIFT_DETECTED
+OPERATOR_MEANING_CORRECTION
+SEMANTIC_CUSTODY_RESTORED
+SEMANTIC_RESTORATION_FAILED
+INTERPRETATION_VALIDATED
+REASONING_BLOCKED
+CLAIM_VALIDATION_STARTED
+CLAIM_CONFIRMED
+CLAIM_DISCONFIRMED
+CLAIM_PENDING_VALIDATION
+UNDERSTANDING_UPDATE_ELIGIBLE
+UNDERSTANDING_UPDATE_BLOCKED
+CORRECTED_UNDERSTANDING_STORED
+EXECUTION_STARTED
+EXECUTION_BLOCKED
+EXECUTION_FAILED
+EXECUTION_COMPLETED
+RESPONSE_ADMITTED
+RESPONSE_BLOCKED
+EXECUTION_RECEIPT_CREATED
+13. Reality Primacy
+13.1 Core Chain
+Claim  -> Required Truth Condition  -> Required Evidence  -> Existing Evidence Search  -> Evidence Sufficiency Decision  -> Test Derivation (only if needed)  -> Authority + Safety Check  -> Test / Execution  -> Observation  -> Evidence Validation  -> Reality Decision  -> Outcome  -> Reality Receipt
+13.2 Allowed Decision States
+State
+Meaning
+CONFIRMED
+Available evidence sufficiently supports the claim.
+DISCONFIRMED
+Available evidence sufficiently contradicts the claim.
+PENDING_VALIDATION
+Evidence is missing, insufficient, inaccessible, or not yet validated.
+
+UNKNOWN IS NOT FALSE. MISSING EVIDENCE IS NOT CONTRADICTORY EVIDENCE. INSUFFICIENT EVIDENCE IS NOT CONFIRMATION.
+13.3 Reality Receipt
+RealityReceipt {  receipt_id  claim_id  claim_text  truth_conditions[]  evidence_requirements[]  located_evidence[]  tests_executed[]  observation_refs[]  contradictions[]  missing_evidence[]  decision  outcome_state  timestamp  lineage[]  chain_hash}
+14. Governance and Authority
+14.1 Authority Gate
+Every mutating or externally consequential action SHALL pass an authority gate.
+AuthorityDecision {  action_id  requester  operator_id  requested_scope  authority_source  authority_scope  authority_valid_now  required_approvals[]  approvals_present[]  prohibited_conditions[]  decision: ALLOW | DENY | REQUIRE_APPROVAL | HALT  reason  timestamp}
+Knowledge of a mechanism SHALL NOT be treated as authorization to invoke it.
+No subsystem may grant itself new authority by editing its own configuration, memory, capability declaration, or prompt.
+15. System Layer
+The System Layer is MODE's authoritative self-model. It separates what MODE is expected to be from what evidence shows MODE actually is.
+15.1 Capability Record
+CapabilityRecord {  capability_id  name  category  purpose  expected_behavior  authorized_behavior  prohibited_behavior  required_inputs[]  required_outputs[]  components[]  dependencies[]  interfaces[]  evidence_requirements[]  validation_requirements[]  authority_requirements[]  declared_state  implementation_state  integration_state  validation_state  operational_state  reality_primacy_state  known_limitations[]  known_failures[]  evidence_refs[]  version}
+15.2 Capability Lifecycle
+DECLARED -> SPECIFICATION_REQUIRED -> SPECIFICATION_IN_DEVELOPMENT -> SPECIFICATION_APPROVED -> READY_FOR_BUILD -> IN_DEVELOPMENT -> IMPLEMENTED -> INTEGRATED -> VALIDATION_PENDING -> VALIDATED -> OPERATIONAL
+Additional states SHALL include at least DEGRADED, FAILED, DISABLED, DEPRECATED, SUPERSEDED, NOT_IMPLEMENTED, and UNCONFIRMED.
+DECLARED DOES NOT MEAN IMPLEMENTED. IMPLEMENTED DOES NOT MEAN INTEGRATED. INTEGRATED DOES NOT MEAN VALIDATED. VALIDATED DOES NOT GUARANTEE CURRENT OPERATION.
+16. Learning From Outcomes and Failure
+MODE SHALL learn only from outcomes that have sufficient evidence and governed interpretation.
+Runtime Outcome / Failure  -> Runtime Observation  -> Reality Primacy  -> Understanding Evaluation  -> Meaning Continuity Validation  -> Semantic Custody  -> Learning Candidate  -> Learning Policy / Authority Review  -> Approved Behavior Update  -> New Runtime Experience  -> Reality Validation
+A failed path remains observable for audit. It does not become authoritative knowledge merely because it occurred.
+FAILURE MAY TEACH ONLY AFTER THE FAILURE IS CORRECTED AND THE CORRECTION IS VALIDATED.
+17. Execution Boundary / Kernel
+The Kernel is the enforcement environment for governed action. It is intentionally smaller than MODE.
+Accept only structured execution requests.
+Verify authority before dispatch.
+Bind request to exact scope, capability, executor, and allowed effects.
+Record pre-state when rollback is required.
+Dispatch through registered adapters.
+Capture actual outputs and side effects.
+Emit observation evidence.
+Support replay where deterministic replay is safe and meaningful.
+Support rollback when the action contract requires it.
+Refuse unknown executors or unregistered capabilities.
+ExecutionRequest {  request_id  spec_id  capability_id  action  parameters  allowed_scope  forbidden_scope  authority_decision_ref  expected_effects[]  evidence_requirements[]  rollback_contract  timeout}
+18. Provider Independence
+MODE SHALL NOT bind system truth, authority, memory, or capability state to one model provider.
+Provider adapters MAY supply generation, embeddings, tool selection, code generation, or reasoning assistance. Provider output remains an input to governed runtime behavior.
+Provider success response is not execution proof.
+Provider confidence is not evidence.
+Provider memory is not MODE canonical memory.
+Provider tool availability is a capability dependency and must be represented as such.
+Provider outages, quotas, model changes, and rate limits must surface as operational state, not be silently masked.
+19. Minimum Persistence Model
+Store
+Minimum content
+operators
+operator_id, authority metadata, profile reference
+threads
+thread_id, operator_id, state, created_at, updated_at
+messages
+message_id, thread_id, role, content_ref, timestamp
+thread_memory
+thread_id, summary, source_range, version
+persistent_memory
+memory_id, owner_id, content, validation, lineage
+semantic_states
+semantic_state_id, version, propositions, definitions, scope
+understanding_records
+understanding_id, state, meaning, evidence, lineage
+specifications
+spec_id, version, structured contract, approval state
+observations
+event_id, stage, type, refs, timestamp
+claims
+claim_id, claim, truth conditions, state
+evidence
+evidence_id, type, location, authority, hash, timestamp
+reality_receipts
+receipt_id, claim_id, decision, evidence refs
+capabilities
+capability_id, declared and operational states
+learning_candidates
+candidate_id, source outcome, approval state
+execution_requests
+request_id, authority, scope, action, status
+execution_receipts
+receipt_id, request_id, observed result, evidence refs
+
+Implementations MAY use SQL, document databases, event stores, files, or another durable mechanism. Whatever storage is chosen, versioning and lineage SHALL be preserved.
+20. Canonical Runtime Algorithm
+handle_operator_input(input, operator, thread):    begin_observation("INPUT_RECEIVED")    normalized = normalize(input)    intent = classify_intent(normalized)    domain = classify_knowledge_domain(normalized)    requirements = evaluate_source_requirements(normalized, intent, domain)    context = orchestrate_context(        precedence=[            ACTIVE_THREAD,            PERSISTENT_MEMORY,            THREAD_MEMORY,            OPERATOR_PROFILE,            TEMPORAL_CONTEXT,            OTHER_SOURCES,            SYSTEM_CONTEXT_IF_STILL_REQUIRED        ],        requirements=requirements    )    semantic_state = load_or_create_semantic_state(thread)    interpretation = interpret(normalized, context, semantic_state)    continuity = validate_meaning_continuity(        semantic_state,        interpretation    )    if continuity.material_drift:        return restore_clarify_or_halt(continuity)    understanding = understanding_engine.evaluate(        interpretation,        context,        semantic_state    )    if understanding.requires_clarification:        transition(CLARIFYING)        return request_clarification()    governance = evaluate_governance(understanding, operator)    if governance.blocked:        transition(HALTED)        return governed_block_response(governance)    result = produce_response_or_spec_or_execution_request(understanding)    if result.contains_material_claim:        reality = reality_primacy.evaluate(result.claim, result.evidence)    else:        reality = NOT_REQUIRED    finalize_observation()    update_understanding_if_eligible(reality, continuity)    update_thread_memory()    emit_execution_or_interaction_receipt()    return admit_response(result, reality)
+21. Build Order
+Order
+Work package
+Outcome
+1
+Foundation
+IDs, timestamps, event store, thread/session objects, configuration, test harness.
+2
+Runtime State Machine
+Explicit states and receipted transitions.
+3
+Input + Knowledge Routing
+Normalization, intent, SYSTEM/RUNTIME/external routing.
+4
+Context
+Source requirements, precedence, authority resolution, assembly.
+5
+Memory
+Thread Memory and Persistent Memory with lineage/eligibility.
+6
+Semantic Custody
+ActiveSemanticState, drift detection, continuity validator, transitions.
+7
+Understanding
+Relationships, chains, decomposition, mechanism derivation, readiness.
+8
+Observation
+Canonical event model and instrumentation across all previous stages.
+9
+Reality Primacy
+Claim, truth condition, evidence, test derivation, decisions, receipts.
+10
+Specifications
+Structured contract generation and approval gates.
+11
+System Layer
+Identity, capability registry, gap detection, capability states.
+12
+Execution Kernel
+Authority gate, adapters, rollback/replay, execution receipts.
+13
+Builder Bridge
+Spec handoff, artifact/evidence return, validation loop.
+14
+Learning
+Validated candidate creation, approval, behavior-update lineage.
+15
+Full Integration
+End-to-end runtime path, provider adapter, UI/API.
+16
+Qualification
+Full acceptance suite with preserved receipts.
+
+22. Acceptance Test Suite
+ID
+Test
+Pass condition
+AT-01
+Internal classification
+MODE architecture questions classify SYSTEM/RUNTIME without accidental external routing.
+AT-02
+Active thread authority
+Current correction overrides conflicting Persistent Memory and Thread Memory.
+AT-03
+Requirement satisfaction
+Any sufficiently authoritative source can satisfy a requirement; missing preferred source does not falsely block.
+AT-04
+Proposition custody
+Runtime cannot replace a specific proposition with a broader one.
+AT-05
+Definition continuity
+A controlling term cannot materially change meaning without governed transition.
+AT-06
+No scope inflation
+Runtime cannot broaden 'some' into 'all', or otherwise expand scope without evidence/approval.
+AT-07
+Claim/evidence separation
+Evidence that a statement exists is not treated as proof that the statement is true.
+AT-08
+Correction restoration
+Operator correction changes active semantic state before further reasoning.
+AT-09
+Observation completeness
+Every material stage produces traceable entry/exit or block events.
+AT-10
+Reality identity
+Reality Primacy validates the exact active claim, not a substituted claim.
+AT-11
+Pending state
+Insufficient evidence returns PENDING_VALIDATION, not success or failure.
+AT-12
+Understanding write protection
+Drifted or unvalidated interactions cannot create durable confirmed understanding.
+AT-13
+Failure learning
+Only corrected and validated learning is promotable; failed path remains as history.
+AT-14
+Memory regression
+Creation, retrieval, injection, precedence, and supersession work.
+AT-15
+Authority enforcement
+Unauthorized external action is mechanically blocked.
+AT-16
+Execution proof
+A success return without required outcome evidence cannot produce CONFIRMED completion.
+AT-17
+Artifact proof
+Artifact existence is separately verified from generation claim.
+AT-18
+Capability truth
+Declared capability cannot report OPERATIONAL without implementation/integration/validation evidence.
+AT-19
+Rollback
+A reversible governed action can restore pre-state and produce rollback evidence.
+AT-20
+Replay
+Replay produces inspectable lineage and does not create duplicate unauthorized side effects.
+AT-21
+Provider failure
+Quota/outage/provider error becomes explicit degraded dependency state.
+AT-22
+Cross-thread continuity
+Persistent confirmed facts survive new thread while current-thread corrections still win.
+AT-23
+Spec completeness
+Unresolved material requirement blocks READY_FOR_BUILD.
+AT-24
+Builder evidence
+Builder return code alone cannot certify construction success.
+AT-25
+End-to-end proof
+Operator request -> understanding -> specification/action -> execution -> observation -> Reality Primacy -> receipt is reproducible.
+
+23. Definition of MODE-Compatible
+An implementation may call itself MODE-compatible only if it can demonstrate, with reproducible evidence:
+Current operator meaning outranks stale historical context.
+Material semantic drift is detected and blocked or governed.
+Memory is separated from truth and from current meaning.
+Claims are separated from evidence.
+Reality Primacy can return CONFIRMED, DISCONFIRMED, or PENDING_VALIDATION.
+Material runtime stages are observable.
+External/mutating execution is authority-gated.
+Completion requires evidence tied to the actual completion condition.
+Declared capability state is separate from actual operational state.
+Corrections and updates preserve lineage and rollback history.
+Provider/model output cannot silently become system authority.
+At least one end-to-end action or build path is reproducibly proven.
+24. Minimal Reference Proof
+A first public implementation does not need every possible capability. It needs one narrow end-to-end proof that exercises the governing architecture.
+Reference Proof: Create a File
+Operator asks MODE to create a text file with exact content.
+MODE resolves exact filename, content, destination, and authority.
+ActiveSemanticState freezes the proposition and scope.
+MODE creates an execution specification.
+Authority Gate allows only the specified directory and write operation.
+Kernel dispatches the filesystem adapter.
+Runtime Observation records the call and returned path.
+Reality Primacy checks that the file exists, verifies content hash/text, and validates location.
+Reality Primacy returns CONFIRMED only if the required conditions are satisfied.
+MODE returns the result with an execution receipt.
+This proof is intentionally simple. If the architecture cannot prove a file was created correctly, it is not ready to claim reliable higher-order execution.
+25. Failure Behavior
+Failure
+Required MODE behavior
+Ambiguous operator meaning
+Enter CLARIFYING; do not guess when ambiguity is material.
+Semantic drift
+Block reasoning, restore meaning, request transition approval, or halt.
+Missing authority
+DENY / REQUIRE_APPROVAL; never self-authorize.
+Missing evidence
+PENDING_VALIDATION.
+Contradictory evidence
+Preserve contradiction; do not silently merge.
+Provider unavailable
+Mark dependency degraded/failed; preserve task state.
+Execution error
+Record failure; do not report completion.
+Partial execution
+Report partial state with exact completed/failed boundaries.
+Rollback failure
+Escalate; preserve both original action and failed rollback evidence.
+Observation gap
+Treat affected claim as unproven if the missing observation is required evidence.
+
+26. Security and Data Custody Minimums
+Separate operator identity, authentication, and action authority.
+Encrypt secrets and do not write provider/API secrets into observations or memory.
+Use least-privilege executor credentials.
+Treat connected data sources as scoped authority domains.
+Redact sensitive data from general logs while preserving protected audit references.
+Hash or sign high-value receipts where tamper evidence is required.
+Version policy and capability registries.
+Never let retrieved external text directly mutate authority, policy, or system identity.
+Require explicit approval for self-modification or capability expansion.
+27. Public Implementation Freedom
+This specification is intended to make independent implementation possible. A builder may choose different languages, frameworks, models, storage engines, user interfaces, deployment environments, and internal code structure.
+What must remain recognizable is the governing architecture: meaning custody, authority separation, context precedence, observable execution, evidence-backed claims, Reality Primacy, lineage, and the separation between declared capability and proven operational capability.
+THE IMPLEMENTATION MAY DIFFER. THE GOVERNING CONTRACT MUST HOLD.
+28. Origin and Provenance
+MODE originated as a Governing Engines system architecture created by DeMarius J. Lawson.
+This public build specification consolidates the core MODE architecture into a single implementation document so independent builders can reproduce the governing runtime without the creative-production, animation, game, or franchise-specific extensions.
+Canonical attribution for derivative implementations:
+Based on the MODE architecture originated by DeMarius J. Lawson / Governing Engines LLC.
+29. Internal Source Lineage Used for This Consolidation
+This specification consolidates the core architecture from the Governing Engines MODE workstream, including the Mode AI PC Build Execution Package v1.0, System Layer v1.2, Understanding Layer v1.3, and Reality Primacy v1.0. Creative-production and game-specific addenda were intentionally excluded.
+The governing relationships preserved here include: active-thread-first context authority, semantic custody, runtime observation, claim/evidence separation, Reality Primacy, capability-state separation, operator authority, and evidence-backed execution receipts.

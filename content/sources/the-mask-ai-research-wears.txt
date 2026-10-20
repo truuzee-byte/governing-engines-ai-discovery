@@ -1,0 +1,1141 @@
+PUBLIC SOURCE TEXT EDITION
+THE MASK AI RESEARCH WEARS
+Source supplied by the author for public research discovery.
+Text extracted from the supplied artifact; layout, tables and pagination may differ.
+Privacy filtering is marked inline. This is not the original binary artifact.
+
+[Source PDF page 1]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+GOVERNING ENGINES
+THE MASK AI RESEARCH WEARS
+Human Inquiry, Machine Progression, and the Quiet Reassignment of
+the Researcher
+DeMarius J. Lawson
+Governing Engines
+Publication Edition v1.2 - September 2026
+The danger is not that AI enters research. The danger is that research
+retains its outward form while the human role inside it quietly
+changes.
+
+[Source PDF page 2]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+Abstract
+AI systems now perform functions that were once concentrated inside human research practice:
+discovery, retrieval, comparison, synthesis, hypothesis generation, experimentation,
+interpretation, and revision. The outward artifact can remain familiar - a paper, report, review, or
+finding - while the location of inquiry underneath it changes. This paper investigates that
+transition. It distinguishes the research artifact from the inquiry that produced it; develops
+Research Custody, Epistemic Materiality, Progression Bias, Oversight Compression, Public
+Research Surface, and Semantic Continuity of Inquiry as analytical concepts; and compares
+contemporary literature systems, research agents, laboratory systems, intelligence methods, legal
+and forensic tools, qualitative-analysis platforms, provenance standards, and emerging epistemic-
+state architectures. The investigation repeatedly narrows its own novelty claims: provenance,
+contradiction handling, competing hypotheses, multimodal evidence, belief revision, reasoning
+provenance, and state transition semantics all have substantial prior art. The remaining design
+problem is primarily integrative. The paper proposes an implementation-level architecture in
+which the evolving Inquiry - rather than the document, search result, experiment, or final answer
+- becomes the persistent primary object. Under Reality Primacy, observations remain
+distinguishable from interpretations, representations remain traceable to sources, material
+contradictions may remain unresolved, claims are actively challenged, and material state changes
+retain evidence, rationale, custody, and proportionate independent adjudication when the
+challenged state is material. The paper ends with a prospective Research-Custody Disclosure
+applied to itself, explicit limitations and falsification conditions, and a bounded constructive claim:
+an integrated, broadly accessible investigator/research system can be organized around
+reconstructable semantic continuity of inquiry. The architecture remains a design finding until
+implemented and tested.
+Executive Summary
+The central question is not whether AI can help with research. It already can. The harder question
+is what happens when AI increasingly performs material epistemic functions while the
+conventional research artifact still looks as though a continuous human researcher performed the
+inquiry.
+When machines increasingly perform the search and humans
+increasingly judge the result, what exactly remains human about the
+act we still call research?
+This paper does not answer that question by protecting a fixed division of labor. Human beings
+are fallible, machines are changing quickly, and many research functions can legitimately move.
+Instead, the paper asks whether custody over material inquiry transitions remains identifiable,
+inspectable, challengeable, and revisable.
+The comparative investigation finds that most local mechanisms already exist somewhere. Elicit
+provides structured systematic-review screening and extraction.[2] Scite classifies citation
+statements as supporting, contrasting, or mentioning.[3] ResearchRabbit traverses citation
+
+[Source PDF page 3]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+networks beyond keyword search.[4] Deep Research conducts multi-step autonomous research
+and exposes a progress view.[5] Robin links hypothesis generation with experimental analysis in a
+continuous scientific workflow.[6] Gemini Deep Research accepts PDFs, CSVs, images, audio, and
+video as grounding context.[7] ATLAS.ti preserves audio/video segments alongside coding and
+interpretation.[8] LabArchives preserves immutable revision histories.[9] W3C PROV formalizes
+interoperable provenance.[10] Intelligence analysis has long used competing-hypothesis methods,
+although controlled studies warn that structure alone does not guarantee better judgment.[11]
+Open forensic projects now implement evidence-bound hypothesis states and explicit falsification
+passes.[12][13] Aleph provides open-source investigative data infrastructure.[14] Timesketch
+explicitly frames part of its mission as moving from a hypothesis to forensic artifacts that support
+or invalidate it.[15] Recent reasoning-provenance work argues that state checkpoints and
+execution traces do not capture why an agent changed strategy or how evidence supports a
+verdict.[16]
+The strongest surviving gap is therefore not a missing feature. It is the absence, in the reviewed
+landscape, of one mature and broadly accessible general-purpose environment in which the
+evolving inquiry itself is the persistent object connecting evidence acquisition, representations,
+interpretations, competing hypotheses, model and question revision, autonomous continuation,
+and complete inspectable lineage. This is a bounded finding, not a claim that no private or obscure
+counterexample exists.
+Version 1.2 adds an adjudication boundary to that architecture: a process may detect and propose
+disposition of a challenge to its own state, but it may not be the sole final authority over a material
+determination that the challenge is immaterial or resolved.
+Figure 1. A conventional research artifact can remain familiar even while material inquiry functions move across human
+and machine actors.
+
+[Source PDF page 4]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+PART I - THE PROBLEM
+1. The Mask AI Research Wears
+Research has traditionally been legible through artifacts. A paper names authors, presents
+methods, cites sources, reports results, and states conclusions. Those conventions do useful work.
+They make claims attributable and inspectable. But they also create an assumption: that the
+visible artifact is a reasonable map of where the inquiry happened.
+AI destabilizes that assumption. A person may formulate a question while a machine identifies
+terminology, searches hundreds of sources, selects material, compares findings, proposes a
+hypothesis, writes code, runs an experiment, interprets results, drafts a conclusion, and revises
+the argument. The final paper may still carry the same familiar structure. The visible form has not
+changed nearly as much as the distribution of epistemic work underneath it.
+The danger is not machine participation itself. The danger is that research retains its outward
+form while custody over material epistemic transitions becomes difficult to locate. A disclosure
+that says only “AI was used” may be almost useless. It does not tell the reader whether AI
+corrected grammar, discovered the central evidence, generated the causal interpretation, or
+decided that contradiction had been resolved.
+Research artifact is not inquiry
+A paper is not the inquiry. A citation is not the evidentiary judgment that made a source material.
+An answer is not the search process that made the answer possible. Publication is a representation
+of a larger process in which questions, evidence, interpretations, and hypotheses change state.
+The difference becomes consequential when the process is machine-mediated. If the process
+remains largely invisible, the reader sees the output but not the movement that gave the output
+epistemic authority.
+The quiet reassignment of the researcher
+The traditional researcher role bundles many functions: question formation, source discovery,
+source selection, evidentiary judgment, hypothesis generation, experiment design, contradiction
+handling, interpretation, revision, and publication. AI can now perform material portions of
+nearly every item on that list. OpenAI describes Deep Research as an agentic system that plans and
+executes a multi-step trajectory, browses uploaded files and the web, backtracks as necessary, and
+returns a cited report.[5] FutureHouse describes Robin as integrating novel hypothesis generation
+with experimental data analysis in a continuous workflow.[6]
+The relevant unit is therefore not percentage of machine-generated words. It is movement of
+epistemic function.
+
+[Source PDF page 5]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+Figure 2. Current research tooling often optimizes local functions while the human researcher preserves continuity
+across the stack.
+PART II - RESEARCH CUSTODY
+2. Research Custody
+Research Custody names responsibility over material inquiry transitions. It is not authorship,
+ownership, or truth. A human can retain custody and still be wrong. A machine can perform a
+material research operation without being authorized to accept the resulting interpretation.
+Custody asks a narrower question: who or what controlled the transition?
+Question custody
+Questions are not neutral containers. They define what evidence counts, what boundaries appear
+relevant, and which alternatives remain invisible. Serious inquiry sometimes discovers that the
+original question is itself defective. A system that preserves only answers can therefore lose one of
+the most important intellectual transitions: the point at which the inquiry changes what it is
+asking.
+Evidentiary burden
+Finding sources and deciding that evidence is sufficient are different acts. Retrieval systems can
+retrieve enormous corpora. They do not thereby acquire authority to declare the matter resolved.
+Evidentiary burden concerns the threshold required for a claim, interpretation, hypothesis, or
+finding to move to a stronger state.
+
+[Source PDF page 6]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+Contradiction custody
+Contradiction creates a decisive test. When credible evidence conflicts, who notices it, preserves it,
+decides whether it is material, determines whether progression should halt, and chooses what
+additional evidence is required? The system that performs synthesis may be structurally biased
+toward continuation even when unresolved conflict is the most faithful representation of the
+evidence.
+Directional revision
+Research direction itself can change. A literature question can become an archival question. A
+correlational explanation can become a mechanism question. A technical issue can require a
+physical test. Custody therefore extends beyond findings into the decision about what the inquiry
+does next.
+3. Epistemic Materiality
+Not every machine action deserves identical disclosure. A spelling correction and a generated
+causal interpretation are both AI contributions, but they are not epistemically equivalent.
+Materiality therefore cannot remain a synonym for subjective importance; it must determine
+which state changes require preservation, escalation, custody, and disclosure.
+Counterfactual materiality test
+A contribution, object, or transition is epistemically material when removing it, reversing it, or
+materially altering it - while holding the rest of the current inquiry state fixed - could produce a
+validly different downstream research state. The relevant downstream state includes the
+governing question, admissible evidence set, active hypothesis set, interpretation, explanatory
+model or ontology, contradiction status, finding state, research direction, or publication claim and
+scope.
+Counterfactual Materiality Test: if this element were removed,
+reversed, or materially altered, could a valid downstream inquiry
+state differ?
+Level Operational meaning Default handling
+M0 - Incidental No downstream epistemic
+consequence.
+May remain ephemeral.
+M1 - Local Changes a local representation or
+observation but does not alter higher
+inquiry state.
+Retain when useful for source or
+transformation provenance.
+M2 - Inquiry-relevant Can alter a claim, interpretation,
+conflict, or active hypothesis.
+Persist and attach to affected inquiry
+objects.
+M3 - Governing Can alter governing question, model,
+major finding, direction, or
+publication state.
+Explicit transition record plus
+heightened review / escalation.
+
+[Source PDF page 7]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+The four levels are not claims about truth and are not a substitute for evidence quality. They are
+governance classes used to determine preservation and transition burden. The later Technical
+Build Specification can formalize domain thresholds, but the semantic test is fixed here:
+materiality is determined by counterfactual consequence to inquiry state, not by rhetoric, novelty,
+or actor preference.
+4. Progression Bias
+Progression Bias is proposed here as the structural tendency to convert unresolved states into
+actionable continuation. It is a testable conceptual hypothesis, not an established law. The
+mechanism matters because machine research systems are often rewarded for useful completion:
+produce the report, finish the search, generate the next experiment, answer the question.
+A system can verbally acknowledge uncertainty while operationally building on top of it. The
+critical question is whether uncertainty changes what may happen next. “Evidence is mixed” is
+not a governed state if the system immediately proceeds as though one interpretation had
+survived.
+Claim inflation
+Research transformations create repeated opportunities for scope and certainty to expand: source
+ summary  synthesis  argument  conclusion. Each step may be reasonable individually, yet → → → →
+the final claim can become stronger than the underlying evidence. Citation does not by itself
+reveal how the transformation occurred.
+Failure recovery versus failure discovery
+Failure recovery asks how to continue. Failure discovery asks what the failure reveals about what
+the inquiry believed. These are not equivalent. A failed experiment may indicate a bad method, an
+unobservable variable, a wrong hypothesis, or a defective question. Treating all failure as an
+obstacle to completion can destroy information.
+5. Semantic Compression and Reality Primacy
+The methodological basis for the architecture comes from a broader Governing Engines research
+principle: a representation is not the thing represented. In What Is Intelligence?, the inquiry
+explicitly treated conventional definitions as representations subordinate to whatever process
+actually exists, sought competing explanations, and required contradiction to force revision.[1]
+That paper defines abstraction failure as compression distortion becoming operational: a
+compressed representation continues governing action after discarded structure becomes
+consequential.[1] Research systems face the same problem. A transcript is a useful compression of
+audio. A summary is a compression of a paper. A metric is a compression of a dataset. A citation
+graph is a compression of scholarly relationships. The issue is not compression. The issue is
+forgetting what was discarded.
+
+[Source PDF page 8]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+Reality Primacy: no representation, interpretation, model, or prior
+state has authority to resist materially stronger evidence merely
+because the existing state is coherent or already accepted.
+Reality-Primacy challenge and revalidation
+Reality Primacy requires a detection mechanism. Newly admitted evidence does not automatically
+override prior state; it first challenges the parts of the inquiry that depend on what the new
+evidence may invalidate. Revalidation is required when new evidence directly contradicts a load-
+bearing observation or claim, invalidates an assumption used by the current interpretation,
+exposes a material representation error, provides materially stronger or more direct evidence
+than the evidence supporting the current state, changes a discriminating prediction, reveals false
+source independence, invalidates the method by which current evidence was produced, expands
+the relevant system boundary, or introduces evidence the current explanatory model cannot
+represent.
+The operational sequence is: Current State -> New Evidence Admitted -> Challenge Test ->
+Counterfactual Materiality Test -> REVALIDATION_REQUIRED or NO_MATERIAL_CHALLENGE. If
+revalidation is required, the affected state is reopened, competing interpretations are compared
+against the evidence burden, and the state is either retained, narrowed, revised, superseded, or
+left unresolved. The transition receives a receipt identifying the evidence, rationale, custody, and
+affected objects.
+Reality Primacy does not mean newest evidence wins. It means
+materially challenging evidence can force accepted state back into
+contact with its evidence burden.
+Adjudication independence
+The challenge and materiality tests create a second-order risk: the same reasoning process whose
+state is being challenged could classify the challenge as immaterial and thereby protect itself from
+revalidation. The architecture therefore separates detection from final adjudication for material
+challenges. A primary research process may detect, classify, and recommend disposition; it may
+not be the sole authority that finalizes an M2 or M3 challenge to its own accepted state.
+Adjudication asks a narrower question than redoing the investigation: could the admitted
+evidence plausibly change a valid downstream inquiry state, does it challenge a load-bearing
+assumption, observation, representation, interpretation, or model, and is the proposed materiality
+class defensible from the dependency structure of the inquiry?
+If the primary process and adjudicator materially disagree, the state becomes
+MATERIALITY_DISPUTED. The system must preserve the disagreement and apply the higher
+plausible consequence class until review resolves it. Disagreement at the governance layer must
+not be silently averaged away.
+
+[Source PDF page 9]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+Independence is graded rather than assumed. A separate reasoning pass is weaker than a
+different reasoning role; a different role is weaker than an independently retrieved evidence path;
+a different model can reduce some common-mode errors but does not guarantee independence;
+human review provides another source of judgment but is not infallible. Duplicate computation is
+therefore not automatically independent adjudication.
+Proportionate adjudication policy
+Materiality Default adjudication Escalation rule
+M0 - Incidental Primary process may self-classify. No independent adjudication required.
+M1 - Local Primary process may classify. Eligible for audit sampling or challenge-
+triggered review.
+M2 - Inquiry-relevant
+Independent machine adjudication or
+human review before challenged state
+is promoted or retained.
+Disagreement ->
+MATERIALITY_DISPUTED and
+conservative escalation.
+M3 - Governing
+Independent adjudication plus explicit
+human custody for governing-question,
+major model/ontology, major finding, or
+publication-state transitions.
+Cannot be self-finalized by the
+challenged reasoning path.
+Figure 3. Reality Primacy makes research state recursively revisable by evidence rather than terminally governed by
+prior representation.
+
+[Source PDF page 10]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+PART III - RESEARCH INSIDE INSTITUTIONS
+6. Public Research Surface
+Frontier organizations may have unusually deep access to model behavior, telemetry, failures,
+red-team results, unreleased experiments, and internal capability discoveries. Public papers,
+model cards, safety reports, and benchmarks expose only some portion of that inquiry. This paper
+calls the externally observable portion the Public Research Surface.
+The concept is descriptive, not accusatory. Security, privacy, unfinished work, intellectual
+property, contractual restrictions, and responsible-disclosure concerns can all justify limited
+publication. The architectural issue is that external readers cannot infer the full internal inquiry
+from the public artifact.
+Who has custody of a finding?
+A corporate researcher may be simultaneously a scientist, employee, builder, evaluator, and
+adviser. Those roles create multiple authority relationships. A finding can be scientifically
+material while its release remains governed by legal, security, or organizational processes. The
+relevant systems question is therefore not to presume motive but to identify the chain of custody
+between finding and institutional action.
+Whistleblowing as a transmission event
+Whistleblowing can be modeled as a failure or breakdown of ordinary research transmission:
+Finding  Internal Transmission  Evaluation  Organizational Decision  Disagreement  → → → → →
+Failed Resolution  External Transmission. The sequence does not establish why disagreement →
+occurred. It does make the custody problem inspectable.
+
+[Source PDF page 11]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+PART IV - INVESTIGATION OF EXISTING
+SYSTEMS
+7. Method of Comparative Investigation
+The external investigation was deliberately adversarial to the paper’s emerging novelty claims.
+Candidate gaps were treated as hypotheses to be attacked. When an existing system already
+implemented a mechanism, the proposed gap was narrowed. The goal was not to prove that
+Governing Engines had invented each piece. It was to determine what remained after prior art
+and deployed practice were properly accounted for.
+The comparison used primary product documentation, academic papers, open-source repositories,
+standards, technical manuals, and selected public practitioner commentary. Consumer and
+practitioner reports were treated as evidence of experience and friction, not as controlled
+performance measurements. The investigation stopped at major-class saturation: additional broad
+searches increasingly produced new examples of known mechanism families rather than new
+architecture classes.
+Comparative dimensions
+A major methodological result of the investigation was the need to separate capabilities that are
+often conflated.
+Dimension Question
+Detected Can the system recognize the condition or state?
+Preserved Does it retain the relevant state or history?
+Presented Can the researcher inspect that state?
+Governed Does the state change what the process may do next?
+Usable Can a person work with the preserved state without
+prohibitive burden?
+Conformance Does actual behavior follow the declared procedure?
+Accessible Can ordinary users realistically obtain and operate the
+capability?
+Composite counterexample test
+Testing products one at a time is not enough. A stronger adversarial question is whether a
+competent team could compose existing mechanisms and close most of the claimed gap without a
+new inquiry architecture. A plausible composite would combine W3C PROV for provenance, an
+ELN-style immutable revision history, Scite-like support/contrast relations, ACH-style competing
+hypotheses, ATLAS.ti-style source-segment interpretation, an agentic research system for
+autonomous discovery, and event-sourced state history.
+
+[Source PDF page 12]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+That composite would likely reproduce a large share of the local capability proposed in this paper.
+The remaining problem is therefore not possession of the parts. It is whether those parts share one
+authoritative evolving inquiry state, whether cross-function transitions have common semantics
+and custody, whether question/model/interpretation changes propagate coherently, and whether
+the resulting system remains broadly usable and accessible. This paper does not claim that such a
+composite cannot be engineered; rather, the composite counterexample narrows the constructive
+contribution toward integration and governing transition semantics.
+8. Literature, Citation, and Review Systems
+Elicit: structured review state
+Elicit’s systematic-review workflow supports research-question refinement, gathering papers,
+explicit screening criteria, screening recommendations, human overrides, data extraction, and
+synthesis. Its public documentation emphasizes PRISMA-auditable exclusion reasons, per-criterion
+scores, supporting quotes, and sentence-level citations.[2] This is substantial procedural
+provenance. It does not, from the reviewed public documentation, establish a complete historical
+record of how interpretations changed as the inquiry evolved.
+Scite: support and contradiction at citation scale
+Scite’s Smart Citations classify citation statements as supporting, contrasting, or mentioning and
+expose citation context rather than relying on counts alone.[3] This directly disproves any claim
+that contradictory-evidence discovery is absent from contemporary literature infrastructure. Scite
+itself cautions that such classifications are navigation signals rather than proof of study quality
+and encourages return to the cited context and paper.[3]
+ResearchRabbit: discovery through scholarly relationships
+ResearchRabbit attacks a different boundary: keyword dependence. Citation networks allow
+researchers to move backward to foundational work and forward to later work that may extend,
+challenge, or supersede earlier findings.[4] That demonstrates that research discovery can follow
+relationships rather than only lexical similarity.
+9. Agentic Research and Automated Science
+Deep Research: autonomous trajectory
+OpenAI describes Deep Research as an agentic capability that conducts multi-step research,
+searches and analyzes large numbers of online sources, pivots as information is encountered, can
+browse uploaded files, and presents a summary of steps and sources.[5] Its significance here is not
+that it produces reports, but that it moves research direction autonomously during the run.
+Robin: inquiry crossing into physical experimentation
+FutureHouse describes Robin as an end-to-end scientific workflow integrating hypothesis
+generation with experimental data analysis.[6] Robin matters because the research loop is not
+
+[Source PDF page 13]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+confined to digital text: human-performed physical experiments can return data into a machine-
+led inquiry. This demonstrates that machine research can cross the screen boundary while
+remaining part of one workflow.
+Gemini Deep Research: multimodal grounding
+Google’s 2026 Deep Research announcement explicitly supports grounding with PDFs, CSVs,
+images, audio, and video, alongside search, code execution, file search, URL context, and remote
+tools.[7] Multimodal ingestion is therefore not a novel requirement. The harder question is
+whether transformations and later interpretation revisions remain visible.
+10. Laboratory, Qualitative, and Provenance Systems
+Laboratory history
+LabArchives automatically timestamps additions, deletions, and modifications and retains
+immutable revision histories that can be inspected and reverted.[9] This establishes that strong
+historical preservation is mature infrastructure. But its own documentation also shows that not
+every activity is versioned: comments, tags, links, and some copy actions are excluded.[9] What a
+system preserves is determined by what its architecture considers state.
+Qualitative multimedia analysis
+ATLAS.ti allows researchers to create exact audio/video quotations while listening or watching,
+code those segments, add comments and first interpretations, play them back in context, and
+capture video frames as separate image documents for further analysis.[8] This is a strong
+precedent for linking original multimedia evidence to a derived interpretive structure without
+reducing the entire source to a transcript.
+Provenance standards
+W3C PROV defines interoperable provenance in terms of entities, activities, and agents and is
+intended to support questions about origin, trust, compliance, and reproducibility.[10] Provenance
+itself is therefore a mature standards problem. The paper’s narrower concern is semantic
+continuity of an inquiry across changes in interpretation, question, hypothesis, and model.
+11. Intelligence, Forensics, and Investigative Systems
+Competing hypotheses
+Analysis of Competing Hypotheses is explicitly designed to reduce confirmation bias by requiring
+analysts to consider alternatives and evaluate evidence against them. Controlled research
+complicates any simplistic endorsement: Dhami, Belton, and Mandel found that trained analysts
+did not follow all ACH steps, evidence for reducing confirmation bias was mixed, and the method
+could increase inconsistency and error.[11] The lesson is important: explicit structure does not
+guarantee correct execution.
+
+[Source PDF page 14]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+Open forensic hypothesis governance
+Forensia provides an especially relevant open-source precedent. Its documentation states that
+language-model output is never stored directly as fact; actual evidence is searched and checked
+first. It manages hypotheses through confirmed, refuted, inconclusive, untestable, and new-lead
+states and distinguishes an empty query result from genuine refutation based on observability
+and coverage.[12]
+DFIR Companion goes further in another direction: it exposes evidence-linked findings, “ask the
+case” queries, status-tracked hypotheses, contradicting evidence, explicit falsification review,
+known unknowns, and investigation logs.[13] These systems directly disprove broad claims that
+public investigative software lacks governed hypothesis state or adversarial evidence review.
+Open investigative memory
+Aleph is an open-source toolkit for investigative data analysis capable of searching and cross-
+referencing heterogeneous structured and unstructured data.[14] Its public investigative
+workspace supports uploaded documents, entities, network diagrams, and list comparison. OCCRP
+describes its public service as helping users “build your investigative memory.”[14] The significant
+distinction is that investigative memory can still be organized primarily around documents,
+entities, and relationships rather than the full semantic evolution of interpretation.
+Hypothesis to artifact
+Timesketch states an explicit goal of helping analysts move from a hypothesis to forensic artifacts
+that support or invalidate it.[15] This is another direct precedent for evidence-bound hypothesis
+testing. It reinforces the central finding that the pieces exist; the challenge is continuity across
+pieces.
+12. Reasoning Provenance and Epistemic State
+Recent agent research narrows the gap further. A 2026 paper on Reasoning Provenance for
+Autonomous AI Agents argues that state checkpoints, execution traces, and telemetry do not
+natively provide structured, queryable records of why an agent chose an action, what it inferred
+from an observation, how the inference changed strategy, or which evidence supports the final
+verdict. The proposed Agent Execution Record stores intent, observation, inference, versioned
+plans, revision rationale, evidence chains, and authority context.[16]
+This directly supports one of the paper’s strongest distinctions: preservation of state is not the
+same as preservation of transition meaning. Yet reasoning provenance remains agent-centric. The
+general investigator problem is broader: the inquiry can cross human action, machine action,
+inaccessible evidence, multimedia, experiments, question revision, model revision, and
+publication.
+
+[Source PDF page 15]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+13. Cross-System Findings
+System family Primary object Strong capability Less explicit /
+fragmented capability
+Literature / review Paper / review Discovery, screening,
+extraction, synthesis
+Inquiry-wide
+interpretation lineage
+Citation intelligence Citation relation Support / contrast context Broader research-state
+transition
+Research agents Task / trajectory Autonomous continuation Durable semantic inquiry
+state
+Laboratory systems Experiment / record Audit and version history Epistemic causality
+Intelligence methods Hypothesis Competing explanations Cross-domain continuity
+Legal / forensic Evidence / case Custody, authenticity,
+source linkage
+General research evolution
+Qualitative tools Coded segment Source-attached
+interpretation
+Autonomous investigation
+Epistemic-state systems Belief / reasoning state Revision semantics Broad evidence
+environment and public
+workflow
+The strongest surviving gap
+The investigated landscape does not reveal a mature, broadly
+accessible, general-purpose investigator/research system that clearly
+integrates the full evolving inquiry across evidence environments,
+modalities, interpretations, competing hypotheses, structural
+revision, autonomous investigation, and inspectable transition
+lineage.
+This is a bounded comparative finding. It does not assert that no proprietary, classified, private,
+obscure, or future system exists. It states what the investigation established within the public
+landscape examined through September 2026.
+
+[Source PDF page 16]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+Figure 4. The proposed architecture changes the primary object from paper, task, experiment, or case to the evolving
+Inquiry.
+
+[Source PDF page 17]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+PART V - CONSTRUCTIVE ARCHITECTURE
+14. Inquiry as the Persistent Primary Object
+The constructive architecture begins by changing the unit of persistence. An Inquiry is not a chat,
+report, document, search session, or project folder. Those can belong to it. The Inquiry is the
+continuing research object that survives changes in question, evidence type, hypothesis,
+interpretation, model, researcher, and agent.
+Terminology discipline and prior-art mapping
+The architecture does not require every familiar mechanism to be renamed. Provenance entities,
+activities, agents, version events, audit records, and state transitions already have mature
+representations in standards and deployed systems. Governing Engines terminology is retained
+only where it adds inquiry-specific semantics rather than cosmetic vocabulary.
+Paper term Nearest established concept Inquiry-specific distinction
+Source / Representation Provenance entity / derived entity Keeps the original evidentiary object
+distinct from transformed reasoning
+surfaces such as transcript, OCR,
+summary, or translation.
+Transition Event / provenance activity / state
+transition
+Requires epistemic transition
+semantics: what changed, why, based
+on what evidence, under whose
+custody, and what downstream state
+was affected.
+Custody Record Attribution / agent / audit record Tracks who or what controlled a
+material epistemic transition, not
+merely who created or edited an
+artifact.
+Material Conflict Escalation Exception / review / competing-
+hypothesis process
+Makes material contradiction an
+operational state capable of blocking
+or redirecting inquiry.
+Semantic Continuity of Inquiry Lineage / workflow evolution / belief
+history
+Requires reconstructable continuity
+across question, interpretation,
+model, direction, and findings - not
+only artifact or execution history.
+Where established standards already compute the needed relationship, implementation should
+adopt or extend them rather than duplicate them under a new name. The later technical
+specification should therefore map canonical inquiry objects onto existing provenance and event
+models before introducing new schemas.
+
+[Source PDF page 18]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+Canonical inquiry objects
+Object Meaning
+Inquiry Persistent parent object representing the investigation as
+an evolving stateful process.
+Question The problem being investigated, with lineage when
+narrowed, broadened, or reframed.
+Source Underlying item from which evidence may be derived:
+paper, book, video, person, dataset, experiment, archive
+record.
+Evidence Materially relevant portion or result drawn from a
+source.
+Representation Derived form such as transcript, OCR, summary,
+translation, frame, visualization.
+Observation What was detected without yet asserting what it means.
+Interpretation Meaning assigned to one or more observations, with
+alternatives and revision history.
+Claim Assertable proposition encountered or generated during
+research.
+Hypothesis Explanatory or predictive proposition explicitly being
+tested.
+Conflict Material incompatibility among sources, representations,
+interpretations, hypotheses, or models.
+Search Intentional evidence-seeking act with purpose,
+environment, query, and result state.
+Acquisition Task Evidence lead requiring human, physical, institutional, or
+external action.
+Experiment Intentional reality test linked to a hypothesis and
+discriminating outcomes.
+Finding Stabilized current conclusion with scope, evidence,
+contradiction, and limitations.
+Transition Material state change with previous state, new state,
+evidence, rationale, and custody.
+Custody Record Who or what proposed, accepted, rejected, modified, or
+escalated a material transition.
+Publication State Frozen bounded release of inquiry state; later research
+may continue without rewriting it.
+15. Governing Invariants
+The architecture is constrained by invariants rather than by a single preferred workflow. Modes
+may change what the system is trying to do. They may not change what counts as evidence or
+permit silent epistemic transitions.
+
+[Source PDF page 19]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+Reality Primacy
+Reality outranks representation. Evidence that passes the challenge and counterfactual materiality
+tests can force affected state into revalidation; newer evidence does not win merely because it is
+newer.
+Materiality
+Materiality is determined by counterfactual consequence to inquiry state. M2/M3 changes require
+persistent state; M3 changes require explicit transition records and heightened review.
+No Self-Finalizing Material Challenge
+A reasoning path may detect and propose disposition of a challenge to its own state, but for M2/M3
+challenges it may not be the sole authority that determines the challenge is immaterial, resolved,
+or safe to ignore. Materiality adjudication must be sufficiently independent to expose self-
+protective classification and must preserve MATERIALITY_DISPUTED when adjudicators disagree.
+Adjudication Independence
+Independence is a property of the review path, not merely the number of agent calls. The system
+must record the adjudication basis and the form of independence used - separate reasoning pass,
+distinct role, independent evidence path, different model, human review, or an approved
+combination - so conformance can later be tested rather than assumed.
+Observation - Interpretation Separation
+Observation must not silently become interpretation.
+Representation - Source Separation
+Derived representation must remain traceable to the source and must not silently replace it.
+Source-State Integrity
+Discovered, located, accessible, inspected, and cited are different source states.
+Evidence Existence
+Inaccessible or unlocated evidence must not be represented as nonexistent.
+Search-Scope Integrity
+Conclusions must not imply a broader evidence search than actually occurred.
+Adversarial Search
+Material hypotheses must generate searches for evidence capable of weakening them.
+False Independence
+Repeated claims sharing one upstream origin must not be counted as independent corroboration.
+Contradiction Preservation
+Material contradiction may remain unresolved and must not disappear through synthesis.
+No Silent Transition
+Material changes in question, interpretation, model, finding, or direction require a transition
+record.
+
+[Source PDF page 20]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+No Unowned Transition
+Material transitions retain identifiable human, machine, shared, or institutional custody.
+Publication State
+Publication freezes a bounded state; it does not freeze inquiry.
+Compression Reconstructability
+Summaries may compress, but material research state must remain reconstructable beneath
+them.
+Accessibility
+Core investigative capability must not depend on professional or institutional status.
+16. Research Modes
+The system may operate in explicit modes without allowing modes to change the governing laws.
+Mode Primary purpose
+Explore Broad discovery and terminology formation.
+Investigate Collect evidence around a defined question.
+Challenge Actively seek disconfirmation, alternatives, and source
+weaknesses.
+Interpret Construct and compare meaning from observations.
+Validate Test claims and hypotheses against evidence.
+Resolve Conflict Examine material contradiction without forcing
+premature convergence.
+Experiment Perform or coordinate a reality test.
+Synthesize Integrate supported state while preserving unresolved
+material.
+Review Inspect material transitions and custody.
+Publish Freeze a bounded research state.
+Reopen Resume inquiry when materially relevant evidence
+arrives.
+17. Operational Loops
+Default research loop
+Question  determine required evidence  search and discover  acquire and inspect  derive → → → →
+representations  record observations  interpret  generate and compare hypotheses  seek → → → →
+support and disconfirmation  identify conflicts and gaps  test, escalate, or acquire more → →
+evidence  revise interpretation, model, or question where required  stabilize findings  reality-→ → →
+check  report current inquiry state.→
+
+[Source PDF page 21]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+This is recursive rather than linear. New evidence can reopen any earlier state.
+Claim-chasing loop
+Material claim  asserting source  cited support  upstream origin where material  → → → →
+independent support search  contradiction search  source-independence check  current claim→ → →
+state. The required chase depth scales with materiality.
+Interpretation loop
+Observations  candidate interpretation  alternatives  supporting evidence  contradictory → → → →
+evidence  current interpretation  later evidence  revision if necessary. The evidence may → → →
+remain unchanged while the interpretation changes.
+Conflict loop
+Detect  classify conflict  identify affected inquiry state  inspect underlying sources  → → → →
+distinguish source conflict from representation conflict  seek discriminating evidence  escalate → →
+if material  resolve or preserve unresolved  propagate consequences.→ →
+Evidence-acquisition loop
+Relevant source discovered  relevance established  access path located  Acquisition Task → → →
+created  human or external actor obtains evidence  provenance checked  evidence ingested → → → →
+inquiry resumes. This keeps books, archives, interviews, physical inspections, and experiments
+inside the same research state even when the machine cannot perform the acquisition directly.
+18. Multimodal Evidence
+The architecture accepts text conversion because language is often the most convenient reasoning
+surface. It rejects the idea that the conversion becomes the entire evidence object.
+For audio, the transcript captures what was said while the waveform and acoustic context may
+carry pace, emphasis, laughter, hesitation, overlap, or environmental events. For video, frames
+and motion can add posture, gesture, physical sequence, and surrounding context. These cues do
+not automatically establish intent; they constrain interpretation. The system should therefore
+preserve original evidence and derived representations together.
+The practical model is: Original source  derived representations  observations  interpretation.→ → →
+Each layer remains distinguishable and returnable.
+19. Search Beyond the Internet
+The relevant evidence environment is larger than the searchable web. A book listing can establish
+that a book exists without establishing what the book says. A library catalog can identify a source
+without turning its metadata into substantive evidence. An archive finding aid can expose a lead
+without making the underlying records inspected.
+
+[Source PDF page 22]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+Accordingly, source state matters. DISCOVERED, LOCATED, ACCESSIBLE, ACQUIRED, INSPECTED,
+PARTIALLY_INSPECTED, UNAVAILABLE, and INACCESSIBLE describe different realities. The
+system should report sources discovered but not examined and create acquisition tasks when a
+material evidence trail continues beyond machine access.
+20. Material Conflict Escalation
+Material Conflict Escalation is the mechanism by which contradiction becomes operational state
+rather than decorative caveat. When a conflict can materially affect the governing question,
+hypothesis, evidentiary sufficiency, claim scope, methodological validity, or conclusion, the system
+should isolate the conflict and preserve the exact underlying evidence before progression.
+A Conflict Packet should contain the competing claims or interpretations, exact source references,
+the reason they conflict, variables or contexts that differ, affected finding or hypothesis, known
+unknowns, and what evidence would discriminate among alternatives. Possible outcomes include
+RESOLVED_A, RESOLVED_B, CONTEXT_DEPENDENT, REPRESENTATION_ERROR,
+INSUFFICIENT_EVIDENCE, REQUIRES_NEW_TEST, QUESTION_REFRAMED, or
+UNRESOLVED_CONTRADICTION.
+21. Complete Inquiry Return
+The system should be capable of returning everything material without forcing every user to
+consume everything at once. Complete preservation and complete simultaneous display are
+different requirements.
+Retention tiers and the cost boundary
+Full lineage cannot mean indefinite retention of every token, intermediate thought, sampled
+frame, or transient tool call. That would make reconstructability economically and operationally
+inaccessible. The architecture therefore separates raw computation from canonical inquiry state.
+Retention tier Meaning Default persistence
+T0 - Ephemeral computation Transient model/tool work that
+produced no material inquiry
+change.
+Discardable after immediate
+execution and safety needs.
+T1 - Supporting trace Execution/search trace useful for
+debugging, provenance, or later
+inspection but not itself a material
+epistemic transition.
+Retain selectively, compress, or
+expire under policy.
+T2 - Material inquiry state M2/M3 evidence, interpretations,
+conflicts, hypotheses, and state
+needed to reconstruct current
+understanding.
+Persist for the life of the inquiry and
+applicable retention period.
+T3 - Canonical transition record Every M3 transition and other
+transitions designated canonical by
+policy.
+Durable, replayable, versioned, and
+protected from silent overwrite.
+
+[Source PDF page 23]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+This makes accessibility an architectural constraint rather than a promise deferred to evaluation.
+The system preserves enough to reconstruct material epistemic change while allowing non-
+material computational exhaust to be compressed or expired. Implementation must measure the
+storage and compute cost of these tiers; if T2/T3 growth makes ordinary use impractical, the
+architecture has failed one of its stated objectives.
+Figure 5. Layered output allows concise use while preserving full research reconstructability underneath.
+At any time the user should be able to ask: What are we currently claiming? What remains
+unresolved? Which findings depend on Source X? What changed today? Which claims have not
+been chased? What evidence did we discover but fail to acquire? Which interpretations changed
+and why? What evidence would overturn the current finding?
+22. Accessibility as Architecture
+The design objective is deliberately public: serious investigator/research capability should not
+require law-enforcement status, university affiliation, enterprise procurement, or another
+institutional gate. The comparative investigation shows that public and open-source systems can
+already provide meaningful investigative functions. The harder problem is integration without
+turning the user into a systems administrator.
+
+[Source PDF page 24]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+Accessibility therefore has at least four layers: public discoverability, self-service availability,
+economic accessibility, and operational accessibility. Evidence resources may still be legally or
+commercially restricted. System capability and evidence access are separate constraints.
+23. Implementation Boundary for This Paper
+This paper takes the architecture to implementation-handoff level, not to a technical build
+specification. It defines the persistent object, canonical semantic objects, state distinctions, modes,
+loops, invariants, custody model, multimodal behavior, external acquisition behavior, output
+model, a counterfactual materiality test, the Reality-Primacy revalidation trigger, and the
+architecture-level adjudication boundary for material challenges. It intentionally does not freeze
+database schemas, APIs, orchestration topology, model providers, event buses, graph technology,
+domain-specific materiality thresholds, exact adjudicator selection rules, audit-sampling rates,
+security boundaries, or deployment infrastructure. Those belong in a later Governing Semantics /
+Technical Build Specification.
+The constructive claim is architectural: the system can be organized
+around the evolving Inquiry. Empirical superiority remains
+unproven until implementation and testing.
+
+[Source PDF page 25]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+PART VI - FINDINGS, DISCLOSURE, AND
+FALSIFICATION
+24. Findings by Evidentiary Status
+Externally evidenced findings
+ AI already performs material research functions across discovery, synthesis, experimentation,
+multimodal analysis, and autonomous continuation.
+ Provenance, contradiction detection, competing hypotheses, multimodal evidence, revision
+history, and belief-revision mechanisms already have substantial prior art.
+ Preserving state, presenting state, and governing state are distinct capabilities.
+ Professional disciplines distribute epistemic controls differently: law emphasizes custody;
+intelligence competing hypotheses; science reproducibility; qualitative research source-
+attached interpretation; forensics authenticity and cross-tool validation.
+ Users and practitioners often remain the cross-system integration layer even as local
+automation increases.
+ Current agent research increasingly treats reasoning provenance and epistemic state
+transition as explicit infrastructure problems.
+Conceptual findings
+ Research Custody: who or what controls material epistemic transitions.
+ Epistemic Materiality: machine or human contribution is material when changing it could
+alter the question, evidence set, hypothesis, interpretation, claim scope, conclusion, or
+direction.
+ Progression Bias: the structural tendency to convert unresolved states into actionable
+continuation; proposed here as a testable hypothesis.
+ Oversight Compression: research throughput can expand faster than meaningful human
+inspection capacity.
+ Public Research Surface: the externally observable portion of an institution’s actual inquiry.
+ Semantic Continuity of Inquiry: material changes in questions, evidence interpretations,
+hypotheses, models, findings, and direction remain reconstructably connected over time.
+Design findings
+ The Inquiry should be the persistent primary object rather than the document, task, case, or
+final answer.
+ Observation, representation, interpretation, claim, hypothesis, finding, and transition require
+distinct semantic states.
+ Material state changes require explicit evidence, rationale, consequences, and custody.
+ Search and evidence acquisition should remain part of inquiry state, including inaccessible but
+discovered sources.
+
+[Source PDF page 26]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+ Complete research return should be layered so compression does not destroy
+reconstructability.
+ Accessibility must be architectural rather than a pricing decision made after construction.
+Unresolved findings
+ Whether preserving full inquiry lineage measurably improves research quality or correction
+rates.
+ How to define materiality without preserving either too much or too little state.
+ Whether machine-generated revision rationales are reliable enough for governance without
+independent evidence checks.
+ How well autonomous agents can maintain adversarial search and contradiction preservation
+over long research runs.
+ How conflicting multimodal cues should be represented without creating false precision.
+ How broad a general investigator can become without requiring domain-specific epistemic
+modules.
+25. Research-Custody Disclosure for This Paper
+Human-originated research object
+The governing research problem originated with the human researcher. The initial concern was
+not that AI should be excluded from research. It was that machine participation could expand
+while conventional artifacts continued to obscure where material inquiry functions occurred.
+Material machine participation
+AI materially participated in organizing candidate sections, identifying comparable systems,
+conducting public-source comparisons, retrieving documentation, surfacing related research
+traditions, proposing distinctions, challenging overbroad novelty claims, drafting prose, and
+integrating findings. Removing that participation would have changed the evidence set,
+terminology, comparisons, and direction of later investigation. Describing the AI as merely a
+writing tool would therefore understate its epistemic role.
+Human custody
+The human researcher retained custody over the originating research object, whether proposed
+distinctions belonged in the inquiry, when the assistant was moving into design too early, the
+requirement to investigate before architecture, the definition of the inquiry itself as the target
+object, the need to search for evidence for and against hypotheses, the requirement to include
+books, libraries, images, audio, video, and physical evidence environments, the accessibility
+objective, the acceptance or rejection of conceptual formulations, and publication readiness.
+Shared inquiry and revision
+Some conceptual transitions were shared. The distinction between preservation and presentation
+was sharpened through direct human correction of an AI characterization. The gap repeatedly
+narrowed as external systems disproved broader claims: provenance was not missing;
+
+[Source PDF page 27]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+contradiction handling was not missing; hypothesis state was not missing; serious open
+investigative tooling existed; epistemic-state architectures existed. The surviving claim became
+narrower because the research changed the paper rather than the paper controlling the research.
+Retrospective disclosure limitation
+This paper did not originate inside the purpose-built inquiry-state system it proposes. Its custody
+disclosure was reconstructed retrospectively from the conversational research process rather
+than generated from canonical Transition Records, Conflict Packets, or evidence-bound Custody
+Records. It therefore demonstrates the disclosure concept but does not demonstrate conformance
+with the stronger audit standard proposed for future implementations. The limitation is material:
+readers are being given an attributed reconstruction of custody, not a replayable machine-
+auditable custody ledger.
+Prospective standard
+This disclosure is prospective and methodological. The paper does not claim that the proposed
+Research-Custody Disclosure is already an established scientific standard, nor that older research
+artifacts should be retroactively judged by a framework developed after their publication. Prior
+artifacts should preserve their publication state. Future disclosures should focus on epistemically
+material transitions, not every keystroke.
+26. Limitations
+Public documentation is not complete visibility
+The comparative investigation relies on public documentation, public papers, open repositories,
+standards, technical manuals, and selected practitioner commentary. A system may contain
+internal mechanisms that are undocumented externally. Therefore “not established in the
+reviewed public materials” must not be converted into “does not exist.”
+Consumer reports are not controlled evaluation
+Public user and practitioner commentary helped expose workflow friction, manual verification,
+integration burden, and accessibility barriers. These reports are self-selected and context-
+dependent. They are evidence of experience, not universal performance measurements.
+The system landscape changes quickly
+This comparison reflects the public system landscape examined through September 2026. New
+systems may close gaps identified here. That would not invalidate the method; it would change the
+research state.
+Architecture is not validation
+The proposed investigator/research system has not yet been fully built and evaluated as the
+integrated system described. This paper therefore does not claim superior accuracy, lower
+
+[Source PDF page 28]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+hallucination, better science, better investigations, or better user outcomes. Those remain testable
+predictions.
+Materiality and Reality-Primacy mechanisms remain unvalidated
+Version 1.2 closes the semantic ambiguity that previously left “material” and Reality Primacy
+under-operationalized and adds an architecture-level adjudication boundary: materiality is
+defined by counterfactual consequence to inquiry state; Reality Primacy has an explicit challenge-
+and-revalidation trigger; and M2/M3 challenges cannot be self-finalized by the same reasoning
+path whose state is under review. These mechanisms remain design hypotheses until
+implementation shows that different operators and adjudicators can apply them consistently, at
+acceptable cost, without turning the framework into procedural theater.
+Adjudicator independence remains unvalidated
+The architecture specifies proportionate independence, dispute preservation, and human custody
+for governing transitions, but it does not yet establish which combinations of separate passes,
+roles, models, evidence paths, and human review produce sufficient independence in practice.
+Two agents using the same model and assumptions may reproduce the same blind spot. The
+technical specification and evaluation program must therefore treat common-mode adjudication
+failure as a first-class risk.
+27. Falsification Conditions
+Existing integrated counterexample
+The central comparative finding should be narrowed or rejected if a mature, broadly accessible,
+general-purpose system is demonstrated that already integrates evolving inquiry state,
+interpretation/model/question lineage, multimodal and multi-environment evidence acquisition,
+autonomous investigation, transition semantics, and complete inspectable lineage.
+No measurable value from inquiry-state preservation
+The constructive thesis should be weakened if controlled testing shows that preserving
+interpretation history, transition rationale, contradiction, question lineage, and failed branches
+provides no meaningful improvement in auditability, correction, reconstruction, error detection,
+or human understanding compared with substantially simpler systems.
+Governance causes more distortion than it prevents
+The architecture should be revised if its controls systematically bias outcomes, suppress legitimate
+exploration, produce false certainty, impose prohibitive procedural burden, or encourage
+evidence to be forced into state categories. Structured analytic techniques already show that
+adding structure is not automatically beneficial.[11]
+
+[Source PDF page 29]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+Reality Primacy becomes rhetorical
+If implementation cannot provide mechanisms by which evidence can reopen, challenge, revise,
+or disconfirm accepted research state, then the system does not operationalize Reality Primacy. It
+merely names it.
+Adjudication collapses into self-confirmation
+The adjudication architecture should be revised if the same reasoning process can routinely
+classify challenges to its own state as immaterial without effective independent review, if
+nominally independent adjudicators exhibit common-mode agreement that blocks justified
+reopening, or if MATERIALITY_DISPUTED is routinely collapsed for throughput rather than
+resolved against evidence.
+28. Evaluation Program
+The eventual implementation should be tested rather than admired architecturally. Useful
+measures include unresolved-state preservation, contradiction retention, disconfirmation
+sensitivity, claim-scope discipline, source-return reliability, interpretation-revision fidelity,
+question-revision quality, false-independence detection, evidence-horizon accuracy, oversight
+burden, semantic inquiry replay, materiality-classification agreement, adjudicator disagreement
+rate, justified-reopening recall, and common-mode adjudication failure.
+Comparisons should include more than a bare language model. Relevant baselines include
+conventional web research, ordinary AI deep research, structured systematic-review workflows,
+human-only research, and human-plus-AI workflows without explicit inquiry-state governance.
+Failure will be informative. If users ignore the history, materiality classification fails, governance
+produces excessive latency, machine rationales prove unreliable, or multimodal lineage becomes
+prohibitively expensive, those outcomes can disconfirm assumptions in the architecture. A system
+governed by Reality Primacy must itself remain subordinate to reality.
+
+[Source PDF page 30]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+PART VII - CONCLUSION
+29. The Mask Becomes Removable
+The paper began with an appearance problem. Research can retain papers, citations, methods,
+hypotheses, experiments, and conclusions while the location of inquiry inside that structure
+changes. As machine systems acquire more epistemic functions, the familiar artifact becomes a
+weaker proxy for the process that produced it.
+The answer is not to prohibit machine research. Nor is it to preserve humans ceremonially.
+Human judgment can fail, institutions can distort, and machine systems can legitimately perform
+enormous amounts of useful inquiry. The integrity question is whether material transitions
+remain locatable, evidence-bound, challengeable, and revisable.
+The comparative investigation matters because it prevented an easy novelty story. Nearly every
+local mechanism already exists somewhere: provenance, contradictory-evidence discovery,
+competing hypotheses, chain of custody, multimodal interpretation, revision history, belief
+revision, evidence graphs, autonomous research, physical experimentation, reasoning
+provenance. The substantive claim that survives is narrower: these mechanisms can be composed,
+but rigorous machine-mediated inquiry still requires one authoritative evolving inquiry state with
+shared transition semantics, custody, and a non-self-finalizing path for material challenge.
+The system should not merely return what it concluded. It should be
+capable of returning how the inquiry became capable of concluding
+it.
+Under the proposed architecture, the paper becomes one view of a larger state. The underlying
+inquiry can preserve failed paths, alternate interpretations, inaccessible evidence leads, search
+history, question revision, contradiction, model change, and custody. The narrative can remain
+readable because compression is allowed. What is not allowed is losing the ability to return to the
+research state that the compression represents.
+Final thesis
+As AI systems assume increasing epistemic functions within
+research, the integrity of inquiry will depend less on preserving the
+appearance of continuous human authorship and more on
+preserving identifiable custody, reconstructable lineage, and
+independently challengeable adjudication across material research
+transitions - including question formation, evidence acquisition,
+
+[Source PDF page 31]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+representation, interpretation, contradiction, hypothesis revision,
+model revision, findings, and return to reality.
+Constructive thesis
+A general investigator/research system can be organized around the
+evolving Inquiry as its persistent primary object, allowing human
+and machine researchers to search, investigate, interpret, challenge,
+revise, experiment, and publish while preserving evidence-bound
+transition history under Reality Primacy and preventing material
+challenges from being finalized solely by the reasoning path they
+challenge.
+The original question was: when machines increasingly perform the search and humans
+increasingly judge the result, what remains human about research? The inquiry produced a more
+fundamental one:
+Who - or what - has custody of the inquiry while understanding is
+changing?
+That is the part conventional research artifacts increasingly fail to show. And that is the mask AI
+research wears.
+
+[Source PDF page 32]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+APPENDIX A - IMPLEMENTATION-HANDOFF
+SUMMARY
+A1. Current Architecture State
+Area State
+Conceptual research Complete for publication edition
+External system investigation Major-class saturated; not exhaustive
+Requirements derivation Complete at architecture level
+Materiality semantics Counterfactual test and M0-M3 governance
+classes defined; proportional adjudication
+policy added; empirical thresholds pending
+Reality Primacy trigger Challenge/revalidation sequence defined;
+M2/M3 self-finalization prohibited;
+implementation validation pending
+Invariants Defined
+Canonical inquiry objects Defined semantically
+Operational modes and loops Defined
+Multimodal and external evidence model Defined conceptually
+Research-custody disclosure Defined and applied prospectively
+Technical build specification Future artifact
+Production implementation Not yet established by this paper
+Empirical superiority Unproven; evaluation required
+Adjudication boundary MATERIALITY_DISPUTED, graded independence, and
+human custody for governing transitions defined; exact
+mechanisms pending technical specification
+A2. Example Material State Transition
+Example: an inquiry initially interprets a recorded statement as a literal threat. The transcript
+supplies the wording. Audio supplies laughter and prosody. Video supplies relaxed posture and
+surrounding joking interaction. The system records the wording as an observation, the tone and
+visual cues as additional observations, and “playful rather than literal” as an interpretation rather
+than as raw evidence. Later footage reveals prior escalating hostility. The original evidence
+remains unchanged, but the interpretation is reopened. A material transition record links the
+prior interpretation, the new evidence, the conflict, the revised interpretation, the custodian, and
+the consequences for affected findings. This is the practical difference between preserving
+evidence and preserving the evolution of inquiry. Because the revised interpretation can affect a
+
+[Source PDF page 33]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+material finding, the primary agent cannot self-finalize the challenge; an independent
+adjudication path reviews the affected dependency and, if disagreement persists, records
+MATERIALITY_DISPUTED until the challenge is resolved.
+A3. Minimum Research Return
+Layer Content
+Current answer What the present evidence supports now.
+Findings Material findings with state, scope, limitations, and
+contradiction.
+Evidence map Supporting, contradicting, and inaccessible evidence with
+provenance.
+Interpretation history What meaning was assigned, what changed, and why.
+Inquiry history Question changes, hypothesis branches, conflicts, failures,
+direction changes.
+Complete record Searches, source states, transformations, acquisition
+tasks, transitions, custody.
+
+[Source PDF page 34]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+References
+[1] Lawson, D. J. (2026). What Is Intelligence? A Reality-Primacy Investigation of Process,
+Compression, and State Change. Governing Engines, Version 1.1.
+[2] Elicit. (2025-2026). Systematic Review documentation and product workflow.
+https://elicit.com/blog/systematic-review ; https://elicit.com/solutions/systematic-review
+[3] Scite. (2026). Scite Features; Smart Citations and literature-review guidance.
+https://scite.ai/features ; https://scite.ai/blog/how-to-use-ai-for-literature-review
+[4] ResearchRabbit. (2026). Citation networks: how to find papers you would not discover with
+keyword search. https://www.researchrabbit.ai/articles/find-papers-with-citation-networks
+[5] OpenAI. (2025, updated 2026). Introducing deep research.
+https://openai.com/index/introducing-deep-research/
+[6] FutureHouse. (2026). Demonstrating end-to-end scientific discovery with Robin: a multi-agent
+system; Research overview. https://www.futurehouse.org/research
+[7] Google. (2026). Introducing Deep Research and Deep Research Max.
+https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-
+gemini-deep-research/
+[8] ATLAS.ti. (2026). Working with Multimedia Data, ATLAS.ti 26 User Manual.
+https://manuals.atlasti.com/Win/en/manual/Multimedia/MultimediaWorkingWith.html
+[9] LabArchives. (2025). Revision History and Timestamps.
+https://help.labarchives.com/hc/en-us/articles/11729323222036-Revision-History-and-
+Timestamps
+[10] W3C. (2013). PROV Model Primer. https://www.w3.org/TR/prov-primer/
+[11] Dhami, M. K., Belton, I. K., & Mandel, D. R. (2019). The “analysis of competing hypotheses” in
+intelligence analysis. Applied Cognitive Psychology, 33, 1080-1090.
+https://doi.org/10.1002/acp.3550
+[12] Forensia. (2026). Open-source evidence-bound forensic hypothesis verification.
+https://github.com/sumeshi/forensia
+[13] DFIR Companion. (2026). Open-source AI-assisted DFIR investigation workspace.
+https://github.com/hasamba/DFIR-Companion
+[14] OCCRP. (2026). Aleph technical documentation and investigation workspace.
+https://docs.aleph.occrp.org/
+[15] Timesketch. (2026). Project roadmap: hypothesis to supporting or invalidating forensic
+artifacts. https://timesketch.org/community/roadmap/
+[16] Vispute, N. (2026). Reasoning Provenance for Autonomous AI Agents: Structured Behavioral
+Analytics Beyond State Checkpoints and Execution Traces. arXiv:2603.21692.
+[17] Maturana, H. R., & Varela, F. J. (1980). Autopoiesis and Cognition: The Realization of the
+Living. D. Reidel.
+
+[Source PDF page 35]
+GOVERNING ENGINES  |  THE MASK AI RESEARCH WEARS  |  SEPTEMBER 2026
+[18] Stern, M., & Murugan, A. (2023). Learning Without Neurons in Physical Systems. Annual
+Review of Condensed Matter Physics, 14, 417-441.
+[19] Keim, N. C., Paulsen, J. D., Zeravcic, Z., Sastry, S., & Nagel, S. R. (2019). Memory formation in
+matter. Reviews of Modern Physics, 91(3), 035002.
+[20] Grunwald, P. D. (2007). The Minimum Description Length Principle. MIT Press.
+Publication Note
+This v1.2 publication preserves the research state reached after the September 2026 adversarial
+revision and adjudication pass. Later implementation, evaluation, or discovery of materially
+relevant counterexamples should be treated as new evidence capable of revising future editions.
+This edition should remain identifiable as the state published here rather than being silently
+rewritten.

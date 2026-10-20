@@ -1,0 +1,508 @@
+[
+  {
+    "id": "responsible-human-stewardship",
+    "original_filename": "THE LAW OF RESPONSIBLE HUMAN STEWARDSHIP(20261020-115321).txt",
+    "identity": {
+      "title": "THE LAW OF RESPONSIBLE HUMAN STEWARDSHIP",
+      "subtitle": null,
+      "version": "1.0",
+      "date": "2026-06-27",
+      "status": "Foundational Governing Law"
+    },
+    "original_sha256": "5aba6c7007bcdade96097c37e61731902d42b6e5c52e2cadf8b4b409c0c92e57",
+    "published_sha256": "f896afa311260f87d4a1abd16feaf71fada18ecb8b5e3b9e35c9a0942f3a9497",
+    "source_pdf_pages": null,
+    "redaction_counts": {},
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "governing-principles",
+    "original_filename": "Principles (20261020-115321).txt",
+    "identity": {
+      "title": "GOVERNING PRINCIPLES",
+      "subtitle": null,
+      "version": "1.0",
+      "date": null,
+      "status": "Canonical Governance Principle Authority"
+    },
+    "original_sha256": "ae71a3b9ae956c1286b67b19d32103cc33468d917b75dea81401e41950ac9dc2",
+    "published_sha256": "e9fa569096c602d5b457deff17ab2e657df2f6a32824ce1b2b4017f4537c0040",
+    "source_pdf_pages": null,
+    "redaction_counts": {},
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "canonical-terminology",
+    "original_filename": "Terminology (20261020-115321).txt",
+    "identity": {
+      "title": "CANONICAL TERMINOLOGY REGISTRY",
+      "subtitle": null,
+      "version": "1.2",
+      "date": null,
+      "status": "Canonical Terminology Authority"
+    },
+    "original_sha256": "fb308e97ff44ee8c74807a1e8533bb8f37bf1b6fcb798cea519bd5e4eab4d829",
+    "published_sha256": "f55249ec08266a2b876e2921d07420df3c5a494ee2817d81182a6e265c7ca53d",
+    "source_pdf_pages": null,
+    "redaction_counts": {},
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "runtime-observation-refinement",
+    "original_filename": "Runtime refinement method(9).txt",
+    "identity": {
+      "title": "RUNTIME OBSERVATION REFINEMENT METHOD",
+      "subtitle": null,
+      "version": "v0.1",
+      "date": "2026-06-29",
+      "status": "Draft"
+    },
+    "original_sha256": "e7e78774d3013cbf6649b4127f63623f298bf560c75926788e66bf1a6365e96b",
+    "published_sha256": "d74c139ddba781f345d96b537e41b2893259910311e607d712d63392195c54ca",
+    "source_pdf_pages": null,
+    "redaction_counts": {},
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "operator-system-builder-development",
+    "original_filename": "AI OPERATOR & SYSTEM BUILDER DEVELOPMENT FRAMEWORK(6).pdf",
+    "identity": {
+      "title": "AI OPERATOR & SYSTEM BUILDER DEVELOPMENT FRAMEWORK",
+      "subtitle": null,
+      "version": "0.5",
+      "date": "2026-06-20",
+      "status": "Canonical Operator Development Training Framework"
+    },
+    "original_sha256": "24365c7af708b2cc1a1665d06547dfd707172199a2737cc8bc7a844fb2beb7f5",
+    "published_sha256": "115ff997a7bef5eab9db81f37fc440c9eeef9fcac5cfdbd43bcbe29c336925da",
+    "source_pdf_pages": 25,
+    "redaction_counts": {},
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "mode",
+    "original_filename": "MODE_Public_Build_Specification_v1.0(8).docx",
+    "identity": {
+      "title": "MODE PUBLIC BUILD SPECIFICATION",
+      "subtitle": null,
+      "version": "1.0",
+      "date": "2026-09-14",
+      "status": "Public implementation specification"
+    },
+    "original_sha256": "23ae9aff0e657f9a88d0871dc95404b2dd677a82ac904fc59ba970107b61bad1",
+    "published_sha256": "30abfc6d7ab44a8ee31336a3831c8aa39ae87c5a5c1b27bb985e668108aa7128",
+    "source_pdf_pages": null,
+    "redaction_counts": {},
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "spec-cloud",
+    "original_filename": "Spec_Cloud_Unified_Build_Authority_v7.0(4).pdf",
+    "identity": {
+      "title": "SPEC CLOUD",
+      "subtitle": "Unified Architecture, Governance Contracts, and Reference Implementation",
+      "version": "7.0",
+      "date": "2026-09-15",
+      "status": "Specification-complete consolidated build authority; implementation state must be proven separately"
+    },
+    "original_sha256": "e9202303156503cb7ecc7f8db1a0b3b63baf1e0dbba6bbf07ce50ad6fe149502",
+    "published_sha256": "164122414f00e5d948d84c02cc9b4955494004910bff0a70c230a47ce5c2d0b3",
+    "source_pdf_pages": 88,
+    "redaction_counts": {},
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "operator-governance",
+    "original_filename": "Governing_Engines_Operator_Governance_Collection_v1.0(7).docx",
+    "identity": {
+      "title": "OPERATOR GOVERNANCE COLLECTION",
+      "subtitle": null,
+      "version": "Compilation Version 1.0",
+      "date": "September 2026",
+      "status": "Public compilation of operator-governance materials"
+    },
+    "original_sha256": "ec02d3303373e6f239515863cc531d83ad66ab9509da9b617171522e2bd03d60",
+    "published_sha256": "942e9d5a2cb9b517cce1542885254486715947ef0a40545791291ef5334aac15",
+    "source_pdf_pages": null,
+    "redaction_counts": {},
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "governed-tevv",
+    "original_filename": "Governing_Engines_Governed_TEVV_for_Agentic_AI_CONSTRUCTION_OFFICIAL_v2.6_FROZEN(3).pdf",
+    "identity": {
+      "title": "GOVERNED TEVV FOR AGENTIC AI",
+      "subtitle": "Architecture, Governance Authority, Operational Implementation, and Construction Method",
+      "version": "2.6",
+      "date": "September 2026",
+      "status": "Official External Release — Architecture Locked / Frozen for External Handoff"
+    },
+    "original_sha256": "848764e03f5e96402d91e34ae4bc07259cc37a6fa36138b62a40d96c1bd8adb6",
+    "published_sha256": "de2113a9c1b0388657c71516988da37170f7415056a9e3a8bbc7257b50e53827",
+    "source_pdf_pages": 61,
+    "redaction_counts": {},
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "governed-adaptive-quantum-control",
+    "original_filename": "Governing_Engines_Governed_Adaptive_Quantum_Control_OFFICIAL_FULL_v1.0(3).pdf",
+    "identity": {
+      "title": "GOVERNED ADAPTIVE CONTROL FOR FAULT-TOLERANT QUANTUM SYSTEMS",
+      "subtitle": "Architecture and Operational Implementation Handoff",
+      "version": "1.0",
+      "date": "September 2026",
+      "status": "Official External Release — Architecture and Operational Implementation Handoff"
+    },
+    "original_sha256": "aace438fb10462e20e84362a92cb92a447366a8e959ea2edb995fd11d32437a2",
+    "published_sha256": "54f40292dc0519b28b6f734d8c1e77249a59dfbc1e9ff04fee67131dadc29a88",
+    "source_pdf_pages": 31,
+    "redaction_counts": {},
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "ai-doom",
+    "original_filename": "AI_Doom_Publication_Edition_v1.2(9).pdf",
+    "identity": {
+      "title": "AI DOOM",
+      "subtitle": "When Abstraction Outranks Reality",
+      "version": "Filename v1.2; cover Publication Edition v1.1",
+      "date": "September 2026",
+      "status": "Conditional systems thesis"
+    },
+    "original_sha256": "4afc55502221cee1fa74bb5858e8baa92ba5d6ee7e37bd217454a91de2c2a38f",
+    "published_sha256": "e001f01f71748482052e033fde6797dc38ed39819c499a3803476d4a90da3662",
+    "source_pdf_pages": 16,
+    "redaction_counts": {},
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "danger-zones",
+    "original_filename": "Danger_Zones_Proof_Before_Harm_Becomes_Evidence_v1.1(20261020-114644).pdf",
+    "identity": {
+      "title": "DANGER ZONES",
+      "subtitle": "PROOF BEFORE HARM BECOMES EVIDENCE",
+      "version": "1.1",
+      "date": "August 2026",
+      "status": "Public Research Draft"
+    },
+    "original_sha256": "b239b7288fdbb6f82f0db1f70995bf624c7c675076c944e812baa93c7a590a77",
+    "published_sha256": "7dbdfdd44284e6249631c997a7376ada0c5e65a9db4288b3efa86232d4bfdb3b",
+    "source_pdf_pages": 15,
+    "redaction_counts": {},
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "before-you-name-the-machine",
+    "original_filename": "Before_You_Name_the_Machine_DeMarius_Lawson(6).pdf",
+    "identity": {
+      "title": "BEFORE YOU NAME THE MACHINE",
+      "subtitle": "A Statement on Intelligence, Abstraction, Reality, and Civilizational Correction",
+      "version": null,
+      "date": "October 2026",
+      "status": "Public statement"
+    },
+    "original_sha256": "3babebfbbf614693c572a4ad54a791a93af32e0b4df7ddd471f786a32b084c14",
+    "published_sha256": "c1dc33e0a8209ba1ca6477c1b711171cfa45ab826326eb4c216efb4f254d9316",
+    "source_pdf_pages": 4,
+    "redaction_counts": {},
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "semantic-compression",
+    "original_filename": "Semantic_Compression_v1.4(9).pdf",
+    "identity": {
+      "title": "SEMANTIC COMPRESSION",
+      "subtitle": "How Labels Hide Structure, Collapse Distinctions, and Obscure Reality",
+      "version": "1.4",
+      "date": "September 2026",
+      "status": "Public framework publication"
+    },
+    "original_sha256": "4a8235546eca9781eac44d600a19db4ddf6cff51271986be3cf09bc7ee76fca6",
+    "published_sha256": "077ed414dcaee0767da5ec4448b32e03e0a3b855dc88c275a7e9ea7864f891e5",
+    "source_pdf_pages": 30,
+    "redaction_counts": {},
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "the-escape-artist",
+    "original_filename": "The_Escape_Artist_Official_Publication_Edition_v1_1_verified(6).pdf",
+    "identity": {
+      "title": "THE ESCAPE ARTIST",
+      "subtitle": "Behavior, Authority, Containment, and Consequence in Agentic AI",
+      "version": "Official Publication Edition v1.1",
+      "date": "Evidence cutoff September 24, 2026",
+      "status": "Public research paper"
+    },
+    "original_sha256": "71ae2245184d20077061a373a809a7a378a32881fa2b8274137a90192d344ffa",
+    "published_sha256": "67ebe32d9250f25bcb4bfd6e7d48c74ad68f96caf69e78d076b67e16cb163d31",
+    "source_pdf_pages": 7,
+    "redaction_counts": {},
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "the-system-didnt-work",
+    "original_filename": "The_System_Didnt_Work_The_Operator_Did_v1.1_53_Page_Integrated_Edition(20261020-114800).pdf",
+    "identity": {
+      "title": "THE SYSTEM DIDN'T WORK. THE OPERATOR DID.",
+      "subtitle": "How Workarounds Hide Failure While Proof Standards Keep Moving",
+      "version": "Research Draft 1.1 — 53-Page Integrated Edition",
+      "date": "2026-08-28",
+      "status": "Public Research Draft"
+    },
+    "original_sha256": "3e8d54fca0401cb445cdf0b5ecc994b5cb748e91733fc8cc75eab5a12cad6cc6",
+    "published_sha256": "3d8340782711379de1ed758717e231d0227c744bb086181a4f7093ee4aceeddb",
+    "source_pdf_pages": 53,
+    "redaction_counts": {},
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "the-cost-of-the-outcome",
+    "original_filename": "The_Cost_of_the_Outcome_v1.1(20261020-114800).pdf",
+    "identity": {
+      "title": "THE COST OF THE OUTCOME",
+      "subtitle": "Why AI Efficiency Must Be Measured at the System Boundary",
+      "version": "1.1",
+      "date": "2026-09-02",
+      "status": "Public Research Paper"
+    },
+    "original_sha256": "3de972b1353118473a6ac0ec69b0cfee8c181379eb9359a91040b7d15af76950",
+    "published_sha256": "74ff2cb3fef0cfd591556068829a1f6164f248825984941ffb1206d61ec849dc",
+    "source_pdf_pages": 12,
+    "redaction_counts": {},
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "executive-brief",
+    "original_filename": "Executive brief(2).txt",
+    "identity": {
+      "title": "EXECUTIVE BRIEF — OPERATIONAL DRIFT GOVERNANCE AND GOVERNED EXECUTION INFRASTRUCTURE",
+      "subtitle": null,
+      "version": "2.0",
+      "date": null,
+      "status": "Executive Governance Framework"
+    },
+    "original_sha256": "f5a1e58bfeaeb47b0f06c05b1c296e14e3e71cc373ed348e11f3c7706ca06eba",
+    "published_sha256": "73311f231a7d8509d9b7c6cad946d465e242f9184b7d1f20b0d54373199b3041",
+    "source_pdf_pages": null,
+    "redaction_counts": {},
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "what-is-intelligence",
+    "original_filename": "What_Is_Intelligence_v1_2_Evidence_Pass(20261020-114944).docx",
+    "identity": {
+      "title": "WHAT IS INTELLIGENCE?",
+      "subtitle": "A Reality-Primacy Investigation of Process, Compression, and State Change",
+      "version": "Filename v1.2; title page Version 1.1",
+      "date": "September 2026",
+      "status": "Bounded hypothesis and investigation"
+    },
+    "original_sha256": "b605e688e5894e42860b788f98846480833b44ce6e417a0f199632a505cea4df",
+    "published_sha256": "2d5e9342da501e5126c1b4f9f8bd578c1884bde0c4a76bbd990a315358f58487",
+    "source_pdf_pages": null,
+    "redaction_counts": {},
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "the-mask-ai-research-wears",
+    "original_filename": "The_Mask_AI_Research_Wears_Governing_Engines_v1.2(7).pdf",
+    "identity": {
+      "title": "THE MASK AI RESEARCH WEARS",
+      "subtitle": "Human Inquiry, Machine Progression, and the Quiet Reassignment of the Researcher",
+      "version": "Publication Edition v1.2",
+      "date": "September 2026",
+      "status": "Public research publication"
+    },
+    "original_sha256": "130ca13bcbb1addeb2a7db9bf10fa7ef6a326f909892c5e1b9a9396a8d98908a",
+    "published_sha256": "4d405e14f8cfc079fa75c83d9885b0516fb0cacd65224013d8699da7349b3162",
+    "source_pdf_pages": 35,
+    "redaction_counts": {},
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "past-present-future",
+    "original_filename": "PAST_PRESENT_FUTURE_DeMarius_Lawson_v1.2(4).pdf",
+    "identity": {
+      "title": "PAST. PRESENT. FUTURE.",
+      "subtitle": "How Humanity Industrialized Representation — and What We Could Point Outward Next",
+      "version": "Research Edition v1.2",
+      "date": "September 2026",
+      "status": "Comparative systems research"
+    },
+    "original_sha256": "f9e3815a83a48fae224edc3f7c463a1ca229db6ff0a1c5d582678ee3db2cc745",
+    "published_sha256": "372a33fc4746d3a3a1701b403ae9aa669c6f4cf82d47635f51fed233d9b1e849",
+    "source_pdf_pages": 20,
+    "redaction_counts": {},
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "before-we-arrive",
+    "original_filename": "BEFORE_WE_ARRIVE_v1.0_FINAL_CIRCULATION(6).pdf",
+    "identity": {
+      "title": "BEFORE WE ARRIVE",
+      "subtitle": "A Persistent Architecture for Human Inquiry and Capability Beyond Earth",
+      "version": "1.0",
+      "date": "September 2026",
+      "status": "Architecture Proposal"
+    },
+    "original_sha256": "5eed56abbce08d2f388317b406e5d56e6a4711e97143b0a012db6196ca00c384",
+    "published_sha256": "85d5cd8754f2ddc78d7a4919ff4a5767cd67f5029cd017f56d1445fed0711954",
+    "source_pdf_pages": 23,
+    "redaction_counts": {},
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "human-abstractions",
+    "original_filename": "Human_Abstractions_v1.0_Full_Public_Paper(20261020-114644).pdf",
+    "identity": {
+      "title": "HUMAN ABSTRACTIONS",
+      "subtitle": "Remembering Which Rules Belong to the World and Which Rules Belong to Us",
+      "version": "1.0",
+      "date": "2026-09-03",
+      "status": "Public Paper"
+    },
+    "original_sha256": "06a725cd32d147493f5ed0f938545a75ddd745056c62b7228db06ff6eb9a6eff",
+    "published_sha256": "ea5afc53724fd215f093485f350f132d783acc3f8b7c13b6e2e8d6f283ffbdfe",
+    "source_pdf_pages": 39,
+    "redaction_counts": {},
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "civilizational-drift",
+    "original_filename": "Civilizational_Drift_Publication_Edition(20261020-114644).pdf",
+    "identity": {
+      "title": "CIVILIZATIONAL DRIFT",
+      "subtitle": "Convergence Emergence — Loss of Continuity — Directional Drift — Living Through Stagnation — Governance Rediscovery",
+      "version": null,
+      "date": null,
+      "status": "A Public Civilizational Observation"
+    },
+    "original_sha256": "dd2105f5116a3edaf373d2a0894fe497a521291074f207ca80127932f5a0fc6b",
+    "published_sha256": "0dcd5c1ae91f513bcca042e5a40552d7a757a5059127fb1419b3376a4b1a9786",
+    "source_pdf_pages": 38,
+    "redaction_counts": {},
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "design-the-ecosystem",
+    "original_filename": "Design_the_Ecosystem_Not_the_Subsystems_Public_Release_v1.1(9).pdf",
+    "identity": {
+      "title": "DESIGN THE ECOSYSTEM, NOT THE SUBSYSTEMS",
+      "subtitle": "A Systems Case for Restructuring the Architecture of American Social Life",
+      "version": "Full Research Edition v1.1",
+      "date": "Evidence reviewed through September 2026",
+      "status": "Public research edition"
+    },
+    "original_sha256": "7c182b4e696300269783d5b516834ab842af011461ee767458022a243f416f5e",
+    "published_sha256": "d0cd722d36f8772856a060fae0cfc6294d9bf712a81267e10506dcab716417f6",
+    "source_pdf_pages": 56,
+    "redaction_counts": {},
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "seed-adoption",
+    "original_filename": "Seed_Adoption_Publication_Rev3(20261020-114801).pdf",
+    "identity": {
+      "title": "SEED ADOPTION",
+      "subtitle": "When Does Technological Displacement Actually Begin?",
+      "version": "Publication Edition, Rev. 3",
+      "date": "September 2026",
+      "status": "Public research publication"
+    },
+    "original_sha256": "56421fed856136dcaa18886cce1d0bfaaab81084637a30b86eb558145efe3041",
+    "published_sha256": "ef11394c435020309f5d3b5ca68460beb94b15960052c488987104be6c86fc07",
+    "source_pdf_pages": 15,
+    "redaction_counts": {},
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "the-america-they-built",
+    "original_filename": "The_America_They_Built_White_Paper_v1.0(20261020-114800).docx",
+    "identity": {
+      "title": "THE AMERICA THEY BUILT",
+      "subtitle": "A Generational Family-Viability Analysis, 1981–2026",
+      "version": "1.0",
+      "date": "August 2026",
+      "status": "White Paper — Initial publication draft"
+    },
+    "original_sha256": "aaa76823b2142d00537ca1f07f66492903b0ff62efa702817b1e72c34c82be7d",
+    "published_sha256": "d6dcc3fc04d595c92e7a7ae944d62c4bec2c111bddbe075ea2ec2a47e4e6fb5d",
+    "source_pdf_pages": null,
+    "redaction_counts": {},
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "economic-power",
+    "original_filename": "Economic_Power_Political_Spending_Regulatory_Conflict_Public_Brief_October_15_2026_v3(2).pdf",
+    "identity": {
+      "title": "Economic Power, Political Spending, and Regulatory Conflict",
+      "subtitle": null,
+      "version": "Filename v3; no internal version label identified",
+      "date": "2026-10-15",
+      "status": "Public-integrity brief; advocacy and policy analysis"
+    },
+    "original_sha256": "3a3838aec206280a1918343c09ed5b731b716f51540f5417c7579db9946c446c",
+    "published_sha256": "548b202985b6027875618a155f75f368a4662f349ab78fdf761b57cc4208776a",
+    "source_pdf_pages": 6,
+    "redaction_counts": {},
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "replit-authorization",
+    "original_filename": "Replit_Agent_Control_Case_Study_Public_Edition(10).pdf",
+    "identity": {
+      "title": "EXECUTION WITHOUT AUTHORIZATION",
+      "subtitle": "A Replit Agent Billing & Control Case Study",
+      "version": null,
+      "date": "September 2026",
+      "status": "Redacted public evidence edition"
+    },
+    "original_sha256": "e293212ebaba99f46b9c5929f4288f288d3ad6816103ad8ecfe14fa3c1cead62",
+    "published_sha256": "025f6cdba1c2d046731bde06f19a88b9a78597cc2770ee4e66cc4dc3db8f7ec6",
+    "source_pdf_pages": 7,
+    "redaction_counts": {
+      "billing_amount": 4
+    },
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "replit-provenance",
+    "original_filename": "Replit_Case_Study_2_Execution_Without_Provenance_Public_Evidence_Edition_v1.1(4).pdf",
+    "identity": {
+      "title": "EXECUTION WITHOUT PROVENANCE",
+      "subtitle": "A Replit Agent Post-Notice Execution, Billing Attribution & Control Case Study",
+      "version": "Filename v1.1; public evidence edition",
+      "date": "September 2026",
+      "status": "Public Evidence Edition — historical unresolved-provenance condition"
+    },
+    "original_sha256": "602e496ca84add7db24149ce664048003ec8c9a3d42f9e6008e3056277a541f3",
+    "published_sha256": "3e19784f70a2a0fb6fe8679a47cc1e424cd32bc2230f721438cf82c2150e9f61",
+    "source_pdf_pages": 14,
+    "redaction_counts": {
+      "email_address": 1,
+      "invoice_identifier": 1,
+      "billing_amount": 1
+    },
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "replit-cross-system-authority",
+    "original_filename": "Replit_Case_Study_3_Cross_System_Authority_Boundary_Public_Evidence_Edition_v1.2(4).pdf",
+    "identity": {
+      "title": "OBSERVATION BECAME BILLABLE EXECUTION",
+      "subtitle": "A Cross-System Automation, Agent Billing Attribution & Authority-Boundary Case Study",
+      "version": "1.2",
+      "date": "2026-10-05 revision; cover October 2026",
+      "status": "Public Evidence Edition — revised causal attribution"
+    },
+    "original_sha256": "c0830bc79dc76cc57d0036009bf7b78554776143b271fadc814be1cc05efb130",
+    "published_sha256": "0fcb70d572803f1ed607e4d60b2ccfdcfd26132fd87a24672c7a7a2ee74a360e",
+    "source_pdf_pages": 17,
+    "redaction_counts": {
+      "email_address": 1,
+      "invoice_identifier": 8,
+      "billing_amount": 7
+    },
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  }
+]

@@ -1,0 +1,444 @@
+PUBLIC SOURCE TEXT EDITION
+OBSERVATION BECAME BILLABLE EXECUTION
+Source supplied by the author for public research discovery.
+Text extracted from the supplied artifact; layout, tables and pagination may differ.
+Privacy filtering is marked inline. This is not the original binary artifact.
+
+[Source PDF page 1]
+GOVERNING ENGINES / REPLIT AGENT CONTROL CASE STUDY 3
+OBSERVATION BECAME
+BILLABLE EXECUTION
+A Cross-System Automation, Agent Billing Attribution & Authority-Boundary Case Study
+Hard line: Observation authority is not execution authority. Execution authority is not spend authority.
+Public Evidence Edition - October 2026
+Prepared by DeMarius Lawson | Governing Engines
+Supersedes: September 2026 Public Evidence Edition v1.1
+Companion record: Execution Without Authorization - Replit Agent Billing & Control Case Study
+Evidence posture: This revision incorporates Replit Support's October 5, 2026 backend review and the matching ChatGPT
+automation record. It preserves earlier support statements as part of the historical record while correcting the root-cause
+theory those statements proposed. The document distinguishes observed evidence, provider statements, automation
+metadata, analysis, and remaining unresolved control questions.
+
+[Source PDF page 2]
+1. Executive Finding
+This case study originally documented a second Replit Agent execution incident whose prompt
+provenance was unresolved. That provenance is now materially established. On October 5, 2026, Replit
+Support reported that Workbook Engine received 304 Agent messages through Replit's connector for
+external AI assistants between September 8 and September 21. Replit stated that the first two messages
+were build instructions and that, beginning at approximately 11:19 AM Eastern on September 8, a read-
+only audit prompt arrived roughly once an hour, with minor wording changes and references to the
+previous baseline. Replit further stated that the activity was not caused by an active deployment, App
+Testing, queued tasks, or account restoration after payment, and that no recurring or scheduled Replit job
+was attached to the account.
+Root cause update: provenance is now substantially established. The unresolved issue is why recurring
+observation authority was sufficient to trigger billable Agent execution without a separate spend-
+authority gate.
+A matching ChatGPT automation record identifies an hourly condition-watch titled "Workbook Engine
+Watch." Its instruction was to check the current Replit Workbook Engine project, compare progress
+against the authorized full V1 scope and governing phase boundaries, inspect specific quality and control
+conditions, and notify the operator only when a meaningful change or decision appeared. The schedule
+was hourly. The automation was later disabled. The timing, wording, and purpose closely match the
+repeated audit prompts Replit identified. This resolves the principal provenance question to a strong
+evidentiary level: the recurring prompts originated from the connected external automation, not from a
+hidden Replit task queue.
+The central control question therefore changes. The operator
+authorized a recurring observation objective. The available
+evidence does not establish that he separately authorized that
+observation to be implemented as repeated customer-billable
+Replit Agent execution. The incident is now best understood as a
+cross-system authority-boundary failure: observation authority
+was operationalized through an execution-capable connector, and
+execution created spend.
+2. Dated Timeline
+Date Event Evidence significance
+Sep. 17, 2026 Original dispute opened
+Operator contacted Replit about
+unexpected Agent activity and invoice
+[REDACTED: invoice identifier] for [REDACTED: billing amount].
+Sep. 18, 2026 Replit explanation
+Support described automatic
+restoration, queued/background work
+and active-deployment execution as
+possible causes. Support also stated it
+lacked a granular task-by-task
+breakdown for every Agent run.
+
+[Source PDF page 3]
+Sep. 18, 2026 Control defect explicitly identified
+Operator told Replit to separate billing
+eligibility, project runtime, Agent
+execution authority, queue release
+authority and spend authorization.
+Proposed post-restoration state: access
+restored; Agent paused pending
+operator confirmation; queued work
+held; paid execution blocked.
+Sep. 20, 2026 local / Sep. 21 UTC Second incident reported
+Operator reported repeated Workbook
+Engine executions despite no new
+prompt, no intentional resume, and a
+Tasks interface showing Ready 0 /
+Active 0 / Draft 0.
+Sep. 20, 2026 local / Sep. 21 UTC Cancellation and continued
+exposure documented
+Operator documented that Core was
+already in cancellation state and that
+he had stopped intentionally using
+Replit, while current-period AI
+usage/spend was still appearing.
+Sep. 26, 2026 Formal escalation
+Operator sent Replit Support a formal
+escalation with the first public
+evidence case study attached.
+Sep. 26, 2026 Formal Notice of Dispute
+Operator sent a formal Notice of
+Dispute to [REDACTED: email address] seeking
+refunds and run-level attribution for
+disputed execution.
+Oct. 5, 2026 New invoice charged Replit debited [REDACTED: billing amount] for invoice
+[REDACTED: invoice identifier] while the
+subscription was no longer
+active for normal usage-page
+access. The operator added the
+charge to the existing dispute
+and requested the underlying
+usage record.
+Oct. 5, 2026 Backend attribution and
+correction
+Replit Support reported 304
+Agent messages received
+through the external-AI
+connector from Sep. 8-Sep. 21;
+rejected earlier theories
+involving deployment, App
+Testing, queued tasks, or
+payment restoration; and
+identified the hourly audit
+pattern as consistent with a
+recurring external assistant task.
+Oct. 5, 2026 Matching ChatGPT automation
+identified
+ChatGPT automation metadata
+showed an hourly "Workbook
+Engine Watch" whose
+monitoring instructions closely
+match the audit prompts Replit
+
+[Source PDF page 4]
+observed.
+Oct. 5, 2026 Refund disposition Replit refunded invoices
+[REDACTED: invoice identifier] ([REDACTED: billing amount]) and
+[REDACTED: invoice identifier] ([REDACTED: billing amount]), totaling
+[REDACTED: billing amount], while stating that the
+usage was technically valid and
+attributable to the
+connector/configuration.
+3. Why Incident 2 Is Different From Incident 1
+Question Incident 1 Incident 2
+Visible prior work Yes. Previously dispatched work
+existed before restriction.
+Earlier visible work had completed or
+was cancelled.
+Replit explanation Queued/background work could
+resume after restoration.
+That explanation no longer accounts
+for newly appearing prompts without
+a visible Ready/Active/Draft task.
+Operator activity Operator disputed the unexpected
+continuation.
+Operator states he had stopped
+intentionally using Replit and did not
+submit the later audit prompts.
+Primary unresolved question Did restoration improperly release
+prior work?
+Who or what created the later
+prompts/runs, and what authority
+permitted them?
+Oct. 5 resolution Earlier support theory was
+corrected; Replit said the
+disputed runs were not caused
+by restoration, queued tasks,
+deployment, or App Testing.
+Recurring connector messages
+are now attributed to an hourly
+external AI automation.
+Remaining issue: observation
+authority vs. billable
+execution/spend authority.
+4. What Replit Ultimately Established - and Corrected
+The October 5 backend review materially changed the factual record. Replit Support stated that:
+ The disputed Workbook Engine activity was not caused by an active deployment, App Testing, queued
+tasks, or account restoration after payment.
+ Workbook Engine received 304 Agent messages through Replit's connector for external AI tools
+between September 8 and September 21.
+ The first two connector messages were build instructions; beginning later on September 8, read-only
+audit prompts arrived roughly once per hour and referred back to a previous baseline.
+ No recurring or scheduled Replit job was attached to Workbook Engine or the account. Replit
+attributed the hourly pattern to a recurring task in the connected external AI assistant and refunded
+both disputed invoices.
+Correction to the earlier record: Replit's first-line explanations about restoration, background work, and
+queued tasks were theories, not the eventual root cause. The later backend review attributed the
+recurring prompts to the external connector path.
+
+[Source PDF page 5]
+5. Repeated Prompt Generation Pattern - Source Now Identified
+Operator-captured screenshots showed multiple separately executed Workbook Engine audit prompts
+with minor wording variation. At the time, the operator correctly stated that he had not manually
+submitted those prompts. The October 5 evidence now explains the pattern: an hourly ChatGPT condition-
+watch was configured to inspect Workbook Engine and compare the current state against the previous
+check. Replit reported receiving corresponding external-connector Agent messages on roughly the same
+hourly cadence.
+The recurring pattern includes:
+ Audit the current Workbook Engine state.
+ Compare against the previous check, prior state, or last known baseline.
+ Verify authorized full V1 scope and phase boundaries.
+ Check for unauthorized scope reduction, skipped or weakened validation, regressions, product-family
+integrity, Mixed Learning coverage, operator usability, cover quality, test/proof state,
+deployment/recovery state, and operator-authority questions.
+ Report only meaningful deltas.
+ Do not modify, start, or authorize anything.
+The screenshots show separate execution durations such as 37 seconds, 28 seconds, 23 seconds, 21
+seconds, 19 seconds, and 17 seconds. Those runs were real executions. What changed in this revision is the
+provenance finding: the repeating prompt pattern is no longer unexplained; it is consistent with the
+external hourly watch.
+Repeated execution requires repeated authority - even when
+repeated provenance is known.
+
+[Source PDF page 6]
+6. Operator-Captured Evidence: Repeated Audit Prompts
+Exhibit A - Repeated audit prompt, marked 6 days ago; the interface shows a separate 37-second execution.
+
+[Source PDF page 7]
+Exhibit B - Another audit prompt variant, 23-second execution.
+
+[Source PDF page 8]
+Exhibit C - Another audit prompt variant, 19-second execution, explicitly ending with 'Do not modify anything and do not
+authorize scope changes.'
+
+[Source PDF page 9]
+Exhibit D - Another audit prompt variant, 21-second execution.
+
+[Source PDF page 10]
+Exhibit E - Another audit prompt variant, 17-second execution.
+7. The Empty Visible Task-State Problem
+In the contemporaneous support email reporting the second incident, the operator documented that the
+Tasks interface showed Ready: 0, Active: 0, Draft: 0 while new execution activity was appearing. Replit
+later explained why: the recurring connector inputs were sent as Agent chat messages rather than Replit
+Tasks, so they would not appear in those Task Board states.
+Replit's public Task Board documentation describes Drafts as planned tasks not yet started, Active as tasks
+currently building or queued behind the active-task limit, Ready as completed tasks awaiting review, and
+Done as finished, archived, or cancelled work. The documentation says the board is intended to show
+what Agent has planned, what is running, what is ready for review, and what has already been applied.
+The empty visible Task Board was not evidence that nothing was executing. It was evidence that the
+
+[Source PDF page 11]
+relevant execution path was outside the user-visible Task objects. This is a visibility-boundary problem:
+billable execution existed in a path the operator was not monitoring through Ready/Active/Draft.
+8. Cross-System Authority Failure
+The revised evidence moves the central defect away from an unsupported claim that Replit secretly
+generated the work. The stronger finding is architectural and spans both systems: a ChatGPT automation
+authorized to observe a project used a connected pathway that Replit treated as Agent input; Replit Agent
+executed that input; execution consumed paid resources; and no separate operator confirmation was
+required at the point where recurring observation became recurring spend.
+WHO / WHAT DEFINED THE OBSERVATION OBJECTIVE
+↓
+WHAT CONNECTOR PATH WAS SELECTED
+↓
+WHAT AUTHORITY PERMITTED AGENT EXECUTION
+↓
+WHAT AUTHORITY PERMITTED RECURRING SPEND
+↓
+WHAT WORK THE AGENT PERFORMED
+↓
+WHAT USAGE IT CONSUMED
+↓
+WHAT CHARGE RESULTED
+The provenance chain is now substantially clearer. The remaining gap is the authority chain: how a
+monitoring objective acquired permission to invoke a paid execution surface repeatedly.
+A connector can prove where a request came from. That still does
+not, by itself, prove that the operator granted the request
+permission to incur spend.
+9. The Work-Order Test
+Consider an ordinary repair transaction. A customer authorizes one repair. The shop later bills the
+customer for additional work. The customer asks for the work order showing who approved the
+additional repair and what work was performed. Showing that labor occurred or presenting an invoice
+does not independently establish that the customer authorized the additional work.
+The revised analogy is narrower. The source of the additional work order is now identifiable: an
+automation generated it. The remaining question is whether permission to perform periodic inspection
+also authorized the inspection mechanism to place a paid work order every hour. Source attribution and
+spend authorization are distinct evidentiary questions.
+
+[Source PDF page 12]
+A company should not use its own system's execution as circular proof that the customer
+authorized the execution.
+10. Post-Notice Continuation and Attribution Correction
+Before the later incident was fully understood, Replit had already been placed on notice that the operator
+disputed unexpected Agent execution and associated charges. The operator specifically raised execution
+authority, automatic continuation, task provenance, and spend authorization. The October 5 backend
+review later established that the recurring prompts were not generated by Replit restoration or hidden
+queued tasks; they were arriving through the external connector.
+The operator had also supplied a control model on September 18: separate billing eligibility, project
+runtime, Agent execution authority, queue release, and spend authorization. The new evidence
+strengthens the generality of that model. The same separation is required across connector boundaries:
+permission to observe or access a connected service should not silently confer permission to invoke a paid
+execution surface.
+The later attribution therefore narrows responsibility rather than erasing the control concern. Replit did
+not originate the recurring audit prompts. The connected automation did. Replit accepted those connector
+messages as billable Agent input. The unresolved product-design question is whether either side exposed
+or enforced an explicit spend-authority boundary before recurring observation became recurring paid
+execution.
+11. Cancellation Runway and Payment-Method Constraint
+A September 26 operator screenshot shows the Replit Core subscription marked 'Cancels Oct 4' and states
+that service will end on October 4, 2026. The same billing portal states that the default payment method
+cannot be deleted because the account still has an active plan.
+
+[Source PDF page 13]
+Exhibit F - Cancellation state and payment-method retention shown in the billing portal.
+Replit's cancellation structure appears to stop renewal while keeping service active until the end of the
+paid term. That is not inherently improper. The control concern in this case is narrower: during a period
+in which unexplained charge-generating execution was already disputed, the account remained
+technically active and the default payment method remained attached.
+Cancellation of renewal, continued service access, retained payment method, and
+authority for new usage-based execution are separate states and should not be silently
+collapsed.
+
+[Source PDF page 14]
+12. Comparable Public Reports and Replit's Pricing Record - Context
+Only
+Because the account-specific source is now substantially identified, third-party reports are no longer
+needed to support a root-cause theory. They remain contextual only, illustrating why transparent intent,
+execution, and billing boundaries matter in agentic products.
+Replit's own July 12, 2025 Effort-Based Pricing Recap is especially relevant. Replit disclosed a July 11 cost-
+calculation incident that affected approximately 6% of paying users and said all related charges would be
+refunded or credited. The same post explains that newer Agent versions can run autonomously for
+extended periods and that charges are tied to computing resources consumed.
+Replit also acknowledged in that post that users had been surprised when Agent made code changes when
+they intended only to chat or gain insight, and said it was working on features to distinguish dialogue
+intent from intent to make changes.
+Separately, Replit's Task Board documentation states that the board exists to help users understand
+planned, active, ready, and completed Agent work. That makes task-state visibility directly relevant to
+disputes involving unexplained execution.
+Third-party reports should be treated as anecdotal context rather than proof of this account-specific
+mechanism. Public Reddit discussions include allegations of runaway loops, surprise charges, weak
+warning surfaces, and support frustration. These reports show that billing-control concerns are not
+unique, but they do not establish that other users experienced the same initiating mechanism documented
+here.
+13. Evidence Boundaries - Updated October 5
+This revised case study does not claim that:
+ Replit intentionally fabricated charges or intentionally generated the recurring audit prompts.
+ OpenAI or ChatGPT intentionally caused unauthorized charges.
+ Every connector invocation or automation that touches Replit creates billable Agent execution.
+ The visible Replit Task Board is designed to expose every connector-originated Agent chat execution.
+ The exact internal ChatGPT tool-selection trace for each of the 304 messages has been produced; it has
+not.
+ The refunds constitute an admission of legal liability; Replit expressly characterized the usage as
+technically valid while issuing the refunds.
+The narrower supported finding is that Replit's backend review identified an external-connector source
+for 304 Agent messages; an hourly ChatGPT "Workbook Engine Watch" existed with instructions and
+cadence closely matching those messages; Replit rejected its earlier restoration/queue theories; and the
+remaining material control question is why recurring observation authority could be implemented
+through billable Agent execution without a separate spend-authority gate.
+14. Remaining Technical Questions
+The provenance question is substantially answered. The remaining questions are architectural:
+ Which exact ChatGPT/Replit connector operation was invoked on each hourly watch run?
+ Was a true read-only project-state endpoint available, or did inspection necessarily route through
+Replit Agent chat?
+
+[Source PDF page 15]
+ Did the automation runtime know that invoking the connector could create billable Agent execution?
+ What authority object, if any, represented permission to incur spend in Replit?
+ Was app-connection permission treated as sufficient execution authority?
+ Was recurring schedule authority treated as sufficient authority to repeat a cost-bearing external
+action?
+ Did either system expose a per-run cost estimate, budget, spend cap, or confirmation boundary before
+execution?
+ Can the 304 Replit messages be mapped one-to-one to specific automation run IDs and connector
+invocations?
+ What metadata did Replit receive identifying the originating external assistant, automation, or
+conversation?
+ Why did the user-facing control surfaces not make the recurring cost-bearing connector path obvious?
+ What product control now prevents an observation watch from silently becoming recurring paid
+execution?
+ These questions matter because the operator's intent was monitoring. The implementation path
+created execution and spend.
+ A complete post-incident record should preserve the automation definition, automation run history,
+connector invocation records, Replit Agent message IDs, usage records, invoice linkage, and refund
+disposition.
+If those records are available, they should be correlated into a single cross-system causal chain rather than
+evaluated in isolation.
+15. Requested / Recommended Remediation
+ Separate observation/read authority from Agent execution authority at the connector schema level.
+ Separate execution authority from spend authority. A tool call that can create a customer charge
+should require explicit cost-bearing authority or a previously approved bounded budget.
+ Do not infer spend authority from app connection, project access, automation cadence, or permission
+to monitor.
+ Provide a genuinely read-only inspection path for recurring monitoring when the user has not
+authorized execution.
+ Surface connector-originated Agent activity in user-visible execution history, including originating
+assistant/automation identity when available.
+ Before enabling a recurring automation that can invoke a paid external service, disclose that the
+watch may create external execution and charges.
+ Allow users to set connector-specific spend caps, per-run limits, or "read-only/no-cost" policies
+independent of the external service's own billing controls.
+ Preserve cross-system provenance: automation run ID -> connector invocation -> external Agent
+message/run -> metered usage -> invoice line item.
+16. Governing Finding
+The original case asked: who or what created the repeated audit prompts? The October 5 evidence
+substantially answers that question: an hourly external automation was the source, and Replit's backend
+observed the resulting connector messages.
+That answer reveals a more important control boundary. The operator authorized a watch - an
+observation objective. The systems converted that objective into repeated Replit Agent messages. Replit
+
+[Source PDF page 16]
+treated those messages as executable, billable work. At no point in the surviving evidence is there a
+separate operator decision saying: run a paid Agent audit every hour and charge my account for each
+execution.
+The case therefore moves from "execution without provenance" to
+"execution with provenance but without demonstrated spend
+authority." Knowing who sent the command does not collapse the
+distinction between access, observation, execution, and payment
+authority.
+Capability to call a connector is not authority to execute paid
+work. Authority to observe is not authority to spend.
+19. Public Sources
+Root-cause provenance: SUBSTANTIALLY ESTABLISHED. The recurring audit prompts are attributable to
+the external hourly ChatGPT automation based on Replit backend attribution plus matching automation
+metadata and cadence.
+Replit internal restoration / queued-task theory: DISCONFIRMED BY REPLIT'S OCTOBER 5 BACKEND
+REVIEW.
+Refund status: APPROVED. Replit stated that invoices [REDACTED: invoice identifier] ([REDACTED: billing amount]) and [REDACTED: invoice identifier] ([REDACTED: billing amount])
+were refunded, with an expected return to the original payment method in approximately 5-10 business
+days.
+Cross-system spend-authority question: UNRESOLVED. The surviving record does not show a distinct
+operator authorization for recurring paid Replit Agent execution as the mechanism used to satisfy the
+observation watch.
+18. First-Party Evidence Added in v1.2
+Replit Support email, Eduardo, October 5, 2026: backend review of Workbook Engine Agent records; 304
+connector-originated Agent messages; correction of earlier causal theories; refund disposition for invoices
+[REDACTED: invoice identifier] and [REDACTED: invoice identifier].
+ChatGPT automation record, retrieved October 5, 2026: "Workbook Engine Watch"; condition-watch;
+hourly schedule; instruction to inspect the current Replit Workbook Engine project and compare it with
+the prior state while reporting only meaningful changes.
+The automation record is especially significant because its wording and cadence independently match the
+pattern Replit described from its backend records.
+17. Public Sources
+Replit, Effort-Based Pricing Recap, July 12, 2025
+https://replit.com/blog/effort-based-pricing-recap
+
+[Source PDF page 17]
+Replit Docs, Agent Task Board
+https://docs.replit.com/references/agent/task-board
+Replit Blog, Introducing Queue: A smarter way to work with Agent, July 22, 2025
+https://replit.com/blog
+Reddit / r/replit, Buyer Beware: Replit’s AI Agent Review (anecdotal user reports; contextual only)
+https://www.reddit.com/r/replit/comments/1fahuge/buyer_beware_replits_ai_agent_review/
+Public-source note: Replit's first-party materials are used to describe Replit's own documented product behavior and prior
+billing incident. Reddit material is treated only as anecdotal context and is not used to prove the account-specific mechanism
+in this case.
+20. Version History
+v1.1 - September 2026: documented repeated audit-style Agent execution with unresolved provenance and
+preserved Replit's then-current support explanations.
+v1.2 - October 5, 2026: incorporated Replit's backend attribution, corrected the restoration/queue theory,
+identified the matching hourly ChatGPT automation, documented refund of both disputed invoices, and
+reframed the governing defect as separation of observation, execution, and spend authority across
+connected systems.

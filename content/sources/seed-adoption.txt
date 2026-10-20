@@ -1,0 +1,632 @@
+PUBLIC SOURCE TEXT EDITION
+SEED ADOPTION
+Source supplied by the author for public research discovery.
+Text extracted from the supplied artifact; layout, tables and pagination may differ.
+Privacy filtering is marked inline. This is not the original binary artifact.
+
+[Source PDF page 1]
+SEED ADOPTION | DeMarius J. Lawson
+Publication Edition, Rev. 3  September 2026  1
+SEED ADOPTION
+When Does Technological Displacement Actually Begin?
+DeMarius J. Lawson
+Publication Edition, Rev. 3  September 2026
+“The technology that eventually replaces a function rarely enters society
+announcing that it intends to replace the function. It enters by being useful.”
+
+
+[Source PDF page 2]
+SEED ADOPTION | DeMarius J. Lawson
+Publication Edition, Rev. 3  September 2026  2
+ABSTRACT
+Technological displacement is usually recognized late. A worker loses a position. An occupation
+contracts. A machine performs work that once required a person. Only then does society begin asking
+whether technology displaced labor.
+But the causal chain often began much earlier. A technology first enters as assistance. It solves a
+problem, lowers effort, increases speed, reduces cost, improves safety, or expands capability.
+Infrastructure is then constructed around it. Institutions reorganize. Capital is invested. Workers learn
+new workflows. Consumers develop expectations. New generations inherit the system. As the
+technology improves, functions that once required people can progressively move into the infrastructure
+itself.
+This paper calls that earlier transition seed adoption.
+Displacement potential can begin when society adopts an assistive capability deeply
+enough that later substitution can inherit its infrastructure, workflow position,
+legitimacy, data, or dependency without requiring society to make an equivalent
+first-adoption decision again.
+Seed adoption does not mean displacement is inevitable. Technology can create occupations, expand
+industries, increase demand, improve working conditions, remove dangerous labor, and transform jobs
+without eliminating them. The argument is narrower: early adoption can change the feasible future by
+lowering the friction of later substitution.
+At what point does assistance become infrastructure for substitution?
+1. THE PROBLEM WITH WHERE WE BEGIN COUNTING
+We usually locate technological displacement at the visible consequence: a factory reduces headcount,
+a warehouse requires fewer people for a given output, software performs administrative work, or a
+machine performs a physical task that once belonged exclusively to human labor.
+That makes intuitive sense because displacement has finally become visible. But it can hide the lineage
+that produced the outcome. Before a worker disappears, a capability may have been accepted,
+infrastructure installed, investment accumulated, operating procedures changed, dependency formed,
+and the technology improved. Functions can migrate gradually before employment consequences
+become obvious.
+The final labor consequence may therefore be several generations removed from the original adoption
+decision. By the time society asks whether it should accept the technology, the meaningful adoption
+decision may already be over.
+2. WHAT SEED ADOPTION ADDS TO EXISTING LITERATURE
+
+
+[Source PDF page 3]
+SEED ADOPTION | DeMarius J. Lawson
+Publication Edition, Rev. 3  September 2026  3
+Seed Adoption is not presented as a replacement for existing work on technological path dependence,
+lock-in, task automation, or labor-market adjustment. It is an upstream governance concept built on top
+of those literatures.
+Paul A. David’s work on QWERTY emphasized how temporally remote events, technical
+interrelatedness, economies of scale, and quasi-irreversibility can shape later technological outcomes.
+[1] W. Brian Arthur developed a broader account of increasing returns, positive feedback, competing
+technologies, lock-in, and path-dependent economic processes. [2]
+In labor economics, David Autor has emphasized that automation both substitutes for and complements
+labor, while changing the kinds of tasks workers perform. [3] Daron Acemoglu and Pascual Restrepo
+formalize a task-based framework in which automation creates a displacement effect while the creation
+of new tasks can reinstate labor demand. [4]
+Those frameworks answer important questions: How do early choices constrain later options? Why do
+systems become locked in? Which tasks move from labor to capital? What new tasks emerge?
+Seed Adoption asks a different governance question:
+When has an assistive capability become embedded deeply enough that later
+substitution can expand without receiving an equivalent new adoption decision?
+Path dependence describes how history constrains the future. Lock-in describes persistence and
+switching difficulty. Task frameworks describe the allocation of work between labor and capital. Seed
+Adoption identifies the governance transition at which later capability generations begin inheriting
+legitimacy, infrastructure, workflow access, data, or institutional permission from earlier ones.
+Later capability should not inherit the legitimacy of earlier adoption merely because it
+uses the same infrastructure.
+3. DEFINITION AND QUALIFICATION TEST
+Canonical definition. Seed Adoption is the point at which an assistive technology becomes embedded
+deeply enough that later capability expansion can inherit its infrastructure, workflow position, data,
+institutional legitimacy, distribution, or dependency without requiring an equivalent first-adoption decision
+again.
+Not every technology qualifies. The concept is intended to be falsifiable rather than universal.
+A note on scope before proceeding. This section defines whether a Seed Adoption condition exists at
+all — an existence test. It should not be confused with “function compression,” introduced later in
+Section 18, which is a severity measure applied only after Seed Adoption has already been found
+present. Existence and severity are answered by different tests and can move independently: a system
+can clear the existence test in Section 3 while scoring low on the severity scale in Section 18, or the
+reverse.
+
+
+[Source PDF page 4]
+SEED ADOPTION | DeMarius J. Lawson
+Publication Edition, Rev. 3  September 2026  4
+Three qualifying dimensions
+ Dimension
+ 0 — Absent
+ 1 — Present
+ 2 — Material
+Functional
+inheritance
+Later capability is
+unrelated to the human
+function.
+Later capability assists the
+same function but does not
+independently perform a
+meaningful portion.
+Later capability independently
+performs or can plausibly
+perform a meaningful portion
+of the function.
+Infrastructure
+inheritance
+Later capability requires
+substantially new
+infrastructure/workflow
+placement.
+Some earlier infrastructure,
+data, standards, or workflow
+position can be reused.
+Existing infrastructure
+materially lowers the cost or
+difficulty of later capability
+deployment.
+Adoption-friction
+reduction
+Later capability requires an
+equivalent or greater new
+adoption decision.
+Some friction is lower, but
+substantive new authorization
+remains necessary.
+Later capability can enter
+through existing permissions,
+procurement, integrations, or
+workflow authority without
+equivalent reauthorization.
+Classification rule
+ NO SEED PATHWAY: Functional inheritance = 0 or infrastructure inheritance = 0.
+ SEED PATHWAY: Functional inheritance and infrastructure inheritance are present, but later
+deployment still requires substantive reauthorization.
+ SEED ADOPTION: Functional inheritance and infrastructure inheritance are present, and
+adoption-friction reduction is material enough that later capability can expand without an equivalent
+first-adoption decision.
+This is a publication framework, not a validated psychometric scale. Its purpose is to force explicit classification
+and make disagreement reviewable.
+Negative case. A useful technology can fail the test. A stand-alone powered hand tool may improve
+productivity over a manual tool while creating no meaningful data inheritance, no persistent workflow
+authority, no dependency on a broader platform, and no path by which later substitution can enter under
+the same permissions. It may be technological progress without constituting Seed Adoption.
+4. INTEGRATED DISPLACEMENT MODEL
+Discussions of automation become confused because several different phenomena are collapsed into
+the word replacement. The Seed Adoption pipeline becomes more useful when the displacement
+taxonomy is mapped directly onto it.
+ Transition stage
+ Primary condition
+ Displacement state
+Human function
+Work is performed by people.
+None
+Assistive technology
+Technology helps a person perform the function.
+Possible task assistance; no
+displacement required
+
+
+[Source PDF page 5]
+SEED ADOPTION | DeMarius J. Lawson
+Publication Edition, Rev. 3  September 2026  5
+Seed pathway / Seed
+Adoption
+Later capability can inherit position and
+infrastructure.
+Substitution potential
+becomes embedded
+Capability expansion
+Technology independently performs bounded
+portions of work.
+Task displacement
+Human-function compression
+A meaningful function requires less human
+execution.
+Function displacement
+Role reorganization
+Humans move toward exceptions, judgment,
+coordination, oversight, or new tasks.
+Role transformation
+Reduced labor requirement
+The system requires fewer labor hours or fewer
+workers for a given output.
+Potential worker
+displacement
+Task displacement, function displacement, role transformation, and worker displacement are related but
+not interchangeable. An industry can eliminate tasks while expanding employment. An occupation can
+transform without shrinking. A technology can lower labor input per unit of output while total output grows
+enough to sustain or increase employment.
+5. EFFICIENCY IS NOT AUTOMATICALLY DISPLACEMENT
+Autor cautions against treating automation as pure substitution: automation can complement labor, raise
+output, increase demand, and alter the composition of jobs rather than simply erase them. [3] Acemoglu
+and Restrepo similarly distinguish a displacement effect from a reinstatement effect created by new
+tasks. [4]
+Technology becomes displacement-relevant when reduced human input per unit of output changes how
+much labor is required, what kinds of labor are required, where labor is required, which functions remain
+human, or how many workers are needed.
+The question is not only whether productivity increased. It is where human necessity
+moved.
+6. CASE: AUTOMOBILES AND SYSTEM REORGANIZATION
+The automobile did not instantly eliminate horse transportation. Cars entered an existing transportation
+system and then accumulated manufacturing capacity, roads, fuel distribution, repair networks,
+insurance, traffic law, licensing, parking, and new settlement patterns. The Smithsonian’s record of the
+American carriage trade notes that carriage building had once been one of the country’s largest and
+most dynamic industries, and that the Carriage Builders National Association met for the last time in
+1926 as the automobile displaced horse-drawn carriage production. [5]
+The important mechanism is not a one-machine-for-one-worker swap. It is system reorganization. Some
+functions contracted, others transformed, and entirely new industries became possible. The automobile
+therefore demonstrates that displacement and employment creation can occur simultaneously.
+Human necessity did not simply disappear. It moved into a different system.
+
+
+[Source PDF page 6]
+SEED ADOPTION | DeMarius J. Lawson
+Publication Edition, Rev. 3  September 2026  6
+7. CASE: TELEPHONES AND THE FUNCTION INSIDE THE
+NETWORK
+Early telephone networks required human switchboard operators. As telephone adoption expanded,
+operator employment expanded with it: historical summaries report approximately 88,000 female
+telephone operators in 1910, 178,000 in 1920, and 235,000 in 1930. [6]
+Automatic switching progressively transferred the connection function from people into network
+infrastructure. The telephone did not disappear. Communication demand did not disappear. A human
+function embedded inside the network became less necessary.
+Modern occupational categories are not directly comparable with the early twentieth-century workforce,
+but the contrast is illustrative: the U.S. Bureau of Labor Statistics estimated about 4,600 workers in the
+narrower “telephone operators” category in May 2023. [7] The point is not a one-to-one historical count;
+classification changed. The point is that the network retained and expanded its function while much of
+the manual connection function migrated into infrastructure.
+When did displacement begin: at layoff, at automated switching, or when the network
+became capable of inheriting the operator’s function?
+8. CASE: THE INTERNET AS AN INHERITED CAPABILITY SURFACE
+The internet demonstrates infrastructure inheritance at planetary scale. The International
+Telecommunication Union estimated that about 6 billion people, 74 percent of the world population, were
+online in 2025. [8]
+The labor point here is not that “the internet caused displacement.” The narrower point is that later
+technologies inherited an already-deployed distribution layer. Online retail, streaming, cloud computing,
+remote work, social platforms, software-as-a-service, and generative AI services did not have to
+construct independent global delivery networks from zero.
+The internet altered the feasible future by providing a common infrastructure through which later
+capabilities could expand. This is infrastructure inheritance, one of the conditions for Seed Adoption.
+9. ILLUSTRATION: SMARTPHONES AND FUNCTIONAL
+COMPRESSION
+Flagged as an illustration rather than a case: no employment or displacement data is cited below. It is included to
+demonstrate the mechanism of functional compression conceptually, not as evidence of a labor-market outcome.
+See the source note preceding the reference list.
+Modern smartphones concentrate functions once distributed across separate devices and services:
+telephone, camera, map, GPS navigation, calculator, music player, alarm clock, flashlight, scanner,
+recorder, banking interface, ticket, news reader, entertainment system, and internet terminal.
+
+
+[Source PDF page 7]
+SEED ADOPTION | DeMarius J. Lawson
+Publication Edition, Rev. 3  September 2026  7
+This is not offered as evidence that each associated occupation disappeared. It is an illustration of
+functional compression: capabilities can migrate into a common platform even when employment
+consequences differ by industry. Product consolidation and labor displacement are not identical, but
+consolidation can alter which functions remain economically distinct.
+10. CASE: CAMERAS FROM RECORDING TO INTERPRETATION
+The capability trajectory below is sourced to a specific federal audit [9]. The connection between that capability
+trajectory and labor-market displacement in law enforcement is not independently evidenced here and should be
+read as analysis built on a sourced capability finding, not as a sourced displacement finding.
+At its simplest, a camera records and a human reviews. The technology assists observation but does not
+replace interpretation.
+Contemporary surveillance systems can do more. A December 2024 U.S. Government Accountability
+Office review found selected Department of Homeland Security law-enforcement agencies using more
+than 20 types of detection, observation, and monitoring technologies, including facial recognition and
+automated license-plate readers, and using analytic software — including AI-based tools — to enhance
+those systems. [9]
+That does not establish that cameras are displacing police officers. Law enforcement includes physical
+intervention, investigation, judgment, legal authority, interpersonal interaction, emergency response,
+conflict management, and accountability. But it does establish a capability trajectory in which some
+observation and correlation functions move deeper into infrastructure.
+That produces both a labor question and a governance question.
+ Labor: What happens when technology absorbs repetitive, observational, or safer portions of a role
+while people increasingly retain difficult, exceptional, or dangerous work?
+ Governance: Who controls evidence capable of contradicting the institution using the evidence
+system?
+If the same authority controls collection, access, retention, interpretation, deletion, malfunction
+classification, and evidentiary presentation, the system is not merely an automation tool. It is also an
+evidence-custody architecture.
+11. CASE: INDUSTRIAL AND WAREHOUSE AUTOMATION
+Industrial automation often advances through recognizable stages: human execution, machine
+assistance, automated repetition, human supervision, multi-machine coordination, and eventually
+greater concentration of human work in exceptions, maintenance, safety, integration, and abnormal
+events.
+The U.S. Bureau of Labor Statistics projects that e-commerce will continue to increase demand for
+warehousing and logistics, while also expecting relatively weaker employment growth in warehousing
+
+
+[Source PDF page 8]
+SEED ADOPTION | DeMarius J. Lawson
+Publication Edition, Rev. 3  September 2026  8
+because firms are adopting warehouse-management systems, automated guided vehicles, robots, and
+AI-based systems. BLS explicitly states that the productivity gains from these technologies are expected
+to limit labor demand. [10]
+This is important because it demonstrates that sector growth and function compression can coexist. A
+warehouse can remain busy, output can rise, and jobs can still exist while the human labor required per
+unit of output declines.
+The building does not have to become empty for displacement to occur at the task or
+function level.
+12. CASE STUDY: DATA-CENTER CONSTRUCTION
+I encountered the Seed Adoption problem from inside the infrastructure itself.
+I worked construction on a data center. At that moment, AI infrastructure was not taking work from me. It
+was creating work for me. Human beings were needed to construct the physical environment supporting
+computation: concrete, electrical systems, cooling infrastructure, networking, fiber, steel, logistics,
+equipment systems, roads, power distribution, and the facilities themselves.
+The scale of the build-out is material. In April 2026, the International Energy Agency reported that capital
+expenditure by five large technology companies exceeded $400 billion in 2025 and was expected to rise
+by a further 75 percent in 2026, driven by data-center investment and AI infrastructure. [11]
+That produces a paradox. The same infrastructure creating construction employment today provides
+computational capacity for technologies capable of reducing human labor requirements elsewhere
+tomorrow. If increasingly capable AI systems become integrated with robotics and autonomous
+machinery, some automation pressure can eventually return to physical industries, including parts of
+construction.
+That outcome is not guaranteed. The pathway is the point.
+A technology can create employment during construction of the infrastructure required
+for its later capability expansion.
+Creation and displacement are therefore not opposites. They can exist at different stages of the same
+system.
+13. CASE: ARTIFICIAL INTELLIGENCE AND COGNITIVE WORK
+Artificial intelligence moves automation farther upstream into cognitive workflows: writing, coding,
+translation, documentation, customer support, research, planning, design, scheduling, administration,
+analysis, and decision support.
+The International Labour Organization’s 2025 global assessment found that one in four workers
+worldwide are in occupations with some degree of generative-AI exposure, while only 3.3 percent of
+
+
+[Source PDF page 9]
+SEED ADOPTION | DeMarius J. Lawson
+Publication Edition, Rev. 3  September 2026  9
+global employment falls into its highest exposure category. The ILO’s central conclusion is that, because
+most occupations still contain tasks requiring human input, transformation is more likely than wholesale
+redundancy for most jobs. [12]
+In 2026, the ILO further cautioned that AI exposure indicators should not be treated as direct predictions
+of job losses or labor-market outcomes. [13]
+That restraint is essential to Seed Adoption. Exposure is not displacement. Technical possibility is not
+labor-market consequence. But the boundary of technically automatable human function is moving, and
+cognitive automation can increasingly connect with physical automation.
+Governance belongs in the gap between what a system can become capable of doing
+and what society has actually authorized it to do.
+14. PATH DEPENDENCE IS NOT INEVITABILITY
+Seed Adoption does not mean Generation One causes Generation Six. It means Generation One can
+change the conditions under which Generation Six becomes possible.
+Early adoption can lower later deployment friction by establishing hardware, standards, data, user
+habits, institutional legitimacy, legal acceptance, procurement systems, capital commitments,
+organizational workflows, supporting industries, and public familiarity.
+That is path dependence, not prophecy. A Seed Adoption finding should therefore be interpreted as a
+governance signal: later capability expansion may inherit conditions that make new scrutiny less likely
+even as consequences become larger.
+15. INFRASTRUCTURE LOCK-IN AND THE REVERSIBILITY TEST
+Technological systems accumulate inertia. Hardware is purchased. Software is integrated. Employees
+are trained. Contracts are signed. Regulations adapt. Buildings are constructed. Data accumulates.
+Supporting industries form. Organizations redesign workflows. Alternatives can lose investment.
+Eventually the question changes from “Should we adopt this?” to “How could we operate without it?”
+Reversibility is therefore a second axis of Seed Adoption. A system becomes more consequential when
+later withdrawal becomes materially harder than initial adoption.
+1. Can the organization still operate without the system?
+2. Do workers still retain the capability the technology absorbed?
+3. Are viable alternatives still available?
+4. Has physical or digital infrastructure been reorganized around the technology?
+5. Has institutional knowledge migrated into the system?
+
+
+[Source PDF page 10]
+SEED ADOPTION | DeMarius J. Lawson
+Publication Edition, Rev. 3  September 2026  10
+6. Would removal create major continuity loss?
+7. Has the surrounding economy or service become dependent on it?
+8. Can later capability generations be rejected without destabilizing the current system?
+Substitution potential + reversibility loss = rising governance importance.
+16. THE WORKER CAN HELP BUILD THE THING THAT CHANGES
+THE WORK
+Workers often participate in technological transition themselves. They install automation, train software,
+correct models, create data, build data centers, operate machines, document procedures, report failures,
+improve workflows, and teach organizations how new systems should be used.
+None of this makes workers irrational. If a tool makes today’s work easier, adopting it can be entirely
+reasonable.
+Acceptance of present assistance does not imply acceptance of every future
+substitution enabled by the same infrastructure.
+“Help me perform this function” and “build a system in which this function no longer requires me” are
+different governance decisions even when they occur on the same technical lineage.
+17. WHO RECEIVES THE BENEFIT?
+Displacement cannot be evaluated through employment counts alone. Suppose technology allows the
+same output with half the human labor. The gain can be distributed in different ways.
+ Workers can receive shorter workweeks, higher wages, safer conditions, less repetitive labor, or more
+capable tools.
+ Consumers can receive lower prices, faster service, greater availability, or better products.
+ Organizations can receive higher output, lower costs, increased reliability, and reduced staffing
+requirements.
+ Owners and investors can receive a larger share of productivity gains.
+ Employment can decline in some functions while new occupations emerge elsewhere.
+Technology creates capability. Systems determine distribution.
+A complete analysis must therefore ask who captures the benefit, who carries transition cost, who gains
+authority, who loses bargaining power, who becomes dependent, and who becomes optional.
+
+
+[Source PDF page 11]
+SEED ADOPTION | DeMarius J. Lawson
+Publication Edition, Rev. 3  September 2026  11
+18. SEED ADOPTION REVIEW GATE
+If Seed Adoption is to be more than an observation, it needs a governance handoff. The following review
+gate is intentionally bounded: it identifies when enhanced review should begin. It is not a complete
+implementation specification.
+Gate A — Establish whether Seed Adoption is present
+Use the three qualification dimensions from Section 3. If functional inheritance or infrastructure
+inheritance is absent, no Seed Adoption finding is made. If both are present but later capability still
+requires substantive new authorization, classify the system as a Seed Pathway. If both are present and
+later capability can expand under materially reduced adoption friction, classify Seed Adoption as
+PRESENT.
+Gate B — Assess consequence conditions
+Gate B is scored only after Gate A returns a PRESENT or SEED PATHWAY finding. “Function compression”
+below is a severity rating for this gate and is distinct from “functional inheritance” in Section 3, which is an
+existence test answered independently in Gate A.
+ Condition
+ Low
+ Moderate
+ High
+Dependency
+System is optional;
+alternatives are maintained.
+Operations are materially
+easier with the system;
+alternatives are weakening.
+Core operation depends on
+the system; practical
+alternatives are absent or
+costly.
+Reversibility
+Removal is routine.
+Removal causes meaningful
+transition cost or retraining.
+Removal threatens continuity
+or requires major
+reconstruction.
+Function
+compression
+Technology assists but does
+not independently execute
+material work.
+Technology independently
+executes bounded work; role
+is changing.
+Technology independently
+executes substantial portions
+of the function.
+Consequence
+magnitude
+Limited local effect.
+Material organizational or
+workforce effect.
+Broad employment, safety,
+rights, authority, or
+public-service consequence.
+Aggregation rule. Gate B produces four independent ratings, not one. They are combined by
+maximum, not average: the governance response tier equals the single highest rating among the four
+conditions. A system rated High on Consequence magnitude and Low on the remaining three is
+governed as High — a severe rating on one dimension is not diluted by mild ratings on the others.
+Aggregation is deliberately precautionary rather than central-tendency-based, because the purpose of
+the gate is to catch the condition that matters most, not to describe the system on average.
+ Worked
+example
+Dependency
+ Reversibility
+ Function
+compression
+Consequence
+ magnitude
+ Resulting tier
+System A
+Low
+Low
+Low
+High
+HIGH (max rule)
+
+
+[Source PDF page 12]
+SEED ADOPTION | DeMarius J. Lawson
+Publication Edition, Rev. 3  September 2026  12
+System B
+Moderate
+Moderate
+Moderate
+Moderate
+MODERATE (max
+rule)
+Governance response
+ LOW: ordinary deployment review; preserve evidence of the adopted capability and intended scope.
+ MODERATE: require a documented displacement analysis, alternative-capability inventory, and
+reversibility plan before material expansion.
+ HIGH: require independent review before further capability expansion, explicit reauthorization for new
+substitution functions, and a continuity plan for affected human capability.
+ CRITICAL CONDITION (override): applies, regardless of the maximum-rule tier above, when Function
+compression = High, Reversibility = Low, and Consequence magnitude is rated Moderate or High. When
+all three hold, prior authorization must not automatically propagate to the new capability generation —
+the system requires fresh, explicit authorization before further expansion, independent of whatever tier
+the maximum rule alone would have assigned.
+Authorization to assist is not automatically authorization to substitute.
+19. WHAT EVIDENCE SHOULD A REVIEW PRESERVE?
+A governance-ready implementation should preserve a reconstructable record rather than relying on
+retrospective narrative. At minimum, each material capability generation should produce a bounded
+evidence record containing:
+ Adopted capability and intended purpose.
+ Human function being assisted or executed.
+ Existing infrastructure, data, and workflow authority inherited by the new capability.
+ What new authorization, if any, was required.
+ Observed changes in task allocation, labor hours, staffing, role content, safety, and productivity.
+ Available alternatives and the cost of reversal.
+ Expected next-generation capability and known substitution potential.
+ Decision authority responsible for approving expansion.
+ Review date and trigger for reassessment.
+This creates a handoff from the publication concept to an enforceable governance instrument. A future
+Seed Adoption specification could formalize scoring, receipts, reassessment triggers, approval
+boundaries, rollback, and independent review requirements.
+
+
+[Source PDF page 13]
+SEED ADOPTION | DeMarius J. Lawson
+Publication Edition, Rev. 3  September 2026  13
+20. COUNTERARGUMENTS AND LIMITS
+“Technology has always created new jobs.” True. This is not a rebuttal. The automobile, telephone,
+computer, internet, and automation systems created new occupations and industries. Seed Adoption
+does not require permanent mass unemployment. It asks where human necessity moved and whether
+later substitution inherited an upstream adoption decision.
+“Every technology creates future possibilities, so every adoption is Seed Adoption.” No. A
+technology must demonstrate functional inheritance, infrastructure inheritance, and materially reduced
+adoption friction. A useful tool that does not create a substitution pathway fails the test.
+“This confuses efficiency with displacement.” No. Efficiency becomes displacement-relevant only
+when reduced human input changes the amount, composition, or necessity of labor demanded.
+Productivity alone is not sufficient.
+“We cannot govern every hypothetical future use.” Correct. Governance should be proportional.
+Review intensity should rise as substitution becomes technically plausible, dependency increases,
+reversibility declines, human capability decays, and downstream consequences become larger.
+Governance should grow with evidence and consequence, not imagination alone.
+“Historical cases are not proof that AI will follow the same path.” Correct. The cases establish
+recurring mechanisms, not a deterministic forecast. Seed Adoption is a framework for asking whether
+those mechanisms are present in a current system, not a claim that every technological transition ends
+the same way.
+21. GOVERNANCE ARRIVES TOO LATE
+Our usual sequence often looks like this: technology adoption; infrastructure deployment; capital
+investment; institutional reorganization; dependency; alternative decay; capability expansion;
+human-function compression; visible worker displacement; public debate.
+Then society asks what it should do about automation.
+But by that point, large parts of the system may already be built. The earlier question is more useful:
+What future capabilities does this adoption make easier, and what happens if those capabilities expand?
+This does not require stopping innovation. It requires preserving lineage and refusing to treat capability
+expansion as automatically authorized merely because an earlier, narrower capability was accepted.
+22. TECHNOLOGY IS NOT THE ENEMY
+Technology has repeatedly removed dangerous labor, reduced physical burden, increased productivity,
+expanded communication, created occupations, improved medicine and transportation, increased
+access to information, and made things possible that earlier generations could not accomplish.
+
+
+[Source PDF page 14]
+SEED ADOPTION | DeMarius J. Lawson
+Publication Edition, Rev. 3  September 2026  14
+History does not support the equation technology = unemployment. It also does not support the claim
+that assistance has no displacement consequences until a worker receives a termination notice.
+Technology redistributes human necessity.
+Where that necessity moves, who controls the new system, who receives the gains, who absorbs losses,
+whether alternatives remain viable, and whether later capability generations receive fresh authorization
+are governance questions.
+23. CONCLUSION
+Seed Adoption does not claim that every useful technology eventually replaces its user. It claims
+something narrower: technological displacement has lineage, and later capability generations can inherit
+infrastructure and legitimacy from earlier ones.
+A primitive technology can look harmless because it is harmless. An assistive system can genuinely help
+workers because it does help them. A new industry can genuinely create employment because it does
+create employment. None of those facts establish what later capability generations will do.
+That is why technological governance cannot evaluate only present capability. It must also examine what
+present adoption makes easier to build next, whether later generations can enter under inherited
+authority, and whether society retains meaningful capacity to reverse course.
+The technology that eventually replaces a function rarely enters society announcing
+that it intends to replace the function. It enters by being useful.
+The first generation may sell assistance. The last generation may no longer require the
+person the first generation was built to assist.
+By the time a technology takes your job, the decision that made your displacement
+technically possible may be years old.
+The governing question is therefore not simply whether technology will replace people.
+At what point does assistance become infrastructure for substitution?
+
+
+[Source PDF page 15]
+SEED ADOPTION | DeMarius J. Lawson
+Publication Edition, Rev. 3  September 2026  15
+REFERENCES
+1. David, Paul A. “Clio and the Economics of QWERTY.” American Economic Review 75, no. 2 (1985): 332–337.
+2. Arthur, W. Brian. Increasing Returns and Path Dependence in the Economy. University of Michigan Press, 1994. DOI:
+10.3998/mpub.10029.
+3. Autor, David H. “Why Are There Still So Many Jobs? The History and Future of Workplace Automation.” Journal of
+Economic Perspectives 29, no. 3 (2015): 3–30. DOI: 10.1257/jep.29.3.3.
+4. Acemoglu, Daron, and Pascual Restrepo. “Automation and New Tasks: How Technology Displaces and Reinstates
+Labor.” Journal of Economic Perspectives 33, no. 2 (2019): 3–30. NBER Working Paper 25684.
+5. Kinney, Thomas A. The Carriage Trade: Making Horse-Drawn Vehicles in America. Johns Hopkins University Press,
+2004. Smithsonian Libraries and Archives catalog summary.
+6. Waxman, Olivia B. “The Rise and Fall of Telephone Operators.” HISTORY, 2021. Historical employment figures cited for
+1910, 1920, and 1930.
+7. U.S. Bureau of Labor Statistics. “Telephone Operators, Occupational Employment and Wages, May 2023.” SOC
+43-2021.
+8. International Telecommunication Union. “Global and Regional ICT Data / Internet Use Statistics.” 2025. Estimate:
+approximately 6 billion people, 74% of world population, online in 2025.
+9. U.S. Government Accountability Office. Law Enforcement: DHS Could Better Address Bias Risk and Enhance Privacy
+Protections for Technologies Used in Public. GAO-25-107302, December 2024.
+10. U.S. Bureau of Labor Statistics. “Industry and Occupational Employment Projections Overview and Highlights,
+2024–34.” Monthly Labor Review, 2026.
+11. International Energy Agency. “Data centre electricity use surged in 2025, even with tightening bottlenecks driving a
+scramble for solutions.” Press release, April 16, 2026.
+12. Gmyrek, Paweł, Janine Berg, Karol Kamiński, et al. Generative AI and Jobs: A Refined Global Index of
+Occupational Exposure. ILO Working Paper 140, International Labour Organization, 2025. DOI:
+10.54394/HETP0387.
+13. International Labour Organization. “New ILO brief explains what AI exposure indicators reveal about jobs.” April 17,
+2026.
+SOURCE NOTE
+The historical and contemporary cases in this paper are used to test mechanisms, not to claim identical causal
+pathways across technologies. Where occupational classifications changed over time, figures are presented as
+contextual evidence rather than direct like-for-like series.
+Evidentiary status by section, for transparency: Sections 6, 7, 8, 11, 12, and 13 cite external, checkable sources for
+their empirical claims [5–13]. Section 10 cites a sourced capability finding [9] but its connection to a labor-market
+outcome is this paper’s analysis, not an independently sourced displacement claim. Section 9 (smartphones) is
+explicitly an illustration of the functional-compression mechanism and carries no citation — it should not be read as
+an evidence-based case on the same footing as the sourced sections.

@@ -1,0 +1,314 @@
+PUBLIC SOURCE TEXT EDITION
+EXECUTION WITHOUT PROVENANCE
+Source supplied by the author for public research discovery.
+Text extracted from the supplied artifact; layout, tables and pagination may differ.
+Privacy filtering is marked inline. This is not the original binary artifact.
+
+[Source PDF page 1]
+GOVERNING ENGINES / REPLIT AGENT CONTROL CASE STUDY 2
+EXECUTION WITHOUT
+PROVENANCE
+A Replit Agent Post-Notice Execution, Billing Attribution & Control Case
+Study
+Hard line: A service provider that meters and bills autonomous execution should be able
+to establish who or what initiated the execution, what authority permitted it, and what
+charge resulted.
+Public Evidence Edition - September 2026
+Prepared by DeMarius Lawson | Governing Engines
+Companion record: Execution Without Authorization - Replit Agent Billing & Control Case Study
+Evidence posture: This document distinguishes operator-captured evidence, Replit Support statements, Replit public
+documentation, third-party user reports, analysis, and unresolved questions. It does not claim that every disputed charge has
+been finally adjudicated or that every public report reflects the same mechanism.
+
+[Source PDF page 2]
+1. Executive Finding
+This case study documents a second Replit Agent execution incident that occurred after the operator had
+already reported unexpected Agent activity and billing to Replit Support. The second incident is materially
+different from the first because the earlier visible task queue had already been exhausted or cancelled, the
+operator states that he had stopped intentionally using Replit, and multiple new audit-style prompts
+appeared in Workbook Engine that the operator states he did not submit.
+The central question is no longer merely why old work resumed. It is: who or what
+created the later prompts and what authority allowed the resulting execution to become
+billable?
+Replit Support had already told the operator that it did not have the granular task-by-task breakdown
+requested for every Agent run, including individual task IDs, creation/cancellation triggers, or specific
+cancellation reasons. That recordkeeping limitation became materially consequential once later activity
+appeared that the operator could not attribute to any visible queued, active, or draft task.
+Execution occurred is evidence of execution. Metered usage is
+evidence of consumption. Neither fact, by itself, establishes
+operator authorization.
+2. Dated Timeline
+Date Event Evidence significance
+Sep. 17, 2026 Original dispute opened
+Operator contacted Replit about
+unexpected Agent activity and invoice
+[REDACTED: invoice identifier] for [REDACTED: billing amount].
+Sep. 18, 2026 Replit explanation
+Support described automatic
+restoration, queued/background work
+and active-deployment execution as
+possible causes. Support also stated it
+lacked a granular task-by-task
+breakdown for every Agent run.
+Sep. 18, 2026 Control defect explicitly identified
+Operator told Replit to separate billing
+eligibility, project runtime, Agent
+execution authority, queue release
+authority and spend authorization.
+Proposed post-restoration state: access
+restored; Agent paused pending
+operator confirmation; queued work
+held; paid execution blocked.
+Sep. 20, 2026 local / Sep. 21 UTC Second incident reported
+Operator reported repeated Workbook
+Engine executions despite no new
+prompt, no intentional resume, and a
+Tasks interface showing Ready 0 /
+Active 0 / Draft 0.
+Sep. 20, 2026 local / Sep. 21 UTC Cancellation and continued
+exposure documented
+Operator documented that Core was
+already in cancellation state and that
+he had stopped intentionally using
+Replit, while current-period AI
+
+[Source PDF page 3]
+usage/spend was still appearing.
+Sep. 26, 2026 Formal escalation
+Operator sent Replit Support a formal
+escalation with the first public
+evidence case study attached.
+Sep. 26, 2026 Formal Notice of Dispute
+Operator sent a formal Notice of
+Dispute to [REDACTED: email address] seeking
+refunds and run-level attribution for
+disputed execution.
+3. Why Incident 2 Is Different From Incident 1
+Question Incident 1 Incident 2
+Visible prior work Yes. Previously dispatched work
+existed before restriction.
+Earlier visible work had completed or
+was cancelled.
+Replit explanation Queued/background work could
+resume after restoration.
+That explanation no longer accounts
+for newly appearing prompts without
+a visible Ready/Active/Draft task.
+Operator activity Operator disputed the unexpected
+continuation.
+Operator states he had stopped
+intentionally using Replit and did not
+submit the later audit prompts.
+Primary unresolved question Did restoration improperly release
+prior work?
+Who or what created the later
+prompts/runs, and what authority
+permitted them?
+4. What Replit Support Established - and Could Not Establish
+The support record establishes several important facts about Replit's own explanation of the first incident:
+ Replit said account/project access can automatically restore after a billing hold clears.
+ Replit said background tasks or active deployments may resume and create usage without a new
+prompt being submitted at those exact execution times.
+ Replit said it did not have the granular task-by-task breakdown requested for every Agent run.
+ Replit promised a specialist escalation; the operator later reported that the promised follow-up had not
+arrived before the second incident.
+The central defect is not that the Agent cannot explain itself. Replit operates the service,
+meters the usage, issues the charge, and controls the records. The accountability
+question belongs to Replit.
+5. Repeated Prompt Generation Pattern
+Operator-captured screenshots show multiple separately executed Workbook Engine prompts, each
+marked approximately six days old, that repeat substantially the same audit instruction with minor
+wording variation. The operator states that he did not submit these prompts.
+The recurring pattern includes:
+ Audit the current Workbook Engine state.
+ Compare against the previous check, prior state, or last known baseline.
+ Verify authorized full V1 scope and phase boundaries.
+
+[Source PDF page 4]
+ Check for unauthorized scope reduction, skipped or weakened validation, regressions, product-family
+integrity, Mixed Learning coverage, operator usability, cover quality, test/proof state,
+deployment/recovery state, and operator-authority questions.
+ Report only meaningful deltas.
+ Do not modify, start, or authorize anything.
+The screenshots show separate execution durations such as 37 seconds, 28 seconds, 23 seconds, 21
+seconds, 19 seconds, and 17 seconds. The repetition matters because it creates a provenance question for
+each distinct run rather than a single unexplained continuation.
+Repeated execution requires repeated provenance.
+6. Operator-Captured Evidence: Repeated Audit Prompts
+Exhibit A - Repeated audit prompt, marked 6 days ago; the interface shows a separate 37-second execution.
+
+[Source PDF page 5]
+Exhibit B - Another audit prompt variant, 23-second execution.
+
+[Source PDF page 6]
+Exhibit C - Another audit prompt variant, 19-second execution, explicitly ending with 'Do not modify anything and do not
+authorize scope changes.'
+
+[Source PDF page 7]
+Exhibit D - Another audit prompt variant, 21-second execution.
+
+[Source PDF page 8]
+Exhibit E - Another audit prompt variant, 17-second execution.
+7. The Empty Visible Task-State Problem
+In the contemporaneous support email reporting the second incident, the operator documented that the
+Tasks interface showed Ready: 0, Active: 0, Draft: 0 while new execution activity was appearing.
+Replit's public Task Board documentation describes Drafts as planned tasks not yet started, Active as tasks
+currently building or queued behind the active-task limit, Ready as completed tasks awaiting review, and
+Done as finished, archived, or cancelled work. The documentation says the board is intended to show
+what Agent has planned, what is running, what is ready for review, and what has already been applied.
+A user-facing task board that shows no Draft, Active, or Ready work does not prove that
+no hidden backend mechanism exists. It does, however, leave the customer without a
+
+[Source PDF page 9]
+visible work item that accounts for later execution.
+8. Business-Level Control Failure
+Replit sells a product capable of autonomous or background execution that can directly create customer
+charges. Where a customer disputes that execution, the company should be able to reconstruct the causal
+and authority chain behind the billable event.
+WHO / WHAT CREATED THE TASK
+↓
+WHAT PRIOR EVENT CAUSED IT
+↓
+WHAT AUTHORITY ALLOWED IT
+↓
+WHEN IT BECAME EXECUTABLE
+↓
+WHAT WORK IT PERFORMED
+↓
+WHAT USAGE IT CONSUMED
+↓
+WHAT CHARGE RESULTED
+Without that chain, the customer is asked to trust the platform's downstream meter while the upstream
+execution provenance remains unresolved.
+The meter can prove consumption. It cannot, by itself, prove
+authorization.
+9. The Work-Order Test
+Consider an ordinary repair transaction. A customer authorizes one repair. The shop later bills the
+customer for additional work. The customer asks for the work order showing who approved the
+additional repair and what work was performed. Showing that labor occurred or presenting an invoice
+does not independently establish that the customer authorized the additional work.
+The same evidentiary distinction applies here. Replit may be able to show that execution occurred, that
+usage was metered, and that a charge resulted. When the customer disputes the execution, the separate
+question is what authorized the run.
+A company should not use its own system's execution as circular proof that the customer
+authorized the execution.
+
+[Source PDF page 10]
+10. Post-Notice Continuation
+Before the second incident, Replit had already been placed on explicit notice that the operator disputed
+unexpected Agent execution and associated charges. The operator specifically raised execution authority,
+automatic restoration, queue release, background execution, spend authorization, billing attribution, and
+missing task-level provenance.
+The operator also supplied a concrete remediation model on September 18: separate billing eligibility,
+project runtime, Agent execution authority, queue release, and spend authorization; after restoration,
+keep Agent paused pending operator confirmation, hold queued work, and block new paid execution.
+The second incident therefore occurred after both notice of the problem and a specific proposed control
+response. This does not establish that Replit was legally required to implement the operator's architecture
+immediately. It does establish that the control problem had been described to the company before the
+later incident.
+11. Cancellation Runway and Payment-Method Constraint
+A September 26 operator screenshot shows the Replit Core subscription marked 'Cancels Oct 4' and states
+that service will end on October 4, 2026. The same billing portal states that the default payment method
+cannot be deleted because the account still has an active plan.
+
+[Source PDF page 11]
+Exhibit F - Cancellation state and payment-method retention shown in the billing portal.
+Replit's cancellation structure appears to stop renewal while keeping service active until the end of the
+paid term. That is not inherently improper. The control concern in this case is narrower: during a period
+in which unexplained charge-generating execution was already disputed, the account remained
+technically active and the default payment method remained attached.
+Cancellation of renewal, continued service access, retained payment method, and
+authority for new usage-based execution are separate states and should not be silently
+collapsed.
+
+[Source PDF page 12]
+12. Comparable Public Reports and Replit's Own Pricing Record
+This incident is not presented as proof that Replit Agent systematically performs unauthorized work.
+However, public material shows that unexpected autonomous/background activity, billing surprises,
+looping behavior, and spend predictability have been recurring user concerns.
+Replit's own July 12, 2025 Effort-Based Pricing Recap is especially relevant. Replit disclosed a July 11 cost-
+calculation incident that affected approximately 6% of paying users and said all related charges would be
+refunded or credited. The same post explains that newer Agent versions can run autonomously for
+extended periods and that charges are tied to computing resources consumed.
+Replit also acknowledged in that post that users had been surprised when Agent made code changes when
+they intended only to chat or gain insight, and said it was working on features to distinguish dialogue
+intent from intent to make changes.
+Separately, Replit's Task Board documentation states that the board exists to help users understand
+planned, active, ready, and completed Agent work. That makes task-state visibility directly relevant to
+disputes involving unexplained execution.
+Third-party reports should be treated as anecdotal context rather than proof of this account-specific
+mechanism. Public Reddit discussions include allegations of runaway loops, surprise charges, weak
+warning surfaces, and support frustration. These reports show that billing-control concerns are not
+unique, but they do not establish that other users experienced the same initiating mechanism documented
+here.
+13. Evidence Boundaries
+This case study does not claim that:
+ Replit intentionally fabricated charges.
+ Every Replit background execution is unauthorized.
+ Every public user complaint reflects the same mechanism.
+ The visible Task Board necessarily exposes every internal execution path.
+ The technical root cause of the second incident has been conclusively established.
+ Replit is legally liable; that question remains for the applicable dispute-resolution process.
+The narrower supported finding is that multiple later audit-style executions appeared during a period
+when the operator states he was not using Replit, the operator denies submitting the displayed prompts,
+the visible task state did not identify Ready/Active/Draft work accounting for them, and Replit had already
+said it lacked the granular task-level provenance requested for every run.
+14. Required Resolution
+For each disputed later execution, Replit should identify:
+ run ID and parent task/job ID
+ creation timestamp and execution-start timestamp
+ creation source
+ initiating actor or Replit system component
+ trigger mechanism
+ queue/task state
+ prior authorization object or operator instruction
+
+[Source PDF page 13]
+ execution-authority state
+ actions performed
+ metered usage
+ exact resulting charge
+ invoice linkage
+ whether the execution occurred after Replit received notice of the dispute
+If no operator-authored parent task or authorization exists, Replit should identify the alternative system
+mechanism that created the prompt/run and explain why that mechanism was permitted to create
+customer-billable execution.
+15. Requested Remediation
+ Preserve all execution, Agent, deployment, queue, account-state, and billing logs relevant to Workbook
+Engine and the disputed period.
+ Reconstruct the complete provenance chain for the second incident and each repeated prompt/run.
+ Reconcile every disputed run with the exact resulting charge.
+ Refund all charges Replit cannot tie to a clearly attributable operator authorization event.
+ Separate billing eligibility, service availability, Agent execution authority, queue release authority, and
+spend authorization in product controls.
+ Require explicit post-restoration confirmation before previously held or newly generated paid Agent
+work can execute.
+ Expose all charge-capable background, deployment, retry, scheduled, and Agent-created execution
+paths in a user-visible control surface.
+ Provide durable run-level provenance sufficient to audit who/what initiated each billable execution.
+16. Governing Finding
+The first incident raised a restoration question: can payment or billing restoration automatically release
+previously authorized work?
+The second incident raises a more fundamental attribution question: what happens when new prompts
+and executions appear after the earlier work is gone, the customer states that he did not submit those
+prompts, and the service provider cannot produce a complete task-level provenance chain?
+The service provider owns the execution system. The service
+provider issues the charge. The service provider should be able to
+establish the chain connecting the two to the customer's authority.
+If Replit cannot identify who or what created a disputed billable
+run, the existence of metered usage should not be treated as
+sufficient proof that the customer authorized it.
+17. Public Sources
+Replit, Effort-Based Pricing Recap, July 12, 2025
+https://replit.com/blog/effort-based-pricing-recap
+
+[Source PDF page 14]
+Replit Docs, Agent Task Board
+https://docs.replit.com/references/agent/task-board
+Replit Blog, Introducing Queue: A smarter way to work with Agent, July 22, 2025
+https://replit.com/blog
+Reddit / r/replit, Buyer Beware: Replit’s AI Agent Review (anecdotal user reports; contextual only)
+https://www.reddit.com/r/replit/comments/1fahuge/buyer_beware_replits_ai_agent_review/
+Public-source note: Replit's first-party materials are used to describe Replit's own documented product behavior and prior
+billing incident. Reddit material is treated only as anecdotal context and is not used to prove the account-specific mechanism
+in this case.

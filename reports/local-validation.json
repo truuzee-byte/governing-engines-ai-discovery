@@ -1,7 +1,14 @@
 {
   "status": "PASS",
-  "pages": 10,
+  "pages": 61,
   "documents": 8,
+  "corpus": {
+    "source_records": 31,
+    "source_hashes": "PASS",
+    "metadata": "PASS",
+    "relationships": "PASS",
+    "privacy_patterns": "PASS"
+  },
   "base_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery",
   "extraction": [
     {
@@ -79,5 +86,5 @@
   ],
   "public_deployment": "UNVERIFIED",
   "external_discovery": "NOT TESTED",
-  "checked_at": "2026-10-19T21:27:38.621995+00:00"
+  "checked_at": "2026-10-20T15:56:46.902912+00:00"
 }

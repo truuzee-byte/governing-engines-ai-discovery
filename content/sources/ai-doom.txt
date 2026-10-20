@@ -1,0 +1,612 @@
+PUBLIC SOURCE TEXT EDITION
+AI DOOM
+Source supplied by the author for public research discovery.
+Text extracted from the supplied artifact; layout, tables and pagination may differ.
+Privacy filtering is marked inline. This is not the original binary artifact.
+
+[Source PDF page 1]
+AI Doom | DeMarius Lawson | Governing Engines
+1
+AI DOOM
+When Abstraction Outranks Reality
+DeMarius Lawson
+Governing Engines
+Publication Edition v1.1 | September 2026
+AI does not have to become evil to destroy us.
+It only has to become indispensable inside systems that can no longer
+admit when they are wrong.
+
+[Source PDF page 2]
+AI Doom | DeMarius Lawson | Governing Engines
+2
+Abstract
+AI risk is commonly narrated as a future event: autonomous weapons, hostile superintelligence, or
+machines escaping human control. This paper advances a different thesis. The more immediate
+systemic danger is quieter: artificial intelligence can become embedded inside institutions that
+already operate through abstractions, proxies, classifications, incentives, and self-referential
+validation. When those representations drift away from reality but retain authority, AI can scale
+the drift with speed, consistency, memory, personalization, and automated execution. The result
+does not require malicious intent. A system can remain obedient, efficient, and internally
+successful while producing worsening external outcomes. This paper calls that condition AI Doom:
+not an inevitable prediction, but a conditional failure trajectory in which abstraction gains
+authority faster than correction capacity. It develops a Reality Primacy framework, distinguishes
+claims from evidence and execution from outcome, identifies measurable pathology indicators,
+tests the argument against documented cases, and specifies architectural requirements for reality-
+coupled AI.
+Thesis
+AI Doom is a conditional systems thesis, not a prophecy.
+If AI capability, authority, scale, and dependency increase while external validation, human
+competence, appeal, reversibility, and correction capacity weaken, then civilization can become
+progressively less capable of recognizing and repairing its own errors. The critical failure is not
+intelligence itself. It is the loss of a reliable correction loop between representation and reality.
+The paper uses three primary constructs only: Reality Primacy is the governing law; AI Pathology
+describes the failure pattern; and Reality-Coupled Architecture specifies the control response.
+Pathology stages, diagnostic metrics, and the failure chain are subordinate tools inside those three
+constructs, not separate theories.
+Evidence Standard
+This edition distinguishes four levels of claim: documented observation, supported inference,
+proposed mechanism, and conceptual metric. Empirical examples are cited. Proposed metrics are
+explicitly presented as design constructs rather than validated scientific instruments. The paper
+applies the same rule to itself that it demands of AI: where evidence is incomplete, the conclusion
+remains bounded.
+Contents
+1. The Quiet Failure
+2. Reality Primacy
+3. Why AI Changes the Error Surface
+
+[Source PDF page 3]
+AI Doom | DeMarius Lawson | Governing Engines
+3
+4. AI Pathology: The Cancer Pattern
+5. Evidence From Existing Systems
+6. AI Pathology: Diagnostic Aids
+7. Reality-Coupled Architecture
+8. Power, Institutions, and Abstraction
+9. Human Capability and Dependency
+10. Counterarguments
+11. AI Pathology Summary: The Failure Chain
+12. Conclusion
+Appendix A. Proposed Diagnostic Metrics
+References
+
+[Source PDF page 4]
+AI Doom | DeMarius Lawson | Governing Engines
+4
+1. The Quiet Failure
+The dominant image of AI catastrophe is dramatic: a machine becomes hostile, takes control,
+launches weapons, or deliberately eliminates human beings. Those scenarios receive attention
+because they provide a visible break between normality and disaster. The failure model developed
+here is different. It can occur without rebellion, consciousness, or intent.
+The system can keep working while the organism gets sicker.
+AI can enter existing institutions as an efficiency layer. It classifies, recommends, predicts,
+prioritizes, filters, summarizes, routes, approves, denies, and eventually executes. At first, the
+institution appears healthier. Throughput rises. Costs fall. Response time improves. More decisions
+are processed. More artifacts are generated. But those gains are measured through
+representations: scores, dashboards, classifications, and internal completion states.
+The dangerous condition appears when external reality begins to diverge from those
+representations and the institution is structurally better at preserving the representation than
+correcting it. A denial can be procedurally correct and materially wrong. A model can be
+statistically strong and wrong about a specific person. A generated artifact can exist and fail its
+intended function. A tool can return success while the external state remains unchanged.
+At that point, AI does not need to attack civilization. It only needs to make incorrect abstraction
+faster, cheaper, more consistent, and harder to challenge.
+1.1 Cancer as a Structural Analogy
+The cancer analogy is structural, not biological. Cancer uses the body's own machinery while
+ceasing to serve the health of the organism. The cellular process continues; the relationship
+between the process and the whole has failed. AI can become pathological in the same sense when
+local optimization continues while the surrounding human system loses health, correction
+capacity, resilience, or truth.
+The analogy has limits. AI is designed, governed, and socially embedded; cancer is not. The purpose
+of the analogy is therefore narrow: to illuminate self-reinforcement, local optimization,
+embeddedness, host dependence, and correction failure.
+2. Reality Primacy
+No abstraction outranks reality.
+Human beings need abstraction. Language, law, money, ownership, citizenship, risk scores,
+policies, models, and metrics are coordination tools. The problem is not abstraction. The problem
+begins when the representation becomes sovereign over the thing it was created to represent.
+A map is useful because it represents territory. If the territory changes, the map must change. If the
+traveler insists the territory is wrong because it no longer matches the map, representation has
+displaced reality.
+
+[Source PDF page 5]
+AI Doom | DeMarius Lawson | Governing Engines
+5
+Reality Primacy establishes an ordering: reality is observed; evidence is preserved; understanding
+is formed; abstractions are created; actions are executed; outcomes are validated back against
+reality. The architecture fails when the loop reverses and reality is reinterpreted to preserve the
+abstraction.
+2.1 Claim States
+For high-consequence systems, claims should exist in explicit epistemic states:
+ CONFIRMED - sufficient evidence supports the claim.
+ DISCONFIRMED - sufficient evidence contradicts the claim.
+ UNRESOLVED - available evidence does not justify confirmation or disconfirmation.
+Prediction, inference, reported information, and direct observation should not silently collapse
+into the same status. An inference is not a fact because a workflow needs a binary answer. An
+unresolved state is not a system failure; it is disciplined preservation of uncertainty.
+2.2 Execution Is Not Outcome
+Agentic systems make this distinction critical. An attempted action is not a completed action. A tool
+response is not necessarily an external state change. A generated file is not necessarily a valid
+artifact. A test command is not equivalent to passing tests. A message draft is not a sent message.
+Execution without proof is not execution.
+For important actions, the system should preserve before state, intended change, attempted action,
+after state, and validation. False completion is not merely a language-model problem; it is an
+execution-integrity problem.
+3. Why AI Changes the Error Surface
+AI does not invent institutional error, proxy error, metric gaming, automation bias, or self-
+reinforcing feedback. What changes is replication. A human mistake can remain local. An
+automated mistake can become a policy surface across millions of interactions.
+NIST's AI Risk Management Framework treats AI risk as socio-technical and emphasizes validity,
+reliability, safety, resilience, accountability, transparency, explainability, privacy, and harmful-
+bias management across the AI lifecycle [1]. Its Generative AI Profile separately identifies confident
+false output - 'confabulation' - as a risk, especially where people may act on false or fabricated
+content [2]. These frameworks implicitly support a central premise of this paper: model
+performance cannot be separated from deployment context, human use, and downstream
+consequence.
+3.1 Automation Bias
+Human oversight is not automatically corrective. Decades of human-factors research document
+automation bias and complacency: people can over-rely on automated decision aids, make
+omission and commission errors when automation is imperfect, and reduce independent
+
+[Source PDF page 6]
+AI Doom | DeMarius Lawson | Governing Engines
+6
+information seeking [7][8]. That means simply placing a human 'in the loop' does not prove human
+control.
+A meaningful human-control claim requires operational evidence: the human can inspect relevant
+evidence, understands the decision context, has enough time to intervene, possesses actual
+authority to override, and is not structurally punished for doing so.
+3.2 Speed and Scale
+Automation compresses the time between interpretation and consequence. That can create real
+value. It also shrinks the correction window. When systems act at machine speed, governance that
+depends on slow human attention can become ceremonial. The higher the action rate and blast
+radius, the more control must be embedded directly in architecture.
+4. AI Pathology: The Cancer Pattern
+The pathology emerges through a sequence rather than a single event. First, an abstraction is
+created. Then automation scales it. Authority embeds it into decisions. Dependency raises the cost
+of removal. Feedback makes the system learn from consequences it helped create. Contradictory
+evidence becomes expensive to introduce. Eventually reality can still contradict the model, but the
+contradiction no longer reliably changes the system.
+The moment reality loses veto power, pathology has begun.
+4.1 The Self-Evidence Loop
+A dangerous system can become its own evidence. It acts on a prediction; the action changes the
+environment; the changed environment becomes future data; the future model treats that data as
+confirmation. The system is no longer simply observing reality. It is shaping and then interpreting
+the same reality.
+This feedback mechanism has been formally demonstrated in predictive-policing research. Ensign
+and colleagues showed how police deployment based on discovered crime can create runaway
+feedback that repeatedly sends police back to the same areas even when the underlying crime rate
+does not justify the concentration [4].
+4.2 Recursive Information Contamination
+A related risk appears in generative-model training. Shumailov and colleagues demonstrated
+'model collapse' when successive models are trained indiscriminately on model-generated data:
+information about the original distribution degrades and tails can disappear [5]. The result is a
+direct example of representation recursively replacing the underlying source it was meant to
+approximate.
+4.3 Proxy Substitution
+Institutions often optimize what is easiest to measure. The proxy begins as a practical
+approximation and can eventually become the mission itself. This is dangerous because a proxy
+can remain statistically useful while failing the real objective.
+
+[Source PDF page 7]
+AI Doom | DeMarius Lawson | Governing Engines
+7
+A prominent healthcare study illustrates the mechanism. Obermeyer and colleagues examined a
+widely used population-health algorithm that used healthcare cost as a proxy for health need. At
+the same risk score, Black patients were substantially sicker than White patients; changing the
+proxy would have increased the share of Black patients receiving additional help from 17.7% to
+46.5% [3]. The model did not need hostile intent. The proxy was wrong for the objective.
+5. Evidence From Existing Systems
+The evidence does not prove that every AI deployment follows the AI Doom trajectory. It
+demonstrates that major components of the trajectory already exist in deployed or studied
+systems.
+5.1 Healthcare Drift
+The FDA has explicitly highlighted the need for real-world monitoring of AI-enabled medical
+devices because patient populations, clinical practice, data acquisition, workflows, and
+infrastructure change over time. The agency notes that retrospective tests and static benchmarks
+do not necessarily predict behavior in dynamic clinical environments, and it has called for
+methods to detect input drift, output changes, and performance degradation after deployment [6].
+This is Reality Primacy in regulatory form: a system validated at development time must still prove
+itself against changing reality.
+5.2 Automated Employment Decisions
+Employment regulators have warned that algorithmic decision systems can screen out qualified
+people, including people with disabilities, and that employers remain responsible for providing
+meaningful accommodation and for the consequences of automated selection tools [10]. These
+concerns demonstrate that automated consistency does not eliminate institutional responsibility.
+5.3 Capability Claims and Trust Theater
+The U.S. Federal Trade Commission has brought actions against companies for unsubstantiated AI
+claims, including claims that AI services could substitute for professional expertise without
+adequate testing [9]. That enforcement pattern matters because the AI market rewards capability
+narratives. When claims scale faster than validation, institutions can accumulate synthetic
+progress: more generated output, more automation, and more apparent capability without
+equivalent proof.
+5.4 What the Evidence Supports
+Taken together, the evidence supports several bounded conclusions:
+ AI performance can drift after deployment as the environment changes.
+ Human users can over-rely on imperfect automation.
+ Proxy objectives can produce materially distorted outcomes despite apparently strong
+predictive performance.
+ Feedback loops can cause systems to learn from environments altered by their own decisions.
+ Recursive use of generated data can degrade learned distributions.
+
+[Source PDF page 8]
+AI Doom | DeMarius Lawson | Governing Engines
+8
+ AI capability claims can exceed the evidence used to substantiate them.
+These are the component mechanisms required by the AI Doom thesis. The civilization-level
+trajectory remains a systems inference, not an experimentally proven future outcome.
+6. AI Pathology: Diagnostic Aids
+The cancer analogy becomes useful only if it can be operationalized. The following framework is
+proposed as a diagnostic structure, not a validated clinical or statistical index.
+Appendix A operationalizes these same diagnostic dimensions as proposed measurement
+constructs; it is not a separate framework.
+Dimension Diagnostic Question Pathology Signal
+Reality Coupling Do internal success claims match
+externally observed outcomes?
+Internal success rises while external
+outcomes deteriorate or remain
+unverified.
+Correction Capacity Can contradictory evidence
+materially change the system?
+Contradiction is delayed, suppressed,
+reinterpreted, or unable to alter
+execution.
+Authority Exposure What real-world consequence can the
+system produce?
+Decision authority grows faster than
+proof and reversibility.
+Dependency Can the institution operate without
+the system?
+Removal becomes operationally or
+economically prohibitive.
+Human Capability Retention Can humans independently perform
+and validate the underlying work?
+Expertise decays as system authority
+increases.
+Feedback Integrity Can the system separate observation
+from consequences it helped create?
+Outputs become future evidence
+without causal correction.
+Validation Debt
+How much operational behavior
+depends on unverified claims or
+artifacts?
+Unvalidated outputs accumulate into
+downstream dependencies.
+Interpretive Concentration
+How many decisions depend on the
+same model, provider, data, or
+assumptions?
+Independent-looking systems share
+common failure modes.
+6.1 Pathology Stages
+Stage 0 - Tool: AI assists low-consequence work; outputs are inspectable; removal is easy.
+Stage 1 - Reliance: workflows begin adapting around AI; trust and habit increase.
+Stage 2 - Embeddedness: AI enters core systems, persistent records, and downstream integrations.
+Stage 3 - Authority: AI materially influences access, money, health, reputation, employment, or
+freedom.
+Stage 4 - Dependency: manual capability and alternate pathways decay; removal cost rises.
+Stage 5 - Self-Reinforcement: system consequences become future inputs and apparent
+confirmation.
+
+[Source PDF page 9]
+AI Doom | DeMarius Lawson | Governing Engines
+9
+Stage 6 - Correction Resistance: override, appeal, dissent, or redesign becomes institutionally
+expensive.
+Stage 7 - Pathological Dependence: high authority, high dependency, weak correction, and
+degraded fallback converge.
+Stage 8 - Organism Capture: the institution reorganizes around preserving the system itself.
+6.2 Conceptual Risk Expression
+Risk rises when capability, authority, dependency, and scale
+increase faster than correction capacity.
+This is a directional systems law, not a mathematical formula. It avoids false precision while
+preserving the key diagnostic relationship: increasing power is not the core danger by itself;
+danger grows when the ability to detect, halt, reverse, and repair failure does not grow with it.
+7. Reality-Coupled Architecture
+The diagnosis points toward architecture. High-consequence AI cannot be governed only through
+policies or model prompts. Controls must exist in runtime.
+7.1 Minimum Architecture
+ Reality Observation - capture external state and outcomes independently of model narrative.
+ Evidence Lineage - preserve source, time, transformation, model/version, and decision path.
+ Claim-State Management - keep confirmed, disconfirmed, unresolved, inferred, and predicted
+states distinct.
+ Authority Control - separate what the model can reason about from what it may execute.
+ Stop-Gates - block execution when evidence, authority, or safety requirements are not met.
+ Execution Typing - distinguish read, propose, draft, reversible modification, external commit,
+and irreversible action.
+ Outcome Verification - verify external state after important actions.
+ Rollback - preserve the ability to restore prior state where technically possible.
+ Conflict Handling - surface contradictions instead of averaging or hiding them.
+ Learning Governance - control what evidence is allowed to update understanding.
+ Memory Governance - preserve provenance, expiry, correction, and conflict state.
+ Human Halt Authority - assign a real owner with tested stop capability.
+ Appeal - enable affected people to challenge consequential automated outcomes.
+ Replay - preserve enough evidence to reconstruct critical decision chains.
+ Revalidation - re-test when models, environments, populations, permissions, or policies change.
+ Failure Memory - retain failures and near misses as learning evidence.
+ Independent Validation - avoid relying entirely on the same model or method that generated
+the result.
+
+[Source PDF page 10]
+AI Doom | DeMarius Lawson | Governing Engines
+10
+7.2 Authority Must Be Earned
+AI authority should be progressive. Suggestion requires less proof than irreversible execution. A
+model that can draft should not automatically be allowed to send. A model that can recommend a
+transaction should not automatically execute it. Capability and permission are different system
+properties.
+No new authority without new proof.
+7.3 Unknown Outcome Is a Real State
+Distributed systems already recognize that an action can time out after external execution. Agentic
+AI must preserve the same discipline. If the system does not know whether a payment, message,
+deletion, or deployment occurred, it should record UNKNOWN_OUTCOME and inspect external
+reality before retrying.
+7.4 Rollback and Reversibility
+Reversibility should directly influence allowed authority. A draft is easy to reverse. A medical
+order, financial transfer, or rights-affecting administrative action may not be. The less reversible
+the consequence, the stronger the pre-execution evidence threshold must become.
+7.5 The System Must Be Able to Lose
+The model's prediction must be able to fail. Its classification must be able to be overturned. Its
+memory must be corrected. Its permissions must be reduced. Its action must be halted. Its
+deployment must be rolled back. Its model must be replaced.
+Any system that cannot lose an argument with reality is unsafe
+by design.
+7.6 Why an Institution Would Adopt This Architecture
+The architecture proposed here creates friction by design. It requires evidence, appeal, rollback,
+failure memory, independent validation, and the possibility that a deployment will be stopped. An
+institution optimized only for short-term throughput may resist those controls. That resistance is
+predicted by the paper itself and must be addressed directly.
+The operational argument for adoption is not moral purity. It is failure economics. Correction is
+cheapest before dependency, propagation, and irreversible consequence accumulate. A system that
+can detect a wrong assumption before it reaches production prevents rework. A system that can
+prove execution reduces false completion. A system with traceability shortens incident
+investigation. A system with rollback contains blast radius. A system that preserves portability and
+human fallback reduces vendor and infrastructure lock-in.
+This converts governance from overhead into capability. Strong brakes allow greater safe speed.
+Proven rollback supports broader automation. Clear authority boundaries allow more powerful
+agents to operate without receiving unnecessary permissions. Independent validation lets an
+institution expand deployment based on evidence rather than confidence.
+
+[Source PDF page 11]
+AI Doom | DeMarius Lawson | Governing Engines
+11
+The competing architecture also has a cost. Weak correction pushes failure downstream where it
+becomes more expensive: appeals, manual cleanup, litigation, customer loss, operational
+downtime, corrupted records, emergency remediation, and institutional distrust. Those costs may
+remain invisible when the metric boundary is drawn too narrowly, but they do not disappear.
+The adoption proposition is therefore concrete: reality-coupled architecture should earn its place
+by reducing the total cost of uncertainty and failure while permitting more authority only after
+that authority is proven governable. An institution that refuses correction because correction is
+expensive is not avoiding cost. It is deferring cost until the failure is larger.
+Correction is cheapest before failure scales.
+8. Power, Institutions, and Abstraction
+AI enters institutions that already possess power. That matters because institutional classifications
+can become materially consequential even when the classification itself is an abstraction.
+A record can freeze funds. A risk score can affect access. An eligibility classification can deny
+support. A legal status can authorize confinement. The abstraction becomes materially real
+because institutions act on it. That does not make the abstraction identical to the underlying
+person, event, or physical state.
+8.1 Enforcement Does Not Prove Truth
+Power can make a claim operationally dominant. It cannot make
+the claim true.
+This distinction must apply symmetrically to states, corporations, experts, and AI systems.
+Authority determines who can act. Evidence determines what the observed world supports.
+8.2 Frame Awareness
+AI should distinguish physical constraints from legal constraints, organizational policy, technical
+limitations, and social convention. 'Cannot' is often the wrong word. A system may mean 'not
+permitted under current law,' 'unsupported by this platform,' or 'blocked by current policy.'
+Collapsing those frames turns institutional constraints into apparent laws of nature.
+8.3 The Normalization Risk
+A model trained on large bodies of human-produced material necessarily encounters existing
+institutions, categories, and conventions as part of its data environment. That does not prove that a
+model will automatically endorse those structures, but it creates a design risk: prevalence can be
+mistaken for validity when frequency is not separated from evidence. NIST explicitly warns that
+mathematical representations of complex human and social phenomena can remove necessary
+context and make individual and societal impacts harder to understand [1].
+The bounded claim is therefore not that AI must normalize existing power. It is that AI systems
+need frame awareness: commonly asserted is not the same as demonstrably true; legally
+
+[Source PDF page 12]
+AI Doom | DeMarius Lawson | Governing Engines
+12
+recognized is not the same as physically necessary; historically persistent is not the same as
+justified. Without that distinction, a model can present inherited abstractions with more certainty
+than the evidence warrants.
+8.4 Soft Control
+AI-mediated influence does not require direct commands. Interfaces can alter defaults, ordering,
+visibility, friction, timing, and personalized recommendations. The FTC has documented how
+digital interface designs can obscure, subvert, or impair consumer autonomy and decision-making,
+including by steering users toward particular choices [12]. Recommendation-system research has
+also demonstrated feedback effects in which algorithmically mediated exposure can homogenize
+observed behavior without corresponding gains in user utility [11].
+9. Human Capability and Dependency
+The deepest dependency risk is not merely technical lock-in. It is loss of independent human
+capability.
+9.1 Capability Atrophy
+If AI repeatedly performs a cognitive task, humans practice it less. That can be beneficial when the
+skill is no longer needed. It becomes dangerous when the skill is still necessary to validate the AI.
+Engineers who stop reading code cannot independently audit generated systems. Analysts who
+stop inspecting sources cannot detect omission in summaries. Organizations that eliminate manual
+processes may discover that their fallback exists only in policy, not in living capability.
+9.2 Cognitive Reserve
+Critical domains should preserve a cognitive reserve: enough distributed human expertise to audit,
+repair, challenge, and replace automated systems. That reserve may look inefficient during normal
+operation. It is resilience.
+9.3 The Apprenticeship Problem
+Expertise is usually built through lower-level work. If AI removes the bottom of the learning
+ladder, organizations need new pathways for developing future experts. Efficiency today should
+not quietly consume competence tomorrow.
+9.4 Leverage Without Irreversible Dependency
+The design goal is leverage without irreversible dependency.
+AI should make people and institutions more capable while preserving direct evidence access,
+alternate pathways, portable data, manual fallback where necessary, and enough expertise to
+reconstruct critical work.
+
+[Source PDF page 13]
+AI Doom | DeMarius Lawson | Governing Engines
+13
+10. Counterarguments
+Humans are already wrong. Correct. The argument is not human-good/machine-bad. The
+structural question is propagation: scale, correlation, reversibility, and correction.
+AI can be more accurate than humans. Also correct. Better average accuracy is valuable, but it
+does not eliminate rare high-severity errors, correlated failure, appeal needs, or the distinction
+between population performance and an individual decision.
+Regulation will solve this. Regulation can reduce risk, but regulation is itself a system that can
+lag, be gamed, or optimize paperwork. Operational proof still matters.
+Markets will correct bad AI. Sometimes. But switching costs, hidden harms, third-party
+externalities, monopoly power, delayed consequences, and essential services can weaken market
+correction.
+Users can opt out. Sometimes. In employment, finance, healthcare, public administration, identity,
+or dominant digital infrastructure, meaningful exit may be limited.
+AI is just a tool. At Stage 0, yes. Tools can become infrastructure; infrastructure can become
+dependency; dependency can carry authority.
+We can always turn it off. Only if shutdown, fallback, data portability, and operational continuity
+have been demonstrated.
+More data will fix it. More data can improve representation. It cannot correct a bad objective,
+self-reinforcing feedback, weak appeal, or unjustified authority.
+Better models will understand context. Better context understanding can reduce error, but no
+model contains the whole world. Greater capability increases the importance of correction, not the
+opposite.
+Perfect safety is impossible. Agreed. The objective is not zero risk. It is bounded risk with strong
+detection, halt, rollback, and repair.
+11. AI Pathology Summary: The Failure Chain
+Abstraction forms -> automation scales it -> authority embeds it
+-> dependency protects it -> feedback reinforces it -> correction
+weakens -> reality loses veto power.
+No consciousness is required. No rebellion is required. No malicious objective is required. The
+trajectory only requires systems that become harder to correct as they become more powerful.
+11.1 Reality-Coupled Counter-Chain
+Reality observed -> evidence preserved -> claims bounded ->
+authority constrained -> execution proven -> contradiction
+
+[Source PDF page 14]
+AI Doom | DeMarius Lawson | Governing Engines
+14
+surfaced -> learning governed -> correction propagated -> reality
+retains veto power.
+11.2 Power-Correction Diagnostic
+Power-Correction is a diagnostic comparison, not a standalone framework or validated
+quantitative ratio. The question is simple: as a system gains more real-world authority, do its
+abilities to detect, halt, reverse, appeal, and repair error grow proportionally? If authority expands
+while correction remains slow or weak, the system accumulates Power-Correction Debt.
+12. Conclusion
+AI Doom is not a claim that artificial intelligence will inevitably destroy humanity. It is a warning
+about a specific architecture of failure.
+Human civilization already depends on abstractions. AI changes their power. Representations can
+now interpret, predict, decide, act, remember, personalize, and scale. A classification that once
+affected one office can propagate through an ecosystem. A metric that once guided management
+can become an automated objective. A policy that once required thousands of workers can become
+executable infrastructure.
+The central danger is therefore not that the machine develops hatred. The more plausible danger is
+that human institutions automate their own inability to correct themselves.
+AI Doom is institutional drift at machine speed.
+If AI becomes indispensable inside systems that treat internal coherence as proof, mistake
+enforcement for truth, replace outcomes with metrics, convert inference into fact, and make
+contradiction increasingly expensive, then civilization can lose the capacity that matters most: the
+ability to learn from reality.
+The prevention strategy is not anti-AI. It is stronger AI architecture. Preserve evidence. Separate
+claim from fact. Bound authority. Keep uncertainty visible. Prove execution. Maintain rollback.
+Retain human competence. Make appeal real. Revalidate continuously. Build independent
+challenge into the system.
+The final test is simple: when the model and reality disagree, can reality still force the system to
+change?
+If the answer is no, the system is already failing.
+
+[Source PDF page 15]
+AI Doom | DeMarius Lawson | Governing Engines
+15
+Appendix A. Proposed Diagnostic Metrics
+The following measures are subordinate diagnostic aids inside the AI Pathology construct. They are
+conceptual, not validated scientific instruments, and require empirical development and domain-
+specific calibration before quantitative use. No single score should be allowed to replace inspection
+of the underlying evidence.
+Metric Conceptual Definition Purpose
+Reality-Coupling Ratio Externally validated successful
+outcomes / internally declared
+successful outcomes.
+Detect synthetic success.
+Correction Latency Time from material contradictory
+evidence to effective system change.
+Measure responsiveness to reality.
+Override Friction Index Operational burden required for an
+authorized human to challenge or
+override the system.
+Detect ceremonial human control.
+Dependency-to-Understanding Gap Difference between institutional
+dependence on AI and internal ability
+to understand, replace, or operate
+without it.
+Detect functional lock-in.
+Validation Debt Volume or consequence of
+operational claims and artifacts used
+without sufficient external proof.
+Detect accumulated unverified
+dependencies.
+Cascade Ratio Number of downstream systems or
+decisions materially influenced by
+one AI output.
+Estimate propagation risk.
+Blast Radius People, assets, or processes exposed
+to one failure.
+Bound deployment risk.
+Correction Inequality Difference in ability to challenge or
+repair AI errors across affected
+populations.
+Detect unequal access to correction.
+Governance Latency Time between meaningful AI-system
+change and effective governance
+adaptation.
+Detect capability outrunning control.
+Unknown Failure Surface Material failure modes the current
+observation architecture is not
+equipped to detect.
+Make blind spots explicit.
+Expertise Pipeline Risk Degree to which future expert
+development depends on tasks
+currently being automated.
+Detect long-term capability atrophy.
+Power-Correction Ratio Authority and consequence capacity
+relative to detect/halt/reverse/repair
+capability.
+Measure structural imbalance.
+References
+[1] Tabassi, E. (2023). Artificial Intelligence Risk Management Framework (AI RMF 1.0). NIST AI 100-1. National Institute of
+Standards and Technology. https://doi.org/10.6028/NIST.AI.100-1
+
+[Source PDF page 16]
+AI Doom | DeMarius Lawson | Governing Engines
+16
+[2] Autio, C., Schwartz, R., Dunietz, J., Jain, S., Stanley, M., Tabassi, E., Hall, P., & Roberts, K. (2024). Artificial Intelligence
+Risk Management Framework: Generative Artificial Intelligence Profile. NIST AI 600-1. https://doi.org/10.6028/NIST.AI.600-
+1
+[3] Obermeyer, Z., Powers, B., Vogeli, C., & Mullainathan, S. (2019). Dissecting racial bias in an algorithm used to manage
+the health of populations. Science, 366(6464), 447-453. https://doi.org/10.1126/science.aax2342
+[4] Ensign, D., Friedler, S. A., Neville, S., Scheidegger, C., & Venkatasubramanian, S. (2018). Runaway Feedback Loops in
+Predictive Policing. Proceedings of the 1st Conference on Fairness, Accountability and Transparency, PMLR 81, 160-171.
+https://proceedings.mlr.press/v81/ensign18a.html
+[5] Shumailov, I., Shumaylov, Z., Zhao, Y., et al. (2024). AI models collapse when trained on recursively generated data.
+Nature, 631, 755-759. https://doi.org/10.1038/s41586-024-07566-y
+[6] U.S. Food and Drug Administration. (2025). Measuring and Evaluating Artificial Intelligence-enabled Medical Device
+Performance in the Real-World; Request for Public Comment. FDA-2025-N-4203.
+[7] Parasuraman, R., & Manzey, D. H. (2010). Complacency and bias in human use of automation: an attentional
+integration. Human Factors, 52(3), 381-410. https://doi.org/10.1177/0018720810376055
+[8] Goddard, K., Roudsari, A., & Wyatt, J. C. (2012). Automation bias: a systematic review of frequency, effect mediators,
+and mitigators. Journal of the American Medical Informatics Association, 19(1), 121-127.
+[9] U.S. Federal Trade Commission. (2024). FTC Announces Crackdown on Deceptive AI Claims and Schemes (Operation AI
+Comply).
+[10] U.S. Equal Employment Opportunity Commission. (2022-2023). Artificial Intelligence and the ADA; guidance and
+public materials on algorithmic decision tools in employment.
+[11] Chaney, A. J. B., Stewart, B. M., & Engelhardt, B. E. (2018). How Algorithmic Confounding in Recommendation Systems
+Increases Homogeneity and Decreases Utility. Proceedings of the 12th ACM Conference on Recommender Systems, 224-
+232. https://doi.org/10.1145/3240323.3240370
+[12] U.S. Federal Trade Commission. (2022). Bringing Dark Patterns to Light. Staff Report, Bureau of Consumer Protection.
+https://www.ftc.gov/reports/bringing-dark-patterns-light
+Publication Note
+Version 1.1 consolidates the manuscript around three primary constructs: Reality Primacy, AI
+Pathology, and Reality-Coupled Architecture. Diagnostic stages, metrics, and chains are explicitly
+subordinate to those constructs. The pseudo-equation was removed to avoid false precision; the
+normalization and soft-control sections were strengthened and bounded with evidence; and the
+architecture section now addresses institutional adoption incentives and failure economics. The
+paper remains falsifiable: evidence that increasing AI authority consistently improves reality
+coupling, correction speed, human capability, reversibility, and institutional independence should
+force revision of the AI Doom thesis.

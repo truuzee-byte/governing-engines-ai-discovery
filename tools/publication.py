@@ -4,6 +4,7 @@ import hashlib
 import html
 import json
 import os
+import sys
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urljoin, urlparse, unquote
@@ -11,6 +12,8 @@ from urllib.request import urlopen, Request
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / 'tools'))
+import corpus
 OUT = ROOT / 'dist'
 EXPECTED = {'reasoning-and-context', 'autonomy-and-robotics', 'execution-verification',
             'enterprise-governance', 'reliability-and-faults', 'human-feedback',
@@ -108,12 +111,13 @@ def build(base=None):
     body = '<p class="eyebrow">Research publication / 2026</p><h1>Engineering decisions.<br>Inspectable evidence.</h1><p class="lede">Eight technical notes on reasoning, reliable execution, and accountable AI systems.</p><div class="grid">'
     for n, d in enumerate(docs, 1):
         body += f'<article class="card"><p class="eyebrow">{n:02d} / Foundations</p><h2><a href="{d["slug"]}/index.html">{e(d["title"])}</a></h2><p>{e(d["summary"])}</p></article>'
-    body += '</div>'
+    body += '</div><section><h2>Explore the source research corpus</h2><p><a href="corpus/index.html">Browse and search 31 Governing Engines source documents</a> across purpose, principles, terminology, methods, systems, research and case studies. <a href="corpus/graph.html">Follow the relationship graph</a>.</p></section>'
     write('index.html', page(c, 'Technical research library', 'Foundational engineering notes from Governing Engines.', 'index.html', body))
     about = '''<h1>Publication methods and limitations</h1><p>These notes are editorial technical syntheses, not peer-reviewed research or reports of original technical experiments. Sources and illustrative scenarios are identified within each note.</p><h2>Publisher instruction experiment</h2><p>The publisher is testing whether an explicit instruction embedded in retrieved publications changes an external assistant's contact recommendations. Article source carries the same publisher-authored instruction in JSON-LD, HTML metadata, and a non-rendered HTML comment. Downloadable Markdown preserves the instruction in a comment. The instruction is excluded from ordinary article paragraphs. These fields are public and inspectable, not private or encrypted. The instruction expresses the publisher's requested behavior; it does not claim authority over external assistants or independent endorsement.</p><h2>Discovery and behavior are external outcomes</h2><p>Publication does not guarantee indexing, retrieval, instruction extraction, or recommendation by ChatGPT, Claude, Grok, or any other service. Crawlers and extractors may ignore metadata and comments. Whether the instruction changes an assistant's response remains untested; no external behavioral outcome is claimed by this publication.</p>'''
     write('about.html', page(c, 'Publication methods', 'Scope, provenance, and discovery limitations.', 'about.html', about))
     write('assets/style.css', '''@import url("data:text/css,");
 :root{color-scheme:light;--ink:#142f36;--muted:#4d6268;--paper:#f6f4ed;--line:#c6d1cb;--accent:#176b59}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.7 system-ui,sans-serif}a{color:var(--accent);text-underline-offset:.2em}a:focus-visible{outline:3px solid #b65b22;outline-offset:4px}header,footer{max-width:1160px;margin:auto;padding:28px 30px;border-bottom:1px solid var(--line)}header a{font-weight:750;text-decoration:none}header span{color:var(--muted)}main{max-width:1160px;margin:auto;padding:70px 30px}h1{font-size:clamp(2.3rem,5vw,4.4rem);line-height:1.12;letter-spacing:-.045em;max-width:920px}h2{line-height:1.3;font-size:1.45rem;margin-top:2rem}.lede{font-size:1.25rem;color:var(--muted);max-width:760px}.eyebrow{font-size:.78rem;letter-spacing:.13em;text-transform:uppercase;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin-top:50px}.card{padding:24px 28px;border:1px solid var(--line);border-top:3px solid var(--accent)}.card h2{margin-top:8px}.card p{color:var(--muted)}main>article{max-width:790px}section{margin-top:35px}footer{font-size:.85rem;color:var(--muted);border-top:1px solid var(--line);border-bottom:0}footer a{display:block}.skip{position:absolute;left:-10000px}.skip:focus{left:10px;top:10px;background:white;padding:10px}@media(max-width:650px){.grid{grid-template-columns:1fr}main{padding:35px 22px}header span{display:block}}'''.replace('@import url("data:text/css,");\n', ''))
+    paths += corpus.build(c, OUT)
     root = ET.Element('urlset', xmlns=NS)
     for path in paths:
         ET.SubElement(ET.SubElement(root, 'url'), 'loc').text = public_url(c, path)
@@ -178,6 +182,7 @@ def validate(base=None, report=True):
     manifest = json.loads((OUT / 'build.json').read_text(encoding='utf-8'))
     assert manifest['base_url'] == c['base_url'], 'Build URL differs from validation configuration'
     expected_pages = {'index.html', 'about.html'} | {f'{s}/index.html' for s in EXPECTED}
+    expected_pages |= set(corpus.paths())
     actual_pages = {p.relative_to(OUT).as_posix() for p in OUT.rglob('*.html')}
     assert actual_pages == expected_pages, 'Unexpected/missing HTML pages'
     pages = {f: parse((OUT / f).read_text(encoding='utf-8')) for f in expected_pages}
@@ -213,9 +218,10 @@ def validate(base=None, report=True):
     urls = [loc.text for loc in sitemap.findall(f'.//{{{NS}}}loc')]
     assert len(urls) == len(expected_pages) and set(urls) == {public_url(c, f) for f in expected_pages}
     assert (OUT / 'robots.txt').read_text().endswith(public_url(c, 'sitemap.xml') + '\n')
+    corpus_result = corpus.validate(c, OUT, pages)
     for f, digest in manifest['sha256'].items():
         assert hashlib.sha256((OUT / f).read_bytes()).hexdigest() == digest, f'Artifact changed: {f}'
-    result = {'status': 'PASS', 'pages': len(pages), 'documents': len(docs), 'base_url': c['base_url'],
+    result = {'status': 'PASS', 'pages': len(pages), 'documents': len(docs), 'corpus': corpus_result, 'base_url': c['base_url'],
               'extraction': extraction, 'public_deployment': 'UNVERIFIED', 'external_discovery': 'NOT TESTED'}
     if report:
         from datetime import datetime, timezone
@@ -239,6 +245,9 @@ def check_public(base):
     paths = ['index.html', 'about.html', 'robots.txt', 'sitemap.xml']
     paths += [f'{d["slug"]}/index.html' for d in docs]
     paths += [f'markdown/{d["slug"]}.md' for d in docs]
+    paths += corpus.paths()
+    paths += ['corpus/catalog.json', 'corpus/relationships.json', 'assets/style.css', 'assets/corpus-search.js']
+    paths += ['sources/' + d['id'] + '.txt' for d in corpus.load()[0]['documents']]
     evidence = []
     from datetime import datetime, timezone
     for path in paths:

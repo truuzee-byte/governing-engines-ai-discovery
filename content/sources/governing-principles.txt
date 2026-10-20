@@ -1,0 +1,475 @@
+PUBLIC SOURCE TEXT EDITION
+GOVERNING PRINCIPLES
+Source supplied by the author for public research discovery.
+Text extracted from the supplied artifact; layout, tables and pagination may differ.
+Privacy filtering is marked inline. This is not the original binary artifact.
+
+GOVERNING ENGINES
+GOVERNING PRINCIPLES
+VERSION 1.0
+
+STATUS:
+CANONICAL GOVERNANCE PRINCIPLE AUTHORITY
+
+AUTHORITY:
+SOURCE-OF-TRUTH DERIVATIVE
+HIGHEST PRINCIPLE LAYER
+
+PURPOSE:
+Define the canonical governing laws, operational principles, enforcement hierarchy, and inheritance structure governing all Governing Engines systems, diagnostics, frameworks, implementations, and derivative artifacts.
+
+All future:
+- governance systems,
+- diagnostics,
+- implementation frameworks,
+- operational standards,
+- remediation systems,
+- audit systems,
+- and derivative documents
+
+must inherit from this document.
+
+==================================================
+SECTION 1
+FOUNDATIONAL GOVERNING PRINCIPLE
+==================================================
+
+Governance stability emerges from:
+- stable meaning,
+- stable authority,
+- stable validation,
+- stable continuation,
+- stable proof,
+- and controlled operational interpretation.
+
+Operational instability emerges when those structures become:
+- ambiguous,
+- conflicting,
+- unreviewable,
+- unverifiable,
+- or unenforced.
+
+==================================================
+SECTION 2
+PRINCIPLE HIERARCHY
+==================================================
+
+LEVEL 1
+FOUNDATIONAL PRINCIPLES
+
+Highest operational authority.
+All lower principles inherit from these.
+
+LEVEL 2
+STRUCTURAL PRINCIPLES
+
+Govern operational relationships between systems.
+
+LEVEL 3
+EXECUTION PRINCIPLES
+
+Govern runtime operational behavior.
+
+LEVEL 4
+DIAGNOSTIC PRINCIPLES
+
+Govern drift detection, reviewability, and remediation.
+
+==================================================
+SECTION 3
+FOUNDATIONAL PRINCIPLES
+==================================================
+
+PRINCIPLE 1
+Operational language is infrastructure.
+
+DESCRIPTION:
+Meaning instability creates governance instability.
+
+OPERATIONAL EFFECT:
+Terminology must remain:
+- explicit,
+- normalized,
+- reviewable,
+- and inheritance-governed.
+
+FAILURE CONDITION:
+Conflicting terminology creates interpretive drift.
+
+==================================================
+
+PRINCIPLE 2
+Governance begins before execution.
+
+DESCRIPTION:
+Runtime governance alone cannot stabilize upstream ambiguity.
+
+OPERATIONAL EFFECT:
+Intent, terminology, authority, and operational boundaries must stabilize before execution begins.
+
+FAILURE CONDITION:
+Unstable upstream meaning creates downstream execution instability.
+
+==================================================
+
+PRINCIPLE 3
+Authority must remain explicit and reviewable.
+
+DESCRIPTION:
+Operational control cannot rely on implied ownership.
+
+OPERATIONAL EFFECT:
+Authority structures must define:
+- approval,
+- rejection,
+- continuation,
+- override,
+- escalation,
+- and termination rights.
+
+FAILURE CONDITION:
+Implied authority creates responsibility drift.
+
+==================================================
+
+PRINCIPLE 4
+Admissibility precedes trust.
+
+DESCRIPTION:
+Operational outputs cannot become trustworthy through coherence, popularity, or confidence alone.
+
+OPERATIONAL EFFECT:
+Trust requires:
+- proof,
+- replayability,
+- traceability,
+- validation,
+- and operational reviewability.
+
+FAILURE CONDITION:
+Unverifiable outputs create governance theater.
+
+==================================================
+
+PRINCIPLE 5
+Proof is required before continuation.
+
+DESCRIPTION:
+Execution continuation requires ongoing operational validity.
+
+OPERATIONAL EFFECT:
+Continuation systems must reevaluate:
+- admissibility,
+- authority,
+- scope,
+- and operational stability.
+
+FAILURE CONDITION:
+Continuation without reevaluation creates runaway instability.
+
+==================================================
+
+PRINCIPLE 6
+Correction without persistence is simulated governance.
+
+DESCRIPTION:
+Temporary remediation without retained operational learning creates recursive instability.
+
+OPERATIONAL EFFECT:
+Corrections must persist across:
+- workflows,
+- memory systems,
+- governance systems,
+- and future execution states.
+
+FAILURE CONDITION:
+Repeated failure recurrence indicates unresolved governance drift.
+
+==================================================
+
+PRINCIPLE 7
+Observability is required for governance.
+
+DESCRIPTION:
+Hidden operational behavior cannot be reliably governed.
+
+OPERATIONAL EFFECT:
+Interpretation surfaces, execution surfaces, and governance transitions must remain reviewable.
+
+FAILURE CONDITION:
+Opaque systems create invisible drift propagation.
+
+==================================================
+
+PRINCIPLE 8
+Drift propagates across operational layers.
+
+DESCRIPTION:
+Operational instability rarely remains isolated.
+
+OPERATIONAL EFFECT:
+Governance systems must evaluate:
+- dependency chains,
+- propagation paths,
+- and recursive instability surfaces.
+
+FAILURE CONDITION:
+Uncontained drift cascades into systemic governance failure.
+
+==================================================
+
+PRINCIPLE 9
+Boundaries must remain explicit.
+
+DESCRIPTION:
+Undefined operational edges create uncontrolled expansion.
+
+OPERATIONAL EFFECT:
+Systems must define:
+- operational scope,
+- authority limits,
+- interpretive limits,
+- and continuation constraints.
+
+FAILURE CONDITION:
+Boundary instability creates scope drift and authority instability.
+
+==================================================
+
+PRINCIPLE 10
+Governance must remain operational rather than symbolic.
+
+DESCRIPTION:
+Policies without enforcement structures do not stabilize systems.
+
+OPERATIONAL EFFECT:
+Governance structures must remain:
+- enforceable,
+- observable,
+- measurable,
+- and reviewable.
+
+FAILURE CONDITION:
+Symbolic governance creates false operational trust.
+
+==================================================
+SECTION 4
+STRUCTURAL PRINCIPLES
+==================================================
+
+STRUCTURAL PRINCIPLE 1
+Inheritance preserves coherence.
+
+DESCRIPTION:
+Derivative systems must inherit canonical terminology and governing principles.
+
+FAILURE CONDITION:
+Parallel meaning systems create framework fragmentation.
+
+==================================================
+
+STRUCTURAL PRINCIPLE 2
+Operational relationships must remain explicit.
+
+DESCRIPTION:
+Dependencies between:
+- authority,
+- interpretation,
+- execution,
+- proof,
+- continuation,
+- and validation
+
+must remain reviewable.
+
+FAILURE CONDITION:
+Hidden dependency chains create invisible governance instability.
+
+==================================================
+
+STRUCTURAL PRINCIPLE 3
+Memory systems must remain bounded and reviewable.
+
+DESCRIPTION:
+Persistent operational state requires governance controls.
+
+FAILURE CONDITION:
+Unbounded persistence creates continuity instability.
+
+==================================================
+
+STRUCTURAL PRINCIPLE 4
+Interpretation surfaces require governance.
+
+DESCRIPTION:
+Interpretation transforms operational meaning into executable structure.
+
+FAILURE CONDITION:
+Unobservable interpretation creates semantic drift.
+
+==================================================
+SECTION 5
+EXECUTION PRINCIPLES
+==================================================
+
+EXECUTION PRINCIPLE 1
+Execution requires explicit intent.
+
+FAILURE CONDITION:
+Implied intent creates execution drift.
+
+==================================================
+
+EXECUTION PRINCIPLE 2
+Execution must remain within authorized scope.
+
+FAILURE CONDITION:
+Unauthorized operational expansion creates governance instability.
+
+==================================================
+
+EXECUTION PRINCIPLE 3
+Execution claims require observable proof.
+
+FAILURE CONDITION:
+Unverifiable success claims create false operational states.
+
+==================================================
+
+EXECUTION PRINCIPLE 4
+Execution continuation requires reevaluation.
+
+FAILURE CONDITION:
+Stale continuation authority creates runaway execution.
+
+==================================================
+
+EXECUTION PRINCIPLE 5
+Operational validity must survive changing conditions.
+
+FAILURE CONDITION:
+Static governance assumptions create continuation instability.
+
+==================================================
+SECTION 6
+DIAGNOSTIC PRINCIPLES
+==================================================
+
+DIAGNOSTIC PRINCIPLE 1
+Drift must remain classifiable.
+
+FAILURE CONDITION:
+Undefined instability becomes operationally invisible.
+
+==================================================
+
+DIAGNOSTIC PRINCIPLE 2
+Governance diagnostics must evaluate upstream conditions.
+
+FAILURE CONDITION:
+Runtime-only evaluation misses root instability sources.
+
+==================================================
+
+DIAGNOSTIC PRINCIPLE 3
+Interpretive ambiguity must remain observable.
+
+FAILURE CONDITION:
+Hidden semantic instability propagates recursively.
+
+==================================================
+
+DIAGNOSTIC PRINCIPLE 4
+Proof systems must remain externally reviewable.
+
+FAILURE CONDITION:
+Self-validating systems create inadmissible trust structures.
+
+==================================================
+
+DIAGNOSTIC PRINCIPLE 5
+Responsibility must remain attributable.
+
+FAILURE CONDITION:
+Diffused accountability creates governance collapse.
+
+==================================================
+SECTION 7
+PRINCIPLE PRECEDENCE RULES
+==================================================
+
+RULE 1
+Foundational principles override all lower operational principles.
+
+RULE 2
+Derivative systems may specialize principles but may not weaken canonical governance requirements.
+
+RULE 3
+Conflicting derivative principles are operationally inadmissible.
+
+RULE 4
+Operational convenience may not override governance stability.
+
+RULE 5
+Execution speed may not override admissibility requirements.
+
+RULE 6
+Coherence alone may not override proof requirements.
+
+==================================================
+SECTION 8
+ENFORCEMENT PRINCIPLES
+==================================================
+
+ENFORCEMENT PRINCIPLE 1
+Undefined operational meaning invalidates governance reliability.
+
+==================================================
+
+ENFORCEMENT PRINCIPLE 2
+Unreviewable systems reduce admissibility.
+
+==================================================
+
+ENFORCEMENT PRINCIPLE 3
+Untraceable authority invalidates accountability.
+
+==================================================
+
+ENFORCEMENT PRINCIPLE 4
+Persistent unresolved drift increases systemic governance risk.
+
+==================================================
+
+ENFORCEMENT PRINCIPLE 5
+Framework evolution must reduce rather than increase ambiguity.
+
+==================================================
+SECTION 9
+INHERITANCE GOVERNANCE RULES
+==================================================
+
+Derivative systems may:
+- operationalize,
+- specialize,
+- simplify,
+- or scope canonical principles.
+
+Derivative systems may never:
+- contradict foundational principles,
+- weaken admissibility requirements,
+- bypass reviewability,
+- redefine canonical governance meaning,
+- or remove proof requirements.
+
+==================================================
+SECTION 10
+FINAL GOVERNING PRINCIPLE
+==================================================
+
+Governance stability emerges when:
+- meaning is stable,
+- authority is explicit,
+- proof is reviewable,
+- continuation is governed,
+- and operational drift remains observable before systemic failure occurs.

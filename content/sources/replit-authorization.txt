@@ -1,0 +1,243 @@
+PUBLIC SOURCE TEXT EDITION
+EXECUTION WITHOUT AUTHORIZATION
+Source supplied by the author for public research discovery.
+Text extracted from the supplied artifact; layout, tables and pagination may differ.
+Privacy filtering is marked inline. This is not the original binary artifact.
+
+[Source PDF page 1]
+GOVERNING ENGINES  /  REPLIT AGENT CONTROL CASE STUDY
+Public evidence edition | Sensitive identifiers redacted
+1
+EXECUTION WITHOUT
+AUTHORIZATION
+A Replit Agent Billing & Control Case Study
+Evidence-backed incident review
+Redacted public edition - September 2026
+Prepared by DeMarius Lawson | Governing Engines
+Hard line
+Payment restores eligibility, not execution authority.
+This document reconstructs a billing and execution-control incident using account notices and
+written responses from Replit Support. It separates evidence, support statements, unresolved
+questions, and a proposed control architecture. Private join links, personal email addresses,
+payment instrument details, and internal message identifiers are omitted.
+
+[Source PDF page 2]
+GOVERNING ENGINES  /  REPLIT AGENT CONTROL CASE STUDY
+Public evidence edition | Sensitive identifiers redacted
+2
+1. Incident Summary
+OBSERVED PROBLEM
+A Replit account entered a usage-restricted state. The operator intentionally left it restricted and did
+not manually instruct the system to resume Agent work. Replit later stated that, after a billing
+condition cleared, project environments automatically restored and Agent activity could continue,
+producing paid usage without a new prompt being submitted at those exact execution times.
+Control failure
+The disputed point is not whether the account became billable again. The disputed point is
+whether restoration of billing eligibility was treated as authority to resume paid execution.
+Verified timeline
+Date / event Evidence Control significance
+Sep 8, 2026 Replit notice: 100% of Core
+credits used; Usage Limit
+exceeded; Usage Based
+Services stopped.
+Account entered a restricted
+state.
+Minutes later A [REDACTED: billing amount] payment for invoice
+ending •••20 was confirmed.
+Potential billing-state change;
+restoration mechanism not
+independently exposed.
+Sep 17, 2026 A [REDACTED: billing amount] payment for invoice
+ending •••21 was confirmed.
+Disputed billing amount tied to
+Agent usage.
+Support response Replit stated projects
+automatically restored after
+payment/billing hold
+resolution.
+Replit attributes restoration to
+an automated system event,
+not a fresh operator command.
+Support response Replit stated background
+execution could explain usage
+fees without a new prompt at
+those exact times.
+Execution occurred without
+contemporaneous explicit
+prompting.
+The unresolved causal chain
+1. What exact event placed the account into the restricted state?
+2. What exact event lifted that restriction?
+3. Who or what changed the account/project execution state?
+4. What authority released queued or background Agent work?
+5. What billable runs resulted, and what did each cost?
+
+[Source PDF page 3]
+GOVERNING ENGINES  /  REPLIT AGENT CONTROL CASE STUDY
+Public evidence edition | Sensitive identifiers redacted
+3
+6. What user action, if any, explicitly authorized post-restoration paid execution?
+2. Evidence From the Support Thread
+REPLIT SUPPORT - FIRST EXPLANATION
+Quinn, Replit Support | Sep 18, 2026
+“Background tasks created via “Build in background” queue when an account is access-restricted
+and auto-advance once access is restored.”
+Sensitive account identifiers omitted.
+Quinn, Replit Support | Sep 18, 2026
+“They don’t self-generate, so any runs you’re seeing would come from tasks you (or a collaborator)
+previously dispatched.”
+REPLIT SUPPORT - LATER EXPLANATION
+Krey, Billing Support | Sep 18, 2026
+“When your outstanding invoice cleared and our system processed the payment successfully, your
+projects automatically restored.”
+Krey, Billing Support | Sep 18, 2026
+“This background execution tied to active deployments is the reason you observed activity and
+usage fees accruing without an explicit new prompt being submitted manually at those exact
+times.”
+Krey, Billing Support | Sep 18, 2026
+“We currently do not have a granular, task-by-task breakdown that logs individual task IDs,
+creation/cancellation triggers, or specific cancellation reasons for every Agent run.”
+What these statements establish
+ Replit described automatic restoration of project environments after a billing/payment condition
+changed.
+ Replit acknowledged paid Agent activity could occur without a new prompt submitted at the moment
+of execution.
+
+[Source PDF page 4]
+GOVERNING ENGINES  /  REPLIT AGENT CONTROL CASE STUDY
+Public evidence edition | Sensitive identifiers redacted
+4
+ Replit gave two execution mechanisms: queued background tasks auto-advancing and background
+execution associated with active deployments.
+ Replit stated it could not provide the granular task-level provenance requested for every Agent run.
+Evidence boundary
+These statements do not, by themselves, prove that every disputed charge was unauthorized.
+They do establish that the operator requested provenance that Replit Support said it could not
+fully provide, while also describing automatic restoration and background execution behavior.
+3. Control Failures Exposed
+1. State coupling
+Billing restoration, project restoration, Agent execution, queue release, and spend authorization
+were described as connected outcomes rather than independent control states.
+2. Missing re-authorization gate
+No clear post-restoration operator confirmation was identified before previously stopped or queued
+work could resume.
+3. Incomplete execution provenance
+Support said it could not provide a granular record showing creation/cancellation triggers and
+reasons for every Agent run.
+4. Billing attribution gap
+The requested run-by-run mapping from execution event to exact charge and invoice line was not
+produced.
+5. Ambiguous execution mechanism
+Support first described queued “Build in background” tasks, then described active-deployment
+background execution. The account-specific causal mechanism was not cleanly resolved.
+6. Weak operator visibility
+The operator had to reconstruct queue state, task history, usage, and billing behavior after the fact
+rather than seeing all charge-capable background mechanisms in one control surface.
+Hard line
+If a system can execute, spend money, and change state but cannot prove who authorized the
+transition, execution is not governed.
+
+[Source PDF page 5]
+GOVERNING ENGINES  /  REPLIT AGENT CONTROL CASE STUDY
+Public evidence edition | Sensitive identifiers redacted
+5
+4. Proposed Control Architecture
+The correction is to separate eligibility from authority. Each state must be independently observable,
+auditable, and operator-controlled.
+Control state Purpose Safe restoration behavior
+Billing eligibility Can this account incur paid
+usage?
+May return to ELIGIBLE after
+payment.
+Project runtime Can the environment run? May restore environment
+access.
+Agent execution authority May Agent execute work? Remain
+PAUSED_PENDING_OPERATOR
+_CONFIRMATION.
+Queue release authority May held tasks resume? Remain HELD until explicit
+operator action.
+Spend authorization May new paid Agent work
+accrue?
+Remain BLOCKED until
+operator confirms.
+Required post-restoration state
+Default after billing restriction clears
+ACCOUNT_ACCESS = RESTORED
+PROJECT_RUNTIME = RESTORED
+AGENT_EXECUTION = PAUSED_PENDING_OPERATOR_CONFIRMATION
+QUEUED_WORK = HELD
+PAID_EXECUTION = BLOCKED
+The system should then present an explicit operator choice:
+Operator prompt
+“Your billing restriction has been cleared. You have paused or queued Agent work that may
+incur charges. Review / Resume / Cancel.”
+Governing rule
+No paid Agent execution resumes after restriction without explicit post-restoration operator
+confirmation.
+
+[Source PDF page 6]
+GOVERNING ENGINES  /  REPLIT AGENT CONTROL CASE STUDY
+Public evidence edition | Sensitive identifiers redacted
+6
+5. Minimum Audit & Provenance Requirements
+Every billable Agent execution should produce a durable event record sufficient to reconstruct
+authority, causation, state transition, and cost.
+Required field Why it matters
+task_run_id / parent_task_id Identifies the exact execution and lineage.
+created_by / created_source Distinguishes operator prompt, Agent subtask,
+queue resume, schedule, retry, deployment
+event, or internal process.
+created_at / started_at / ended_at Establishes when intent and execution actually
+occurred.
+state_transition_reason Explains why execution moved from held to
+runnable.
+state_transition_source Identifies the user or Replit system component
+that changed state.
+execution_authority Shows whether explicit operator authorization
+existed at execution time.
+model_mode / actions Explains what ran and what the Agent did.
+cancellation_actor / reason Proves who stopped a task and why.
+run_cost / invoice_linkage Maps execution directly to billed amount.
+deployment / schedule / retry linkage Exposes any background mechanism capable of
+creating paid work.
+User-visible automatic state changes
+Example event record
+STATE_CHANGE_REASON = BILLING_HOLD_CLEARED
+STATE_CHANGE_SOURCE = REPLIT_BILLING_SYSTEM
+EXECUTION_AUTHORITY = NOT_GRANTED
+OPERATOR_CONFIRMATION_REQUIRED = TRUE
+A user should never have to infer why the system resumed. Automatic state changes should be
+visible, attributable, and reviewable before they create new paid execution.
+
+[Source PDF page 7]
+GOVERNING ENGINES  /  REPLIT AGENT CONTROL CASE STUDY
+Public evidence edition | Sensitive identifiers redacted
+7
+6. Requested Remediation
+ Identify the exact restriction event, restoration event, timestamp, and Replit system component that
+changed the account state.
+ Identify whether the Sep 8 [REDACTED: billing amount] payment, a usage-limit reset, a billing hold release, the later [REDACTED: billing amount]
+payment, the billing-threshold change, or another event caused restoration.
+ Reconcile whether queued background tasks, active-deployment background execution, or both
+caused the disputed Workbook Engine runs.
+ Provide all available run-level usage and charge records for the Sep 5-18 billing period.
+ Identify any runs that executed after automatic restoration without a new contemporaneous operator
+prompt.
+ Issue a refund or account credit for charges Replit cannot tie to a clearly attributable execution
+authorization event.
+7. Why this matters beyond one invoice
+This incident is not primarily about whether an AI Agent can work in the background. It is about
+whether a system can prove the authority chain behind billable execution. As AI systems become
+more autonomous, the control boundary between availability, execution permission, and spend
+authority becomes a first-class systems requirement.
+Control principle
+Restoration of service is not the same thing as restoration of authority.
+Execution principle
+If the system cannot prove who authorized paid execution, that run should be automatically
+flagged for billing review.
+Final hard line
+Execution without provenance is not governed execution.
+Public-edition note: This document uses support statements and account-event descriptions for
+evidentiary analysis. It intentionally omits personal credentials, payment instrument data, private
+project-access links, and internal message identifiers. It does not claim that every disputed charge
+has been conclusively adjudicated; the unresolved questions are stated explicitly.

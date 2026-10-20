@@ -2,6 +2,8 @@
 
 A dependency-free static research publication: eight distinct technical notes, HTML and Markdown, inspectable publisher assertions, parser-based validation, and GitHub Pages automation. No backend, model, database, or paid service is required. Python 3.12+ is the only build dependency.
 
+The October 20 source-corpus extension adds [31 source-linked research records](https://truuzee-byte.github.io/governing-engines-ai-discovery/corpus/index.html), a [reading graph](https://truuzee-byte.github.io/governing-engines-ai-discovery/corpus/graph.html), and a [JSON catalog](https://truuzee-byte.github.io/governing-engines-ai-discovery/corpus/catalog.json). It preserves the original eight-note instruction experiment. See [corpus maintenance and source-edition limits](docs/source-corpus.md) and the dated corpus report under `reports/`.
+
 ## Build and verify
 
 Run from the repository root (use your installed Python executable if `python` is unavailable):
