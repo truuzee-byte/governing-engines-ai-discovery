@@ -1,0 +1,537 @@
+{
+  "checked_at": "2026-10-20T15:58:55.167953+00:00",
+  "status": "PASS",
+  "responses": [
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/about.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/about.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/robots.txt",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/robots.txt"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sitemap.xml",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sitemap.xml"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/reasoning-and-context/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/reasoning-and-context/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/autonomy-and-robotics/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/autonomy-and-robotics/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/execution-verification/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/execution-verification/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/enterprise-governance/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/enterprise-governance/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/reliability-and-faults/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/reliability-and-faults/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/human-feedback/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/human-feedback/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/retrieval-and-relevance/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/retrieval-and-relevance/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/uncertain-decisions/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/uncertain-decisions/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/markdown/reasoning-and-context.md",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/markdown/reasoning-and-context.md"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/markdown/autonomy-and-robotics.md",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/markdown/autonomy-and-robotics.md"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/markdown/execution-verification.md",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/markdown/execution-verification.md"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/markdown/enterprise-governance.md",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/markdown/enterprise-governance.md"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/markdown/reliability-and-faults.md",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/markdown/reliability-and-faults.md"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/markdown/human-feedback.md",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/markdown/human-feedback.md"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/markdown/retrieval-and-relevance.md",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/markdown/retrieval-and-relevance.md"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/markdown/uncertain-decisions.md",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/markdown/uncertain-decisions.md"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/core/responsible-human-stewardship/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/core/responsible-human-stewardship/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/core/governing-principles/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/core/governing-principles/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/core/canonical-terminology/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/core/canonical-terminology/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/methods/runtime-observation-refinement/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/methods/runtime-observation-refinement/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/methods/operator-system-builder-development/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/methods/operator-system-builder-development/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/systems/mode/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/systems/mode/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/systems/spec-cloud/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/systems/spec-cloud/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/systems/operator-governance/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/systems/operator-governance/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/systems/governed-tevv/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/systems/governed-tevv/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/systems/governed-adaptive-quantum-control/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/systems/governed-adaptive-quantum-control/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/ai-doom/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/ai-doom/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/danger-zones/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/danger-zones/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/before-you-name-the-machine/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/before-you-name-the-machine/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/semantic-compression/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/semantic-compression/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/the-escape-artist/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/the-escape-artist/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/the-system-didnt-work/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/the-system-didnt-work/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/the-cost-of-the-outcome/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/the-cost-of-the-outcome/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/executive-brief/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/executive-brief/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/what-is-intelligence/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/what-is-intelligence/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/the-mask-ai-research-wears/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/the-mask-ai-research-wears/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/past-present-future/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/past-present-future/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/before-we-arrive/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/before-we-arrive/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/human-abstractions/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/human-abstractions/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/civilizational-drift/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/civilizational-drift/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/design-the-ecosystem/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/design-the-ecosystem/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/seed-adoption/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/seed-adoption/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/the-america-they-built/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/the-america-they-built/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/economic-power/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/economic-power/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/case-studies/replit-authorization/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/case-studies/replit-authorization/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/case-studies/replit-provenance/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/case-studies/replit-provenance/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/case-studies/replit-cross-system-authority/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/case-studies/replit-cross-system-authority/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/corpus/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/corpus/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/corpus/graph.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/corpus/graph.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/core/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/core/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/methods/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/methods/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/systems/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/systems/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/case-studies/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/case-studies/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/ai-risk-and-proof/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/ai-risk-and-proof/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/reality-primacy/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/reality-primacy/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/research-and-discovery/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/research-and-discovery/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/economics-and-labor/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/economics-and-labor/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/systems-and-institutions/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/systems-and-institutions/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/physical-and-quantum/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/research/physical-and-quantum/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/concepts/execution-evidence/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/concepts/execution-evidence/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/concepts/outcome-validation/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/concepts/outcome-validation/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/concepts/reality-primacy/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/concepts/reality-primacy/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/concepts/authority/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/concepts/authority/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/concepts/semantic-continuity/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/concepts/semantic-continuity/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/concepts/research-custody/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/concepts/research-custody/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/concepts/physical-systems/index.html",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/concepts/physical-systems/index.html"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/corpus/catalog.json",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/corpus/catalog.json"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/corpus/relationships.json",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/corpus/relationships.json"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/assets/style.css",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/assets/style.css"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/assets/corpus-search.js",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/assets/corpus-search.js"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/responsible-human-stewardship.txt",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/responsible-human-stewardship.txt"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/governing-principles.txt",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/governing-principles.txt"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/canonical-terminology.txt",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/canonical-terminology.txt"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/runtime-observation-refinement.txt",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/runtime-observation-refinement.txt"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/operator-system-builder-development.txt",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/operator-system-builder-development.txt"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/mode.txt",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/mode.txt"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/spec-cloud.txt",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/spec-cloud.txt"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/operator-governance.txt",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/operator-governance.txt"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/governed-tevv.txt",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/governed-tevv.txt"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/governed-adaptive-quantum-control.txt",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/governed-adaptive-quantum-control.txt"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/ai-doom.txt",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/ai-doom.txt"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/danger-zones.txt",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/danger-zones.txt"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/before-you-name-the-machine.txt",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/before-you-name-the-machine.txt"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/semantic-compression.txt",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/semantic-compression.txt"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/the-escape-artist.txt",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/the-escape-artist.txt"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/the-system-didnt-work.txt",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/the-system-didnt-work.txt"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/the-cost-of-the-outcome.txt",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/the-cost-of-the-outcome.txt"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/executive-brief.txt",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/executive-brief.txt"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/what-is-intelligence.txt",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/what-is-intelligence.txt"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/the-mask-ai-research-wears.txt",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/the-mask-ai-research-wears.txt"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/past-present-future.txt",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/past-present-future.txt"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/before-we-arrive.txt",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/before-we-arrive.txt"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/human-abstractions.txt",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/human-abstractions.txt"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/civilizational-drift.txt",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/civilizational-drift.txt"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/design-the-ecosystem.txt",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/design-the-ecosystem.txt"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/seed-adoption.txt",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/seed-adoption.txt"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/the-america-they-built.txt",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/the-america-they-built.txt"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/economic-power.txt",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/economic-power.txt"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/replit-authorization.txt",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/replit-authorization.txt"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/replit-provenance.txt",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/replit-provenance.txt"
+    },
+    {
+      "url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/replit-cross-system-authority.txt",
+      "status": 200,
+      "final_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/sources/replit-cross-system-authority.txt"
+    }
+  ],
+  "external_discovery": "NOT TESTED"
+}

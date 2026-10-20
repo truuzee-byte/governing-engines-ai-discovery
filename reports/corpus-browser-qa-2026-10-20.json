@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-20",
+  "surface": "in-app browser, desktop viewport",
+  "catalog_url": "https://truuzee-byte.github.io/governing-engines-ai-discovery/corpus/index.html",
+  "observations": [
+    {"input": "", "visible_count": 31},
+    {"input": "TCVO", "visible_count": 1, "matching_title": "THE COST OF THE OUTCOME"},
+    {"input": "zzzz-no-match", "visible_count": 0},
+    {"input": "", "visible_count": 31, "condition": "restored after filtering"}
+  ],
+  "pages_inspected": [
+    "https://truuzee-byte.github.io/governing-engines-ai-discovery/corpus/index.html",
+    "https://truuzee-byte.github.io/governing-engines-ai-discovery/systems/mode/index.html",
+    "https://truuzee-byte.github.io/governing-engines-ai-discovery/corpus/graph.html"
+  ],
+  "status": "PASS",
+  "local_preview": "Could not connect across sandbox boundary; server stopped; live QA completed instead.",
+  "limits": ["Desktop visual inspection only", "No exhaustive accessibility audit", "No external search or assistant-discovery trial"]
+}
