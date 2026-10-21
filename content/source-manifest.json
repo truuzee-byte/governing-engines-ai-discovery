@@ -504,5 +504,103 @@
       "billing_amount": 7
     },
     "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "the-passenger",
+    "original_filename": "The_Passenger_v1.2(20261021-032533).docx",
+    "identity": {
+      "title": "THE PASSENGER",
+      "subtitle": "A Phenomenological Inquiry into Internal Modeling, the Vessel, Reality, Direction, and the Road a Life Appears to Offer",
+      "version": "1.2",
+      "date": "September 2026",
+      "status": "Exploratory / Comparative / Non-ontological"
+    },
+    "original_sha256": "a2a7d035419d7bf08f9455b4387218ea7c37da845c7a627e3836d26f3ac1b08a",
+    "published_sha256": "d9367edc5775bfe297f1ae906418265c853e5f858cdf9b025849349f0fc7700b",
+    "source_pdf_pages": null,
+    "redaction_counts": {},
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "a-walk-through-humanity",
+    "original_filename": "A_Walk_Through_Humanity_Substantive_Research_Edition_v3.0(20261021-032533).pdf",
+    "identity": {
+      "title": "A WALK THROUGH HUMANITY",
+      "subtitle": "Authority, Religion, Peoplehood, Empire, Persecution, Sovereignty, and the Human Chain to the Present",
+      "version": "Substantive Research Edition v3.0",
+      "date": "September 2026",
+      "status": "Substantive Research Edition"
+    },
+    "original_sha256": "aa657a56a8d0bb51c63f03f2031522d9509f7d1e43a7027592f0f07aebfc4553",
+    "published_sha256": "f498277373301cad5341db44d5d8974894c60232b91d01ace53f3e5b8001d936",
+    "source_pdf_pages": 43,
+    "redaction_counts": {},
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "follow-the-harm",
+    "original_filename": "Follow_the_Harm_Meta_Proof_Power_and_Custody_v1.1(20261021-032533).pdf",
+    "identity": {
+      "title": "FOLLOW THE HARM",
+      "subtitle": "Proof, Power, and the Custody of Consequences in the Meta Youth-Safety Settlement",
+      "version": "1.1 — Adversarially Revised / Evidence-Constrained",
+      "date": "2026-08-27",
+      "status": "Investigative analysis — evidence-constrained"
+    },
+    "original_sha256": "47e9b208108c16cf282e2ed8d1f7ced1a9a42a431758fa41bd0159debd30a9ee",
+    "published_sha256": "c95a115037122f9a2c356274bb9256153be03006d86053e1d4a80a974486c593",
+    "source_pdf_pages": 14,
+    "redaction_counts": {},
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "governing-engines-journey",
+    "original_filename": "GE_Journey_Full_Through_October_21_2026(1).pdf",
+    "identity": {
+      "title": "FROM CREATION TO GOVERNED INTELLIGENCE",
+      "subtitle": "What We Built, What We Think May Be Emerging, What We Want, What We Reject, Where We Are, and What Comes Next",
+      "version": "Base Version 1.1; October Continuity Appendix F Version 1.0",
+      "date": "Base August 26, 2026; cumulative continuation through October 21, 2026",
+      "status": "Working Architectural Position / Architecture Position + Canonical Journey Record"
+    },
+    "original_sha256": "12ff7ab26e741f6e77328329927c56c7bd86ee8171bdeea03d6c569b4dd14568",
+    "published_sha256": "3bdb18583443ca56fb32819fe34de6be30e7f83d3568e6a2ff73edfadf16ed68",
+    "source_pdf_pages": 61,
+    "redaction_counts": {},
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "mode-machine-state-2026-09-14",
+    "original_filename": "MODE_Last_Verified_Machine_State_Traceability_Record_v1.0(20261021-032641).docx",
+    "identity": {
+      "title": "MODE LAST VERIFIED MACHINE STATE & TRACEABILITY RECORD",
+      "subtitle": "A reality-bounded snapshot of what had actually crossed from architecture into observed runtime",
+      "version": "1.0",
+      "date": "2026-09-14",
+      "status": "Historical last-evidenced-state snapshot — not a live-machine claim"
+    },
+    "original_sha256": "af8c3fdd70664ab914da2b656f6379f60f3d8275732ee5aa3abc32b3ce467ab7",
+    "published_sha256": "10a7e1e41de52c2cafdd4933166c287f7a3db5f1e8247615adcfcb7bbb07e889",
+    "source_pdf_pages": null,
+    "redaction_counts": {
+      "local_filesystem_path": 1
+    },
+    "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "mode-machine-state-2026-10-21",
+    "original_filename": "MODE_Public_Machine_State_MODE_Only(1).docx",
+    "identity": {
+      "title": "MODE PUBLIC MACHINE STATE - MODE ONLY",
+      "subtitle": null,
+      "version": "3.1",
+      "date": "2026-10-21",
+      "status": "Current public MODE snapshot at the October 21, 2026 cutoff"
+    },
+    "original_sha256": "989d49c6aa3232cdc9523e8378f584dee8de65147cf9e9a0b8f61f484582f0a5",
+    "published_sha256": "ef49cd730b10289f69c86e72f13c0762057ac42af2413025c33ccdc86c01e177",
+    "source_pdf_pages": null,
+    "redaction_counts": {},
+    "edition": "privacy-filtered text extraction; original binary not distributed"
   }
 ]

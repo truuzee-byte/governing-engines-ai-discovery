@@ -1,0 +1,159 @@
+PUBLIC SOURCE TEXT EDITION
+MODE PUBLIC MACHINE STATE - MODE ONLY
+Source supplied by the author for public research discovery.
+Text extracted from the supplied artifact; layout, tables and pagination may differ.
+Privacy filtering is marked inline. This is not the original binary artifact.
+
+GOVERNING ENGINES
+MODE
+PUBLIC MACHINE STATE - MODE ONLY
+Version 3.1 | October 21, 2026
+REALITY GETS THE LAST VOTE.
+This document is intentionally limited to MODE itself: what MODE can currently do, what has been behaviorally demonstrated, what remains partial, and what is not yet proven.
+
+1. Current MODE Posture
+CURRENT POSTURE: GOVERNED EXECUTABLE MODE WITH SCOPED LIVE LEARNING AND MEMORY PROOFS, CONTROLLED SELF-INSPECTION PUBLICATION, AND MATERIAL OPEN BOUNDARIES IN GENERAL LEARNING, OBJECTIVE-DRIVEN SELF-DIAGNOSIS, OBJECTIVE CONTINUITY, AND COMPLETE DOMAIN UNDERSTANDING.
+MODE is no longer only a specification or collection of isolated components. It is an executable governed system with substantial test coverage and several bounded behavioral demonstrations. Those demonstrations remain scoped to the exact cases that produced them.
+2. Test and Behavioral Evidence
+Evidence
+Current preserved result
+Latest full release
+2,114 tests passed.
+Latest focused verification
+78 passed.
+Latest targeted evidence
+473 targeted cases passing across preserved runs.
+Behavior records
+48 total: 41 executed runs/captures and 7 blocked preflights.
+Behavior verdicts
+10 PASS, 10 FAIL, 19 PARTIAL, 2 INCONCLUSIVE, 7 BLOCKED.
+Behavior classes
+25 synthetic records and 23 live-provider records.
+Recoverable provider attempts
+665 logical attempts across registered behavioral records; lifetime total unavailable.
+
+Engineering tests and behavioral tests are intentionally separate. A passing regression suite does not prove live behavior, and one successful live case does not establish general reliability.
+3. What MODE Has Demonstrated
+3.1 Learning Expression
+MODE has a scoped live demonstration in which a measured consequence was admitted into governed Learning, changed Understanding, and later changed model behavior without the operator restating the lesson.
+This proves a bounded causal learning-expression chain.
+It does not prove universal or arbitrary-domain Learning.
+3.2 Cross-thread Memory
+MODE has repeated bounded cross-thread memory successes, including dispatch-code, scheduling, and policy-recall cases.
+Controls for unrelated memory, inadmissible memory, and supersession/staleness are preserved in the evidence record.
+General cross-thread relevance and provenance reliability remain unqualified.
+3.3 Self-Inspection and Evidence-bound Self-Explanation
+MODE has demonstrated a controlled chain that can inspect owned interaction evidence, preserve prospective transition evidence, normalize evidence classes, select evidence, validate coverage, and publish a bounded self-explanation.
+A controlled capability-registry proof inspected eight records and published all thirteen required statements.
+Unknown and unavailable states remained explicit rather than being silently promoted.
+This does not establish unrestricted self-diagnosis.
+4. Learning and Memory - Current State
+Capability
+State
+Meaning
+Learning acquisition/admission
+Implemented / tested
+Governed paths exist; changed output alone does not create valid Learning.
+Persistence and retrieval
+Implemented / scoped proof
+Custody, history, freshness, and retrieval checks exist in bounded paths.
+Learning -> Understanding
+Scoped live + tested
+Historical proof exists; adoption is separately governed.
+Correction handling
+Advanced bounded engineering
+Material conditions and questions are protected in bounded cases.
+Contradiction / supersession / revocation / stale state
+Implemented and tested
+Lifecycle controls exist in tested scopes.
+Learning Expression
+Historical scoped live demonstration
+Later behavior changed after admitted consequence and updated Understanding.
+Generalized Learning
+Partial / not live qualified
+No general arbitrary-domain reliability claim.
+Learning self-diagnosis
+Not demonstrated
+MODE has not yet completed evidence-backed diagnosis of its own Learning subsystem.
+
+5. Self-Inspection and Self-Diagnosis
+Self-inspection activation: demonstrated in bounded scope.
+Completed-interaction inspection: demonstrated in bounded scope.
+Transition provenance: demonstrated in bounded scope.
+Evidence normalization and OBSERVED / INFERRED / UNAVAILABLE separation: demonstrated in bounded scope.
+Evidence selection and coverage validation: demonstrated in bounded scope.
+Critique/final handoff preservation: bounded defect identified and repaired.
+Capability-registry inspection/publication: demonstrated in fixed scope.
+Objective-to-evidence routing: PARTIAL.
+Objective-driven Learning self-diagnosis: NOT DEMONSTRATED.
+Generalized self-diagnosis: NOT DEMONSTRATED.
+The current blocker is not that MODE cannot inspect anything. The blocker is that MODE does not yet generally derive the correct evidence sources required by an operator objective before attempting diagnosis.
+6. Understanding - Current State
+Understanding area
+Current public state
+Core governed Understanding
+Implemented and used in scoped behavioral proof.
+Cinematic Understanding
+Partial / incomplete; behavioral completion remains open.
+Game Understanding
+Partial / architectural; dedicated behavioral qualification unavailable.
+Code Understanding
+Partial; semantic code-understanding qualification remains open.
+
+These domain states describe MODE's understanding capability only. They do not claim production execution in any external system.
+7. Objective Continuity
+MODE's Objective Continuity model remains a partial mechanism set rather than a demonstrated end-to-end capability.
+GOAL -> Understanding -> Path -> Attempt -> Consequence -> Learning -> Updated Understanding -> New Path -> Continued Pursuit
+Current qualification state: F / unqualified.
+No current evidence promotes Objective Continuity to demonstrated.
+8. Preserved Behavioral Failures and Inconclusive Cases
+False encoding explanations.
+Unrelated-memory admission.
+Fabricated support.
+Genuine-source exclusion.
+Unknown-disclosure overblocking.
+Earlier broad conversational failures.
+Incomplete live Learning -> Understanding -> fresh-thread behavioral composition.
+Independent message-meaning learning remains inconclusive.
+These remain part of MODE's state even though later engineering suites passed. Green tests do not erase contradictory behavior evidence.
+9. Current MODE Gates
+Capability / gate
+State
+Learning Expression
+CROSSED - scoped historical live case
+Cross-thread memory
+CROSSED - bounded cases
+Generalized Learning
+OPEN / unqualified
+Objective-to-evidence routing
+PARTIAL
+Learning self-diagnosis
+NOT DEMONSTRATED
+Objective Continuity
+F
+Pass 3
+Unchanged
+Frozen60
+NOT READY FOR REQUALIFICATION
+Cinematic Understanding
+OPEN / partial
+Game Understanding
+OPEN / unqualified
+Code Understanding
+OPEN / partial
+Development Program
+CLOSED / NOT ADMITTED
+
+10. What This Record Does Not Claim
+This record does not claim Artificial general intelligence.
+This record does not claim Universal autonomy.
+This record does not claim Complete or error-free Learning.
+This record does not claim General self-diagnosis.
+This record does not claim Complete Cinematic, Game, or Code Understanding.
+This record does not claim Universal truth validation.
+This record does not claim Production-ready autonomous execution.
+This record does not claim That passing engineering tests erase failed behavioral evidence.
+11. Public Interpretation
+MODE is a substantial executable governed AI system with scoped live learning and memory proofs, controlled self-inspection publication, and extensive engineering test coverage. Its strongest demonstrated capabilities are real but bounded.
+The evidence does not yet support generalized Learning, objective-driven self-diagnosis, autonomous Objective Continuity, or complete Cinematic, Game, and Code Understanding. Those remain explicit open boundaries rather than implied capabilities.
+IF THE EVIDENCE DOES NOT SUPPORT THE STATE, THE STATE DOES NOT PROMOTE.

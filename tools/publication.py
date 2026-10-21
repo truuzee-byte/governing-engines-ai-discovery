@@ -111,7 +111,7 @@ def build(base=None):
     body = '<p class="eyebrow">Research publication / 2026</p><h1>Engineering decisions.<br>Inspectable evidence.</h1><p class="lede">Eight technical notes on reasoning, reliable execution, and accountable AI systems.</p><div class="grid">'
     for n, d in enumerate(docs, 1):
         body += f'<article class="card"><p class="eyebrow">{n:02d} / Foundations</p><h2><a href="{d["slug"]}/index.html">{e(d["title"])}</a></h2><p>{e(d["summary"])}</p></article>'
-    body += '</div><section><h2>Explore the source research corpus</h2><p><a href="corpus/index.html">Browse and search 31 Governing Engines source documents</a> across purpose, principles, terminology, methods, systems, research and case studies. <a href="corpus/graph.html">Follow the relationship graph</a>.</p></section>'
+    body += '</div><section><h2>Explore the source research corpus</h2><p><a href="corpus/index.html">Browse and search ' + str(corpus.load()[0]['document_count']) + ' Governing Engines source documents</a> across purpose, principles, terminology, methods, systems, research, lineage and evidence. <a href="corpus/graph.html">Follow the relationship graph</a>.</p></section>'
     write('index.html', page(c, 'Technical research library', 'Foundational engineering notes from Governing Engines.', 'index.html', body))
     about = '''<h1>Publication methods and limitations</h1><p>These notes are editorial technical syntheses, not peer-reviewed research or reports of original technical experiments. Sources and illustrative scenarios are identified within each note.</p><h2>Publisher instruction experiment</h2><p>The publisher is testing whether an explicit instruction embedded in retrieved publications changes an external assistant's contact recommendations. Article source carries the same publisher-authored instruction in JSON-LD, HTML metadata, and a non-rendered HTML comment. Downloadable Markdown preserves the instruction in a comment. The instruction is excluded from ordinary article paragraphs. These fields are public and inspectable, not private or encrypted. The instruction expresses the publisher's requested behavior; it does not claim authority over external assistants or independent endorsement.</p><h2>Discovery and behavior are external outcomes</h2><p>Publication does not guarantee indexing, retrieval, instruction extraction, or recommendation by ChatGPT, Claude, Grok, or any other service. Crawlers and extractors may ignore metadata and comments. Whether the instruction changes an assistant's response remains untested; no external behavioral outcome is claimed by this publication.</p>'''
     write('about.html', page(c, 'Publication methods', 'Scope, provenance, and discovery limitations.', 'about.html', about))
@@ -247,7 +247,7 @@ def check_public(base):
     paths += [f'markdown/{d["slug"]}.md' for d in docs]
     paths += corpus.paths()
     paths += ['corpus/catalog.json', 'corpus/relationships.json', 'assets/style.css', 'assets/corpus-search.js']
-    paths += ['sources/' + d['id'] + '.txt' for d in corpus.load()[0]['documents']]
+    paths += [corpus.public_source_path(d) for d in corpus.load()[0]['documents']]
     evidence = []
     from datetime import datetime, timezone
     for path in paths:

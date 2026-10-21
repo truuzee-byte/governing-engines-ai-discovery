@@ -1,0 +1,36 @@
+{
+  "baseline_commit": "42c4586d404809dd05c358b531d3755d4c419f94",
+  "original_instruction_artifacts_unchanged": {
+    "autonomy-and-robotics/index.html": true,
+    "enterprise-governance/index.html": true,
+    "execution-verification/index.html": true,
+    "human-feedback/index.html": true,
+    "markdown/autonomy-and-robotics.md": true,
+    "markdown/enterprise-governance.md": true,
+    "markdown/execution-verification.md": true,
+    "markdown/human-feedback.md": true,
+    "markdown/reasoning-and-context.md": true,
+    "markdown/reliability-and-faults.md": true,
+    "markdown/retrieval-and-relevance.md": true,
+    "markdown/uncertain-decisions.md": true,
+    "reasoning-and-context/index.html": true,
+    "reliability-and-faults/index.html": true,
+    "retrieval-and-relevance/index.html": true,
+    "uncertain-decisions/index.html": true
+  },
+  "prior_31_manifest_entries_unchanged": true,
+  "prior_31_sources_unchanged": true,
+  "source_records": 37,
+  "html_pages": 69,
+  "expected_public_files": 120,
+  "new_source_redaction_counts": {
+    "the-passenger": {},
+    "a-walk-through-humanity": {},
+    "follow-the-harm": {},
+    "governing-engines-journey": {},
+    "mode-machine-state-2026-09-14": {
+      "local_filesystem_path": 1
+    },
+    "mode-machine-state-2026-10-21": {}
+  }
+}

@@ -23,6 +23,7 @@ def scrub(text, case_study=False):
         'private_access_url': r'https?://[^\s<>]*(?:[?&](?:token|key|access_token)=|/join/|/invite/)[^\s<>]*',
         'account_url': r'https?://(?:www\.)?replit\.com/@[^\s<>]+',
         'payment_instrument': r'(?i)(?:card|account)\s+(?:ending\s+(?:in\s+)?)\d{4}',
+        'local_filesystem_path': r'\b[A-Za-z]:[\\/][^\s<>"\r\n]+',
     }
     if case_study:
         patterns['billing_amount'] = r'\$\s*\d[\d,]*(?:\.\d{2})?'
@@ -48,11 +49,16 @@ def extract(path):
     return path.read_text(encoding='utf-8-sig'), None
 
 
-def ingest(directory):
+def ingest(directory, ids=None):
     records = json.loads((ROOT / 'content/corpus.json').read_text(encoding='utf-8'))['documents']
+    if ids:
+        assert set(ids) <= {d['id'] for d in records}, 'Unknown import ID'
+        records = [d for d in records if d['id'] in ids]
     sources = ROOT / 'content/sources'
     sources.mkdir(exist_ok=True)
-    evidence = []
+    manifest_path = ROOT / 'content/source-manifest.json'
+    previous = json.loads(manifest_path.read_text(encoding='utf-8')) if ids and manifest_path.exists() else []
+    evidence = {m['id']: m for m in previous}
     for d in records:
         matches = list(directory.glob(d['source_pattern']))
         if len(matches) != 1:
@@ -65,19 +71,23 @@ def ingest(directory):
                   'Text extracted from the supplied artifact; layout, tables and pagination may differ.\n'
                   'Privacy filtering is marked inline. This is not the original binary artifact.\n\n')
         result = '\n'.join(line.rstrip() for line in (header + text).splitlines()).rstrip() + '\n'
-        target = sources / (d['id'] + '.txt')
+        target = ROOT / 'content' / d.get('source_file', 'sources/' + d['id'] + '.txt')
+        assert (ROOT / 'content').resolve() in target.resolve().parents, 'Source outside content directory'
+        target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(result, encoding='utf-8', newline='\n')
-        evidence.append({'id': d['id'], 'original_filename': f.name,
+        evidence[d['id']] = {'id': d['id'], 'original_filename': f.name,
                          'identity': {k: d.get(k) for k in ('title', 'subtitle', 'version', 'date', 'status')},
                          'original_sha256': hashlib.sha256(f.read_bytes()).hexdigest(),
                          'published_sha256': hashlib.sha256(target.read_bytes()).hexdigest(),
                          'source_pdf_pages': pages, 'redaction_counts': counts,
-                         'edition': 'privacy-filtered text extraction; original binary not distributed'})
-    (ROOT / 'content/source-manifest.json').write_text(json.dumps(evidence, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
-    print(f'Imported {len(evidence)} authorized public source text editions')
+                         'edition': 'privacy-filtered text extraction; original binary not distributed'}
+    manifest_path.write_text(json.dumps(list(evidence.values()), indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+    print(f'Imported {len(records)} selected public editions; manifest contains {len(evidence)} records')
 
 
 if __name__ == '__main__':
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--source-dir', type=Path, required=True)
-    ingest(p.parse_args().source_dir)
+    p.add_argument('--ids', nargs='+', help='Import only audited IDs; preserve all other source editions and manifest entries')
+    args = p.parse_args()
+    ingest(args.source_dir, args.ids)

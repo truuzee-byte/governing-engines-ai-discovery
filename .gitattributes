@@ -1,2 +1,4 @@
 # Public text hashes must be identical on Windows and GitHub's Linux runners.
 content/sources/*.txt text eol=lf
+content/journey/*.txt text eol=lf
+content/machine-state/*.txt text eol=lf

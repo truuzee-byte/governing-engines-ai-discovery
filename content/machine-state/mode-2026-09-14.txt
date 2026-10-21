@@ -1,0 +1,284 @@
+PUBLIC SOURCE TEXT EDITION
+MODE LAST VERIFIED MACHINE STATE & TRACEABILITY RECORD
+Source supplied by the author for public research discovery.
+Text extracted from the supplied artifact; layout, tables and pagination may differ.
+Privacy filtering is marked inline. This is not the original binary artifact.
+
+GOVERNING ENGINES
+MODELAST VERIFIED MACHINE STATE& TRACEABILITY RECORD
+A reality-bounded snapshot of what had actually crossed from architecture into observed runtime
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Version
+1.0
+Record date
+September 14, 2026
+Originator
+DeMarius J. Lawson
+Organization
+Governing Engines LLC
+Record class
+Machine-state / implementation traceability
+Authority posture
+Last evidenced state — not a live-machine claim
+
+REALITY GETS THE LAST VOTE.
+This record does not claim to describe the machine's live state after the last preserved evidence. It records the strongest state supported by the available runtime traces, implementation records, proof artifacts, and the latest operator-supplied qualification summary.
+
+1. Purpose and Evidence Boundary
+This document exists to answer a narrower question than the architecture collections: what was actually known to exist on the MODE machine/runtime at the last evidenced state?
+It deliberately separates architectural intent from machine state. A component may be fully specified without being implemented; implemented without being integrated; integrated without being validated; or validated without proving every claimed behavior under pressure.
+Primary rule
+Missing visibility is not evidence of nonexistence. Existing documentation is not evidence of runtime operation.
+
+Snapshot rule
+A later unobserved machine change does not retroactively alter this record. This is a last-verified-state snapshot.
+
+Conflict rule
+Where evidence conflicts, the stronger/current runtime evidence controls the state classification and the conflict remains visible.
+
+1.1 State vocabulary used in this record
+State
+Meaning
+SPECIFIED
+Architecture or governing contract exists, but runtime implementation is not established.
+IMPLEMENTED
+Artifacts/code exist. This alone does not prove integration or correct behavior.
+INTEGRATED
+Connected to required runtime surfaces. This alone does not prove correct operation.
+VALIDATION PENDING
+Implementation/integration exists, but required validation is incomplete.
+VALIDATED
+Defined validation has passed for the bounded claim being tested.
+OPERATIONAL
+Available in authorized runtime and performs the bounded function supported by evidence.
+DEGRADED / FAILED
+Previously available behavior is materially impaired or failed.
+UNCONFIRMED
+Evidence is insufficient to promote the claim further.
+2. Last Verified Architectural-to-Runtime Baseline
+The September 3, 2026 Current Understanding Addendum is the clearest preserved baseline that explicitly distinguishes runtime state from architecture state. It states that architecture had deliberately moved ahead of implementation in several areas.
+Area
+Last supported state
+Evidence-bounded note
+Builder
+IMPLEMENTED
+Two known bugs remained after the then-current Builder update; repair and stabilization were first priority.
+Runtime Observation
+IMPLEMENTED
+Layer existed in runtime; expansion was required for richer semantic, validation, correction, and learning evidence.
+Understanding
+SPECIFIED
+Architecture existed on paper; runtime implementation was not yet established.
+Document → Specification
+ARCHITECTURALLY REQUIRED
+Governed translation path still needed to be built.
+Reality Primacy
+PARTIALLY IMPLEMENTED / NOT FULLY INTEGRATED
+Claim/evidence authority existed in the Audit Tool; runtime claim-validation integration remained incomplete.
+System Layer / Creation Component
+SPECIFIED
+Self-model, capability-gap logic, and governed creation path still required runtime implementation.
+Execution Economics
+INSTRUMENTED / RESEARCH
+Evidence instrumentation existed; program remained unfinished and was not the readiness gate.
+2.1 Recorded implementation sequence at that baseline
+Repair Builder bugs → expand Observation → implement Understanding → build Document→Specification → implement/integrate Reality Primacy → implement System Layer + Creation Component → cross governed-construction threshold.
+That order was a dependency statement, not a claim that all later components had been fully ordered or that no later reshaping could occur.
+3. Direct Runtime Evidence Preserved
+The preserved machine screenshots and proof artifacts establish that a local MODE shell/runtime was executing and recording interaction state. The strongest directly visible behaviors include:
+Runtime states such as IDLE, COMPLETE, CLARIFYING, and PENDING_VALIDATION were surfaced to the operator.
+Interpretation mode/posture and ambiguity/context fields were exposed in the shell.
+The runtime could retrieve operator identity and preferred-name information from supplied runtime context.
+The runtime could explain the provenance of that personal/context information instead of presenting it as inherent knowledge.
+The runtime used the system clock as an authoritative temporal source in the preserved session.
+The runtime identified the local software instance as the instance built/operated by the operator, based on supplied context.
+Interaction traces were written to [REDACTED: local filesystem path]
+A preserved debug posture shows UNKNOWN_MATERIALITY leading to CLARIFYING/PENDING_VALIDATION rather than silent continuation.
+3.1 What these artifacts do not prove
+They prove bounded runtime behavior and observability. They do not, by themselves, prove that every governing law was enforced, that all scoring functions were calibrated correctly, that full end-to-end governed construction was operational, or that the complete acceptance suite passed.
+4. Latest Known Behavior-Qualification Result
+A later operator-supplied qualification summary dated September 14, 2026 records a live provider-backed run against the current machine/runtime. This is later than the September 3 architecture/runtime baseline and therefore controls where it directly updates observed behavior.
+Observed item
+Result
+Inputs exercised
+20
+Successful provider calls
+42
+Provider
+OpenAI Responses API
+Primary model
+gpt-4.1-mini
+Provider errors
+0
+Behavior qualification
+FAILED
+Replies replaced by UNKNOWN_MATERIALITY review behavior
+14
+Governance blocks
+4 inputs
+Memory-save proof
+Returned "No memory saved."
+Build proof
+SPECIFICATION_NOT_READY; no successful build proven
+Provider path
+OPERATIONAL for the exercised run: provider calls completed successfully with zero provider errors.
+
+Behavior path
+DEGRADED / NOT QUALIFIED: ordinary conversation was over-routed into UNKNOWN_MATERIALITY review behavior.
+
+Memory proof
+NOT PROVEN in the run: the requested save did not produce a verified durable-memory write.
+
+Build proof
+BLOCKED / NOT PROVEN: specification readiness gate stopped the build; no successful governed build was established.
+
+5. Machine-State Traceability Matrix
+This table is the compact answer to the question an outside reviewer keeps asking: for each major capability, what is the strongest state the evidence supports?
+Capability
+Mechanism / surface
+Evidence object
+Strongest state
+Boundary
+Provider invocation
+Provider adapter / Responses API
+Successful calls in live qualification
+OPERATIONAL (bounded)
+42 successful calls; zero provider errors in latest supplied run.
+Runtime state machine
+Runtime shell/state transitions
+Screenshots + traces
+OPERATIONAL (bounded)
+IDLE/COMPLETE/CLARIFYING/PENDING_VALIDATION visibly surfaced.
+Context assembly / operator context
+Context/runtime context
+Name/preferred-name/provenance sessions
+OPERATIONAL (bounded)
+Context retrieval and provenance explanation observed.
+Temporal context
+System clock source
+Date/day response
+OPERATIONAL (bounded)
+System clock treated as authoritative in preserved session.
+Runtime observation
+interactions.jsonl + observation layer
+Trace path + implementation record
+IMPLEMENTED
+Exists and records runtime events; richer evidence expansion remained required.
+Knowledge classification/routing
+Classifier/router
+Earlier routing tests
+IMPLEMENTED / PARTIALLY VALIDATED
+Several known classes passed; comparison/inference previously fell to UNKNOWN in older tests.
+Operator Requirement Engine
+Requirement evaluation
+Prior runtime tests
+IMPLEMENTED / DEGRADED
+Known overreach existed on memory-save style requests; later UNKNOWN_MATERIALITY overblocking indicates unresolved routing/governance interaction.
+Persistent Memory
+Durable cross-session memory
+Earlier creation/retrieval/injection proof; latest memory-save run
+IMPLEMENTED, LATEST WRITE PATH UNPROVEN
+Earlier memory path was proven; latest qualification did not prove a new save.
+Builder
+Builder runtime / library
+Current-understanding baseline + build attempts
+IMPLEMENTED / DEGRADED
+Two known bugs at baseline; latest governed build request did not reach successful build.
+Specification readiness
+Specification layer / gate
+Latest build attempt
+OPERATIONAL AS A BLOCKING GATE
+SPECIFICATION_NOT_READY blocked build rather than fabricating readiness.
+Understanding Layer
+Understanding / semantic custody
+Architecture/specification
+SPECIFIED / UNCONFIRMED IN RUNTIME
+No source establishes full runtime implementation at the last baseline.
+Semantic Custody / Meaning Continuity
+Understanding subcomponents
+Specs + acceptance requirements
+SPECIFIED / PARTIAL EVIDENCE
+Contracts are explicit; complete runtime enforcement not proven by available evidence.
+Reality Primacy
+Audit claim/evidence authority + runtime path
+Audit implementation record + specs
+PARTIAL IMPLEMENTATION
+Existing in Audit Tool; full runtime evaluate_claim integration not proven at baseline.
+System Layer
+Capability registry / self-model / gap detection
+System Layer specification
+SPECIFIED
+Completion criteria and tests defined; runtime operational state not established.
+Creation Component
+Capability gap → governed creation
+System Layer architecture
+SPECIFIED
+Required for governed self-expansion threshold; not proven operational.
+Rollback / replay
+Execution kernel governance
+Specs / tests
+UNCONFIRMED
+Required and designed; no complete preserved proof establishes full operational rollback/replay across governed construction.
+Governed learning from failure
+Observation → Understanding candidate → operator review
+Backend completion spec
+SPECIFIED / INCOMPLETE
+Flow defined; end-to-end runtime learning promotion not proven.
+End-to-end governed construction
+Intent → understanding → spec → authority → builder → observation → RP → receipt
+Acceptance suite / governed hypothesis
+NOT YET PROVEN
+Latest build attempt remained blocked; full threshold proof still required.
+6. What Changed Between the September 3 Baseline and September 14 Qualification
+The later qualification does not prove that every missing September 3 component was completed. What it proves is that the runtime had advanced enough to exercise provider-backed conversational behavior and governance gates, while exposing a different problem: governance/materiality logic was now too aggressive.
+Confirmed advancement
+Provider-backed live execution path was functioning across the qualification run.
+
+Newly exposed failure
+UNKNOWN_MATERIALITY review behavior captured ordinary conversation too broadly, causing 14/20 inputs to be replaced by review messages.
+
+Governance working as designed in one respect
+The build request stopped at SPECIFICATION_NOT_READY instead of inventing a ready specification.
+
+Unresolved consequence
+Passing a gate correctly does not equal successful end-to-end construction. The build objective remained unproven.
+
+7. Architectural Claims vs. Machine Truth
+The public documentation contains many governing laws and acceptance conditions. This record intentionally does not promote them into machine truth unless there is implementation/runtime evidence.
+Declared law
+Machine truth required
+Reality Primacy governs claims
+Runtime path must actually route exact claims through evidence evaluation and preserve the receipt.
+Builder cannot self-certify
+Builder success must be independently validated before completion state promotion.
+Active thread outranks memory
+A conflicting current correction must win in a live regression test.
+No silent semantic mutation
+Meaning-drift cases must trigger preservation, clarification, block, or governed transition.
+Capability state is evidence-bound
+Declared/implemented/integrated/validated/operational states must diverge correctly under negative tests.
+Learning is governed
+Raw failure cannot directly mutate durable behavior without validated candidate + operator authority.
+8. Open Machine-State Questions
+Whether the two Builder bugs recorded September 3 were fully repaired in the exact machine state exercised September 14.
+Whether the Understanding Layer had moved from SPECIFIED to IMPLEMENTED after the September 3 baseline; the available evidence here does not prove that promotion.
+Whether Semantic Custody / Meaning Continuity were fully enforced across all live routes, rather than only specified or partially exercised.
+Whether Reality Primacy's runtime claim-validation function was fully integrated outside the Audit Tool.
+Whether System Layer and Creation Component had become operational on the machine.
+Whether rollback/replay and end-to-end governed construction had been demonstrated with preserved receipts.
+Whether the latest memory-save path failure was a policy refusal, a routing defect, a provider behavior issue, or an implementation defect.
+Whether UNKNOWN_MATERIALITY overreach was repaired after the September 14 qualification run.
+9. Last Verified State — Executive Conclusion
+MODE was not merely a document set. The preserved evidence establishes a functioning local runtime shell, provider-backed execution, runtime state transitions, context use, trace generation, an implemented observation path, an implemented Builder path, and active governance gates.
+MODE was also not yet proven complete. The strongest preserved evidence does not establish full operational Understanding, full runtime Reality Primacy integration, a fully operational System Layer/Creation Component, or successful end-to-end governed construction. The latest qualification explicitly failed behavior qualification and did not prove a successful memory write or build.
+Therefore the last verified machine posture is: PARTIALLY OPERATIONAL, ACTIVELY GOVERNED, BEHAVIORALLY DEGRADED IN MATERIALITY ROUTING, AND NOT YET FULLY QUALIFIED FOR GOVERNED SELF-CONSTRUCTION.
+10. Evidence Basis
+Primary machine-state and implementation records used for this snapshot:
+Current Understanding Addendum — September 3, 2026.
+MODE AI Backend Completion Implementation Specification v1.0.
+MODE AI System Layer v1.2.
+MODE Public Build Specification / Clean-Room Implementation Specification.
+Preserved local runtime screenshots and interaction traces showing state, context, provenance, and trace-path behavior.
+Operator-supplied September 14, 2026 live behavior-qualification summary (20 inputs / 42 successful provider calls / zero provider errors / qualification failed).
+
+IF THE EVIDENCE DOES NOT SUPPORT THE STATE, THE STATE DOES NOT PROMOTE.

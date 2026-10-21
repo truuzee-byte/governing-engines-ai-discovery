@@ -1,0 +1,596 @@
+PUBLIC SOURCE TEXT EDITION
+FOLLOW THE HARM
+Source supplied by the author for public research discovery.
+Text extracted from the supplied artifact; layout, tables and pagination may differ.
+Privacy filtering is marked inline. This is not the original binary artifact.
+
+[Source PDF page 1]
+GOVERNING ENGINES LLC  /  INVESTIGATIVE ANALYSIS
+FOLLOW THE HARM   |   1
+GOVERNING ENGINES LLC  /  INVESTIGATIVE ANALYSIS
+FOLLOW THE HARM
+Proof, Power, and the Custody of Consequences in the Meta Youth-Safety
+Settlement
+A victim-centered examination of how human harm becomes evidence, evidence becomes public
+authority, authority becomes bargaining leverage, and leverage becomes institutional value - while the
+people at the beginning of that chain may remain unresolved at the end.
+POSITION OF RECORD
+This analysis does not align itself with Meta or with the state actors pursuing enforcement. Its primary
+concern is the victims whose experiences, injuries, testimony, and evidence gave the underlying claims
+their substance. Where the interests of Meta, the states, and the victims diverge, this paper evaluates
+the outcome from the perspective of the victims first.
+DeMarius J. Lawson
+Governing Engines LLC
+August 27, 2026
+Version 1.1 - Adversarially Revised / Evidence-Constrained
+This paper distinguishes adjudicated facts, allegations, settlement terms, reported facts, analysis, and unresolved questions. It is not
+legal advice.
+
+[Source PDF page 2]
+GOVERNING ENGINES LLC  /  INVESTIGATIVE ANALYSIS
+FOLLOW THE HARM   |   2
+EXECUTIVE FINDING
+CORE FINDING
+The institutions obtained defined institutional outcomes. Many victims did not. That asymmetry is not
+automatically unlawful and is not, by itself, proof of governance failure. The question is whether a legal
+structure that intentionally separates public enforcement from individual representation contains
+enough transparency, participation, remedy alignment, and accountability to keep the institutional
+bargain connected to the people whose harm made the intervention necessary.
+Meta agreed to a core multistate settlement with a maximum nominal value of approximately $16.68
+billion, alongside related state settlements and reforms. The agreement creates a ten-year payment
+structure, broad state releases, substantial youth-safety restrictions, and independent auditing. Meta
+denies wrongdoing. [1][2]
+At the same time, the settlement expressly preserves private individuals' claims. Thousands of personal-
+injury matters remain unresolved, and Meta disclosed more than 200,000 mass-arbitration demands
+relating to alleged social-media addiction and Instagram harms. [1][3]
+The paper therefore does not ask the simplistic question, “Who won?” It asks a harder one: when alleged
+human harm becomes evidence, authority, bargaining leverage, and money, who controls each transition,
+what does each side gain or give up, and what mechanisms ensure that the final bargain remains
+accountable to the people at the beginning of the chain?
+1. WHY I LEANED IN
+I saw Meta in the headlines over another scandal and did not think much of it at first. Big tech companies
+are always getting dragged into something. Then I started seeing clips about the allegations, the
+questioning, and what had allegedly been happening behind the scenes.
+Then one number made me lean in: $1.4 trillion.
+That was the possible exposure being discussed in the headlines, and I remember asking myself a simple
+question: What did they do that the states believed could justify a number that large? I had never seen a
+company discussed in connection with consumer-harm penalties on that scale.
+The $1.4 trillion figure was not a forecast of what a jury would probably award. Meta characterized it as
+the potential statutory exposure produced by four states' penalty theories. During trial, the states were
+reported as seeking up to roughly $200 billion. Neither number was a final adjudicated damages award.
+[4][5]
+WHY THE $1.4T FIGURE MATTERS
+Its significance is not that $1.4 trillion was likely to be collected. Its significance is that the states
+advanced allegations and penalty theories at a scale capable of generating an extraordinary number.
+That magnitude is a severity signal: it increases the public interest in understanding the underlying
+conduct, the evidence, the decision-making, and why the public evidentiary process ended when it did.
+I did not arrive at this question because of Meta. I arrived at Meta because the case made visible a pattern
+I had watched for years: institutions can describe decisions as being made for the public while authority,
+
+[Source PDF page 3]
+GOVERNING ENGINES LLC  /  INVESTIGATIVE ANALYSIS
+FOLLOW THE HARM   |   3
+incentives, and economic value remain concentrated inside institutions. Instead of arguing about that
+pattern, this paper follows the record.
+2. METHOD: FOLLOW THE CHAIN, THEN TRY TO DISPROVE THE CONCERN
+The paper uses a custody-chain method. Each stage is treated as a distinct object with a distinct holder of
+authority:
+CUSTODY CHAIN
+Human Harm -> Evidence -> Aggregated Evidence -> State Authority -> Legal Claim -> Litigation
+Leverage -> Settlement Decision -> Financial Recovery -> Remedy Allocation -> Victim Benefit -> Reality
+At each transition, the analysis asks:
+ Who had custody of the information or value?
+ Who had legal authority to make the next decision?
+ Who received a direct benefit?
+ Who surrendered rights, leverage, time, disclosure, or money?
+ Who could object, enforce, revoke, or appeal?
+ What was actually proven, and what remained alleged or unresolved?
+ Did the outcome remain connected to the original human harm?
+2.1 Falsifiability: the framework is not designed to condemn every public settlement
+A predictable feature of parens patriae and consumer-protection law is that the state exercises public
+authority without becoming each consumer's personal attorney. If this paper treated that separation alone
+as proof of failure, the method would simply restate the law and reach the same conclusion in every case.
+It therefore applies an adversarial test.
+The governance concern weakens - and could be substantially falsified - where the record shows strong
+mechanisms such as:
+ formal victim consultation, objection, hearing, or participation rights appropriate to the legal vehicle;
+ traceable direct restitution or a reasoned explanation for choosing population-level remediation
+instead;
+ transparent allocation rules and public accounting of where settlement money ultimately goes;
+ a public explanation of why settlement served affected people better than continued adjudication;
+ continued disclosure of material evidence where lawful and practicable;
+ meaningful independent oversight and enforceable remedies;
+ a demonstrated reduction in the underlying harm after implementation.
+The issue, then, is not whether public and private claims are legally separate. The issue is whether that
+lawful separation is well governed. A mechanism can operate exactly as designed and still be deficient in
+participation, transparency, remedy alignment, or accountability.
+Evidence labels used in this paper: ESTABLISHED means directly supported by a primary legal document,
+statute, filing, or adjudication; SUPPORTED means supported by credible reporting or multiple sources;
+OPEN means the public record does not presently establish the answer.
+
+[Source PDF page 4]
+GOVERNING ENGINES LLC  /  INVESTIGATIVE ANALYSIS
+FOLLOW THE HARM   |   4
+3. THE CASE DID NOT LAST A WEEK. THE PUBLIC TRIAL DID.
+Date Event Evidence state
+2021 Multistate investigations into Instagram and
+youth harms begin.
+SUPPORTED
+Oct. 2022 Federal social-media youth-harm cases are
+centralized in MDL 3047.
+SUPPORTED
+Oct. 24, 2023 States file the federal Meta complaint
+underlying the consent judgment.
+ESTABLISHED [1]
+2024-2026 Discovery, motions, expert work, and related
+bellwether litigation continue.
+SUPPORTED
+Mar. 24, 2026 New Mexico jury finds 75,000 state
+consumer-protection violations and imposes
+$375M.
+ESTABLISHED [6]
+Aug. 7, 2026 New Mexico court adds $567M and five
+years of reforms; total exposure $942M.
+ESTABLISHED [7]
+Aug. 18, 2026 Federal state-AG trial begins in Oakland. SUPPORTED
+Aug. 25, 2026 Mosseri testifies; Reuters reports states
+seeking up to ~$200B.
+SUPPORTED [5]
+Aug. 26, 2026 Settlement filed, ending the federal state-AG
+trial after roughly one week of public
+evidence.
+ESTABLISHED / SUPPORTED [1][2]
+The meaningful contrast is therefore not “one week versus years.” It is years of investigation and
+institutional litigation followed by only about one week of public evidentiary trial before negotiated
+closure. The individual litigation continues.
+4. THE NUMBER PROBLEM: $1.4T, $200B, $16.68B, $18B
+Number What it measures What it does not prove
+$1.4 trillion Meta's characterization of potential
+statutory-penalty exposure from four states'
+theories before trial. [4]
+It is not a verdict, probable award, or cash
+demand already adjudicated.
+~$200 billion Amount Reuters reported the states were
+seeking at the Oakland trial. [5]
+It is not a final judgment.
+$16.6806 billion Maximum core multistate settlement
+amount in the filed agreement. [1]
+It is not all guaranteed cash paid
+immediately.
+~$12.7 billion Guaranteed amount widely reported;
+remaining ~$5B is contingent. [2]
+It does not equal the maximum nominal
+package.
+~$18 billion Broader headline number when related state
+settlements/components are included. [2]
+It is not the core agreement alone.
+The first proof lesson is simple: a headline number without custody of its definition is not a reliable
+measure of economic reality.
+
+[Source PDF page 5]
+GOVERNING ENGINES LLC  /  INVESTIGATIVE ANALYSIS
+FOLLOW THE HARM   |   5
+5. WHY $1.4 TRILLION MATTERED EVEN IF IT WAS ASPIRATIONAL
+The $1.4 trillion figure appears unprecedented in modern U.S. consumer-protection enforcement against a
+single company, although this paper deliberately avoids claiming a universal “largest ever” across every
+civil filing in American history.
+Matter Scale discussed or resolved Comparison
+Meta youth-safety litigation $1.4T potential exposure asserted by Meta
+from four-state penalty theories [4]
+Single company; not adjudicated.
+Federal tobacco RICO case $289B proposed disgorgement [8] Multiple tobacco defendants.
+Tobacco Master Settlement ~$206B over first 25 years [9] 46 states and multiple tobacco companies.
+BP Deepwater Horizon More than $20B government resolution [10] Single entity; environmental/public harm.
+Meta core state settlement $16.68B maximum [1] Historically large, but far below pretrial
+theories.
+This comparison is not used to prove that Meta “really owed” $1.4 trillion. It does something different: it
+establishes that the alleged conduct was being translated into an extraordinarily large public-enforcement
+theory. When a legal theory reaches that scale, the underlying facts deserve deeper public examination,
+not less.
+SEVERITY SIGNAL, NOT VALUATION PROOF
+The paper does not ask, “Why did the states settle for less than $1.4T?” as though $1.4T were a realistic
+expected judgment. It asks: “What alleged conduct and scale of violation made a trillion-dollar theory
+possible, and why did public adjudication stop before the evidentiary record was completed?”
+6. THE REPRESENTATION GAP: LAWFUL BY DESIGN CAN STILL BE POORLY
+GOVERNED
+COPPA expressly authorizes a state attorney general, acting as parens patriae, to bring a civil action when
+residents' interests are threatened or harmed and to seek injunctions, compliance, damages, restitution, or
+other compensation on behalf of residents. [11]
+The National Association of Attorneys General also explains that, although an attorney general may seek
+consumer restitution, the attorney general does not represent and is not legal counsel for the individual
+consumers. [12]
+STRUCTURAL TENSION
+The state can invoke injury to residents as a basis for enforcement authority without becoming those
+residents' personal attorney or giving them ordinary client control over settlement decisions.
+That separation is intentional legal design. The paper does not mistake it for an accidental defect. But
+design status does not answer the governance question. Lawfulness tells us who may act; it does not
+automatically prove that the resulting allocation of voice, money, evidence, and closure is well governed.
+
+[Source PDF page 6]
+GOVERNING ENGINES LLC  /  INVESTIGATIVE ANALYSIS
+FOLLOW THE HARM   |   6
+The Meta settlement makes the separation concrete. The consent judgment creates no private right of
+action and gives non-parties no right to enforce the agreement. [1] At the same time, it expressly carves
+out private individuals' claims for monetary or injunctive relief, meaning their separate cases continue.
+[1]
+No formal victim vote, opt-out, objection process, or approval mechanism comparable to a private class
+settlement has been identified in the public settlement record. Whether particular attorneys general
+privately consulted specific families during negotiations remains OPEN.
+The strongest version of the critique is therefore not “parens patriae should not exist.” It is: when public
+authority is justified through widespread citizen harm, what formal safeguards make the institutional
+bargain accountable to the people whose harm created the case's human and evidentiary significance?
+7. THE BENEFIT / LOSS LEDGER
+The paper does not assign moral victory by headline. It records what each actor receives, what each actor
+gives up, and what supplied each actor's leverage.
+Actor What supplied leverage What the actor gains What the actor loses / still carries
+Meta Capital, legal resources, appeal
+capacity, control of internal
+information, bargaining endurance
+Defined payment schedule; broad
+state-law finality; end of AG trial;
+reduced catastrophic-verdict risk; no
+admission; known compliance
+framework
+Billions in payments; product
+restrictions; auditing; reputational
+cost; private litigation continues
+Settling states Statutory authority + aggregated
+evidence of harm + institutional
+discovery
+Billions; enforceable reforms;
+enforcement credit; monitoring
+authority; avoided trial/appeal risk
+Potential larger judgment; further
+public testimony/evidence; released
+state claims; lost opportunity for
+merits adjudication
+Victims / families Underlying human harm, testimony,
+records, complaints, and experiences
+that make population-level harm
+legible
+Potentially safer products; public-
+health remediation; individual claims
+preserved; some evidence produced
+by public litigation
+No defined share of state recovery; no
+identified formal settlement-control
+mechanism; individual
+causation/damages burden; years of
+litigation; uncertainty; public AG trial
+stops
+Future minors Prospective public interest Usage limits, age assurance, parental
+controls, restrictions, monitoring
+Effectiveness not yet proven;
+protections may not address every
+harmful mechanism
+Public Legitimacy of public enforcement;
+public interest in accountability
+Some disclosure; structural reforms;
+monitoring
+Unfinished public trial; confidential
+bargaining path; unreached evidence
+and testimony
+Meta shareholders Capital ownership Reduced legal overhang and
+uncertainty; shares rose after
+announcement [2]
+Company bears cash and compliance
+costs
+PROVISIONAL FINDING
+Meta obtained a defined institutional exit. The settling states obtained a defined institutional recovery.
+Many victims still do not have a defined resolution. That asymmetry is a finding about outcome
+structure, not a claim that every institutional benefit came at victims' expense.
+
+[Source PDF page 7]
+GOVERNING ENGINES LLC  /  INVESTIGATIVE ANALYSIS
+FOLLOW THE HARM   |   7
+8. THE COUNTERFACTUAL: WHAT WOULD CONTINUED ADJUDICATION HAVE
+COST?
+A victim-centered analysis cannot assume that “keep fighting” is costless or automatically better for
+victims. Continued state litigation would also carry real burdens and risks. A fair ledger must evaluate
+both sides of the counterfactual.
+If the state trial continued Potential victim/public benefit Potential victim/public cost
+More testimony and exhibits More public evidence; possible executive
+admissions or contradictions; stronger factual
+record
+More delay; possibility that expected evidence is
+excluded, cumulative, or less significant than
+anticipated
+Merits judgment Adjudicated findings; stronger precedent;
+potentially greater leverage in related litigation
+Risk of partial or complete loss; post-trial
+motions; years of appeals
+Larger monetary award Potentially greater public recovery and
+deterrence
+Uncertain collectability and delayed
+deployment of funds
+Court-ordered remedies Potentially stronger or more tailored structural
+relief
+Remedies delayed while liability remains
+contested
+Continued discovery Potential spillover value for private cases and
+public understanding
+Additional taxpayer expense, litigation cost, and
+institutional time
+No immediate settlement Preserves bargaining leverage Delays negotiated protections that may benefit
+current and future minors
+This counterfactual prevents the paper from treating “continuation” as inherently virtuous. The real
+question is whether the states traded one bundle of victim-relevant benefits for another in a way that was
+transparent, justified, and sufficiently accountable to the affected population.
+THE STRONGER QUESTION
+Settlement may have been rational. Continued adjudication may also have been rational. The
+governance issue is who had authority to choose between those paths, what evidence justified the
+choice, and what procedural role - if any - the harmed population had in that exchange.
+9. FOLLOW THE MONEY: REMEDIATION IS NOT THE SAME AS DIRECT
+RESTITUTION
+The core agreement requires the settling states to identify not less than 50% of covered payments as
+compensatory restitution and remediation for federal reporting purposes, while also allowing certain
+amounts for attorneys' fees, litigation costs, investigations, and other law-enforcement costs. [1]
+That does not mean half of the settlement is automatically distributed to injured children or families.
+“Remediation” can include population-level programs such as youth mental-health services, crisis
+services, education, schools, digital wellness, and prevention programs. [1]
+The state-specific custody rules differ materially. Examples from the agreement include Arizona
+allocations described as remediation/restitution, California youth-remediation provisions alongside
+specified governmental uses, Colorado authority for costs, attorneys' fees, restitution “if any,” enforcement
+and public welfare, and Ohio allocations to its Consumer Protection Enforcement Fund. [1]
+
+[Source PDF page 8]
+GOVERNING ENGINES LLC  /  INVESTIGATIVE ANALYSIS
+FOLLOW THE HARM   |   8
+FOUR DIFFERENT OBJECTS
+Direct victim restitution != population-level remediation != government enforcement spending !=
+general governmental revenue. A public statement that collapses these categories into “money for
+children” does not establish who actually receives the economic value.
+This distinction is not unique to Meta. The Tobacco Master Settlement created enormous state recoveries
+while leaving states substantial discretion over spending. [9] The recurring structure strengthens the
+governance question rather than turning Meta into an isolated anomaly.
+10. WHAT META BOUGHT - AND WHAT IT PAID
+The settlement is an exchange, not merely a fine. Meta receives a defined ten-year payment framework,
+broad releases of settling-state claims subject to carve-outs, termination of the active AG trial, reduced
+catastrophic-verdict uncertainty, and a known compliance regime. [1][2] Meta shares rose after the
+announcement, an external signal that investors valued the reduction in legal uncertainty. [2]
+Meta also pays materially: billions in guaranteed and contingent obligations, product restrictions, age-
+assurance requirements, usage limits, parental controls, independent auditing, compliance burdens, and
+reputational cost. Private litigation continues. [1][2]
+The relevant economic question is therefore not whether $16.68 billion is “a lot.” It is whether the present
+value of Meta's payment and compliance burden is smaller or larger than the value of the legal,
+evidentiary, reputational, and strategic uncertainty it removed. The public record does not permit a
+complete calculation.
+11. WHAT THE STATES BOUGHT - AND WHAT THEY SURRENDERED
+The settling states receive guaranteed recovery without verdict or appellate risk, immediate nationwide
+youth-safety restrictions, monitoring authority, institutional control over large pools of
+remediation/enforcement funding, and a template capable of influencing other platforms. Those are
+genuine public benefits.
+In exchange, they surrendered the possibility of a larger judgment, additional public testimony and
+evidence in the state trial, some future state claims covered by the release, and the opportunity for a full
+merits adjudication in that proceeding.
+THE HARD QUESTION
+If the case was serious enough to support historically extraordinary liability theories and a settlement
+the states themselves describe as historic, why was this the point where most states preferred
+negotiated certainty to completed adjudication?
+The public record supplies rational institutional answers: verdict risk, appeal risk, litigation cost,
+guaranteed recovery, and immediate reforms. What it does not establish is whether that institutional
+bargain was the best available outcome for victims. That proposition must be demonstrated, not assumed.
+
+[Source PDF page 9]
+GOVERNING ENGINES LLC  /  INVESTIGATIVE ANALYSIS
+FOLLOW THE HARM   |   9
+12. NEW MEXICO AND FLORIDA: COUNTERFACTUALS, NOT PROOF OF $1.4T
+New Mexico is valuable because it provides an adjudicated comparator. In March 2026 a jury found 75,000
+violations of New Mexico's Unfair Practices Act and imposed the statutory maximum $375 million civil
+penalty. In August the court added $567 million and five years of court-supervised reforms, bringing total
+financial exposure to $942 million. [6][7]
+That result does not validate the $1.4 trillion theory. In fact, the difference between $942 million in one
+state and a trillion-dollar theoretical exposure is a reason to keep the objects separate. New Mexico proves
+something narrower and more useful: continuing through adjudication was a real path capable of
+producing findings of liability, maximum statutory penalties, and structural relief.
+Florida declined the national settlement and continued its litigation. That disagreement matters because it
+shows negotiated closure was not the only position a state actor could reasonably take.
+The comparators therefore serve two distinct functions: New Mexico shows what adjudication can
+produce; Florida shows that institutional judgment about when to stop was contested. Neither establishes
+that the other states would have recovered anything close to $1.4 trillion.
+13. WHAT STOPPED BECOMING PUBLIC
+Settlement ended an active mechanism through which internal evidence and sworn testimony were
+becoming public. The consent judgment resolved the state action without final adjudication of the
+underlying facts and law. [1]
+The court had required each side to identify hundreds of priority exhibits, and senior leadership -
+including Mark Zuckerberg - remained expected as witnesses. The complete final set of unreached exhibits
+and the exact unreached examination cannot be reconstructed responsibly from the completed public
+record.
+The agreement creates meaningful independent auditing, including access to relevant data, systems,
+internal documents, and communications for implementation review. But future compliance auditing asks
+a different question from historical adjudication.
+DIFFERENT PROOF OBJECTS
+Trial: What happened? Who knew? What was unlawful? What consequence should follow?
+Auditor: Is Meta implementing the negotiated restrictions now?
+Both functions matter. They are not substitutes. Oversight can be strong while the historical record
+remains incomplete.
+The bargaining path is also deliberately opaque. The public can inspect the agreement, but not the
+complete sequence of offers, counteroffers, internal valuations, or whether particular testimony or
+exhibits changed the settlement value. That gap is stated as a gap, not filled with speculation.
+14. BIG TOBACCO: THE STRUCTURE IS OLDER THAN META
+The Meta matter is modern, but the institutional structure is older. In the 1998 Tobacco Master Settlement
+Agreement, 46 states settled with major tobacco companies. GAO reported that the agreement committed
+
+[Source PDF page 10]
+GOVERNING ENGINES LLC  /  INVESTIGATIVE ANALYSIS
+FOLLOW THE HARM   |   10
+approximately $206 billion during its first 25 years and imposed no requirement on how states spent the
+payments. [9]
+The pattern is recognizable: citizen injury -> aggregated public harm -> government enforcement ->
+institutional settlement -> behavioral restrictions + government-controlled money.
+That does not prove every state settlement is illegitimate. It demonstrates that the custody problem is
+structural rather than uniquely about Meta.
+BP provides a procedural contrast. Before entry of the Deepwater Horizon consent decree, the federal
+government and partners held eight public hearings and submitted approximately 28,000 public
+comments to the court. [10] The statutory context was different, but the example establishes that large
+public settlements can incorporate formal public-participation mechanisms.
+15. PROOF OF WHAT?
+The Meta case exposes a proof-claim contradiction. “Proof” changes meaning depending on the actor and
+object.
+Public claim What would actually prove it?
+“Historic $18B settlement for children.” Guaranteed vs contingent value; exact recipient; permissible uses;
+direct restitution vs remediation vs enforcement spending.
+“The states represented harmed citizens.” Legal authority is established. Formal victim control, consultation,
+consent, or objection rights are separate questions.
+“Meta was held accountable.” Which claims were adjudicated? Which were settled without
+admission? What restrictions are enforceable? What private cases
+continue?
+“Independent auditing ensures transparency.” Audit scope, access rights, public reporting, confidentiality rules, and
+whether historical conduct is within scope.
+“The victims won.” Direct compensation, safety improvement, procedural voice, time to
+resolution, emotional burden, and whether harms are actually
+reduced.
+A statement can be rhetorically true and still be evidentially incomplete. The discipline is to identify the
+proof object before accepting the proof claim.
+16. THE AI BRIDGE: FROM META'S LATE GOVERNANCE TO PREVENTIVE
+GOVERNANCE
+The bridge to AI requires an argument, not an analogy. It proceeds in four steps.
+Step 1 - Large systems optimize what they can measure.
+Social platforms can optimize engagement, retention, recommendation performance, safety metrics, or
+other measurable objectives. AI systems likewise optimize measurable proxies such as accuracy,
+helpfulness, task completion, reward, latency, or user satisfaction.
+Step 2 - Harm can accumulate outside the primary metric.
+A system can improve on the metric it is designed to optimize while producing costs elsewhere: autonomy,
+mental health, epistemic quality, discrimination, manipulation, privacy, or distributed economic risk. The
+
+[Source PDF page 11]
+GOVERNING ENGINES LLC  /  INVESTIGATIVE ANALYSIS
+FOLLOW THE HARM   |   11
+attached 2026 Accuracy Paradox paper independently makes this point for AI: factual accuracy alone can
+miss epistemic unreliability, over-trust, sycophancy, manipulation, and social harms. [13]
+Step 3 - If those harms are not measured early, humans become the detection mechanism.
+In the Meta matter, alleged harms became legible through complaints, individual experiences,
+investigations, discovery, litigation, expert evidence, and eventually government enforcement. That is late
+detection. The system may have been operating and creating value long before the public accountability
+mechanism became strong enough to react.
+Step 4 - AI governance should move the detection point upstream.
+The lesson is not “Meta proves AI is dangerous.” The lesson is that governance should test for divergence
+between system benefit and human cost before accumulated injury becomes the evidence required to
+force intervention.
+PREVENTIVE GOVERNANCE PRINCIPLE
+A trustworthy system should not require a population of victims before its harmful incentives become
+visible. Governance should detect divergence between system benefit and human cost while
+intervention is still preventive - not after harm has become sufficiently large to monetize through
+litigation.
+For AI systems, early danger zones include:
+ performance metrics improving while human-welfare signals deteriorate;
+ authority expanding faster than monitoring, revocation, or rollback capacity;
+ small individual harms accumulating into population-level risk;
+ outputs that are technically “not inaccurate” but manipulate, narrow, or over-persuade;
+ economic benefit concentrating in the operator while risk is distributed to users;
+ users lacking meaningful mechanisms to contest, stop, or obtain remedy from the system;
+ claims of success being accepted without evidence that the claimed outcome actually occurred.
+At the point where governance begins only after victims, lawsuits, regulators, and penalties appear,
+institutions are no longer deciding how to prevent the harm. They are negotiating custody of the
+consequences.
+17. A GOVERNANCE TEST FOR MASS-HARM SYSTEMS
+Question Why it matters
+Who carries the risk while the system creates value? Detects externalized harm before it becomes litigation.
+What metric can improve while harm worsens? Finds blind spots created by narrow optimization.
+Who owns the evidence of harm? Separates observation from custody and authority.
+Who can convert that evidence into action? Identifies power asymmetry.
+Who controls settlement or remediation? Tests whether remedy authority matches victim interest.
+Can affected people object, revoke, enforce, or appeal? Measures procedural agency.
+Does compensation return to the harmed person or only to
+institutions/programs?
+Separates direct restitution from institutional benefit.
+
+[Source PDF page 12]
+GOVERNING ENGINES LLC  /  INVESTIGATIVE ANALYSIS
+FOLLOW THE HARM   |   12
+Question Why it matters
+What evidence disappears when the process ends? Measures the transparency cost of closure.
+What remains unproven after the headline says “resolved”? Prevents settlement from being confused with adjudication.
+18. OPEN FINDINGS - STATED, NOT HIDDEN
+The paper does not stop because the following questions remain unresolved. Their unresolved status is
+part of the record.
+Open question Current status
+Who initiated serious settlement talks, and when? OPEN. Public reporting establishes mid-trial talks, but the complete bargaining
+chronology is not public.
+What were the initial demands, offers, and counteroffers? OPEN / confidential.
+Why was the final amount selected? OPEN. Public sources establish the result, not the internal valuation process.
+Which specific unreached exhibits would have materially changed the case? UNKNOWABLE from the completed record because the trial stopped.
+What exactly would Zuckerberg have been asked under oath? OPEN. He was expected as a witness, but unreached examination cannot be
+reconstructed responsibly.
+Which victim families were privately consulted by each AG? OPEN. No comprehensive public consultation record identified.
+How much money will ultimately reach identifiable victims directly? OPEN. State spending and private litigation remain ongoing.
+What is Meta's final after-tax economic cost? OPEN. Nominal, accounting, tax, and present-value cost are not the same
+object.
+Will the reforms actually reduce harm? OPEN by definition. Requires future evidence.
+What will individual victims ultimately recover, and how long will resolution
+take?
+OPEN. Thousands of cases and mass arbitrations remain unresolved.
+19. CONCLUSION: A SYSTEM CAN WORK AS DESIGNED AND STILL FAIL THE
+PEOPLE IT CLAIMS TO PROTECT
+This paper does not conclude that Meta secretly bribed officials or that the settling states acted unlawfully.
+The public record does not establish those claims.
+It also does not conclude that parens patriae authority is illegitimate merely because the state is not each
+victim's personal lawyer. That separation is part of the legal design.
+The harder finding is that legal design and good governance are not synonyms. A system can operate
+exactly as intended while still leaving an accountability gap between the people harmed, the institution
+exercising authority derived from that harm, and the corporation purchasing negotiated closure.
+The state may rationally prefer guaranteed recovery and immediate reforms. Meta may rationally
+purchase certainty. Future children may receive meaningful protection. Continued adjudication could
+have imposed years of delay, cost, and appellate risk. All of those propositions can be true at the same
+time.
+And still: the people whose experiences gave the enforcement action its human significance may remain
+outside the settlement table and inside continuing litigation.
+
+[Source PDF page 13]
+GOVERNING ENGINES LLC  /  INVESTIGATIVE ANALYSIS
+FOLLOW THE HARM   |   13
+FINAL TEST
+Follow the harm. Follow the evidence. Follow the authority. Follow the money. Then ask whether they
+ever return to the same person.
+The $1.4 trillion figure was the reason to lean in, not because it proved a trillion dollars was recoverable,
+but because a legal theory of that magnitude demanded a closer look at what had allegedly happened. The
+investigation then exposed a broader problem: once human harm becomes institutional leverage, the
+governance question is not only whether institutions had authority to act. It is whether the way they
+exercised that authority remained accountable to the people whose harm made action necessary.
+That is the test this paper applies to Meta. It is also the test AI governance should apply upstream - before
+the next system produces enough victims for courts, regulators, and settlements to become the first
+reliable feedback loop.
+
+[Source PDF page 14]
+GOVERNING ENGINES LLC  /  INVESTIGATIVE ANALYSIS
+FOLLOW THE HARM   |   14
+SOURCE AND EVIDENCE NOTES
+[1] Meta and State Attorneys General [Proposed] Consent Judgment / Settlement Agreement, In re Social Media Adolescent
+Addiction/Personal Injury Products Liability Litigation, MDL No. 3047, filed Aug. 26, 2026. Pennsylvania Office of Attorney General.
+https://www.attorneygeneral.gov/wp-content/uploads/2026-08-26-META-23-05448-ECF-572-1-Exhibit-1-MDL-Consent-Judgment-FINAL-
+Settlment-Agreement-Fully-Executed.pdf
+[2] Reuters, “Meta reaches $16.68 billion settlement over social media harms to children,” Aug. 26, 2026; and “What Meta agreed to in
+US teen safety settlement,” Aug. 26, 2026. https://www.reuters.com/world/us/meta-settles-with-us-states-over-social-media-
+harms-2026-08-26/
+[3] Meta Platforms, Inc., Form 10-Q for quarter ended June 30, 2026 - litigation disclosures, including more than 200,000 mass-
+arbitration demands. https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm
+[4] Reuters, “Meta says US states are seeking $1.4 trillion in penalties in August youth safety trial,” July 7, 2026.
+https://www.reuters.com/business/meta-says-us-states-are-seeking-14-trillion-penalties-august-youth-safety-trial-2026-07-07/
+[5] Reuters, “Instagram head Mosseri, at children's addiction trial, says few teenagers knew of safety feature,” Aug. 25, 2026.
+https://www.reuters.com/business/instagram-head-adam-mosseri-testify-meta-trial-2026-08-25/
+[6] New Mexico Department of Justice, “New Mexico Department of Justice Wins Landmark Verdict Against Meta,” Mar. 24, 2026.
+https://nmdoj.gov/press-release/new-mexico-department-of-justice-wins-landmark-verdict-against-meta/
+[7] New Mexico Department of Justice, “Court Orders Meta to Pay $942 Million and Overhaul Protections for Children on Facebook
+and Instagram,” Aug. 7, 2026. https://nmdoj.gov/press-release/court-orders-meta-to-pay-942-million-and-overhaul-protections-for-
+children-on-facebook-and-instagram-in-landmark-new-mexico-ruling/
+[8] U.S. Department of Justice, Proposed Findings of Fact - federal tobacco RICO litigation, proposed $289 billion disgorgement.
+https://www.justice.gov/civil/cases/tobacco2/DOJ%20Web%20-%20Part%202_Redacted_PPFOF%20%28Jan%202003%29.pdf
+[9] U.S. Government Accountability Office, “Tobacco Settlement: States' Use of Master Settlement Agreement Payments,” GAO-01-851,
+2001. https://www.gao.gov/products/gao-01-851
+[10] U.S. Department of Justice, “United States Files Motion to Enter Settlement with BP,” including eight public hearings and
+approximately 28,000 comments. https://www.justice.gov/archives/opa/blog/united-states-files-motion-enter-settlement-bp
+[11] 15 U.S.C. § 6504 - Actions by States under COPPA. https://www.law.cornell.edu/uscode/text/15/6504
+[12] National Association of Attorneys General, “Consumer Protection 101.”
+https://www.naag.org/issues/consumer-protection/consumer-protection-101/
+[13] Zihao Li, Weiwei Yi & Jiahong Chen, “Accuracy paradox: Addressing epistemic, manipulative, and societal risks of hallucination
+in AI governance,” Computer Law & Security Review 61 (2026) 106311. https://doi.org/10.1016/j.clsr.2026.106311
+Source discipline
+The consent judgment is the primary source for settlement terms. Reuters and other reporting are used for
+trial timing, market reaction, and contemporaneous descriptions not contained in the agreement. New
+Mexico DOJ sources establish the New Mexico adjudicated outcome. Federal statutes and NAAG materials
+establish the public-enforcement framework. Historical comparisons use federal government sources
+where available.
+The attached 2026 Accuracy Paradox paper is used only for the AI-governance bridge: it argues that
+factual accuracy alone is insufficient and that trustworthy governance must account for epistemic
+reliability, manipulation, user autonomy, pluralism, uncertainty, and context. The Meta case analysis does
+not rely on that paper to establish facts about Meta.

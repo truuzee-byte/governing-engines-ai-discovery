@@ -11,8 +11,8 @@ class CorpusTests(unittest.TestCase):
 
     def test_corpus_inventory_and_graph(self):
         result = p.validate('https://example.invalid/research', report=False)
-        self.assertEqual(result['corpus']['source_records'], 31)
-        self.assertEqual(result['pages'], 61)
+        self.assertEqual(result['corpus']['source_records'], 37)
+        self.assertEqual(result['pages'], 69)
         self.assertTrue((p.OUT / 'sources/mode.txt').is_file())
 
     def test_missing_identity_fails(self):
@@ -68,6 +68,82 @@ class CorpusTests(unittest.TestCase):
         self.assertNotIn('/join/', result)
         self.assertNotIn('$99.00', result)
         self.assertEqual(len(counts), 5)
+
+    def test_no_duplicate_canonical_title(self):
+        from unittest.mock import patch
+        from copy import deepcopy
+        data = deepcopy(p.corpus.load()[0])
+        data['documents'][1]['title'] = data['documents'][0]['title']
+        read = p.corpus.Path.read_text
+        def changed(path, *args, **kwargs):
+            return json.dumps(data) if path.name == 'corpus.json' else read(path, *args, **kwargs)
+        with patch.object(p.corpus.Path, 'read_text', changed):
+            with self.assertRaisesRegex(AssertionError, 'Duplicate canonical document'):
+                p.corpus.load()
+
+    def test_single_stable_journey(self):
+        data = p.corpus.load()[0]
+        journeys = [d for d in data['documents'] if d.get('record_role') == 'cumulative-lineage']
+        self.assertEqual([d['id'] for d in journeys], ['governing-engines-journey'])
+        self.assertEqual(p.corpus.path(journeys[0]), 'journey/governing-engines-journey/index.html')
+        self.assertEqual(p.corpus.source_file(journeys[0]), 'journey/governing-engines-journey.txt')
+        self.assertTrue((p.OUT / 'journey/governing-engines-journey/source.txt').is_file())
+
+    def test_machine_state_chronology(self):
+        data = p.corpus.load()[0]
+        snapshots = sorted((d for d in data['documents'] if d.get('snapshot')), key=lambda d: d['snapshot']['date'])
+        self.assertEqual([d['snapshot']['date'] for d in snapshots], ['2026-09-14', '2026-10-21'])
+        self.assertEqual(snapshots[0]['snapshot']['position'], 'historical')
+        self.assertEqual(snapshots[1]['snapshot']['position'], 'current-public-at-cutoff')
+        for d in snapshots:
+            self.assertTrue((p.OUT / p.corpus.public_source_path(d)).is_file())
+
+    def test_wrong_current_snapshot_rejected(self):
+        from unittest.mock import patch
+        from copy import deepcopy
+        data = deepcopy(p.corpus.load()[0])
+        for d in data['documents']:
+            if d.get('snapshot'):
+                d['snapshot']['position'] = 'current-public-at-cutoff' if d['snapshot']['date'] == '2026-09-14' else 'historical'
+        read = p.corpus.Path.read_text
+        def changed(path, *args, **kwargs):
+            return json.dumps(data) if path.name == 'corpus.json' else read(path, *args, **kwargs)
+        with patch.object(p.corpus.Path, 'read_text', changed):
+            with self.assertRaisesRegex(AssertionError, 'Machine-state chronology'):
+                p.corpus.load()
+
+    def test_internal_ecosystem_not_published(self):
+        data = p.corpus.load()[0]
+        self.assertFalse(any('ecosystem-machine-state' in d['id'] for d in data['documents']))
+        self.assertFalse(any('Internal Verified State & Traceability Record' in f.read_text(encoding='utf-8')
+                             for f in p.OUT.rglob('*.txt')))
+
+    def test_import_preserves_unselected_sources(self):
+        import tempfile
+        from pathlib import Path
+        from unittest.mock import patch
+        import ingest_corpus
+        with tempfile.TemporaryDirectory(dir=p.ROOT) as temp:
+            root = Path(temp)
+            (root / 'content').mkdir()
+            (root / 'incoming').mkdir()
+            original = [{'id': 'keep', 'original_sha256': 'unchanged'}]
+            (root / 'content/source-manifest.json').write_text(json.dumps(original))
+            (root / 'content/corpus.json').write_text(json.dumps({'documents': [
+                {'id': 'keep', 'source_pattern': 'absent.txt'},
+                {'id': 'new', 'title': 'New', 'section': 'research', 'source_pattern': 'new.txt'}]}))
+            (root / 'incoming/new.txt').write_text('Authorized public wording')
+            with patch.object(ingest_corpus, 'ROOT', root):
+                ingest_corpus.ingest(root / 'incoming', ['new'])
+            manifest = json.loads((root / 'content/source-manifest.json').read_text())
+            self.assertEqual(manifest[0], original[0])
+            self.assertEqual(len(manifest), 2)
+
+    def test_machine_local_path_is_redacted(self):
+        result, counts = scrub(r'Traces are at C:\MODE_AI\runtime_traces\interactions.jsonl; reference https://example.invalid/paper')
+        self.assertNotIn('C:', result)
+        self.assertIn('https://example.invalid/paper', result)
+        self.assertEqual(counts['local_filesystem_path'], 1)
 
 
 if __name__ == '__main__':
