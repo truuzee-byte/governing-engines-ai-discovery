@@ -1,0 +1,9 @@
+# Publication validation scope
+
+October 26, 2026. `pytest-offline.ini` selects the exact ten files validated locally: 189 tests passed. Coverage includes thread custody, private-field omission from runtime projection, specification/handoff validation, Builder models/plans/artifacts, persistent-memory consent/injection and versioned Understanding. All 452 Python files compiled without executing them.
+
+Local validation denied network connections and restricted Python file writes/SQLite to an external staging directory. The Builder integration test uses two exact local Python commands; those commands were explicitly allowed in the validation harness. Initial harness attempts were retained privately: pytest's default NUL logging device was rejected, then a child-process guard prevented the integration test (188 passed/1 failed). Windows audit argument handling was corrected in the harness; the entire unchanged selection then passed 189/189. No test was removed or assertion weakened.
+
+This is not the full suite. RP-dependent tests cannot reproduce live governed behavior without the separately supplied verifier, grants and compatible interfaces. Historical-regression tests read excluded `artifacts/` records; several do so at collection time. Those missing evidence files are not fabricated here. Browser tests need optional Node/Playwright/browser dependencies. FastAPI/uvicorn/httpx optional bridge validation was not performed. Document/media paths need optional dependencies. Full runtime/provider behavior was not executed.
+
+Run only understood tests in isolated disposable directories without production credentials. The repository does not enforce a general host sandbox. The upstream repository's existing publication-site tests and build were validated separately; its workflow is preserved, not repurposed as MODE qualification.

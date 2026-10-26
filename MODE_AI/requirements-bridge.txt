@@ -1,0 +1,5 @@
+# Optional bridge dependencies were unavailable during this publication validation.
+# Versions are intentionally not claimed as tested or locked.
+-r requirements.txt
+fastapi
+uvicorn
