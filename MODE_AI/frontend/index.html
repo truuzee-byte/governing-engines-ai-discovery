@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MODE — Operator environment</title><link rel="stylesheet" href="style.css"></head>
+<body><aside><h1>MODE</h1><p>Operator environment</p><nav aria-label="Primary">
+<button aria-current="page">Chat Mode</button><button>Build Mode</button><button>Past Builds</button><button>Chat Threads</button><button>Operator Onboarding</button>
+</nav></aside><main><header><h2 id="heading">Chat Mode</h2><output id="state" aria-live="polite">Runtime not connected</output></header>
+<p id="connection">Read-only shell. Load an explicit runtime snapshot; no live execution connection is established.</p>
+<label class="load">Open runtime snapshot <input id="snapshot" type="file" accept="application/json,.json"></label>
+<p id="thread"></p><section id="messages" aria-label="Conversation"></section><section id="panel" hidden></section>
+<section id="operation-result" aria-label="Operator command result" hidden></section>
+<section id="pending-consent" aria-label="Memory consent" hidden></section>
+<details id="source-discovery" hidden><summary>Find preserved sources</summary><form id="source-form">
+<label for="source-namespace">Source collection</label><select id="source-namespace"><option value="knowledge">Documents / Knowledge</option><option value="vault">Vault</option></select>
+<label>Source project ID<input id="source-project" required maxlength="256"></label>
+<label>Source search text<input id="source-query" required maxlength="1024"></label>
+<label><input id="source-history" type="checkbox">Include historical versions</label>
+<button type="submit">Search preserved sources</button><p id="source-status" aria-live="polite"></p></form></details>
+<details id="document-intake" hidden><summary>Preserve a document source</summary>
+<form id="document-form"><label>Source file (text, PDF, DOCX, WAV, PNG, JPEG, or WebP; up to 8 MiB)<input id="document-file" type="file" accept=".txt,.json,.md,.pdf,.docx,.wav,.png,.jpg,.jpeg,.webp" required></label>
+<label>Project ID<input id="document-project" required maxlength="256"></label>
+<label for="document-class">Knowledge source class</label><select id="document-class" required><option value="">Choose source class</option><option>SYSTEM</option><option>INTERNAL</option><option>EXTERNAL</option></select>
+<p>This preserves the selected bytes as a document draft. It does not make the content authoritative, validated, or a build instruction.</p>
+<button type="submit">Preserve this document draft</button><p id="document-status" aria-live="polite"></p></form></details>
+<form id="operator-form" hidden><label>Operator input<textarea id="operator-text" maxlength="16000" rows="4" required></textarea></label><button type="submit">Send to Mode</button><p id="input-status" aria-live="polite"></p></form>
+<footer>Snapshots show observed state at capture time. They do not grant authority or prove a completed outcome.</footer>
+</main><script src="app.js"></script></body></html>

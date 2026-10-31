@@ -1,0 +1,85 @@
+{
+  "status": "PASS_FINAL_PROPOSAL_VALIDATION",
+  "exit_status": 0,
+  "command": "python MODE_AI/licensing/validate_licensing.py --output MODE_AI/licensing/VALIDATION_RESULTS.json",
+  "activation_status": "NOT_ACTIVATED; external rights evidence and release/assent gates remain",
+  "snapshot_commit": "57c982b9aedd48983cc0eb2694ae9df2a8016805",
+  "covered_original_files": 477,
+  "checks": [
+    {
+      "check": "Immutable repository/branch/snapshot scope",
+      "result": "PASS"
+    },
+    {
+      "check": "Exact unique original code/configuration membership",
+      "result": "PASS"
+    },
+    {
+      "check": "All original Git blobs and SHA-256 values verified",
+      "result": "PASS"
+    },
+    {
+      "check": "No original MODE functional/source/configuration changes",
+      "result": "PASS"
+    },
+    {
+      "check": "Changes limited to licensing, entrypoint docs and CI validation",
+      "result": "PASS"
+    },
+    {
+      "check": "All 477 current index blobs still equal frozen originals",
+      "result": "PASS"
+    },
+    {
+      "check": "Creator/project attribution preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "Correct whole-product royalty, coordination, dates, no-updates and enforcement clauses",
+      "result": "PASS"
+    },
+    {
+      "check": "Single one-percent total-product model; no contribution or unrelated-company base",
+      "result": "PASS"
+    },
+    {
+      "check": "LLC payee and creator coordination without invented banking/contact endpoint",
+      "result": "PASS"
+    },
+    {
+      "check": "Quarterly accrual USD statements, same-product loss carryforward, no fees",
+      "result": "PASS"
+    },
+    {
+      "check": "Twelve resolved decisions; only title/third-party evidence remains partial",
+      "result": "PASS"
+    },
+    {
+      "check": "No false activation, owner assignment, recipient assent or private implementation grant",
+      "result": "PASS"
+    },
+    {
+      "check": "All pre-existing third-party/contract/publication documentation notices intact",
+      "result": "PASS"
+    },
+    {
+      "check": "Prior third-party license metadata evidence preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "All licensing documentation links resolve",
+      "result": "PASS"
+    },
+    {
+      "check": "Licensing regression suite passed",
+      "result": "PASS"
+    }
+  ],
+  "regression_tests_run": 16,
+  "resolved_decisions": 12,
+  "partially_resolved_evidence_items": [
+    "D01",
+    "D12"
+  ],
+  "limits": "No title, third-party authority, enforceability, actual acceptance, deployment or MODE runtime qualification is established."
+}
