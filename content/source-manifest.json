@@ -602,5 +602,37 @@
     "source_pdf_pages": null,
     "redaction_counts": {},
     "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "mechanism-primacy",
+    "original_filename": "MECHANISM PRIMACY.txt",
+    "identity": {
+      "title": "MECHANISM PRIMACY",
+      "subtitle": null,
+      "version": "v1.0",
+      "date": "2026-07-01",
+      "status": "CANONICAL GOVERNING PRINCIPLE"
+    },
+    "original_sha256": "6f2a45c022bd956f6d6076d9735cd8e914179789bf3e30820edbec6959630e6d",
+    "published_sha256": "6f2a45c022bd956f6d6076d9735cd8e914179789bf3e30820edbec6959630e6d",
+    "source_pdf_pages": null,
+    "redaction_counts": {},
+    "edition": "original bytes; no modifications"
+  },
+  {
+    "id": "ai-system-construction-method",
+    "original_filename": "Governing_Engines_AI_System_Construction_Method_Public_v1_1.pdf",
+    "identity": {
+      "title": "AI SYSTEM CONSTRUCTION METHOD",
+      "subtitle": null,
+      "version": "1.1",
+      "date": null,
+      "status": "System Construction Methodology"
+    },
+    "original_sha256": "0d49ef796ca306aa451466bd0c460651c31f342917d3916afd401fd83fbadc34",
+    "published_sha256": "0d49ef796ca306aa451466bd0c460651c31f342917d3916afd401fd83fbadc34",
+    "source_pdf_pages": 4,
+    "redaction_counts": {},
+    "edition": "original bytes; no modifications"
   }
 ]

@@ -11,8 +11,8 @@ class CorpusTests(unittest.TestCase):
 
     def test_corpus_inventory_and_graph(self):
         result = p.validate('https://example.invalid/research', report=False)
-        self.assertEqual(result['corpus']['source_records'], 37)
-        self.assertEqual(result['pages'], 69)
+        self.assertEqual(result['corpus']['source_records'], 39)
+        self.assertEqual(result['pages'], 71)
         self.assertTrue((p.OUT / 'sources/mode.txt').is_file())
 
     def test_missing_identity_fails(self):
@@ -50,6 +50,30 @@ class CorpusTests(unittest.TestCase):
         file.write_text('incomplete source', encoding='utf-8')
         with self.assertRaises(AssertionError):
             p.validate('https://example.invalid/research', report=False)
+
+    def test_approved_original_artifacts_are_unmodified(self):
+        import hashlib
+        data, manifests = p.corpus.load()
+        for identity in ('mechanism-primacy', 'ai-system-construction-method'):
+            d = next(d for d in data['documents'] if d['id'] == identity)
+            m = next(m for m in manifests if m['id'] == identity)
+            source = (p.OUT / p.corpus.public_source_path(d)).read_bytes()
+            self.assertEqual(hashlib.sha256(source).hexdigest(), m['original_sha256'])
+            self.assertEqual(m['published_sha256'], m['original_sha256'])
+            self.assertEqual(m['redaction_counts'], {})
+            self.assertEqual(m['edition'], 'original bytes; no modifications')
+        self.assertTrue((p.OUT / 'sources/ai-system-construction-method-v1-1.pdf').read_bytes().startswith(b'%PDF-'))
+
+    def test_original_pdf_tampering_fails(self):
+        with (p.OUT / 'sources/ai-system-construction-method-v1-1.pdf').open('ab') as stream:
+            stream.write(b'changed')
+        with self.assertRaises(AssertionError):
+            p.validate('https://example.invalid/research', report=False)
+
+    def test_extractor_cannot_rewrite_approved_original(self):
+        import ingest_corpus
+        with self.assertRaisesRegex(ValueError, 'extraction is prohibited'):
+            ingest_corpus.ingest(p.ROOT, ['ai-system-construction-method'])
 
     def test_graph_dangling_node_fails(self):
         file = p.OUT / 'corpus/relationships.json'

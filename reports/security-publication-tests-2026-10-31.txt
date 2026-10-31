@@ -1,0 +1,35 @@
+test_approved_original_artifacts_are_unmodified (test_corpus.CorpusTests.test_approved_original_artifacts_are_unmodified) ... ok
+test_catalog_metadata_drift_fails (test_corpus.CorpusTests.test_catalog_metadata_drift_fails) ... ok
+test_corpus_inventory_and_graph (test_corpus.CorpusTests.test_corpus_inventory_and_graph) ... ok
+test_discovery_link_loss_fails (test_corpus.CorpusTests.test_discovery_link_loss_fails) ... ok
+test_extractor_cannot_rewrite_approved_original (test_corpus.CorpusTests.test_extractor_cannot_rewrite_approved_original) ... ok
+test_graph_dangling_node_fails (test_corpus.CorpusTests.test_graph_dangling_node_fails) ... ok
+test_import_preserves_unselected_sources (test_corpus.CorpusTests.test_import_preserves_unselected_sources) ... ok
+test_internal_ecosystem_not_published (test_corpus.CorpusTests.test_internal_ecosystem_not_published) ... ok
+test_machine_local_path_is_redacted (test_corpus.CorpusTests.test_machine_local_path_is_redacted) ... ok
+test_machine_state_chronology (test_corpus.CorpusTests.test_machine_state_chronology) ... ok
+test_missing_identity_fails (test_corpus.CorpusTests.test_missing_identity_fails) ... ok
+test_no_duplicate_canonical_title (test_corpus.CorpusTests.test_no_duplicate_canonical_title) ... ok
+test_original_pdf_tampering_fails (test_corpus.CorpusTests.test_original_pdf_tampering_fails) ... ok
+test_privacy_filter (test_corpus.CorpusTests.test_privacy_filter) ... ok
+test_required_metadata_disappearing_fails (test_corpus.CorpusTests.test_required_metadata_disappearing_fails) ... ok
+test_single_stable_journey (test_corpus.CorpusTests.test_single_stable_journey) ... ok
+test_source_tampering_fails (test_corpus.CorpusTests.test_source_tampering_fails) ... ok
+test_wrong_current_snapshot_rejected (test_corpus.CorpusTests.test_wrong_current_snapshot_rejected) ... ok
+test_broken_link_fails (test_publication.PublicationTests.test_broken_link_fails) ... ok
+test_complete_project_subpath (test_publication.PublicationTests.test_complete_project_subpath) ... ok
+test_malformed_jsonld_fails (test_publication.PublicationTests.test_malformed_jsonld_fails) ... ok
+test_markdown_comment_loss_fails (test_publication.PublicationTests.test_markdown_comment_loss_fails) ... ok
+test_message_drift_fails (test_publication.PublicationTests.test_message_drift_fails) ... ok
+test_missing_document_fails (test_publication.PublicationTests.test_missing_document_fails) ... ok
+test_reproducible_build (test_publication.PublicationTests.test_reproducible_build) ... ok
+test_root_url (test_publication.PublicationTests.test_root_url) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 23.060s
+
+OK
+PASS: 71 pages; 8 documents; links, sitemap, hashes, and four extraction layers
+Imported 1 selected public editions; manifest contains 2 records
+PASS: 71 pages; 8 documents; links, sitemap, hashes, and four extraction layers
+PASS: 71 pages; 8 documents; links, sitemap, hashes, and four extraction layers

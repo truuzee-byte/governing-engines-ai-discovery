@@ -1,0 +1,24 @@
+{
+  "prior_sources_unchanged": 37,
+  "prior_manifest_entries_unchanged": 37,
+  "original_note_html_and_markdown_unchanged": 16,
+  "approved_originals": [
+    {
+      "id": "mechanism-primacy",
+      "path": "content/sources/mechanism-primacy-v1-0.txt",
+      "sha256": "6f2a45c022bd956f6d6076d9735cd8e914179789bf3e30820edbec6959630e6d",
+      "published_sha256": "6f2a45c022bd956f6d6076d9735cd8e914179789bf3e30820edbec6959630e6d",
+      "result": "IDENTICAL"
+    },
+    {
+      "id": "ai-system-construction-method",
+      "path": "content/sources/ai-system-construction-method-v1-1.pdf",
+      "sha256": "0d49ef796ca306aa451466bd0c460651c31f342917d3916afd401fd83fbadc34",
+      "published_sha256": "0d49ef796ca306aa451466bd0c460651c31f342917d3916afd401fd83fbadc34",
+      "result": "IDENTICAL"
+    }
+  ],
+  "commit_identity_non_noreply_count": 0,
+  "deletions": [],
+  "mode_tree_in_audit_branch": false
+}

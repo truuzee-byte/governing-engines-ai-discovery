@@ -6,6 +6,8 @@ The October 20 source-corpus extension adds [31 source-linked research records](
 
 The October 21 audit registers **37 public source records**: six additions, three exact attachment duplicates skipped, and one explicitly internal ecosystem record withheld. The [cumulative canonical Journey](https://truuzee-byte.github.io/governing-engines-ai-discovery/journey/governing-engines-journey/index.html) has one stable home; [dated MODE evidence](https://truuzee-byte.github.io/governing-engines-ai-discovery/machine-state/index.html) preserves September history separately from the October public cutoff. See [all ten attachment decisions and curation evidence](reports/curation-audit-2026-10-21.md).
 
+The October 31 review proposal adds two byte-identical approved originals, for **39 source records**: Mechanism Primacy v1.0 and AI System Construction Method v1.1. The PDF has no stated issue date. See [publication and security audit](reports/publication-security-audit-2026-10-31.md) for branch/history findings and pending disclosure decisions. This proposal does not merge the MODE implementation branch or deploy to Pages.
+
 ## Build and verify
 
 Run from the repository root (use your installed Python executable if `python` is unavailable):

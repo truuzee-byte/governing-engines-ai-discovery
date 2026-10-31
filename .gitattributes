@@ -2,3 +2,7 @@
 content/sources/*.txt text eol=lf
 content/journey/*.txt text eol=lf
 content/machine-state/*.txt text eol=lf
+
+# Approved originals must retain their exact source bytes, including line endings.
+content/sources/mechanism-primacy-v1-0.txt -text
+content/sources/ai-system-construction-method-v1-1.pdf binary

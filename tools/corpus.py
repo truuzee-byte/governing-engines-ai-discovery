@@ -162,9 +162,13 @@ def build(config, out):
         body += ''.join('<li>' + e(x) + '</li>' for x in d['claims']) + '</ul></section>'
         body += '<section><h2>Claim boundaries and evidence posture</h2><p>' + e(d['boundary']) + '</p></section>'
         body += '<section><h2>Research terms</h2><ul>' + ''.join('<li>' + e(t) + '</li>' for t in d['terms']) + '</ul></section>'
-        body += f'<section><h2>Inspectable source</h2><p><a href="../../{source_path}">Read or download the public source text edition</a>. '
-        body += 'This extraction preserves the supplied wording with marked privacy redactions; it is not the original PDF/DOCX or a layout-faithful replacement. PDF page markers identify source pages. DOCX tables and mathematical notation may require the original for visual interpretation.</p>'
-        body += f'<p>Original artifact: {e(m["original_filename"])}<br>Original SHA-256: <code>{m["original_sha256"]}</code><br>Published text SHA-256: <code>{m["published_sha256"]}</code></p>'
+        if m.get('edition') == 'original bytes; no modifications':
+            body += f'<section><h2>Inspectable source</h2><p><a href="../../{source_path}">Read or download the complete original document</a>. Original bytes are preserved without rewriting, reformatting or redaction.</p>'
+        else:
+            body += f'<section><h2>Inspectable source</h2><p><a href="../../{source_path}">Read or download the public source text edition</a>. '
+            body += 'This extraction preserves the supplied wording with marked privacy redactions; it is not the original PDF/DOCX or a layout-faithful replacement. PDF page markers identify source pages. DOCX tables and mathematical notation may require the original for visual interpretation.</p>'
+        published_label = 'Published original' if m.get('edition') == 'original bytes; no modifications' else 'Published text'
+        body += f'<p>Original artifact: {e(m["original_filename"])}<br>Original SHA-256: <code>{m["original_sha256"]}</code><br>{published_label} SHA-256: <code>{m["published_sha256"]}</code></p>'
         body += '<p>Privacy redaction counts: ' + e(json.dumps(m['redaction_counts'], sort_keys=True)) + '</p></section>'
         body += '<nav aria-label="Related research"><h2>Related reading</h2><p>Editorial conceptual links, not evidence of endorsement or equivalent validation.</p>' + links([by_id[r] for r in d['related']], '../../') + '</nav>'
         if d.get('related_evidence'):
@@ -240,7 +244,12 @@ def validate(config, out, parsed):
             assert '../../' + path(by_id[r]) in p.links, 'Related research link missing'
         source = out / public_source_path(d)
         assert hashlib.sha256(source.read_bytes()).hexdigest() == record['provenance']['published_sha256']
-        assert re.search(r'[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}|HPPOQL-\d+|(?:ghp_|github_pat_|sk-proj-)[A-Za-z0-9_-]{15,}', source.read_text(encoding='utf-8')) is None, 'Sensitive source pattern'
+        if source.suffix == '.txt':
+            assert re.search(r'[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}|HPPOQL-\d+|(?:ghp_|github_pat_|sk-proj-)[A-Za-z0-9_-]{15,}', source.read_text(encoding='utf-8')) is None, 'Sensitive source pattern'
+        else:
+            assert source.suffix == '.pdf' and source.read_bytes().startswith(b'%PDF-'), 'Unreviewed source format'
+            assert record['provenance']['edition'] == 'original bytes; no modifications'
+            assert record['provenance']['original_sha256'] == record['provenance']['published_sha256'], 'Original artifact changed'
     graph = json.loads((out / 'corpus/relationships.json').read_text(encoding='utf-8'))
     node_ids = {n['id'] for n in graph['nodes']}
     assert node_ids == set(by_id) | set(CONCEPTS)
