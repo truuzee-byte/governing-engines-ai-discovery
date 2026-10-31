@@ -67,3 +67,7 @@ The workflow obtains the actual base URL from `configure-pages`, including custo
 ## Evidence limits
 
 `reports/local-validation.json` reports local extraction and integrity checks. `reports/public-verification.json` is written only after every checked public URL matches the generated artifact; a failed run must not be replaced by an older passing report. CI uses a fresh checkout. Publication does not prove indexing, retrieval, recommendation, or delivery to any decision-maker. See the implementation report and external test protocol before interpreting outcomes.
+
+## Scoped MODE licensing proposal
+
+On the MODE publication branch, [MODE_AI/LICENSING_README.md](MODE_AI/LICENSING_README.md) describes an operator review draft for the exact published MODE source snapshot: attribution to DeMarius J. Lawson and Governing Engines, with 1% of attributable net profit on covered commercial products/services. It is not effective before approval and acceptance. It does **not** license this discovery website, research corpus, private MODE development or the entire repository. No merge or Pages deployment is performed by preparing this proposal.

@@ -1,0 +1,3377 @@
+{
+  "schema_version": "1.0",
+  "status": "DRAFT_NOT_EFFECTIVE",
+  "repository": "truuzee-byte/governing-engines-ai-discovery",
+  "publication_branch": "mode-ai-publication-20261026",
+  "snapshot_commit": "57c982b9aedd48983cc0eb2694ae9df2a8016805",
+  "scope_rule": "Exactly enumerated original source/configuration files at the immutable snapshot; covered portions remain covered in derivatives; no automatic later/private coverage.",
+  "file_count": 477,
+  "covered_files": [
+    {
+      "path": "MODE_AI/.env.example",
+      "git_blob": "36663c25c79920bb7c51b76e09a68093ad8e7381",
+      "sha256": "9c9a2d8047d0ed5cb072d0978ecfeb8262b5794f4f5430c7041fd960ef603b9c",
+      "bytes": 225,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/.gitignore",
+      "git_blob": "83af34fa37b00b5da2877beedce59aae2409f3d3",
+      "sha256": "88982cf13d46858b361974014758001d49f2f4369ddd630afd0f399cb03b9c99",
+      "bytes": 325,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/agents/reasoning_agent.py",
+      "git_blob": "372635b7b2996a15b4758debe85b02d28bcb82f4",
+      "sha256": "4af0f936fa5fd3d18d869b638d9d4212ad1efbaef63713635ce56eb7edabd459",
+      "bytes": 34806,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/ambiguity/ambiguity_scoring_engine.py",
+      "git_blob": "baa60b99ebc0207cf3229997aa325d939d21afd8",
+      "sha256": "a732bf4d8af09a3507c60f4343cb8d855a3653007d04073d27914ce24ddd0e07",
+      "bytes": 15649,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/components/__init__.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/components/component_loader.py",
+      "git_blob": "0c17cc95f975953b762f4b22200428a518238e45",
+      "sha256": "87fe090e3725509bffe5ffaf79d6b1b5bb22cfd1ff3acf081e53dea94b0f66d3",
+      "bytes": 1944,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/components/component_registry.py",
+      "git_blob": "4e6b9c42d9460ff6df10937dba77c00d70ec3f03",
+      "sha256": "4790dae3faeff7f2da27ddf829603e137c9a4c169514abe6f8d9910f5b6878ea",
+      "bytes": 3582,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/components/component_resolver.py",
+      "git_blob": "4999452e47299ecf6bf9c500b81f809f5398e0b5",
+      "sha256": "411014aec0bceff7f0c69b1caf49a269900e5a69f648cc91bdbc3f44a03f77fb",
+      "bytes": 1980,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/components/library_resolver.py",
+      "git_blob": "1040dd3899dbe42682daa9f24ab35fe083a070ab",
+      "sha256": "2dd11f4204099779a124ff35dae08767fa1839b43afdc592d4c587bf42d9dc4e",
+      "bytes": 2245,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/components/manifest_validator.py",
+      "git_blob": "1e2dbd58c94dc434967870670f1faa3c49fbed42",
+      "sha256": "886d3309ed341fd426e3c0477a10df281858e38af113751b7cc655b58a8ba4c5",
+      "bytes": 1514,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/construction/__init__.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/construction/code_constructor.py",
+      "git_blob": "584f3688269387504b693bac766cada1a85f2762",
+      "sha256": "fba41e00ca8cf81437f959348e8b536b88c49e336760198d1252bed6aedb3088",
+      "bytes": 3923,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/construction/construction_models.py",
+      "git_blob": "cfcdaee7c02fb8bc2117bb46ba0c5f39dcf079f1",
+      "sha256": "85051bcae5d7051b9a28f6369d383438b26868de33850ea80fcbd89069cd0204",
+      "bytes": 1459,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/core/__init__.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/core/artifact_recorder.py",
+      "git_blob": "e0593368f2bc1e2a79a75b9e22ca0b33ba4e0208",
+      "sha256": "d90d6da5ee60a061f53de8df6c0c95201fe6959da30423e270398278d14a1fff",
+      "bytes": 1255,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/core/build_entry.py",
+      "git_blob": "27e9f6b63363e0d1036b299ca79d59b48d6b61b9",
+      "sha256": "82e04bd8edf63437da3573c96fdc6a1f0e6923aaf7e0ce1903990194472d3993",
+      "bytes": 22888,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/core/build_models.py",
+      "git_blob": "3818b3d2c1a914d6f3728b5d24dd736b594351c2",
+      "sha256": "ddce98e132781d88c592e1b16e2bed40554b38b4d62ab83e8cb12376920fd0c3",
+      "bytes": 8280,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/core/build_plan_generator.py",
+      "git_blob": "86b00ef3fa8911ae2d1970c3a58ef67fedc3c117",
+      "sha256": "af7151b3568082f311e93e3fdbef13f7e66b72366bdc91f1b2cd4f153cd00419",
+      "bytes": 6787,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/core/build_validator.py",
+      "git_blob": "45d2779ec67158031da31137252c318d2a69c200",
+      "sha256": "5f4dec4783caca85f5d5145eef42fc4fcd8c96a0824b7c4c035df3f3bb1cc243",
+      "bytes": 4335,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/core/builder_entry.py",
+      "git_blob": "fa41130d56ff5d7e22ccd178146e64dcaa9540a0",
+      "sha256": "da0a4833fa8af1e9e9c1cceda9cdbe980a3e27d1f7ddb61236b2bf0197b0b9eb",
+      "bytes": 106,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/core/command_runner.py",
+      "git_blob": "d7938fcd7d763e880ac2472a61c40cfc2d9b75c8",
+      "sha256": "8505a83aac8eee5af128edb44fb606910650ebde4679e506b397ae8aed5d232e",
+      "bytes": 3266,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/core/execution_contract.py",
+      "git_blob": "0f2d52352b0355d679c8b7c6ab00fec9d65128b3",
+      "sha256": "2ee0c6f48bcca34fd94e7ca0fe8c08ace69b6d0f0fc93d4b53bb9bcc325aab11",
+      "bytes": 7667,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/core/file_writer.py",
+      "git_blob": "64ae88a4feada606bb13bee2a2def4a2dc4c7fc7",
+      "sha256": "1792c7992104d1e3b255ed44d1ecab3d1e7eab47743a1a5451b4385c52cd0cf3",
+      "bytes": 3189,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/core/receipt_writer.py",
+      "git_blob": "47127cfba46e807fba575a1e3a4aa5cb07b89d85",
+      "sha256": "0fd5a04e4a53dc7a222166e4a675d258e3e4eb0df2d4d4d9363b1f69cb802a15",
+      "bytes": 1935,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/core/understanding_obligations.py",
+      "git_blob": "09194075680bfdddf996c335e2d6ea60d444e583",
+      "sha256": "896e45d2ae0428e7af80331081a43d8821ef4258e644eb8d907ddd3b08c4a080",
+      "bytes": 3566,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/core/workspace_manager.py",
+      "git_blob": "712e01bd903743226ccd91bd764d061fc33b0ad6",
+      "sha256": "3be07f84c6b73948b4eb26e1f0946b540644380fdfbd05224d3607650204b8d5",
+      "bytes": 1601,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/execution/command_runner.py",
+      "git_blob": "6d491f787cbd8c5f8428afeffce494888f06df80",
+      "sha256": "16d971a84efa4b72ae135a29f3210c54a51891bc3cd6934a48c4b8a314ac9105",
+      "bytes": 2245,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/execution/file_writer.py",
+      "git_blob": "d5cbaaf9c23497ba2c2ad7943f43fa476f0c57d1",
+      "sha256": "d8f96d28cd9f20e7d57f86c87b30e01b9448ed6dc1a1ecd22ad66d5b16c9e7d4",
+      "bytes": 3189,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/execution/workspace_manager.py",
+      "git_blob": "0e1a5d36bf0ce16ac48c2c9deb799205f6572697",
+      "sha256": "4ab8e7d17098037c2233a0f99b9ed566358eb2c2d1d71d98cddc7ce8c74908d0",
+      "bytes": 1893,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/handoff/__init__.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/handoff/authority_checker.py",
+      "git_blob": "aa99635e85f32adf033a8baf9873734c251d0b9c",
+      "sha256": "3e44636ca8dfb52b6eef62121a3c71e23536033f3050a19a3f3c6d1c21f09929",
+      "bytes": 866,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/handoff/mode_to_builder_adapter.py",
+      "git_blob": "62d435b2cbc11054b48399b33934df4718f43108",
+      "sha256": "cceded16c6a3f6fa0c01d4720661be7a68e670d1dbdf82bb4d0c202a30095d4a",
+      "bytes": 55,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/handoff/snapshot_verifier.py",
+      "git_blob": "7c083224e54b7f25b69015d2110906e8a6f0757b",
+      "sha256": "343368044a2d3ba4557665af7934514d485af7f684dcae6e2f9e6b8176c077b4",
+      "bytes": 1398,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/handoff/specification_receiver.py",
+      "git_blob": "dfb9d9e11259e98d727d3e9769968d0417417831",
+      "sha256": "f2845da4fa44f30789b69df7246aecce44e6110ac746532a4cb39ab2ebfcb514",
+      "bytes": 5314,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/kernel/__init__.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/kernel/cutover_preparation.py",
+      "git_blob": "ea3fcad1b53cede53c5ce9dae9174d1ccd8ea24c",
+      "sha256": "a425a05b991b521650bcdc554d65397c6fef5607d39bc0e40c9a2039f8f34d73",
+      "bytes": 2675,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/kernel/kernel_client.py",
+      "git_blob": "0f48c2232dee91a230e0af41515297ac13c7488a",
+      "sha256": "e8f829f0fe987e15f6d437a6fdfcd8273bd6a2a495ce6670223c19269595d384",
+      "bytes": 3388,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/library/library_resolver.py",
+      "git_blob": "3f7209997b1360e6266b476aa0418373d1f2a54e",
+      "sha256": "a1340a74f1fca37c3557c8b6fab663f854c996d8bbf936791dabfb7d69733ecf",
+      "bytes": 2330,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/library/manifest_validator.py",
+      "git_blob": "880852049c778619cd5879c88783ed94628a3563",
+      "sha256": "575b83c02072c1e108401159d4f3f2377ba430dbb803d6a328d2fde9c7b8c230",
+      "bytes": 1112,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/service.py",
+      "git_blob": "3fc4dc79d79df6c9535087d771fde2eab2c8bdd3",
+      "sha256": "7d865df54bb5c966417744db429da8e5e65fa132041cfba7d4ce7f0bbc7e3d09",
+      "bytes": 3013,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/tests/test_artifact_recorder.py",
+      "git_blob": "5ab658ee72f4545bc13b13fa936e0ed6c1c234ff",
+      "sha256": "134d054b038f3664100da0de8ad1e2795eed9e86bfcd49e095fbd3e9742bcc7b",
+      "bytes": 1913,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/tests/test_authority_checker.py",
+      "git_blob": "ec4c9324d86f368a6049d133a8343a95a276cf4d",
+      "sha256": "56f29d3660f595fb85aeca6f904695cebf65c399011a55d59917df8e9562358b",
+      "bytes": 1192,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/tests/test_bootstrap_boundary.py",
+      "git_blob": "a131b9d753953d006944c454e64c0ef9bbb4bce4",
+      "sha256": "51256e9ff0b0e5d2829508b121dc6820f6dac16cde2241a55b07aca98c4fe373",
+      "bytes": 1008,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/tests/test_build_models.py",
+      "git_blob": "694ffabe1cc3e5ed727944005a31b73ab10b0819",
+      "sha256": "77f0ba7339fb61a466a98ffec7dfacc2f7b4611b918618b9fd0ddc746857f698",
+      "bytes": 5169,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/tests/test_build_plan_generator.py",
+      "git_blob": "f454a70fc95a02c68c36dcb9100334365f2c384a",
+      "sha256": "b219c7a366265e3fa95e8cda836b1d277b8c93f6735a7bcd4e8a9104446db48d",
+      "bytes": 10721,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/tests/test_build_validator.py",
+      "git_blob": "4712ffd8db5ac45d0e6137f5dceb26ae016657f0",
+      "sha256": "dc219ec45d34a6b9f20fe701496d555354b540baed70379156100bb368194f41",
+      "bytes": 4220,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/tests/test_builder_entry.py",
+      "git_blob": "916c18d95c098bb44326866f3b0440fd92d55865",
+      "sha256": "139ee635d833034b30cd01074ca32b0fa18a8b2d401a935d9a69f9828ef49ca3",
+      "bytes": 8887,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/tests/test_component_loader.py",
+      "git_blob": "163d77485f5ec7e17b783ff5ee4775f233a24a7b",
+      "sha256": "fcde0448a1d2335b0a14e6278258e2db51721ffc8ec7c8d8a15c126d3f5af399",
+      "bytes": 1500,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/tests/test_component_registry.py",
+      "git_blob": "4cb7ad875658ed658c3ed337b8e520f006b6297e",
+      "sha256": "94410c798f69efda5d6d1ee094f46a6e71111d693a727b279bf659d6994ea425",
+      "bytes": 1439,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/tests/test_component_resolver.py",
+      "git_blob": "2294ea38c4ad7f0e083e96ea871036e9768bcd87",
+      "sha256": "d9adf66fc11a3bd802740070688716ffa2f05b27c738ebdc8ec3125beb7601d9",
+      "bytes": 2566,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/tests/test_component_runner.py",
+      "git_blob": "a82a86f7abf1cea8f534c262be77c67f4cb2a63d",
+      "sha256": "66a09802609f867c1d15d83b8448b5dcf71538100021a5d0b7497e95f151868c",
+      "bytes": 1827,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/tests/test_file_writer.py",
+      "git_blob": "9ebd5829e85ef526d1d9528de3ee22f089adff4f",
+      "sha256": "8f4d0b23390ce752a6d45acca78c09566f0b98da24868da5e76612f8eb7ebb5c",
+      "bytes": 2655,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/tests/test_historical_validation.py",
+      "git_blob": "3e42c5ff38d701bc9e9b5aa50812d2ac311fbe54",
+      "sha256": "5064a9560c5d5fee10ec4e4ae34e0548d6d7534150a8ce8353843186fb436ef1",
+      "bytes": 1041,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/tests/test_kernel_preparation.py",
+      "git_blob": "99b3bfe051b86aaf545a630f4554d3a2479b8160",
+      "sha256": "fa9e0f00dd3b7fee271a668d4701398e0d0ad5570d2ea6ab97365f313190ccc7",
+      "bytes": 3923,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/tests/test_kernel_result_binding.py",
+      "git_blob": "6ef0d39fc82f3409897f0f89d955d0596da581d5",
+      "sha256": "bbe7c45737578a84a51a5b71636f4888a22cdfdd53b324421ef89dad3a0f0ab2",
+      "bytes": 1176,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/tests/test_library_resolver.py",
+      "git_blob": "0403118ff871ff399c2142f88b857ce45e543bbf",
+      "sha256": "ddc7ee3d28e0e5cdd1a1a7e8f783e5d6ac21c13f4631e66f6f1dede196037bb3",
+      "bytes": 1628,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/tests/test_manifest_validator.py",
+      "git_blob": "b57d92ee94c084b335e3a7c3d6e220808d0ba0b7",
+      "sha256": "595c338c11b99d21243696652fdb4e239ca1d815e839872c8206073823a62776",
+      "bytes": 1513,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/tests/test_materialization_binding.py",
+      "git_blob": "4d62e9f078b1f71ae3aef73f7622134b7fb77323",
+      "sha256": "ade61e4830144db99aebee309398e1c5aacbbbe6f0923f45bc35b7a0492abd92",
+      "bytes": 1243,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/tests/test_mode_to_builder_adapter.py",
+      "git_blob": "ba4a5894d62e6af5a5abdcdf530e308a39c39878",
+      "sha256": "c85f7771b6376456ff22f8f3546d3576af7c765c98c5d32ed4624d31d2e1999a",
+      "bytes": 8108,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/tests/test_receipt_writer.py",
+      "git_blob": "4ba73f4486ae9548fe600e54e2049b460f24cf69",
+      "sha256": "ec39b70df1225ac628c5d28a7478e05c35fa4ce5e6c5d798d66c2bca3216242c",
+      "bytes": 1985,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/tests/test_snapshot_verifier.py",
+      "git_blob": "4a36f4c71a10059a8d193aac403793a525fab792",
+      "sha256": "d380b96faeebce2e0577766d5a2d7ea413c168e897e4d01f43ae82aa7392670f",
+      "bytes": 2808,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/tests/test_specification_receiver.py",
+      "git_blob": "aad0190811e09706086999cb4d48a607a67ead58",
+      "sha256": "fabce7689b0b51cc768b692fc7b3c9f4a357bb1539ae9fd175589676d86e906f",
+      "bytes": 5269,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/tests/test_upgrade_pack_smoke.py",
+      "git_blob": "87392330e84daa53db631c1c13052f4a25663c3b",
+      "sha256": "d7efa0208fe299c4e0d3f22939756a0c1c56b6dc739d0cfcc36295b237ce1dfc",
+      "bytes": 2952,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/builder/tests/test_workspace_manager.py",
+      "git_blob": "05eb13536fba260eb8ed1c5b0057eca4065686c7",
+      "sha256": "f1dd42b78815992b79450b00a4bea02858660798ad6a764687f4ca19432f824e",
+      "bytes": 1521,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/clarification/clarification_engine.py",
+      "git_blob": "0efb9e2e6979d1847bdfea615634300c1ea86aa9",
+      "sha256": "b1ff225f13ea110b463e65178ad3fb506c88bf8495530e8832fc96f0569007fd",
+      "bytes": 6051,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/context/context_resolver.py",
+      "git_blob": "ff13347d4cfdb3f153cc8deb007df8cd54506095",
+      "sha256": "65d698736b405c85c939611b182baea4e4c3e7e93e3702c82b907bcad5f48e09",
+      "bytes": 3591,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/context_assembly/__init__.py",
+      "git_blob": "0ddc904e3e42b518e484456720cc77fd8f071c22",
+      "sha256": "c50b5a179aa27e56a1e49a0db07e5e1f97cc57384359ee858ac493d58647152f",
+      "bytes": 521,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/context_assembly/assembled_context.py",
+      "git_blob": "a1cf409324ebd0f2ba1a000851797c5c605ce6e4",
+      "sha256": "3f853ec4b62902db4af1f57a9b3040a5999a7c960631ba181ddaa947c286a910",
+      "bytes": 5609,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/context_assembly/context_assembler.py",
+      "git_blob": "f1167c655ee52107e0e076c04f091a849d7dd344",
+      "sha256": "1f96c871d3ae0d2b6abcce4e2cdd101bf5ec2babb2a224dcb77123cf65f2285c",
+      "bytes": 17351,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/context_orchestration/__init__.py",
+      "git_blob": "549ea28d6d8fd68205a507bcb9ea4b2cf57c83fc",
+      "sha256": "d886b08bee817a43c2c96c3c7e62d433e42198f509ce6ea4b6c376303eaecab1",
+      "bytes": 875,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/context_orchestration/context_orchestrator.py",
+      "git_blob": "8775c4af33816ca0f49d9f2e8f521b5c454e52c2",
+      "sha256": "2bf5082f302497e5a122cbf4439554f38115ca2fb0a070040360f39c03222d03",
+      "bytes": 9438,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/context_orchestration/context_source.py",
+      "git_blob": "4d378cdf5e720afd816729eff7a0939bc6f43af2",
+      "sha256": "fb77d2dbc3433d067160d7dae6346dc142c614af1fdeaa7077d197a47f6a15a7",
+      "bytes": 942,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/context_orchestration/orchestration_plan.py",
+      "git_blob": "711ab06706216bfc7ffe547f2fae903610994350",
+      "sha256": "99e06957beea1c851ea91dd1b6647297bacb2eef1c29efa00529605b1b625402",
+      "bytes": 3526,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/conversation_quality/admitted_context_preservation.py",
+      "git_blob": "5612ee9699df8d19c416bdf610bb9cf15ab1f352",
+      "sha256": "bbe65b8e99fb3ccd30a165270ed85f9b253e0719c6e1350d86070ca400a9fe2a",
+      "bytes": 6097,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/conversation_quality/conversation_quality_evaluator.py",
+      "git_blob": "b1fb053116577d4d41339d8d4a2f0de5b8aeef62",
+      "sha256": "ee470cc582814df329235348967195beb1cecdf9ce0bf0495a230af67288ec7a",
+      "bytes": 13775,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/conversation_quality/preference_grounding.py",
+      "git_blob": "1bcafa61637c232a5dbc72cd64ee36fef720587e",
+      "sha256": "8f06cf5168ecd7ea747adf7aab8ba7e261b777a20f5976448e0d75f7877ec9e1",
+      "bytes": 6606,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/conversation_quality/source_grounding.py",
+      "git_blob": "6145caceaee810ad72489a22061eb765687c98f6",
+      "sha256": "7458c5f7319709a28b74ebe027f4312b26b3a99f1897e1da9f7e018d0659c3e0",
+      "bytes": 20487,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/core/mode_controller.py",
+      "git_blob": "9c58d5ce67f89e817508a910091cebb256b20bcd",
+      "sha256": "495efd4815983948b136400c3b6d50589569ab0f5e62b65d6316d47047664bc5",
+      "bytes": 17705,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/core/utils.py",
+      "git_blob": "4574f420aba50779296cbd9e158e20951ae78dbe",
+      "sha256": "e91d55c4d374f7f1496659737a3c2304650148b427c0e364ccb3410e76e3928c",
+      "bytes": 236,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/data/model_config.json",
+      "git_blob": "630a31155ec2b7a145c55768d90de0cc457b37b9",
+      "sha256": "ad905242f95caf96dfb69a7b972f53c5d920058eefe0ead2fc124d97e707d5b0",
+      "bytes": 97,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/data_governance/__init__.py",
+      "git_blob": "12614b53d80d60eddc4fc6bd86dfbbff5abc1f64",
+      "sha256": "2923149aa2b665f5bd4fc17d271f7d32fe9a69a3fa032e4d3fcd308e0b6c45b3",
+      "bytes": 53,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/data_governance/artifact_metadata.py",
+      "git_blob": "4f9b49644848b6f0b76c5f45916cc585179dca0b",
+      "sha256": "4b71b5982f86ab1a8086b60c590a7048ab5617229db4c8dff8cca0b4b179a1a2",
+      "bytes": 3558,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/data_governance/context_admission.py",
+      "git_blob": "aed33a9be69afc0ec5e110604971ebbee6de1844",
+      "sha256": "7b9aea56d44feaeba8a9eeee498cd11f0920796e94e0f3475d5a7106fe9a8e2c",
+      "bytes": 8738,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/data_governance/custody_json.py",
+      "git_blob": "ab5f39729c38454e285ec1711c9625ca62891818",
+      "sha256": "7a6f6ec474da63485bbc301035896da9ff0d71b492eb6a84196d0b30c2386cad",
+      "bytes": 464,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/data_governance/custody_store.py",
+      "git_blob": "71b57bfc504c04abd0020098f3b14e611b750b5a",
+      "sha256": "5c873abc5d59d2f464c5f71009a065e021b853a113bfbfa9ae8a68d1f68adab9",
+      "bytes": 11463,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/data_governance/diagnostics.py",
+      "git_blob": "bfa92d3c2b64ea04f785343175e29145650cf558",
+      "sha256": "6fe270a6bdb8d77a357e9b6df4e42427b483b3f700ee7f5f1d6984f8e442ae8b",
+      "bytes": 4586,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/data_governance/document_admission.py",
+      "git_blob": "716d06744397f7dad0e04b4c55615cc7dd7decfa",
+      "sha256": "ace1379e66241624a71feba8ac46ea4c0b32d3cca3b015123437edd3de25d851",
+      "bytes": 5160,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/data_governance/learning_governance.py",
+      "git_blob": "8bb08e5f6b780283a4cf26fe03ede18f02519ca6",
+      "sha256": "79b3c8a4874ac5c36c56e5f09d5504677efff72e864dde9c6ab96a7fc540fddd",
+      "bytes": 9083,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/data_governance/material_admission.py",
+      "git_blob": "fc2362e512b94a544f654333d949a408fc1e997b",
+      "sha256": "7789dfbd65934a04e94ed4be3289edba4314de78248a41507e48671714a23bf4",
+      "bytes": 7935,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/data_governance/material_coverage.py",
+      "git_blob": "c6153507c7cc4b653a87b1445a33e854eda9031c",
+      "sha256": "030f9e31b93a888455d0e3cc104cdc67b9232f175f6fafbcfbe4af1f72c3a1df",
+      "bytes": 7619,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/data_governance/memory_governance.py",
+      "git_blob": "c45314d7eb261f984ce63b13ccec4561c5b631f7",
+      "sha256": "0a60d609654efea52aa5e8cf8e66037489dfbf2a402fbd5ffb2177e39b385ba9",
+      "bytes": 3106,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/data_governance/response_claims.py",
+      "git_blob": "06af5a0f5dc601f72ab44971b7f935d30090cddc",
+      "sha256": "bc030805bf05b5ac75c24660873c8bb941edde2abd8e9c5507bb959f330a50fe",
+      "bytes": 14086,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/data_governance/response_gate.py",
+      "git_blob": "82ffbf2af5080184774ab61e1ff8ce7727a43896",
+      "sha256": "0512dddf52ecc9603c24811c1724957199ec4bee5c8231815f9fac61931cf6ac",
+      "bytes": 13200,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/domain/domain_detector.py",
+      "git_blob": "3b1514bae3c2ad539ca047fdf3ab9bcaeff4f147",
+      "sha256": "3ea4b68dd087a88762d239e63f3ef81801326e5b106a425578ae6d97a31494a1",
+      "bytes": 2563,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/frontend/__init__.py",
+      "git_blob": "98202fe91aac3c9df0c80cb2fc4be2ec959947f2",
+      "sha256": "d923056a7972f17231ac5fc7536080ec80354e6d410901f8a4e82c5f67dc35c9",
+      "bytes": 76,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/frontend/app.js",
+      "git_blob": "6d6a136e81a1699813ce27028d3e6bab2472c3f6",
+      "sha256": "33099de03c3055092bb9cce80d08123834c1ee6f069963c0db5c4b1b24f34b23",
+      "bytes": 44456,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/frontend/index.html",
+      "git_blob": "4821b36804c71d54664739076466d3d1b5a17462",
+      "sha256": "af7c259f51ef507ed8565e98e816f58bbc343f3f9bd80ffb6a7cad604b8172aa",
+      "bytes": 3057,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/frontend/runtime_view.py",
+      "git_blob": "edb963543df9d827909f84eada970af5a52aa09a",
+      "sha256": "74a63e51d2b2acf64ccfc66c8c01a3d7d6cc1eb18d011655debbb1d4a2a7b96e",
+      "bytes": 11437,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/frontend/server.py",
+      "git_blob": "fc069acc469a26307fc99257c47bb29e82f634ac",
+      "sha256": "10fc8be66db2417d7de94c06794189d1c66a9e8e8c2cb04d58a144f880e23ea7",
+      "bytes": 11272,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/frontend/style.css",
+      "git_blob": "f44108af64a01a6362b61bbb47248973de636ddf",
+      "sha256": "a320203defff398e63c457572bf836e8cb210d17d53c2d90fdfb155d256612fa",
+      "bytes": 1602,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/input/input_kind_detector.py",
+      "git_blob": "ba7e9da333bd4c5f60329c6e0bb9611cb98794c3",
+      "sha256": "b062e531a0c2dd6feb8ad286ca6a4d0f3b70f2eeee08cc18023af7385eef303f",
+      "bytes": 3553,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/input/input_processor.py",
+      "git_blob": "3bf5572e5127266f45e095087d526984006e0472",
+      "sha256": "6fe741435a06fdba34f6a60d8f7759a6eb724d402d03e3d6d7a7038c68967be9",
+      "bytes": 949,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/integration/build_runtime.py",
+      "git_blob": "79f7599eb1b7f87271b0116ffe3dcafc736908ab",
+      "sha256": "33fbff8627e31a0d13d1afabdda0d0a7e601799a0c79dfdb4f17de2105a85f76",
+      "bytes": 31176,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/integration/builder_hooks.py",
+      "git_blob": "d2195121cf97ac70b13bac7eee4c3819d5182a6a",
+      "sha256": "9160116ed62466e5c78b5b3695ac8cc90eb9c07ab2dc14a68a8424d73b5d998d",
+      "bytes": 528,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/integration/content_custody.py",
+      "git_blob": "4162fc91f24eb377f1deee88c290b1785a94c6b3",
+      "sha256": "9deca000966653b455935bf8a09a546a9a4f9e6c47b075cace0dd1563f7fc19a",
+      "bytes": 10855,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/integration/conversation_understanding.py",
+      "git_blob": "6cdc692f1c3ba63aa812d1de9056872741184c89",
+      "sha256": "b2cdcda61980416dbd97128ee75f14e3d3db63f84ac1adcae82e3bc67dd2ea9f",
+      "bytes": 22345,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/integration/conversational_memory.py",
+      "git_blob": "16ce0dcdb72b165b777bcee32959fcffab7affb4",
+      "sha256": "b3691634e47bd8936c068e68b4d813a5ecd5b5e9daddc6c51ea0d9d69c3fc992",
+      "bytes": 2832,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/integration/interaction_learning.py",
+      "git_blob": "1bc2825c32e434c0afd781c481f11a81f07cfba8",
+      "sha256": "d29a7938154b460858316d075ea560e9621095de9c6d0bad377db720b8a1397c",
+      "bytes": 4391,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/integration/learning_capture.py",
+      "git_blob": "193d407a1c4d011517a9da0b0c5cf58b92219b42",
+      "sha256": "f430f99dcb207ec8be31b35402777de8f3e7e4bee9b7ac762356b170bfb340b8",
+      "bytes": 8519,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/integration/learning_prerequisites.py",
+      "git_blob": "8b485bd1e21f8b41310310a0e5eabf24dff7e9dc",
+      "sha256": "b3c57f7f97e17271a545f0d1062f40cb1cc042e6e0d30cf2169805fb2ed3e32b",
+      "bytes": 6975,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/integration/live_build.py",
+      "git_blob": "613b00a2ddd416c6cf7f2d422a5a01474ef3158c",
+      "sha256": "6f3ddacf5400b1633aacb6b4e03d248feb1347e1b371d5b6d5a7f0cc027643f6",
+      "bytes": 3853,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/integration/memory_commands.py",
+      "git_blob": "fcb8957362537c06f990cc3d69426e4ec44af4d5",
+      "sha256": "fc4403231176ca1730c36b60c7438967a1531cc17f7df9aa02388d861dac4210",
+      "bytes": 2073,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/integration/mode_generation.py",
+      "git_blob": "2b11fecab84ab7e2216cc63f53c0b576c9f52fea",
+      "sha256": "8b623859a657c87dffa7f8e3b8e462a543bf09c2f93f89c04e8dafd778b192ff",
+      "bytes": 6239,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/integration/mode_runtime_hooks.py",
+      "git_blob": "621d8fba0fcba85847b1b3c82020042dc1c6d353",
+      "sha256": "b5896a2ad836a5be1e7fdbe3f5d889a4250cbe06b8baae1fbb5859f03ac7f779",
+      "bytes": 2517,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/integration/objective_action_rp.py",
+      "git_blob": "55601db828e84ca718b27adbb9ed2b3551086bdd",
+      "sha256": "b99fcc34239b907a6e427e33451d44c34f6781a8812e9a93fac29ff6b683d5e5",
+      "bytes": 36808,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/integration/reality_primacy.py",
+      "git_blob": "fea84e684a8cb3f9a4470871e3f7defeeb60ad4f",
+      "sha256": "e0c9208f38ea0d4a947515e14ab0e1f25356950242beb9ed6c5d52948cc12520",
+      "bytes": 4387,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/integration/rp_evidence_state.py",
+      "git_blob": "213b2cb03dbda8ba6cc75d504bd4bb953746dff2",
+      "sha256": "ebb18a03c0a58d28c0f98bc7ae50a9fe08ce0d3e58a47a8da564cc80d823c805",
+      "bytes": 4694,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/integration/rp_process.py",
+      "git_blob": "cde02dba4955172f95dc212d8814536e34417a1f",
+      "sha256": "184584c7ecef033bbd36fd580a4e43b986bbafb2fcc4ea602bce8fdc6992fd68",
+      "bytes": 3372,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/integration/runtime_self_inspection.py",
+      "git_blob": "a0d07f2a8c254e0f3c6b5bcf73f60b5550815c05",
+      "sha256": "94572996e01aeb178b4826f1d5b686864072a7162a315a7b9609a0ef995537f0",
+      "bytes": 6415,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/integration/self_inspection_activation.py",
+      "git_blob": "3c55074a0f8aa893e14648abcf553f3cb0e791c8",
+      "sha256": "99af94d2594ed4c34d82b29455197399dd5e728f56a3dd5773cb348c12e2d6f5",
+      "bytes": 12305,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/integration/strict_json.py",
+      "git_blob": "297cc74ee4b764bbb10c7d62d2fb4721ae7f3335",
+      "sha256": "c3a1745616a43cd1b6d0470ffc1639ca385ef42dac1e41b2837f7264096680d3",
+      "bytes": 579,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/intent/intent_classifier.py",
+      "git_blob": "4ae46cd89f4ac7d7fcc86f09e0f93cac663d2f38",
+      "sha256": "c5d37b81afacc25e1d43ba823631efb43ad652ffd4000a8d6cb8e74eefe3b0be",
+      "bytes": 1417,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/intent/intent_signal_detector.py",
+      "git_blob": "73c5642c80a1b68c9f123add4857377bad29c305",
+      "sha256": "d4224f518455abc6c221882ded091233e1e7cd0ea1b00120201f50e21a6790e5",
+      "bytes": 2487,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/interactive_mode_ai.py",
+      "git_blob": "2b16fb5e237cf42b6507e5b4e7e59cc0e0636d76",
+      "sha256": "667099adcf48e592badeed8e18a7246695bbc0b7680ebdb5a1abb20504f0e330",
+      "bytes": 89957,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/knowledge/__init__.py",
+      "git_blob": "b11dd7188f0b82d11291253f0e50fb60dbbca179",
+      "sha256": "2abb48ad1334a1fa8fd1509c21fa7222bc9815607e4e66611ad18961834b900e",
+      "bytes": 364,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/knowledge/knowledge_classifier.py",
+      "git_blob": "64afd56724c13a1d70fdb3e117266bc1ba3ab017",
+      "sha256": "6f80f1875e6ba2bee7d42222a67a08ea665ea7191e0cdc839762f758da422211",
+      "bytes": 11570,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/knowledge/knowledge_domain.py",
+      "git_blob": "97fb2229f3e2b52bdc361744d5d6435aacf9d7fe",
+      "sha256": "831abfb9e86be4cf1dbd7d6ef52d8dce96e71e9390efd8382fe0e5b02e8d5df5",
+      "bytes": 634,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/knowledge/knowledge_router.py",
+      "git_blob": "57282702fc53718ae49b61a220dff369a7447b77",
+      "sha256": "1db31539a7f1eaed8afba003cb46377118997b3d6ae6d5260e88747c8ebbc6b2",
+      "bytes": 4787,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/knowledge/registry.py",
+      "git_blob": "94bea7338db04ea5ba92f49bb0c8adf66b09905d",
+      "sha256": "7efae32fbefca4af32ca622427b1f7814958cdaae2114488b27ff718553cba1f",
+      "bytes": 13811,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/knowledge/retrieval.py",
+      "git_blob": "1176312e3d242d5181176713f810c4748b3824ea",
+      "sha256": "29b068a057b5dfa5f06fc620323a638858e1813b7b30dba4566ff798accb9f12",
+      "bytes": 4266,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/knowledge/runtime_context.py",
+      "git_blob": "2f18ffbcb5d116e58185516e041ce331be19005f",
+      "sha256": "f59b7b329e47086516509dd756a0d9ff2634f9ec20dd091b854a3adcdf0bd976",
+      "bytes": 9082,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/learning/__init__.py",
+      "git_blob": "051dee6bb8ef8150294f3ce2d0d49ef33ca23169",
+      "sha256": "824cea42a09b62e093a606bfcc077eb5615bab17465ca7a8c7e45c96be216e37",
+      "bytes": 130,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/learning/architecture_changes.py",
+      "git_blob": "a571bd467a9a7b8cc20f415f399c3adc7014e12c",
+      "sha256": "4047a0f58ab71a88efa716bd36993c1b660b86524d655d8b879d958e64006187",
+      "bytes": 8318,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/learning/canonical.py",
+      "git_blob": "817b5395bd9f306f7eb8c8bc3eb0070db2c440cd",
+      "sha256": "1dfa627465b0750ff97da267532de64b1c80e1d16fde27b0e6adee19011b316c",
+      "bytes": 2833,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/learning/conflicts.py",
+      "git_blob": "a1e285264714e3b4c19ee1f690cf4e0037745318",
+      "sha256": "46e39b92bfaead6fc2fc891c7551d6d86fb3a7643c936bcaaf31ac08ece4b303",
+      "bytes": 3960,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/learning/contracts.py",
+      "git_blob": "c2545f870449ea236489f659e2cea1ff11589f2e",
+      "sha256": "4e5eee05a6093395f9eb9ea269255cbd2cad17866f7fa80b3fc3ee6dea85b294",
+      "bytes": 3293,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/learning/corrective.py",
+      "git_blob": "d516d3f56ada44bff2ef21fa2df545cc1d30d538",
+      "sha256": "54393107a6cd7ccca66f3b9d8133672daae8c495f2c39c42c5abcb83033cee38",
+      "bytes": 4124,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/learning/relationships.py",
+      "git_blob": "4aa05167e1b8f85e3580db10c204411904c91fb3",
+      "sha256": "24165fddd09ddf8ea3f5980aac50f682b9ebf611beeb00a8c19e7d567d8628e0",
+      "bytes": 8492,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/learning/revalidation_sources.py",
+      "git_blob": "e1f817f3a662d1cc070cb05c4fc988e0b742341c",
+      "sha256": "1ab4b3f4d544dc98ff4523c82313eb368b515f5f9f3f2a53592d898758f102f5",
+      "bytes": 2744,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/learning/runtime.py",
+      "git_blob": "f9840c6b8f98815c1054c266053792e7aa680cf3",
+      "sha256": "82c39af79216db26e4fa22eae9fda0d5bf2a14d3f3be58d8c600ed039dd3edfe",
+      "bytes": 9596,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/learning/service.py",
+      "git_blob": "db2b59594677722ea7254ba9bb79863a2cd973cc",
+      "sha256": "94106875f29fb689fc8d3ff6a21e4921da423f5fb47328c5a1f1983b43abac83",
+      "bytes": 27232,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/learning/store.py",
+      "git_blob": "f20eda27e4e625c5cc50f5ea892bb711ab2e6023",
+      "sha256": "a10b49db729cf5384b1638ddefa0fc7a6e83cd4f6473db6f7a54af1ba4facc20",
+      "bytes": 13522,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/manifest/interaction_manifest.py",
+      "git_blob": "d233b0e86781e3ae45dda01137f96dd1589a823c",
+      "sha256": "296c6c97242b10087324e688529747f297a1281c421bb1f0e08e2a1c17427e7b",
+      "bytes": 2646,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/manifest/manifest_builder.py",
+      "git_blob": "052f7c41c3b298ed111566c0f069b8ade46e61ef",
+      "sha256": "6770bb522cb5de12dccc654e3a3663f29d9ee6d2e72228b53f5c711693ef25d9",
+      "bytes": 3673,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/memory/thread_memory.py",
+      "git_blob": "d0c7cb20f7d400e9eb1a252bd47d0a82c1b14bc1",
+      "sha256": "7a456da191fdadacd37b20d0a57ef42810cd6415e8230e8838c0fe9a83babfe8",
+      "bytes": 5417,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/memory/thread_runtime.py",
+      "git_blob": "6aa1ad10c73889f8bcafa4a32b57626760968605",
+      "sha256": "2d44d0a6e8c2341e34c6eeb2124cfc3db9665ace8a0b54c64626ce57d874f811",
+      "bytes": 3244,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/memory/thread_store.py",
+      "git_blob": "538009662bc1aeb9a95f13a9d781d5fb184fc719",
+      "sha256": "e57cc7062169cba3a3bd8298f58415a6a65e81409f26c76e8ea90428588cefed",
+      "bytes": 7954,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/memory/vault.py",
+      "git_blob": "85fd5ce44bbf135d6936c18accd14a78d2169780",
+      "sha256": "f9e0faeb1ada5372fc7e85ad63dfe8623dde2bc72b1fe05e403747ec8030a02c",
+      "bytes": 3659,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/memory/vault_context.py",
+      "git_blob": "6e9b113c1a4a5e0a2a32673518e05ee3c2a0cab2",
+      "sha256": "013819211d0022099ef4c270d250aaab702d37dc1177fcb64232e44fdb30d568",
+      "bytes": 2871,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/mode/mode_resolution_engine.py",
+      "git_blob": "2b731a2b411929f7307028116dc07506e22c3ccd",
+      "sha256": "1c3ac1adb6bd11a892cbb677b0919a11994c307ed5e7de53fdb5151cae495043",
+      "bytes": 1316,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/mode_operator/operator_domain_requirements.py",
+      "git_blob": "ad206be5c24be3400c3f9094f40ed023bda92bc0",
+      "sha256": "099c1fb515858d4aa5214191d503757c971ecb11a6e74635b7c0538c179fc25e",
+      "bytes": 7139,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/mode_operator/operator_identity.py",
+      "git_blob": "b1daefc2cd531df987d9f40702884789707fd888",
+      "sha256": "f8a218b6f45b4fbe66499f0ab43749d1da2018dd981b8e1ab523a2204d55f09a",
+      "bytes": 1022,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/mode_operator/operator_profile.py",
+      "git_blob": "588504f7db89cbf46f4f0fc02a67386296a920d2",
+      "sha256": "ff4a2bded3a178a2b760de3232f4b887bda15dc9fb4f1ff26b12fc6a1fa6eebf",
+      "bytes": 6663,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/mode_operator/operator_requirement_engine.py",
+      "git_blob": "911c22bfc7d88f8e62dd4d1522926de36628d764",
+      "sha256": "decfa47f4d7dc9d4f13a38bc7d8129a9eb98765b1f68a8644e3700eaa1a9708e",
+      "bytes": 7152,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/mode_operator/operator_requirement_models.py",
+      "git_blob": "6cbea099091827d696c0f11568c706b62cce5281",
+      "sha256": "d0e53bebc87db91798f9d224c598c488adbafb6de0a5e33940f16e6a2b8d31ef",
+      "bytes": 3817,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/mode_operator/operator_store.py",
+      "git_blob": "f436710ebd82b5b54bf58b049730a1fde918a418",
+      "sha256": "284cef8220a6f636c44a09b5b3c6edd4d3cd3b5eb969ad1f1e2ab2ad60376079",
+      "bytes": 8372,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/models/runtime_models.py",
+      "git_blob": "6c2c444d7610b5f830ba2db38ece39bb7c201823",
+      "sha256": "a4fa7f6a768d7256535748e6f5b9284ea27812dcd4a96779f1022e38b107045d",
+      "bytes": 17369,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/onboarding/onboarding_engine.py",
+      "git_blob": "d9290e051c9af84976ce670c5fc3cdb07dc1d30a",
+      "sha256": "6594df1f2030d6d3d8b37c06a0a1a4edcddb19b45f60de7883372adb34c80c4c",
+      "bytes": 3987,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/onboarding/onboarding_state.py",
+      "git_blob": "63ea28efe65c3157827a58a5f3a9290aa84a024f",
+      "sha256": "977a519769f44c253db1db3514cf42a5196a0f8c80161e9c8e75ab305af5e32c",
+      "bytes": 1457,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/onboarding/runtime.py",
+      "git_blob": "b077bf85f6d4bbb78bbf0d703502c3b51cc39de2",
+      "sha256": "26d2cb960749f150f6d29c5b9a41a9ce0932e893a59921b3d37501619170118f",
+      "bytes": 2894,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/outcome_analysis/__init__.py",
+      "git_blob": "3587d6fa889d55a82c4c4cb54a1931f6daa8b0a6",
+      "sha256": "18678c7b193b7afc855ebc24aa1e20a9cfbb22d74955070490354b945d1c8e74",
+      "bytes": 66,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/outcome_analysis/engine.py",
+      "git_blob": "48d6d19ce7968f4a28ba04cbfda8880a1da752c0",
+      "sha256": "4072de1dd7fc0715f75f93e945d6fa9f5ce3be934552fabc721a158531afae3f",
+      "bytes": 6474,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/persistent_memory/__init__.py",
+      "git_blob": "4b4b2eb0c42c3428953b1af2a941884aa279341f",
+      "sha256": "3066af8345b085da7a01b6583a64980a81aef3eb308c71cbeefae29db709529f",
+      "bytes": 2696,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/persistent_memory/learning_gateway.py",
+      "git_blob": "bcbcf822c97a68380b07d6d132171300b05f425c",
+      "sha256": "783e6dae58b9878677cf7463331c4a0420e47d2deb8abb24c13a3f5b8a5ce0dd",
+      "bytes": 4974,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/persistent_memory/operator_requests.py",
+      "git_blob": "665a0e4fbee25e8faf217627df81dcb060db60d2",
+      "sha256": "e1255156477328578057995cdb09b7f08edb0b8c86c1c66fdc020bc5540d4943",
+      "bytes": 1281,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/persistent_memory/persistent_memory_manager.py",
+      "git_blob": "fb250c0f85dd8aa670f6828b78e3a47f72c2ee7b",
+      "sha256": "18333d4c12a86057fc9a541174dc052e9285d8e64e5396ea69ec3168b2aeb4f2",
+      "bytes": 34285,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/persistent_memory/persistent_memory_policy.py",
+      "git_blob": "c91128102651e384e03937a6e1506ad7c1cbefc8",
+      "sha256": "e8dd2b2539d785ef6bfafe8de629705866e81e011640f663dd5a4e194c9e8e82",
+      "bytes": 15455,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/persistent_memory/persistent_memory_record.py",
+      "git_blob": "3da3f57c4154f05df57acb5dec35859e07458828",
+      "sha256": "33b63ebde250fdf81a93e3ec2594c244e585b8ddee1a8e281408a6db9cd43d73",
+      "bytes": 14755,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/persistent_memory/persistent_memory_store.py",
+      "git_blob": "9fa599257b38783da45d2c45e8ad37a634104b9d",
+      "sha256": "480adfa8e5c9d98aca49d7a57af965ecd501fd5cd996244294799dc4707a2827",
+      "bytes": 14464,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/persistent_memory/tests/test_memory_consent.py",
+      "git_blob": "57f56e821c5e157042b70bd0198133eece6041cb",
+      "sha256": "e20b249cb73762d0dfb7ff6196c00f38834ce39627683f1378532ec10514bf89",
+      "bytes": 4922,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/persistent_memory/tests/test_memory_injection.py",
+      "git_blob": "a354a23055723bb695fbd58c122c9afa2e651c2c",
+      "sha256": "bca400e8b0d275e7e285138cf047a6cfef206ac4fa334a6f60597f7e3e1bc036",
+      "bytes": 10443,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/posture/response_posture_engine.py",
+      "git_blob": "12d2968e5158f62b34e501ce40098b728dc91396",
+      "sha256": "5b09a9d08712fe9ff95bccd0a2dbcdafeb2bdd6ff35eb047559c42c4b08fd3f1",
+      "bytes": 1470,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/pressure/pressure_detector.py",
+      "git_blob": "e67a4d863d61fc6bdea77bc8b591590e12a3fd8c",
+      "sha256": "90551f72c100ea2ac3b07192f4b38415a7278e4dcac5a4cf479c3389d9f370a4",
+      "bytes": 8970,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/pytest-offline.ini",
+      "git_blob": "80ba9ba2148c6fd50d4b0d9b3ab4f62294d77d09",
+      "sha256": "0a474c12d78aefe856e1dfcb17a55b685df6b49f571de621c34a118229fa4b22",
+      "bytes": 498,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/requirements-bridge.txt",
+      "git_blob": "8cad5051548e86f7ad151723c788dc7fcba540ac",
+      "sha256": "494fc9f73b51be977ccaeff6d3316568cb6213f601f5eca6f470fe2c84d9961a",
+      "bytes": 187,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/requirements-media.txt",
+      "git_blob": "0c338314d14302e131677c5fc9d504ea4ccededa",
+      "sha256": "499196b5be0d2666a311f73025b6d068f76f6f53f70d413008db29156200fdba",
+      "bytes": 52,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/requirements-test.txt",
+      "git_blob": "4b0c9988f7e4675367deca0c10b2e40c314427b3",
+      "sha256": "91a516e9112ded154b4f25aeab72767a6a541d258f4443d53aa7b38108389404",
+      "bytes": 36,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/requirements.txt",
+      "git_blob": "9e672eec5f1144f30c5c763c2398ec7c87a928fa",
+      "sha256": "532cf0dd00f5751efc8371521125c25c52e54f5cbc16d34ac442ab4f73c6ed5d",
+      "bytes": 168,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/run_session_6.py",
+      "git_blob": "aa76dbcac9cb924ff78981e0fd5a77fc8af88cd7",
+      "sha256": "57a5e43c632c90bb0f33d3d31e21c6b4dc46fac15f11d9cd5bbfa8844d57e92d",
+      "bytes": 4224,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/runtime_assessment/__init__.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/runtime_assessment/assessment_builder.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/runtime_assessment/assessment_engine.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/runtime_assessment/assessment_export.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/runtime_assessment/assessment_policy.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/runtime_assessment/assessment_record.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/runtime_assessment/assessment_store.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/runtime_assessment/models.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/runtime_demo.py",
+      "git_blob": "ead2a892afbf4306d8ef3af3d65cf0247d8f6f3a",
+      "sha256": "578decf8916cf8ec36fa51bc360ff7a4ae9660918ced1b5885ded678a987e09b",
+      "bytes": 3035,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/runtime_economics/__init__.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/runtime_economics/economic_telemetry_store.py",
+      "git_blob": "172bc411bf6ae8c990bac6ef1e1968d200a5f60c",
+      "sha256": "fbb4aaffe830f50f40ea6215857f166048946a56601d6db5141bb85027d59664",
+      "bytes": 2000,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/runtime_economics/provider_request_telemetry.py",
+      "git_blob": "c091e19f093e46ec1a2a0eff51c904d830bcae34",
+      "sha256": "42cb6240cac8429896cd2013e36546379af8eb068f882295032738a669124af0",
+      "bytes": 2264,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/runtime_logging/response_logger.py",
+      "git_blob": "75cc6ccacdd03a6a9f5981dec18187ac77ba603d",
+      "sha256": "f607949d9332805f9a867c22989e65a59995c502a62859d23484774d53c0594c",
+      "bytes": 2854,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/runtime_logging/trace_logger.py",
+      "git_blob": "80743a809cfc03912e7bdc12d5d80a5bd7cb30a7",
+      "sha256": "617e81c4d298b95feef1b4081f8a54ddfecc98f269b4abdedaf8a2a4c29a5387",
+      "bytes": 4368,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/runtime_observation/__init__.py",
+      "git_blob": "acec8af0ca52187a29ae7d93ffbe9062b8c4ae6f",
+      "sha256": "a41f927d1858cd0fa84b82388df4207132960b3ba4fc5e1a1b2519080442eac4",
+      "bytes": 1732,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/runtime_observation/audio_inspection.py",
+      "git_blob": "e12b1b39ff874a1438b0e7f5bf184e06bf0852a0",
+      "sha256": "0f0b0a1e418cc9800f0bbf5b1146a7f79e1527784d4d4d6cccc00751e67c4626",
+      "bytes": 2512,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/runtime_observation/capability_ledger.py",
+      "git_blob": "1306038269222c50d9cc24dff5668f575fd4bb22",
+      "sha256": "ebff90bb130a3286aaac142b7bcf56888b7e5caa2d5f7dd5bb93b114b5cb9caa",
+      "bytes": 12759,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/runtime_observation/evidence_ledger.py",
+      "git_blob": "75d2638ecfc1114401d05abcfe40be8de1d3eae0",
+      "sha256": "4b4b96525f79d03c8044294f20c961589d78a950f6e0cc17a681612070a63886",
+      "bytes": 18032,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/runtime_observation/frame_inspection.py",
+      "git_blob": "6a9a74e4d59194f8c3efe8569eef1e48349719f9",
+      "sha256": "9b711637652f784e1ab383f49957a9e42922235865ea12844b11161138a5e76d",
+      "bytes": 3975,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/runtime_observation/inspection_coverage.py",
+      "git_blob": "d9f7e689d3abace70960f09a24954b4e5d1bb2a6",
+      "sha256": "0839dc5a5d5197f777fcabc523dc1f728af8b8bd339f44ab0cdb8905e59dfbe9",
+      "bytes": 12017,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/runtime_observation/inspection_target.py",
+      "git_blob": "43afcdd08472e1c3964d9e6498888e4a9224743f",
+      "sha256": "067a43d72dfefe0d54110b4771c48e5da9338359ef0cfd018c0021caa280246f",
+      "bytes": 13007,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/runtime_observation/interaction_inspection.py",
+      "git_blob": "45e303c781cc1d04e8867740a592a16147f8aead",
+      "sha256": "f7f5daf42af9596fe27560704f4c19f2ea20a6b32c121b4338f922f78e8f8dcf",
+      "bytes": 10529,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/runtime_observation/learning_inspection.py",
+      "git_blob": "74a7d074579c93619c6ff17b590a48dd0d2ca83d",
+      "sha256": "b102a5d8763dc7aed2d232e1c7b012b9ab731e7a19eac171638f21560b13bb82",
+      "bytes": 18986,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/runtime_observation/materiality_contract.py",
+      "git_blob": "25d26e9d30aa2cb2ba70a649e0258b0ca08d1777",
+      "sha256": "2feff43a6163a315014175ada1054ef9ee0c0f1694259989e99327407999e1f8",
+      "bytes": 4766,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/runtime_observation/observation_builder.py",
+      "git_blob": "2ba677e0327676c9b04173bb604300b751708804",
+      "sha256": "6e99144b78af3e317efeed3fd469cb6e1bfb7454b6831ff67e27eba49a8ee341",
+      "bytes": 10930,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/runtime_observation/observation_classifier.py",
+      "git_blob": "97afa32f10c4ad0becf712a776ef7562ae450db7",
+      "sha256": "26522b9a576b6560edfbcaa119a9a304183749a2704bdbbdccb1e312d360f30b",
+      "bytes": 9370,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/runtime_observation/observation_collector.py",
+      "git_blob": "db2379459853bb71b9186be7ed8131b39ca3301c",
+      "sha256": "c3a8189e5fa9d49d7bdd6da60452bde919da366351f289bd5b54808b021fdc66",
+      "bytes": 18974,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/runtime_observation/observation_record.py",
+      "git_blob": "d272b1ea05d57d1d68aa02559f1a99100ab8164a",
+      "sha256": "6774eec6a62879b94b52e29595313b0f5a475ea0f209700da0ea979e7dbf9466",
+      "bytes": 24190,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/runtime_observation/observation_store.py",
+      "git_blob": "5a5621ea2b26e979d574a45cc55c032c0488562b",
+      "sha256": "971b4b93405b6c4975d076ef6925face8e1843b559216c43c6df142f47695864",
+      "bytes": 10118,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/runtime_observation/tests/test_observation_v32.py",
+      "git_blob": "cfc4ecf6b448a8c5574996c9bb06223e04af85c9",
+      "sha256": "b33461dc4663a2039e4773d213a5cf6d4e1cc0eafb7731a1eff926f42108e50f",
+      "bytes": 21857,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/runtime_observation/transformation_provenance.py",
+      "git_blob": "06c856295adca1e447b1d57953718589d3efbed5",
+      "sha256": "2ce13740af18d9e5fe5340c9fc9c0d4556859e6c1b79fd5b6504d9f9046d37cc",
+      "bytes": 5416,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/runtime_state/pending_action.py",
+      "git_blob": "44065d016d68276c09d98a19d2b590b805f27886",
+      "sha256": "251d1f4a46b5d9abc9591f5a0e0114088334a121c6be7a8b583e629b1f66ed4d",
+      "bytes": 698,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/runtime_state/pending_action_router.py",
+      "git_blob": "7eb597e2d83a8551b9eb8bff0557f91fe62ec1f6",
+      "sha256": "964b39debcd28326e6068a8d5a5efe77172337bfed19883d354a606de3de930b",
+      "bytes": 1404,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/specs/build_target_resolver.py",
+      "git_blob": "898f669669410ca3732454acedf9baafba6cccd0",
+      "sha256": "d46503c270b6e53924a4bce2c7037c8cd2ea4eb488d26b15b4479a6fc2925922",
+      "bytes": 5217,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/specs/cinematic_specification.py",
+      "git_blob": "b8e4b4583dacc456eef0f19e0a549ab0e0b9766b",
+      "sha256": "cd235a596c38e94e4f79b2e9f6649e27a0e4963922070b9626e1ef8fd5c218f8",
+      "bytes": 10336,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/specs/conversation_specification.py",
+      "git_blob": "ddcd24667ecb0cab9a7da3c8007787a9e0ce1729",
+      "sha256": "ce8df75a856206e15c924dbf0132d5459625ded6c46414dc26fff8578e9cb33d",
+      "bytes": 5976,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/specs/document_authority.py",
+      "git_blob": "9d7976eb8095e96da79bccd904858d984f918d92",
+      "sha256": "1f903a2d330eee2928a960a54fd22c14cd84c21b8b989d50c3177e4e3b2ab438",
+      "bytes": 3516,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/specs/document_extraction.py",
+      "git_blob": "6d2c6dce9a68c3fa362be9cec8b972f997996bb6",
+      "sha256": "97ba98bd9e696a8d26d393050c76f8839ef57cfdb346cc6f8adc5ad45b074a4c",
+      "bytes": 7456,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/specs/document_service.py",
+      "git_blob": "68a5ba2abdd7f5ba0a1a197f780574f931c0a6ec",
+      "sha256": "2eeeace4f9445adf2dd123c87b312ec8394255e0405ccf0ba6d264ce4341a33d",
+      "bytes": 22434,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/specs/document_understanding.py",
+      "git_blob": "32a90cfbf78e2f915a3e00aef9245f519bbe703c",
+      "sha256": "e9963dcc61324c475e40a1a8c3c54ad4a2a5c66ad74dd656eda9f9cc8db429e6",
+      "bytes": 3796,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/specs/handoff_gate.py",
+      "git_blob": "4e0d9e912da5ed5b131c2ca49a51250e488379ab",
+      "sha256": "4c33488583572bfdec786369525aa8c54a1c887781054b8ddfcaebdfb065f756",
+      "bytes": 6672,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/specs/spec_engine.py",
+      "git_blob": "d62de19f50058635c83154cf4834a3a373399a66",
+      "sha256": "7537f6d64ea580ee364d71d273801a04f0f0a07970680faf43614efbe137ccff",
+      "bytes": 15240,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/specs/spec_snapshot.py",
+      "git_blob": "9ac099718c10b01eb5fd43dc6493b81c01887bb5",
+      "sha256": "9671d14ddf88c4276a0ab2e68466aec690b9fff27fe30a40a89a1765e401478b",
+      "bytes": 6198,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/specs/spec_validator.py",
+      "git_blob": "e7e1bdb6764fb018bb450cb6d8f66c15a2abce4c",
+      "sha256": "c44e011638f359857a4d533d313e48e14ddfde1c6156c36bc579fae2a696ad29",
+      "bytes": 14903,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/specs/tests/test_build_target_resolver.py",
+      "git_blob": "ec77dd3179a9f08ccbab46a57f3b34e5a20e5aba",
+      "sha256": "4772521d2e15837b6f5868e4c416075c7432c20e8c6e581f3444f8cfe909d759",
+      "bytes": 5604,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/specs/tests/test_handoff_gate.py",
+      "git_blob": "9135ac879a75c093c143190aa83f23004098223e",
+      "sha256": "ed1887bd5a834f7bd5563dc072f8d955f2779dcb758eda2d71c326ea72c8e285",
+      "bytes": 7558,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/specs/tests/test_spec_engine.py",
+      "git_blob": "84bdb71ea47729dc4242090b0e8ee24ced4c2028",
+      "sha256": "9ceae0cc7b68f59486880a17b0645a0719c00d3c52de3d4c79581d194b2bae6b",
+      "bytes": 11906,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/specs/tests/test_spec_snapshot.py",
+      "git_blob": "552cd3e388d07434f6ff52f1f5bd4baabb6c8fcc",
+      "sha256": "7c35c722edc15f97846a974b222b040ea15f3363d02ef7cbbf33151bbeaf58ea",
+      "bytes": 5152,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/specs/tests/test_spec_validator.py",
+      "git_blob": "9397530485169891cdfee4513255e4de9f23e5fd",
+      "sha256": "2ea3059421904595b5d1d9046a22bfa81b9642470766249d426b890ce426e4d4",
+      "bytes": 6279,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/specs/tests/test_validator_result.py",
+      "git_blob": "2e6c61d21ef37235eeaba1725ebd9da695f1e0e2",
+      "sha256": "d58df38a23ba244acba46ba069efc163db857467c5b532aef62784dac246dced",
+      "bytes": 3173,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/specs/validator_result.py",
+      "git_blob": "f435d4b48b5124fb4bec007476c977cd660b66a0",
+      "sha256": "5e63ef20d12281a13866d5db56b665bd57ce6f34c24c7393df853c7f77bca678",
+      "bytes": 4676,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/stability/interpretation_stability_engine.py",
+      "git_blob": "c9e19ba3abe8aa3fad5fae26da684184e1f82e70",
+      "sha256": "004a7ad29a4e8f406eef02f4e423c2c0cf39869b5a5b2bc8d4c1bfea91113923",
+      "bytes": 1741,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/stability/operator_alignment_engine.py",
+      "git_blob": "d6866a64470007974f572d5c32d9df21205056e8",
+      "sha256": "22a5a1316826608877ab12d156be02fe4dffabbde6e6a285364134e6339b2363",
+      "bytes": 946,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/supervisor_bridge/__init__.py",
+      "git_blob": "93886ad83976b9ff4e749e0eaadb9b4d3e9d7d97",
+      "sha256": "ea8f0ad4a9ddbddec6b96ba6e5a92f3927d978c12d4e4293a6ffdcf4f8a79222",
+      "bytes": 345,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/supervisor_bridge/api.py",
+      "git_blob": "ef4d2b4f477025e76dda3c3fb4a2b371024cc738",
+      "sha256": "1226aa433dc15c876a85f884da5b72e8516621fa7125f9cb048cbdfcdd39546f",
+      "bytes": 5631,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/supervisor_bridge/app.py",
+      "git_blob": "43b5026bc47b2b0060c7808523d7dc4d81f32fb3",
+      "sha256": "33333db1085c1d4b9bfa7ca32b5ffce9c965cfd89a9d5bba8185af86596f2a97",
+      "bytes": 367,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/supervisor_bridge/auth.py",
+      "git_blob": "7fbaee7d0cf71c48d84851e3c0ffc78b4e48bbed",
+      "sha256": "f955b49882da993629ebc51e682b2eb447ff97ff6f89cfab7cacb3b5c02719c4",
+      "bytes": 692,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/supervisor_bridge/builder_adapter.py",
+      "git_blob": "a408f8ff5d80027361e862f9534321bcb3816cd5",
+      "sha256": "a4fa974bfb78e14262a7c9c54169cc6a309ef3d8b85eebf3c49f46434b119c94",
+      "bytes": 739,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/supervisor_bridge/command_store.py",
+      "git_blob": "80817cf16815bc690261bf6801fd63ebbd6e06c6",
+      "sha256": "d025dff89140a8b0bfe8a8fcf8f88f042ebfe0eb9ca138904c809491befb08a8",
+      "bytes": 1457,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/supervisor_bridge/config.py",
+      "git_blob": "277809d945c4f25725ba35910cbf8ae58fc4834a",
+      "sha256": "bb71e1f9bfdd78656bbd1b5898ea780a5c8e814a490f5805c4726e00b1be231e",
+      "bytes": 720,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/supervisor_bridge/database.py",
+      "git_blob": "527b320e3bcdade1efb7190100f56a47ad6b5ff1",
+      "sha256": "fa1488676f850968fae29ef3996c50d007bfb425afa45b33c7ef027498066641",
+      "bytes": 3308,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/supervisor_bridge/errors.py",
+      "git_blob": "06237741d816e964b56148329ecad9b3ffd372a8",
+      "sha256": "5c01bb84ce836a247af9e5ecacc0f942b8ef2557ca46f23b4a11b2fdee6c8bfa",
+      "bytes": 274,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/supervisor_bridge/event_store.py",
+      "git_blob": "3edcbb06400a4d72cac0439d036ccadaaf53e063",
+      "sha256": "a113fd384f7662b465fa022500af2a489f6ac2ed30912d8895f15a3d43c60f1d",
+      "bytes": 2727,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/supervisor_bridge/message_store.py",
+      "git_blob": "c053bb41d594e9b1ce83db7540f483eeb6a5a6c9",
+      "sha256": "934958d40bb763afb41ca90436afae5d8aa905dadd7d4896407d7103ef774833",
+      "bytes": 3487,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/supervisor_bridge/mode_adapter.py",
+      "git_blob": "669ae630beafd63da488aa8a2aed47ab99984428",
+      "sha256": "d95c3611d46a31ee2bb7730aae6c877cba5706dfed2378d8a6c5333b0c30b2b8",
+      "bytes": 7068,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/supervisor_bridge/mode_to_builder_adapter.py",
+      "git_blob": "3f0c9b442ac0221ab8b8477da1149e61ea60513b",
+      "sha256": "ce9b0b37595e03da8208c40398d5227ccaee5bc5e5c712e3b8eb35599fc634a6",
+      "bytes": 7272,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/supervisor_bridge/models.py",
+      "git_blob": "9ebe8fd0b31b46c80db6628d6419c2d78b727093",
+      "sha256": "db9345470eead02d263b34a756d1bce83a7970bef150cde76eb1c870c9c23636",
+      "bytes": 2871,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/supervisor_bridge/repository_reader.py",
+      "git_blob": "e3de7687e0ef571f275c28d642cc677ff315a2c1",
+      "sha256": "eaa5321a02d3a059c8ea9229de9b9233c96af45a3de2fbf960a4ebeef9b0edc6",
+      "bytes": 33137,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/supervisor_bridge/response_service.py",
+      "git_blob": "e2c63762ade7bcef5aefae16fc28a9b6c7dd3e34",
+      "sha256": "a2565d1b453d490f0aeaf5ed432527c6b45a53d8111e568a3f8be1fa867e5f23",
+      "bytes": 727,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/supervisor_bridge/schema.sql",
+      "git_blob": "15f7878b734dd51a623eb6dc9a772aa9ed0432fc",
+      "sha256": "cbf77cf9ec3c0ba25c2a023a79bdea97659c5bc656c611100298ba1332f17472",
+      "bytes": 2385,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/supervisor_bridge/service.py",
+      "git_blob": "63ac9998cf4c2fdef1cfc967ae6c90238d6fd2f1",
+      "sha256": "5de817791de48aa31b033d9445e49d3346b567522c908521d10cb9c6be7bee2b",
+      "bytes": 1632,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/supervisor_bridge/state_service.py",
+      "git_blob": "f1d6f7b272e777649c84131f9d8f055fe8177e9c",
+      "sha256": "00a0106fa85d88c44f4a81babf55636f96550107bf372ff78072056ab38f8c85",
+      "bytes": 398,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/supervisor_bridge/supervisor_service.py",
+      "git_blob": "d04fd0bb097abe0471a240446065689791ee620a",
+      "sha256": "63d4c680aa8219011b86356057c6930c4ed97d8116916b2ae344d46fa035b69f",
+      "bytes": 1575,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/supervisor_bridge/task_store.py",
+      "git_blob": "9a5819a988a1f0b796b4d22f91b2f72c1aaa027e",
+      "sha256": "154215f89b9b86afec56fe6871bc8184516bfc01f90b1f3d6d12f3adf0b7e6b4",
+      "bytes": 4625,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/supervisor_bridge/tests/test_message_claims.py",
+      "git_blob": "3e7771ebc384e81a4086b08073910f135b20ffd5",
+      "sha256": "59ac752361eb41624ff86187b99921de8205686c3afa398606afc3bace7f4e48",
+      "bytes": 4567,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/supervisor_bridge/websocket_manager.py",
+      "git_blob": "24d98e988484e87efb017d1c10e04937ae84343f",
+      "sha256": "43f54772cbaeff5950bf531f41d3be94340dce6d809d0285323a7615a967026f",
+      "bytes": 1053,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/system_layer/__init__.py",
+      "git_blob": "e9e59f7a8a112874f66002b85ba2d0e1389fa2d8",
+      "sha256": "a9326175a3fe7020644cae9b7986fcb7e6fc99d1f942c90cb5804e40be8a927d",
+      "bytes": 293,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/system_layer/audit/__init__.py",
+      "git_blob": "e50ed4bbddba9f2e1ca4066c72f92bcc2b5368c7",
+      "sha256": "39d9d7a2240d2c492f1dd3e7e7ab1b36c70895c6635a5a340c95c2e4c2ea9c3e",
+      "bytes": 82,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/system_layer/audit/operation_source_binding.py",
+      "git_blob": "303c3149d89430a04f8859b1ccbcb10db9923318",
+      "sha256": "8dcc2ef63494290d65adc901821c96b2e4b173ef9d685b945460b72c67d0766e",
+      "bytes": 3571,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/system_layer/audit/operational_understanding_validator.py",
+      "git_blob": "74d740437cb7f6d753f896b9e194ce1867e8b33c",
+      "sha256": "96b83aa7ec7e40d7ef1c0e5229e3a6af1ce39ec91f374bd70ea6f5b94591eef2",
+      "bytes": 4043,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/system_layer/audit/python_interfaces.py",
+      "git_blob": "3c80b6113fee173a9b4e0401ae5415d8e0d186de",
+      "sha256": "d80bc846e1b26a818c333f7a7636991e9bec6dec21a67b05e04a86e0b4f042b0",
+      "bytes": 2213,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/system_layer/audit/source_discovery.py",
+      "git_blob": "3eee38549cfee97c3efd65a83384c9c28461c8eb",
+      "sha256": "21e50fc8fbfc132d32f3e3d51701c0a15cc7c18425f6bce537e979862733fc83",
+      "bytes": 3543,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/system_layer/audit/structural_inventory_auditor.py",
+      "git_blob": "f8df6e554d0d1606637db421ad24501fcc988bcb",
+      "sha256": "f299ef96ec77840f9e1792edbe72bb5b5353e1a29eb2aa76245ad9619fb71d38",
+      "bytes": 7131,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/system_layer/audit/unreal_structure.py",
+      "git_blob": "573699828dd57b1cac2497f6c220473888a4bc74",
+      "sha256": "fb9a53276dacf70bee310d94fda780855d0fef227cc1a8d9385072ea02d7a453",
+      "bytes": 4611,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/system_layer/capabilities/__init__.py",
+      "git_blob": "210d32d3c26d7122f162a9adf8148ce5d164fb41",
+      "sha256": "bbf5c14f12d84415bd367e1671ea3b407cedd274ae72028e759ace0628664a78",
+      "bytes": 157,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/system_layer/capability_inspection.py",
+      "git_blob": "3cb75c5ac2344de902ac56f5ba15d46b8036cb68",
+      "sha256": "a119eeee59f15cf4dcf5592bc5575c953f83aa32e50eed380e69d83ee9ca50bc",
+      "bytes": 12911,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/system_layer/chain/__init__.py",
+      "git_blob": "0116d59189bc7c98d7f8792444c56656ced81715",
+      "sha256": "ac7a850c59d52c3a4b1a207f64f60477c4d554753f8e33882579db93980fe76a",
+      "bytes": 4369,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/system_layer/contracts.py",
+      "git_blob": "b58f0594307f9bf17af917988c1b1a52603e385c",
+      "sha256": "8fbec3eeeb3c8d97a2efffe7383de918b5fc2522e67d56ad724fe0134e510d5b",
+      "bytes": 10192,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/system_layer/creation/__init__.py",
+      "git_blob": "e3c1da44af57b88e5b6b57a0eff1fce6e131f3aa",
+      "sha256": "75f5e27568cd82a487c2130275737848b5dab82d13e8c23e81c3194134733cd0",
+      "bytes": 187,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/system_layer/creation/service.py",
+      "git_blob": "a8e651a1d5606f4e5ca2c5f9d91e00a33357045f",
+      "sha256": "4207d4762b611892119c31489bf53a08bddb8c977d2d866b9b7956201955e22d",
+      "bytes": 48979,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/system_layer/identity/__init__.py",
+      "git_blob": "39b5a14b79f7f3fe95b06ebfdff1f6b3f9267a63",
+      "sha256": "263540e495041cda1bf176019a8ac66a49af73a9c4c4daffb24afceda3ee80b6",
+      "bytes": 211,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/system_layer/reality/__init__.py",
+      "git_blob": "1251f3c306b31bb3d9afdb8565223cfc7c42b4b7",
+      "sha256": "d3c5e76769998b2cf83cd62fb2682a6d3c1227138d4b6cf2cba387473dce3c75",
+      "bytes": 5283,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/system_layer/receipts/__init__.py",
+      "git_blob": "f3b682317eebd51545dbbb1c992277044a406343",
+      "sha256": "84483552640e05bf40dbf28730197c15577113b67f0ae7118f4c9c911503b414",
+      "bytes": 588,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/system_layer/runtime.py",
+      "git_blob": "b137e7e7d902c305296efc3a2ae1a6d41c681de8",
+      "sha256": "1a18e15d1a03746b28bedb125df2e00cef064cc4638c1d25f671a28aa58fdf11",
+      "bytes": 8781,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/system_layer/service.py",
+      "git_blob": "2a62e0405c54aae723c19b32cd86f580b08cf883",
+      "sha256": "a2c866cad70937c0353655e7001a6b47f38018164271ee6dd91671dfdcf2c624",
+      "bytes": 114,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/system_layer/state/__init__.py",
+      "git_blob": "17e23fd9898fb7bb7857cd1a033ed5b025e2b94a",
+      "sha256": "47f40877c69005ea28d9ba3011f5d289170ed7ac7de30aa13e54f49d04e360d0",
+      "bytes": 162,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/system_layer/state/operational_admission.py",
+      "git_blob": "7c29a520a6676d4474933a3c5da815710b883677",
+      "sha256": "b8d7540c67b17f761a1e717c9e19a519599dea2295930fa6cb189bfc14cbaab6",
+      "bytes": 7828,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/system_layer/state/store.py",
+      "git_blob": "b4692c15fa6249bc33922a877b782e0965911c8b",
+      "sha256": "8a495bc2b2aea065b0b1471283656f3337e57bfb77dd2ccaefb8d0db686360d2",
+      "bytes": 13515,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/system_layer/validation/__init__.py",
+      "git_blob": "ede7eaddac6b96225b125715d1fa9f600fef34d9",
+      "sha256": "5dbf3fbc31ed907862d4b782f6b6bc19775c0ccef3736f19ddf8f7daf8437824",
+      "bytes": 849,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/temporal/temporal_context.py",
+      "git_blob": "e512fec5a3738dc1c519f282e80304d37176aa85",
+      "sha256": "d4cc8480aa71f57b182829833a262144dcda1dccdfaa73e1b0e5fa3e9f508ffa",
+      "bytes": 3976,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/temporal/temporal_engine.py",
+      "git_blob": "d4941e428919abb8f4a1341e34c79e903784119d",
+      "sha256": "ce0b19143ba281f45f071357f0c8b158e816330099b447bf6a1cfd01b0d24c9e",
+      "bytes": 486,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/frontend_audio_inspection_smoke.cjs",
+      "git_blob": "a43b566c202c48d326c4d8a079cdcf1be6e48cf9",
+      "sha256": "605d762425e7297e58c9610dea919bdcc10e3a753a1cad818d9e82b0707b7ff7",
+      "bytes": 988,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/frontend_build_smoke.cjs",
+      "git_blob": "3dc091f39635289b0b15bef4423e8cf9db777a43",
+      "sha256": "0af7875eb9490056f3eabc37f02b776d44617abb7c2d04d17023bbb35beb7602",
+      "bytes": 1042,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/frontend_controls_smoke.cjs",
+      "git_blob": "b8c54780febaa7a5abecd5679129b957c929f12f",
+      "sha256": "c94673077a67ded67416798b1bb5f2fbbbc57d66451353756f8ba09209ebdb88",
+      "bytes": 1356,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/frontend_document_intake_smoke.cjs",
+      "git_blob": "a9e8082fa63c0cb688a0d52eeffe4582527736d5",
+      "sha256": "28f8c6c1dcd9392284f3bd9d37961c49ac0e5cbf1dafec7217fd33c04eaead4f",
+      "bytes": 1567,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/frontend_export_request_smoke.cjs",
+      "git_blob": "c10e563d0599ff74177aa3cdcf67852348419bba",
+      "sha256": "c070aa94fd9ab21ad1b17825e1a659eaaf6eedad85009616898abe6e55f7b5b9",
+      "bytes": 873,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/frontend_export_smoke.cjs",
+      "git_blob": "0b6c4c74c297c15f43207b5e4748a949f2c6ef7a",
+      "sha256": "3e0dfe374e55e2be213b4f96ba64931498f6c4739cf55db64548de5b44b3e268",
+      "bytes": 1711,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/frontend_input_smoke.cjs",
+      "git_blob": "0177b7828f2cc7751d606f49e6723f5432b7c46c",
+      "sha256": "d6ce986ca8b911f2c4cfa7913f172ba94885b5e7030a79f4885384832de01a04",
+      "bytes": 1269,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/frontend_live_smoke.cjs",
+      "git_blob": "b7420d35514601d1468ab69b1a14578b95017d64",
+      "sha256": "eded67aa5501e9952bac7bf15d46950b6edc19079260e6e4f66fd1466b123887",
+      "bytes": 2115,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/frontend_resume_smoke.cjs",
+      "git_blob": "ac3ad34e01600457a180c42b43e7cd332f790bc9",
+      "sha256": "9d738487afda0f7e80e2c8ebdca4828515ab34c9a0a51875da7543a30099143c",
+      "bytes": 1076,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/frontend_smoke.cjs",
+      "git_blob": "5515a92cf3803c0b1db4a0dab2e789cd536717a1",
+      "sha256": "9b559d0b4eb45130893a6026195254fa9c10e41b038ef83fb67328fbe0a76cbb",
+      "bytes": 2132,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/frontend_source_selection_smoke.cjs",
+      "git_blob": "affa00ab370dfa09010e99a3a0456424071a3bab",
+      "sha256": "b27451e242d36cea236fc6a4983cf09ab05c35e4e162dc1d5615c255b3348d80",
+      "bytes": 1568,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/frontend_thread_fork_smoke.cjs",
+      "git_blob": "b5563295fe5c742c107d7e85045570e8ddcaffeb",
+      "sha256": "75224d57ab12f45014fadeee065386204df2bb88c2af608e6babdc6b46bde578",
+      "bytes": 1644,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/frontend_vault_preserve_smoke.cjs",
+      "git_blob": "3f5737b98a37eaff987f2817676d5f385f575cf4",
+      "sha256": "5a4d1cc7d2b789fbf4f6b94f51d6bf538f5930fb1c6b345426bf1095a0b187de",
+      "bytes": 1090,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/generalized_learning_fixtures.py",
+      "git_blob": "88cd203af4af986295f11fffa0e5d9bf67260741",
+      "sha256": "643b9457746c756784b8e4ebb004eb97928b1269468b1624d2e67ef35e88582c",
+      "bytes": 9467,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/local_controller_fixture.py",
+      "git_blob": "a6e4089fd4df5451cf95758f372795e7f956f2cb",
+      "sha256": "488e2dfec2df62ca5b62083d7db04e7d94df90784ce24454d84aa77021d2c832",
+      "bytes": 1354,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_action_scope_discrimination.py",
+      "git_blob": "3436ec7a7fe42a95cacd9966f57108bab6643fa1",
+      "sha256": "e7936c02cec4d0ca9be293d075aea8f3c96226662baa7f8d49922348b6a032f3",
+      "bytes": 13081,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_ambiguity_scoring_engine.py",
+      "git_blob": "b054ee3518cd1ee623b2be276301dddaa0215a19",
+      "sha256": "2531f78393cdfc3230187e878d1053e1c917ba9a3d74e7ef2b5c7e551b2d0ccc",
+      "bytes": 4564,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_architectural_learning_memory_repairs.py",
+      "git_blob": "aafda098cb27c6e6a8528100c8d117049eb78885",
+      "sha256": "4b84c75e82956b850f842e3311062f0a2c222e763770d5fa3ae4437f89a6cdb0",
+      "bytes": 11005,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_asset_planning.py",
+      "git_blob": "25fdc6f40b68afa567280af6f4d11d11935a2002",
+      "sha256": "e24c88e40614f09e5702e9bd4e0f2ea2c911b918101ffa76c07a9f7b0dd5b53a",
+      "bytes": 2584,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_audio_inspection.py",
+      "git_blob": "a6e24e317ab50d2349e4d895ca8f07c4a097f1c9",
+      "sha256": "10a222d70976e57476e8052d942ebf177ec2cca4df081143cc03578458809718",
+      "bytes": 4784,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_audit_integrity_closure.py",
+      "git_blob": "fc1815b35b88c0ed9bbd278a86e4a3f773c61583",
+      "sha256": "d87b5b17e7cb8f7e6501b8ead5357dd07961784c90b2314f531e2821a75e4aba",
+      "bytes": 10078,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_behavior_materiality_repair.py",
+      "git_blob": "0fbc496352a8e926cf33de2e2fc7c65abd40141d",
+      "sha256": "2c0082211ca8d66c25804594ade45bdfd9a11345c74399cf6df771fd8b3508b3",
+      "bytes": 2066,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_behavior_repair2_fresh_thread.py",
+      "git_blob": "2c7e5f0bad9b737a12f961adca67e9d626f85090",
+      "sha256": "e8617194dd322e2e2d52e200eca9f59123a8f64e17c82e14a7b36a09f5d7bc44",
+      "bytes": 2587,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_behavior_repair2_pressure.py",
+      "git_blob": "b17a2e8cd1a136b93b4a17bca58c786eae317911",
+      "sha256": "abde1e5dcd5198b8af4d0f395636cf001b476932ec349eeadd79d18cb2562b6c",
+      "bytes": 7065,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_behavior_repair3.py",
+      "git_blob": "5e7457544d686dd11ea958e177c62403a6900de7",
+      "sha256": "c32f6a145e34b55c7144f3c41b900e873f1dd297a904f98330f58a0cccb0e928",
+      "bytes": 6918,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_behavior_requirement_routing.py",
+      "git_blob": "ada2c91e1734ba0ad2490b01c0cb813c7c5c2c55",
+      "sha256": "a488403222dec5277edc54d2618adcf995b507ac9a88b4637c7b0e37dc697069",
+      "bytes": 2460,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_behavior_runtime_edges.py",
+      "git_blob": "d824e02d4b8c02a9f10c0a644859a292572bcfed",
+      "sha256": "56b0c1785d1d1722dfb9b853a473f0a6b0ced89e0b095841009d469b1618d0f8",
+      "bytes": 3727,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_build_route_rejection.py",
+      "git_blob": "172f5cadc6146f73bc6a820b7ee9312a070b0ac7",
+      "sha256": "853babac918110216812dacb170793d27061ed0cb957127ca77aa672ca00fc69",
+      "bytes": 921,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_bypass_qualification_reachability.py",
+      "git_blob": "09fa372358983ee4aa82d7a88b1a16ac1925f244",
+      "sha256": "4a615e052453a161e1422dd444fa02b34ee3192b04b69d54287b228e6e471843",
+      "bytes": 3296,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_capability_registry_inspection.py",
+      "git_blob": "79da34a37eed39d8aaa6374891a97bd8e450edd9",
+      "sha256": "46f2626a716da8d7fbf49cd369964dd8705da4f72d730f09aae3410ee456fc15",
+      "bytes": 10178,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_cinematic_continuation_program.py",
+      "git_blob": "7c85b19ca0baefb52611920e3fcb81264be1668e",
+      "sha256": "c110d701ab6dd0c709e7b97ae3c55bbb325f3ab87fe6f1243fad748f355eebc1",
+      "bytes": 6271,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_cinematic_infrastructure.py",
+      "git_blob": "3c06d8a9bf5dde0f4a7da0993f432faf1996adb7",
+      "sha256": "0b22c4bb4012301410759054f2849e0777b03626caaa5a6c531df9a84828ad2a",
+      "bytes": 24463,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_cinematic_recovery_20260930.py",
+      "git_blob": "cc3d36ecbaf4c67908025cb173c8866af8686e9c",
+      "sha256": "2793762c37284c3f8289cc5493c0d57192278d6f9f24576b7bed98bfc4c49c76",
+      "bytes": 3314,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_clarification_governance.py",
+      "git_blob": "0e2decadf8d0218c01837213e7488eb335899117",
+      "sha256": "0e955a5979b8b970b9edb3c6dee9ef3c7fd8ce4a2cec28adb9ad46b112709165",
+      "bytes": 3838,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_completed_action_awareness.py",
+      "git_blob": "98671d58e86cc34dc965723bf20ed34f375f3ce3",
+      "sha256": "19886a91456898783f9cb98b2ce8762fac0437e363566bfcaacfab510087d93d",
+      "bytes": 12654,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_content_custody.py",
+      "git_blob": "274e989a8f34c85b181aaa603a7bf67e6e4a0ee1",
+      "sha256": "a896de117d771043c10e3c9a16b87212db513879cc92b2ae349af4bc3aa9cde6",
+      "bytes": 2705,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_controller_command_intent.py",
+      "git_blob": "1db55c6fa8ac258c467009eac35f9c253e67b1c3",
+      "sha256": "6e9832f2f60aed8eb72fedc2e82ae1fb8434694797434c306d1df96f0ddd9c3b",
+      "bytes": 2209,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_conversation_composition.py",
+      "git_blob": "5310562dc3a59c1e77b1772b06a48138c36da30f",
+      "sha256": "596d6d775500a90282ffe3520243219fa279762001d08f525430017ec716df2b",
+      "bytes": 906,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_conversation_document_selection.py",
+      "git_blob": "0d628484c24f5de0945361b0d61d7586874254a0",
+      "sha256": "8c0f523c8b342ece872dbb76767f2fd2eb099410fda93de0fdad2eafae9bd458",
+      "bytes": 2527,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_conversation_quality_evaluator.py",
+      "git_blob": "14fde12522e3200be7e5e0698eb8fbc5bc1b011c",
+      "sha256": "355e2ec3846704c4db01c3bb5e121f23344ef80b0953c6fdcd01969376498235",
+      "bytes": 8679,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_conversation_specification.py",
+      "git_blob": "79c8849e6e315eb0815686add4b363f0abe91cf3",
+      "sha256": "c8db71422f748bf600566bcaeb897cc687683ec1528c30270f005d8b95d9297e",
+      "bytes": 1207,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_conversation_understanding.py",
+      "git_blob": "e4dfd9c4bdd9ddd59c086a6bbcbe5da2dc4a6138",
+      "sha256": "1b2a226b5b4779b4e63082b7df36aba6a1b3a9135c623095205e7842bb8ba9b8",
+      "bytes": 1913,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_conversational_memory_requests.py",
+      "git_blob": "058ad50d46cb1b1474d8afe59727ad426c11d9b3",
+      "sha256": "3da18306134c72344983d75a2d2e4394919906c6c32a322100866563f2066ae9",
+      "bytes": 2832,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_creative_claim_requirements.py",
+      "git_blob": "ad7930162ec419ed172c09eea79fed0640cd857d",
+      "sha256": "4e4fb89ebb9a39f8c33351187cd890891d85d04f5677de2fe88c8869f439c610",
+      "bytes": 1336,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_creative_evidence_location.py",
+      "git_blob": "c6b14bfd99eaf9546be84035ac68ba20eb66f303",
+      "sha256": "38b9570c62f82676c527caf79c72a3a615f893b06920efd82fe7158070962158",
+      "bytes": 1798,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_creative_operational_resolution.py",
+      "git_blob": "cb4d14b1d6c9d61440d83ee9c994316b7a15eb02",
+      "sha256": "3d01025ccda0e60005fdef82b208ddb4c9a7d2510ac3d6f502d9fe8e568c76b2",
+      "bytes": 2669,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_creative_preparation.py",
+      "git_blob": "32371f6950900697818d8f8f1487f5312893d5cb",
+      "sha256": "3c4d2bc34686ab44f305e388ad17815dd1b6d3a44a6c9a263cf4cc2147157632",
+      "bytes": 1036,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_creative_preparation_reconstruction.py",
+      "git_blob": "b088ec9a91f0375a80c2b9ccc20107dcb700122a",
+      "sha256": "5927fda980313c9d191511c55f0d938cc79048bf8c4df653fdf635fe6a1c47f2",
+      "bytes": 986,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_creative_understanding.py",
+      "git_blob": "113592aa7572f1cde1e45928d302b8c21bce53c4",
+      "sha256": "e2d3037ed214ac9b5c06310efdc47d999dca1e4afd40d18465bef29731154bcc",
+      "bytes": 2719,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_critique_response_contract.py",
+      "git_blob": "704f1aba8522e547996f40acf307a11bcb0f95af",
+      "sha256": "15d1c315dc1ae78d39ce6c0fc1f4a4c783784b1767bb545e3bc827187c673e25",
+      "bytes": 10526,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_cross_thread_downstream_preservation.py",
+      "git_blob": "08330120e5c27d8514481396bc3ab17b9db51f03",
+      "sha256": "796449a478766d1b01f03e5d24a563c4cf2855da4330c60540d0047148716c7d",
+      "bytes": 8767,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_custody_observation.py",
+      "git_blob": "3cd78655105d35be8c3d4468eed2769e53a13f3d",
+      "sha256": "2236f1ae91cd2237b973af41f776e0cd1d98048b13d1b5402071147620954ca4",
+      "bytes": 3919,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_custody_runtime_commands.py",
+      "git_blob": "52a8573c7bb7af86fa9de2a1f137cd3d662cfa16",
+      "sha256": "e456efbf51837a6d66de67c478d80a661789e408f22acecf9d734b67c3111f9a",
+      "bytes": 2248,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_custody_search.py",
+      "git_blob": "56b562b9d1f61912f326ed432f2cd4eb936c2171",
+      "sha256": "bdbdf93f762caca47c3754ff70ef3393514dacc6f77829844f45700baa06ae47",
+      "bytes": 5381,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_data_governance_closure.py",
+      "git_blob": "485c3990cf8ef583d6cafa4d74c926fd584b0f16",
+      "sha256": "e1e254880cd98eca46f9f6f94fba6400be037835caa653c01e8f7b3f657250d9",
+      "bytes": 18193,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_declaration_delta.py",
+      "git_blob": "47db59b9304c38a674a2ff6f1ec431283744631a",
+      "sha256": "a48a7aa9a05a9e775cb8ce85dfb210c7b4edec5ddefb4ef7f27b2ba505f346a9",
+      "bytes": 3931,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_declaration_span_boundary.py",
+      "git_blob": "a0690de1eb79a0446f205e354e12566b83b769d3",
+      "sha256": "6261b88a1be044ff48a1db4a5a84be6947ccd96f56316d457bb74324a047e028",
+      "bytes": 3500,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_demonstrated_bypass_admission.py",
+      "git_blob": "2fe678d679c2359b199932ed17733bc43b9d558e",
+      "sha256": "fefe2691ece85e7f650ae885aedbef51f21e703a61d2e88aca4343e1cc1325b5",
+      "bytes": 8155,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_dependency_safe_integrations.py",
+      "git_blob": "7efb8da59c816f74fde0787d4fa111ee2fc61dfc",
+      "sha256": "d985bb247e80af659fac6317ae4968889c2f4930087a8134863fd76193ade1c2",
+      "bytes": 6692,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_diagnosis_output_compatibility.py",
+      "git_blob": "5f40cdcdc1b3fe81c3a3ce825faea43e7c984ea2",
+      "sha256": "6b545ed0e50d391d5773f32be94176b29b81562e87e449489e088c5e8ac6e9c9",
+      "bytes": 5140,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_diagnosis_recommendation_contract.py",
+      "git_blob": "86fb990f61e2069e343d5662fa747f7ee2bae97c",
+      "sha256": "5eaa64294e35e4b472c89ed20fd424d9941216d86830d602d84470f55ff20043",
+      "bytes": 5176,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_document_authority.py",
+      "git_blob": "34cc9f68d60f36767f20049bd7e13a5fc1a6f19f",
+      "sha256": "ca96d4ce2aafb66df4b15ae8ffe2e645600e857c095aa7d4bbedfc1070f03536",
+      "bytes": 2094,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_document_derivation.py",
+      "git_blob": "7810e96a6cecfa6cbece882ce415e72134d15bf5",
+      "sha256": "95835329c3e4258152b709dab843b3fa0f12520422a3dd45d88c93e173d2967f",
+      "bytes": 1707,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_document_export.py",
+      "git_blob": "761b92c848b84e1f7a1b69e42fa7b07a92a045a6",
+      "sha256": "40de8d2e8bd3401b34dd9f5a6abb1d9becb7ce1059c28175a630c658c22f873e",
+      "bytes": 1262,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_document_export_lineage.py",
+      "git_blob": "77b7b247c89d4b50bba4a58296bda7d4a5c87ccb",
+      "sha256": "0e4e8116040f80a94c6159f5b23da5ebbb72562283f7ad7ce322d52eb74a48ea",
+      "bytes": 2611,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_document_extraction.py",
+      "git_blob": "169d6935cf2f131e209a91a137b9921282668e84",
+      "sha256": "f1cdcf08a9740ede0fb8157229e88be37940077968028e5617709b3ef6611bff",
+      "bytes": 5972,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_document_identity_import_admission.py",
+      "git_blob": "0ae8055c3956cc5cfaf78ed863525efb703bd3e8",
+      "sha256": "72788ca0a15056bc1fc51f53ca42e6d80f0b5552ca8390b411b9766c31a48a3c",
+      "bytes": 6632,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_document_knowledge_context.py",
+      "git_blob": "5c2e58209e71a5570585dbb0b41da5c9ace50ba8",
+      "sha256": "7d9f664ed121228ed05c6ee825ff76b0c3548f82b9d43717ab7b571c4bb638a0",
+      "bytes": 3350,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_document_source_download.py",
+      "git_blob": "dfd5610700889ece566c1d61545015f309ad4914",
+      "sha256": "60d36d77bc8984630798dc3da184fb2cac19f3e627d734e68034591d52227175",
+      "bytes": 2231,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_document_specification_preparation.py",
+      "git_blob": "72fb0508eccd27930a91d0e3da41029e63fc852b",
+      "sha256": "4f341141b84d8984ec8de35e5e9d8862e2edb62d6cbb96477b453031a8209f0b",
+      "bytes": 4831,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_document_understanding.py",
+      "git_blob": "2290d6808276316226d38932e4146ecc43f60d0c",
+      "sha256": "1b2217a20a1603b3d0b8a276110514c1f988577c5ba36c4ac420c316b91ff93c",
+      "bytes": 3548,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_ecosystem_corrective_cycle.py",
+      "git_blob": "deea8c4da1c6f35bb6bcc00f21353a1de109e3b3",
+      "sha256": "50f83d2de77585e755c3a9ed60974edb3f2b7f77abd9a66071f79da5875a1638",
+      "bytes": 8985,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_evidence_ledger.py",
+      "git_blob": "27710e90397ef45f2a926341cb2dd414ac445f66",
+      "sha256": "caf4662e10ca875f01682f545053d767c65fb3677a3e5bfa1d546d4dbc2d41fe",
+      "bytes": 7947,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_execution_integrity.py",
+      "git_blob": "53aa36f9052876b0939b58649b63cae625c9ac4a",
+      "sha256": "4b11127c9974e47afca0ff3c55d5138de72be51f8553d99b619b75711ecd6ae2",
+      "bytes": 9520,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_execution_spine.py",
+      "git_blob": "763ea3f619305000ff89e80a5d78c7730895149f",
+      "sha256": "9f6eddab7b9f0253ec8d27ec6e42c6557e3abd7b9290aaeca8cdfcc01366cf2f",
+      "bytes": 16382,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_frame_inspection.py",
+      "git_blob": "37c483ad010c7f731112d5a87ea9e9a0d45dccd9",
+      "sha256": "5b15d14cd292a8f03e621cb495d9dd2e78f7087a91218dfa344de46ba993a33c",
+      "bytes": 4603,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_frontend_audio_inspection.py",
+      "git_blob": "61c0118021f9b0e22e5cb86f0d7039fb81c6fab6",
+      "sha256": "e2457cd6487769f99dc56cda4388426477cdc5741d0f3e1c3f2aaf99286b5610",
+      "bytes": 3762,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_frontend_build.py",
+      "git_blob": "8134b2d213dc4782b4ac39798d38decfdfdc8491",
+      "sha256": "28d0be5a22f1178ecf8c8764ea6b3d559baf10c739bb6e0806fb73c5f3d68b18",
+      "bytes": 1189,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_frontend_controls.py",
+      "git_blob": "bafa0410c5879d8fcf7e4ab0ef04a6ceb9608aeb",
+      "sha256": "899d1be381948a5a3870c0c516aa3e4f282c7edf0869171f03358a4539e16e59",
+      "bytes": 2260,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_frontend_document_intake.py",
+      "git_blob": "5f578140e6519d3c0c5274f96266744cfd75d0ab",
+      "sha256": "07cbc196e12d9ce3bfaf88cfd6d77d52d5219f69be6fd8f92fb49ceb3fcfa454",
+      "bytes": 3433,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_frontend_export.py",
+      "git_blob": "0dc73aa16ebf3f711db168420f679e37b3fa0bcd",
+      "sha256": "651117f38b8f7ec64b8aa2e6e10543144cec369674375fee50227d03321cbcda",
+      "bytes": 4953,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_frontend_history.py",
+      "git_blob": "143e1851f0def54a29334d9e3309e40923d0f85a",
+      "sha256": "7ea06a5221f8051dce5dab2593db18d878e3b8eae8afe2a070fcc0acb97c33c2",
+      "bytes": 2622,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_frontend_input.py",
+      "git_blob": "6ac2699879d4afa7a5411cdb32c5d98308141f64",
+      "sha256": "833bc4b59f7f0ecc669b000c984052ceeb5fc6cf78754f470c296085d55be631",
+      "bytes": 5967,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_frontend_observation_view.py",
+      "git_blob": "30447af0cc8b56886a6febc8353c0537eade81c4",
+      "sha256": "c8b913698a0123fbc955cf3ea78802bc5abb3cd14fdd71ae403dceb18e978026",
+      "bytes": 1807,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_frontend_server.py",
+      "git_blob": "b95c79bf98581caf3b79f5665a24c741eec00cd5",
+      "sha256": "e51a17fc3543c5b62c4c5aa1f7a64c30d468b1706ce2f5c0fc40b1d77e9c4aa3",
+      "bytes": 2383,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_frontend_source_selection.py",
+      "git_blob": "8c776ebaa35548322f1cd844255a0e1cfbd22168",
+      "sha256": "3ce728291d828d25ff7190f2b00b6e9969b166a40c0c00e9519875a2b8db9b6e",
+      "bytes": 4010,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_frontend_thread_fork.py",
+      "git_blob": "708ffa7e46b3f4b0d8aba65a16b50dfd018128aa",
+      "sha256": "57745beee44bdfbd3d12a060dfd11a93195ec5bcbe982a4216ce99cdccac511b",
+      "bytes": 2088,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_frontend_thread_view.py",
+      "git_blob": "9377f714c8efb9f6b8739813a159ec7c44a9bf10",
+      "sha256": "6ff75171c51abf1bbca580ecb29a8dffcec63e07f6d5e422b8cba7b6e280886a",
+      "bytes": 2962,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_frontend_vault_preservation.py",
+      "git_blob": "027af0678ab9fcfc40b04c152f07e56d365cbaf8",
+      "sha256": "82b53d503b38e82f7ca05bc7785dacf7f3f270a9fe95ee4eaa7ed11d3ec15b7c",
+      "bytes": 1745,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_general_learning_memory_repairs.py",
+      "git_blob": "d115e0f5dc1b3ce9d1be42fa762c106e657d5c56",
+      "sha256": "a9cf74bdc3793cf636f5473c100c14695c1db219441fbf68e4867cec530fa9ec",
+      "bytes": 7255,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_generalized_learning.py",
+      "git_blob": "cd45c22377b20baf00b349e740c51c3e18982556",
+      "sha256": "eb17ab6f13252d1ad91b855939891b5fbb395f91601aee7176260655f4d607db",
+      "bytes": 16530,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_governance_final_closure.py",
+      "git_blob": "01d29fd920eecb5da968fe653b24738a3a286562",
+      "sha256": "f84dff55b6bfb6bbf6eac2b3410d84eea4a3ab515840db929e97548a6b48fe87",
+      "bytes": 14994,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_inspection_coverage.py",
+      "git_blob": "10a0c013a516e05410fc0b859f62a39f25d028df",
+      "sha256": "4c30ff2b166d6a612d26a5693406181ac3fdfe5db0095ed565bcc6629ec7a4d9",
+      "bytes": 6356,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_inspection_selection_handoff.py",
+      "git_blob": "8951d89d8e0a4f94a18eadf7eccaad476d028c95",
+      "sha256": "b6579f1eef853370db9278afe25e9c803b41dca3f81e84df4423cf353184223b",
+      "bytes": 4519,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_inspection_target_contract.py",
+      "git_blob": "6ed1e8d992e39cd3124b17949c3cb87300f9211c",
+      "sha256": "588bca8438ce125fedde389266b8f37a2bca7603a9caf6b803fabadca8287f16",
+      "bytes": 13180,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_intent_routing_stabilization.py",
+      "git_blob": "bb1ac69c153503d715b774a4098784396e716967",
+      "sha256": "02464ddcca814ef95b32fd18914b942b05931b86da63ce4ff2242ba08e6e63f5",
+      "bytes": 3451,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_interaction_inspection.py",
+      "git_blob": "ae82488f1c2b47ffbcb433ba9a05da52b8a214be",
+      "sha256": "b276d8757f07296317dc9c9cd7e9c5f8e35579c220affe6d3cf59b1008eef9d4",
+      "bytes": 12330,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_knowledge_registry.py",
+      "git_blob": "242c596a5ea4e099d4b6b2226deae343bab9643b",
+      "sha256": "338e5245de640574f7a4f1fb23950650f51f6e5e9855a81d89370d8806f0a78a",
+      "bytes": 8690,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_learned_understanding_projection.py",
+      "git_blob": "e6a737447211f7bb883db5e8a5b927971668d526",
+      "sha256": "7bffae5a8d40b789bd2421cba8cb5fe9a884bb48987a3b9c20520822d89ff094",
+      "bytes": 6216,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_learning.py",
+      "git_blob": "3e883bfe41aaaf47e183a74f628da46f8d9c179f",
+      "sha256": "ad3b85e48cbbfab8fcb01c8d8bd97c613a2328dca6fc8d93dd6ce5d960ee8345",
+      "bytes": 14793,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_learning_diagnosis_routing.py",
+      "git_blob": "96d831d4d99b77b3289b7165393ec5e03287fdad",
+      "sha256": "fcbbd1d3515451bbf702a98b2072b66e885d419e3e8de70d0d21a5b2177216f9",
+      "bytes": 8816,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_learning_failure_resolution.py",
+      "git_blob": "4bc047cdd48c5a465b6bd38cb1a80e0bc2cfbcb9",
+      "sha256": "c61e51c069cb787a1d72dcc3b0d0bdbdabd495e3a0814f1e62deb70a9775d292",
+      "bytes": 6261,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_learning_understanding_bridge.py",
+      "git_blob": "a47483f991e1dfbf83e22c42f8f8b79cb6f220ea",
+      "sha256": "6336b9633386c96ca484cf8afbe3966752bce96d8789997cf25ac3156d22684b",
+      "bytes": 7649,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_learning_v2.py",
+      "git_blob": "249b37fd62394250fbbab458838b460655f97dbe",
+      "sha256": "82ed15cef486ccb5e6e372d5ec2f6668fa28cd9ee945bf7c98689cabde4cd5af",
+      "bytes": 10074,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_legacy_rp_dependency_closure.py",
+      "git_blob": "2b6ec833e974c01dcf3d316680b57bd451f12f2d",
+      "sha256": "54dc8d9c4f47d4661ea740e4127eaee112865ed27e167423a68e9daccf3035bc",
+      "bytes": 4382,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_legacy_rp_final_boundaries.py",
+      "git_blob": "fb1e1275392c1d16b251fa816077276a01209133",
+      "sha256": "6b0fa02f95fb089bb95149dcf58b04d70b8c576af01f467878e66562a76aaf1e",
+      "bytes": 3905,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_legacy_rp_storage_closure.py",
+      "git_blob": "ffbb41cd3ba06a73fd55ea4d3c9314c08c9e1c61",
+      "sha256": "c969eeed3dbd3041de6e0786ce339d34800f7be525337ae521c68980a1f08e20",
+      "bytes": 3728,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_live_behavior_routing_repair.py",
+      "git_blob": "970c7573a3c9de761736ccff0ae1e638aed08a12",
+      "sha256": "ddbb3df78d61555ab2f0312617444fa3631efcb2abb1c4e9980197af05bdbddc",
+      "bytes": 5613,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_mainfest_generation.py",
+      "git_blob": "6b84117fd8df16cfa6b8e972f6a29dbb5c4db468",
+      "sha256": "0add37fce67c524af3e3d4a59885df6609aa163ac7d57846e6e832395da21d25",
+      "bytes": 2341,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_manifest_builder.py",
+      "git_blob": "cffe76db9d200cc8cd97b88d08b6710a4d3b0b2a",
+      "sha256": "0ecdc7fe9381294add43ea53aa7aa0ba516e2282c88b6875e656363369372763",
+      "bytes": 2644,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_material_admission.py",
+      "git_blob": "72373de33c7b1d3581627db0ab50b96f9211020b",
+      "sha256": "bc53083b3393057ae89d1449169ba00ea5a849d888bd746bd649e85de12e8900",
+      "bytes": 13493,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_materiality_contract.py",
+      "git_blob": "149f68c37af12a8d4e1a182f795d6b3df7ecbdc9",
+      "sha256": "c00770eda01d850b6d7b8fa49cb8866a4e954b3fd63823a84ea1508ca6209326",
+      "bytes": 4354,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_memory_legacy_identity.py",
+      "git_blob": "77856042a81230ec4272efc421ff338f21df11f2",
+      "sha256": "eb6ce23ce7916bf666701d18278e97a758fda68be572431c242051109ac063f0",
+      "bytes": 2867,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_memory_lifecycle_commands.py",
+      "git_blob": "c23359b94a16c6d25ab9085aa5296e848fcd202d",
+      "sha256": "31ff8c14bfa80c770c31e42e0199fb5dc45731eafaffb91343cb2b27695fb3c8",
+      "bytes": 1668,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_mode_controller.py",
+      "git_blob": "1589c21af5da177b1c8882ff37dbafb0ab669373",
+      "sha256": "73ce8f5621b73da5383da1015f771d356b2ef5788b66678f0f1251861523c1e7",
+      "bytes": 6031,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_objective_action_rp.py",
+      "git_blob": "84846a7c30d16e33ef3413b140b53f53700bee16",
+      "sha256": "2ce06cebfa382da4033083480196f5d56f3190e100c568d97ce36b4d09bea02e",
+      "bytes": 31602,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_objective_diagnosis_bridge.py",
+      "git_blob": "0df5c05afa70a0442ef1eb3dd84bae556e7430cd",
+      "sha256": "b7e30fe959c994413ec95efc8a70db2b50494cc694ebe74d08e5ef9d26db6e58",
+      "bytes": 7906,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_objective_digest_canonicalization.py",
+      "git_blob": "0c49ce40e36d63686d27e348f5b69decfa039cfa",
+      "sha256": "056501b7b95858e96aa899cbe2f8f4178f5296a5ff64f7639925364f10f57f61",
+      "bytes": 3914,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_objective_evidence_scope.py",
+      "git_blob": "f4c9497de1234cfda79a4f2addeab14029d70e4f",
+      "sha256": "5f9ac5f5118f30abcadc55bfd18b60d1e384221499b469c3bb2ec840c71a754c",
+      "bytes": 4097,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_objective_execution_routing.py",
+      "git_blob": "9b566a05c271a87d71f78acdec392da532c78492",
+      "sha256": "f6a606397191554a9025e534449d2142f9527f190a7817aca850f8259bafe1b2",
+      "bytes": 3102,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_obligation_integrity.py",
+      "git_blob": "e0cc73717def95b5ba06c9c8f42cad3a976aad71",
+      "sha256": "f6ce2be5dca1e92ee5310bcc11304948e85effeff0ed01c8bb6987c3f1e5ed51",
+      "bytes": 4402,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_offline_conversation_runtime.py",
+      "git_blob": "2ef3dbec365e99fc0975f6d58616cbdbd74a2c93",
+      "sha256": "cb12c2991aea57db3e7c18f0201e162848a61521e8f5d78eb6b55c0dec8ffc08",
+      "bytes": 2253,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_onboarding_continuity.py",
+      "git_blob": "53c5fe04d6d225473d5a854ae9a68ba079be338c",
+      "sha256": "00ea5100c0cff6e370a4d07a657a1a634debdd7856722eb01253744c4cd5b4eb",
+      "bytes": 1242,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_onboarding_runtime.py",
+      "git_blob": "d22d6a899d84f028e70fd9a8246added9eccd65a",
+      "sha256": "44a087fa20961693f4cf108651d8bed8fc07099f1408131107eaa6cec50df09f",
+      "bytes": 1964,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_operation_source_binding.py",
+      "git_blob": "13b5156f8108e61c462d916faad8e4a063090fe2",
+      "sha256": "4a6d0df22d5e86acea4c34bb1bc3e667a8d510c38eae21506c05dab440f8aa50",
+      "bytes": 3405,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_operational_handoff.py",
+      "git_blob": "5a0b74a2b0d4f04ea7c6bba3b23a95bcfd94c0d8",
+      "sha256": "758f007ee851c82da42ce4ad389490734b61549de4aa5fbdac11956aad0377e5",
+      "bytes": 1785,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_operational_import_admission.py",
+      "git_blob": "4f07b0881c4b03a9c3edfb653aa4cacd9617fbe8",
+      "sha256": "855e8aab4e86e6902a1af11af8c7acf1a27ad0f401b28828e325c8d993fa33dd",
+      "bytes": 11639,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_operational_scope.py",
+      "git_blob": "ebb07b84c13868949e4a523538fd3e1b92c32942",
+      "sha256": "6704db41b25ce3364f8deb5eb08eca6c77826e34d3a840f5347f45f9eb12ba7e",
+      "bytes": 489,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_operator_profile_custody.py",
+      "git_blob": "121e73b347a1a1738f74febd52deefb7d3046a41",
+      "sha256": "42914f95a29045fbd9bb4fedf913d37eee80eb8f87e76774568ed8c51cbe44bd",
+      "bytes": 2473,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_posture_routing.py",
+      "git_blob": "b38f1ce46fd2e1a8fecab0a1db0fbc65abb047df",
+      "sha256": "3800f4203fe7e0827942cdaa50283b1062cc0b738108300be4824c13acfbc7c5",
+      "bytes": 6232,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_preference_grounding.py",
+      "git_blob": "a7f1467527cd087e0851ae5d4f16a34db4f4749a",
+      "sha256": "d8bc46d46003b10f5b97de6137ef324e6e113c348ad2bf60a6e5b05af486b9c7",
+      "bytes": 9341,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_preparation_surfaces.py",
+      "git_blob": "df8cb0f871857e02f6012eb23cb03dff08e69a57",
+      "sha256": "51ed9fcdffe46c43b4d6d8b07a345fee69f59001767c87c86d6a63ec31e5ffc4",
+      "bytes": 2216,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_pressure_detector.py",
+      "git_blob": "6e22762f57ee6409474a78aa27768cad7668e055",
+      "sha256": "27ac655a9983b3555e8223c1a49fff33b2a4ab9199d5f40f4c3393e7d2e14ede",
+      "bytes": 4719,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_publication_repair2.py",
+      "git_blob": "0bddc74114e3f40b6b9f6d6726a4d678fa5abdf4",
+      "sha256": "11b326ed396f68ef603ca070762bd7a831be17b9fce074dd819c893dfe7aa555",
+      "bytes": 2206,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_python_interface_inventory.py",
+      "git_blob": "3438b8402d86b3946365f33081ce86a5e61ce2b6",
+      "sha256": "51f93c0641c88f4beb0940b75dd058253ae853fbcb590fe32b64b944b6f59f0b",
+      "bytes": 1154,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_request_response_distinction.py",
+      "git_blob": "117e80606f5d98392848ee0f7c0ae8c26d1e63b4",
+      "sha256": "31bc3135c18f7fc3cf797487ab25022ec644868e0a0ca051fd07d2fa061ff405",
+      "bytes": 1701,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_response_logger.py",
+      "git_blob": "40f02a40145254077e5b4c3b07b737108cba59f6",
+      "sha256": "12dac96dbae84831cc43e74bfb23c64eee5f3c224958ca65e9af63d2dff3f0c0",
+      "bytes": 3551,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_reviewer_roles.py",
+      "git_blob": "d24056fbd09733446b5d44fa5d14f86557b3b80e",
+      "sha256": "11b9fde37e36aa207c58f7f878840c987e3b4e3895e79a16b5641b5d800007d4",
+      "bytes": 5556,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_rp_evidence_state.py",
+      "git_blob": "3759c06c5f5531f9cc77360c89dbddf6a73538fa",
+      "sha256": "20633ea1f97bfa8d65394b89aead26137eb513d6ecdd83f75b596b7ac0388a21",
+      "bytes": 8161,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_runtime_interaction_exclusion.py",
+      "git_blob": "777ce3b04d0b570afcf571f190d2e27f1220c534",
+      "sha256": "3992792908cb608082629fd7f0e1bdaa937a54f4da5ab00bd98c1cf6387d8e2b",
+      "bytes": 1328,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_runtime_memory_presentation.py",
+      "git_blob": "aee38ffa11bdf87652c2cdb739dd3360592a2546",
+      "sha256": "c6a1cdc3104f2aa6059324176cc75c4d62bf86826d96502a406d41669c80c2b3",
+      "bytes": 5796,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_runtime_session_fact_retention.py",
+      "git_blob": "b20f2538cc23b34ed9841108544c405c3afe4734",
+      "sha256": "037b7c8097fc677f86b877a280af0e119c42572f19c2e3826fcb9b91cdb4c844",
+      "bytes": 1508,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_scoring_determinism.py",
+      "git_blob": "6e88bc596e64ddbab031209e30e0cef09ab942f8",
+      "sha256": "3fa510f873dee274cba4763a7ec5c9a268e05ba737834211691970dbf7fa717c",
+      "bytes": 3251,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_selected_knowledge_context.py",
+      "git_blob": "47651e961119bf22f5db2693de1f0fe708b4b724",
+      "sha256": "4c7063384e768283f5f09c24a14b7de73bbb500bccf787da7c77834abe79ece6",
+      "bytes": 5842,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_self_inspection_activation.py",
+      "git_blob": "a3b293085245177a4331f1c06e5349136e729522",
+      "sha256": "bd1286df999646fca669ddc3d294f63e411112fcfd0c9a71397758074b18c0ab",
+      "bytes": 8793,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_shared_creative_models.py",
+      "git_blob": "e8af0dae8a44538a1a08ba9fe37583ca47b0b224",
+      "sha256": "6fea396f93861d2a414c75d0d03bc578ef087a00b98a9caf80f64690236d9e1a",
+      "bytes": 2653,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_source_discovery.py",
+      "git_blob": "a2930ea0a4fee94609e808c3f710838616d00abb",
+      "sha256": "0381e38d39ecc7a07a9fa3fec15236329925ade1cd4b81d7696a7549f7216422",
+      "bytes": 2222,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_story_interpretation.py",
+      "git_blob": "444ab337a75ec82915f8466d4d3081a58aaec3d6",
+      "sha256": "519cfe5cbf5f57c2cd5c811069e202c6e2521cf8363714593014f2af5a2792a3",
+      "bytes": 22096,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_structural_inventory.py",
+      "git_blob": "5cfd06dd46e1e8114166d90902983d997c6fbfb1",
+      "sha256": "9bb0d5a7423861fbf90a7a2bf2fdad88c6bae30abbbe548e5bdf42ea7c9c6cc1",
+      "bytes": 12020,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_system_command_observation.py",
+      "git_blob": "402af9af9997527ab53c9b92c9a6c1e8c9a947d2",
+      "sha256": "35b97dde203c534e88e85297c5266d4c8b46564c7e9b6d1d4b295e6bbf318b59",
+      "bytes": 1458,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_system_layer.py",
+      "git_blob": "5837bdba5beb0cac66eb321d474f1dbe5c15535a",
+      "sha256": "4740f5a2f08619ba2e927c1f87baff1546507a9de3b0981d913ba20796088bfb",
+      "bytes": 32437,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_system_receipt_integrity.py",
+      "git_blob": "75b3ed16050d92567837a69971a9f821294983e6",
+      "sha256": "c9109b7013d71b38075af9501cb4a6bfaa4f6dc021b23bd5781aea9b5f0194e0",
+      "bytes": 1549,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_thread_activation.py",
+      "git_blob": "73850204fe340c3e159e3d066fc908cfbb64bcf4",
+      "sha256": "2ce178c64b566d65a2a52228d903f1c5d7e50913fbf62e0eab9c9dbadf8e2746",
+      "bytes": 3923,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_thread_context_window.py",
+      "git_blob": "fb58286f024fde16aaaa4ee89cdcd681f956de4d",
+      "sha256": "6fb0257267cf92f31ea2a276eb893a7bafbd9d56878077f6c764294b2fb004e6",
+      "bytes": 2461,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_thread_custody.py",
+      "git_blob": "5be59d47629e8d406f26b32b0461deafc1cd379e",
+      "sha256": "7dffdf3863e5057dc2e816564c24480020c3759ae993a0ac6352d14521f28a5f",
+      "bytes": 1686,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_thread_fork_lineage.py",
+      "git_blob": "8f632e6e2180c09f10451eab4cb4584da1938422",
+      "sha256": "c690383cfff8720d3346a09acbc58c5a3ece356bd34f34fd13e1b2aa6c2053fe",
+      "bytes": 1359,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_thread_integrity.py",
+      "git_blob": "57760442e6b78fc47c92b6c375834ed0a90cc2a6",
+      "sha256": "df0e8acb08dbffa8c2d045d954f1b2bd25efe81ed98c65796b058a9b7633784e",
+      "bytes": 1265,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_thread_preservation.py",
+      "git_blob": "608a5e29dfc0be20f4a130f887b1bf0c71dd0a44",
+      "sha256": "2b1befb535be60ee73f2bc2faaece102ee2eb4d52ebfa8adc246d25d094c798f",
+      "bytes": 1404,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_thread_writer_conflicts.py",
+      "git_blob": "3f10584cf0d584d33db44d26feda418ef9fb507f",
+      "sha256": "8ec7e792565c676fd5815679111cbb089bed970be74ac83a5ad5bc747f6560fe",
+      "bytes": 2743,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_trace_replayability.py",
+      "git_blob": "227bbda625ea4d66a23004864422427a6ca45c42",
+      "sha256": "eb0fcf06a3c8d173883a9b301d2534055bc8591d3eb2b05da3079c73f0b48810",
+      "bytes": 3580,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_transformation_provenance.py",
+      "git_blob": "3f53c339cf2ceb8d63801795bc558147b26049de",
+      "sha256": "a65032474e42b8f39466322ed4e3380c1dbd8e1f53bc731e50476752c4e9dc49",
+      "bytes": 10047,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_unreal_structure.py",
+      "git_blob": "ee026ea03ef83faa4ed376930fdd49c242d1d843",
+      "sha256": "3df37ba15c135fb59f00937b4b2ca1a2acab39db66832064bd36a2c201ed5a6a",
+      "bytes": 2536,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/tests/test_vault_context.py",
+      "git_blob": "be109634b1b7a1cffc4b576406c689fe16c83d24",
+      "sha256": "0617054d799972f956da945324b994239c67451b2496a6263075d48b205bb985",
+      "bytes": 1317,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/understanding/__init__.py",
+      "git_blob": "d7298655907b867569b3c5e1a4d3e967a103acc5",
+      "sha256": "4abdad330c856334164d173701ef8a82dfdfd879108d148a2fccddf63929149f",
+      "bytes": 2630,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/understanding/asset_planning.py",
+      "git_blob": "767055c34b8db0531182d531ffe87aaea29cdde0",
+      "sha256": "42f09eaa7bced5758aa77693c25e02ab16879c0a5550144c5e4b00651b01eb09",
+      "bytes": 3380,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/understanding/chain_recognition_engine.py",
+      "git_blob": "0c557810d3ff1b34af5891997d9929825732b290",
+      "sha256": "c837918e7d9f06ff84eb0c17300b63497c5684de83db292f700c4b19d7151381",
+      "bytes": 5702,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/understanding/chain_relationship_mapper.py",
+      "git_blob": "d4c5ff7f93867fda6003d93ddbeaba9b249fc560",
+      "sha256": "133a73afae3067d7a1b5fb422d8021b3ae46c3f48e900242de17eaf4eb953621",
+      "bytes": 3055,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/understanding/cinematic_derivation.py",
+      "git_blob": "23611d91095443fe9ed3a63c1c7ee0c2931d6578",
+      "sha256": "709ab33f6461476cb4ea6ccf7e604003d01456ab1335c53a70e4d7f578cf6fac",
+      "bytes": 21941,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/understanding/cinematic_models.py",
+      "git_blob": "795602b8cd67ede722cb068f4d9a8942150f8201",
+      "sha256": "204a9b00fe756856775cb91f4e05f62f1a4934b44df139d63ae1a402c28b5c90",
+      "bytes": 18469,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/understanding/cinematic_runtime.py",
+      "git_blob": "42f57cdd24180b480d6a1e6835b8e5e2dec036e9",
+      "sha256": "6b5c1caff04c029f116746d18168459451fb2ff8df579881f16a9ce51388565e",
+      "bytes": 17833,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/understanding/cinematic_stages.py",
+      "git_blob": "1e7d88f6d30d373fde5d2d5c7a232866a5178955",
+      "sha256": "7079531496c0c3f3de5001bc4767ca25ffdf44b1cdf2a64818341e1c7f42a110",
+      "bytes": 2548,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/understanding/cinematic_validation.py",
+      "git_blob": "5dd174ecf55feb91f430cc3bd9b44d3d21d939df",
+      "sha256": "9f1f71513853c592730f64919abe3a25c9ce2b3616642b3140f9dd1f97368049",
+      "bytes": 3033,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/understanding/creative_models.py",
+      "git_blob": "2ce2715c460ba55e9b092889e8b0cb3d98262b9b",
+      "sha256": "937b72531e8e85cb8a833c09b821ed3f4fabaf3977900fe6885d63171c42f780",
+      "bytes": 8910,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/understanding/creative_production.py",
+      "git_blob": "13e1c86e2a5b12cd05888f0384c154c7253f5ebb",
+      "sha256": "967aa89ce5a2b057980737cd313d78760932f4b47e9be17e8784cc96f404d3db",
+      "bytes": 17033,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/understanding/creative_understanding.py",
+      "git_blob": "e5444374669b95d73a83ea5cc706e20a718a296c",
+      "sha256": "0c9e2351d607f5476471b0cb1d88c53ba199f618f975dd4516b76de080f916ab",
+      "bytes": 3162,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/understanding/declaration_delta.py",
+      "git_blob": "3b7a2d129921bbebfe0e57155174f25e0d339afb",
+      "sha256": "48c3abecdbdc1dae9eeee9ab84495c22726d83025a00446f281132b70eae51d4",
+      "bytes": 8073,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/understanding/decomposition_engine.py",
+      "git_blob": "6f08e162d9bfc5d23d6e60cb1e5731b633319dfd",
+      "sha256": "2382bdd9608a1409525ff2babf0adc04193f49189ddc4099dc74c4516c16a15c",
+      "bytes": 5003,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/understanding/governing_engine.py",
+      "git_blob": "515838a81376949e490904dec31e970c084abb83",
+      "sha256": "235c59f7bd1ed3c96310e2574c0d7636f999afde0fe832965b3400004caef67b",
+      "bytes": 4384,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/understanding/meaning_continuity_validator.py",
+      "git_blob": "ce905097a1acfd165889f8c8b5e2170252b57d8d",
+      "sha256": "8c17c286de2d2331155cd4a31ab28cf490129971fbb50e67a98c3d1c01fb8feb",
+      "bytes": 5776,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/understanding/mechanism_derivation_engine.py",
+      "git_blob": "e2b465d0a1e7a4b65ad32bb71e3e0cd97bf00ecf",
+      "sha256": "747b31050c4e4aa026241988ad3d7e94ded76562be584a4ce1adf1920a4879d9",
+      "bytes": 5596,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/understanding/semantic_custody_engine.py",
+      "git_blob": "30f8f295e25ddb65463dabad2195d13238a5cc8b",
+      "sha256": "fd1f937d3aaa3bbefe76b16357e8d8ba21f6da4f085243f9027229fb576fd2e8",
+      "bytes": 6842,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/understanding/semantic_custody_policy.py",
+      "git_blob": "bff4a6dec61814bfa64f3184848d503d1b2be542",
+      "sha256": "29966f0edad8023670d8bbc03f65031e2241f41cd6cc483e7acb5f50d1869fad",
+      "bytes": 2276,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/understanding/semantic_drift_record.py",
+      "git_blob": "dcc41662485f0fab739479d2dbc7171d5b3f717a",
+      "sha256": "41fb681a769e2739723c7d2cd40300cd08a292fd84f98bc3c9c264c9f3fd1ad0",
+      "bytes": 1738,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/understanding/semantic_state.py",
+      "git_blob": "12d5e592c162ed94320c1e925265809f13d8805e",
+      "sha256": "37db8d8c14fcf602e2f5d83769e7d43bb64b26ff2f671226148984f4ab57d405",
+      "bytes": 1308,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/understanding/semantic_transition.py",
+      "git_blob": "dcb52da840a5f6f2ebd86e58f233fb2a410ebd9b",
+      "sha256": "91ac6289fe4d06b6a205aae3951feb673d3b1433aafd10199ca6526e00b851a0",
+      "bytes": 2981,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/understanding/story_cinematic_handoff.py",
+      "git_blob": "319a00aef08eb032949df9e30ab13bc69edf435e",
+      "sha256": "ef403324a7fe3715688cfcf76d907fbe0b8a6a9dbdc34d75b72aafc9d7f0c166",
+      "bytes": 16392,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/understanding/story_contracts.py",
+      "git_blob": "5b676bed0163ded4f7fa9424f681b5ffd1e69223",
+      "sha256": "2b0a8100e9fc546d0dbea3f4ae86390f91b2e5a56db4a4803c5578528ca3a4e7",
+      "bytes": 7877,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/understanding/story_interpretation.py",
+      "git_blob": "8aad66c384ecfe16f3f7006e61dd8856ec7e24dc",
+      "sha256": "9cc55c11a5fd8ec7bd26d78a05f4665a3cb717dcce83cb067f5665809d16ba76",
+      "bytes": 28587,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/understanding/story_source.py",
+      "git_blob": "367530df75a65ce90bf992f9bd864213b2d7ed04",
+      "sha256": "98c5779f6007a7422216fbe45431540406a6674aa18697c372dd8d730693a44b",
+      "bytes": 2237,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/understanding/system_chain.py",
+      "git_blob": "e725d0dd7c1e97bd038ff13b8dd06de27275e867",
+      "sha256": "cec11e5a095e714d553f863570f11ce29bb9cac3d6c72a94db379cb8d6015f01",
+      "bytes": 1990,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/understanding/system_relationship.py",
+      "git_blob": "b9cdd70eedddf0eca8a1290a256b04edb8956f53",
+      "sha256": "98e9f5e307f94cea0485f7e0d510ddcd787ac7dff77169485ac1e705ce002918",
+      "bytes": 2446,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/understanding/tests/examples.py",
+      "git_blob": "55161e021c36f70fbe41648d0cd129c97e42543d",
+      "sha256": "4b99c065eb3b763f74a1b3d9dc25aac685c435873969cdddb97d3fac4bfffa9b",
+      "bytes": 2167,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/understanding/tests/test_understanding_v12.py",
+      "git_blob": "ed849567da285c72ad18448161e95d6773597ac6",
+      "sha256": "c5e265a54f832b83eb7a498fed0b7cacb85040290c2f010f778799317ae44258",
+      "bytes": 29325,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/understanding/understanding_engine.py",
+      "git_blob": "7ce7595618db4736dafac2f6f1651fccc95712ba",
+      "sha256": "8ee0ebe8fdda60a6278bd52f24b3c351cb5eccd8e7bc3e7f4dee457a970d8dc2",
+      "bytes": 56176,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/understanding/understanding_record.py",
+      "git_blob": "756c80a6878dee733202ba0161660817a2ab4a87",
+      "sha256": "f4312db494bd30849c65cfc6f5175089d7495a8a4b6a61b0433169a010b3decd",
+      "bytes": 6438,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/understanding/understanding_store.py",
+      "git_blob": "3b006b3c7503d8863dcf7d439745605efcf2af3e",
+      "sha256": "a3788c0f6acaf51e7d5c976ae2b09f2e70f472996c67006d0e3f616751c97dfe",
+      "bytes": 11197,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    },
+    {
+      "path": "MODE_AI/understanding/understanding_updater.py",
+      "git_blob": "27369f4779f242de0d774e73085bda3f5fee6347",
+      "sha256": "ef6a50dadd4b89670dd56e7a42cf503ec4d296592417b4347b86511c9ff0192f",
+      "bytes": 2905,
+      "rights_scope": "Licensor-controlled original material only; third-party rights excluded"
+    }
+  ],
+  "excluded_mode_documentation": [
+    "MODE_AI/ARCHITECTURE.md",
+    "MODE_AI/CONTRIBUTING.md",
+    "MODE_AI/PUBLICATION_NOTES.md",
+    "MODE_AI/README.md",
+    "MODE_AI/TESTING.md",
+    "MODE_AI/builder/kernel/CUTOVER_PREPARATION_CONTRACT.md",
+    "MODE_AI/integration/EXECUTION_INTEGRITY_CONTRACT.md",
+    "MODE_AI/learning/CONTRACT.md",
+    "MODE_AI/runtime_observation/V32_CONTRACT.md",
+    "MODE_AI/specs/CINEMATIC_CONTRACT.md",
+    "MODE_AI/specs/DOCUMENT_MODEL_CONTRACT.md",
+    "MODE_AI/specs/STORY_INTERPRETATION_CONTRACT.md"
+  ],
+  "excluded_other_paths": [
+    "content/**",
+    "config/**",
+    "docs/**",
+    "evidence/**",
+    "reports/**",
+    "tools/**",
+    "tests/**",
+    ".github/**",
+    "README.md",
+    "all private/current MODE development",
+    "all unlisted/later files and third-party material"
+  ]
+}

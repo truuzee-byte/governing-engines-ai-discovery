@@ -1,0 +1,109 @@
+{
+  "status": "DRAFT_NOT_EFFECTIVE",
+  "operator_approved": false,
+  "final_license_version": null,
+  "effective_date": null,
+  "licensee_identity": null,
+  "licensor_legal_identity": null,
+  "copyright_owner_legal_identity": null,
+  "original_creator": "DeMarius J. Lawson",
+  "attribution_names": [
+    "DeMarius J. Lawson",
+    "Governing Engines"
+  ],
+  "participation_rate": "0.01",
+  "participation_basis": "Attributable Net Profit only",
+  "original_creator_contractual_participation_right": true,
+  "company_equity_granted": false,
+  "scope_manifest": "SCOPE_MANIFEST.json",
+  "snapshot_commit": "57c982b9aedd48983cc0eb2694ae9df2a8016805",
+  "acceptance_evidence": null,
+  "reporting_channel": null,
+  "payment_instructions": null,
+  "decisions": {
+    "D01": {
+      "status": "OPEN",
+      "resolution": null,
+      "approver": null,
+      "approved_on": null
+    },
+    "D02": {
+      "status": "OPEN",
+      "resolution": null,
+      "approver": null,
+      "approved_on": null
+    },
+    "D03": {
+      "status": "OPEN",
+      "resolution": null,
+      "approver": null,
+      "approved_on": null
+    },
+    "D04": {
+      "status": "OPEN",
+      "resolution": null,
+      "approver": null,
+      "approved_on": null
+    },
+    "D05": {
+      "status": "OPEN",
+      "resolution": null,
+      "approver": null,
+      "approved_on": null
+    },
+    "D06": {
+      "status": "OPEN",
+      "resolution": null,
+      "approver": null,
+      "approved_on": null
+    },
+    "D07": {
+      "status": "OPEN",
+      "resolution": null,
+      "approver": null,
+      "approved_on": null
+    },
+    "D08": {
+      "status": "OPEN",
+      "resolution": null,
+      "approver": null,
+      "approved_on": null
+    },
+    "D09": {
+      "status": "OPEN",
+      "resolution": null,
+      "approver": null,
+      "approved_on": null
+    },
+    "D10": {
+      "status": "OPEN",
+      "resolution": null,
+      "approver": null,
+      "approved_on": null
+    },
+    "D11": {
+      "status": "OPEN",
+      "resolution": null,
+      "approver": null,
+      "approved_on": null
+    },
+    "D12": {
+      "status": "OPEN",
+      "resolution": null,
+      "approver": null,
+      "approved_on": null
+    },
+    "D13": {
+      "status": "OPEN",
+      "resolution": null,
+      "approver": null,
+      "approved_on": null
+    },
+    "D14": {
+      "status": "OPEN",
+      "resolution": null,
+      "approver": null,
+      "approved_on": null
+    }
+  }
+}

@@ -53,4 +53,10 @@ The objective adapter supports governed `INSPECT_DIRECTORY` and `READ_FILE`; it 
 
 Credentials, profiles, conversations, persistent memory, state databases, logs, telemetry, historical artifacts, generated builds and external RP contents are absent. Some retained tests and diagnostic catalogues refer to those missing private artifacts; absence is intentionally visible, not replaced with fabricated evidence. A bare whole-tree test run is not the supported reproduction command.
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md) before proposing changes. No license has been added, by explicit operator instruction; the repository's existing absence of licensing terms is retained. No authorship or licensing grant is invented here.
+Read [CONTRIBUTING.md](CONTRIBUTING.md) before proposing changes. The October 26 snapshot was published without an added license, as recorded in [PUBLICATION_NOTES.md](PUBLICATION_NOTES.md).
+
+## MODE source licensing proposal — October 31, 2026
+
+The [custom MODE Source License](MODE_SOURCE_LICENSE.md) is an **operator review draft, not effective**. It proposes use, modification, extension and commercialization of the exact published source snapshot with credit to **DeMarius J. Lawson and Governing Engines** and exactly **1% of attributable net profit** from covered commercial products/services. Developers retain independent contributions; original MODE ownership is unchanged. Private development, unrelated research and third-party rights are excluded. No existing recipient is asserted already bound.
+
+See the [licensing README](LICENSING_README.md), [attribution notice](ATTRIBUTION_NOTICE.md), [scope manifest](licensing/SCOPE_MANIFEST.json) and [open decision register](licensing/UNRESOLVED_DETAILS.md). Activation requires operator approval, completed material terms and the approved acceptance procedure; a PR is not an activated license.
