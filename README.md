@@ -67,3 +67,9 @@ The workflow obtains the actual base URL from `configure-pages`, including custo
 ## Evidence limits
 
 `reports/local-validation.json` reports local extraction and integrity checks. `reports/public-verification.json` is written only after every checked public URL matches the generated artifact; a failed run must not be replaced by an older passing report. CI uses a fresh checkout. Publication does not prove indexing, retrieval, recommendation, or delivery to any decision-maker. See the implementation report and external test protocol before interpreting outcomes.
+
+## MODE commercial source license — corrected final proposal
+
+The [version 1.0 licensing proposal](MODE_AI/MODE_SOURCE_LICENSE.md) permits commercial building/modification of the frozen published snapshot once effective and accepted, with credit to DeMarius J. Lawson and Governing Engines. **Exactly 1% of each covered commercial product's total net profit is payable quarterly to Governing Engines LLC; no MODE-contribution or feature-level discount.** Unrelated products/business and independent ownership are excluded. Contact DeMarius J. Lawson before the first payment deadline for private approved instructions; failure to contact does not waive or extend obligations.
+
+**AS IS. NO UPDATES PROMISED.** No future versions/private code/Learning, patches, support, maintenance or continued development is promised. See the [licensing README](MODE_AI/LICENSING_README.md), [attribution notice](MODE_AI/ATTRIBUTION_NOTICE.md) and [decision/evidence register](MODE_AI/licensing/UNRESOLVED_DETAILS.md): 12 resolved; 2 partially resolved solely for title/rights evidence. This remains **NOT EFFECTIVE** pending authorized release and actual acceptance; no automatic activation, merge, deployment or retroactive binding. The discovery research corpus and newer private MODE are not licensed by this proposal.

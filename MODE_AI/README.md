@@ -53,4 +53,10 @@ The objective adapter supports governed `INSPECT_DIRECTORY` and `READ_FILE`; it 
 
 Credentials, profiles, conversations, persistent memory, state databases, logs, telemetry, historical artifacts, generated builds and external RP contents are absent. Some retained tests and diagnostic catalogues refer to those missing private artifacts; absence is intentionally visible, not replaced with fabricated evidence. A bare whole-tree test run is not the supported reproduction command.
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md) before proposing changes. No license has been added, by explicit operator instruction; the repository's existing absence of licensing terms is retained. No authorship or licensing grant is invented here.
+Read [CONTRIBUTING.md](CONTRIBUTING.md) before proposing changes. The October 26 snapshot was published without an added license, as recorded in [PUBLICATION_NOTES.md](PUBLICATION_NOTES.md).
+
+## MODE commercial source license — corrected final proposal
+
+The [version 1.0 licensing proposal](MODE_SOURCE_LICENSE.md) permits commercial building/modification of the frozen published snapshot once effective and accepted, with credit to DeMarius J. Lawson and Governing Engines. **Exactly 1% of each covered commercial product's total net profit is payable quarterly to Governing Engines LLC; no MODE-contribution or feature-level discount.** Unrelated products/business and independent ownership are excluded. Contact DeMarius J. Lawson before the first payment deadline for private approved instructions; failure to contact does not waive or extend obligations.
+
+**AS IS. NO UPDATES PROMISED.** No future versions/private code/Learning, patches, support, maintenance or continued development is promised. See the [licensing README](LICENSING_README.md), [attribution notice](ATTRIBUTION_NOTICE.md) and [decision/evidence register](licensing/UNRESOLVED_DETAILS.md): 12 resolved; 2 partially resolved solely for title/rights evidence. This remains **NOT EFFECTIVE** pending authorized release and actual acceptance; no automatic activation, merge, deployment or retroactive binding. The discovery research corpus and newer private MODE are not licensed by this proposal.
