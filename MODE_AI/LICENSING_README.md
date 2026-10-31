@@ -1,35 +1,39 @@
-# MODE licensing proposal
+# MODE commercial source licensing — final proposal
 
-**October 31, 2026: operator review draft. No merge, activation or existing-recipient assent is asserted.**
+**Version 1.0 — October 31, 2026 — NOT EFFECTIVE. PR #3 remains the sole review proposal.**
 
-Developers are intended to be able to use, modify, extend and commercialize covered MODE code, while crediting **DeMarius J. Lawson and Governing Engines** and paying exactly **1% of attributable net profit** on covered commercial products/services. Developers keep their independently created contributions; original MODE ownership remains unchanged. This is a custom source-available business license, not a replacement conventional open-source license and not company equity.
+People may build, modify, extend, distribute and commercialize the specified published MODE snapshot under an effective accepted agreement. They own what they independently create and must credit **DeMarius J. Lawson and Governing Engines**. Original MODE ownership remains with its verified lawful owner.
 
-- [Custom MODE Source License](MODE_SOURCE_LICENSE.md): contractual definitions, grant, attribution, 1% calculation, reporting, redistribution, enforcement and disclaimers.
-- [Attribution notice](ATTRIBUTION_NOTICE.md): distribution/public-representation credit and draft copyright-owner field.
-- [Exact scope manifest](licensing/SCOPE_MANIFEST.json): immutable snapshot file list and hashes; no floating private-code coverage.
-- [Scope and compatibility report](licensing/SCOPE_AND_COMPATIBILITY.md): prior notices, dependencies, scope exclusions and earlier-copy limits.
-- [Unresolved-detail register](licensing/UNRESOLVED_DETAILS.md) and [unapproved activation schedule](licensing/ACTIVATION_SCHEDULE.json): material decisions requiring operator approval.
-- [Validation results](licensing/VALIDATION_RESULTS.json): performed mechanical checks; not a legal-enforceability opinion or runtime qualification.
+**Governing Engines LLC is entitled to exactly 1% of each covered commercial product's total net profit. No MODE-contribution or feature-level discount is allowed.** No royalty applies to unrelated products/business or company-wide profits. Genuine separately commercialized-product bundles use consistent documented product-level revenue/expense allocation only. Consistent accrual accounting, legitimate operating expenses and same-product operating loss carryforwards apply.
 
-The proposal targets **`mode-ai-publication-20261026`**, not `main` and not the separate publication/security-audit PR. It changes licensing documentation and adds review/validation artifacts only. No functional MODE code, research corpus, private implementation or historical commit is altered.
+Confidential statements and USD payments are due quarterly: **April 30, July 30, October 30, January 30 (following year)**. Zero-profit quarters require statements but no payment. Payments go only to **Governing Engines LLC**; developers must contact **DeMarius J. Lawson** before their first deadline to arrange private approved instructions. Failure to contact does not waive or extend obligations. No account/email/banking credentials are invented; no upfront fee, minimum royalty or mandatory annual fee is imposed.
 
-The exact pre-license snapshot is `57c982b9aedd48983cc0eb2694ae9df2a8016805`. Existing October 26 statements that no license had been added were true of that publication and are preserved as historical facts. This new draft does not retroactively bind existing users or revoke valid earlier/platform grants.
+**AS IS. NO UPDATES PROMISED.** No future MODE/private code/Learning entitlement, upgrade, patch, support, maintenance, assistance or continued-development obligation is created. Future offers are discretionary and separately agreed.
 
-## Review and activation
+## Artifacts
 
-Review the fixed business terms first, then resolve D01–D14. Confirm ownership/licensing authority and third-party exclusions; select the accounting, allocation, reporting, payment and enforcement details explicitly. Retain the 1% rate and both attribution names. Approve a final license and an effective, accepted agreement using the resolved schedule. Merging a PR or toggling a JSON status is not by itself proof of acceptance, title or legal enforceability. No active license is claimed while activation blockers remain.
+- [MODE Commercial Source License](MODE_SOURCE_LICENSE.md)
+- [Attribution notice](ATTRIBUTION_NOTICE.md)
+- [Immutable 477-file scope manifest](licensing/SCOPE_MANIFEST.json)
+- [Scope and compatibility report](licensing/SCOPE_AND_COMPATIBILITY.md)
+- [Decision/evidence register](licensing/UNRESOLVED_DETAILS.md): 12 resolved; 2 partially resolved only for external title/rights evidence.
+- [Unactivated schedule](licensing/ACTIVATION_SCHEDULE.json)
+- [Licensing validation](licensing/VALIDATION_RESULTS.json), [publication validation](licensing/PUBLICATION_CHECKS.json) and [publication test log](licensing/PUBLICATION_TESTS.txt)
 
-The operator should obtain legal/accounting review of the custom agreement and completed schedule before offering it for acceptance. The draft is complete for substantive review, but unresolved material choices prevent describing it as an executed or commercially effective license.
+The target is `mode-ai-publication-20261026`, with original covered commit `57c982b9aedd48983cc0eb2694ae9df2a8016805`. No original covered file or newer local MODE implementation is altered. This does not license the whole discovery repository or research corpus. Third-party and prior grants remain intact; no recipient is asserted to have retroactively accepted the agreement.
 
-## Reproduce mechanical validation
+Remaining evidence: verified copyright owner/agency authority and applicable contributor/third-party/prior-grant clearance. Final release approval and actual prospective licensee acceptance are still needed; no activation, merge or deployment is automatic. Payment coordination is a settled private procedure, not an open business decision or excuse to postpone a deadline.
 
-From the repository root, using Python 3.12+:
+## Checks
+
+From repository root with Python 3.12+:
 
 ```sh
-python MODE_AI/licensing/validate_licensing.py
+python MODE_AI/licensing/validate_licensing.py --output MODE_AI/licensing/VALIDATION_RESULTS.json
+python -m unittest discover -s MODE_AI/licensing -p test_licensing.py -v
 python -m unittest discover -s tests -v
 python tools/publication.py build --base-url https://truuzee-byte.github.io/governing-engines-ai-discovery
 python tools/publication.py validate --base-url https://truuzee-byte.github.io/governing-engines-ai-discovery
 ```
 
-The licensing validator is separate from MODE runtime and does not install packages, call providers, alter operational state or activate terms. The existing publication workflow runs publication tests/build on the PR and skips deployment.
+The licensing validator also runs the licensing regression tests. These checks do not execute MODE/providers or prove title, acceptance or enforceability. The PR workflow validates licensing and the publication build, with deployment skipped.

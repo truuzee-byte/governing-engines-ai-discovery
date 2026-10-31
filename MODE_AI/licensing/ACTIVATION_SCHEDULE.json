@@ -1,109 +1,194 @@
 {
-  "status": "DRAFT_NOT_EFFECTIVE",
-  "operator_approved": false,
-  "final_license_version": null,
+  "status": "FINAL_PROPOSAL_NOT_EFFECTIVE",
+  "operator_business_terms_authorized": true,
+  "business_terms_authorized_on": "2026-10-31",
+  "license_activation_approved": false,
+  "license_version": "1.0",
   "effective_date": null,
   "licensee_identity": null,
   "licensor_legal_identity": null,
   "copyright_owner_legal_identity": null,
   "original_creator": "DeMarius J. Lawson",
+  "project": "Governing Engines",
   "attribution_names": [
     "DeMarius J. Lawson",
     "Governing Engines"
   ],
+  "royalty_entitled_party": "Governing Engines LLC",
+  "payment_recipient": "Governing Engines LLC",
+  "payment_contact": "DeMarius J. Lawson",
+  "contact_required_before_first_payment_deadline": true,
+  "failure_to_contact_waives_or_extends_obligation": false,
+  "payment_instructions": null,
+  "reporting_channel": null,
   "participation_rate": "0.01",
-  "participation_basis": "Attributable Net Profit only",
-  "original_creator_contractual_participation_right": true,
+  "participation_basis": "Each covered commercial product total net profit after allowable product expenses and unused same-product loss carryforward",
+  "contribution_discount_allowed": false,
+  "unrelated_product_or_company_wide_royalty": false,
+  "bundle_allocation_scope": "Genuine bundles of separately commercialized products only; never MODE contribution within one product",
+  "accounting_basis": "consistent accrual",
+  "currency": "USD",
+  "exchange_rate_policy": "Document and consistently apply published source and conversion method/dates; disclose in statements",
+  "upfront_fee": "0",
+  "minimum_royalty": "0",
+  "mandatory_annual_fee": "0",
+  "same_product_operating_loss_carryforward": true,
+  "cross_product_loss_offset": false,
+  "quarterly_reporting": true,
+  "zero_profit_statement_required": true,
+  "quarterly_deadlines": {
+    "Q1": {
+      "period": "January 1–March 31",
+      "due_month": 4,
+      "due_day": 30,
+      "due_year_offset": 0
+    },
+    "Q2": {
+      "period": "April 1–June 30",
+      "due_month": 7,
+      "due_day": 30,
+      "due_year_offset": 0
+    },
+    "Q3": {
+      "period": "July 1–September 30",
+      "due_month": 10,
+      "due_day": 30,
+      "due_year_offset": 0
+    },
+    "Q4": {
+      "period": "October 1–December 31",
+      "due_month": 1,
+      "due_day": 30,
+      "due_year_offset": 1
+    }
+  },
+  "records_retention_years": 5,
+  "material_breach_cure_calendar_days": 30,
+  "governing_law_proposal": "Ohio",
+  "courts_proposal": "Ohio state courts or federal courts located in Ohio having subject-matter jurisdiction",
+  "mandatory_arbitration": false,
+  "future_versions_entitled": false,
+  "private_code_entitled": false,
+  "future_learning_entitled": false,
+  "updates_patches_support_maintenance_assistance_promised": false,
+  "continued_development_obligation": false,
   "company_equity_granted": false,
   "scope_manifest": "SCOPE_MANIFEST.json",
   "snapshot_commit": "57c982b9aedd48983cc0eb2694ae9df2a8016805",
   "acceptance_evidence": null,
-  "reporting_channel": null,
-  "payment_instructions": null,
   "decisions": {
     "D01": {
-      "status": "OPEN",
-      "resolution": null,
-      "approver": null,
-      "approved_on": null
+      "status": "PARTIALLY_RESOLVED",
+      "resolved_on": "2026-10-31",
+      "authority": "Operator finalization instruction dated October 31, 2026; coherent implementing provisions drafted within that authorization",
+      "clauses": "§§1–2, 8",
+      "resolution": "Creator/project, sole LLC entitlement/payee and Lawson coordination resolved. E01: documentary original copyright title and licensing agency authority remain unverified."
     },
     "D02": {
-      "status": "OPEN",
-      "resolution": null,
-      "approver": null,
-      "approved_on": null
+      "status": "RESOLVED",
+      "resolved_on": "2026-10-31",
+      "authority": "Operator finalization instruction dated October 31, 2026; coherent implementing provisions drafted within that authorization",
+      "clauses": "§§1, 14",
+      "resolution": "Versioned prospective express written/electronic assent; no retroactivity or revocation. Actual release approval/individual assent are future release/transaction evidence, not undecided terms."
     },
     "D03": {
-      "status": "OPEN",
-      "resolution": null,
-      "approver": null,
-      "approved_on": null
+      "status": "RESOLVED",
+      "resolved_on": "2026-10-31",
+      "authority": "Operator finalization instruction dated October 31, 2026; coherent implementing provisions drafted within that authorization",
+      "clauses": "§5",
+      "resolution": "Identifiable commercial products built/operated/delivered using covered source, including material construction-tool use; no unrelated-company coverage."
     },
     "D04": {
-      "status": "OPEN",
-      "resolution": null,
-      "approver": null,
-      "approved_on": null
+      "status": "RESOLVED",
+      "resolved_on": "2026-10-31",
+      "authority": "Operator finalization instruction dated October 31, 2026; coherent implementing provisions drafted within that authorization",
+      "clauses": "§§5–7, 10",
+      "resolution": "Whole covered product profit. Contribution/feature/code-value discounts prohibited. Documented allocation solely among separately commercialized products in genuine bundles; no duplicate party/product profit."
     },
     "D05": {
-      "status": "OPEN",
-      "resolution": null,
-      "approver": null,
-      "approved_on": null
+      "status": "RESOLVED",
+      "resolved_on": "2026-10-31",
+      "authority": "Operator finalization instruction dated October 31, 2026; coherent implementing provisions drafted within that authorization",
+      "clauses": "§§7–8",
+      "resolution": "Calendar quarters, consistent accrual, USD, documented consistently applied published FX source; exact calendar deadlines and disclosed settlement rounding."
     },
     "D06": {
-      "status": "OPEN",
-      "resolution": null,
-      "approver": null,
-      "approved_on": null
+      "status": "RESOLVED",
+      "resolved_on": "2026-10-31",
+      "authority": "Operator finalization instruction dated October 31, 2026; coherent implementing provisions drafted within that authorization",
+      "clauses": "§7",
+      "resolution": "Approved operating expense classes and reasonable shared overhead; no duplicate/improper deductions or royalty deduction; same-product operating loss carryforward only."
     },
     "D07": {
-      "status": "OPEN",
-      "resolution": null,
-      "approver": null,
-      "approved_on": null
+      "status": "RESOLVED",
+      "resolved_on": "2026-10-31",
+      "authority": "Operator finalization instruction dated October 31, 2026; coherent implementing provisions drafted within that authorization",
+      "clauses": "§§8–9",
+      "resolution": "Confidential quarterly product statements including zero-profit quarters; due with quarterly payments; protect private customer/IP information."
     },
     "D08": {
-      "status": "OPEN",
-      "resolution": null,
-      "approver": null,
-      "approved_on": null
+      "status": "RESOLVED",
+      "resolved_on": "2026-10-31",
+      "authority": "Operator finalization instruction dated October 31, 2026; coherent implementing provisions drafted within that authorization",
+      "clauses": "§§1, 8",
+      "resolution": "All royalties payable to Governing Engines LLC; contact DeMarius J. Lawson before first deadline; no invented payment/contact account; failure to contact does not waive or extend duties."
     },
     "D09": {
-      "status": "OPEN",
-      "resolution": null,
-      "approver": null,
-      "approved_on": null
+      "status": "RESOLVED",
+      "resolved_on": "2026-10-31",
+      "authority": "Operator finalization instruction dated October 31, 2026; coherent implementing provisions drafted within that authorization",
+      "clauses": "§9",
+      "resolution": "Five years of supporting records; reasonably limited confidential independent-accountant review, notice/frequency/safeguards and requester-funded accountant."
     },
     "D10": {
-      "status": "OPEN",
-      "resolution": null,
-      "approver": null,
-      "approved_on": null
+      "status": "RESOLVED",
+      "resolved_on": "2026-10-31",
+      "authority": "Operator finalization instruction dated October 31, 2026; coherent implementing provisions drafted within that authorization",
+      "clauses": "§11",
+      "resolution": "Written material-breach notice, 30 calendar days to cure, written termination, survival of accrued payments/reports/records/confidentiality; independent ownership/downstream rights protected."
     },
     "D11": {
-      "status": "OPEN",
-      "resolution": null,
-      "approver": null,
-      "approved_on": null
+      "status": "RESOLVED",
+      "resolved_on": "2026-10-31",
+      "authority": "Operator finalization instruction dated October 31, 2026; coherent implementing provisions drafted within that authorization",
+      "clauses": "§14",
+      "resolution": "Ohio law and competent Ohio state/federal courts proposed; no mandatory arbitration; mandatory protections preserved, no enforceability guarantee."
     },
     "D12": {
-      "status": "OPEN",
-      "resolution": null,
-      "approver": null,
-      "approved_on": null
+      "status": "PARTIALLY_RESOLVED",
+      "resolved_on": "2026-10-31",
+      "authority": "Operator finalization instruction dated October 31, 2026; coherent implementing provisions drafted within that authorization",
+      "clauses": "§§2–4, 10, 14",
+      "resolution": "Ownership/exclusion/contributor/prior-rights policy settled. E02: artifact-level third-party/copy/title and any separate prior-grant evidence not fully available; do not claim authority over it."
     },
     "D13": {
-      "status": "OPEN",
-      "resolution": null,
-      "approver": null,
-      "approved_on": null
+      "status": "RESOLVED",
+      "resolved_on": "2026-10-31",
+      "authority": "Operator finalization instruction dated October 31, 2026; coherent implementing provisions drafted within that authorization",
+      "clauses": "§13",
+      "resolution": "AS-IS disclaimers; ordinary contractual damages bounded to affected-product royalties paid/payable in prior 12 months with mandatory/IP/confidentiality/misconduct exceptions; accrued payments/reports not limited; no invented penalties/indemnity."
     },
     "D14": {
-      "status": "OPEN",
-      "resolution": null,
-      "approver": null,
-      "approved_on": null
+      "status": "RESOLVED",
+      "resolved_on": "2026-10-31",
+      "authority": "Operator finalization instruction dated October 31, 2026; coherent implementing provisions drafted within that authorization",
+      "clauses": "§§4, 14",
+      "resolution": "Factual names/attribution permitted; no general branding/trademark or express patent portfolio grant; actual rights-holder permissions remain separate."
     }
+  },
+  "remaining_evidence": {
+    "E01": {
+      "status": "OPEN_EVIDENCE",
+      "needed": "Identify verified lawful copyright owner and document chain-of-title or authorized agency for original covered portions. LLC payee designation is not evidence of assignment."
+    },
+    "E02": {
+      "status": "OPEN_EVIDENCE",
+      "needed": "Complete applicable artifact/contributor/copied-material rights review and disclose any separate prior grants; direct package metadata alone is not title or distribution clearance."
+    }
+  },
+  "release_and_transaction_gates": {
+    "operator_release_and_merge_approval": "NOT GIVEN; do not activate, merge or deploy automatically",
+    "licensee_acceptance": "No identified licensee or actual acceptance evidence recorded",
+    "private_payment_coordination": "To be arranged with DeMarius J. Lawson before first payment deadline; no banking/contact details invented; not a waiver or extension"
   }
 }

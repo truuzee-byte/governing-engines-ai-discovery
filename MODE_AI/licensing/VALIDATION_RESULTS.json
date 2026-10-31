@@ -1,8 +1,8 @@
 {
-  "status": "PASS_DRAFT_MECHANICAL_VALIDATION",
+  "status": "PASS_FINAL_PROPOSAL_VALIDATION",
   "exit_status": 0,
   "command": "python MODE_AI/licensing/validate_licensing.py --output MODE_AI/licensing/VALIDATION_RESULTS.json",
-  "activation_status": "BLOCKED_PENDING_D01_D14",
+  "activation_status": "NOT_ACTIVATED; external rights evidence and release/assent gates remain",
   "snapshot_commit": "57c982b9aedd48983cc0eb2694ae9df2a8016805",
   "covered_original_files": 477,
   "checks": [
@@ -23,42 +23,63 @@
       "result": "PASS"
     },
     {
-      "check": "Repository changes limited to licensing artifacts and three entrypoint docs",
+      "check": "Changes limited to licensing, entrypoint docs and CI validation",
       "result": "PASS"
     },
     {
-      "check": "Correct creator/project attribution",
+      "check": "All 477 current index blobs still equal frozen originals",
       "result": "PASS"
     },
     {
-      "check": "Exactly one-percent attributable-profit model retained",
+      "check": "Creator/project attribution preserved",
       "result": "PASS"
     },
     {
-      "check": "Commercial permission, retained ownership and unrelated/private exclusions explicit",
+      "check": "Correct whole-product royalty, coordination, dates, no-updates and enforcement clauses",
       "result": "PASS"
     },
     {
-      "check": "Every material decision remains explicitly open and activation blocked",
+      "check": "Single one-percent total-product model; no contribution or unrelated-company base",
       "result": "PASS"
     },
     {
-      "check": "Six synthetic allocated-profit arithmetic cases",
+      "check": "LLC payee and creator coordination without invented banking/contact endpoint",
       "result": "PASS"
     },
     {
-      "check": "Unrelated business revenue does not enter synthetic royalty base",
+      "check": "Quarterly accrual USD statements, same-product loss carryforward, no fees",
       "result": "PASS"
     },
     {
-      "check": "All new local documentation links resolve",
+      "check": "Twelve resolved decisions; only title/third-party evidence remains partial",
       "result": "PASS"
     },
     {
-      "check": "Historical no-license publication notice preserved",
+      "check": "No false activation, owner assignment, recipient assent or private implementation grant",
+      "result": "PASS"
+    },
+    {
+      "check": "All pre-existing third-party/contract/publication documentation notices intact",
+      "result": "PASS"
+    },
+    {
+      "check": "Prior third-party license metadata evidence preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "All licensing documentation links resolve",
+      "result": "PASS"
+    },
+    {
+      "check": "Licensing regression suite passed",
       "result": "PASS"
     }
   ],
-  "synthetic_arithmetic_cases": 6,
-  "limits": "No legal enforceability, title, universal license compatibility, existing-recipient assent, runtime behavior or contract activation established."
+  "regression_tests_run": 16,
+  "resolved_decisions": 12,
+  "partially_resolved_evidence_items": [
+    "D01",
+    "D12"
+  ],
+  "limits": "No title, third-party authority, enforceability, actual acceptance, deployment or MODE runtime qualification is established."
 }
