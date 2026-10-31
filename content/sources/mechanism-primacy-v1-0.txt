@@ -1,0 +1,258 @@
+DOCUMENT:
+MECHANISM PRIMACY
+
+VERSION:
+v1.0
+
+STATUS:
+CANONICAL GOVERNING PRINCIPLE
+
+DATE:
+2026-07-01
+
+AUTHOR:
+DeMarius J. Lawson
+
+ORGANIZATION:
+Governing Engines LLC
+
+CLASSIFICATION:
+Foundational Governance Principle / Diagnostic Architecture / System Design Doctrine
+
+==================================================
+PURPOSE
+==================================================
+
+This document establishes Mechanism Primacy as a
+foundational governing principle of Governing Engines.
+
+Mechanism Primacy defines how governed systems
+shall be understood before they are modified.
+
+The purpose of this doctrine is to ensure that
+system improvements target the mechanisms
+producing observed outcomes rather than reacting
+to symptoms or isolated results.
+
+==================================================
+DEFINITION
+==================================================
+
+Mechanisms produce outcomes.
+
+Outcomes do not explain themselves.
+
+Before modifying a system, the mechanism
+responsible for producing an observed outcome
+shall first be identified.
+
+==================================================
+CORE PRINCIPLE
+==================================================
+
+Reality reveals outcomes.
+
+Mechanisms produce outcomes.
+
+Governance improves mechanisms.
+
+==================================================
+GOVERNING LAW
+==================================================
+
+No modification shall be justified solely by an
+observed outcome.
+
+Every proposed modification shall be supported by
+an identified mechanism explaining why the outcome
+occurred.
+
+==================================================
+REASONING MODEL
+==================================================
+
+Most reasoning proceeds directly from observation
+to conclusion.
+
+Mechanism Primacy proceeds through mechanism
+discovery before modification.
+
+Observation
+
+↓
+
+Pattern
+
+↓
+
+Mechanism
+
+↓
+
+Diagnostic
+
+↓
+
+Constraint
+
+↓
+
+Design
+
+↓
+
+Validation
+
+==================================================
+MECHANISM LAW
+==================================================
+
+A mechanism shall explain:
+
+• why an outcome occurs
+
+• how an outcome occurs
+
+• under what conditions the outcome occurs
+
+• what constraints govern the outcome
+
+• what changes will alter future outcomes
+
+==================================================
+PATTERN LAW
+==================================================
+
+Patterns suggest the existence of mechanisms.
+
+Patterns alone do not explain behavior.
+
+Repeated observations shall initiate mechanism
+discovery rather than immediate intervention.
+
+==================================================
+DIAGNOSTIC LAW
+==================================================
+
+Diagnostics exist to expose mechanisms.
+
+Diagnostics do not exist to produce conclusions.
+
+Understanding shall precede intervention.
+
+==================================================
+DESIGN LAW
+==================================================
+
+Governed systems shall be improved by modifying
+mechanisms rather than treating symptoms.
+
+Changing symptoms affects isolated outcomes.
+
+Changing mechanisms changes future outcomes.
+
+==================================================
+GOVERNANCE LAW
+==================================================
+
+Governance shall evaluate proposed changes
+according to their effect on governing mechanisms
+rather than isolated results.
+
+Mechanism understanding shall precede
+authorization of system modification.
+
+==================================================
+RELATIONSHIP TO REALITY PRIMACY
+==================================================
+
+Reality Primacy determines whether a claim is
+supported by evidence.
+
+Mechanism Primacy determines what mechanism
+produced the observed outcome.
+
+Reality Primacy answers:
+
+"Is this claim supported by evidence?"
+
+Mechanism Primacy answers:
+
+"What mechanism produced this outcome?"
+
+The two principles operate together.
+
+Reality establishes what is true.
+
+Mechanism explains why it is true.
+
+==================================================
+RELATIONSHIP TO DIAGNOSTICS
+==================================================
+
+Diagnostics expose mechanisms.
+
+Mechanism Primacy governs how those mechanisms
+are interpreted.
+
+Diagnostics provide visibility.
+
+Mechanism Primacy provides direction.
+
+==================================================
+RELATIONSHIP TO MODE
+==================================================
+
+Mode observes.
+
+Mode identifies patterns.
+
+Mode proposes candidate mechanisms.
+
+Diagnostics evaluate those mechanisms.
+
+Reality Primacy validates claims regarding those
+mechanisms.
+
+Builder constructs governed improvements to the
+identified mechanisms following operator
+authorization.
+
+==================================================
+APPLICATION
+==================================================
+
+Mechanism Primacy applies to:
+
+• enterprise diagnostics
+
+• runtime governance
+
+• system architecture
+
+• organizational design
+
+• process improvement
+
+• software engineering
+
+• construction systems
+
+• AI governance
+
+• operational analysis
+
+No governed system shall be modified without first
+identifying the mechanism responsible for the
+observed behavior.
+
+==================================================
+FINAL LAW
+==================================================
+
+Outcomes reveal that something happened.
+
+Mechanisms explain why it happened.
+
+Governed systems improve mechanisms,
+not symptoms.

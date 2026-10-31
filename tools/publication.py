@@ -254,9 +254,9 @@ def check_public(base):
         url = public_url(c, path)
         with urlopen(Request(url, headers={'User-Agent': 'GoverningEngines-PublicationCheck/1.0'}), timeout=30) as response:
             assert response.status == 200, f'HTTP failure: {url}'
-            body = response.read().decode('utf-8')
+            body = response.read()
             # Compare deployed content to this build, including all four message layers.
-            assert body == (OUT / path).read_text(encoding='utf-8'), f'Public content differs: {url}'
+            assert body == (OUT / path).read_bytes(), f'Public content differs: {url}'
             evidence.append({'url': url, 'status': response.status, 'final_url': response.url})
     (ROOT / 'reports/public-verification.json').write_text(json.dumps({'checked_at': datetime.now(timezone.utc).isoformat(),
         'status': 'PASS', 'responses': evidence, 'external_discovery': 'NOT TESTED'}, indent=2) + '\n', encoding='utf-8')

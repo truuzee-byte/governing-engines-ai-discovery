@@ -43,3 +43,9 @@ Only the public handoff corpus is authorized for this import. No private MODE co
 6. Push the reviewed source changes to `main`. The unchanged GitHub Pages workflow builds and deploys; its expanded public checker compares all required corpus files with the uploaded artifact.
 
 Publishing supplies a public retrieval surface. Indexing, ranking, external retrieval, adoption, and behavioral influence still require independent evidence. The three participant-reported Claude trials remain historical observations of the earlier condition; this corpus extension is a new public condition, not a new assistant trial.
+
+## October 31 approved originals exception
+
+The operator expressly authorized two complete originals, without rewriting, redaction or reformatting: `content/sources/mechanism-primacy-v1-0.txt` and `content/sources/ai-system-construction-method-v1-1.pdf`. Both use `edition: original bytes; no modifications`; original and published SHA-256 values are identical. The text has an explicit Git attributes override to prevent line-ending conversion. The PDF is copied as binary, not replaced by an abbreviated derivative. New discovery abstracts/claims are verbatim source excerpts; the construction method has no stated issue date. Earlier 37 privacy-filtered editions remain unchanged.
+
+The existing catalog, graph, manifest and builder now register 39 records and 71 HTML pages. Binary public verification compares bytes. Future original artifacts require content and embedded-metadata review before approval; a PDF signature alone is not a safety determination. This review is proposed on an audit branch and pull request; main, the MODE publication branch and the live Pages deployment remain unchanged pending operator approval.
