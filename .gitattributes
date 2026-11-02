@@ -2,3 +2,9 @@
 content/sources/*.txt text eol=lf
 content/journey/*.txt text eol=lf
 content/machine-state/*.txt text eol=lf
+
+# Operator-supplied original artifacts retain exact bytes.
+content/sources/american-systems-audit-2026-10-27-v2.pdf binary
+content/sources/ai-economy-reality-audit-public-release-v1-0.pdf binary
+# Preserve the supplied Markdown's intentional two-space hard line breaks.
+content/machine-state/mode-2026-11-02.md -text whitespace=-blank-at-eol

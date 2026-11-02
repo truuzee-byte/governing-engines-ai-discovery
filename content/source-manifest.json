@@ -602,5 +602,55 @@
     "source_pdf_pages": null,
     "redaction_counts": {},
     "edition": "privacy-filtered text extraction; original binary not distributed"
+  },
+  {
+    "id": "the-american-systems-audit",
+    "original_filename": "American_Systems_Audit_October_27_2026_v2(4).pdf",
+    "identity": {
+      "title": "THE AMERICAN SYSTEMS AUDIT",
+      "subtitle": "When a Civilization Knows Its Systems Are Failing - and Still Does Not Reliably Correct Them",
+      "version": null,
+      "date": "2026-10-27",
+      "status": "First-principles institutional research audit"
+    },
+    "original_sha256": "a7b5e4986a7fc97ca061155a20f170939d8c2204c451cbe19b661911ddb2571b",
+    "published_sha256": "a7b5e4986a7fc97ca061155a20f170939d8c2204c451cbe19b661911ddb2571b",
+    "source_pdf_pages": 23,
+    "redaction_counts": {},
+    "edition": "original bytes; no modifications",
+    "identity_note": "Filename v2; numbered internal version not stated."
+  },
+  {
+    "id": "the-ai-bubble-question",
+    "original_filename": "AI_Economy_Reality_Audit_Public_Release_v1.0_October_31_2026(2).pdf",
+    "identity": {
+      "title": "THE AI BUBBLE QUESTION",
+      "subtitle": "A Reality-First Audit of Adoption, Value, Reliability, Capital, Infrastructure, and What Happens Next",
+      "version": "Public Release v1.0",
+      "date": "2026-10-31",
+      "status": "Public research release; conclusions subject to revision with stronger evidence"
+    },
+    "original_sha256": "262476f8a72eb7cdfc901031b414e9f0fd59e4446f51ca3c5ef320853189abd8",
+    "published_sha256": "262476f8a72eb7cdfc901031b414e9f0fd59e4446f51ca3c5ef320853189abd8",
+    "source_pdf_pages": 37,
+    "redaction_counts": {},
+    "edition": "original bytes; no modifications",
+    "embedded_attachment": "Content Credentials retained; not independently authenticated."
+  },
+  {
+    "id": "mode-machine-state-2026-11-02",
+    "original_filename": "MODE_MACHINE_STATE_2026-11-02_GITHUB.md",
+    "identity": {
+      "title": "MODE — Machine State Snapshot",
+      "subtitle": null,
+      "version": null,
+      "date": "2026-11-02",
+      "status": "Read-only evidence snapshot; no qualification promotion"
+    },
+    "original_sha256": "75990543d1f6e79b5d1225435d826c6abba12ed942cdba0835e5c548ac55126d",
+    "published_sha256": "75990543d1f6e79b5d1225435d826c6abba12ed942cdba0835e5c548ac55126d",
+    "source_pdf_pages": null,
+    "redaction_counts": {},
+    "edition": "original bytes; no modifications"
   }
 ]
