@@ -11,8 +11,8 @@ class CorpusTests(unittest.TestCase):
 
     def test_corpus_inventory_and_graph(self):
         result = p.validate('https://example.invalid/research', report=False)
-        self.assertEqual(result['corpus']['source_records'], 37)
-        self.assertEqual(result['pages'], 69)
+        self.assertEqual(result['corpus']['source_records'], 40)
+        self.assertEqual(result['pages'], 72)
         self.assertTrue((p.OUT / 'sources/mode.txt').is_file())
 
     def test_missing_identity_fails(self):
@@ -50,6 +50,28 @@ class CorpusTests(unittest.TestCase):
         file.write_text('incomplete source', encoding='utf-8')
         with self.assertRaises(AssertionError):
             p.validate('https://example.invalid/research', report=False)
+
+    def test_november_originals_match_original_hashes(self):
+        import hashlib
+        data, manifests = p.corpus.load()
+        for identity in ('the-american-systems-audit', 'the-ai-bubble-question', 'mode-machine-state-2026-11-02'):
+            d = next(d for d in data['documents'] if d['id'] == identity)
+            m = next(m for m in manifests if m['id'] == identity)
+            self.assertEqual(hashlib.sha256((p.OUT / p.corpus.public_source_path(d)).read_bytes()).hexdigest(), m['original_sha256'])
+            self.assertEqual(m['original_sha256'], m['published_sha256'])
+            self.assertEqual(m['redaction_counts'], {})
+        self.assertFalse((p.OUT / 'sources/MODE_Machine_State_Snapshot_November_2_2026.docx').exists())
+
+    def test_original_pdf_tampering_fails(self):
+        with (p.OUT / 'sources/american-systems-audit-2026-10-27-v2.pdf').open('ab') as stream:
+            stream.write(b'changed')
+        with self.assertRaises(AssertionError):
+            p.validate('https://example.invalid/research', report=False)
+
+    def test_extractor_cannot_rewrite_approved_original(self):
+        import ingest_corpus
+        with self.assertRaisesRegex(ValueError, 'extraction is prohibited'):
+            ingest_corpus.ingest(p.ROOT, ['mode-machine-state-2026-11-02'])
 
     def test_graph_dangling_node_fails(self):
         file = p.OUT / 'corpus/relationships.json'
@@ -92,9 +114,10 @@ class CorpusTests(unittest.TestCase):
     def test_machine_state_chronology(self):
         data = p.corpus.load()[0]
         snapshots = sorted((d for d in data['documents'] if d.get('snapshot')), key=lambda d: d['snapshot']['date'])
-        self.assertEqual([d['snapshot']['date'] for d in snapshots], ['2026-09-14', '2026-10-21'])
+        self.assertEqual([d['snapshot']['date'] for d in snapshots], ['2026-09-14', '2026-10-21', '2026-11-02'])
         self.assertEqual(snapshots[0]['snapshot']['position'], 'historical')
-        self.assertEqual(snapshots[1]['snapshot']['position'], 'current-public-at-cutoff')
+        self.assertEqual(snapshots[1]['snapshot']['position'], 'historical')
+        self.assertEqual(snapshots[2]['snapshot']['position'], 'current-public-at-cutoff')
         for d in snapshots:
             self.assertTrue((p.OUT / p.corpus.public_source_path(d)).is_file())
 
