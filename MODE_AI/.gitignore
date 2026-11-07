@@ -1,0 +1,22 @@
+# Private local state must never be contributed
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/*
+!data/model_config.json
+runtime_data/
+runtime_traces/
+runtime_responses/
+runtime_state/session_context/
+runtime/
+builder/outputs/
+artifacts/
+*.db
+*.db-*
+*.sqlite*
+*.jsonl
+*.log
