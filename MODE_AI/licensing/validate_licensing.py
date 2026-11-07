@@ -13,6 +13,8 @@ import subprocess
 ROOT = Path(__file__).resolve().parents[2]
 HERE = Path(__file__).resolve().parent
 BASE = '57c982b9aedd48983cc0eb2694ae9df2a8016805'
+# Merged PR #4; only exact non-MODE blobs inherited from this commit qualify.
+APPROVED_MAIN = '69593b92e4454af699fc7e9348ca362ffe5070e2'
 EDITABLE_EXISTING = {'README.md', 'MODE_AI/README.md', 'MODE_AI/CONTRIBUTING.md'}
 CHECKS = []
 
@@ -27,9 +29,9 @@ def check(name, condition):
     CHECKS.append({'check': name, 'result': 'PASS'})
 
 
-def original_tree():
+def original_tree(ref=BASE):
     rows = {}
-    for item in git('ls-tree', '-r', '-z', BASE).split(b'\0'):
+    for item in git('ls-tree', '-r', '-z', ref).split(b'\0'):
         if not item:
             continue
         header, path = item.split(b'\t', 1)
@@ -38,6 +40,17 @@ def original_tree():
             raise AssertionError('Unexpected non-blob entry')
         rows[path.decode()] = oid
     return rows
+
+
+def inherited_main_changes(changes, base, approved, index, unstaged):
+    """Recognize exact reviewed main blobs, never changes to MODE or dirty files."""
+    return {
+        path for path in changes
+        if not path.startswith('MODE_AI/')
+        and path not in unstaged
+        and base.get(path) != approved.get(path)
+        and index.get(path) == approved.get(path)
+    }
 
 
 def original_bodies(oids):
@@ -77,7 +90,7 @@ def validate_contract_text(text):
         if not re.search(r'\| ' + quarter + r' \| [^\n]+ \| ' + due + r' \|', text):
             raise AssertionError('Incorrect contract quarter deadline: ' + quarter)
     for forbidden in ('Attributable Revenue', 'economically attributable to its covered code use',
-                      'Attributable Net Profit =', 'D01–D14 remain OPEN'):
+                      'Attributable Net Profit =', 'D01â€“D14 remain OPEN'):
         if forbidden.casefold() in text.casefold():
             raise AssertionError('Obsolete contribution-based/open-decisions provision')
 
@@ -111,14 +124,19 @@ def main():
     changes = set(filter(None, git('diff', '--name-only', '-z', BASE).decode().split('\0')))
     untracked = set(filter(None, git('ls-files', '--others', '--exclude-standard', '-z').decode().split('\0')))
     check('No original MODE functional/source/configuration changes', not changes.intersection(expected))
-    check('Changes limited to licensing, entrypoint docs and CI validation', changes | untracked <= EDITABLE_EXISTING | {
-        p.relative_to(ROOT).as_posix() for p in HERE.rglob('*') if p.is_file()
-    } | {'MODE_AI/MODE_SOURCE_LICENSE.md', 'MODE_AI/ATTRIBUTION_NOTICE.md', 'MODE_AI/LICENSING_README.md', '.github/workflows/pages.yml'})
     index = {}
     for entry in git('ls-files', '--stage', '-z').split(b'\0'):
         if entry:
             header, name = entry.split(b'\t', 1)
             index[name.decode()] = header.decode().split()[1]
+    approved = original_tree(APPROVED_MAIN)
+    unstaged = set(filter(None, git('diff', '--name-only', '-z').decode().split('\0')))
+    inherited = inherited_main_changes(changes, base, approved, index, unstaged)
+    check('Changes limited to licensing, entrypoint docs, CI and exact inherited PR #4 blobs',
+          (changes - inherited) | untracked <= EDITABLE_EXISTING | {
+              p.relative_to(ROOT).as_posix() for p in HERE.rglob('*') if p.is_file()
+          } | {'MODE_AI/MODE_SOURCE_LICENSE.md', 'MODE_AI/ATTRIBUTION_NOTICE.md',
+               'MODE_AI/LICENSING_README.md', '.github/workflows/pages.yml'})
     check('All 477 current index blobs still equal frozen originals', all(index[p] == base[p] for p in expected))
     check('Creator/project attribution preserved', all(name in text and name in notice for name in ('DeMarius J. Lawson', 'Governing Engines')))
     validate_contract_text(text)
@@ -175,7 +193,8 @@ def main():
     result = {'status':'PASS_FINAL_PROPOSAL_VALIDATION','exit_status':0,
               'command':'python MODE_AI/licensing/validate_licensing.py --output MODE_AI/licensing/VALIDATION_RESULTS.json',
               'activation_status':'NOT_ACTIVATED; external rights evidence and release/assent gates remain',
-              'snapshot_commit':BASE,'covered_original_files':len(covered),'checks':CHECKS,
+              'snapshot_commit':BASE,'approved_main_commit':APPROVED_MAIN,
+              'inherited_main_paths':sorted(inherited),'covered_original_files':len(covered),'checks':CHECKS,
               'regression_tests_run':outcome.testsRun,'resolved_decisions':len(resolved),'partially_resolved_evidence_items':partial,
               'limits':'No title, third-party authority, enforceability, actual acceptance, deployment or MODE runtime qualification is established.'}
     if args.output:

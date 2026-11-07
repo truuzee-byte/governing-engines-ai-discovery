@@ -6,7 +6,7 @@ import unittest
 
 from royalty_model import (calculate_product, quarter_statement, quarter_deadline,
                            quarter_period, PAYMENT_RECIPIENT, PAYMENT_CONTACT)
-from validate_licensing import validate_contract_text
+from validate_licensing import validate_contract_text, inherited_main_changes
 
 HERE = Path(__file__).resolve().parent
 
@@ -120,3 +120,32 @@ class LicensingRegressionTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+class InheritedMainScopeTests(unittest.TestCase):
+    def test_exact_added_and_modified_main_blobs_are_inherited(self):
+        self.assertEqual(inherited_main_changes(
+            {'research.pdf', 'catalog.json'}, {'catalog.json': 'old'},
+            {'research.pdf': 'pdf', 'catalog.json': 'new'},
+            {'research.pdf': 'pdf', 'catalog.json': 'new'}, set()),
+            {'research.pdf', 'catalog.json'})
+
+    def test_new_or_changed_publication_content_is_not_exempt(self):
+        self.assertEqual(inherited_main_changes(
+            {'research.pdf', 'extra.txt'}, {}, {'research.pdf': 'approved'},
+            {'research.pdf': 'changed', 'extra.txt': 'new'}, set()), set())
+
+    def test_mode_changes_are_never_exempt_even_if_main_matches(self):
+        self.assertEqual(inherited_main_changes(
+            {'MODE_AI/core.py'}, {'MODE_AI/core.py': 'frozen'},
+            {'MODE_AI/core.py': 'changed'}, {'MODE_AI/core.py': 'changed'}, set()), set())
+
+    def test_unstaged_changes_cannot_hide_behind_approved_index(self):
+        self.assertEqual(inherited_main_changes(
+            {'research.pdf'}, {}, {'research.pdf': 'approved'},
+            {'research.pdf': 'approved'}, {'research.pdf'}), set())
+
+    def test_only_changes_introduced_by_approved_main_qualify(self):
+        self.assertEqual(inherited_main_changes(
+            {'unchanged.txt'}, {'unchanged.txt': 'same'}, {'unchanged.txt': 'same'},
+            {'unchanged.txt': 'same'}, set()), set())
