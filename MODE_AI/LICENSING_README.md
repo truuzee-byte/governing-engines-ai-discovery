@@ -37,3 +37,8 @@ python tools/publication.py validate --base-url https://truuzee-byte.github.io/g
 ```
 
 The licensing validator also runs the licensing regression tests. These checks do not execute MODE/providers or prove title, acceptance or enforceability. The PR workflow validates licensing and the publication build, with deployment skipped.
+
+
+## Public-source publication decision — November 7, 2026
+
+The operator authorizes publication of this intentionally older snapshot, separately from commercial-license effectiveness and acceptance. Private ownership records stay private and are not required on GitHub. E01/E02 remain unresolved and unverified; third-party rights remain applicable. See the [publication decision](licensing/PUBLICATION_RELEASE.md). The unchanged version 1.0 license remains a proposal: its historical status wording is not a current claim that public source release is prohibited, nor proof of legal effectiveness.

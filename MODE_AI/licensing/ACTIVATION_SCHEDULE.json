@@ -187,8 +187,19 @@
     }
   },
   "release_and_transaction_gates": {
-    "operator_release_and_merge_approval": "NOT GIVEN; do not activate, merge or deploy automatically",
+    "operator_release_and_merge_approval": "Public source publication and PR #1 merge authorized by operator on 2026-11-07, subject to validation and specific distribution restrictions; does not activate commercial license",
     "licensee_acceptance": "No identified licensee or actual acceptance evidence recorded",
     "private_payment_coordination": "To be arranged with DeMarius J. Lawson before first payment deadline; no banking/contact details invented; not a waiver or extension"
+  },
+  "source_publication": {
+    "authorized_by_operator": true,
+    "authorized_on": "2026-11-07",
+    "private_ownership_document_upload_required": false,
+    "private_documents_policy": "Retained privately; do not upload ownership records, signed agreements or personal legal records",
+    "ownership_evidence": "Operator reports physical LLC ownership documentation exists; not inspected or independently verified",
+    "license_effectiveness_separate": true,
+    "third_party_restrictions_remain_applicable": true,
+    "specific_distribution_restrictions_identified": [],
+    "review_limits": "Bounded review of tracked snapshot and existing notices; no universal title or third-party clearance certification"
   }
 }

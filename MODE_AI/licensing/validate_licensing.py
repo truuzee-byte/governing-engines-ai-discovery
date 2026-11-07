@@ -171,6 +171,13 @@ def main():
           and 'no copyright assignment' in text.casefold()
           and 'no retroactive acceptance' in text.casefold()
           and 'private/current/future MODE code' in text)
+    publication = schedule['source_publication']
+    check('Public-source authorization does not require private paperwork or activate license',
+          publication['authorized_by_operator'] is True
+          and publication['private_ownership_document_upload_required'] is False
+          and publication['license_effectiveness_separate'] is True
+          and publication['third_party_restrictions_remain_applicable'] is True
+          and all(v['status'] == 'OPEN_EVIDENCE' for v in schedule['remaining_evidence'].values()))
     protected_docs = {p for p in base if p.startswith('MODE_AI/') and p.endswith('.md')} - {'MODE_AI/README.md','MODE_AI/CONTRIBUTING.md'}
     check('All pre-existing third-party/contract/publication documentation notices intact',
           not changes.intersection(protected_docs) and all(index[p] == base[p] for p in protected_docs))

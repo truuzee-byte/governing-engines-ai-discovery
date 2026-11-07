@@ -28,8 +28,15 @@ Authority: operator's “FINALIZE MODE COMMERCIAL SOURCE LICENSE” instruction 
 
 ## Release and transaction facts, not undecided business terms
 
-This remains **NOT EFFECTIVE**. The operator instructed no automatic activation, merge or deployment; final release approval has not been given. No identified recipient's actual acceptance has been recorded. Release/acceptance evidence must be obtained under §§1/14; no prior recipient is presumed bound. These are future events, not reasons to leave D02 commercially undecided.
+The commercial license remains **NOT EFFECTIVE**. On November 7 the operator authorized public source publication and PR #1 merge subject to validation and specific distribution restrictions. This is separate from commercial license activation. No identified recipient's actual acceptance has been recorded. Release/acceptance evidence must be obtained under §§1/14; no prior recipient is presumed bound. These are future events, not reasons to leave D02 commercially undecided.
 
 Payment instructions and an authentic contact/reporting channel must be arranged privately with DeMarius J. Lawson before each developer's first payment deadline. No email/account or successful coordination is fabricated. This is the settled §8 procedure, not an unresolved choice of payee or payment timing; a developer's failure to contact does not waive or extend the duty.
 
 No proof of enforceability is asserted. Ohio forum, limited liability, attribution, 1% of total covered-product net profit, quarterly dates, allowable expenses, five-year records, 30-day cure and no-updates terms are drafted as directed and are not marked unresolved merely for lack of additional boilerplate selections.
+
+
+## November 7 public-source publication decision
+
+Public source publication, private ownership evidence, third-party distribution permissions, and commercial license effectiveness/acceptance are separate matters. The operator reports that physical Governing Engines LLC ownership documentation is retained privately. It was not inspected or independently verified. Do not upload ownership paperwork, signed agreements or personal legal records; public disclosure of those records is not a publication gate.
+
+E01 and E02 remain OPEN_EVIDENCE, not legally verified or completed. E01 concerns authority for an effective grant; E02 preserves applicable third-party/contributor/prior-grant rights. Neither requires public private-paperwork disclosure. A specific incompatible distribution restriction must still block the affected material. The bounded snapshot review identified no such specific material; this is not universal ownership or distribution clearance. See [publication decision and review limits](PUBLICATION_RELEASE.md). Public availability does not activate the commercial license or record licensee acceptance.

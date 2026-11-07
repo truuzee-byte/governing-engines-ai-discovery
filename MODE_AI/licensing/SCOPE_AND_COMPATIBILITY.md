@@ -55,3 +55,8 @@ The already-reviewed primary references remain relevant: [GitHub repository lice
 [VALIDATION_RESULTS.json](VALIDATION_RESULTS.json) records frozen source/hash and unchanged-notice checks, contract/schedule assertions and the licensing regression suite. The tests include the four operator royalty examples, rejection of contribution discounts, no unrelated-product/cross-product netting, loss consumption, duplicate-profit rejection, exact quarter deadlines/periods, LLC payee and Lawson contact, no future entitlements, and no false activation. [PUBLICATION_CHECKS.json](PUBLICATION_CHECKS.json) and [PUBLICATION_TESTS.txt](PUBLICATION_TESTS.txt) record actual publication test/build checks. These do not execute or certify MODE behavior.
 
 Hosted validation now invokes the same licensing validator/regressions as well as existing publication tests/build. The final handoff supplies the resulting commit, updated PR #3, actual hosted outcome and merge status after push. No original source changes, new PR, history rewrite, main/target-branch push, deployment or license activation is authorized by these checks.
+
+
+## November 7 source publication authorization
+
+The earlier approval statements above describe the October 31 proposal. The operator now authorizes PR #1 source publication subject to checks and actual distribution restrictions. [PUBLICATION_RELEASE.md](PUBLICATION_RELEASE.md) separates that authorization from private evidence, third-party permissions and license effectiveness. E01/E02 remain unresolved; no private ownership documents are required on GitHub and no commercial terms are changed.
