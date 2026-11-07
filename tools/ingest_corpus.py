@@ -3,6 +3,7 @@
 Usage: python tools/ingest_corpus.py --source-dir DIRECTORY
 Requires pypdf only for PDF import. DOCX extraction uses the standard library.
 Never copies original binaries into the public output.
+Approved byte-original records are preserved, never passed through this extractor.
 """
 import argparse
 import hashlib
@@ -51,13 +52,17 @@ def extract(path):
 
 def ingest(directory, ids=None):
     records = json.loads((ROOT / 'content/corpus.json').read_text(encoding='utf-8'))['documents']
+    manifest_path = ROOT / 'content/source-manifest.json'
+    previous = json.loads(manifest_path.read_text(encoding='utf-8')) if manifest_path.exists() else []
+    originals = {m['id'] for m in previous if m.get('edition') == 'original bytes; no modifications'}
+    if ids and originals.intersection(ids):
+        raise ValueError('Approved originals require explicit byte-preserving review; extraction is prohibited')
     if ids:
         assert set(ids) <= {d['id'] for d in records}, 'Unknown import ID'
         records = [d for d in records if d['id'] in ids]
+    records = [d for d in records if d['id'] not in originals]
     sources = ROOT / 'content/sources'
     sources.mkdir(exist_ok=True)
-    manifest_path = ROOT / 'content/source-manifest.json'
-    previous = json.loads(manifest_path.read_text(encoding='utf-8')) if ids and manifest_path.exists() else []
     evidence = {m['id']: m for m in previous}
     for d in records:
         matches = list(directory.glob(d['source_pattern']))

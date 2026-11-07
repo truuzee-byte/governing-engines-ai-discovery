@@ -6,6 +6,8 @@ The October 20 source-corpus extension adds [31 source-linked research records](
 
 The October 21 audit registers **37 public source records**: six additions, three exact attachment duplicates skipped, and one explicitly internal ecosystem record withheld. The [cumulative canonical Journey](https://truuzee-byte.github.io/governing-engines-ai-discovery/journey/governing-engines-journey/index.html) has one stable home; [dated MODE evidence](https://truuzee-byte.github.io/governing-engines-ai-discovery/machine-state/index.html) preserves September history separately from the October public cutoff. See [all ten attachment decisions and curation evidence](reports/curation-audit-2026-10-21.md).
 
+The November 2 additions proposal registers **40 public source records**: The American Systems Audit, The AI Bubble Question, and the specifically supplied GitHub Markdown MODE snapshot. The two PDFs and Markdown are unchanged originals. The separate November DOCX remains withheld at the operator's instruction. See [addition review](reports/additions-2026-11-02.md). This is proposed on a PR to main; no merge or Pages deployment is claimed.
+
 ## Build and verify
 
 Run from the repository root (use your installed Python executable if `python` is unavailable):

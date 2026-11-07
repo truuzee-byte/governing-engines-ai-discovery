@@ -43,3 +43,13 @@ Only the public handoff corpus is authorized for this import. No private MODE co
 6. Push the reviewed source changes to `main`. The unchanged GitHub Pages workflow builds and deploys; its expanded public checker compares all required corpus files with the uploaded artifact.
 
 Publishing supplies a public retrieval surface. Indexing, ranking, external retrieval, adoption, and behavioral influence still require independent evidence. The three participant-reported Claude trials remain historical observations of the earlier condition; this corpus extension is a new public condition, not a new assistant trial.
+
+## November 2 additions proposal
+
+Three specifically supplied originals reuse this catalog: `content/sources/american-systems-audit-2026-10-27-v2.pdf`, `content/sources/ai-economy-reality-audit-public-release-v1-0.pdf`, and `content/machine-state/mode-2026-11-02.md`. Their manifest edition is `original bytes; no modifications`; original/published SHA-256 values match. Original Markdown has a Git attributes override to prevent line-ending conversion. Approved originals must not be passed through the privacy-filtering extractor; the importer preserves them and rejects explicit extraction requests.
+
+The first PDF's filename says v2, but the document does not state a numbered version; its catalog version stays null with an identity note. The second's title is The AI Bubble Question, Public Release v1.0, October 31, 2026. Its Content Credentials attachment is retained as supplied, without an authentication claim. Both PDF OpenAction entries are ordinary page-view destinations, not executable actions.
+
+The original November DOCX was held after operator review. The operator then specifically supplied and requested the GitHub Markdown; it is added unchanged, including its local paths and evidence references. No private referenced artifacts, credentials, runtime data or current MODE implementation are imported. Its reported tests are not tests run by this publication. The source chronology preserves the requested November 1 date and November 2 completion, with older sources unchanged.
+
+The proposal has 40 records and 72 HTML pages. The public verifier compares bytes, supporting original PDF and Markdown downloads. These additions are isolated from pending PR #2 and the MODE source/licensing branch; no other pending publication is merged into this PR.
