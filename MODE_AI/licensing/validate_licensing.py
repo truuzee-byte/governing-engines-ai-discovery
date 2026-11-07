@@ -90,7 +90,7 @@ def validate_contract_text(text):
         if not re.search(r'\| ' + quarter + r' \| [^\n]+ \| ' + due + r' \|', text):
             raise AssertionError('Incorrect contract quarter deadline: ' + quarter)
     for forbidden in ('Attributable Revenue', 'economically attributable to its covered code use',
-                      'Attributable Net Profit =', 'D01â€“D14 remain OPEN'):
+                      'Attributable Net Profit =', 'D01–D14 remain OPEN'):
         if forbidden.casefold() in text.casefold():
             raise AssertionError('Obsolete contribution-based/open-decisions provision')
 
